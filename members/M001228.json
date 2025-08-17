@@ -3,7 +3,7 @@
   "identity": {
     "party": "R",
     "state": "UT",
-    "district": 2,
+    "district": "02",
     "tenure_years": 1.7,
     "committees": [
       {
@@ -42,7 +42,11 @@
     "party_unity_pct": 0.9906,
     "maverick_votes": 2,
     "total_votes": 213,
-    "missed_votes": 4
+    "missed_votes": 4,
+    "dim1_direction_party": "right",
+    "dim1_percentile_party": 27,
+    "party_unity_percentile_party": 51,
+    "reliability_percentile_party": 52
   },
   "generated_at": "2025-08-17",
   "source_versions": {
@@ -50,12 +54,81 @@
     "congress_gov": null,
     "congress_legislators": null
   },
-  "key_votes": [],
-  "signature_work": {
-    "metrics": {
-      "passed_bills_sponsored_count": 0,
-      "bipartisan_sponsored_count": 0
+  "key_votes": [
+    {
+      "date": "2025-07-31",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Cheryl Mason, of North Carolina, to be Inspector General, Department of Veterans Affairs",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN14130",
+        "type": null,
+        "number": "PN14130",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 461
     },
-    "recent_passed_bills": []
-  }
+    {
+      "date": "2025-07-31",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Gadyaces Serralta, of Florida, to be Director of the United States Marshals Service",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 59,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN2642",
+        "type": null,
+        "number": "PN2642",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 460
+    },
+    {
+      "date": "2025-07-30",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Thomas Gaiser, of Ohio, to be an Assistant Attorney General",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN1294",
+        "type": null,
+        "number": "PN1294",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 450
+    }
+  ]
 }
