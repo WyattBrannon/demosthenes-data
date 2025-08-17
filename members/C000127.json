@@ -61,14 +61,14 @@
     ]
   },
   "alignment": {
-    "dw_nominate_dim1": -0.306,
-    "dim1_percentile_chamber": 9.6292,
+    "dw_nominate_dim1": null,
+    "dim1_percentile_chamber": null,
     "party_unity_pct": 0.9779,
     "maverick_votes": 11,
     "total_votes": 498,
     "missed_votes": 1,
-    "dim1_direction_party": "left",
-    "dim1_percentile_party": 0,
+    "dim1_direction_party": "center",
+    "dim1_percentile_party": null,
     "party_unity_percentile_party": 50,
     "reliability_percentile_party": 50
   },
@@ -78,6 +78,60 @@
     "congress_gov": null,
     "congress_legislators": null
   },
-  "key_votes": [],
-  "signature_work": null
+  "key_votes": [
+    {
+      "date": "2025-07-31",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN14130",
+        "type": null,
+        "number": "PN14130",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 461
+    },
+    {
+      "date": "2025-07-31",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 59,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN2642",
+        "type": null,
+        "number": "PN2642",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 460
+    },
+    {
+      "date": "2025-07-30",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN1294",
+        "type": null,
+        "number": "PN1294",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 450
+    }
+  ]
 }
