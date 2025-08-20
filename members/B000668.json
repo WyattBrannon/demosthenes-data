@@ -57,7 +57,7 @@
     "party_unity_percentile_party": 89,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-08-19",
+  "generated_at": "2025-08-20",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -540,5 +540,54 @@
       "longitude": -116.9984095,
       "phone": "541-709-2040"
     }
-  ]
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1777",
+      "title": "SECURE Notarization Act of 2025",
+      "introducedDate": "2025-03-03",
+      "latestAction": {
+        "date": "2025-03-03",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1777?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1655",
+      "title": "Wildfire Communications Resiliency Act",
+      "introducedDate": "2025-02-27",
+      "latestAction": {
+        "date": "2025-06-10",
+        "text": "Subcommittee Hearings Held"
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1655?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "655",
+      "title": "The Dalles Watershed Development Act",
+      "introducedDate": "2025-01-23",
+      "latestAction": {
+        "date": "2025-06-25",
+        "text": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent."
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/655?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 15,
+    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr_became_public_law": 1
+  }
 }

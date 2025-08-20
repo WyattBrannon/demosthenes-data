@@ -41,7 +41,7 @@
     "party_unity_percentile_party": 58,
     "reliability_percentile_party": 61
   },
-  "generated_at": "2025-08-19",
+  "generated_at": "2025-08-20",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -513,5 +513,44 @@
       "fax": "909-890-9643",
       "phone": "909-890-4445"
     }
-  ]
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4874",
+      "title": "Affordable Housing Resident Services Act",
+      "introducedDate": "2025-08-05",
+      "latestAction": {
+        "date": "2025-08-05",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4874?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2402",
+      "title": "No Hungry Kids in Schools Act",
+      "introducedDate": "2025-03-27",
+      "latestAction": {
+        "date": "2025-03-27",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2402?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 47,
+    "total_hr_sr_bipartisan": 15,
+    "total_hr_sr_became_public_law": 3
+  }
 }

@@ -45,7 +45,7 @@
     "party_unity_percentile_party": 89,
     "reliability_percentile_party": 26
   },
-  "generated_at": "2025-08-19",
+  "generated_at": "2025-08-20",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -542,5 +542,101 @@
       "fax": "202-225-5587",
       "phone": "256-381-3450"
     }
-  ]
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4481",
+      "title": "ARMS Act",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-07-17",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4481?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4020",
+      "title": "To authorize the Secretary of Defense to enter into arrangements with institutions of higher education to provide dual or concurrent enrollment programs for students enrolled in schools operated by the Department of Defense Education Activity, and for other purposes.",
+      "introducedDate": "2025-06-17",
+      "latestAction": {
+        "date": "2025-06-17",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4020?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2098",
+      "title": "Deliver for Democracy Act",
+      "introducedDate": "2025-03-14",
+      "latestAction": {
+        "date": "2025-03-14",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2098?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1772",
+      "title": "Designation of English as the Official Language of the United States Act of 2025",
+      "introducedDate": "2025-03-03",
+      "latestAction": {
+        "date": "2025-03-03",
+        "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1772?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "599",
+      "title": "Protect Funding for Women\u2019s Health Care Act",
+      "introducedDate": "2025-01-22",
+      "latestAction": {
+        "date": "2025-01-22",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Abortion",
+        "Family planning and birth control",
+        "Health facilities and institutions",
+        "Health programs administration and funding",
+        "Sex and reproductive health",
+        "Social work, volunteer service, charitable organizations",
+        "Tax-exempt organizations",
+        "Women's health"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/599?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 70,
+    "total_hr_sr_bipartisan": 26,
+    "total_hr_sr_became_public_law": 4
+  }
 }

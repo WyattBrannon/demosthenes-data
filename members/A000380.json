@@ -53,7 +53,7 @@
     "party_unity_percentile_party": 78,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-08-19",
+  "generated_at": "2025-08-20",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -524,5 +524,68 @@
       "fax": "401-729-5608",
       "phone": "401-729-5600"
     }
-  ]
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4482",
+      "title": "Stop NOAA Closures Act",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-07-17",
+        "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Science, Space, and Technology, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4482?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3945",
+      "title": "Firearm Destruction Licensure Act of 2025",
+      "introducedDate": "2025-06-12",
+      "latestAction": {
+        "date": "2025-06-12",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3945?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3528",
+      "title": "RUBIO Act",
+      "introducedDate": "2025-05-21",
+      "latestAction": {
+        "date": "2025-05-21",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3528?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1277",
+      "title": "First Rhode Island Regiment Congressional Gold Medal Act",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-02-13",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1277?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 7,
+    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr_became_public_law": 0
+  }
 }
