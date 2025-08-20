@@ -3,7 +3,7 @@
     "bioguide": "B001236",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-20T00:51:26Z",
+    "generated_at": "2025-08-20T03:39:55Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -17,9 +17,11 @@
         "date": "2025-07-16",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2309?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 119,
@@ -31,9 +33,11 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": null,
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2439?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 119,
@@ -45,6 +49,8 @@
         "date": null,
         "text": null
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/2986?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -59,9 +65,11 @@
         "date": "2025-05-22",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Taxation",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1918?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 119,
@@ -73,9 +81,11 @@
         "date": "2025-05-14",
         "text": "Referred to the Committee on the Judiciary. (text: CR S2930)"
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/225?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 119,
@@ -87,6 +97,8 @@
         "date": "2025-04-09",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Taxation",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1371?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -101,6 +113,15 @@
         "date": "2015-05-14",
         "text": "Committee on Energy and Natural Resources. Hearings held. Hearings printed: S.Hrg. 114-65."
       },
+      "policy_area": "Energy",
+      "subjects": [
+        "Electric power generation and transmission",
+        "Federal-Indian relations",
+        "Intergovernmental relations",
+        "Land transfers",
+        "Land use and conservation",
+        "State and local government operations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/s/485?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -115,9 +136,15 @@
         "date": "2025-03-14",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S1785; text: CR S1783)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Commemorative events and holidays",
+        "Food assistance and relief",
+        "Nutrition and diet"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/131?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 119,
@@ -129,6 +156,11 @@
         "date": "2025-02-05",
         "text": "Referred to the Committee on Rules and Administration. (text: CR S671)"
       },
+      "policy_area": "Congress",
+      "subjects": [
+        "Congressional committees",
+        "Senate Committee on Agriculture, Nutrition, and Forestry"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/57?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -143,9 +175,17 @@
         "date": "2025-01-29",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Cancer",
+        "Health care costs and insurance",
+        "Health care coverage and access",
+        "Health promotion and preventive care",
+        "Medical tests and diagnostic methods"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/297?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -157,9 +197,11 @@
         "date": "2024-12-11",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5492?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -171,6 +213,11 @@
         "date": "2024-11-21",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6697; text: CR S6690-6691)"
       },
+      "policy_area": "Sports and Recreation",
+      "subjects": [
+        "Congressional tributes",
+        "Professional sports"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/906?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -185,9 +232,15 @@
         "date": "2024-09-25",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6467; text: CR S6460)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Child care and development",
+        "Commemorative events and holidays",
+        "Social work, volunteer service, charitable organizations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/887?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -199,9 +252,11 @@
         "date": "2024-09-18",
         "text": "Referred to the Committee on Commerce, Science, and Transportation. (text: CR S6149)"
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/827?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -213,9 +268,11 @@
         "date": "2024-08-01",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4935?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -227,9 +284,18 @@
         "date": "2023-09-28",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Athletes",
+        "Education programs funding",
+        "Health programs administration and funding",
+        "Higher education",
+        "Mental health",
+        "School athletics"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2966?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -241,9 +307,15 @@
         "date": "2023-04-27",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Cemeteries and funerals",
+        "Veterans' medical care",
+        "Veterans' organizations and recognition"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1330?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -255,9 +327,11 @@
         "date": "2023-03-30",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
+      "policy_area": "Commerce",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1159?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -269,9 +343,23 @@
         "date": "2024-06-04",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S3961; text: CR S3958-3959)"
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Alliances",
+        "Commemorative events and holidays",
+        "Conflicts and wars",
+        "Congressional tributes",
+        "Europe",
+        "France",
+        "Historic sites and heritage areas",
+        "Military history",
+        "Military personnel and dependents",
+        "Veterans' organizations and recognition",
+        "World history"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/722?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -283,9 +371,16 @@
         "date": "2024-05-03",
         "text": "Message on Senate action sent to the House."
       },
+      "policy_area": "Congress",
+      "subjects": [
+        "Arkansas",
+        "Congressional tributes",
+        "Members of Congress",
+        "Senate"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/673?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -297,6 +392,8 @@
         "date": "2023-07-27",
         "text": "Amendment SA 1089 agreed to in Senate by Unanimous Consent."
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/118/samdt/1089?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -311,6 +408,8 @@
         "date": "2024-03-22",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4059?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -325,9 +424,17 @@
         "date": "2023-10-04",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4958; text: CR S4957)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Birds",
+        "Farmland",
+        "Grain",
+        "Hunting and fishing",
+        "Wildlife conservation and habitat protection"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/403?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -339,9 +446,17 @@
         "date": "2023-10-04",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4958; text: CR S4955)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural education",
+        "Commemorative events and holidays",
+        "Congressional tributes",
+        "Science and engineering education",
+        "Social work, volunteer service, charitable organizations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/399?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -353,9 +468,14 @@
         "date": "2023-09-27",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: S4717; text: CR S4726)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural education",
+        "Commemorative events and holidays"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/375?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -367,9 +487,11 @@
         "date": "2023-03-07",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/668?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -381,6 +503,15 @@
         "date": "2023-01-24",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Congressional oversight",
+        "Department of Veterans Affairs",
+        "Government employee pay, benefits, personnel management",
+        "Government information and archives",
+        "Health facilities and institutions",
+        "Health personnel"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/55?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -395,9 +526,16 @@
         "date": "2023-04-26",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 118-160."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Civil actions and liability",
+        "Fraud offenses and financial crimes",
+        "User charges and fees",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/740?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -409,6 +547,14 @@
         "date": "2024-01-18",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S191; text: CR S187)"
       },
+      "policy_area": "Sports and Recreation",
+      "subjects": [
+        "Arkansas",
+        "Athletes",
+        "Congressional tributes",
+        "Higher education",
+        "School athletics"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/527?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -423,9 +569,16 @@
         "date": "2022-11-15",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Civil actions and liability",
+        "Fraud offenses and financial crimes",
+        "User charges and fees",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/5089?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -437,9 +590,16 @@
         "date": "2023-12-19",
         "text": "Became Public Law No: 118-25."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Birds",
+        "Digital media",
+        "Postal service",
+        "State and local government operations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/788?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 118,
@@ -451,6 +611,8 @@
         "date": "2023-02-13",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/391?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -465,6 +627,8 @@
         "date": "2022-11-28",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/5135?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -479,9 +643,23 @@
         "date": "2023-01-05",
         "text": "Became Public Law No: 117-345."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Geography and mapping",
+        "Historic sites and heritage areas",
+        "Missouri",
+        "New Mexico",
+        "Oklahoma",
+        "Parks, recreation areas, trails",
+        "Tennessee",
+        "Texas"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3519?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -493,9 +671,11 @@
         "date": "2022-09-22",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4922?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -507,6 +687,8 @@
         "date": "2022-12-20",
         "text": "Amendment SA 6586 agreed to in Senate by Unanimous Consent. "
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/117/samdt/6586?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -521,9 +703,16 @@
         "date": "2022-09-29",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6052-6053; text: CR S5558)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural education",
+        "Commemorative events and holidays",
+        "National and community service",
+        "Social work, volunteer service, charitable organizations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/817?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -535,9 +724,11 @@
         "date": "2022-07-20",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4565?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -549,6 +740,8 @@
         "date": "2022-04-05",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
+      "policy_area": "Commerce",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4004?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -563,9 +756,20 @@
         "date": "2022-09-08",
         "text": "Referred to the Committee on Armed Services. (text: CR S4517-4518)"
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Aviation and airports",
+        "Commemorative events and holidays",
+        "Congressional tributes",
+        "Military history",
+        "Military operations and strategy",
+        "Military personnel and dependents",
+        "Space flight and exploration",
+        "U.S. history"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/756?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -577,9 +781,20 @@
         "date": "2022-09-20",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S4878; text: CR S4863-4864)"
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Aviation and airports",
+        "Commemorative events and holidays",
+        "Congressional tributes",
+        "Military history",
+        "Military operations and strategy",
+        "Military personnel and dependents",
+        "Space flight and exploration",
+        "U.S. history"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/783?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -591,6 +806,8 @@
         "date": "2022-04-26",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4082?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -605,9 +822,11 @@
         "date": "2021-12-06",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3314?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -619,9 +838,24 @@
         "date": "2021-11-04",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Community life and organization",
+        "Congressional oversight",
+        "Drug, alcohol, tobacco use",
+        "Government information and archives",
+        "Government studies and investigations",
+        "Health care coverage and access",
+        "Health care quality",
+        "Health facilities and institutions",
+        "Health personnel",
+        "Mental health",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' medical care"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3194?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -633,9 +867,16 @@
         "date": "2022-04-08",
         "text": "Message on Senate action sent to the House."
       },
+      "policy_area": "Congress",
+      "subjects": [
+        "Arkansas",
+        "Congressional tributes",
+        "Members of Congress",
+        "Senate"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/593?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -647,9 +888,17 @@
         "date": "2021-06-10",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Child health",
+        "Food assistance and relief",
+        "Nutrition and diet",
+        "Poverty and welfare assistance",
+        "Rural conditions and development"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2005?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -661,9 +910,16 @@
         "date": "2019-06-20",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Child health",
+        "Food assistance and relief",
+        "Nutrition and diet",
+        "Rural conditions and development"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1918?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -675,9 +931,37 @@
         "date": "2022-06-07",
         "text": "Became Public Law No: 117-133."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Afghanistan",
+        "Africa",
+        "Asia",
+        "Cancer",
+        "Conflicts and wars",
+        "Congressional oversight",
+        "Djibouti",
+        "Egypt",
+        "Fires",
+        "Hazardous wastes and toxic substances",
+        "Iraq",
+        "Jordan",
+        "Kuwait",
+        "Lebanon",
+        "Medical tests and diagnostic methods",
+        "Middle East",
+        "Military operations and strategy",
+        "Oman",
+        "Qatar",
+        "Saudi Arabia",
+        "Solid waste and recycling",
+        "Syria",
+        "Veterans' medical care",
+        "Women's health",
+        "Yemen"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2102?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -689,9 +973,11 @@
         "date": "2022-03-03",
         "text": "Referred to the Committee on the Judiciary. (text: CR S995)"
       },
+      "policy_area": "Health",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/532?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -703,9 +989,17 @@
         "date": "2019-07-10",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Accounting and auditing",
+        "Congressional oversight",
+        "Government studies and investigations",
+        "User charges and fees",
+        "Veterans' loans, housing, homeless programs"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/2073?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -717,9 +1011,17 @@
         "date": "2020-01-14",
         "text": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Cemeteries and funerals",
+        "Employment and training programs",
+        "State and local government operations",
+        "Transportation costs",
+        "Veterans' organizations and recognition"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/2096?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -731,9 +1033,19 @@
         "date": "2021-04-28",
         "text": "Committee on Veterans' Affairs. Hearings held."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Asia",
+        "Conflicts and wars",
+        "Disability assistance",
+        "Hazardous wastes and toxic substances",
+        "Thailand",
+        "Veterans' medical care",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/657?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -745,6 +1057,73 @@
         "date": "2018-06-07",
         "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 446."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Administrative remedies",
+        "Adoption and foster care",
+        "Alaska",
+        "Alaska Natives and Hawaiians",
+        "Alliances",
+        "American Battle Monuments Commission",
+        "Appropriations",
+        "Armed Forces Retirement Home",
+        "Building construction",
+        "Cemeteries and funerals",
+        "Collective security",
+        "Community life and organization",
+        "Computers and information technology",
+        "Congressional oversight",
+        "Defense spending",
+        "Department of Defense",
+        "Department of Veterans Affairs",
+        "Disability and paralysis",
+        "Disability assistance",
+        "District of Columbia",
+        "Emergency communications systems",
+        "Europe",
+        "Executive agency funding and structure",
+        "Family planning and birth control",
+        "Federal appellate courts",
+        "Government employee pay, benefits, personnel management",
+        "Government information and archives",
+        "Government lending and loan guarantees",
+        "Government trust funds",
+        "Health facilities and institutions",
+        "Health information and medical records",
+        "Health personnel",
+        "Health technology, devices, supplies",
+        "Home and outpatient care",
+        "Hospital care",
+        "Indian social and development programs",
+        "Intergovernmental relations",
+        "International organizations and cooperation",
+        "Life, casualty, property insurance",
+        "Long-term, rehabilitative, and terminal care",
+        "Medical research",
+        "Mental health",
+        "Military facilities and property",
+        "Military law",
+        "Military personnel and dependents",
+        "Military procurement, research, weapons development",
+        "Mississippi",
+        "Monuments and memorials",
+        "Motor vehicles",
+        "National Guard and reserves",
+        "Prescription drugs",
+        "Public contracts and procurement",
+        "Research administration and funding",
+        "Residential rehabilitation and home repair",
+        "Roads and highways",
+        "Sex and reproductive health",
+        "State and local government operations",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' loans, housing, homeless programs",
+        "Veterans' medical care",
+        "Veterans' organizations and recognition",
+        "Veterans' pensions and compensation",
+        "Virginia",
+        "Women's health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/3024?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -759,9 +1138,17 @@
         "date": "2019-03-27",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Department of Veterans Affairs",
+        "Government employee pay, benefits, personnel management",
+        "Health personnel",
+        "Medical education",
+        "Veterans' medical care"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/902?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 114,
@@ -773,6 +1160,108 @@
         "date": "2015-07-30",
         "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 176."
       },
+      "policy_area": "Economics and Public Finance",
+      "subjects": [
+        "Accounting and auditing",
+        "Administrative Conference of the U.S.",
+        "Administrative law and regulatory procedures",
+        "Advisory bodies",
+        "Agricultural trade",
+        "Appropriations",
+        "Bank accounts, deposits, capital",
+        "Banking and financial institutions regulation",
+        "Budget process",
+        "Caribbean area",
+        "Commodities markets",
+        "Commodity Futures Trading Commission",
+        "Computer security and identity theft",
+        "Computers and information technology",
+        "Congressional oversight",
+        "Consumer Financial Protection Bureau",
+        "Consumer Product Safety Commission",
+        "Consumer credit",
+        "Cuba",
+        "Department of the Treasury",
+        "Disaster relief and insurance",
+        "District of Columbia",
+        "Drug trafficking and controlled substances",
+        "Economic performance and conditions",
+        "Education programs funding",
+        "Election Assistance Commission",
+        "Elections, voting, political campaign regulation",
+        "Elementary and secondary education",
+        "Emergency planning and evacuation",
+        "Employee benefits and pensions",
+        "Environmental regulatory procedures",
+        "Executive Office of the President",
+        "Executive agency funding and structure",
+        "Federal Communications Commission (FCC)",
+        "Federal Deposit Insurance Corporation (FDIC)",
+        "Federal Election Commission (FEC)",
+        "Federal Home Loan Bank Board",
+        "Federal Labor Relations Authority",
+        "Federal Reserve System",
+        "Federal Trade Commission (FTC)",
+        "Federal appellate courts",
+        "Federal district courts",
+        "Federal officials",
+        "Fraud offenses and financial crimes",
+        "General Services Administration",
+        "Government buildings, facilities, and property",
+        "Government corporations and government-sponsored enterprises",
+        "Government employee pay, benefits, personnel management",
+        "Government information and archives",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Higher education",
+        "Housing finance and home ownership",
+        "Insurance industry and regulation",
+        "Interest, dividends, interest rates",
+        "Internal Revenue Service (IRS)",
+        "Internet and video services",
+        "Internet, web applications, social media",
+        "Judicial procedure and administration",
+        "Latin America",
+        "Law enforcement administration and funding",
+        "Lawyers and legal services",
+        "Legislative rules and procedure",
+        "Licensing and registrations",
+        "Merit Systems Protection Board",
+        "Monetary policy",
+        "Motor vehicles",
+        "National Archives and Records Administration",
+        "National Credit Union Administration",
+        "Office of Government Ethics",
+        "Office of Management and Budget (OMB)",
+        "Office of Personnel Management (OPM)",
+        "Office of Special Counsel",
+        "Outdoor recreation",
+        "Personnel records",
+        "Postal Regulatory Commission",
+        "Presidents and presidential powers, Vice Presidents",
+        "Privacy and Civil Liberties Oversight Board",
+        "Product safety and quality",
+        "Real estate business",
+        "Religion",
+        "Right of privacy",
+        "Rural conditions and development",
+        "Securities",
+        "Securities and Exchange Commission (SEC)",
+        "Selective Service System",
+        "Small Business Administration",
+        "Small business",
+        "Specialized courts",
+        "State and local courts",
+        "State and local finance",
+        "State and local government operations",
+        "Student aid and college costs",
+        "Supreme Court",
+        "Tax administration and collection, taxpayers",
+        "Transportation safety and security",
+        "U.S. Postal Service",
+        "U.S. Sentencing Commission",
+        "User charges and fees"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/s/1910?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -787,9 +1276,16 @@
         "date": "2021-05-25",
         "text": "Referred to the Committee on Commerce, Science, and Transportation. (text: CR S3426)"
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Commemorative events and holidays",
+        "Outdoor recreation",
+        "Pedestrians and bicycling",
+        "Transportation safety and security"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/233?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -801,9 +1297,11 @@
         "date": "2021-07-14",
         "text": "Referred to the Committee on Foreign Relations. (text: CR S4904)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/301?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -815,9 +1313,17 @@
         "date": "2021-08-05",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Allied health services",
+        "Health personnel",
+        "Medical tests and diagnostic methods",
+        "Medicare",
+        "Radiation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2641?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 117,
@@ -829,9 +1335,16 @@
         "date": "2021-10-19",
         "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (text: 10/07/2021 CR S7006)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural education",
+        "Commemorative events and holidays",
+        "Science and engineering education",
+        "Social work, volunteer service, charitable organizations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/418?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -843,6 +1356,14 @@
         "date": "2020-07-29",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Disability and paralysis",
+        "Health personnel",
+        "Licensing and registrations",
+        "Medical tests and diagnostic methods",
+        "Veterans' medical care"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/4365?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -857,6 +1378,17 @@
         "date": "2021-07-13",
         "text": "Referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S4857)"
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Arkansas",
+        "Commemorative events and holidays",
+        "Department of Health and Human Services",
+        "Food and Drug Administration (FDA)",
+        "Government buildings, facilities, and property",
+        "Hazardous wastes and toxic substances",
+        "Medical research",
+        "Research administration and funding"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/299?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -871,9 +1403,17 @@
         "date": "2020-09-17",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
+      "policy_area": "Commerce",
+      "subjects": [
+        "Consumer affairs",
+        "Health information and medical records",
+        "Health technology, devices, supplies",
+        "Hearing, speech, and vision care",
+        "Telephone and wireless communication"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/4613?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -885,9 +1425,16 @@
         "date": "2019-11-21",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [
+        "Commodities markets",
+        "Licensing and registrations",
+        "Securities",
+        "U.S. and foreign investments"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/2933?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -899,6 +1446,13 @@
         "date": "2020-12-10",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Health care costs and insurance",
+        "Health personnel",
+        "Home and outpatient care",
+        "Medicare"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/5007?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -913,9 +1467,19 @@
         "date": "2020-12-22",
         "text": "Resolution agreed to in Senate with an amendment and an amended preamble by Unanimous Consent. (text: CR S7928)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Congressional tributes",
+        "Food assistance and relief",
+        "Food supply, safety, and labeling",
+        "Foreign aid and international relief",
+        "International organizations and cooperation",
+        "Nutrition and diet",
+        "United Nations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sres/774?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -927,9 +1491,16 @@
         "date": "2020-11-30",
         "text": "Read twice and referred to the Committee on Rules and Administration."
       },
+      "policy_area": "Arts, Culture, Religion",
+      "subjects": [
+        "Art, artists, authorship",
+        "Maryland",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/4925?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -941,6 +1512,8 @@
         "date": "2020-12-22",
         "text": "Amendment SA 2733 agreed to in Senate by Unanimous Consent. "
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/116/samdt/2733?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -955,9 +1528,16 @@
         "date": "2020-06-25",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Asia",
+        "Conflicts and wars",
+        "Veterans' pensions and compensation",
+        "Vietnam"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/4086?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -969,9 +1549,22 @@
         "date": "2020-08-03",
         "text": "Read twice and referred to the Committee on Energy and Natural Resources."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Historic sites and heritage areas",
+        "Missouri",
+        "New Mexico",
+        "Oklahoma",
+        "Parks, recreation areas, trails",
+        "Tennessee",
+        "Texas"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/4404?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -983,9 +1576,25 @@
         "date": "2019-05-09",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Asia",
+        "Birth defects",
+        "Child health",
+        "Conflicts and wars",
+        "Disability and paralysis",
+        "Hazardous wastes and toxic substances",
+        "Military facilities and property",
+        "Military operations and strategy",
+        "Neurological disorders",
+        "Thailand",
+        "Veterans' pensions and compensation",
+        "Vietnam",
+        "Vocational and technical education"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1381?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -997,9 +1606,18 @@
         "date": "2019-03-14",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Disability and paralysis",
+        "Health care costs and insurance",
+        "Health technology, devices, supplies",
+        "Hearing, speech, and vision care",
+        "Income tax credits",
+        "Inflation and prices"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/815?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1011,9 +1629,16 @@
         "date": "2020-07-30",
         "text": "Referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S4638)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural education",
+        "Commemorative events and holidays",
+        "Higher education",
+        "Minority education"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sconres/42?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1025,9 +1650,17 @@
         "date": "2019-05-20",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Health care costs and insurance",
+        "Health care coverage and access",
+        "Health facilities and institutions",
+        "Health personnel",
+        "Medicare"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1544?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1039,9 +1672,16 @@
         "date": "2019-06-19",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Congressional oversight",
+        "Health programs administration and funding",
+        "Mental health",
+        "Veterans' medical care"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1906?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1053,9 +1693,15 @@
         "date": "2020-05-21",
         "text": "Senate vitiated previous discharge from the Senate Committee on Rules and Administration."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Federal officials",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sjres/72?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1067,9 +1713,15 @@
         "date": "2020-05-11",
         "text": "Read twice and referred to the Committee on Rules and Administration."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Federal officials",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sjres/73?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1081,9 +1733,15 @@
         "date": "2020-04-10",
         "text": "Became Public Law No: 116-138."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Federal officials",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sjres/66?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1095,9 +1753,23 @@
         "date": "2019-03-14",
         "text": "Referred to the Committee on Foreign Relations. (text: CR S1907)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Child care and development",
+        "Child health",
+        "Child safety and welfare",
+        "Crime prevention",
+        "Crimes against children",
+        "Domestic violence and child abuse",
+        "Human rights",
+        "Mental health",
+        "Sex offenses",
+        "Violent crime",
+        "World health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sres/112?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1109,9 +1781,15 @@
         "date": "2020-03-02",
         "text": "Became Public Law No: 116-118."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Federal officials",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sjres/65?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1123,6 +1801,20 @@
         "date": "2019-03-25",
         "text": "Referred to the Committee on Foreign Relations. (text: CR S1942)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Africa",
+        "Arab-Israeli relations",
+        "Commemorative events and holidays",
+        "Conflicts and wars",
+        "Congressional tributes",
+        "Diplomacy, foreign officials, Americans abroad",
+        "Egypt",
+        "International law and treaties",
+        "Israel",
+        "Middle East",
+        "Sovereignty, recognition, national governance and status"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sres/121?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1137,6 +1829,15 @@
         "date": "2020-01-14",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Arkansas",
+        "Art, artists, authorship",
+        "Government buildings, facilities, and property",
+        "Postal service",
+        "State and local government operations",
+        "U.S. history"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/3187?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1151,9 +1852,18 @@
         "date": "2017-06-15",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 115-215."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Computers and information technology",
+        "Public contracts and procurement",
+        "Student aid and college costs",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' loans, housing, homeless programs",
+        "Vocational and technical education"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/1277?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1165,6 +1875,13 @@
         "date": "2019-12-12",
         "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment favorably."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Cemeteries and funerals",
+        "Land transfers",
+        "Veterans' organizations and recognition",
+        "Virginia"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1152?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1179,6 +1896,14 @@
         "date": "2019-05-29",
         "text": "Referred to the Subcommittee on Readiness."
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Census and government statistics",
+        "Congressional tributes",
+        "International law and treaties",
+        "Marshall Islands",
+        "Military personnel and dependents"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sconres/3?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1193,6 +1918,14 @@
         "date": "2019-05-15",
         "text": "Read twice and referred to the Committee on Energy and Natural Resources. (text: CR S2890)"
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Arkansas",
+        "Aviation and airports",
+        "Military education and training",
+        "Military history",
+        "Museums, exhibitions, cultural centers"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sres/211?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1207,6 +1940,13 @@
         "date": "2018-07-17",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Arkansas",
+        "Forests, forestry, trees",
+        "Land transfers",
+        "Religion"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/3224?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1221,9 +1961,25 @@
         "date": "2017-11-08",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Asia",
+        "Birth defects",
+        "Child health",
+        "Conflicts and wars",
+        "Disability and paralysis",
+        "Hazardous wastes and toxic substances",
+        "Military facilities and property",
+        "Military operations and strategy",
+        "Neurological disorders",
+        "Thailand",
+        "Veterans' pensions and compensation",
+        "Vietnam",
+        "Vocational and technical education"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/2105?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1235,9 +1991,17 @@
         "date": "2019-01-03",
         "text": "Became Public Law No: 115-422."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Congressional oversight",
+        "Department of Veterans Affairs",
+        "Government studies and investigations",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' loans, housing, homeless programs"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/3777?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1249,9 +2013,31 @@
         "date": "2019-01-09",
         "text": "Became Public Law No: 115-428."
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Congressional oversight",
+        "Credit and credit markets",
+        "Crimes against women",
+        "Economic development",
+        "Executive agency funding and structure",
+        "Foreign aid and international relief",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Land use and conservation",
+        "Performance measurement",
+        "Poverty and welfare assistance",
+        "Property rights",
+        "Sex, gender, sexual orientation discrimination",
+        "Small business",
+        "U.S. Agency for International Development (USAID)",
+        "Wages and earnings",
+        "Women in business",
+        "Women's employment",
+        "Women's rights"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/3247?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 116,
@@ -1263,6 +2049,13 @@
         "date": "2019-04-02",
         "text": "Read twice and referred to the Committee on Armed Services."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Arkansas",
+        "Historic sites and heritage areas",
+        "Land transfers",
+        "Military facilities and property"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/986?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1277,9 +2070,23 @@
         "date": "2019-06-04",
         "text": "Resolution agreed to in Senate without amendment and an amended preamble by Unanimous Consent. (consideration: CR S3199-3200; text: CR S3199-3200)"
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Alliances",
+        "Commemorative events and holidays",
+        "Conflicts and wars",
+        "Congressional tributes",
+        "Europe",
+        "France",
+        "Historic sites and heritage areas",
+        "Military history",
+        "Military personnel and dependents",
+        "Veterans' organizations and recognition",
+        "World history"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sres/135?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1291,9 +2098,17 @@
         "date": "2018-07-31",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Department of Veterans Affairs",
+        "Government employee pay, benefits, personnel management",
+        "Health personnel",
+        "Medical education",
+        "Veterans' medical care"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/3302?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1305,6 +2120,11 @@
         "date": "2018-10-04",
         "text": "Referred to the Committee on the Judiciary. (text of measure as introduced: CR S6543)"
       },
+      "policy_area": "Sports and Recreation",
+      "subjects": [
+        "Athletes",
+        "Commemorative events and holidays"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sres/666?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1319,6 +2139,14 @@
         "date": "2018-11-13",
         "text": "Referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S6928-6929)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Census and government statistics",
+        "Congressional tributes",
+        "International law and treaties",
+        "Marshall Islands",
+        "Military personnel and dependents"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sconres/50?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1333,6 +2161,8 @@
         "date": null,
         "text": null
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/112/samdt/3221?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1347,6 +2177,8 @@
         "date": null,
         "text": null
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/113/samdt/3841?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1361,9 +2193,20 @@
         "date": "2014-03-11",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Aviation and airports",
+        "Department of Transportation",
+        "Licensing and registrations",
+        "Medical tests and diagnostic methods",
+        "Transportation employees",
+        "Transportation safety and security",
+        "Worker safety and health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/2103?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1375,9 +2218,19 @@
         "date": "2014-07-03",
         "text": "Referred to the House Committee on Armed Services."
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Advisory bodies",
+        "Department of Transportation",
+        "Executive agency funding and structure",
+        "Higher education",
+        "Marine and inland water transportation",
+        "Military education and training",
+        "Transportation employees"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/2076?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1389,9 +2242,16 @@
         "date": "2014-12-12",
         "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 652."
       },
+      "policy_area": "Water Resources Development",
+      "subjects": [
+        "Outdoor recreation",
+        "Public-private cooperation",
+        "Sports and recreation facilities",
+        "User charges and fees"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/2055?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1403,9 +2263,18 @@
         "date": "2013-12-18",
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
+      "policy_area": "Environmental Protection",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Advisory bodies",
+        "Environmental Protection Agency (EPA)",
+        "Environmental assessment, monitoring, research",
+        "Environmental regulatory procedures",
+        "Research administration and funding"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1853?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1417,9 +2286,15 @@
         "date": "2013-11-06",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Labor standards",
+        "Retail and wholesale trades",
+        "Social work, volunteer service, charitable organizations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1656?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1431,6 +2306,16 @@
         "date": "2013-11-06",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Administrative remedies",
+        "Department of Health and Human Services",
+        "Housing for the elderly and disabled",
+        "Intergovernmental relations",
+        "Long-term, rehabilitative, and terminal care",
+        "Medicaid",
+        "State and local taxation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1655?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1445,6 +2330,31 @@
         "date": "2013-11-05",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Area studies and international education",
+        "Asia",
+        "Congressional oversight",
+        "Cultural exchanges and relations",
+        "Detention of persons",
+        "Foreign aid and international relief",
+        "Foreign language and bilingual programs",
+        "Human rights",
+        "Human trafficking",
+        "International exchange and broadcasting",
+        "International law and treaties",
+        "International organizations and cooperation",
+        "News media and reporting",
+        "Political movements and philosophies",
+        "Property rights",
+        "Protest and dissent",
+        "Racial and ethnic relations",
+        "Refugees, asylum, displaced persons",
+        "Religion",
+        "Rule of law and government transparency",
+        "United Nations",
+        "Vietnam"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1649?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1459,6 +2369,20 @@
         "date": "2013-10-07",
         "text": "Read twice and referred to the Committee on Appropriations."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Appropriations",
+        "Coast guard",
+        "Defense spending",
+        "Department of Defense",
+        "Department of Homeland Security",
+        "Department of Transportation",
+        "Executive agency funding and structure",
+        "Government employee pay, benefits, personnel management",
+        "Marine and inland water transportation",
+        "Military education and training",
+        "National Guard and reserves"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1568?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1473,9 +2397,17 @@
         "date": "2013-08-01",
         "text": "Read twice and referred to the Committee on Armed Services."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Arkansas",
+        "Crime victims",
+        "Military personnel and dependents",
+        "Terrorism",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1433?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1487,6 +2419,10 @@
         "date": "2013-07-31",
         "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S6129)"
       },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Transfer and inheritance taxes"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1402?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1501,9 +2437,15 @@
         "date": "2013-07-25",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Executive agency funding and structure",
+        "Federal officials",
+        "Government studies and investigations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1366?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1515,9 +2457,19 @@
         "date": "2013-07-24",
         "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S5909)"
       },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Accidents",
+        "Arkansas",
+        "Disaster relief and insurance",
+        "Income tax exclusion",
+        "Oil and gas",
+        "Pipelines",
+        "Pollution liability"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/1350?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1529,9 +2481,21 @@
         "date": "2014-05-22",
         "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 395."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Conflicts and wars",
+        "District of Columbia",
+        "Iraq",
+        "Kuwait",
+        "Middle East",
+        "Military history",
+        "Military operations and strategy",
+        "Monuments and memorials",
+        "Saudi Arabia"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/995?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1543,9 +2507,20 @@
         "date": "2013-06-12",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 113-111."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Academic performance and assessments",
+        "Congressional oversight",
+        "Disability and paralysis",
+        "Government studies and investigations",
+        "Higher education",
+        "Military personnel and dependents",
+        "Student aid and college costs",
+        "Veterans' education, employment, rehabilitation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/889?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1557,9 +2532,16 @@
         "date": "2013-06-12",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 113-111."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Athletes",
+        "Disability assistance",
+        "Olympic games",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/695?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1571,9 +2553,17 @@
         "date": "2013-02-28",
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Army Corps of Engineers",
+        "Department of Defense",
+        "Land use and conservation",
+        "Outdoor recreation",
+        "User charges and fees"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/400?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1585,9 +2575,15 @@
         "date": "2013-06-12",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 113-111."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Higher education",
+        "Student aid and college costs",
+        "Veterans' education, employment, rehabilitation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/s/257?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 113,
@@ -1599,9 +2595,21 @@
         "date": "2014-05-21",
         "text": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S3243)"
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Commemorative events and holidays",
+        "Conflicts and wars",
+        "Congressional tributes",
+        "Europe",
+        "France",
+        "Historic sites and heritage areas",
+        "Military history",
+        "Military operations and strategy",
+        "Military personnel and dependents"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/sres/421?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 112,
@@ -1613,6 +2621,10 @@
         "date": "2012-07-19",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Transfer and inheritance taxes"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/3403?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1627,9 +2639,16 @@
         "date": "2012-06-27",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 112-668."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Athletes",
+        "Disability assistance",
+        "Olympic games",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/3206?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 112,
@@ -1641,9 +2660,16 @@
         "date": "2012-06-13",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 112-567."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Congressional oversight",
+        "Employment and training programs",
+        "Unemployment",
+        "Veterans' education, employment, rehabilitation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/2246?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 112,
@@ -1655,9 +2681,17 @@
         "date": "2011-11-17",
         "text": "Read twice and referred to the Committee on Armed Services."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Arkansas",
+        "Crime victims",
+        "Military personnel and dependents",
+        "Terrorism",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/1899?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 112,
@@ -1669,6 +2703,18 @@
         "date": "2011-11-15",
         "text": "Read twice and referred to the Committee on Environment and Public Works. (text of measure as introduced: CR S7453-7454)"
       },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Art, artists, authorship",
+        "District of Columbia",
+        "Executive agency funding and structure",
+        "Federal Trade Commission (FTC)",
+        "Government buildings, facilities, and property",
+        "Land transfers",
+        "Museums, exhibitions, cultural centers",
+        "U.S. history",
+        "Women's rights"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/1870?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1683,9 +2729,19 @@
         "date": "2011-05-26",
         "text": "Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S3436)"
       },
+      "policy_area": "Health",
+      "subjects": [
+        "Administrative remedies",
+        "Department of Health and Human Services",
+        "Housing for the elderly and disabled",
+        "Intergovernmental relations",
+        "Long-term, rehabilitative, and terminal care",
+        "Medicaid",
+        "State and local taxation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/1101?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 112,
@@ -1697,6 +2753,15 @@
         "date": "2011-05-16",
         "text": "Read twice and referred to the Committee on the Judiciary. (text of measure as introduced: CR S2998)"
       },
+      "policy_area": "Civil Rights and Liberties, Minority Issues",
+      "subjects": [
+        "Abortion",
+        "Civil actions and liability",
+        "Domestic violence and child abuse",
+        "Emergency medical services and trauma care",
+        "Family relationships",
+        "Health personnel"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/1005?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1711,9 +2776,17 @@
         "date": "2011-06-08",
         "text": "Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 112-116."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Health facilities and institutions",
+        "Mental health",
+        "Neurological disorders",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' medical care"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/s/957?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 112,
@@ -1725,9 +2798,14 @@
         "date": "2012-06-06",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S3798-3799; text as passed Senate: CR S3799; text of measure as introduced: CR S3782-3783)"
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Commemorative events and holidays",
+        "Food assistance and relief"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/sres/484?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1739,9 +2817,23 @@
         "date": "2018-08-15",
         "text": "Referred to the Committee on Foreign Relations. (text of measure as introduced: CR S5621)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Child care and development",
+        "Child health",
+        "Child safety and welfare",
+        "Crime prevention",
+        "Crimes against children",
+        "Domestic violence and child abuse",
+        "Human rights",
+        "Mental health",
+        "Sex offenses",
+        "Violent crime",
+        "World health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sres/606?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1753,9 +2845,15 @@
         "date": "2018-07-20",
         "text": "Became Public Law No: 115-199."
       },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Federal officials",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sjres/60?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1767,9 +2865,16 @@
         "date": "2018-01-30",
         "text": "Read twice and referred to the Committee on Environment and Public Works. (Sponsor introductory remarks on measure: CR S583-584)"
       },
+      "policy_area": "Environmental Protection",
+      "subjects": [
+        "Government lending and loan guarantees",
+        "State and local finance",
+        "Water quality",
+        "Water use and supply"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/2364?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1781,9 +2886,18 @@
         "date": "2017-03-27",
         "text": "Read twice and referred to the Committee on Finance."
       },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Disability and paralysis",
+        "Health care costs and insurance",
+        "Health technology, devices, supplies",
+        "Hearing, speech, and vision care",
+        "Income tax credits",
+        "Inflation and prices"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/732?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1795,9 +2909,19 @@
         "date": "2018-03-20",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural conservation and pollution",
+        "Agricultural education",
+        "Agricultural marketing and promotion",
+        "Agricultural practices and innovations",
+        "Community life and organization",
+        "Rural conditions and development",
+        "Technology transfer and commercialization"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/2573?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1809,6 +2933,8 @@
         "date": "2018-03-22",
         "text": "Read twice and referred to the Committee on Energy and Natural Resources."
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/2617?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1823,6 +2949,8 @@
         "date": "2018-07-31",
         "text": "Amendment SA 3646 agreed to in Senate by Voice Vote. "
       },
+      "policy_area": null,
+      "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/115/samdt/3646?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1837,6 +2965,14 @@
         "date": "2018-02-27",
         "text": "Referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S1253)"
       },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Census and government statistics",
+        "Congressional tributes",
+        "International law and treaties",
+        "Marshall Islands",
+        "Military personnel and dependents"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sconres/34?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1851,9 +2987,17 @@
         "date": "2017-06-29",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Correctional facilities and imprisonment",
+        "Homelessness and emergency shelter",
+        "Indian social and development programs",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' loans, housing, homeless programs"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/1473?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1865,9 +3009,18 @@
         "date": "2017-09-18",
         "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5810; text: CR S5804-5805)"
       },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Aviation and airports",
+        "Commemorative events and holidays",
+        "Congressional tributes",
+        "Military history",
+        "Military operations and strategy",
+        "Military personnel and dependents"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sres/262?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     },
     {
       "congress": 115,
@@ -1879,6 +3032,12 @@
         "date": "2017-02-06",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Labor standards",
+        "Retail and wholesale trades",
+        "Social work, volunteer service, charitable organizations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/313?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1893,6 +3052,14 @@
         "date": "2017-06-07",
         "text": "Referred to the Committee on Energy and Natural Resources. (text of measure as introduced: CR S3339)"
       },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Arkansas",
+        "Aviation and airports",
+        "Military education and training",
+        "Military history",
+        "Museums, exhibitions, cultural centers"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sres/186?format=json",
       "updateDate": null,
       "bipartisan": false
@@ -1907,9 +3074,19 @@
         "date": "2017-06-27",
         "text": "Referred to the Committee on Rules and Administration. (text of measure as introduced: CR S3802-3803)"
       },
+      "policy_area": "Arts, Culture, Religion",
+      "subjects": [
+        "Commemorative events and holidays",
+        "Congressional tributes",
+        "Cultural exchanges and relations",
+        "District of Columbia",
+        "Historical and cultural resources",
+        "Museums, exhibitions, cultural centers",
+        "Smithsonian Institution"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/sconres/19?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": true
     }
   ]
 }
