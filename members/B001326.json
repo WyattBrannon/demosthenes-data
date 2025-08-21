@@ -41,7 +41,7 @@
     "party_unity_percentile_party": 20,
     "reliability_percentile_party": 80
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -512,8 +512,61 @@
       "phone": "503-387-8651"
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4486",
+      "title": "Microplastics Safety Act",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-07-17",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4486?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2537",
+      "title": "Deschutes River Conservancy Reauthorization Act of 2025",
+      "introducedDate": "2025-04-01",
+      "latestAction": {
+        "date": "2025-04-01",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2537?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2287",
+      "title": "Protecting Families from Inflation Act",
+      "introducedDate": "2025-03-24",
+      "latestAction": {
+        "date": "2025-03-24",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2287?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
   "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 3,
+    "total_hr_sr_bipartisan": 1,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 26,
+    "bipartisan_rate_percentile_party": 44
   }
 }

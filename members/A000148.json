@@ -45,7 +45,7 @@
     "party_unity_percentile_party": 37,
     "reliability_percentile_party": 24
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -539,8 +539,50 @@
       "longitude": -71.15463729999999
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4438",
+      "title": "Power of the Mint Act",
+      "introducedDate": "2025-07-16",
+      "latestAction": {
+        "date": "2025-07-16",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4438?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "409",
+      "title": "Supporting Transit Commutes Act",
+      "introducedDate": "2025-01-15",
+      "latestAction": {
+        "date": "2025-01-15",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Commuting",
+        "Employee benefits and pensions",
+        "Income tax deductions",
+        "Transportation costs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/409?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    }
+  ],
   "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 14,
+    "total_hr_sr_bipartisan": 10,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 26,
+    "bipartisan_rate_percentile_party": 91
   }
 }

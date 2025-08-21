@@ -57,7 +57,7 @@
     "party_unity_percentile_party": 65,
     "reliability_percentile_party": 7
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -538,8 +538,146 @@
       "phone": "559-701-2530"
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4661",
+      "title": "AMERICA DRIVES Act",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4661?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3810",
+      "title": "SKIM Act",
+      "introducedDate": "2025-06-06",
+      "latestAction": {
+        "date": "2025-06-06",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3810?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2709",
+      "title": "Save Our Sequoias Act",
+      "introducedDate": "2025-04-08",
+      "latestAction": {
+        "date": "2025-04-18",
+        "text": "Referred to the Subcommittee on Forestry and Horticulture."
+      },
+      "policy_area": "Environmental Protection",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2709?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1223",
+      "title": "ANCHOR Act",
+      "introducedDate": "2025-02-12",
+      "latestAction": {
+        "date": "2025-05-21",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Advanced technology and technological innovations",
+        "Computer security and identity theft",
+        "Computers and information technology",
+        "National Science Foundation",
+        "Research and development"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1223?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "477",
+      "title": "MACH Act",
+      "introducedDate": "2025-01-16",
+      "latestAction": {
+        "date": "2025-01-16",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/477?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "390",
+      "title": "ACERO Act",
+      "introducedDate": "2025-01-14",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 34 - 0."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Asia",
+        "Aviation and airports",
+        "China",
+        "Emergency planning and evacuation",
+        "Fires",
+        "Intergovernmental relations",
+        "Public contracts and procurement",
+        "Research and development"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/390?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "227",
+      "title": "Clergy Act",
+      "introducedDate": "2025-01-07",
+      "latestAction": {
+        "date": "2025-01-07",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Social Welfare",
+      "subjects": [
+        "Congressional oversight",
+        "Income tax exclusion",
+        "Religion",
+        "Social security and elderly assistance",
+        "Tax administration and collection, taxpayers"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/227?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    }
+  ],
   "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 10,
+    "total_hr_sr_bipartisan": 7,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 93
   }
 }

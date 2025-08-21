@@ -69,7 +69,7 @@
     "party_unity_percentile_party": 89,
     "reliability_percentile_party": 1
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -462,8 +462,152 @@
     "facebook": "61571529818077",
     "instagram": "RepKimKingHinds"
   },
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4408",
+      "title": "UNITY Act",
+      "introducedDate": "2025-07-15",
+      "latestAction": {
+        "date": "2025-07-15",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": "Emergency Management",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4408?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4039",
+      "title": "CNMI Ferry Act",
+      "introducedDate": "2025-06-17",
+      "latestAction": {
+        "date": "2025-06-18",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4039?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3720",
+      "title": "HOME Act of 2025",
+      "introducedDate": "2025-06-04",
+      "latestAction": {
+        "date": "2025-06-04",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3720?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3496",
+      "title": "Northern Mariana Islands Small Business Access Act",
+      "introducedDate": "2025-05-19",
+      "latestAction": {
+        "date": "2025-05-19",
+        "text": "Referred to the House Committee on Small Business."
+      },
+      "policy_area": "Commerce",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3496?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3400",
+      "title": "TRAVEL Act of 2025",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Ordered to be Reported (Amended) by Voice Vote."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "American Samoa",
+        "Government employee pay, benefits, personnel management",
+        "Guam",
+        "Health personnel",
+        "Northern Mariana Islands",
+        "Puerto Rico",
+        "Travel and tourism",
+        "U.S. territories and protectorates",
+        "Veterans' medical care",
+        "Virgin Islands"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3400?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3154",
+      "title": "Medicaid Improvement for Insular Areas Act of 2025",
+      "introducedDate": "2025-05-01",
+      "latestAction": {
+        "date": "2025-05-01",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3154?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2132",
+      "title": "Marianas Air Service Improvement Act",
+      "introducedDate": "2025-03-14",
+      "latestAction": {
+        "date": "2025-03-14",
+        "text": "Referred to the Subcommittee on Aviation."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2132?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1797",
+      "title": "Employment Services and Jobs Parity Act",
+      "introducedDate": "2025-03-03",
+      "latestAction": {
+        "date": "2025-03-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1797?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
   "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 8,
+    "total_hr_sr_bipartisan": 3,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 59
   }
 }

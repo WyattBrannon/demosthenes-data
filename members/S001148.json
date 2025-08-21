@@ -45,7 +45,7 @@
     "party_unity_percentile_party": 89,
     "reliability_percentile_party": 26
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -542,8 +542,81 @@
       "phone": "208-523-6701"
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4754",
+      "title": "Department of the Interior, Environment, and Related Agencies Appropriations Act, 2026",
+      "introducedDate": "2025-07-24",
+      "latestAction": {
+        "date": "2025-07-24",
+        "text": "Placed on the Union Calendar, Calendar No. 175."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4754?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "634",
+      "title": "Ninth Circuit Court of Appeals Judgeship and Reorganization Act of 2025",
+      "introducedDate": "2025-01-22",
+      "latestAction": {
+        "date": "2025-01-22",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Law",
+      "subjects": [
+        "Alaska",
+        "Arizona",
+        "California",
+        "Federal appellate courts",
+        "Guam",
+        "Hawaii",
+        "Idaho",
+        "Judges",
+        "Judicial procedure and administration",
+        "Montana",
+        "Nevada",
+        "Northern Mariana Islands",
+        "Oregon",
+        "U.S. territories and protectorates",
+        "Washington State"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/634?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "319",
+      "title": "To authorize an additional district judgeship for the district of Idaho.",
+      "introducedDate": "2025-01-09",
+      "latestAction": {
+        "date": "2025-01-09",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Law",
+      "subjects": [
+        "Federal district courts",
+        "Idaho",
+        "Judges"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/319?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
   "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 144,
+    "total_hr_sr_bipartisan": 34,
+    "total_hr_sr_became_public_law": 11,
+    "passed_rate_percentile_party": 93,
+    "bipartisan_rate_percentile_party": 25
   }
 }

@@ -57,7 +57,7 @@
     "party_unity_percentile_party": 13,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -528,11 +528,61 @@
       "phone": "719-520-0055"
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4075",
+      "title": "Fire Weather Development Act of 2025",
+      "introducedDate": "2025-06-23",
+      "latestAction": {
+        "date": "2025-06-23",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4075?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1984",
+      "title": "BLOC Act",
+      "introducedDate": "2025-03-10",
+      "latestAction": {
+        "date": "2025-03-10",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1984?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1913",
+      "title": "BLOC Act",
+      "introducedDate": "2025-03-06",
+      "latestAction": {
+        "date": "2025-03-06",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1913?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 3,
+    "total_hr_sr_bipartisan": 1,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 43
   }
 }

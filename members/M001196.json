@@ -57,7 +57,7 @@
     "party_unity_percentile_party": 58,
     "reliability_percentile_party": 14
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -530,11 +530,98 @@
       "phone": "978-531-1669"
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4257",
+      "title": "End Domestic Terrorism Act",
+      "introducedDate": "2025-06-30",
+      "latestAction": {
+        "date": "2025-06-30",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4257?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3692",
+      "title": "To reauthorize the Young Fishermen's Development Act.",
+      "introducedDate": "2025-06-03",
+      "latestAction": {
+        "date": "2025-06-03",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3692?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3409",
+      "title": "HEADs UP Act of 2025",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-05-14",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3409?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2215",
+      "title": "Salem Maritime National Historical Park Redesignation and Boundary Study Act",
+      "introducedDate": "2025-03-18",
+      "latestAction": {
+        "date": "2025-07-15",
+        "text": "Became Public Law No: 119-25."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Congressional oversight",
+        "Historic sites and heritage areas",
+        "Massachusetts",
+        "Parks, recreation areas, trails"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2215?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1725",
+      "title": "Sgt. Isaac Woodard, Jr. and Sgt. Joseph H. Maddox GI Bill Restoration Act of 2025",
+      "introducedDate": "2025-02-27",
+      "latestAction": {
+        "date": "2025-03-27",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1725?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 85,
+    "total_hr_sr_bipartisan": 52,
+    "total_hr_sr_became_public_law": 5,
+    "passed_rate_percentile_party": 91,
+    "bipartisan_rate_percentile_party": 85
   }
 }

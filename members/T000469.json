@@ -49,7 +49,7 @@
     "party_unity_percentile_party": 90,
     "reliability_percentile_party": 40
   },
-  "generated_at": "2025-08-20",
+  "generated_at": "2025-08-21",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -535,8 +535,141 @@
       "phone": "518-374-4547"
     }
   ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4744",
+      "title": "Community Mental Wellness and Resilience Act of 2025",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4744?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4745",
+      "title": "Medicaid Bump Act",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4745?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4619",
+      "title": "Medicare Mental Health Inpatient Equity Act of 2025",
+      "introducedDate": "2025-07-22",
+      "latestAction": {
+        "date": "2025-07-22",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4619?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3742",
+      "title": "Offshore Energy Modernization Act of 2025",
+      "introducedDate": "2025-06-04",
+      "latestAction": {
+        "date": "2025-06-04",
+        "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Energy and Commerce, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3742?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2586",
+      "title": "Reentry Act of 2025",
+      "introducedDate": "2025-04-01",
+      "latestAction": {
+        "date": "2025-04-01",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2586?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2087",
+      "title": "SAFE Bet Act of 2025",
+      "introducedDate": "2025-03-11",
+      "latestAction": {
+        "date": "2025-03-11",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2087?format=json",
+      "updateDate": null,
+      "bipartisan": false
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1355",
+      "title": "Weatherization Enhancement and Readiness Act of 2025",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-02-13",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1355?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1106",
+      "title": "Scientific Integrity Act",
+      "introducedDate": "2025-02-06",
+      "latestAction": {
+        "date": "2025-02-06",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1106?format=json",
+      "updateDate": null,
+      "bipartisan": true
+    }
+  ],
   "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 170,
+    "total_hr_sr_bipartisan": 91,
+    "total_hr_sr_became_public_law": 3,
+    "passed_rate_percentile_party": 74,
+    "bipartisan_rate_percentile_party": 74
   }
 }
