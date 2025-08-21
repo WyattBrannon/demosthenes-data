@@ -3,7 +3,7 @@
     "bioguide": "O000174",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T02:20:48Z",
+    "generated_at": "2025-08-21T18:10:06Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -21,7 +21,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2664?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -37,7 +39,9 @@
       "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3125?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -53,7 +57,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2102?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-06-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -69,7 +84,98 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1879?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001208",
+          "name": "Sen. Slotkin, Elissa [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-06-12",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-06-24",
+          "original": false
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-07-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -85,7 +191,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1550?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-05-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -101,7 +218,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1419?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-04-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -117,7 +245,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1322?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-04-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -140,7 +279,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/507?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-02-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -156,7 +306,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1131?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-03-25",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -172,7 +333,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1049?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-03-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -188,7 +360,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/125?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "L000577",
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-03-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -209,7 +408,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/784?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-02-27",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -233,7 +451,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/687?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-02-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -249,7 +478,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/517?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-02-11",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-02-25",
+          "original": false
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-02-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -270,7 +526,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/361?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-02-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -286,7 +553,9 @@
       "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/118/samdt/3350?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -302,7 +571,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5560?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2024-12-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -326,7 +606,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5565?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2024-12-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -342,7 +633,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5477?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2024-12-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -358,7 +660,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5345?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-11-19",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -374,7 +687,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5322?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2024-11-14",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2024-12-17",
+          "original": false
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2024-12-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -390,7 +730,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5301?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000595",
+          "name": "Sen. Rubio, Marco [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-11-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -410,7 +761,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5284?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2024-09-25",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2024-09-25",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -426,7 +796,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5120?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2024-12-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -442,7 +823,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/5080?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2024-12-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -458,7 +850,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4922?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -474,7 +868,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4944?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -490,7 +886,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4970?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-08-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -506,7 +913,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4982?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -522,7 +931,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4748?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -538,7 +958,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4721?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2024-07-11",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2024-07-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -561,7 +1000,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/753?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-07-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2024-07-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -577,7 +1035,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4644?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-07-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -598,7 +1067,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4640?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2024-07-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -614,7 +1094,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4605?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -630,7 +1112,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4603?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -646,7 +1130,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4601?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -662,7 +1148,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4602?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -678,7 +1166,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4604?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -694,7 +1184,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4606?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -710,7 +1202,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4536?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-06-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -726,7 +1229,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4491?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -742,7 +1247,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4509?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -758,7 +1265,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4383?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-05-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -779,7 +1297,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4384?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -795,7 +1315,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4382?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -815,7 +1337,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2073?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2023-06-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -843,7 +1376,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4216?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-04-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -859,7 +1403,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4142?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2024-04-17",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2024-06-12",
+          "original": false
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-09-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -881,7 +1452,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4102?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-04-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -903,7 +1485,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/601?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-03-20",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -929,7 +1522,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1743?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2023-05-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000464",
+          "name": "Sen. Tester, Jon [D-MT]",
+          "party": "D",
+          "state": "MT",
+          "date": "2023-06-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2023-06-21",
+          "original": false
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-07-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -945,7 +1581,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3916?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2024-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2024-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2024-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2024-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "R000122",
+          "name": "Sen. Reed, Jack [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2024-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001320",
+          "name": "Sen. Butler, Laphonza R. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-03-19",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -961,7 +1664,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3965?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -982,7 +1687,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3539?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -998,7 +1705,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3238?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-11-07",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1014,7 +1732,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2956?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2023-09-27",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2023-09-27",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2023-09-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -1030,7 +1775,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2773?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Lujan, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2023-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2023-09-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -1046,7 +1858,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3912?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1062,7 +1876,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3920?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2024-03-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1081,7 +1906,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4698?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2022-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2022-08-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1102,7 +1946,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2680?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2023-07-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1118,7 +1973,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2471?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -1134,7 +1991,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4284?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2022-05-19",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1154,7 +2022,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3883?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-03-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1170,7 +2049,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3610?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-02-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1190,7 +2080,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4477?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000449",
+          "name": "Sen. Portman, Rob [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-06-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2022-08-04",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -1213,7 +2122,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/790?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1229,7 +2140,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2264?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -1245,7 +2158,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4360?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000595",
+          "name": "Sen. Rubio, Marco [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2022-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "S001191",
+          "name": "Sen. Sinema, Kyrsten [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2022-11-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 117,
@@ -1261,7 +2201,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4648?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2022-07-27",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-07-27",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2022-07-27",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2022-07-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -1277,7 +2252,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2218?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1293,7 +2270,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2215?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -1321,7 +2300,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4988?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001310",
+          "name": "Sen. Braun, Mike [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2022-09-28",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2022-09-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1337,7 +2335,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2192?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1353,7 +2353,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2359?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2023-07-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1369,7 +2380,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1977?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-06-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1385,7 +2407,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/2146?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "E000295",
+          "name": "Sen. Ernst, Joni [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2023-07-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1401,7 +2434,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1980?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-06-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1417,7 +2461,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1978?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-06-14",
+          "original": true
+        },
+        {
+          "bioguide": "B001320",
+          "name": "Sen. Butler, Laphonza R. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2023-12-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1433,7 +2496,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1880?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2023-06-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1449,7 +2523,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1623?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-05-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1465,7 +2550,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1620?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-05-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1488,7 +2584,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1683?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1511,7 +2609,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1899?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-06-13",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1527,7 +2644,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1721?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2023-05-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1543,7 +2671,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4266?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1559,7 +2689,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/972?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-03-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1582,7 +2723,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3687?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2024-01-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1609,7 +2761,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1902?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-06-13",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1625,7 +2796,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3586?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1641,7 +2814,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/536?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-01-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1662,7 +2846,98 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3751?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2024-02-07",
+          "original": true
+        },
+        {
+          "bioguide": "T000250",
+          "name": "Sen. Thune, John [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2024-02-07",
+          "original": true
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2024-02-07",
+          "original": true
+        },
+        {
+          "bioguide": "F000463",
+          "name": "Sen. Fischer, Deb [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2024-02-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2024-03-20",
+          "original": false
+        },
+        {
+          "bioguide": "C001070",
+          "name": "Sen. Casey, Robert P., Jr. [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2024-07-11",
+          "original": false
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2024-09-12",
+          "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2024-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2024-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2024-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-12-04",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     },
     {
       "congress": 118,
@@ -1678,7 +2953,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1347?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2023-04-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1706,7 +2992,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1401?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001310",
+          "name": "Sen. Braun, Mike [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2023-05-02",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2023-05-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001183",
+          "name": "Sen. Manchin, Joe, III [D-WV]",
+          "party": "D",
+          "state": "WV",
+          "date": "2023-05-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2023-09-05",
+          "original": false
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2023-09-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -1722,7 +3051,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/874?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-03-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1738,7 +3078,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/643?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "E000295",
+          "name": "Sen. Ernst, Joni [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2023-03-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1759,7 +3110,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/73?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1779,7 +3132,34 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/438?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000595",
+          "name": "Sen. Rubio, Marco [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-10-26",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-10-26",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-10-26",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -1795,7 +3175,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1621?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001310",
+          "name": "Sen. Braun, Mike [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2023-05-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1816,7 +3207,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/16?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2023-01-26",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1841,7 +3243,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2796?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2021-09-22",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1868,7 +3281,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2899?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2021-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2021-09-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -1894,7 +3326,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4816?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2022-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2022-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001310",
+          "name": "Sen. Braun, Mike [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2022-09-12",
+          "original": true
+        },
+        {
+          "bioguide": "S001198",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2022-09-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -1915,7 +3382,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4951?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2022-09-27",
+          "original": true
+        },
+        {
+          "bioguide": "T000250",
+          "name": "Sen. Thune, John [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2022-12-19",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -1931,7 +3417,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3205?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2022-03-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -1954,7 +3451,258 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4359?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B000575",
+          "name": "Sen. Blunt, Roy [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000464",
+          "name": "Sen. Tester, Jon [D-MT]",
+          "party": "D",
+          "state": "MT",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "S000148",
+          "name": "Sen. Schumer, Charles E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "M000355",
+          "name": "Sen. McConnell, Mitch [R-KY]",
+          "party": "R",
+          "state": "KY",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "P000449",
+          "name": "Sen. Portman, Rob [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-06-08",
+          "original": true
+        },
+        {
+          "bioguide": "R000595",
+          "name": "Sen. Rubio, Marco [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "R000615",
+          "name": "Sen. Romney, Mitt [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001135",
+          "name": "Sen. Burr, Richard [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "F000062",
+          "name": "Sen. Feinstein, Dianne [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "S000320",
+          "name": "Sen. Shelby, Richard C. [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2022-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "H000601",
+          "name": "Sen. Hagerty, Bill [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "I000024",
+          "name": "Sen. Inhofe, James M. [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "B000944",
+          "name": "Sen. Brown, Sherrod [D-OH]",
+          "party": "D",
+          "state": "OH",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "B001310",
+          "name": "Sen. Braun, Mike [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2022-06-22",
+          "original": false
+        },
+        {
+          "bioguide": "T000250",
+          "name": "Sen. Thune, John [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2022-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "W000437",
+          "name": "Sen. Wicker, Roger F. [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2022-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2022-07-12",
+          "original": false
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2022-07-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 31
     },
     {
       "congress": 117,
@@ -1978,7 +3726,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3655?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-02-16",
+          "original": true
+        },
+        {
+          "bioguide": "P000595",
+          "name": "Sen. Peters, Gary C. [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2022-03-10",
+          "original": false
+        },
+        {
+          "bioguide": "C000174",
+          "name": "Sen. Carper, Thomas R. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2022-03-10",
+          "original": false
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2022-03-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -1994,7 +3777,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4473?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-11-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2010,7 +3804,9 @@
       "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/117/samdt/6021?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2026,7 +3822,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3878?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2022-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-03-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2042,7 +3857,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/718?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2058,7 +3875,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4388?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2022-06-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2081,7 +3909,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2365?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2104,7 +3934,122 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3140?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000062",
+          "name": "Sen. Feinstein, Dianne [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Sen. Smith, Tina [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2021-11-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 14
     },
     {
       "congress": 117,
@@ -2120,7 +4065,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2398?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2136,7 +4083,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4517?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001089",
+          "name": "Sen. Hawley, Josh [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2022-07-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2152,7 +4110,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4413?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2168,7 +4128,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3142?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2191,7 +4153,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2928?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2207,7 +4171,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4286?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-05-19",
+          "original": true
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2022-05-19",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2223,7 +4206,66 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2726?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2021-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2021-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Sen. Smith, Tina [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2021-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2021-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "C000141",
+          "name": "Sen. Cardin, Benjamin L. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2021-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2022-05-19",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
     },
     {
       "congress": 117,
@@ -2239,7 +4281,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4123?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2255,7 +4299,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3408?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2278,7 +4324,66 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2615?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2021-08-04",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-08-04",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2021-08-04",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-08-04",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2021-08-05",
+          "original": false
+        },
+        {
+          "bioguide": "R000122",
+          "name": "Sen. Reed, Jack [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2021-09-22",
+          "original": false
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2022-04-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
     },
     {
       "congress": 117,
@@ -2300,7 +4405,66 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3091?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "S000770",
+          "name": "Sen. Stabenow, Debbie [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Lujan, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2022-03-29",
+          "original": false
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2022-05-19",
+          "original": false
+        },
+        {
+          "bioguide": "P000595",
+          "name": "Sen. Peters, Gary C. [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2022-06-07",
+          "original": false
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2022-06-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
     },
     {
       "congress": 117,
@@ -2316,7 +4480,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2591?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2337,7 +4503,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/528?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2360,7 +4528,74 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2305?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2021-08-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001184",
+          "name": "Sen. Scott, Tim [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-08-05",
+          "original": false
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2021-08-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-09-13",
+          "original": false
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2021-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2021-10-18",
+          "original": false
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2021-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2021-12-07",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 117,
@@ -2382,7 +4617,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/496?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-01-20",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2405,7 +4651,130 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3494?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2022-01-12",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-01-18",
+          "original": false
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2022-01-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2022-01-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2022-01-19",
+          "original": false
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2022-01-20",
+          "original": false
+        },
+        {
+          "bioguide": "S000770",
+          "name": "Sen. Stabenow, Debbie [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2022-02-01",
+          "original": false
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2022-02-03",
+          "original": false
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2022-02-08",
+          "original": false
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2022-02-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2022-02-14",
+          "original": false
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2022-03-01",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Lujan, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2022-03-22",
+          "original": false
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2022-06-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2022-08-02",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
     },
     {
       "congress": 117,
@@ -2421,7 +4790,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3646?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-02-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2443,7 +4823,34 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2140?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-06-21",
+          "original": true
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2021-06-21",
+          "original": true
+        },
+        {
+          "bioguide": "S000770",
+          "name": "Sen. Stabenow, Debbie [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2021-06-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 117,
@@ -2467,7 +4874,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3234?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001184",
+          "name": "Sen. Scott, Tim [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-11-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2491,7 +4909,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/388?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000615",
+          "name": "Sen. Romney, Mitt [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-09-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2021-09-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2512,7 +4949,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/445?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-11-04",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2528,7 +4976,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2582?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M000639",
+          "name": "Sen. Menendez, Robert [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2021-09-13",
+          "original": false
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2021-09-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2544,7 +5011,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2534?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-07-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2570,7 +5056,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2635?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2593,7 +5081,138 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/1539?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-05-10",
+          "original": true
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2021-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2021-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2021-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "F000062",
+          "name": "Sen. Feinstein, Dianne [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-05-27",
+          "original": false
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2021-05-27",
+          "original": false
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2021-05-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2021-05-27",
+          "original": false
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2021-06-15",
+          "original": false
+        },
+        {
+          "bioguide": "M000639",
+          "name": "Sen. Menendez, Robert [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2021-06-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001169",
+          "name": "Sen. Murphy, Christopher [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2021-06-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2021-06-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2021-06-15",
+          "original": false
+        },
+        {
+          "bioguide": "B000944",
+          "name": "Sen. Brown, Sherrod [D-OH]",
+          "party": "D",
+          "state": "OH",
+          "date": "2021-07-14",
+          "original": false
+        },
+        {
+          "bioguide": "C000141",
+          "name": "Sen. Cardin, Benjamin L. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2021-07-14",
+          "original": false
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2021-07-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
     },
     {
       "congress": 117,
@@ -2622,7 +5241,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/332?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-07-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2645,7 +5275,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/82?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000615",
+          "name": "Sen. Romney, Mitt [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-03-01",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2021-03-01",
+          "original": true
+        },
+        {
+          "bioguide": "R000122",
+          "name": "Sen. Reed, Jack [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2021-03-01",
+          "original": true
+        },
+        {
+          "bioguide": "C000141",
+          "name": "Sen. Cardin, Benjamin L. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2021-03-01",
+          "original": true
+        },
+        {
+          "bioguide": "L000174",
+          "name": "Sen. Leahy, Patrick J. [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2021-03-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
     }
   ]
 }

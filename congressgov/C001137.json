@@ -3,7 +3,7 @@
     "bioguide": "C001137",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T02:14:58Z",
+    "generated_at": "2025-08-21T18:04:16Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -21,7 +21,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4075?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-06-23",
+          "original": true
+        },
+        {
+          "bioguide": "R000620",
+          "name": "Rep. Rivas, Luz M. [D-CA-29]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-06-23",
+          "original": true
+        },
+        {
+          "bioguide": "H001100",
+          "name": "Rep. Hurd, Jeff [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-06-23",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-24",
+          "original": false
+        },
+        {
+          "bioguide": "E000300",
+          "name": "Rep. Evans, Gabe [R-CO-8]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-06-24",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-08-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -37,7 +88,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/295?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-04-07",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-4]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-04-07",
+          "original": true
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Rep. Guest, Michael [R-MS-3]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-04-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001325",
+          "name": "Rep. Biggs, Sheri [R-SC-3]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-04-07",
+          "original": true
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-04-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -53,7 +147,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1984?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-4]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-03-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -69,7 +174,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1913?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     }
   ]
 }

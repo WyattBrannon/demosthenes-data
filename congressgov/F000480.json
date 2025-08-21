@@ -3,7 +3,7 @@
     "bioguide": "F000480",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T02:15:09Z",
+    "generated_at": "2025-08-21T18:04:27Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -21,7 +21,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4661?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -37,7 +39,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3810?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-06-06",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-06-06",
+          "original": true
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-06",
+          "original": true
+        },
+        {
+          "bioguide": "G000597",
+          "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-06-30",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-07-25",
+          "original": false
+        },
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-08-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -53,7 +106,234 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2709?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "W000821",
+          "name": "Rep. Westerman, Bruce [R-AR-4]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000592",
+          "name": "Rep. Golden, Jared F. [D-ME-2]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001177",
+          "name": "Rep. McClintock, Tom [R-CA-5]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Rep. Vargas, Juan [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "K000401",
+          "name": "Rep. Kiley, Kevin [R-CA-3]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "I000056",
+          "name": "Rep. Issa, Darrell [R-CA-48]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "B000668",
+          "name": "Rep. Bentz, Cliff [R-OR-2]",
+          "party": "R",
+          "state": "OR",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-04-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-04-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 28
     },
     {
       "congress": 119,
@@ -75,7 +355,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1223?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-02-12",
+          "original": true
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-02-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-02-24",
+          "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-05",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-05-05",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -91,7 +414,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/477?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-01-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-01-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-08-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -116,7 +466,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/390?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-01-14",
+          "original": true
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-01-21",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-01-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-06-25",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-07-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -138,7 +531,106 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/227?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-01-07",
+          "original": true
+        },
+        {
+          "bioguide": "K000376",
+          "name": "Rep. Kelly, Mike [R-PA-16]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-01-07",
+          "original": true
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-01-09",
+          "original": false
+        },
+        {
+          "bioguide": "L000585",
+          "name": "Rep. LaHood, Darin [R-IL-16]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-01-09",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-01-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001199",
+          "name": "Rep. Smucker, Lloyd [R-PA-11]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-01-31",
+          "original": false
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-06-10",
+          "original": false
+        },
+        {
+          "bioguide": "E000298",
+          "name": "Rep. Estes, Ron [R-KS-4]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001172",
+          "name": "Rep. Smith, Adrian [R-NE-3]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-07-22",
+          "original": false
+        },
+        {
+          "bioguide": "M001224",
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-23",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-07-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
     },
     {
       "congress": 118,
@@ -154,7 +646,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1421?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barragán, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "D000623",
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2024-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-10-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 118,
@@ -177,7 +720,106 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9402?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001226",
+          "name": "Rep. Salinas, Andrea [D-OR-6]",
+          "party": "D",
+          "state": "OR",
+          "date": "2024-08-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2024-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "E000215",
+          "name": "Rep. Eshoo, Anna G. [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "C001134",
+          "name": "Rep. Caraveo, Yadira [D-CO-8]",
+          "party": "D",
+          "state": "CO",
+          "date": "2024-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2024-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001292",
+          "name": "Rep. Beyer, Donald S. [D-VA-8]",
+          "party": "D",
+          "state": "VA",
+          "date": "2024-09-25",
+          "original": false
+        },
+        {
+          "bioguide": "P000616",
+          "name": "Rep. Phillips, Dean [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2024-10-04",
+          "original": false
+        },
+        {
+          "bioguide": "S001209",
+          "name": "Rep. Spanberger, Abigail Davis [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2024-11-01",
+          "original": false
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Rep. Foster, Bill [D-IL-11]",
+          "party": "D",
+          "state": "IL",
+          "date": "2024-11-05",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2024-12-16",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
     },
     {
       "congress": 118,
@@ -193,7 +835,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9347?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001209",
+          "name": "Rep. Spanberger, Abigail Davis [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2024-08-13",
+          "original": true
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-08-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001134",
+          "name": "Rep. Caraveo, Yadira [D-CO-8]",
+          "party": "D",
+          "state": "CO",
+          "date": "2024-08-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000616",
+          "name": "Rep. Phillips, Dean [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2024-10-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -219,7 +896,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8920?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     }
   ]
 }
