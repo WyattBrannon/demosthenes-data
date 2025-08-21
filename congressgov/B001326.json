@@ -3,7 +3,7 @@
     "bioguide": "B001326",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T03:09:42Z",
+    "generated_at": "2025-08-21T18:58:10Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -21,7 +21,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4486?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-07-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -37,7 +48,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/443?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-05-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -53,7 +75,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2537?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -69,7 +93,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2287?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "L000607",
+          "name": "Rep. Liccardo, Sam [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-08-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-08-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     }
   ]
 }

@@ -3,7 +3,7 @@
     "bioguide": "D000032",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T03:11:21Z",
+    "generated_at": "2025-08-21T19:00:36Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -21,7 +21,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4922?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -37,7 +39,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4494?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -58,7 +62,58 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2835?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001099",
+          "name": "Rep. Haridopolos, Mike [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "L000491",
+          "name": "Rep. Lucas, Frank D. [R-OK-3]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-04-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-05-19",
+          "original": false
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Rep. De La Cruz, Monica [R-TX-15]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-17]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-06-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -74,7 +129,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3667?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001229",
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-06-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -119,7 +193,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3626?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-08-05",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -135,7 +220,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3433?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -151,7 +238,9 @@
       "subjects": null,
       "congressdotgovUrl": "https://api.congress.gov/v3/amendment/118/hamdt/265?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -167,7 +256,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2544?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -183,7 +274,138 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2422?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-28]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001216",
+          "name": "Rep. Mills, Cory [R-FL-7]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-01",
+          "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-01",
+          "original": false
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-01",
+          "original": false
+        },
+        {
+          "bioguide": "B001314",
+          "name": "Rep. Bean, Aaron [R-FL-4]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000597",
+          "name": "Rep. Lee, Laurel M. [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-05",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -199,7 +421,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2291?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000592",
+          "name": "Rep. Golden, Jared F. [D-ME-2]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-03-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -215,7 +448,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2182?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-03-18",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-18",
+          "original": true
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-03-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -231,7 +491,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2112?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -247,7 +509,114 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2111?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-18",
+          "original": false
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-02",
+          "original": false
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-04-14",
+          "original": false
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-04-14",
+          "original": false
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-21",
+          "original": false
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Rep. Boyle, Brendan F. [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "F000481",
+          "name": "Rep. Figures, Shomari [D-AL-2]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-06-30",
+          "original": false
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Rep. Espaillat, Adriano [D-NY-13]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-07-02",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
     },
     {
       "congress": 119,
@@ -263,7 +632,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2113?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001129",
+          "name": "Rep. Collins, Mike [R-GA-10]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-03-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -279,7 +683,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1786?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-03",
+          "original": true
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-10",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -298,7 +769,82 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1676?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-02-27",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Rep. Guest, Michael [R-MS-3]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-01",
+          "original": false
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-30",
+          "original": false
+        },
+        {
+          "bioguide": "H001099",
+          "name": "Rep. Haridopolos, Mike [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-05-06",
+          "original": false
+        },
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-06-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -314,7 +860,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1603?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-02-26",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-02-26",
+          "original": true
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-02-26",
+          "original": true
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -333,7 +922,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/137?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, André [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-02-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -351,7 +983,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1118?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-02-07",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -371,7 +1014,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/856?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001078",
+          "name": "Rep. Connolly, Gerald E. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-01-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -387,7 +1041,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/10040?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -405,7 +1061,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9596?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2024-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2024-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2024-09-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -421,7 +1112,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hjres/195?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-08-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -437,7 +1139,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1395?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-09-27",
+          "original": false
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-11-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -453,7 +1190,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9202?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "P000048",
+          "name": "Rep. Pfluger, August [R-TX-11]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-08-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-09-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -469,7 +1241,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9200?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2024-08-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-09-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -485,7 +1292,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9198?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-09-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -501,7 +1335,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9199?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-09-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -517,7 +1378,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9201?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-30",
+          "original": true
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-09-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -538,7 +1426,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/9040?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000391",
+          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2024-07-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -554,7 +1453,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8941?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2024-07-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001093",
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN",
+          "date": "2024-07-09",
+          "original": false
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2024-07-22",
+          "original": false
+        },
+        {
+          "bioguide": "D000632",
+          "name": "Rep. D'Esposito, Anthony [R-NY-4]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-07-22",
+          "original": false
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2024-07-22",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2024-07-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001195",
+          "name": "Rep. Mooney, Alexander X. [R-WV-2]",
+          "party": "R",
+          "state": "WV",
+          "date": "2024-08-20",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -570,7 +1536,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8779?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-06-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -586,7 +1563,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1294?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -602,7 +1581,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8628?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -618,7 +1599,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1239?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001216",
+          "name": "Rep. Mills, Cory [R-FL-7]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-05-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-05-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -634,7 +1634,138 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8430?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "P000048",
+          "name": "Rep. Pfluger, August [R-TX-11]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-2]",
+          "party": "R",
+          "state": "AL",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "T000480",
+          "name": "Rep. Timmons, William R. [R-SC-4]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-05-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2024-05-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-05-21",
+          "original": false
+        },
+        {
+          "bioguide": "L000604",
+          "name": "Rep. Lopez, Greg [R-CO-4]",
+          "party": "R",
+          "state": "CO",
+          "date": "2024-09-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
     },
     {
       "congress": 118,
@@ -650,7 +1781,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1218?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -666,7 +1799,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8129?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000616",
+          "name": "Rep. DesJarlais, Scott [R-TN-4]",
+          "party": "R",
+          "state": "TN",
+          "date": "2024-04-26",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-04-26",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-04-26",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-04-26",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -682,7 +1850,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/8102?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -698,7 +1868,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/7995?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -718,7 +1890,98 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hjres/124?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2024-04-05",
+          "original": true
+        },
+        {
+          "bioguide": "S001213",
+          "name": "Rep. Steil, Bryan [R-WI-1]",
+          "party": "R",
+          "state": "WI",
+          "date": "2024-04-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001093",
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN",
+          "date": "2024-04-10",
+          "original": false
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2024-04-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2024-04-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     },
     {
       "congress": 118,
@@ -741,7 +2004,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/7530?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2024-03-05",
+          "original": true
+        },
+        {
+          "bioguide": "T000480",
+          "name": "Rep. Timmons, William R. [R-SC-4]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-03-05",
+          "original": true
+        },
+        {
+          "bioguide": "P000609",
+          "name": "Rep. Palmer, Gary J. [R-AL-6]",
+          "party": "R",
+          "state": "AL",
+          "date": "2024-03-05",
+          "original": true
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2024-03-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -761,7 +2059,114 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hjres/99?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Rep. Gallego, Ruben [D-AZ-3]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-11-09",
+          "original": true
+        },
+        {
+          "bioguide": "A000369",
+          "name": "Rep. Amodei, Mark E. [R-NV-2]",
+          "party": "R",
+          "state": "NV",
+          "date": "2023-11-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2023-11-30",
+          "original": false
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-11-30",
+          "original": false
+        },
+        {
+          "bioguide": "L000266",
+          "name": "Rep. LaTurner, Jake [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2024-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "G000597",
+          "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "A000377",
+          "name": "Rep. Armstrong, Kelly [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2024-09-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 13
     },
     {
       "congress": 118,
@@ -777,7 +2182,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/856?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-11-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -796,7 +2212,106 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/850?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andre [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2023-11-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-11-07",
+          "original": true
+        },
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2023-11-07",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2023-11-07",
+          "original": true
+        },
+        {
+          "bioguide": "J000032",
+          "name": "Rep. Jackson Lee, Sheila [D-TX-18]",
+          "party": "D",
+          "state": "TX",
+          "date": "2023-11-13",
+          "original": false
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-11-13",
+          "original": false
+        },
+        {
+          "bioguide": "L000589",
+          "name": "Rep. Lesko, Debbie [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-11-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001215",
+          "name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+          "party": "R",
+          "state": "IA",
+          "date": "2023-11-28",
+          "original": false
+        },
+        {
+          "bioguide": "D000632",
+          "name": "Rep. D'Esposito, Anthony [R-NY-4]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-11-28",
+          "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-12-14",
+          "original": false
+        },
+        {
+          "bioguide": "M000312",
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2023-12-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001216",
+          "name": "Rep. Mills, Cory [R-FL-7]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-01-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
     },
     {
       "congress": 118,
@@ -819,7 +2334,74 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/6138?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-11-01",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-11-01",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-11-01",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2023-11-01",
+          "original": true
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-11-03",
+          "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-11-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-12-04",
+          "original": false
+        },
+        {
+          "bioguide": "D000632",
+          "name": "Rep. D'Esposito, Anthony [R-NY-4]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-06-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -840,7 +2422,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/6137?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2023-11-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -861,7 +2454,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5795?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -884,7 +2479,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5750?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -909,7 +2506,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5706?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -925,7 +2524,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5630?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-2]",
+          "party": "R",
+          "state": "AL",
+          "date": "2023-09-21",
+          "original": true
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-09-21",
+          "original": true
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2023-09-21",
+          "original": true
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2023-09-21",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2023-09-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001129",
+          "name": "Rep. Collins, Mike [R-GA-10]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-10-13",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 118,
@@ -941,7 +2591,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5590?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-09-20",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2023-09-20",
+          "original": true
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2023-09-20",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-09-20",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2023-09-20",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-09-20",
+          "original": true
+        },
+        {
+          "bioguide": "A000379",
+          "name": "Rep. Alford, Mark [R-MO-4]",
+          "party": "R",
+          "state": "MO",
+          "date": "2023-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-10-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -1055,7 +2772,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5525?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000301",
+          "name": "Rep. Johnson, Dusty [R-SD-At Large]",
+          "party": "R",
+          "state": "SD",
+          "date": "2023-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2023-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2023-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "A000377",
+          "name": "Rep. Armstrong, Kelly [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2023-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -1075,7 +2835,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5528?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2023-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001078",
+          "name": "Rep. Connolly, Gerald E. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2024-01-05",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1097,7 +2876,402 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/5103?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000619",
+          "name": "Rep. Peltola, Mary Sattler [D-AK-At Large]",
+          "party": "D",
+          "state": "AK",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2023-08-08",
+          "original": false
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2023-08-08",
+          "original": false
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-11",
+          "original": false
+        },
+        {
+          "bioguide": "P000610",
+          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2023-09-01",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2023-09-13",
+          "original": false
+        },
+        {
+          "bioguide": "D000632",
+          "name": "Rep. D'Esposito, Anthony [R-NY-4]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-09-14",
+          "original": false
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "G000582",
+          "name": "Rescom. González-Colón, Jenniffer [R-PR-At Large]",
+          "party": "R",
+          "state": "PR",
+          "date": "2024-01-05",
+          "original": false
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-04-17",
+          "original": false
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-04-20",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-04-20",
+          "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-04-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001054",
+          "name": "Rep. Carl, Jerry L. [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2024-04-30",
+          "original": false
+        },
+        {
+          "bioguide": "W000823",
+          "name": "Rep. Waltz, Michael [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000551",
+          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2024-06-07",
+          "original": false
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-06-11",
+          "original": false
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-06-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2024-06-25",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-07-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-07-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-07-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-07-26",
+          "original": false
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2024-07-26",
+          "original": false
+        },
+        {
+          "bioguide": "C001127",
+          "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+          "party": "D",
+          "state": "FL",
+          "date": "2024-08-13",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-08-23",
+          "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2024-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2024-09-12",
+          "original": false
+        },
+        {
+          "bioguide": "P000616",
+          "name": "Rep. Phillips, Dean [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2024-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "G000558",
+          "name": "Rep. Guthrie, Brett [R-KY-2]",
+          "party": "R",
+          "state": "KY",
+          "date": "2024-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2024-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "L000597",
+          "name": "Rep. Lee, Laurel M. [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-28]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-09-24",
+          "original": false
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-10-22",
+          "original": false
+        },
+        {
+          "bioguide": "G000581",
+          "name": "Rep. Gonzalez, Vicente [D-TX-34]",
+          "party": "D",
+          "state": "TX",
+          "date": "2024-10-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 49
     },
     {
       "congress": 118,
@@ -1120,7 +3294,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4678?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-07-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1141,7 +3326,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4675?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-07-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1167,7 +3363,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4674?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-07-24",
+          "original": false
+        },
+        {
+          "bioguide": "G000558",
+          "name": "Rep. Guthrie, Brett [R-KY-2]",
+          "party": "R",
+          "state": "KY",
+          "date": "2024-05-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1188,7 +3403,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4677?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-07-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1210,7 +3436,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4676?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-07-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1226,7 +3463,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4640?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1242,7 +3481,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4543?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1258,7 +3499,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/515?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1278,7 +3521,82 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4161?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001130",
+          "name": "Rep. Crockett, Jasmine [D-TX-30]",
+          "party": "D",
+          "state": "TX",
+          "date": "2023-06-15",
+          "original": true
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2023-06-15",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-06-15",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-06-15",
+          "original": true
+        },
+        {
+          "bioguide": "S001222",
+          "name": "Rep. Santos, George [R-NY-3]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-06-15",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-06-15",
+          "original": true
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Rep. Jackson, Ronny [R-TX-13]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-06-16",
+          "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2023-07-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
     },
     {
       "congress": 118,
@@ -1294,7 +3612,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4114?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2023-06-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1310,7 +3639,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4112?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2023-06-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1326,7 +3666,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/4113?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-06-14",
+          "original": true
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2023-06-14",
+          "original": true
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2023-06-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -1342,7 +3709,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3484?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-05-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1358,7 +3736,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3901?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-06-07",
+          "original": true
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-06-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2023-06-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -1380,7 +3785,194 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3782?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "L000266",
+          "name": "Rep. LaTurner, Jake [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2023-06-01",
+          "original": true
+        },
+        {
+          "bioguide": "F000475",
+          "name": "Rep. Finstad, Brad [R-MN-1]",
+          "party": "R",
+          "state": "MN",
+          "date": "2023-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "B000574",
+          "name": "Rep. Blumenauer, Earl [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2023-06-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-2]",
+          "party": "R",
+          "state": "AL",
+          "date": "2023-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Rep. Guest, Michael [R-MS-3]",
+          "party": "R",
+          "state": "MS",
+          "date": "2023-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2023-06-14",
+          "original": false
+        },
+        {
+          "bioguide": "R000576",
+          "name": "Rep. Ruppersberger, C. A. Dutch [D-MD-2]",
+          "party": "D",
+          "state": "MD",
+          "date": "2023-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "S000522",
+          "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2023-08-01",
+          "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-09-12",
+          "original": false
+        },
+        {
+          "bioguide": "P000616",
+          "name": "Rep. Phillips, Dean [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2023-09-12",
+          "original": false
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Rep. McGarvey, Morgan [D-KY-3]",
+          "party": "D",
+          "state": "KY",
+          "date": "2023-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "P000619",
+          "name": "Rep. Peltola, Mary Sattler [D-AK-At Large]",
+          "party": "D",
+          "state": "AK",
+          "date": "2023-12-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 23
     },
     {
       "congress": 118,
@@ -1396,7 +3988,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3604?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2023-05-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1412,7 +4015,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3483?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-05-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1428,7 +4042,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3485?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1457,7 +4073,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3487?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1473,7 +4091,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3486?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-05-24",
+          "original": false
+        },
+        {
+          "bioguide": "C000537",
+          "name": "Rep. Clyburn, James E. [D-SC-6]",
+          "party": "D",
+          "state": "SC",
+          "date": "2024-05-23",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "N000194",
+          "name": "Rep. Nickel, Wiley [D-NC-13]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-06-07",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-06-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -1495,7 +4156,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3137?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-05-09",
+          "original": true
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-05-09",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2023-09-12",
+          "original": false
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-12-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 118,
@@ -1511,7 +4207,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/3001?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2023-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2023-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Rep. Jackson, Ronny [R-TX-13]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2023-04-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -1527,7 +4266,82 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2937?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-04-27",
+          "original": true
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-6]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-04-27",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-04-27",
+          "original": true
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2023-05-15",
+          "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-05-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-05-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2023-07-13",
+          "original": false
+        },
+        {
+          "bioguide": "C001039",
+          "name": "Rep. Cammack, Kat [R-FL-3]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-12-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
     },
     {
       "congress": 118,
@@ -1588,7 +4402,74 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2938?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C000537",
+          "name": "Rep. Clyburn, James E. [D-SC-6]",
+          "party": "D",
+          "state": "SC",
+          "date": "2023-04-27",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-05-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2023-05-24",
+          "original": false
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2023-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2024-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "N000194",
+          "name": "Rep. Nickel, Wiley [D-NC-13]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-06-07",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2024-06-12",
+          "original": false
+        },
+        {
+          "bioguide": "M001216",
+          "name": "Rep. Mills, Cory [R-FL-7]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-06-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -1604,7 +4485,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2709?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-04-19",
+          "original": true
+        },
+        {
+          "bioguide": "G000595",
+          "name": "Rep. Good, Bob [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2023-04-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 118,
@@ -1620,7 +4568,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2488?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1636,7 +4586,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2487?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1652,7 +4604,130 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2462?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "D000616",
+          "name": "Rep. DesJarlais, Scott [R-TN-4]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "F000246",
+          "name": "Rep. Fallon, Pat [R-TX-4]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-04-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-2]",
+          "party": "R",
+          "state": "AL",
+          "date": "2023-04-06",
+          "original": false
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2023-10-13",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
     },
     {
       "congress": 118,
@@ -1668,7 +4743,178 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hconres/26?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000454",
+          "name": "Rep. Foster, Bill [D-IL-11]",
+          "party": "D",
+          "state": "IL",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "C000537",
+          "name": "Rep. Clyburn, James E. [D-SC-6]",
+          "party": "D",
+          "state": "SC",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "D000530",
+          "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+          "party": "D",
+          "state": "PA",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "L000564",
+          "name": "Rep. Lamborn, Doug [R-CO-5]",
+          "party": "R",
+          "state": "CO",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2023-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-21",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-03-21",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-04-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2023-04-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001222",
+          "name": "Rep. Santos, George [R-NY-3]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-04-18",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2023-05-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2023-06-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-12-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 21
     },
     {
       "congress": 118,
@@ -1684,7 +4930,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1494?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-09",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-09",
+          "original": true
+        },
+        {
+          "bioguide": "G000582",
+          "name": "Rescom. González-Colón, Jenniffer [R-PR-At Large]",
+          "party": "R",
+          "state": "PR",
+          "date": "2023-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-03-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 118,
@@ -1700,7 +4997,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1285?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001051",
+          "name": "Rep. Carter, John R. [R-TX-31]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-03-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -1716,7 +5024,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1177?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000626",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
+          "party": "R",
+          "state": "OH",
+          "date": "2023-02-24",
+          "original": true
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-02-24",
+          "original": true
+        },
+        {
+          "bioguide": "S001183",
+          "name": "Rep. Schweikert, David [R-AZ-1]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-02-24",
+          "original": true
+        },
+        {
+          "bioguide": "E000294",
+          "name": "Rep. Emmer, Tom [R-MN-6]",
+          "party": "R",
+          "state": "MN",
+          "date": "2023-02-24",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-02-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -1732,7 +5083,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1120?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-21",
+          "original": true
+        },
+        {
+          "bioguide": "M001195",
+          "name": "Rep. Mooney, Alexander X. [R-WV-2]",
+          "party": "R",
+          "state": "WV",
+          "date": "2023-02-21",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 118,
@@ -1748,7 +5126,90 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1009?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000564",
+          "name": "Rep. Lamborn, Doug [R-CO-5]",
+          "party": "R",
+          "state": "CO",
+          "date": "2023-02-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-02-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-02-21",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-03-07",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-03-08",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-05-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
     },
     {
       "congress": 118,
@@ -1764,7 +5225,218 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1008?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001127",
+          "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "W000823",
+          "name": "Rep. Waltz, Michael [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000597",
+          "name": "Rep. Lee, Laurel M. [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-01-16",
+          "original": false
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-02-14",
+          "original": false
+        },
+        {
+          "bioguide": "K000381",
+          "name": "Rep. Kilmer, Derek [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2024-02-15",
+          "original": false
+        },
+        {
+          "bioguide": "P000619",
+          "name": "Rep. Peltola, Mary Sattler [D-AK-At Large]",
+          "party": "D",
+          "state": "AK",
+          "date": "2024-02-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2024-02-20",
+          "original": false
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2024-02-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2024-02-28",
+          "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-03-05",
+          "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-03-21",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-04-12",
+          "original": false
+        },
+        {
+          "bioguide": "S001209",
+          "name": "Rep. Spanberger, Abigail Davis [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2024-07-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 26
     },
     {
       "congress": 118,
@@ -1780,7 +5452,130 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/124?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001039",
+          "name": "Rep. Cammack, Kat [R-FL-3]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-2]",
+          "party": "R",
+          "state": "AL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2023-02-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-02-21",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-02-24",
+          "original": false
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-02-24",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-03-08",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2023-06-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
     },
     {
       "congress": 118,
@@ -1796,7 +5591,90 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1007?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "B001311",
+          "name": "Rep. Bishop, Dan [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-02-21",
+          "original": false
+        },
+        {
+          "bioguide": "W000828",
+          "name": "Rep. Williams, Brandon [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2023-02-24",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-03-08",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2023-06-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
     },
     {
       "congress": 118,
@@ -1812,7 +5690,66 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/1006?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-02-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2023-02-21",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-03-08",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2023-03-10",
+          "original": false
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-12-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
     },
     {
       "congress": 118,
@@ -1828,7 +5765,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/873?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2023-02-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2023-08-01",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2023-09-12",
+          "original": false
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2023-11-09",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2024-01-31",
+          "original": false
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-28]",
+          "party": "R",
+          "state": "FL",
+          "date": "2024-03-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 118,
@@ -1847,7 +5835,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/58?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1866,7 +5856,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/46?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1882,7 +5874,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/47?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1910,7 +5904,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/370?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1926,7 +5922,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/38?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -1949,7 +5947,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/325?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001208",
+          "name": "Rep. Slotkin, Elissa [D-MI-7]",
+          "party": "D",
+          "state": "MI",
+          "date": "2023-12-14",
+          "original": false
+        },
+        {
+          "bioguide": "S001209",
+          "name": "Rep. Spanberger, Abigail Davis [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2024-10-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -1965,7 +5982,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/7691?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -1987,7 +6006,58 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9581?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-12-15",
+          "original": true
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Rep. Guest, Michael [R-MS-3]",
+          "party": "R",
+          "state": "MS",
+          "date": "2022-12-15",
+          "original": true
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2022-12-15",
+          "original": true
+        },
+        {
+          "bioguide": "D000619",
+          "name": "Rep. Davis, Rodney [R-IL-13]",
+          "party": "R",
+          "state": "IL",
+          "date": "2022-12-15",
+          "original": true
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-12-15",
+          "original": true
+        },
+        {
+          "bioguide": "P000601",
+          "name": "Rep. Palazzo, Steven M. [R-MS-4]",
+          "party": "R",
+          "state": "MS",
+          "date": "2022-12-16",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 117,
@@ -2003,7 +6073,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9543?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2019,7 +6091,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1523?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2035,7 +6109,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9506?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2022-12-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2051,7 +6136,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9488?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2067,7 +6154,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1503?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2022-12-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-12-01",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2022-12-01",
+          "original": true
+        },
+        {
+          "bioguide": "W000823",
+          "name": "Rep. Waltz, Michael [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-12-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -2083,7 +6205,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9351?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-11-22",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-11-22",
+          "original": true
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D., Jr. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-11-22",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2022-11-22",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-11-22",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 117,
@@ -2111,7 +6276,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9301?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2127,7 +6294,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1465?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-11-14",
+          "original": true
+        },
+        {
+          "bioguide": "K000395",
+          "name": "Rep. Keller, Fred [R-PA-12]",
+          "party": "R",
+          "state": "PA",
+          "date": "2022-11-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2143,7 +6329,114 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/9045?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Rep. Budd, Ted [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "L000566",
+          "name": "Rep. Latta, Robert E. [R-OH-5]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001311",
+          "name": "Rep. Bishop, Dan [R-NC-9]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-10-04",
+          "original": false
+        },
+        {
+          "bioguide": "E000294",
+          "name": "Rep. Emmer, Tom [R-MN-6]",
+          "party": "R",
+          "state": "MN",
+          "date": "2022-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D., Jr. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-11-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 13
     },
     {
       "congress": 117,
@@ -2159,7 +6452,90 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/8808?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "C001104",
+          "name": "Rep. Cawthorn, Madison [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "R000103",
+          "name": "Rep. Rosendale Sr., Matthew M. [R-MT-At Large]",
+          "party": "R",
+          "state": "MT",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "H001082",
+          "name": "Rep. Hern, Kevin [R-OK-1]",
+          "party": "R",
+          "state": "OK",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001190",
+          "name": "Rep. Mullin, Markwayne [R-OK-2]",
+          "party": "R",
+          "state": "OK",
+          "date": "2022-09-13",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-09-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 10
     },
     {
       "congress": 117,
@@ -2175,7 +6551,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/8660?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2022-08-05",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-39]",
+          "party": "R",
+          "state": "CA",
+          "date": "2022-08-05",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2191,7 +6586,130 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1311?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "L000591",
+          "name": "Rep. Luria, Elaine G. [D-VA-2]",
+          "party": "D",
+          "state": "VA",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "P000616",
+          "name": "Rep. Phillips, Dean [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "G000588",
+          "name": "Rep. Gonzalez, Anthony [R-OH-16]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-2]",
+          "party": "R",
+          "state": "AL",
+          "date": "2022-08-02",
+          "original": true
+        },
+        {
+          "bioguide": "C001039",
+          "name": "Rep. Cammack, Kat [R-FL-3]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-08-05",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2022-08-05",
+          "original": false
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Rep. Budd, Ted [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-08-05",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2022-09-20",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
     },
     {
       "congress": 117,
@@ -2207,7 +6725,58 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/8611?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000482",
+          "name": "Rep. Doyle, Michael F. [D-PA-18]",
+          "party": "D",
+          "state": "PA",
+          "date": "2022-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2022-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2022-08-02",
+          "original": false
+        },
+        {
+          "bioguide": "G000588",
+          "name": "Rep. Gonzalez, Anthony [R-OH-16]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-08-02",
+          "original": false
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-08-16",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-8]",
+          "party": "R",
+          "state": "CA",
+          "date": "2022-09-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     },
     {
       "congress": 117,
@@ -2223,7 +6792,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/8562?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000480",
+          "name": "Rep. Timmons, William R. IV [R-SC-4]",
+          "party": "R",
+          "state": "SC",
+          "date": "2022-07-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2239,7 +6819,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/8157?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001051",
+          "name": "Rep. Carter, John R. [R-TX-31]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-06-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2255,7 +6846,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1194?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-06-21",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-4]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-06-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 117,
@@ -2271,7 +6881,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/7860?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000626",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-05-20",
+          "original": true
+        },
+        {
+          "bioguide": "S001183",
+          "name": "Rep. Schweikert, David [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2022-05-20",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-39]",
+          "party": "R",
+          "state": "CA",
+          "date": "2022-05-20",
+          "original": true
+        },
+        {
+          "bioguide": "E000294",
+          "name": "Rep. Emmer, Tom [R-MN-6]",
+          "party": "R",
+          "state": "MN",
+          "date": "2022-05-20",
+          "original": true
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-05-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 117,
@@ -2287,7 +6940,106 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/7741?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001084",
+          "name": "Rep. Herrell, Yvette [R-NM-2]",
+          "party": "R",
+          "state": "NM",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "L000564",
+          "name": "Rep. Lamborn, Doug [R-CO-5]",
+          "party": "R",
+          "state": "CO",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "H001071",
+          "name": "Rep. Hice, Jody B. [R-GA-10]",
+          "party": "R",
+          "state": "GA",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "F000470",
+          "name": "Rep. Fischbach, Michelle [R-MN-7]",
+          "party": "R",
+          "state": "MN",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001311",
+          "name": "Rep. Bishop, Dan [R-NC-9]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-05-12",
+          "original": true
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-05-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
     },
     {
       "congress": 117,
@@ -2303,7 +7055,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/7206?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "L000586",
+          "name": "Rep. Lawson, Al, Jr. [D-FL-5]",
+          "party": "D",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-25]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 117,
@@ -2365,7 +7184,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/7207?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000563",
+          "name": "Rep. Gibbs, Bob [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-25]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-24",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -2381,7 +7235,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/953?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -2397,7 +7253,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/6409?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001305",
+          "name": "Rep. Budd, Ted [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2022-01-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001195",
+          "name": "Rep. Mooney, Alexander X. [R-WV-2]",
+          "party": "R",
+          "state": "WV",
+          "date": "2022-01-14",
+          "original": true
+        },
+        {
+          "bioguide": "A000375",
+          "name": "Rep. Arrington, Jodey C. [R-TX-19]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-01-14",
+          "original": true
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-03-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -2413,7 +7304,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/6217?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2021-12-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -2436,7 +7338,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/766?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-11-03",
+          "original": true
+        },
+        {
+          "bioguide": "D000627",
+          "name": "Rep. Demings, Val Butler [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2021-11-03",
+          "original": true
+        },
+        {
+          "bioguide": "O000171",
+          "name": "Rep. O'Halleran, Tom [D-AZ-1]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2021-11-04",
+          "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-4]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-11-04",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -2452,7 +7389,90 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/5814?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001039",
+          "name": "Rep. Cammack, Kat [R-FL-3]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+          "party": "R",
+          "state": "WI",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Rep. Jackson, Ronny [R-TX-13]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "T000480",
+          "name": "Rep. Timmons, William R. IV [R-SC-4]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Rep. Budd, Ted [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-11-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2022-07-13",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
     },
     {
       "congress": 117,
@@ -2474,7 +7494,122 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/748?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-3]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "M001202",
+          "name": "Rep. Murphy, Stephanie N. [D-FL-7]",
+          "party": "D",
+          "state": "FL",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "G000552",
+          "name": "Rep. Gohmert, Louie [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "C000266",
+          "name": "Rep. Chabot, Steve [R-OH-1]",
+          "party": "R",
+          "state": "OH",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-39]",
+          "party": "R",
+          "state": "CA",
+          "date": "2021-10-27",
+          "original": true
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-03-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
     },
     {
       "congress": 117,
@@ -2498,7 +7633,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/4513?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Velazquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2021-07-19",
+          "original": true
+        },
+        {
+          "bioguide": "C000266",
+          "name": "Rep. Chabot, Steve [R-OH-1]",
+          "party": "R",
+          "state": "OH",
+          "date": "2021-07-19",
+          "original": true
+        },
+        {
+          "bioguide": "H001085",
+          "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+          "party": "D",
+          "state": "PA",
+          "date": "2021-07-19",
+          "original": true
+        },
+        {
+          "bioguide": "P000616",
+          "name": "Rep. Phillips, Dean [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2021-07-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 117,
@@ -2514,7 +7684,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/5557?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-25]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-10-12",
+          "original": true
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-10-12",
+          "original": true
+        },
+        {
+          "bioguide": "M001195",
+          "name": "Rep. Mooney, Alexander X. [R-WV-2]",
+          "party": "R",
+          "state": "WV",
+          "date": "2021-10-12",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-10-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-10-12",
+          "original": true
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2021-10-12",
+          "original": true
+        },
+        {
+          "bioguide": "G000588",
+          "name": "Rep. Gonzalez, Anthony [R-OH-16]",
+          "party": "R",
+          "state": "OH",
+          "date": "2021-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "G000582",
+          "name": "Resident Commissioner González-Colón, Jenniffer [R-PR-At Large]",
+          "party": "R",
+          "state": "PR",
+          "date": "2021-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 117,
@@ -2538,7 +7775,130 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/4132?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-22]",
+          "party": "R",
+          "state": "NY",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "H001082",
+          "name": "Rep. Hern, Kevin [R-OK-1]",
+          "party": "R",
+          "state": "OK",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000595",
+          "name": "Rep. Good, Bob [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2021-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "B001274",
+          "name": "Rep. Brooks, Mo [R-AL-5]",
+          "party": "R",
+          "state": "AL",
+          "date": "2021-07-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001299",
+          "name": "Rep. Banks, Jim [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2021-07-19",
+          "original": false
+        },
+        {
+          "bioguide": "F000246",
+          "name": "Rep. Fallon, Pat [R-TX-4]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-07-22",
+          "original": false
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2021-07-27",
+          "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2022-05-11",
+          "original": false
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2022-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
     },
     {
       "congress": 117,
@@ -2554,7 +7914,90 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/4044?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "G000578",
+          "name": "Rep. Gaetz, Matt [R-FL-1]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "H001084",
+          "name": "Rep. Herrell, Yvette [R-NM-2]",
+          "party": "R",
+          "state": "NM",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-17]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "G000563",
+          "name": "Rep. Gibbs, Bob [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-06-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001172",
+          "name": "Rep. Smith, Adrian [R-NE-3]",
+          "party": "R",
+          "state": "NE",
+          "date": "2021-06-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Rep. Budd, Ted [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2021-09-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
     },
     {
       "congress": 117,
@@ -2586,7 +8029,186 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/3035?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001299",
+          "name": "Rep. Banks, Jim [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Rep. Budd, Ted [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "D000616",
+          "name": "Rep. DesJarlais, Scott [R-TN-4]",
+          "party": "R",
+          "state": "TN",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001067",
+          "name": "Rep. Hudson, Richard [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "F000246",
+          "name": "Rep. Fallon, Pat [R-TX-4]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-1]",
+          "party": "R",
+          "state": "IA",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001052",
+          "name": "Rep. Harris, Andy [R-MD-1]",
+          "party": "R",
+          "state": "MD",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "W000813",
+          "name": "Rep. Walorski, Jackie [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "D000615",
+          "name": "Rep. Duncan, Jeff [R-SC-3]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001088",
+          "name": "Rep. Hagedorn, Jim [R-MN-1]",
+          "party": "R",
+          "state": "MN",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, C. Scott [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-05-07",
+          "original": true
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-05-11",
+          "original": false
+        },
+        {
+          "bioguide": "Z000017",
+          "name": "Rep. Zeldin, Lee M. [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2021-05-12",
+          "original": false
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+          "party": "R",
+          "state": "WI",
+          "date": "2021-05-12",
+          "original": false
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-05-12",
+          "original": false
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Rep. Jackson, Ronny [R-TX-13]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-05-12",
+          "original": false
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2021-05-25",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2021-05-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 22
     },
     {
       "congress": 117,
@@ -2617,7 +8239,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/1955?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001299",
+          "name": "Rep. Banks, Jim [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2021-03-19",
+          "original": false
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2021-09-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 117,
@@ -2640,7 +8305,82 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/1954?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000578",
+          "name": "Rep. Gaetz, Matt [R-FL-1]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000599",
+          "name": "Rep. Posey, Bill [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000588",
+          "name": "Rep. Gonzalez, Anthony [R-OH-16]",
+          "party": "R",
+          "state": "OH",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001111",
+          "name": "Rep. Crist, Charlie [D-FL-13]",
+          "party": "D",
+          "state": "FL",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-03-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2021-04-19",
+          "original": false
+        },
+        {
+          "bioguide": "S001209",
+          "name": "Rep. Spanberger, Abigail Davis [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2021-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2021-12-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
     }
   ]
 }

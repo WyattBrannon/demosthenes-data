@@ -3,7 +3,7 @@
     "bioguide": "F000481",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T03:11:27Z",
+    "generated_at": "2025-08-21T19:00:43Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -21,7 +21,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4653?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -37,7 +39,50 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4654?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "G000585",
+          "name": "Rep. Gomez, Jimmy [D-CA-34]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-07-23",
+          "original": true
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-07-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000491",
+          "name": "Rep. Tran, Derek [D-CA-45]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-07-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Rep. Schneider, Bradley Scott [D-IL-10]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-07-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-07-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -53,7 +98,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4560?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -69,7 +125,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4401?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "E000235",
+          "name": "Rep. Ezell, Mike [R-MS-4]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-07-15",
+          "original": true
+        },
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-07-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -85,7 +168,146 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3962?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-12",
+          "original": true
+        },
+        {
+          "bioguide": "L000560",
+          "name": "Rep. Larsen, Rick [D-WA-2]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-06-12",
+          "original": true
+        },
+        {
+          "bioguide": "H001099",
+          "name": "Rep. Haridopolos, Mike [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-12",
+          "original": true
+        },
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-06-12",
+          "original": true
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-06-12",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-06-26",
+          "original": false
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-07-15",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-07-25",
+          "original": false
+        },
+        {
+          "bioguide": "G000604",
+          "name": "Rep. Goodlander, Maggie [D-NH-2]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-07-25",
+          "original": false
+        },
+        {
+          "bioguide": "P000614",
+          "name": "Rep. Pappas, Chris [D-NH-1]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-08-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -101,7 +323,98 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3281?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000477",
+          "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "I000058",
+          "name": "Rep. Ivey, Glenn [D-MD-4]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Rep. Kelly, Robin L. [D-IL-2]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-05-13",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -117,7 +430,98 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3063?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "J000311",
+          "name": "Rep. Jack, Brian [R-GA-3]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "R000575",
+          "name": "Rep. Rogers, Mike D. [R-AL-3]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-06-25",
+          "original": false
+        },
+        {
+          "bioguide": "A000055",
+          "name": "Rep. Aderholt, Robert B. [R-AL-4]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-07-14",
+          "original": false
+        },
+        {
+          "bioguide": "S001220",
+          "name": "Rep. Strong, Dale W. [R-AL-5]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-07-16",
+          "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-08-15",
+          "original": false
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-08-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -133,7 +537,98 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2046?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-03-11",
+          "original": true
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Rep. Kelly, Robin L. [D-IL-2]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "G000553",
+          "name": "Rep. Green, Al [D-TX-9]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Rep. Underwood, Lauren [D-IL-14]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "C001130",
+          "name": "Rep. Crockett, Jasmine [D-TX-30]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-04-07",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     }
   ]
 }
