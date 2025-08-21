@@ -54,6 +54,23 @@
     "congress_gov": null,
     "congress_legislators": null
   },
+  "dw_nominate": [
+    {
+      "congress": 117,
+      "dim1": -0.293,
+      "dim2": -0.276
+    },
+    {
+      "congress": 118,
+      "dim1": -0.293,
+      "dim2": -0.276
+    },
+    {
+      "congress": 119,
+      "dim1": -0.293,
+      "dim2": -0.276
+    }
+  ],
   "key_votes": [
     {
       "date": "2025-07-18",
@@ -557,7 +574,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4438?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -578,7 +597,58 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/409?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-01-15",
+          "original": true
+        },
+        {
+          "bioguide": "M000312",
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-01-15",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-01-28",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-01-31",
+          "original": false
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-01-31",
+          "original": false
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-02-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     }
   ],
   "work_statistics": {

@@ -54,6 +54,23 @@
     "congress_gov": null,
     "congress_legislators": null
   },
+  "dw_nominate": [
+    {
+      "congress": 117,
+      "dim1": 0.296,
+      "dim2": 0.312
+    },
+    {
+      "congress": 118,
+      "dim1": 0.296,
+      "dim2": 0.312
+    },
+    {
+      "congress": 119,
+      "dim1": 0.296,
+      "dim2": 0.312
+    }
+  ],
   "key_votes": [
     {
       "date": "2025-07-18",
@@ -560,7 +577,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4754?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -592,7 +611,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/634?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-22",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -612,7 +642,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/319?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     }
   ],
   "work_statistics": {
