@@ -37,8 +37,8 @@
     "dw_nominate_dim1": -0.415,
     "dw_nominate_dim2": 0.102,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9762,
-    "maverick_votes": 5,
+    "party_unity_pct": 1.0,
+    "maverick_votes": 0,
     "total_votes": 210,
     "missed_votes": 7,
     "dim1_median_party": -0.381,
@@ -47,7 +47,7 @@
     "dim1_percentile_party": 60,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 58,
+    "party_unity_percentile_party": 50,
     "reliability_percentile_party": 35
   },
   "generated_at": "2025-08-22",
@@ -113,113 +113,7 @@
       "dim2": 0.219
     }
   ],
-  "maverick_votes": [
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Agree",
-      "vote_result": "Passed",
-      "vote_desc": "Denouncing the antisemitic terrorist attack in Boulder, Colorado",
-      "vote_question": "On Motion to Suspend the Rules and Agree",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 280,
-      "nay": 113,
-      "present": 0,
-      "bill": {
-        "code": "HRES488",
-        "type": null,
-        "number": "HRES488",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-27",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "DETERRENT Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 241,
-      "nay": 169,
-      "present": 0,
-      "bill": {
-        "code": "HR1048",
-        "type": null,
-        "number": "HR1048",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "HALT Fentanyl Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 312,
-      "nay": 108,
-      "present": 0,
-      "bill": {
-        "code": "HR27",
-        "type": null,
-        "number": "HR27",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-09",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Illegitimate Court Counteraction Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 243,
-      "nay": 140,
-      "present": 0,
-      "bill": {
-        "code": "HR23",
-        "type": null,
-        "number": "HR23",
-        "congress": 119,
-        "title": ""
-      }
-    }
-  ],
+  "maverick_votes": [],
   "missed_votes": [
     {
       "date": "2025-07-14",
@@ -432,7 +326,7 @@
       "member_position": "Yea",
       "eligible": true,
       "recorded": true,
-      "maverick_vote": true,
+      "maverick_vote": false,
       "yea": 308,
       "nay": 122,
       "present": 0,

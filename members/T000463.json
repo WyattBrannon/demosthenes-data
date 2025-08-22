@@ -41,8 +41,8 @@
     "dw_nominate_dim1": 0.266,
     "dw_nominate_dim2": 0.254,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9809,
-    "maverick_votes": 4,
+    "party_unity_pct": 1.0,
+    "maverick_votes": 0,
     "total_votes": 209,
     "missed_votes": 8,
     "dim1_median_party": 0.504,
@@ -51,7 +51,7 @@
     "dim1_percentile_party": 5,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 36,
+    "party_unity_percentile_party": 50,
     "reliability_percentile_party": 32
   },
   "generated_at": "2025-08-22",
@@ -122,92 +122,7 @@
       "dim2": 0.259
     }
   ],
-  "maverick_votes": [
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Relating to consideration of the Senate amendment to the bill (H.R. 4) to rescind certain budget authority proposed to be rescinded in special messages transmitted to the Congress by the President on June 3, 2025, in accordance with section 1012(a) of the Congressional Budget and Impoundment Control Act of 1974",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 216,
-      "nay": 213,
-      "present": 0,
-      "bill": {
-        "code": "HRES590",
-        "type": null,
-        "number": "HRES590",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Rescissions Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 214,
-      "nay": 212,
-      "present": 0,
-      "bill": {
-        "code": "HR4",
-        "type": null,
-        "number": "HR4",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-09",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the Senate amendment to the concurrent resolution (H. Con. Res. 14) establishing the congressional budget for the United States Government for fiscal year 2025 and setting forth the appropriate budgetary levels for fiscal years 2026 through 2034, and for other purposes",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 216,
-      "nay": 215,
-      "present": 0,
-      "bill": {
-        "code": "HRES313",
-        "type": null,
-        "number": "HRES313",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-09",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "No Rogue Rulings Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 219,
-      "nay": 213,
-      "present": 0,
-      "bill": {
-        "code": "HR1526",
-        "type": null,
-        "number": "HR1526",
-        "congress": 119,
-        "title": ""
-      }
-    }
-  ],
+  "maverick_votes": [],
   "missed_votes": [
     {
       "date": "2025-03-31",
@@ -591,7 +506,7 @@
       "member_position": "Nay",
       "eligible": true,
       "recorded": true,
-      "maverick_vote": true,
+      "maverick_vote": false,
       "yea": 219,
       "nay": 213,
       "present": 0,

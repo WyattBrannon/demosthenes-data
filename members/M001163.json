@@ -33,8 +33,8 @@
     "dw_nominate_dim1": -0.434,
     "dw_nominate_dim2": -0.142,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.977,
-    "maverick_votes": 5,
+    "party_unity_pct": 1.0,
+    "maverick_votes": 0,
     "total_votes": 217,
     "missed_votes": 0,
     "dim1_median_party": -0.381,
@@ -43,7 +43,7 @@
     "dim1_percentile_party": 68,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 62,
+    "party_unity_percentile_party": 50,
     "reliability_percentile_party": 93
   },
   "generated_at": "2025-08-22",
@@ -109,113 +109,7 @@
       "dim2": 0.062
     }
   ],
-  "maverick_votes": [
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-24",
-      "chamber": "house",
-      "question": "On Motion to Table",
-      "vote_result": "Passed",
-      "vote_desc": "Impeaching Donald J. Trump, President of the United States, for high crimes and misdemeanors",
-      "vote_question": "On Motion to Table",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 344,
-      "nay": 79,
-      "present": 0,
-      "bill": {
-        "code": "HRES537",
-        "type": null,
-        "number": "HRES537",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "HALT Fentanyl Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 321,
-      "nay": 104,
-      "present": 0,
-      "bill": {
-        "code": "S331",
-        "type": null,
-        "number": "S331",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-04",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "SUPPORT for Patients and Communities Reauthorization Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 366,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR2483",
-        "type": null,
-        "number": "HR2483",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-23",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Fix Our Forests Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 279,
-      "nay": 141,
-      "present": 0,
-      "bill": {
-        "code": "HR471",
-        "type": null,
-        "number": "HR471",
-        "congress": 119,
-        "title": ""
-      }
-    }
-  ],
+  "maverick_votes": [],
   "missed_votes": [],
   "key_votes": [
     {
@@ -280,7 +174,7 @@
       "member_position": "Yea",
       "eligible": true,
       "recorded": true,
-      "maverick_vote": true,
+      "maverick_vote": false,
       "yea": 308,
       "nay": 122,
       "present": 0,

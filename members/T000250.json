@@ -77,8 +77,8 @@
     "dw_nominate_dim1": 0.433,
     "dw_nominate_dim2": 0.226,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.996,
-    "maverick_votes": 2,
+    "party_unity_pct": 1.0,
+    "maverick_votes": 0,
     "total_votes": 498,
     "missed_votes": 1,
     "dim1_median_party": 0.504,
@@ -87,7 +87,7 @@
     "dim1_percentile_party": 30,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 75,
+    "party_unity_percentile_party": 50,
     "reliability_percentile_party": 86
   },
   "generated_at": "2025-08-22",
@@ -168,50 +168,7 @@
       "dim2": 0.181
     }
   ],
-  "maverick_votes": [
-    {
-      "date": "2025-05-08",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Rejected",
-      "vote_desc": "A bill to provide for the regulation of payment stablecoins, and for other purposes.",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 48,
-      "nay": 49,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-14",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Rejected",
-      "vote_desc": "To reduce the amount appropriated for the United States Agency for International Development.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 27,
-      "nay": 73,
-      "present": 0,
-      "bill": {
-        "code": "HR1968",
-        "type": null,
-        "number": "HR1968",
-        "congress": 119,
-        "title": ""
-      }
-    }
-  ],
+  "maverick_votes": [],
   "missed_votes": [
     {
       "date": "2025-04-09",

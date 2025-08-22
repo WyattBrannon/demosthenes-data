@@ -20,8 +20,8 @@
     "dw_nominate_dim1": -0.489,
     "dw_nominate_dim2": -0.179,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9832,
-    "maverick_votes": 3,
+    "party_unity_pct": 1.0,
+    "maverick_votes": 0,
     "total_votes": 179,
     "missed_votes": 38,
     "dim1_median_party": -0.381,
@@ -30,7 +30,7 @@
     "dim1_percentile_party": 84,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 71,
+    "party_unity_percentile_party": 50,
     "reliability_percentile_party": 4
   },
   "generated_at": "2025-08-22",
@@ -141,71 +141,7 @@
       "dim2": -0.002
     }
   ],
-  "maverick_votes": [
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "CLARITY Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 294,
-      "nay": 134,
-      "present": 0,
-      "bill": {
-        "code": "HR3633",
-        "type": null,
-        "number": "HR3633",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-04",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "SUPPORT for Patients and Communities Reauthorization Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 366,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR2483",
-        "type": null,
-        "number": "HR2483",
-        "congress": 119,
-        "title": ""
-      }
-    }
-  ],
+  "maverick_votes": [],
   "missed_votes": [
     {
       "date": "2025-06-12",
@@ -481,7 +417,7 @@
       "member_position": "Yea",
       "eligible": true,
       "recorded": true,
-      "maverick_vote": true,
+      "maverick_vote": false,
       "yea": 308,
       "nay": 122,
       "present": 0,
@@ -506,7 +442,7 @@
       "member_position": "Yea",
       "eligible": true,
       "recorded": true,
-      "maverick_vote": true,
+      "maverick_vote": false,
       "yea": 294,
       "nay": 134,
       "present": 0,
