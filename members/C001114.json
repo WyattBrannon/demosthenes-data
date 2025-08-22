@@ -73,8 +73,8 @@
     "dw_nominate_dim1": 0.449,
     "dw_nominate_dim2": 0.115,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 1.0,
-    "maverick_votes": 0,
+    "party_unity_pct": 0.998,
+    "maverick_votes": 1,
     "total_votes": 496,
     "missed_votes": 3,
     "dim1_median_party": 0.504,
@@ -83,7 +83,7 @@
     "dim1_percentile_party": 34,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 50,
+    "party_unity_percentile_party": 20,
     "reliability_percentile_party": 77
   },
   "generated_at": "2025-08-22",
@@ -119,7 +119,176 @@
       "dim2": -0.193
     }
   ],
-  "maverick_votes": [],
+  "maverick_votes": [
+    {
+      "date": "2025-08-01",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To reduce the Agriculture discretionary appropriations by 2 percent across the board.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 14,
+      "nay": 81,
+      "present": 0,
+      "bill": {
+        "code": "HR3944",
+        "type": null,
+        "number": "HR3944",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To reduce funding for certain programs under the division making appropriations for Agriculture, Rural Development, Food and Drug Administration, and Related Agencies.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 15,
+      "nay": 81,
+      "present": 0,
+      "bill": {
+        "code": "HR3944",
+        "type": null,
+        "number": "HR3944",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To limit disclosures regarding earmarks.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 21,
+      "nay": 75,
+      "present": 0,
+      "bill": {
+        "code": "HR3944",
+        "type": null,
+        "number": "HR3944",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "chamber": "senate",
+      "question": "On the Motion",
+      "vote_result": "Motion Rejected",
+      "vote_desc": "To amend the Internal Revenue Code of 1986 to apply a 39.6 percent individual income tax rate, and to provide additional funding and specify eligible providers under the Rural Health Transformation Program.",
+      "vote_question": "On the Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 22,
+      "nay": 78,
+      "present": 0,
+      "bill": {
+        "code": "HR1",
+        "type": null,
+        "number": "HR1",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Agreed to",
+      "vote_desc": "To establish a deficit-neutral reserve fund relating to protecting Medicare and Medicaid.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 51,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES14",
+        "type": null,
+        "number": "HCONRES14",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To modify the debt limit instruction for the House of Representatives and the Senate.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 5,
+      "nay": 94,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES14",
+        "type": null,
+        "number": "HCONRES14",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To require an adequate amount of deficit reduction as part of reconciliation.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 24,
+      "nay": 76,
+      "present": 0,
+      "bill": {
+        "code": "SCONRES7",
+        "type": null,
+        "number": "SCONRES7",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Agreed to",
+      "vote_desc": "To establish a deficit-neutral reserve fund relating to protecting Medicare and Medicaid.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 51,
+      "nay": 49,
+      "present": 0,
+      "bill": {
+        "code": "SCONRES7",
+        "type": null,
+        "number": "SCONRES7",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "missed_votes": [
     {
       "date": "2025-07-14",

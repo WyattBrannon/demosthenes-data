@@ -101,8 +101,8 @@
     "dw_nominate_dim1": 0.427,
     "dw_nominate_dim2": 0.338,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 1.0,
-    "maverick_votes": 0,
+    "party_unity_pct": 0.998,
+    "maverick_votes": 1,
     "total_votes": 489,
     "missed_votes": 10,
     "dim1_median_party": 0.504,
@@ -111,7 +111,7 @@
     "dim1_percentile_party": 28,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 50,
+    "party_unity_percentile_party": 20,
     "reliability_percentile_party": 48
   },
   "generated_at": "2025-08-22",
@@ -187,7 +187,29 @@
       "dim2": 0.379
     }
   ],
-  "maverick_votes": [],
+  "maverick_votes": [
+    {
+      "date": "2025-03-14",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To reduce the amount appropriated for the United States Agency for International Development.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 27,
+      "nay": 73,
+      "present": 0,
+      "bill": {
+        "code": "HR1968",
+        "type": null,
+        "number": "HR1968",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "missed_votes": [
     {
       "date": "2025-06-10",

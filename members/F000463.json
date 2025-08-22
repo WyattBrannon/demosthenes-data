@@ -109,8 +109,8 @@
     "dw_nominate_dim1": 0.461,
     "dw_nominate_dim2": 0.333,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 1.0,
-    "maverick_votes": 0,
+    "party_unity_pct": 0.998,
+    "maverick_votes": 1,
     "total_votes": 495,
     "missed_votes": 4,
     "dim1_median_party": 0.504,
@@ -119,7 +119,7 @@
     "dim1_percentile_party": 37,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 50,
+    "party_unity_percentile_party": 20,
     "reliability_percentile_party": 75
   },
   "generated_at": "2025-08-22",
@@ -165,7 +165,71 @@
       "dim2": 0.357
     }
   ],
-  "maverick_votes": [],
+  "maverick_votes": [
+    {
+      "date": "2025-07-01",
+      "chamber": "senate",
+      "question": "On the Motion",
+      "vote_result": "Motion Rejected",
+      "vote_desc": "To amend the Internal Revenue Code of 1986 to apply a 39.6 percent individual income tax rate, and to provide additional funding and specify eligible providers under the Rural Health Transformation Program.",
+      "vote_question": "On the Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 22,
+      "nay": 78,
+      "present": 0,
+      "bill": {
+        "code": "HR1",
+        "type": null,
+        "number": "HR1",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To eliminate a program of qualified elementary and secondary education scholarships for public, private, or religious schools.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 50,
+      "nay": 50,
+      "present": 0,
+      "bill": {
+        "code": "HR1",
+        "type": null,
+        "number": "HR1",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "chamber": "senate",
+      "question": "On the Amendment",
+      "vote_result": "Amendment Rejected",
+      "vote_desc": "To reduce the amount appropriated for the United States Agency for International Development.",
+      "vote_question": "On the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 27,
+      "nay": 73,
+      "present": 0,
+      "bill": {
+        "code": "HR1968",
+        "type": null,
+        "number": "HR1968",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "missed_votes": [
     {
       "date": "2025-06-17",
