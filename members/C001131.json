@@ -54,7 +54,16 @@
     "maverick_votes_all": 81,
     "maverick_bipartisan_all": 8,
     "total_votes_all": 1425,
-    "missed_votes_all": 27
+    "missed_votes_all": 27,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 63,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 50,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 35
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -830,6 +839,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Summer Lynn Lee",
+      "distance": 0.018788294228055953
+    },
+    {
+      "name": "Delia Catalina Ramirez",
+      "distance": 0.024758836806279917
+    },
+    {
+      "name": "Rashida Tlaib",
+      "distance": 0.04753945729601889
+    },
+    {
+      "name": "Stacey E. Plaskett",
+      "distance": 0.0631981012372999
+    },
+    {
+      "name": "Christopher S. Murphy",
+      "distance": 0.08508818954473052
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "distance": 0.09464142856064671
+    },
+    {
+      "name": "Maxwell Alejandro Frost",
+      "distance": 0.10937092849564731
+    },
+    {
+      "name": "Ayanna Pressley",
+      "distance": 0.1097861557756714
+    },
+    {
+      "name": "Elizabeth Warren",
+      "distance": 0.14984325143295574
+    },
+    {
+      "name": "Maxine Elizabeth Dexter",
+      "distance": 0.1703202865192517
+    }
+  ]
 }

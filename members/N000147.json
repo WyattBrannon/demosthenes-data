@@ -62,7 +62,16 @@
     "maverick_votes_all": 10,
     "maverick_bipartisan_all": 3,
     "total_votes_all": 557,
-    "missed_votes_all": 133
+    "missed_votes_all": 133,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 84,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 99,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 0
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -664,6 +673,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Pablo Jos\u00e9 Hern\u00e1ndez Rivera",
+      "distance": 0.0
+    },
+    {
+      "name": "Bernard Sanders",
+      "distance": 0.08072174428244225
+    },
+    {
+      "name": "Yvette D. Clarke",
+      "distance": 0.10358571330062841
+    },
+    {
+      "name": "Jeff Merkley",
+      "distance": 0.11204463396343435
+    },
+    {
+      "name": "Al Green",
+      "distance": 0.11400438588054408
+    },
+    {
+      "name": "James P. McGovern",
+      "distance": 0.1183089176689568
+    },
+    {
+      "name": "Maxine Elizabeth Dexter",
+      "distance": 0.12348279232346507
+    },
+    {
+      "name": "Elizabeth Warren",
+      "distance": 0.14991330828182006
+    },
+    {
+      "name": "Chris Van Hollen",
+      "distance": 0.15901257811883937
+    },
+    {
+      "name": "Edward J. Markey",
+      "distance": 0.1864617923329067
+    }
+  ]
 }

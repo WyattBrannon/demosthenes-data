@@ -46,7 +46,16 @@
     "maverick_votes_all": 126,
     "maverick_bipartisan_all": 123,
     "total_votes_all": 2428,
-    "missed_votes_all": 25
+    "missed_votes_all": 25,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 23,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 23,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 71
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -811,6 +820,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Janelle S. Bynum",
+      "distance": 0.005385164807134509
+    },
+    {
+      "name": "Mike Levin",
+      "distance": 0.014866068747318493
+    },
+    {
+      "name": "Derek Truyen Tran",
+      "distance": 0.03492849839314597
+    },
+    {
+      "name": "Greg Stanton",
+      "distance": 0.03905124837953328
+    },
+    {
+      "name": "Suhas Subramanyam",
+      "distance": 0.040224370722237494
+    },
+    {
+      "name": "Eric Sorensen",
+      "distance": 0.04280186911806539
+    },
+    {
+      "name": "Frank John Mrvan",
+      "distance": 0.04808326112068522
+    },
+    {
+      "name": "Angie Craig",
+      "distance": 0.06251399843235116
+    },
+    {
+      "name": "Patrick Ryan",
+      "distance": 0.06268173577685927
+    },
+    {
+      "name": "Dave Kunnghee Min",
+      "distance": 0.06673080248281148
+    }
+  ]
 }

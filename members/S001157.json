@@ -50,7 +50,16 @@
     "maverick_votes_all": 69,
     "maverick_bipartisan_all": 63,
     "total_votes_all": 2394,
-    "missed_votes_all": 419
+    "missed_votes_all": 419,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 28,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 60,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 71
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -711,6 +720,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Andy Kim",
+      "distance": 0.024738633753705986
+    },
+    {
+      "name": "Debbie Wasserman Schultz",
+      "distance": 0.03699999999999998
+    },
+    {
+      "name": "Cleo Fields",
+      "distance": 0.04242640687119287
+    },
+    {
+      "name": "Ben Ray Luj\u00e1n",
+      "distance": 0.06747592163134931
+    },
+    {
+      "name": "Sheila Cherfilus-McCormick",
+      "distance": 0.07134423592694786
+    },
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.0721110255092798
+    },
+    {
+      "name": "Martin Heinrich",
+      "distance": 0.07223572523343282
+    },
+    {
+      "name": "Ro Khanna",
+      "distance": 0.08729833904490969
+    },
+    {
+      "name": "Joe Neguse",
+      "distance": 0.08928605714219888
+    },
+    {
+      "name": "Timothy Kennedy",
+      "distance": 0.09300000000000003
+    }
+  ]
 }

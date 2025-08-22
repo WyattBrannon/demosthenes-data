@@ -54,7 +54,16 @@
     "maverick_votes_all": 55,
     "maverick_bipartisan_all": 10,
     "total_votes_all": 2365,
-    "missed_votes_all": 121
+    "missed_votes_all": 121,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 91,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 48,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 6
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -899,6 +908,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.04477722635447621
+    },
+    {
+      "name": "Ben Ray Luj\u00e1n",
+      "distance": 0.04492215489043244
+    },
+    {
+      "name": "Pete Aguilar",
+      "distance": 0.057428216061444916
+    },
+    {
+      "name": "Ted Lieu",
+      "distance": 0.057428216061444916
+    },
+    {
+      "name": "Juan Vargas",
+      "distance": 0.06937578828380975
+    },
+    {
+      "name": "Kathy Castor",
+      "distance": 0.08134494452638094
+    },
+    {
+      "name": "Lois Frankel",
+      "distance": 0.08778382538941898
+    },
+    {
+      "name": "Joe Neguse",
+      "distance": 0.089
+    },
+    {
+      "name": "Raul Ruiz",
+      "distance": 0.09580187889597995
+    },
+    {
+      "name": "David Scott",
+      "distance": 0.10780074211247342
+    }
+  ]
 }

@@ -62,7 +62,16 @@
     "maverick_votes_all": 17,
     "maverick_bipartisan_all": 8,
     "total_votes_all": 2445,
-    "missed_votes_all": 7
+    "missed_votes_all": 7,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 65,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 84,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 93
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -647,6 +656,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.05126402247190521
+    },
+    {
+      "name": "Sydney Kai Kamlager-Dove",
+      "distance": 0.06767569726275446
+    },
+    {
+      "name": "Ben Ray Luj\u00e1n",
+      "distance": 0.0873212459828649
+    },
+    {
+      "name": "Jimmy Gomez",
+      "distance": 0.089
+    },
+    {
+      "name": "David Scott",
+      "distance": 0.08928605714219888
+    },
+    {
+      "name": "Andy Kim",
+      "distance": 0.11146299834474223
+    },
+    {
+      "name": "Ro Khanna",
+      "distance": 0.11851160280748889
+    },
+    {
+      "name": "Zoe Lofgren",
+      "distance": 0.12101652779682617
+    },
+    {
+      "name": "Debbie Wasserman Schultz",
+      "distance": 0.12159358535712317
+    },
+    {
+      "name": "Juan Vargas",
+      "distance": 0.12624579200908043
+    }
+  ]
 }

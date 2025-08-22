@@ -54,7 +54,16 @@
     "maverick_votes_all": 44,
     "maverick_bipartisan_all": 7,
     "total_votes_all": 2403,
-    "missed_votes_all": 45
+    "missed_votes_all": 45,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 58,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 84,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 93
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -611,6 +620,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Linda T. S\u00e1nchez",
+      "distance": 0.005656854249492383
+    },
+    {
+      "name": "Jared Huffman",
+      "distance": 0.01992485884517128
+    },
+    {
+      "name": "Dwight Evans",
+      "distance": 0.027856776554368246
+    },
+    {
+      "name": "Judy M. Chu",
+      "distance": 0.04850773134253961
+    },
+    {
+      "name": "Adam Smith",
+      "distance": 0.05700877125495684
+    },
+    {
+      "name": "Shontel M. Brown",
+      "distance": 0.07169379331573963
+    },
+    {
+      "name": "Doris O. Matsui",
+      "distance": 0.08884255736976505
+    },
+    {
+      "name": "Alejandro Padilla",
+      "distance": 0.10020977996183801
+    },
+    {
+      "name": "Luz Maria Rivas",
+      "distance": 0.10331021246711292
+    },
+    {
+      "name": "Jamie Raskin",
+      "distance": 0.10783784122468326
+    }
+  ]
 }

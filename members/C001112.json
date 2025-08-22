@@ -62,7 +62,16 @@
     "maverick_votes_all": 27,
     "maverick_bipartisan_all": 26,
     "total_votes_all": 2439,
-    "missed_votes_all": 42
+    "missed_votes_all": 42,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 33,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 60,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 71
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -741,6 +750,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.007071067811865481
+    },
+    {
+      "name": "Shri Thanedar",
+      "distance": 0.027892651361962676
+    },
+    {
+      "name": "Norma J. Torres",
+      "distance": 0.03114482300479487
+    },
+    {
+      "name": "Marilyn Strickland",
+      "distance": 0.035014282800023194
+    },
+    {
+      "name": "Jahana Hayes",
+      "distance": 0.046324939287601875
+    },
+    {
+      "name": "Seth Moulton",
+      "distance": 0.0526972485050216
+    },
+    {
+      "name": "Nancy Pelosi",
+      "distance": 0.06053924347066124
+    },
+    {
+      "name": "Angela Deneece Alsobrooks",
+      "distance": 0.07155417527999328
+    },
+    {
+      "name": "Scott H. Peters",
+      "distance": 0.07280109889280519
+    },
+    {
+      "name": "Grace Meng",
+      "distance": 0.09708243919473798
+    }
+  ]
 }

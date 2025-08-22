@@ -54,7 +54,16 @@
     "maverick_votes_all": 56,
     "maverick_bipartisan_all": 45,
     "total_votes_all": 1439,
-    "missed_votes_all": 13
+    "missed_votes_all": 13,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 6,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 68,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 71
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -683,6 +692,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Michael F. Bennet",
+      "distance": 0.010816653826391978
+    },
+    {
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.02662705391138872
+    },
+    {
+      "name": "Johnny Anthony Olszewski",
+      "distance": 0.03640054944640258
+    },
+    {
+      "name": "Valerie Anne Hoyle",
+      "distance": 0.039560080889704974
+    },
+    {
+      "name": "Steve Cohen",
+      "distance": 0.04011234224026314
+    },
+    {
+      "name": "Amy Jean Klobuchar",
+      "distance": 0.04123105625617659
+    },
+    {
+      "name": "Jonathan Luther Jackson",
+      "distance": 0.04420407221060071
+    },
+    {
+      "name": "Rick Larsen",
+      "distance": 0.05000999900019994
+    },
+    {
+      "name": "Jake Daniel Auchincloss",
+      "distance": 0.054405882034941774
+    },
+    {
+      "name": "Maria Cantwell",
+      "distance": 0.0721110255092798
+    }
+  ]
 }

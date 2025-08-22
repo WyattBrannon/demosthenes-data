@@ -58,7 +58,16 @@
     "maverick_votes_all": 129,
     "maverick_bipartisan_all": 98,
     "total_votes_all": 2274,
-    "missed_votes_all": 188
+    "missed_votes_all": 188,
+    "dim1_median_party": 0.504,
+    "dim2_median_party": -0.063,
+    "dim1_direction_party": "right",
+    "dim1_percentile_party": 30,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 61,
+    "party_unity_percentile_bp_party": 64,
+    "reliability_percentile_party": 12
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -804,6 +813,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Doug LaMalfa",
+      "distance": 0.00824621125123533
+    },
+    {
+      "name": "Tim Walberg",
+      "distance": 0.01044030650891056
+    },
+    {
+      "name": "Bruce Westerman",
+      "distance": 0.01140175425099139
+    },
+    {
+      "name": "Ashley Hinson",
+      "distance": 0.01140175425099139
+    },
+    {
+      "name": "Robert E. Latta",
+      "distance": 0.01140175425099139
+    },
+    {
+      "name": "Roger F. Wicker",
+      "distance": 0.038275318418009276
+    },
+    {
+      "name": "Lindsey O. Graham",
+      "distance": 0.039824615503479766
+    },
+    {
+      "name": "Cindy Hyde-Smith",
+      "distance": 0.039824615503479766
+    },
+    {
+      "name": "Shelley Moore Capito",
+      "distance": 0.039824615503479766
+    },
+    {
+      "name": "Tom Emmer",
+      "distance": 0.06016643582596535
+    }
+  ]
 }

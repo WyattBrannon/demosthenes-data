@@ -90,7 +90,16 @@
     "maverick_votes_all": 46,
     "maverick_bipartisan_all": 26,
     "total_votes_all": 2052,
-    "missed_votes_all": 180
+    "missed_votes_all": 180,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 48,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 25,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 66
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -1092,6 +1101,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.03753664875824691
+    },
+    {
+      "name": "Jimmy Gomez",
+      "distance": 0.04492215489043244
+    },
+    {
+      "name": "David Scott",
+      "distance": 0.06747592163134931
+    },
+    {
+      "name": "Lois Frankel",
+      "distance": 0.07528612089887485
+    },
+    {
+      "name": "Cleo Fields",
+      "distance": 0.07624303246854758
+    },
+    {
+      "name": "Pete Aguilar",
+      "distance": 0.07871467461661773
+    },
+    {
+      "name": "Ted Lieu",
+      "distance": 0.07871467461661773
+    },
+    {
+      "name": "George Stephen Latimer",
+      "distance": 0.08570297544426335
+    },
+    {
+      "name": "Joe Neguse",
+      "distance": 0.0873212459828649
+    },
+    {
+      "name": "Andy Kim",
+      "distance": 0.08861715409558127
+    }
+  ]
 }

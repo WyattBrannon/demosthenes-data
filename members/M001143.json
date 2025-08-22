@@ -42,7 +42,16 @@
     "maverick_votes_all": 38,
     "maverick_bipartisan_all": 13,
     "total_votes_all": 2435,
-    "missed_votes_all": 306
+    "missed_votes_all": 306,
+    "dim1_median_party": -0.381,
+    "dim2_median_party": -0.0495,
+    "dim1_direction_party": "left",
+    "dim1_percentile_party": 62,
+    "dim2_direction_party": "left",
+    "dim2_percentile_party": 77,
+    "party_unity_percentile_party": 96,
+    "party_unity_percentile_bp_party": 90,
+    "reliability_percentile_party": 61
   },
   "generated_at": "2025-08-22",
   "source_versions": {
@@ -678,6 +687,50 @@
   "work_statistics": {
     "total_hr_sr": 0,
     "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0
-  }
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": null,
+    "bipartisan_rate_percentile_party": null
+  },
+  "ideologically_similar": [
+    {
+      "name": "Robert C. Scott",
+      "distance": 0.0010000000000000009
+    },
+    {
+      "name": "Donald S. Beyer",
+      "distance": 0.0010000000000000009
+    },
+    {
+      "name": "Lauren Underwood",
+      "distance": 0.0010000000000000009
+    },
+    {
+      "name": "Andr\u00e9 Carson",
+      "distance": 0.00509901951359279
+    },
+    {
+      "name": "Madeleine Dean",
+      "distance": 0.011999999999999983
+    },
+    {
+      "name": "Adriano Espaillat",
+      "distance": 0.028284271247461922
+    },
+    {
+      "name": "Debbie Dingell",
+      "distance": 0.03395585369269928
+    },
+    {
+      "name": "Alejandro Padilla",
+      "distance": 0.03982461550347975
+    },
+    {
+      "name": "Robert Julio Garcia",
+      "distance": 0.07432361670424817
+    },
+    {
+      "name": "Hakeem S. Jeffries",
+      "distance": 0.08421995013059555
+    }
+  ]
 }
