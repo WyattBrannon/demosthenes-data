@@ -77,17 +77,17 @@
     "maverick_bipartisan_all": 0,
     "total_votes_all": 214,
     "missed_votes_all": 3,
-    "dim1_median_party": 0.504,
-    "dim2_median_party": -0.063,
-    "pu_median_party": 99.055,
-    "pubp_median_party": 33.81,
+    "dim1_median_party": 0.47050000000000003,
+    "dim2_median_party": 0.1495,
+    "pu_median_party": 98.78,
+    "pubp_median_party": 8.365,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 67,
-    "dim2_direction_party": "left",
-    "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 26,
-    "party_unity_percentile_bp_party": 29,
-    "reliability_percentile_party": 62
+    "dim2_direction_party": "right",
+    "dim2_percentile_party": 100,
+    "party_unity_percentile_party": 21,
+    "party_unity_percentile_bp_party": 54,
+    "reliability_percentile_party": 54
   },
   "generated_at": "2025-08-23",
   "source_versions": {
@@ -1067,91 +1067,143 @@
     "total_hr_sr": 14,
     "total_hr_sr_bipartisan": 4,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 98,
-    "bipartisan_rate_percentile_party": 38
+    "passed_rate_percentile_party": 88,
+    "bipartisan_rate_percentile_party": 62
+  },
+  "district": {
+    "year": 2023,
+    "state_fips": "02",
+    "congressional_district": "00",
+    "name": "Congressional District (at Large) (118th Congress), Alaska",
+    "race": {
+      "white": 60.7,
+      "black": 3.1,
+      "asian": 3.7,
+      "nhpi": 0.3,
+      "other": 2.2,
+      "two_or_more": 1.5,
+      "hispanic_any_race": 92.9,
+      "not_hispanic": 92.9
+    },
+    "age": {
+      "under_18": 24.3,
+      "age_18_24": null,
+      "age_25_44": null,
+      "age_45_64": null,
+      "age_65_plus": 97815.0
+    },
+    "income": {
+      "under_25k": null,
+      "25k_50k": null,
+      "50k_100k": null,
+      "100k_200k": null,
+      "200k_plus": 13.8
+    },
+    "poverty_percent": null,
+    "education": {
+      "less_than_hs": null,
+      "hs_grad": 93.5,
+      "some_college": null,
+      "bachelors_plus": 31.2
+    },
+    "unemployment_percent": 5.8,
+    "housing": {
+      "median_home_value": null,
+      "median_gross_rent": null
+    },
+    "commute": {
+      "drive_alone": 65.6,
+      "carpool": 11.9,
+      "public_transit": 1.0,
+      "walked": 7.5,
+      "worked_at_home": 8.8,
+      "mean_travel_minutes": -888888888.0
+    },
+    "health_insurance_percent": 35.6,
+    "foreign_born_percent": null
   },
   "ideologically_similar": [
     {
-      "name": "Morgan Joe Luttrell",
-      "distance": 0.013601470508735444
+      "name": "Dusty Johnson",
+      "distance": 0.2270198229230214
     },
     {
-      "name": "Beth Ann Van Duyne",
-      "distance": 0.03228002478313795
+      "name": "Dan Sullivan",
+      "distance": 0.23365786954434042
     },
     {
-      "name": "Scott DesJarlais",
-      "distance": 0.03716180835212412
+      "name": "John A. Barrasso",
+      "distance": 0.23654597861726587
     },
     {
-      "name": "Ted Budd",
-      "distance": 0.04875448697299563
+      "name": "Mike Rounds",
+      "distance": 0.28217902119044924
     },
     {
-      "name": "Brad Finstad",
-      "distance": 0.06746851117373195
+      "name": "Cynthia M. Lummis",
+      "distance": 0.3070504844484047
     },
     {
-      "name": "Kevin R. Hern",
-      "distance": 0.07147027354082261
+      "name": "John Thune",
+      "distance": 0.3140143308831621
     },
     {
-      "name": "Russ Fulcher",
-      "distance": 0.07382411530116702
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.34620369726506384
     },
     {
-      "name": "Michelle Louise Helene Fischbach",
-      "distance": 0.07500666637039666
+      "name": "Julie Ann Fedorchak",
+      "distance": 0.353111880287254
     },
     {
-      "name": "Abraham Jamal Hamadeh",
-      "distance": 0.08091971329657568
+      "name": "Kevin Cramer",
+      "distance": 0.45629486080822784
     },
     {
-      "name": "Doug LaMalfa",
-      "distance": 0.08544003745317527
+      "name": "Lisa A. Murkowski",
+      "distance": 0.4903549734631026
     }
   ],
   "vote_record_similar": [
     {
-      "name": "Kevin Mullin",
-      "distance": 0.0008544003745317825
+      "name": "Becca A. Balint",
+      "distance": 0.024635137507227345
     },
     {
-      "name": "Beth Ann Van Duyne",
-      "distance": 0.003114482300479476
+      "name": "Julie Ann Fedorchak",
+      "distance": 0.027770487932335622
     },
     {
-      "name": "Gary J. Palmer",
-      "distance": 0.0047000000000000375
+      "name": "Dusty Johnson",
+      "distance": 0.041222566635278755
     },
     {
-      "name": "Jodey C. Arrington",
-      "distance": 0.0047010637094172135
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.05721022635858032
     },
     {
-      "name": "James Comer",
-      "distance": 0.004712748667179295
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.07101274533490455
     },
     {
-      "name": "Brian Timothy Jack",
-      "distance": 0.004716990566028335
+      "name": "Lisa A. Murkowski",
+      "distance": 0.17674968175360317
     },
     {
-      "name": "Alexandria Ocasio-Cortez",
-      "distance": 0.0047759815745037695
+      "name": "Christopher Andrew Coons",
+      "distance": 0.22324143880561248
     },
     {
-      "name": "Tracey Robert Mann",
-      "distance": 0.005100980297942733
+      "name": "Dan Sullivan",
+      "distance": 0.2461293359191464
     },
     {
-      "name": "Patrick Edward Fallon",
-      "distance": 0.005798275605729605
+      "name": "John Thune",
+      "distance": 0.2703278195080928
     },
     {
-      "name": "Mike Ezell",
-      "distance": 0.006646803743153521
+      "name": "Kevin Cramer",
+      "distance": 0.2718278315404808
     }
   ]
 }

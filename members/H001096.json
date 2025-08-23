@@ -57,17 +57,17 @@
     "maverick_bipartisan_all": 8,
     "total_votes_all": 1427,
     "missed_votes_all": 25,
-    "dim1_median_party": 0.504,
-    "dim2_median_party": -0.063,
-    "pu_median_party": 99.055,
-    "pubp_median_party": 33.81,
+    "dim1_median_party": 0.47050000000000003,
+    "dim2_median_party": 0.1495,
+    "pu_median_party": 98.78,
+    "pubp_median_party": 8.365,
     "dim1_direction_party": "right",
-    "dim1_percentile_party": 74,
-    "dim2_direction_party": "left",
-    "dim2_percentile_party": 77,
+    "dim1_percentile_party": 83,
+    "dim2_direction_party": "right",
+    "dim2_percentile_party": 100,
     "party_unity_percentile_party": 12,
-    "party_unity_percentile_bp_party": 29,
-    "reliability_percentile_party": 81
+    "party_unity_percentile_bp_party": 54,
+    "reliability_percentile_party": 88
   },
   "generated_at": "2025-08-23",
   "source_versions": {
@@ -804,88 +804,140 @@
     "passed_rate_percentile_party": null,
     "bipartisan_rate_percentile_party": null
   },
-  "ideologically_similar": [
-    {
-      "name": "Andy Harris",
-      "distance": 0.022203603311174536
+  "district": {
+    "year": 2023,
+    "state_fips": "56",
+    "congressional_district": "00",
+    "name": "Congressional District (at Large) (118th Congress), Wyoming",
+    "race": {
+      "white": 86.0,
+      "black": 0.9,
+      "asian": 0.2,
+      "nhpi": 0.0,
+      "other": 3.1,
+      "two_or_more": 0.6,
+      "hispanic_any_race": 89.6,
+      "not_hispanic": 89.6
     },
+    "age": {
+      "under_18": 22.8,
+      "age_18_24": null,
+      "age_25_44": null,
+      "age_45_64": null,
+      "age_65_plus": 104321.0
+    },
+    "income": {
+      "under_25k": null,
+      "25k_50k": null,
+      "50k_100k": null,
+      "100k_200k": null,
+      "200k_plus": 7.9
+    },
+    "poverty_percent": null,
+    "education": {
+      "less_than_hs": null,
+      "hs_grad": 94.1,
+      "some_college": null,
+      "bachelors_plus": 29.9
+    },
+    "unemployment_percent": 3.7,
+    "housing": {
+      "median_home_value": null,
+      "median_gross_rent": null
+    },
+    "commute": {
+      "drive_alone": 75.8,
+      "carpool": 9.7,
+      "public_transit": 0.9,
+      "walked": 3.4,
+      "worked_at_home": 8.5,
+      "mean_travel_minutes": -888888888.0
+    },
+    "health_insurance_percent": 43.7,
+    "foreign_born_percent": null
+  },
+  "ideologically_similar": [
     {
       "name": "Cynthia M. Lummis",
       "distance": 0.05780138406647371
     },
     {
-      "name": "Tim Burchett",
-      "distance": 0.05797413216254298
+      "name": "Nicholas Joseph Begich",
+      "distance": 0.34620369726506384
     },
     {
-      "name": "John J. McGuire",
-      "distance": 0.07602631123499279
+      "name": "Lisa A. Murkowski",
+      "distance": 0.45276152663405494
     },
     {
-      "name": "Scott Perry",
-      "distance": 0.1138859078200635
+      "name": "Mike Rounds",
+      "distance": 0.5447384693593799
     },
     {
-      "name": "Mike Allen Collins",
-      "distance": 0.11454256850621082
+      "name": "Dusty Johnson",
+      "distance": 0.5494406246356379
     },
     {
-      "name": "Lauren Opal Boebert",
-      "distance": 0.14380890097626084
+      "name": "Dan Sullivan",
+      "distance": 0.561943947382655
     },
     {
-      "name": "Russell William Fry",
-      "distance": 0.14762791064023087
+      "name": "John A. Barrasso",
+      "distance": 0.5799180976655237
     },
     {
-      "name": "Katherine Cammack",
-      "distance": 0.15376930773076922
+      "name": "John Thune",
+      "distance": 0.6402561987204809
     },
     {
-      "name": "Ben Cline",
-      "distance": 0.18329484444468153
+      "name": "Julie Ann Fedorchak",
+      "distance": 0.6960869198598691
+    },
+    {
+      "name": "Kevin Cramer",
+      "distance": 0.7886811776630656
     }
   ],
   "vote_record_similar": [
     {
-      "name": "Aaron Paul Bean",
-      "distance": 0.003324154027718952
+      "name": "Nicholas Joseph Begich",
+      "distance": 0.07101274533490455
     },
     {
-      "name": "Mark Everette Harris",
-      "distance": 0.004396589587396095
+      "name": "Becca A. Balint",
+      "distance": 0.09305321058405244
     },
     {
-      "name": "Ben Cline",
-      "distance": 0.0046000000000000485
+      "name": "Julie Ann Fedorchak",
+      "distance": 0.09877940068658042
     },
     {
-      "name": "Warren Davidson",
-      "distance": 0.0057384666941614655
+      "name": "Lisa A. Murkowski",
+      "distance": 0.1067723747043213
     },
     {
-      "name": "Barry Moore",
-      "distance": 0.0057384666941614655
+      "name": "Dusty Johnson",
+      "distance": 0.11165272052216196
     },
     {
-      "name": "Rashida Tlaib",
-      "distance": 0.00593043000127311
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.12220482805519593
     },
     {
-      "name": "Thomas P. Tiffany",
-      "distance": 0.006942621983083877
+      "name": "Christopher Andrew Coons",
+      "distance": 0.16548489357038002
     },
     {
-      "name": "Jeff George Crank",
-      "distance": 0.0093493315269061
+      "name": "Dan Sullivan",
+      "distance": 0.1983533211216792
     },
     {
-      "name": "Randall Adam Fine",
-      "distance": 0.009798469268207096
+      "name": "John Thune",
+      "distance": 0.22732395386320375
     },
     {
-      "name": "Mike Allen Collins",
-      "distance": 0.010375451797391739
+      "name": "Kevin Cramer",
+      "distance": 0.22918019111607352
     }
   ]
 }

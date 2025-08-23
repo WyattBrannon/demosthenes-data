@@ -97,17 +97,17 @@
     "maverick_bipartisan_all": 15,
     "total_votes_all": 4825,
     "missed_votes_all": 64,
-    "dim1_median_party": -0.381,
-    "dim2_median_party": -0.0495,
-    "pu_median_party": 97.09,
-    "pubp_median_party": 36.765,
+    "dim1_median_party": -0.39349999999999996,
+    "dim2_median_party": -0.3395,
+    "pu_median_party": 96.845,
+    "pubp_median_party": 9.175,
     "dim1_direction_party": "left",
-    "dim1_percentile_party": 49,
-    "dim2_direction_party": "left",
-    "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 48,
-    "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 85
+    "dim1_percentile_party": 33,
+    "dim2_direction_party": "right",
+    "dim2_percentile_party": 100,
+    "party_unity_percentile_party": 42,
+    "party_unity_percentile_bp_party": 50,
+    "reliability_percentile_party": 92
   },
   "generated_at": "2025-08-23",
   "source_versions": {
@@ -759,88 +759,140 @@
       "phone": "302-674-3308"
     }
   ],
+  "district": {
+    "year": 2023,
+    "state_fips": "10",
+    "congressional_district": "00",
+    "name": "Congressional District (at Large) (118th Congress), Delaware",
+    "race": {
+      "white": 61.8,
+      "black": 21.9,
+      "asian": 0.4,
+      "nhpi": 0.0,
+      "other": 4.1,
+      "two_or_more": 0.6,
+      "hispanic_any_race": 89.3,
+      "not_hispanic": 89.3
+    },
+    "age": {
+      "under_18": 20.9,
+      "age_18_24": null,
+      "age_25_44": null,
+      "age_45_64": null,
+      "age_65_plus": 201255.0
+    },
+    "income": {
+      "under_25k": null,
+      "25k_50k": null,
+      "50k_100k": null,
+      "100k_200k": null,
+      "200k_plus": 11.5
+    },
+    "poverty_percent": null,
+    "education": {
+      "less_than_hs": null,
+      "hs_grad": 91.4,
+      "some_college": null,
+      "bachelors_plus": 35.3
+    },
+    "unemployment_percent": 5.1,
+    "housing": {
+      "median_home_value": null,
+      "median_gross_rent": null
+    },
+    "commute": {
+      "drive_alone": 73.4,
+      "carpool": 7.9,
+      "public_transit": 1.8,
+      "walked": 2.0,
+      "worked_at_home": 13.3,
+      "mean_travel_minutes": -888888888.0
+    },
+    "health_insurance_percent": 46.3,
+    "foreign_born_percent": null
+  },
   "ideologically_similar": [
     {
-      "name": "Laura Syril Friedman",
-      "distance": 0.017720045146669368
+      "name": "Christopher Andrew Coons",
+      "distance": 0.16571059109181888
     },
     {
-      "name": "Joaquin Castro",
-      "distance": 0.023323807579381222
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.20858091954922434
     },
     {
-      "name": "Frank J. Pallone",
-      "distance": 0.033301651610693435
+      "name": "Peter Welch",
+      "distance": 0.2474772716836841
     },
     {
-      "name": "Sheldon Whitehouse",
-      "distance": 0.03820994634908562
+      "name": "Bernard Sanders",
+      "distance": 0.3296846978553903
     },
     {
-      "name": "Teresa Leger Fernandez",
-      "distance": 0.0604400529450463
+      "name": "Becca A. Balint",
+      "distance": 0.3376151655361471
     },
     {
-      "name": "Ted Lieu",
-      "distance": 0.06826419266350403
+      "name": "Lisa A. Murkowski",
+      "distance": 0.6074084293126001
     },
     {
-      "name": "Grace Meng",
-      "distance": 0.06972087205421341
+      "name": "Mike Rounds",
+      "distance": 0.7644462047783349
     },
     {
-      "name": "Chris Van Hollen",
-      "distance": 0.08766413177577247
+      "name": "Dusty Johnson",
+      "distance": 0.8895555069808742
     },
     {
-      "name": "Eric Swalwell",
-      "distance": 0.09148223871331529
+      "name": "John Thune",
+      "distance": 0.8903583548212483
     },
     {
-      "name": "Madeleine Dean",
-      "distance": 0.09831073186585482
+      "name": "Dan Sullivan",
+      "distance": 0.9054065385228892
     }
   ],
   "vote_record_similar": [
     {
-      "name": "Ron Wyden",
-      "distance": 0.006313477647065891
-    },
-    {
-      "name": "Brian Emanuel Schatz",
-      "distance": 0.006767569726275442
-    },
-    {
       "name": "Peter Welch",
       "distance": 0.011751595636338066
-    },
-    {
-      "name": "Tina Flint Smith",
-      "distance": 0.013013838787997964
-    },
-    {
-      "name": "Richard Blumenthal",
-      "distance": 0.013392908571329843
-    },
-    {
-      "name": "Mike Lee",
-      "distance": 0.013569450983735515
     },
     {
       "name": "Cynthia M. Lummis",
       "distance": 0.01388848443855554
     },
     {
-      "name": "Charles E. Schumer",
-      "distance": 0.014241137595009742
+      "name": "John A. Barrasso",
+      "distance": 0.025204959829366935
     },
     {
-      "name": "Patty Murray",
-      "distance": 0.014641379716406508
+      "name": "Bernard Sanders",
+      "distance": 0.0266101484400219
     },
     {
-      "name": "Tammy Duckworth",
-      "distance": 0.015473848907107759
+      "name": "John Thune",
+      "distance": 0.03574940558946401
+    },
+    {
+      "name": "Mike Rounds",
+      "distance": 0.03636165562787262
+    },
+    {
+      "name": "Kevin Cramer",
+      "distance": 0.03650534207482518
+    },
+    {
+      "name": "John Hoeven",
+      "distance": 0.036587566193995474
+    },
+    {
+      "name": "Dan Sullivan",
+      "distance": 0.04491414031237824
+    },
+    {
+      "name": "Christopher Andrew Coons",
+      "distance": 0.0824842409190992
     }
   ],
   "work_statistics": {
