@@ -3,10 +3,37 @@
     "bioguide": "A000370",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-22T03:11:32Z",
+    "generated_at": "2025-09-01T04:32:35Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "662",
+      "title": "Expressing support for the designation of the week of August 25 through August 31, 2025, as \"Black Breastfeeding Week\".",
+      "introducedDate": "2025-08-26",
+      "latestAction": {
+        "date": "2025-08-26",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/662?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-08-26",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hconres",
@@ -2588,7 +2615,7 @@
         "date": "2024-12-12",
         "text": "Referred to the House Committee on Oversight and Accountability."
       },
-      "policy_area": null,
+      "policy_area": "Arts, Culture, Religion",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/10383?format=json",
       "updateDate": null,
