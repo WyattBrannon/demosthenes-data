@@ -3,7 +3,7 @@
     "bioguide": "M001198",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T19:04:45Z",
+    "generated_at": "2025-09-01T02:59:14Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -3633,9 +3633,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4278?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2024-05-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
