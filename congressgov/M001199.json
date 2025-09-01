@@ -3,7 +3,7 @@
     "bioguide": "M001199",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-08-21T23:20:31Z",
+    "generated_at": "2025-09-01T04:05:03Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -683,8 +683,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1384?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "J000295",
+          "name": "Rep. Joyce, David P. [R-OH-14]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
