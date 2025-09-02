@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -821,13 +821,565 @@
       "phone": "509-850-5340"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "D000617",
+      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+      "count": 14
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 14
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 14
+    },
+    {
+      "bioguide": "K000382",
+      "name": "Rep. Kuster, Ann M. [D-NH-2]",
+      "count": 11
+    },
+    {
+      "bioguide": "T000469",
+      "name": "Rep. Tonko, Paul [D-NY-20]",
+      "count": 10
+    },
+    {
+      "bioguide": "P000597",
+      "name": "Rep. Pingree, Chellie [D-ME-1]",
+      "count": 10
+    },
+    {
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
+      "count": 10
+    },
+    {
+      "bioguide": "K000381",
+      "name": "Rep. Kilmer, Derek [D-WA-6]",
+      "count": 10
+    },
+    {
+      "bioguide": "S001185",
+      "name": "Rep. Sewell, Terri A. [D-AL-7]",
+      "count": 9
+    },
+    {
+      "bioguide": "S001159",
+      "name": "Rep. Strickland, Marilyn [D-WA-10]",
+      "count": 9
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "D000617",
+      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "T000469",
+      "name": "Rep. Tonko, Paul [D-NY-20]",
+      "count": 2
+    },
+    {
+      "bioguide": "V000129",
+      "name": "Rep. Valadao, David G. [R-CA-22]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001326",
+      "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+      "count": 1
+    },
+    {
+      "bioguide": "W000797",
+      "name": "Rep. Wasserman Schultz, Debbie [D-FL-23]",
+      "count": 1
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000560",
+      "name": "Rep. Larsen, Rick [D-WA-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "N000189",
+      "name": "Rep. Newhouse, Dan [R-WA-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001194",
+      "name": "Rep. Moolenaar, John R. [R-MI-2]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3995",
+      "title": "State Public Option Act",
+      "introducedDate": "2025-06-12",
+      "latestAction": {
+        "date": "2025-06-12",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3995?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3889",
+      "title": "National Prescribed Fire Act of 2025",
+      "introducedDate": "2025-06-10",
+      "latestAction": {
+        "date": "2025-06-10",
+        "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3889?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-06-10",
+          "original": true
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3826",
+      "title": "Expanding Access to Diabetes Self-Management Training Act of 2025",
+      "introducedDate": "2025-06-06",
+      "latestAction": {
+        "date": "2025-06-06",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3826?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-06",
+          "original": true
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-06-06",
+          "original": true
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-06-06",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-06-06",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3656",
+      "title": "To amend the Agricultural Research, Extension, and Education Reform Act of 1998 to authorize the Secretary of Agriculture to waive the matching funds requirement under the specialty crop research initiative, and for other purposes.",
+      "introducedDate": "2025-05-29",
+      "latestAction": {
+        "date": "2025-05-29",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3656?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000560",
+          "name": "Rep. Larsen, Rick [D-WA-2]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "M001194",
+          "name": "Rep. Moolenaar, John R. [R-MI-2]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000389",
+          "name": "Rep. Khanna, Ro [D-CA-17]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Rep. Takano, Mark [D-CA-39]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-07-16",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3657",
+      "title": "Hydropower Licensing Transparency Act",
+      "introducedDate": "2025-05-29",
+      "latestAction": {
+        "date": "2025-07-15",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": "Energy",
+      "subjects": [
+        "Alternative and renewable resources",
+        "Electric power generation and transmission",
+        "Licensing and registrations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3657?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-05-29",
+          "original": true
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-06-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3568",
+      "title": "AG RESEARCH Act",
+      "introducedDate": "2025-05-21",
+      "latestAction": {
+        "date": "2025-05-21",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3568?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-05-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2960",
+      "title": "To amend title III of the Public Health Service Act to reauthorize the program of payments to childrens hospitals that operate graduate medical education programs.",
+      "introducedDate": "2025-04-17",
+      "latestAction": {
+        "date": "2025-04-17",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2960?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1433",
+      "title": "Kids\u2019 Access to Primary Care Act of 2025",
+      "introducedDate": "2025-02-18",
+      "latestAction": {
+        "date": "2025-02-18",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Child health",
+        "Government studies and investigations",
+        "Health personnel",
+        "Health promotion and preventive care",
+        "Medicaid",
+        "Medical tests and diagnostic methods",
+        "Medicare",
+        "Nursing",
+        "Women's health"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1433?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Rep. Meng, Grace [D-NY-6]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001159",
+          "name": "Rep. Strickland, Marilyn [D-WA-10]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-02-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-02-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1213",
+      "title": "Forest Data Modernization Act of 2025",
+      "introducedDate": "2025-02-11",
+      "latestAction": {
+        "date": "2025-02-11",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1213?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-02-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 83,
+    "total_hr_sr_bipartisan": 46,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 72
   },
   "district": {
     "year": 2023,

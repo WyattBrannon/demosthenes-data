@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -598,7 +598,100 @@
       "phone": "541-709-2040"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "N000189",
+      "name": "Rep. Newhouse, Dan [R-WA-4]",
+      "count": 5
+    },
+    {
+      "bioguide": "F000469",
+      "name": "Rep. Fulcher, Russ [R-ID-1]",
+      "count": 4
+    },
+    {
+      "bioguide": "W000821",
+      "name": "Rep. Westerman, Bruce [R-AR-4]",
+      "count": 4
+    },
+    {
+      "bioguide": "T000165",
+      "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "H001096",
+      "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+      "count": 2
+    },
+    {
+      "bioguide": "M000194",
+      "name": "Rep. Mace, Nancy [R-SC-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000103",
+      "name": "Rep. Rosendale Sr., Matthew M. [R-MT-At Large]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001212",
+      "name": "Rep. Stauber, Pete [R-MN-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001159",
+      "name": "Rep. McMorris Rodgers, Cathy [R-WA-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 2
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "D000631",
+      "name": "Rep. Dean, Madeleine [D-PA-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "F000482",
+      "name": "Rep. Fedorchak, Julie [R-ND-At Large]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000568",
+      "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+      "count": 1
+    },
+    {
+      "bioguide": "V000081",
+      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "count": 1
+    },
+    {
+      "bioguide": "N000191",
+      "name": "Rep. Neguse, Joe [D-CO-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "K000392",
+      "name": "Rep. Kustoff, David [R-TN-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "D000617",
+      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001238",
+      "name": "Rep. McBride, Sarah [D-DE-At Large]",
+      "count": 1
+    }
+  ],
   "bills": [
     {
       "congress": 119,
@@ -614,7 +707,74 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1777?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000631",
+          "name": "Rep. Dean, Madeleine [D-PA-4]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-03-03",
+          "original": true
+        },
+        {
+          "bioguide": "F000482",
+          "name": "Rep. Fedorchak, Julie [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-03-03",
+          "original": true
+        },
+        {
+          "bioguide": "G000568",
+          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-03-04",
+          "original": false
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "K000392",
+          "name": "Rep. Kustoff, David [R-TN-8]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-05-20",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-06-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-07-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -638,7 +798,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1655?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -659,15 +821,17 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/655?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     }
   ],
   "work_statistics": {
     "total_hr_sr": 15,
     "total_hr_sr_bipartisan": 1,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 88,
-    "bipartisan_rate_percentile_party": 15
+    "passed_rate_percentile_party": 94,
+    "bipartisan_rate_percentile_party": 8
   },
   "district": {
     "year": 2023,

@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -831,6 +831,140 @@
       "phone": "956-487-5603"
     }
   ],
+  "cosponsors_top": [
+    {
+      "bioguide": "M001157",
+      "name": "Rep. McCaul, Michael T. [R-TX-10]",
+      "count": 36
+    },
+    {
+      "bioguide": "J000032",
+      "name": "Rep. Jackson-Lee, Sheila [D-TX-18]",
+      "count": 23
+    },
+    {
+      "bioguide": "G000581",
+      "name": "Rep. Gonzalez, Vicente [D-TX-15]",
+      "count": 20
+    },
+    {
+      "bioguide": "D000399",
+      "name": "Rep. Doggett, Lloyd [D-TX-25]",
+      "count": 20
+    },
+    {
+      "bioguide": "G000553",
+      "name": "Rep. Green, Al [D-TX-9]",
+      "count": 18
+    },
+    {
+      "bioguide": "C001051",
+      "name": "Rep. Carter, John R. [R-TX-31]",
+      "count": 18
+    },
+    {
+      "bioguide": "V000132",
+      "name": "Rep. Vela, Filemon [D-TX-34]",
+      "count": 16
+    },
+    {
+      "bioguide": "G000377",
+      "name": "Rep. Granger, Kay [R-TX-12]",
+      "count": 15
+    },
+    {
+      "bioguide": "S000250",
+      "name": "Rep. Sessions, Pete [R-TX-32]",
+      "count": 15
+    },
+    {
+      "bioguide": "B001248",
+      "name": "Rep. Burgess, Michael C. [R-TX-26]",
+      "count": 15
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "G000594",
+      "name": "Rep. Gonzales, Tony [R-TX-23]",
+      "count": 1
+    },
+    {
+      "bioguide": "E000299",
+      "name": "Rep. Escobar, Veronica [D-TX-16]",
+      "count": 1
+    },
+    {
+      "bioguide": "V000136",
+      "name": "Rep. Vasquez, Gabe [D-NM-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000581",
+      "name": "Rep. Gonzalez, Vicente [D-TX-15]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1297",
+      "title": "LPOE Modernization Trust Fund Act",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-02-13",
+        "text": "Referred to the Subcommittee on Border Security and Enforcement."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1297?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000594",
+          "name": "Rep. Gonzales, Tony [R-TX-23]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "E000299",
+          "name": "Rep. Escobar, Veronica [D-TX-16]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "G000581",
+          "name": "Rep. Gonzalez, Vicente [D-TX-34]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-02-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 91,
+    "total_hr_sr_bipartisan": 64,
+    "total_hr_sr_became_public_law": 16,
+    "passed_rate_percentile_party": 99,
+    "bipartisan_rate_percentile_party": 88
+  },
   "district": {
     "year": 2023,
     "state_fips": "48",
@@ -967,9 +1101,5 @@
       "name": "Susie Lee",
       "distance": 0.13917848253232254
     }
-  ],
-  "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
-  }
+  ]
 }

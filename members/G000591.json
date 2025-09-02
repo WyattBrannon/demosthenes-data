@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -704,13 +704,217 @@
       "phone": "662-324-0007"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "K000388",
+      "name": "Rep. Kelly, Trent [R-MS-1]",
+      "count": 18
+    },
+    {
+      "bioguide": "M001157",
+      "name": "Rep. McCaul, Michael T. [R-TX-10]",
+      "count": 14
+    },
+    {
+      "bioguide": "P000601",
+      "name": "Rep. Palazzo, Steven M. [R-MS-4]",
+      "count": 13
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 12
+    },
+    {
+      "bioguide": "C001120",
+      "name": "Rep. Crenshaw, Dan [R-TX-2]",
+      "count": 11
+    },
+    {
+      "bioguide": "N000190",
+      "name": "Rep. Norman, Ralph [R-SC-5]",
+      "count": 11
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Rep. Thompson, Glenn [R-PA-15]",
+      "count": 11
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+      "count": 11
+    },
+    {
+      "bioguide": "G000597",
+      "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
+      "count": 11
+    },
+    {
+      "bioguide": "G000593",
+      "name": "Rep. Gimenez, Carlos A. [R-FL-26]",
+      "count": 11
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "C001120",
+      "name": "Rep. Crenshaw, Dan [R-TX-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001236",
+      "name": "Rep. Moore, Tim [R-NC-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "W000798",
+      "name": "Rep. Walberg, Tim [R-MI-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Rep. Thompson, Glenn [R-PA-15]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001194",
+      "name": "Rep. Moolenaar, John R. [R-MI-4]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001220",
+      "name": "Rep. Strong, Dale W. [R-AL-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 2
+    },
+    {
+      "bioguide": "P000621",
+      "name": "Rep. Pou, Nellie [D-NJ-9]",
+      "count": 1
+    },
+    {
+      "bioguide": "D000032",
+      "name": "Rep. Donalds, Byron [R-FL-19]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4071",
+      "title": "Combatting International Drug Trafficking and Human Smuggling Partnership Act of 2025",
+      "introducedDate": "2025-06-23",
+      "latestAction": {
+        "date": "2025-06-25",
+        "text": "Ordered to be Reported by Voice Vote."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Border security and unlawful immigration",
+        "Customs enforcement",
+        "Department of Homeland Security",
+        "Drug trafficking and controlled substances",
+        "Executive agency funding and structure",
+        "Foreign aid and international relief",
+        "Homeland security",
+        "Human trafficking",
+        "Law enforcement officers",
+        "Smuggling and trafficking",
+        "Terrorism"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4071?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000621",
+          "name": "Rep. Pou, Nellie [D-NJ-9]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-06-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3102",
+      "title": "To direct the Secretary of Health and Human Services to establish an Office of Rural Health, and for other purposes.",
+      "introducedDate": "2025-04-30",
+      "latestAction": {
+        "date": "2025-04-30",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3102?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-04-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1692",
+      "title": "PATHS Act",
+      "introducedDate": "2025-02-27",
+      "latestAction": {
+        "date": "2025-03-12",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Advanced technology and technological innovations",
+        "Computers and information technology",
+        "Internet, web applications, social media",
+        "Public contracts and procurement",
+        "Research and development"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1692?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-02-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 28,
+    "total_hr_sr_bipartisan": 14,
+    "total_hr_sr_became_public_law": 3,
+    "passed_rate_percentile_party": 99,
+    "bipartisan_rate_percentile_party": 74
   },
   "district": {
     "year": 2023,

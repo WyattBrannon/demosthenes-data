@@ -44,7 +44,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -599,13 +599,245 @@
       "phone": "617-354-0292"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "M000312",
+      "name": "Rep. McGovern, James P. [D-MA-2]",
+      "count": 30
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 29
+    },
+    {
+      "bioguide": "G000551",
+      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-3]",
+      "count": 28
+    },
+    {
+      "bioguide": "D000623",
+      "name": "Rep. DeSaulnier, Mark [D-CA-11]",
+      "count": 26
+    },
+    {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "count": 24
+    },
+    {
+      "bioguide": "K000382",
+      "name": "Rep. Kuster, Ann M. [D-NH-2]",
+      "count": 24
+    },
+    {
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 24
+    },
+    {
+      "bioguide": "L000551",
+      "name": "Rep. Lee, Barbara [D-CA-13]",
+      "count": 23
+    },
+    {
+      "bioguide": "M001160",
+      "name": "Rep. Moore, Gwen [D-WI-4]",
+      "count": 23
+    },
+    {
+      "bioguide": "S001145",
+      "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+      "count": 23
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000585",
+      "name": "Rep. Gomez, Jimmy [D-CA-34]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001227",
+      "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+      "count": 2
+    },
+    {
+      "bioguide": "P000620",
+      "name": "Rep. Pettersen, Brittany [D-CO-7]",
+      "count": 2
+    },
+    {
+      "bioguide": "T000487",
+      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001238",
+      "name": "Rep. McBride, Sarah [D-DE-At Large]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001205",
+      "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3273",
+      "title": "Child Care Workforce Development Act",
+      "introducedDate": "2025-05-08",
+      "latestAction": {
+        "date": "2025-05-08",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Education",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3273?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000585",
+          "name": "Rep. Gomez, Jimmy [D-CA-34]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-07-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3274",
+      "title": "Child Care Infrastructure Act",
+      "introducedDate": "2025-05-08",
+      "latestAction": {
+        "date": "2025-05-08",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Families",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3274?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000585",
+          "name": "Rep. Gomez, Jimmy [D-CA-34]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001205",
+          "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-07-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-07-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 75,
+    "total_hr_sr_bipartisan": 37,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 63
   },
   "district": {
     "year": 2023,

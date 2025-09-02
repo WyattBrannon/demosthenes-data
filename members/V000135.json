@@ -81,7 +81,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 7
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -811,13 +811,972 @@
       "phone": "715-831-9214"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "count": 8
+    },
+    {
+      "bioguide": "S001213",
+      "name": "Rep. Steil, Bryan [R-WI-1]",
+      "count": 7
+    },
+    {
+      "bioguide": "F000471",
+      "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+      "count": 7
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001282",
+      "name": "Rep. Barr, Andy [R-KY-6]",
+      "count": 4
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Rep. Thompson, Glenn [R-PA-15]",
+      "count": 4
+    },
+    {
+      "bioguide": "N000026",
+      "name": "Rep. Nehls, Troy E. [R-TX-22]",
+      "count": 4
+    },
+    {
+      "bioguide": "M001220",
+      "name": "Rep. McGarvey, Morgan [D-KY-3]",
+      "count": 4
+    },
+    {
+      "bioguide": "E000246",
+      "name": "Rep. Edwards, Chuck [R-NC-11]",
+      "count": 4
+    },
+    {
+      "bioguide": "P000614",
+      "name": "Rep. Pappas, Chris [D-NH-1]",
+      "count": 4
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "S001213",
+      "name": "Rep. Steil, Bryan [R-WI-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "F000471",
+      "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 2
+    },
+    {
+      "bioguide": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-23]",
+      "count": 1
+    },
+    {
+      "bioguide": "B000668",
+      "name": "Rep. Bentz, Cliff [R-OR-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "O000086",
+      "name": "Rep. Owens, Burgess [R-UT-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001232",
+      "name": "Rep. McClain Delaney, April [D-MD-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001282",
+      "name": "Rep. Barr, Andy [R-KY-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001239",
+      "name": "Rep. McGuire, John [R-VA-5]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4748",
+      "title": "Agriculture Workforce Reform Act of 2025",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4748?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4271",
+      "title": "VR&E Accountability Act",
+      "introducedDate": "2025-07-02",
+      "latestAction": {
+        "date": "2025-07-02",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4271?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3471",
+      "title": "Certified Nursing Assistant Workforce Improvement Act",
+      "introducedDate": "2025-05-15",
+      "latestAction": {
+        "date": "2025-05-15",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3471?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001213",
+          "name": "Rep. Steil, Bryan [R-WI-1]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-06-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3384",
+      "title": "Refinancing Relief for Veterans Act",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-06-23",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Government lending and loan guarantees",
+        "Interest, dividends, interest rates",
+        "User charges and fees",
+        "Veterans' loans, housing, homeless programs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3384?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3385",
+      "title": "To direct the Secretary of Transportation to issue certain regulations to update the definition of motorcycle, and for other purposes.",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-05-14",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3385?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-06-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3386",
+      "title": "Streamlining the Solid Start Communications Act",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Subcommittee Hearings Held"
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Department of Veterans Affairs",
+        "Government information and archives",
+        "Veterans' medical care",
+        "Veterans' pensions and compensation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3386?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3387",
+      "title": "ETS Act",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Subcommittee Hearings Held"
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Accounting and auditing",
+        "Congressional oversight",
+        "Employment and training programs",
+        "Family relationships",
+        "Government studies and investigations",
+        "Intergovernmental relations",
+        "Internet, web applications, social media",
+        "Military personnel and dependents",
+        "Public contracts and procurement",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' medical care"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3387?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1845",
+      "title": "TAP Promotion Act",
+      "introducedDate": "2025-03-05",
+      "latestAction": {
+        "date": "2025-03-27",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1845?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B000668",
+          "name": "Rep. Bentz, Cliff [R-OR-2]",
+          "party": "R",
+          "state": "OR",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "J000311",
+          "name": "Rep. Jack, Brian [R-GA-3]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "B001321",
+          "name": "Rep. Barrett, Tom [R-MI-7]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-04-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-01",
+          "original": false
+        },
+        {
+          "bioguide": "M001214",
+          "name": "Rep. Mrvan, Frank J. [D-IN-1]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-05-05",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-08-01",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-08-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 17
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1815",
+      "title": "VA Home Loan Program Reform Act",
+      "introducedDate": "2025-03-03",
+      "latestAction": {
+        "date": "2025-07-30",
+        "text": "Became Public Law No: 119-31."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Accounting and auditing",
+        "Congressional oversight",
+        "Government lending and loan guarantees",
+        "Real estate business",
+        "Veterans' loans, housing, homeless programs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1815?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1814",
+      "title": "Restoring the VA Home Loan Program in Perpetuity Act of 2025",
+      "introducedDate": "2025-03-03",
+      "latestAction": {
+        "date": "2025-03-10",
+        "text": "Subcommittee Hearings Held"
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Congressional oversight",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Veterans' loans, housing, homeless programs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1814?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1813",
+      "title": "To amend the Child Nutrition Act of 1966 to set maximum monthly allowances for milk under the special supplemental nutrition program for women, infants, and children.",
+      "introducedDate": "2025-03-03",
+      "latestAction": {
+        "date": "2025-03-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1813?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-03",
+          "original": true
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-06-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1230",
+      "title": "AG VETS Act",
+      "introducedDate": "2025-02-12",
+      "latestAction": {
+        "date": "2025-03-20",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1230?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-02-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "985",
+      "title": "To amend the Agriculture Improvement Act of 2018 to reauthorize the dairy business innovation initiatives.",
+      "introducedDate": "2025-02-05",
+      "latestAction": {
+        "date": "2025-03-14",
+        "text": "Referred to the Subcommittee on Livestock, Dairy, and Poultry."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/985?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-02-05",
+          "original": true
+        },
+        {
+          "bioguide": "S001213",
+          "name": "Rep. Steil, Bryan [R-WI-1]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-03-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "981",
+      "title": "VETT Act",
+      "introducedDate": "2025-02-05",
+      "latestAction": {
+        "date": "2025-04-10",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Government information and archives",
+        "Higher education",
+        "Internet, web applications, social media",
+        "Student aid and college costs",
+        "Veterans' education, employment, rehabilitation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/981?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "980",
+      "title": "Veterans Readiness and Employment Improvement Act of 2025",
+      "introducedDate": "2025-02-05",
+      "latestAction": {
+        "date": "2025-08-15",
+        "text": "Placed on the Union Calendar, Calendar No. 186."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Educational guidance",
+        "Higher education",
+        "Veterans' education, employment, rehabilitation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/980?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "983",
+      "title": "Montgomery GI Bill Selected Reserves Tuition Fairness Act of 2025",
+      "introducedDate": "2025-02-05",
+      "latestAction": {
+        "date": "2025-04-08",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Higher education",
+        "Student aid and college costs",
+        "Veterans' education, employment, rehabilitation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/983?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "984",
+      "title": "To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to provide timely equitable relief to an individual who suffers a loss based on an administrative error by the Secretary, and for other purposes.",
+      "introducedDate": "2025-02-05",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Subcommittee Hearings Held"
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Administrative remedies",
+        "Debt collection",
+        "Veterans' pensions and compensation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/984?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "982",
+      "title": "Warriors to Workforce Act",
+      "introducedDate": "2025-02-05",
+      "latestAction": {
+        "date": "2025-03-07",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Employment and training programs",
+        "Veterans' education, employment, rehabilitation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/982?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "648",
+      "title": "Strengthening our Servicemembers with Milk Act",
+      "introducedDate": "2025-01-23",
+      "latestAction": {
+        "date": "2025-01-23",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Food supply, safety, and labeling",
+        "Military personnel and dependents"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/648?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000610",
+          "name": "Rep. Reschenthaler, Guy [R-PA-14]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000467",
+          "name": "Rep. Thompson, Glenn [R-PA-15]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000388",
+          "name": "Rep. Kelly, Trent [R-MS-1]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001233",
+          "name": "Rep. Messmer, Mark [R-IN-8]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001213",
+          "name": "Rep. Steil, Bryan [R-WI-1]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001205",
+          "name": "Rep. Miller, Carol D. [R-WV-1]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "F000475",
+          "name": "Rep. Finstad, Brad [R-MN-1]",
+          "party": "R",
+          "state": "MN",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001189",
+          "name": "Rep. Scott, Austin [R-GA-8]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "C001039",
+          "name": "Rep. Cammack, Kat [R-FL-3]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-01-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000603",
+          "name": "Rep. Luttrell, Morgan [R-TX-8]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "J000301",
+          "name": "Rep. Johnson, Dusty [R-SD-At Large]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "W000829",
+          "name": "Rep. Wied, Tony [R-WI-8]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-06-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 31
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 44,
+    "total_hr_sr_bipartisan": 14,
+    "total_hr_sr_became_public_law": 1,
+    "passed_rate_percentile_party": 66,
+    "bipartisan_rate_percentile_party": 34
   },
   "district": {
     "year": 2023,

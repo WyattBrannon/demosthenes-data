@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 11
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -1113,8 +1113,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4922?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1821,9 +1830,17 @@
           "state": "CA",
           "date": "2025-03-11",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-08-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -2043,8 +2060,8 @@
     "total_hr_sr": 109,
     "total_hr_sr_bipartisan": 29,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 48,
-    "bipartisan_rate_percentile_party": 35
+    "passed_rate_percentile_party": 45,
+    "bipartisan_rate_percentile_party": 28
   },
   "district": {
     "year": 2023,

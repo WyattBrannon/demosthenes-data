@@ -81,7 +81,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 85
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -700,13 +700,791 @@
       "phone": "608-240-9629"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "count": 16
+    },
+    {
+      "bioguide": "B001310",
+      "name": "Sen. Braun, Mike [R-IN]",
+      "count": 15
+    },
+    {
+      "bioguide": "L000577",
+      "name": "Sen. Lee, Mike [R-UT]",
+      "count": 14
+    },
+    {
+      "bioguide": "L000571",
+      "name": "Sen. Lummis, Cynthia M. [R-WY]",
+      "count": 14
+    },
+    {
+      "bioguide": "B001261",
+      "name": "Sen. Barrasso, John [R-WY]",
+      "count": 11
+    },
+    {
+      "bioguide": "L000575",
+      "name": "Sen. Lankford, James [R-OK]",
+      "count": 10
+    },
+    {
+      "bioguide": "R000584",
+      "name": "Sen. Risch, James E. [R-ID]",
+      "count": 10
+    },
+    {
+      "bioguide": "C001098",
+      "name": "Sen. Cruz, Ted [R-TX]",
+      "count": 10
+    },
+    {
+      "bioguide": "H001061",
+      "name": "Sen. Hoeven, John [R-ND]",
+      "count": 9
+    },
+    {
+      "bioguide": "T000476",
+      "name": "Sen. Tillis, Thomas [R-NC]",
+      "count": 9
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "R000584",
+      "name": "Sen. Risch, James E. [R-ID]",
+      "count": 4
+    },
+    {
+      "bioguide": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "count": 4
+    },
+    {
+      "bioguide": "L000571",
+      "name": "Sen. Lummis, Cynthia M. [R-WY]",
+      "count": 4
+    },
+    {
+      "bioguide": "C000880",
+      "name": "Sen. Crapo, Mike [R-ID]",
+      "count": 3
+    },
+    {
+      "bioguide": "L000575",
+      "name": "Sen. Lankford, James [R-OK]",
+      "count": 3
+    },
+    {
+      "bioguide": "L000577",
+      "name": "Sen. Lee, Mike [R-UT]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001230",
+      "name": "Sen. Baldwin, Tammy [D-WI]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001261",
+      "name": "Sen. Barrasso, John [R-WY]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001305",
+      "name": "Sen. Budd, Ted [R-NC]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
+      "count": 2
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2641",
+      "title": "Health Care Freedom and Choice Act",
+      "introducedDate": "2025-08-01",
+      "latestAction": {
+        "date": "2025-08-01",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2641?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1983",
+      "title": "No WHO Pandemic Preparedness Treaty Without Senate Approval Act",
+      "introducedDate": "2025-06-05",
+      "latestAction": {
+        "date": "2025-06-05",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1983?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "H000601",
+          "name": "Sen. Hagerty, Bill [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "L000577",
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "P000603",
+          "name": "Sen. Paul, Rand [R-KY]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "T000278",
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-06-09",
+          "original": false
+        },
+        {
+          "bioguide": "W000437",
+          "name": "Sen. Wicker, Roger F. [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-07-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1830",
+      "title": "Right to Treat Act",
+      "introducedDate": "2025-05-21",
+      "latestAction": {
+        "date": "2025-05-21",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1830?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1306",
+      "title": "A bill to require the Director of the United States Fish and Wildlife Service to reissue a final rule removing the gray wolf from the list of endangered and threatened wildlife under the Endangered Species Act of 1973.",
+      "introducedDate": "2025-04-04",
+      "latestAction": {
+        "date": "2025-04-04",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": "Environmental Protection",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1306?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-04-04",
+          "original": true
+        },
+        {
+          "bioguide": "L000577",
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-04-04",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-04-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1262",
+      "title": "A bill to require the Secretary of Agriculture to release a reversionary interest in certain land in the Black River State Forest in Millston, Wisconsin, and for other purposes.",
+      "introducedDate": "2025-04-02",
+      "latestAction": {
+        "date": "2025-04-02",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1262?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-04-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1111",
+      "title": "A bill to amend the Internal Revenue Code of 1986 to allow for payments to certain individuals who dye fuel, and for other purposes.",
+      "introducedDate": "2025-03-25",
+      "latestAction": {
+        "date": "2025-03-25",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1111?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-03-25",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1063",
+      "title": "Safe Routes Act of 2025",
+      "introducedDate": "2025-03-13",
+      "latestAction": {
+        "date": "2025-03-13",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1063?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "295",
+      "title": "Reducing the Federal Workforce Through Attrition Act",
+      "introducedDate": "2025-01-29",
+      "latestAction": {
+        "date": "2025-01-29",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Executive agency funding and structure",
+        "Government employee pay, benefits, personnel management"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/295?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-01-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "252",
+      "title": "GOOD Act",
+      "introducedDate": "2025-01-24",
+      "latestAction": {
+        "date": "2025-01-24",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Government information and archives"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/252?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "E000295",
+          "name": "Sen. Ernst, Joni [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001198",
+          "name": "Sen. Marshall, Roger [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "S001232",
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "L000577",
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-01-24",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 14
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "184",
+      "title": "CURD Act",
+      "introducedDate": "2025-01-22",
+      "latestAction": {
+        "date": "2025-01-22",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Food supply, safety, and labeling"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/184?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-01-22",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-22",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-01-22",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-22",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-01-22",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "164",
+      "title": "Midnight Rules Relief Act of 2025",
+      "introducedDate": "2025-01-21",
+      "latestAction": {
+        "date": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Congressional oversight",
+        "Legislative rules and procedure",
+        "Presidents and presidential powers, Vice Presidents"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/164?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "S001232",
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-01-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "165",
+      "title": "Stopping Overdoses of Fentanyl Analogues Act",
+      "introducedDate": "2025-01-21",
+      "latestAction": {
+        "date": "2025-01-21",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Criminal procedure and sentencing",
+        "Drug trafficking and controlled substances"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/165?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "B001299",
+          "name": "Sen. Banks, Jim [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-01-21",
+          "original": true
+        },
+        {
+          "bioguide": "M000355",
+          "name": "Sen. McConnell, Mitch [R-KY]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-01-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 52,
+    "total_hr_sr_bipartisan": 17,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 36
   },
   "district": {
     "year": 2023,

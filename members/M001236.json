@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -672,13 +672,930 @@
       "phone": "980-460-8110"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "E000246",
+      "name": "Rep. Edwards, Chuck [R-NC-11]",
+      "count": 4
+    },
+    {
+      "bioguide": "H001101",
+      "name": "Rep. Harrigan, Pat [R-NC-10]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000190",
+      "name": "Rep. Norman, Ralph [R-SC-5]",
+      "count": 3
+    },
+    {
+      "bioguide": "R000603",
+      "name": "Rep. Rouzer, David [R-NC-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001323",
+      "name": "Rep. Begich, Nicholas [R-AK-At Large]",
+      "count": 3
+    },
+    {
+      "bioguide": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "F000110",
+      "name": "Rep. Fields, Cleo [D-LA-6]",
+      "count": 2
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "E000246",
+      "name": "Rep. Edwards, Chuck [R-NC-11]",
+      "count": 4
+    },
+    {
+      "bioguide": "H001101",
+      "name": "Rep. Harrigan, Pat [R-NC-10]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000190",
+      "name": "Rep. Norman, Ralph [R-SC-5]",
+      "count": 3
+    },
+    {
+      "bioguide": "R000603",
+      "name": "Rep. Rouzer, David [R-NC-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001323",
+      "name": "Rep. Begich, Nicholas [R-AK-At Large]",
+      "count": 3
+    },
+    {
+      "bioguide": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "F000110",
+      "name": "Rep. Fields, Cleo [D-LA-6]",
+      "count": 2
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4765",
+      "title": "Securing our Border Act",
+      "introducedDate": "2025-07-25",
+      "latestAction": {
+        "date": "2025-07-25",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committees on Homeland Security, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4765?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-25",
+          "original": true
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-25",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-07-25",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4478",
+      "title": "TRUST Act of 2025",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Ordered to be Reported by the Yeas and Nays: 48 - 0."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [
+        "Bank accounts, deposits, capital",
+        "Banking and financial institutions regulation",
+        "Corporate finance and management",
+        "Federal Deposit Insurance Corporation (FDIC)",
+        "Performance measurement"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4478?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000486",
+          "name": "Rep. Torres, Ritchie [D-NY-15]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-07-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4287",
+      "title": "Enhanced Penalties for Criminal Flag Burners Act",
+      "introducedDate": "2025-07-02",
+      "latestAction": {
+        "date": "2025-07-02",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4287?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-02",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-07-02",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4238",
+      "title": "DLARA",
+      "introducedDate": "2025-06-27",
+      "latestAction": {
+        "date": "2025-06-27",
+        "text": "Referred to the Committee on Small Business, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4238?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "G000593",
+          "name": "Rep. Gimenez, Carlos A. [R-FL-28]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "M001210",
+          "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "T000490",
+          "name": "Rep. Taylor, David J. [R-OH-2]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-14",
+          "original": false
+        },
+        {
+          "bioguide": "F000474",
+          "name": "Rep. Flood, Mike [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-07-16",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "S001229",
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-07-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4012",
+      "title": "National Airport Supersonic Readiness Act of 2025",
+      "introducedDate": "2025-06-13",
+      "latestAction": {
+        "date": "2025-06-14",
+        "text": "Referred to the Subcommittee on Aviation."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4012?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-07-02",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-07-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3780",
+      "title": "Border Operations Service Medal Act",
+      "introducedDate": "2025-06-05",
+      "latestAction": {
+        "date": "2025-06-05",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3780?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John J. [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "A000055",
+          "name": "Rep. Aderholt, Robert B. [R-AL-4]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "B001321",
+          "name": "Rep. Barrett, Tom [R-MI-7]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "R000395",
+          "name": "Rep. Rogers, Harold [R-KY-5]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "K000405",
+          "name": "Rep. Knott, Brad [R-NC-13]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-06-06",
+          "original": false
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-06-06",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-06-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2950",
+      "title": "Disaster Relief Transparency Act",
+      "introducedDate": "2025-04-17",
+      "latestAction": {
+        "date": "2025-04-17",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": "Housing and Community Development",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2950?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-04-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000048",
+          "name": "Rep. Pfluger, August [R-TX-11]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-16",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2875",
+      "title": "Mobile Mammography Promotion Act of 2025",
+      "introducedDate": "2025-04-10",
+      "latestAction": {
+        "date": "2025-04-10",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2875?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2646",
+      "title": "Radar Gap Elimination Act",
+      "introducedDate": "2025-04-03",
+      "latestAction": {
+        "date": "2025-04-03",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2646?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-04-03",
+          "original": true
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-04-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2240",
+      "title": "Improving Law Enforcement Officer Safety and Wellness Through Data Act",
+      "introducedDate": "2025-03-21",
+      "latestAction": {
+        "date": "2025-05-19",
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Government studies and investigations",
+        "Law enforcement officers",
+        "Mental health",
+        "Violent crime"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2240?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "F000450",
+          "name": "Rep. Foxx, Virginia [R-NC-5]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-03-21",
+          "original": true
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-26",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "E000300",
+          "name": "Rep. Evans, Gabe [R-CO-8]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-04-01",
+          "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-02",
+          "original": false
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-04-14",
+          "original": false
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-04-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-04-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-04-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 22
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1333",
+      "title": "To amend the Intermodal Surface Transportation Efficiency Act of 1991 to designate a portion of United States Route 74 in North Carolina as a future interstate, and for other purposes.",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-02-13",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1333?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-02-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 11,
+    "total_hr_sr_bipartisan": 8,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 97
   },
   "district": {
     "year": 2023,

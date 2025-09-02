@@ -125,7 +125,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 48
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -895,7 +895,110 @@
       "phone": "870-672-6941"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "C001095",
+      "name": "Sen. Cotton, Tom [R-AR]",
+      "count": 31
+    },
+    {
+      "bioguide": "T000464",
+      "name": "Sen. Tester, Jon [D-MT]",
+      "count": 30
+    },
+    {
+      "bioguide": "C001035",
+      "name": "Sen. Collins, Susan M. [R-ME]",
+      "count": 22
+    },
+    {
+      "bioguide": "M001183",
+      "name": "Sen. Manchin, Joe, III [D-WV]",
+      "count": 21
+    },
+    {
+      "bioguide": "B000944",
+      "name": "Sen. Brown, Sherrod [D-OH]",
+      "count": 20
+    },
+    {
+      "bioguide": "H001079",
+      "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+      "count": 20
+    },
+    {
+      "bioguide": "W000437",
+      "name": "Sen. Wicker, Roger F. [R-MS]",
+      "count": 20
+    },
+    {
+      "bioguide": "D000563",
+      "name": "Sen. Durbin, Richard J. [D-IL]",
+      "count": 19
+    },
+    {
+      "bioguide": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
+      "count": 19
+    },
+    {
+      "bioguide": "B001310",
+      "name": "Sen. Braun, Mike [R-IN]",
+      "count": 19
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "W000790",
+      "name": "Sen. Warnock, Raphael G. [D-GA]",
+      "count": 2
+    },
+    {
+      "bioguide": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
+      "count": 2
+    },
+    {
+      "bioguide": "K000377",
+      "name": "Sen. Kelly, Mark [D-AZ]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001288",
+      "name": "Sen. Booker, Cory A. [D-NJ]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001076",
+      "name": "Sen. Hassan, Margaret Wood [D-NH]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001056",
+      "name": "Sen. Cornyn, John [R-TX]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001035",
+      "name": "Sen. Collins, Susan M. [R-ME]",
+      "count": 1
+    },
+    {
+      "bioguide": "S000148",
+      "name": "Sen. Schumer, Charles E. [D-NY]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000555",
+      "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "count": 1
+    },
+    {
+      "bioguide": "R000608",
+      "name": "Sen. Rosen, Jacky [D-NV]",
+      "count": 1
+    }
+  ],
   "bills": [
     {
       "congress": 119,
@@ -911,7 +1014,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2309?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-07-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -927,7 +1049,114 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2439?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "S000148",
+          "name": "Sen. Schumer, Charles E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "S001208",
+          "name": "Sen. Slotkin, Elissa [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-07-24",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-07-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-07-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -943,7 +1172,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1918?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Lujan, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-05-22",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-07-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -959,7 +1215,9 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1371?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -981,15 +1239,66 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/297?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-01-29",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-02-25",
+          "original": false
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-02-25",
+          "original": false
+        },
+        {
+          "bioguide": "C000127",
+          "name": "Sen. Cantwell, Maria [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-02-25",
+          "original": false
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-03-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
     }
   ],
   "work_statistics": {
     "total_hr_sr": 87,
     "total_hr_sr_bipartisan": 62,
     "total_hr_sr_became_public_law": 5,
-    "passed_rate_percentile_party": 85,
-    "bipartisan_rate_percentile_party": 98
+    "passed_rate_percentile_party": 92,
+    "bipartisan_rate_percentile_party": 94
   },
   "district": {
     "year": 2023,

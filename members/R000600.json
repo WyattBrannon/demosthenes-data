@@ -81,7 +81,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 0
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -705,13 +705,200 @@
       "phone": "684-633-3601"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "S001177",
+      "name": "Del. Sablan, Gregorio Kilili Camacho [D-MP-At Large]",
+      "count": 9
+    },
+    {
+      "bioguide": "G000582",
+      "name": "Resident Commissioner Gonz\u00e1lez-Col\u00f3n, Jenniffer [R-PR-At Large]",
+      "count": 5
+    },
+    {
+      "bioguide": "S001204",
+      "name": "Del. San Nicolas, Michael F. Q. [D-GU-At Large]",
+      "count": 5
+    },
+    {
+      "bioguide": "G000571",
+      "name": "Rep. Gabbard, Tulsi [D-HI-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001055",
+      "name": "Rep. Case, Ed [D-HI-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001085",
+      "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000551",
+      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001219",
+      "name": "Del. Moylan, James C. [R-GU-At Large]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001212",
+      "name": "Rep. Stauber, Pete [R-MN-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "H001068",
+      "name": "Rep. Huffman, Jared [D-CA-2]",
+      "count": 1
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "C001055",
+      "name": "Rep. Case, Ed [D-HI-1]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "531",
+      "title": "South Pacific Tuna Treaty Act of 2025",
+      "introducedDate": "2025-01-16",
+      "latestAction": {
+        "date": "2025-05-14",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Australia",
+        "Civil actions and liability",
+        "Fiji",
+        "Fishes",
+        "International law and treaties",
+        "Kiribati",
+        "Law enforcement administration and funding",
+        "Licensing and registrations",
+        "Marine and coastal resources, fisheries",
+        "Marshall Islands",
+        "Micronesia",
+        "Nauru",
+        "New Zealand",
+        "Pacific Ocean",
+        "Palau",
+        "Papua New Guinea",
+        "Samoa",
+        "Solomon Islands",
+        "Tonga",
+        "Tuvalu",
+        "User charges and fees",
+        "Vanuatu"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/531?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-01-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "449",
+      "title": "To amend the Immigration and Nationality Act to waive certain naturalization requirements for United States nationals, and for other purposes.",
+      "introducedDate": "2025-01-15",
+      "latestAction": {
+        "date": "2025-01-15",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/449?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "399",
+      "title": "To permanently extend the American Samoa economic development tax credit.",
+      "introducedDate": "2025-01-14",
+      "latestAction": {
+        "date": "2025-01-14",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/399?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "314",
+      "title": "Empowering Nonprofits Act",
+      "introducedDate": "2025-01-09",
+      "latestAction": {
+        "date": "2025-01-09",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Executive agency funding and structure",
+        "Public-private cooperation",
+        "Social work, volunteer service, charitable organizations",
+        "Tax-exempt organizations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/314?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "315",
+      "title": "To waive certain provisions in the case of an emergency declaration under the Robert T. Stafford Disaster Relief and Emergency Assistance Act.",
+      "introducedDate": "2025-01-09",
+      "latestAction": {
+        "date": "2025-01-10",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+      },
+      "policy_area": "Emergency Management",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/315?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 39,
+    "total_hr_sr_bipartisan": 19,
+    "total_hr_sr_became_public_law": 4,
+    "passed_rate_percentile_party": 98,
+    "bipartisan_rate_percentile_party": 72
   },
   "profileText": "a Delegate from American Samoa; born in Washington, D.C., December 29, 1947; attended Sacred Hearts Academy, Honolulu, Hawaii; B.S., University of Guam, 1975; attended George Mason University, Fairfax, Va.; attended Loyola Marymount University, Los Angeles, Calif.; journalist; staff, United States Representative Philip Crane of Illinois, 1997-1999; staff, United States Representative Julius Caesar (J.C.) Watts, Jr. of Oklahoma, 1999-2003; staff, House Republican Conference, 2003-2005; unsuccessful candidate for election to the One Hundred Fourth Congress in 1994; unsuccessful candidate for nomination to the One Hundred Fifth Congress in 1996; unsuccessful candidate for election to the One Hundred Sixth Congress in 1998; unsuccessful candidate for nomination to the One Hundred Seventh Congress in 2000; unsuccessful candidate for election to the One Hundred Eighth Congress in 2002; unsuccessful candidate for election to the One Hundred Ninth Congress in 2004; unsuccessful candidate for election to the One Hundred Tenth Congress in 2006; unsuccessful candidate for election to the One Hundred Eleventh Congress in 2008; unsuccessful candidate for election to the One Hundred Twelfth Congress in 2010; unsuccessful candidate for election to the One Hundred Thirteenth Congress in 2012; elected as a Republican to the One Hundred Fourteenth and to the five succeeding Congresses (January 3, 2015-present).",
   "ideologically_similar": [],

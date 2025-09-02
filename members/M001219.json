@@ -85,7 +85,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 1
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -588,13 +588,730 @@
       "phone": "671-922-6673"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "R000600",
+      "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+      "count": 16
+    },
+    {
+      "bioguide": "C001055",
+      "name": "Rep. Case, Ed [D-HI-1]",
+      "count": 12
+    },
+    {
+      "bioguide": "K000404",
+      "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+      "count": 10
+    },
+    {
+      "bioguide": "S001177",
+      "name": "Del. Sablan, Gregorio Kilili Camacho [D-MP-At Large]",
+      "count": 9
+    },
+    {
+      "bioguide": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "count": 6
+    },
+    {
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 6
+    },
+    {
+      "bioguide": "T000487",
+      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+      "count": 6
+    },
+    {
+      "bioguide": "G000582",
+      "name": "Rescom. Gonz\u00e1lez-Col\u00f3n, Jenniffer [R-PR-At Large]",
+      "count": 6
+    },
+    {
+      "bioguide": "M000194",
+      "name": "Rep. Mace, Nancy [R-SC-1]",
+      "count": 5
+    },
+    {
+      "bioguide": "S000185",
+      "name": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+      "count": 4
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "K000404",
+      "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+      "count": 10
+    },
+    {
+      "bioguide": "R000600",
+      "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+      "count": 8
+    },
+    {
+      "bioguide": "C001055",
+      "name": "Rep. Case, Ed [D-HI-1]",
+      "count": 6
+    },
+    {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000559",
+      "name": "Rep. Garamendi, John [D-CA-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+      "count": 2
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4955",
+      "title": "CLEAN Pacific Act of 2025",
+      "introducedDate": "2025-08-12",
+      "latestAction": {
+        "date": "2025-08-12",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4955?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-08-12",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-08-12",
+          "original": true
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-08-12",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4813",
+      "title": "Noncontiguous Disaster Shipping Act",
+      "introducedDate": "2025-07-29",
+      "latestAction": {
+        "date": "2025-07-29",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4813?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Rep. Torres, Ritchie [D-NY-15]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-07-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4814",
+      "title": "Supplemental Security Income Equality Act",
+      "introducedDate": "2025-07-29",
+      "latestAction": {
+        "date": "2025-07-29",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4814?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000610",
+          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "H001103",
+          "name": "Rescom. Hern\u00e1ndez, Pablo Jose [D-PR-At Large]",
+          "party": "D",
+          "state": "PR",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-07-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3646",
+      "title": "Guam Temporary Workforce Act",
+      "introducedDate": "2025-05-29",
+      "latestAction": {
+        "date": "2025-05-29",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3646?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2216",
+      "title": "To amend title 49, United States Code, to except from certain requirements relating to eligibility for essential air service Guam and the Northern Mariana Islands, and for other purposes.",
+      "introducedDate": "2025-03-18",
+      "latestAction": {
+        "date": "2025-03-18",
+        "text": "Referred to the Subcommittee on Aviation."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2216?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-03-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2149",
+      "title": "Correcting Guam\u2019s History in the PACT Act",
+      "introducedDate": "2025-03-14",
+      "latestAction": {
+        "date": "2025-03-14",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2149?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Rep. Chu, Judy [D-CA-28]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001206",
+          "name": "Rep. Morelle, Joseph D. [D-NY-25]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Rep. Meng, Grace [D-NY-6]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Rep. Pocan, Mark [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "S001193",
+          "name": "Rep. Swalwell, Eric [D-CA-14]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "H001094",
+          "name": "Rep. Hoyle, Val T. [D-OR-4]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-03-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000468",
+          "name": "Rep. Fletcher, Lizzie [D-TX-7]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Rep. Espaillat, Adriano [D-NY-13]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "S000522",
+          "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-03-27",
+          "original": false
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001207",
+          "name": "Rep. Sherrill, Mikie [D-NJ-11]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-04-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-06-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-07-29",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-07-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 29
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1536",
+      "title": "PIFAA",
+      "introducedDate": "2025-02-24",
+      "latestAction": {
+        "date": "2025-02-24",
+        "text": "Referred to the Subcommittee on Aviation."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1536?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-02-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "878",
+      "title": "Katrina and Leslie Schaller Act",
+      "introducedDate": "2025-01-31",
+      "latestAction": {
+        "date": "2025-01-31",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Social Welfare",
+      "subjects": [
+        "Disability assistance",
+        "Guam",
+        "Poverty and welfare assistance",
+        "U.S. territories and protectorates"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/878?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "876",
+      "title": "To amend the Defense Base Act to exclude Guam.",
+      "introducedDate": "2025-01-31",
+      "latestAction": {
+        "date": "2025-01-31",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/876?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "877",
+      "title": "Deliver for Veterans Act",
+      "introducedDate": "2025-01-31",
+      "latestAction": {
+        "date": "2025-04-08",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Disability assistance",
+        "Motor vehicles",
+        "Veterans' pensions and compensation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/877?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000594",
+          "name": "Rep. Gonzales, Tony [R-TX-23]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "M001210",
+          "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-02-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-04-07",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 36,
+    "total_hr_sr_bipartisan": 16,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 60
   },
   "profileText": "a Delegate from Guam; born on July 18, 1962; graduated from John F. Kennedy High School, Tumon, Guam, 1981; B.S., University of Guam, Mangilao, Guam; United States Army; parole officer; business owner; member of the Guam territorial senate, 2019-2023; elected as a Republican to the One Hundred Eighteenth and to the succeeding Congress (January 3, 2023-present).",
   "ideologically_similar": [

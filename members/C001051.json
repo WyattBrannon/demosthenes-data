@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 26
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -824,7 +824,110 @@
       "phone": "512-591-9061"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "M001157",
+      "name": "Rep. McCaul, Michael T. [R-TX-10]",
+      "count": 36
+    },
+    {
+      "bioguide": "B001248",
+      "name": "Rep. Burgess, Michael C. [R-TX-26]",
+      "count": 26
+    },
+    {
+      "bioguide": "G000377",
+      "name": "Rep. Granger, Kay [R-TX-12]",
+      "count": 25
+    },
+    {
+      "bioguide": "C001048",
+      "name": "Rep. Culberson, John Abney [R-TX-7]",
+      "count": 25
+    },
+    {
+      "bioguide": "S000583",
+      "name": "Rep. Smith, Lamar [R-TX-21]",
+      "count": 24
+    },
+    {
+      "bioguide": "O000168",
+      "name": "Rep. Olson, Pete [R-TX-22]",
+      "count": 22
+    },
+    {
+      "bioguide": "N000182",
+      "name": "Rep. Neugebauer, Randy [R-TX-19]",
+      "count": 22
+    },
+    {
+      "bioguide": "S000250",
+      "name": "Rep. Sessions, Pete [R-TX-32]",
+      "count": 21
+    },
+    {
+      "bioguide": "C000059",
+      "name": "Rep. Calvert, Ken [R-CA-44]",
+      "count": 21
+    },
+    {
+      "bioguide": "G000552",
+      "name": "Rep. Gohmert, Louie [R-TX-1]",
+      "count": 21
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "C001053",
+      "name": "Rep. Cole, Tom [R-OK-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001195",
+      "name": "Rep. Smith, Jason [R-MO-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "F000450",
+      "name": "Rep. Foxx, Virginia [R-NC-5]",
+      "count": 1
+    },
+    {
+      "bioguide": "V000129",
+      "name": "Rep. Valadao, David G. [R-CA-21]",
+      "count": 1
+    },
+    {
+      "bioguide": "N000026",
+      "name": "Rep. Nehls, Troy E. [R-TX-22]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001224",
+      "name": "Rep. Self, Keith [R-TX-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Rep. Soto, Darren [D-FL-9]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001316",
+      "name": "Rep. Burlison, Eric [R-MO-7]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "K000402",
+      "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+      "count": 1
+    }
+  ],
   "bills": [
     {
       "congress": 119,
@@ -914,7 +1017,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3944?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -930,15 +1035,114 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2360?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001053",
+          "name": "Rep. Cole, Tom [R-OK-4]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-03-26",
+          "original": true
+        },
+        {
+          "bioguide": "S001195",
+          "name": "Rep. Smith, Jason [R-MO-8]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-03-26",
+          "original": true
+        },
+        {
+          "bioguide": "F000450",
+          "name": "Rep. Foxx, Virginia [R-NC-5]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-03-26",
+          "original": true
+        },
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-03-26",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-26",
+          "original": true
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-26",
+          "original": true
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-04-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-04-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-06-04",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
     }
   ],
   "work_statistics": {
     "total_hr_sr": 97,
     "total_hr_sr_bipartisan": 41,
     "total_hr_sr_became_public_law": 7,
-    "passed_rate_percentile_party": 92,
-    "bipartisan_rate_percentile_party": 72
+    "passed_rate_percentile_party": 96,
+    "bipartisan_rate_percentile_party": 57
   },
   "district": {
     "year": 2023,

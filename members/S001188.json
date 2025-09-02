@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -860,13 +860,327 @@
       "phone": "260-702-4750"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "B001275",
+      "name": "Rep. Bucshon, Larry [R-IN-8]",
+      "count": 7
+    },
+    {
+      "bioguide": "W000796",
+      "name": "Rep. Westmoreland, Lynn A. [R-GA-3]",
+      "count": 6
+    },
+    {
+      "bioguide": "R000592",
+      "name": "Rep. Rokita, Todd [R-IN-4]",
+      "count": 6
+    },
+    {
+      "bioguide": "M001182",
+      "name": "Rep. Mulvaney, Mick [R-SC-5]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001271",
+      "name": "Rep. Benishek, Dan [R-MI-1]",
+      "count": 6
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 5
+    },
+    {
+      "bioguide": "P000605",
+      "name": "Rep. Perry, Scott [R-PA-4]",
+      "count": 5
+    },
+    {
+      "bioguide": "L000578",
+      "name": "Rep. LaMalfa, Doug [R-CA-1]",
+      "count": 5
+    },
+    {
+      "bioguide": "Y000064",
+      "name": "Rep. Young, Todd [R-IN-9]",
+      "count": 5
+    },
+    {
+      "bioguide": "H001057",
+      "name": "Rep. Huelskamp, Tim [R-KS-1]",
+      "count": 5
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "N000190",
+      "name": "Rep. Norman, Ralph [R-SC-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "P000620",
+      "name": "Rep. Pettersen, Brittany [D-CO-7]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001136",
+      "name": "Rep. McClain, Lisa C. [R-MI-9]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001157",
+      "name": "Rep. Scott, David [D-GA-13]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "P000605",
+      "name": "Rep. Perry, Scott [R-PA-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000589",
+      "name": "Rep. Gooden, Lance [R-TX-5]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001229",
+      "name": "Rep. Shreve, Jefferson [R-IN-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4989",
+      "title": "Streamlining Rural Housing Act of 2025",
+      "introducedDate": "2025-08-15",
+      "latestAction": {
+        "date": "2025-08-15",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4989?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-08-15",
+          "original": true
+        },
+        {
+          "bioguide": "M001136",
+          "name": "Rep. McClain, Lisa C. [R-MI-9]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-08-15",
+          "original": true
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-08-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4737",
+      "title": "Apeel Reveal Act of 2025",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4737?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-19",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3787",
+      "title": "Emergency Spending Accountability Act",
+      "introducedDate": "2025-06-05",
+      "latestAction": {
+        "date": "2025-06-12",
+        "text": "Sponsor introductory remarks on measure. (CR H2661)"
+      },
+      "policy_area": "Economics and Public Finance",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3787?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "S001229",
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-06-05",
+          "original": true
+        },
+        {
+          "bioguide": "B001325",
+          "name": "Rep. Biggs, Sheri [R-SC-3]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-06-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2393",
+      "title": "Protect American Beef Act.",
+      "introducedDate": "2025-03-26",
+      "latestAction": {
+        "date": "2025-03-26",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2393?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1226",
+      "title": "Restoring Checks and Balances Act",
+      "introducedDate": "2025-02-12",
+      "latestAction": {
+        "date": "2025-02-12",
+        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Congressional oversight"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1226?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-02-12",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-02-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 31,
+    "total_hr_sr_bipartisan": 7,
+    "total_hr_sr_became_public_law": 1,
+    "passed_rate_percentile_party": 76,
+    "bipartisan_rate_percentile_party": 24
   },
   "district": {
     "year": 2023,

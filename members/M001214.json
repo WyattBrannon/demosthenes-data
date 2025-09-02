@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 14
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -970,6 +970,114 @@
       "phone": "219-795-1844"
     }
   ],
+  "cosponsors_top": [
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 4
+    },
+    {
+      "bioguide": "K000399",
+      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "D000624",
+      "name": "Rep. Dingell, Debbie [D-MI-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001295",
+      "name": "Rep. Bost, Mike [R-IL-12]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000590",
+      "name": "Rep. Lee, Susie [D-NV-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000486",
+      "name": "Rep. Roybal-Allard, Lucille [D-CA-40]",
+      "count": 2
+    },
+    {
+      "bioguide": "U000040",
+      "name": "Rep. Underwood, Lauren [D-IL-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000577",
+      "name": "Rep. Ryan, Tim [D-OH-13]",
+      "count": 2
+    },
+    {
+      "bioguide": "T000472",
+      "name": "Rep. Takano, Mark [D-CA-41]",
+      "count": 2
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "K000399",
+      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3359",
+      "title": "Veterans\u2019 Security and Pay Transparency Act",
+      "introducedDate": "2025-05-13",
+      "latestAction": {
+        "date": "2025-05-13",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3359?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-05-13",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-05-20",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 16,
+    "total_hr_sr_bipartisan": 8,
+    "total_hr_sr_became_public_law": 4,
+    "passed_rate_percentile_party": 100,
+    "bipartisan_rate_percentile_party": 65
+  },
   "district": {
     "year": 2023,
     "state_fips": "18",
@@ -1106,9 +1214,5 @@
       "name": "Mike Levin",
       "distance": 0.009372299611087976
     }
-  ],
-  "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
-  }
+  ]
 }

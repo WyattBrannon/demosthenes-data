@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -786,13 +786,214 @@
       "phone": "603-444-7700"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+      "count": 1
+    },
+    {
+      "bioguide": "P000614",
+      "name": "Rep. Pappas, Chris [D-NH-1]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "W000829",
+      "name": "Rep. Wied, Tony [R-WI-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000592",
+      "name": "Rep. Golden, Jared F. [D-ME-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Rep. Thompson, Glenn [R-PA-15]",
+      "count": 1
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+      "count": 1
+    },
+    {
+      "bioguide": "P000614",
+      "name": "Rep. Pappas, Chris [D-NH-1]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "W000829",
+      "name": "Rep. Wied, Tony [R-WI-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000592",
+      "name": "Rep. Golden, Jared F. [D-ME-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Rep. Thompson, Glenn [R-PA-15]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4594",
+      "title": "Military Learning for Credit Act of 2025",
+      "introducedDate": "2025-07-22",
+      "latestAction": {
+        "date": "2025-07-22",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4594?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-07-22",
+          "original": true
+        },
+        {
+          "bioguide": "P000614",
+          "name": "Rep. Pappas, Chris [D-NH-1]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-07-22",
+          "original": true
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-07-22",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-08-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4549",
+      "title": "Office of Rural Affairs Enhancement Act",
+      "introducedDate": "2025-07-21",
+      "latestAction": {
+        "date": "2025-08-15",
+        "text": "Placed on the Union Calendar, Calendar No. 183."
+      },
+      "policy_area": "Commerce",
+      "subjects": [
+        "Congressional oversight",
+        "Federal officials",
+        "Rural conditions and development",
+        "Small business"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4549?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000829",
+          "name": "Rep. Wied, Tony [R-WI-8]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-07-21",
+          "original": true
+        },
+        {
+          "bioguide": "G000592",
+          "name": "Rep. Golden, Jared F. [D-ME-2]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-07-21",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-08-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3587",
+      "title": "Investing in Digital Skills Act",
+      "introducedDate": "2025-05-23",
+      "latestAction": {
+        "date": "2025-05-23",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3587?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000467",
+          "name": "Rep. Thompson, Glenn [R-PA-15]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-05-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 3,
+    "total_hr_sr_bipartisan": 3,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 98
   },
   "district": {
     "year": 2023,

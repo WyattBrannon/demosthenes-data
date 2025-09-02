@@ -89,7 +89,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 3
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -933,13 +933,695 @@
       "phone": "520-777-0400"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "G000551",
+      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-3]",
+      "count": 21
+    },
+    {
+      "bioguide": "O000171",
+      "name": "Rep. O'Halleran, Tom [D-AZ-1]",
+      "count": 18
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 15
+    },
+    {
+      "bioguide": "C001053",
+      "name": "Rep. Cole, Tom [R-OK-4]",
+      "count": 15
+    },
+    {
+      "bioguide": "L000582",
+      "name": "Rep. Lieu, Ted [D-CA-33]",
+      "count": 13
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Rep. Soto, Darren [D-FL-9]",
+      "count": 12
+    },
+    {
+      "bioguide": "K000368",
+      "name": "Rep. Kirkpatrick, Ann [D-AZ-1]",
+      "count": 12
+    },
+    {
+      "bioguide": "H001080",
+      "name": "Rep. Haaland, Debra A. [D-NM-1]",
+      "count": 12
+    },
+    {
+      "bioguide": "D000623",
+      "name": "Rep. DeSaulnier, Mark [D-CA-11]",
+      "count": 11
+    },
+    {
+      "bioguide": "C001112",
+      "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+      "count": 11
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "K000377",
+      "name": "Sen. Kelly, Mark [D-AZ]",
+      "count": 4
+    },
+    {
+      "bioguide": "F000479",
+      "name": "Sen. Fetterman, John [D-PA]",
+      "count": 2
+    },
+    {
+      "bioguide": "J000312",
+      "name": "Sen. Justice, James C. [R-WV]",
+      "count": 2
+    },
+    {
+      "bioguide": "P000145",
+      "name": "Sen. Padilla, Alex [D-CA]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001242",
+      "name": "Sen. Moreno, Bernie [R-OH]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001114",
+      "name": "Rep. Curtis, John R. [R-UT-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "W000800",
+      "name": "Rep. Welch, Peter [D-VT-At Large]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001095",
+      "name": "Sen. Cotton, Tom [R-AR]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001243",
+      "name": "Sen. McCormick, David [R-PA]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2526",
+      "title": "Fight for the American Dream Act",
+      "introducedDate": "2025-07-29",
+      "latestAction": {
+        "date": "2025-07-29",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2526?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-07-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2495",
+      "title": "Keep Call Centers in America Act of 2025",
+      "introducedDate": "2025-07-29",
+      "latestAction": {
+        "date": "2025-07-29",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2495?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "J000312",
+          "name": "Sen. Justice, James C. [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-07-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2473",
+      "title": "Federal Firefighters Families First Act",
+      "introducedDate": "2025-07-28",
+      "latestAction": {
+        "date": "2025-07-28",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2473?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001242",
+          "name": "Sen. Moreno, Bernie [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-07-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2388",
+      "title": "Water Infrastructure Modernization Act of 2025",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2388?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-07-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2254",
+      "title": "Click to Cancel Consumer Protection Act of 2025",
+      "introducedDate": "2025-07-10",
+      "latestAction": {
+        "date": "2025-07-10",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": "Commerce",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2254?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-07-10",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-07-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2200",
+      "title": "First Responders Emergency Assistance Act",
+      "introducedDate": "2025-06-26",
+      "latestAction": {
+        "date": "2025-06-26",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2200?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2163",
+      "title": "Border Patrol Recruitment Enhancement Act",
+      "introducedDate": "2025-06-25",
+      "latestAction": {
+        "date": "2025-06-25",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2163?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2085",
+      "title": "Postpartum Lifeline Act",
+      "introducedDate": "2025-06-16",
+      "latestAction": {
+        "date": "2025-06-16",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2085?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2039",
+      "title": "Wildfire Risk Evaluation Act",
+      "introducedDate": "2025-06-11",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Emergency Management",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2039?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2033",
+      "title": "Cross-Boundary Wildfire Solutions Act",
+      "introducedDate": "2025-06-11",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2033?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2038",
+      "title": "Wildfire Coordination Act",
+      "introducedDate": "2025-06-11",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2038?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1549",
+      "title": "Water Cybersecurity Enhancement Act of 2025",
+      "introducedDate": "2025-05-01",
+      "latestAction": {
+        "date": "2025-05-01",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": "Environmental Protection",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1549?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001095",
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-05-01",
+          "original": true
+        },
+        {
+          "bioguide": "J000312",
+          "name": "Sen. Justice, James C. [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-05-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1527",
+      "title": "Housing Affordability Act",
+      "introducedDate": "2025-04-30",
+      "latestAction": {
+        "date": "2025-04-30",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1527?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-04-30",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-05-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1265",
+      "title": "USTR Inspector General Act of 2025",
+      "introducedDate": "2025-04-02",
+      "latestAction": {
+        "date": "2025-04-02",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1265?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1203",
+      "title": "Housing Vouchers Fairness Act",
+      "introducedDate": "2025-03-31",
+      "latestAction": {
+        "date": "2025-03-31",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Housing and Community Development",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1203?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-03-31",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-03-31",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-03-31",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-06-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1166",
+      "title": "Excess Urban Heat Mitigation Act of 2025",
+      "introducedDate": "2025-03-27",
+      "latestAction": {
+        "date": "2025-03-27",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Housing and Community Development",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1166?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-03-27",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1023",
+      "title": "Social Security Overpayment Relief Act",
+      "introducedDate": "2025-03-13",
+      "latestAction": {
+        "date": "2025-03-13",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Social Welfare",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1023?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-03-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "909",
+      "title": "La Paz County Solar Energy and Job Creation Act",
+      "introducedDate": "2025-03-10",
+      "latestAction": {
+        "date": "2025-03-10",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Arizona",
+        "Historical and cultural resources",
+        "Indian lands and resources rights",
+        "Land transfers"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/909?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-03-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "572",
+      "title": "Shadow Wolves Improvement Act",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-07-30",
+        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably."
+      },
+      "policy_area": "Immigration",
+      "subjects": [
+        "Border security and unlawful immigration",
+        "Congressional oversight",
+        "Drug trafficking and controlled substances",
+        "Federal-Indian relations",
+        "Government employee pay, benefits, personnel management",
+        "Human trafficking",
+        "Law enforcement administration and funding",
+        "Law enforcement officers",
+        "Smuggling and trafficking"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/572?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-02-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 134,
+    "total_hr_sr_bipartisan": 46,
+    "total_hr_sr_became_public_law": 4,
+    "passed_rate_percentile_party": 83,
+    "bipartisan_rate_percentile_party": 38
   },
   "district": {
     "year": 2023,

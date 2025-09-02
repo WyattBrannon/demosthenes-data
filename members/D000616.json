@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 8
   },
-  "generated_at": "2025-09-01",
+  "generated_at": "2025-09-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -878,6 +878,101 @@
       "phone": "615-896-1986"
     }
   ],
+  "cosponsors_top": [
+    {
+      "bioguide": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+      "count": 19
+    },
+    {
+      "bioguide": "R000582",
+      "name": "Rep. Roe, David P. [R-TN-1]",
+      "count": 18
+    },
+    {
+      "bioguide": "B001243",
+      "name": "Rep. Blackburn, Marsha [R-TN-7]",
+      "count": 15
+    },
+    {
+      "bioguide": "D000533",
+      "name": "Rep. Duncan, John J., Jr. [R-TN-2]",
+      "count": 14
+    },
+    {
+      "bioguide": "R000612",
+      "name": "Rep. Rose, John W. [R-TN-6]",
+      "count": 11
+    },
+    {
+      "bioguide": "B001273",
+      "name": "Rep. Black, Diane [R-TN-6]",
+      "count": 11
+    },
+    {
+      "bioguide": "C000754",
+      "name": "Rep. Cooper, Jim [D-TN-5]",
+      "count": 9
+    },
+    {
+      "bioguide": "F000458",
+      "name": "Rep. Fincher, Stephen Lee [R-TN-8]",
+      "count": 9
+    },
+    {
+      "bioguide": "K000392",
+      "name": "Rep. Kustoff, David [R-TN-8]",
+      "count": 7
+    },
+    {
+      "bioguide": "I000056",
+      "name": "Rep. Issa, Darrell E. [R-CA-49]",
+      "count": 7
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "R000612",
+      "name": "Rep. Rose, John W. [R-TN-6]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1675",
+      "title": "Protecting Horses from Soring Act of 2025",
+      "introducedDate": "2025-02-27",
+      "latestAction": {
+        "date": "2025-02-27",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Animals",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1675?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-02-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 43,
+    "total_hr_sr_bipartisan": 8,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 17
+  },
   "district": {
     "year": 2023,
     "state_fips": "47",
@@ -1014,9 +1109,5 @@
       "name": "Janice D. Schakowsky",
       "distance": 0.004143669871020131
     }
-  ],
-  "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
-  }
+  ]
 }
