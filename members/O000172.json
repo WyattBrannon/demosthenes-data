@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 52
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -748,13 +748,378 @@
       "hours": "By appointment only"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-13]",
+      "count": 30
+    },
+    {
+      "bioguide": "G000586",
+      "name": "Rep. Garcia, Jesus G. \"Chuy\" [D-IL-4]",
+      "count": 22
+    },
+    {
+      "bioguide": "L000551",
+      "name": "Rep. Lee, Barbara [D-CA-13]",
+      "count": 22
+    },
+    {
+      "bioguide": "O000173",
+      "name": "Rep. Omar, Ilhan [D-MN-5]",
+      "count": 22
+    },
+    {
+      "bioguide": "P000617",
+      "name": "Rep. Pressley, Ayanna [D-MA-7]",
+      "count": 21
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 18
+    },
+    {
+      "bioguide": "V000081",
+      "name": "Rep. Velazquez, Nydia M. [D-NY-7]",
+      "count": 16
+    },
+    {
+      "bioguide": "J000298",
+      "name": "Rep. Jayapal, Pramila [D-WA-7]",
+      "count": 16
+    },
+    {
+      "bioguide": "B000574",
+      "name": "Rep. Blumenauer, Earl [D-OR-3]",
+      "count": 16
+    },
+    {
+      "bioguide": "M001188",
+      "name": "Rep. Meng, Grace [D-NY-6]",
+      "count": 16
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "L000597",
+      "name": "Rep. Lee, Laurel M. [R-FL-15]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001039",
+      "name": "Rep. Cammack, Kat [R-FL-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "D000530",
+      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "count": 1
+    },
+    {
+      "bioguide": "D000624",
+      "name": "Rep. Dingell, Debbie [D-MI-12]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000582",
+      "name": "Rep. Lieu, Ted [D-CA-33]",
+      "count": 1
+    },
+    {
+      "bioguide": "M000194",
+      "name": "Rep. Mace, Nancy [R-SC-1]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001222",
+      "name": "Rep. Miller, Max L. [R-OH-7]",
+      "count": 1
+    },
+    {
+      "bioguide": "R000606",
+      "name": "Rep. Raskin, Jamie [D-MD-8]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3562",
+      "title": "DEFIANCE Act of 2025",
+      "introducedDate": "2025-05-21",
+      "latestAction": {
+        "date": "2025-05-21",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3562?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000597",
+          "name": "Rep. Lee, Laurel M. [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "C001039",
+          "name": "Rep. Cammack, Kat [R-FL-3]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "D000530",
+          "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-05-21",
+          "original": true
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-06-25",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-06-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 13
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3302",
+      "title": "Healthy Start Reauthorization Act of 2025",
+      "introducedDate": "2025-05-08",
+      "latestAction": {
+        "date": "2025-05-08",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3302?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-06-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1944",
+      "title": "10 Percent Credit Card Interest Rate Cap Act",
+      "introducedDate": "2025-03-06",
+      "latestAction": {
+        "date": "2025-03-06",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1944?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-06",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "398",
+      "title": "Geothermal Cost-Recovery Authority Act of 2025",
+      "introducedDate": "2025-01-14",
+      "latestAction": {
+        "date": "2025-01-14",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/398?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "360",
+      "title": "Oyster Reef Recovery Act of 2025",
+      "introducedDate": "2025-01-13",
+      "latestAction": {
+        "date": "2025-01-13",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [
+        "Environmental assessment, monitoring, research",
+        "Geography and mapping",
+        "Land use and conservation",
+        "Marine and coastal resources, fisheries",
+        "Water quality"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/360?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-03-18",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-03-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 48,
+    "total_hr_sr_bipartisan": 8,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 10
   },
   "district": {
     "year": 2023,

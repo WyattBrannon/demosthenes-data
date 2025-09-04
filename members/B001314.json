@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -779,7 +779,110 @@
       "phone": "904-319-9433"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "R000609",
+      "name": "Rep. Rutherford, John H. [R-FL-5]",
+      "count": 7
+    },
+    {
+      "bioguide": "F000472",
+      "name": "Rep. Franklin, C. Scott [R-FL-18]",
+      "count": 6
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "count": 6
+    },
+    {
+      "bioguide": "W000806",
+      "name": "Rep. Webster, Daniel [R-FL-11]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+      "count": 6
+    },
+    {
+      "bioguide": "C001039",
+      "name": "Rep. Cammack, Kat [R-FL-3]",
+      "count": 6
+    },
+    {
+      "bioguide": "M001216",
+      "name": "Rep. Mills, Cory [R-FL-7]",
+      "count": 5
+    },
+    {
+      "bioguide": "B001282",
+      "name": "Rep. Barr, Andy [R-KY-6]",
+      "count": 4
+    },
+    {
+      "bioguide": "B001260",
+      "name": "Rep. Buchanan, Vern [R-FL-16]",
+      "count": 4
+    },
+    {
+      "bioguide": "S001214",
+      "name": "Rep. Steube, W. Gregory [R-FL-17]",
+      "count": 4
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "F000472",
+      "name": "Rep. Franklin, C. Scott [R-FL-18]",
+      "count": 3
+    },
+    {
+      "bioguide": "K000403",
+      "name": "Rep. Kennedy, Mike [R-UT-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001282",
+      "name": "Rep. Barr, Andy [R-KY-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "count": 2
+    },
+    {
+      "bioguide": "V000134",
+      "name": "Rep. Van Duyne, Beth [R-TX-24]",
+      "count": 2
+    },
+    {
+      "bioguide": "W000806",
+      "name": "Rep. Webster, Daniel [R-FL-11]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001260",
+      "name": "Rep. Buchanan, Vern [R-FL-16]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000609",
+      "name": "Rep. Rutherford, John H. [R-FL-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001216",
+      "name": "Rep. Mills, Cory [R-FL-7]",
+      "count": 1
+    }
+  ],
   "bills": [
     {
       "congress": 119,
@@ -795,7 +898,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4755?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001216",
+          "name": "Rep. Mills, Cory [R-FL-7]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-07-25",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -811,7 +925,138 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4311?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-17]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-10",
+          "original": true
+        },
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-07-10",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-07-10",
+          "original": true
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-10",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-07-10",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "W000829",
+          "name": "Rep. Wied, Tony [R-WI-8]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-07-23",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-08-08",
+          "original": false
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -827,7 +1072,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4093?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001082",
+          "name": "Rep. Hern, Kevin [R-OK-1]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-06-24",
+          "original": true
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001205",
+          "name": "Rep. Miller, Carol D. [R-WV-1]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-07-23",
+          "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-07-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -843,7 +1123,98 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3057?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "D000600",
+          "name": "Rep. Diaz-Balart, Mario [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-29",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-01",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-05-05",
+          "original": false
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-06-27",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-06-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -859,7 +1230,42 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2925?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-04-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-17",
+          "original": true
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-04-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -875,7 +1281,26 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2667?format=json",
       "updateDate": null,
-      "bipartisan": true
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-07",
+          "original": true
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-04-07",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -891,7 +1316,34 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2030?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000597",
+          "name": "Rep. Lee, Laurel M. [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-06-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -904,10 +1356,406 @@
         "text": "Referred to the Subcommittee on Highways and Transit."
       },
       "policy_area": "Economics and Public Finance",
-      "subjects": [],
+      "subjects": [
+        "Accounting and auditing",
+        "Administrative law and regulatory procedures",
+        "Administrative remedies",
+        "Adoption and foster care",
+        "Adult day care",
+        "Advanced technology and technological innovations",
+        "Advisory bodies",
+        "Africa",
+        "Aging",
+        "Agricultural conservation and pollution",
+        "Agricultural education",
+        "Agricultural marketing and promotion",
+        "Agricultural prices, subsidies, credit",
+        "Agricultural trade",
+        "Air quality",
+        "Alaska",
+        "Alaska Natives and Hawaiians",
+        "Alcoholic beverages",
+        "Alternative and renewable resources",
+        "American Samoa",
+        "Animal and plant health",
+        "Animal protection and human-animal relationships",
+        "Appalachian Regional Commission",
+        "Appropriations",
+        "Arab-Israeli relations",
+        "Architect of the Capitol",
+        "Arizona",
+        "Arkansas",
+        "Armed Forces Retirement Home",
+        "Arms control and nonproliferation",
+        "Army Corps of Engineers",
+        "Art, artists, authorship",
+        "Asia",
+        "Assault and harassment offenses",
+        "Australia",
+        "Aviation and airports",
+        "Bank accounts, deposits, capital",
+        "Banking and financial institutions regulation",
+        "Bankruptcy",
+        "Belarus",
+        "Birds",
+        "Blood and blood diseases",
+        "Broadcasting, cable, digital technologies",
+        "Business education",
+        "Business expenses",
+        "Business investment and capital",
+        "Cancer",
+        "Cardiovascular and respiratory health",
+        "Caribbean area",
+        "Cemeteries and funerals",
+        "Centers for Disease Control and Prevention (CDC)",
+        "Charitable contributions",
+        "Child care and development",
+        "Child health",
+        "China",
+        "Civil actions and liability",
+        "Climate change and greenhouse gases",
+        "Coal",
+        "Coast guard",
+        "Commemorative events and holidays",
+        "Commodity Futures Trading Commission",
+        "Community life and organization",
+        "Competitiveness, trade promotion, trade deficits",
+        "Computer security and identity theft",
+        "Computers and information technology",
+        "Conflicts and wars",
+        "Congressional agencies",
+        "Congressional operations and organization",
+        "Congressional oversight",
+        "Congressional-executive branch relations",
+        "Consumer Product Safety Commission",
+        "Consumer affairs",
+        "Consumer credit",
+        "Corporate finance and management",
+        "Corporation for National and Community Service",
+        "Corporation for Public Broadcasting",
+        "Correctional facilities and imprisonment",
+        "Cosmetics and personal care",
+        "Credit and credit markets",
+        "Crime victims",
+        "Criminal procedure and sentencing",
+        "Customs enforcement",
+        "Dams and canals",
+        "Defense spending",
+        "Department of Agriculture",
+        "Department of Commerce",
+        "Department of Defense",
+        "Department of Education",
+        "Department of Energy",
+        "Department of Health and Human Services",
+        "Department of Homeland Security",
+        "Department of Housing and Urban Development",
+        "Department of Justice",
+        "Department of Labor",
+        "Department of State",
+        "Department of Transportation",
+        "Department of Veterans Affairs",
+        "Department of the Interior",
+        "Department of the Treasury",
+        "Digestive and metabolic diseases",
+        "Diplomacy, foreign officials, Americans abroad",
+        "Disability and health-based discrimination",
+        "Disability and paralysis",
+        "Disability assistance",
+        "Disaster relief and insurance",
+        "District of Columbia",
+        "Domestic violence and child abuse",
+        "Drug Enforcement Administration (DEA)",
+        "Drug safety, medical device, and laboratory regulation",
+        "Drug therapy",
+        "Drug trafficking and controlled substances",
+        "Drug, alcohol, tobacco use",
+        "Economic development",
+        "Economic performance and conditions",
+        "Education of the disadvantaged",
+        "Education programs funding",
+        "Educational facilities and institutions",
+        "Educational technology and distance education",
+        "Election Assistance Commission",
+        "Elections, voting, political campaign regulation",
+        "Electric power generation and transmission",
+        "Elementary and secondary education",
+        "Emergency medical services and trauma care",
+        "Emergency planning and evacuation",
+        "Employee benefits and pensions",
+        "Employee hiring",
+        "Employee leave",
+        "Employment and training programs",
+        "Employment discrimination and employee rights",
+        "Employment taxes",
+        "Energy assistance for the poor and aged",
+        "Energy revenues and royalties",
+        "Environmental Protection Agency (EPA)",
+        "Environmental health",
+        "Environmental regulatory procedures",
+        "Europe",
+        "Evidence and witnesses",
+        "Executive Office of the President",
+        "Executive agency funding and structure",
+        "Family planning and birth control",
+        "Family services",
+        "Federal Bureau of Investigation (FBI)",
+        "Federal Communications Commission (FCC)",
+        "Federal Emergency Management Agency (FEMA)",
+        "Federal Reserve System",
+        "Federal Trade Commission (FTC)",
+        "Federal appellate courts",
+        "Federal district courts",
+        "Federal-Indian relations",
+        "Financial crises and stabilization",
+        "Financial services and investments",
+        "Fires",
+        "First responders and emergency personnel",
+        "Floods and storm protection",
+        "Food and Drug Administration (FDA)",
+        "Food assistance and relief",
+        "Food industry and services",
+        "Food supply, safety, and labeling",
+        "Foreign aid and international relief",
+        "Foreign and international corporations",
+        "Foreign language and bilingual programs",
+        "Forests, forestry, trees",
+        "Fraud offenses and financial crimes",
+        "Gaza Strip",
+        "General Services Administration",
+        "Genetics",
+        "Government Accountability Office (GAO)",
+        "Government buildings, facilities, and property",
+        "Government employee pay, benefits, personnel management",
+        "Government ethics and transparency, public corruption",
+        "Government information and archives",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Government trust funds",
+        "Great Lakes",
+        "Guam",
+        "HIV/AIDS",
+        "Hazardous wastes and toxic substances",
+        "Health care costs and insurance",
+        "Health care coverage and access",
+        "Health care quality",
+        "Health facilities and institutions",
+        "Health information and medical records",
+        "Health personnel",
+        "Health programs administration and funding",
+        "Health promotion and preventive care",
+        "Health technology, devices, supplies",
+        "Higher education",
+        "Historic sites and heritage areas",
+        "Historical and cultural resources",
+        "Home and outpatient care",
+        "Homelessness and emergency shelter",
+        "Hospital care",
+        "House of Representatives",
+        "Housing and community development funding",
+        "Housing discrimination",
+        "Housing finance and home ownership",
+        "Housing for the elderly and disabled",
+        "Housing supply and affordability",
+        "Human trafficking",
+        "Humanities programs funding",
+        "Hybrid, electric, and advanced technology vehicles",
+        "Immigrant health and welfare",
+        "Immunology and vaccination",
+        "Income tax credits",
+        "Income tax deductions",
+        "Income tax exclusion",
+        "Indian lands and resources rights",
+        "Indian social and development programs",
+        "Industrial facilities",
+        "Infectious and parasitic diseases",
+        "Inflation and prices",
+        "Infrastructure development",
+        "Intellectual property",
+        "Intelligence activities, surveillance, classified information",
+        "Interest, dividends, interest rates",
+        "Intergovernmental relations",
+        "Internal Revenue Service (IRS)",
+        "International law and treaties",
+        "International organizations and cooperation",
+        "Internet and video services",
+        "Internet, web applications, social media",
+        "Israel",
+        "Japan",
+        "Judicial procedure and administration",
+        "Judicial review and appeals",
+        "Labor standards",
+        "Labor-management relations",
+        "Land transfers",
+        "Land use and conservation",
+        "Landlord and tenant",
+        "Law enforcement administration and funding",
+        "Law enforcement officers",
+        "Legal Services Corporation",
+        "Libraries and archives",
+        "Library of Congress",
+        "Licensing and registrations",
+        "Livestock",
+        "Long-term, rehabilitative, and terminal care",
+        "Low- and moderate-income housing",
+        "Mammals",
+        "Manufacturing",
+        "Marine and coastal resources, fisheries",
+        "Marine and inland water transportation",
+        "Marketing and advertising",
+        "Marriage and family status",
+        "Meat",
+        "Medicaid",
+        "Medical education",
+        "Medical research",
+        "Medical tests and diagnostic methods",
+        "Medicare",
+        "Members of Congress",
+        "Mental health",
+        "Michigan",
+        "Middle East",
+        "Migrant, seasonal, agricultural labor",
+        "Military assistance, sales, and agreements",
+        "Military education and training",
+        "Military medicine",
+        "Military personnel and dependents",
+        "Military procurement, research, weapons development",
+        "Mining",
+        "Minority and disadvantaged businesses",
+        "Minority education",
+        "Monuments and memorials",
+        "Motor carriers",
+        "Motor fuels",
+        "Motor vehicles",
+        "Multilateral development programs",
+        "Museums, exhibitions, cultural centers",
+        "National Aeronautics and Space Administration",
+        "National Archives and Records Administration",
+        "National Foundation on the Arts and the Humanities",
+        "National Guard and reserves",
+        "National Institutes of Health (NIH)",
+        "National Railroad Passenger Corporation (Amtrak)",
+        "National Science Foundation",
+        "National and community service",
+        "Natural disasters",
+        "Navigation, waterways, harbors",
+        "New Jersey",
+        "New York City",
+        "Northern Mariana Islands",
+        "Nuclear Regulatory Commission (NRC)",
+        "Nuclear power",
+        "Nuclear weapons",
+        "Nursing",
+        "Nutrition and diet",
+        "Office of Personnel Management (OPM)",
+        "Oil and gas",
+        "Oregon",
+        "Organ and tissue donation and transplantation",
+        "Palestinians",
+        "Parks, recreation areas, trails",
+        "Peace Corps",
+        "Pedestrians and bicycling",
+        "Performance measurement",
+        "Performing arts",
+        "Philippines",
+        "Pollution liability",
+        "Postal service",
+        "Poverty and welfare assistance",
+        "Preschool education",
+        "Prescription drugs",
+        "Presidents and presidential powers, Vice Presidents",
+        "Product safety and quality",
+        "Public contracts and procurement",
+        "Public housing",
+        "Public transit",
+        "Puerto Rico",
+        "Railroad Retirement Board",
+        "Railroads",
+        "Refugees, asylum, displaced persons",
+        "Regional and metropolitan planning",
+        "Research administration and funding",
+        "Research and development",
+        "Right of privacy",
+        "Roads and highways",
+        "Rural conditions and development",
+        "Russia",
+        "Saint Lawrence Seaway",
+        "Sales and excise taxes",
+        "Seafood",
+        "Securities",
+        "Securities and Exchange Commission (SEC)",
+        "Self-employed",
+        "Senate",
+        "Separation, divorce, custody, support",
+        "Service animals",
+        "Sex and reproductive health",
+        "Sex offenses",
+        "Small Business Administration",
+        "Small business",
+        "Smithsonian Institution",
+        "Smuggling and trafficking",
+        "Social Security Administration",
+        "Social security and elderly assistance",
+        "Social work, volunteer service, charitable organizations",
+        "Solid waste and recycling",
+        "South Carolina",
+        "South Korea",
+        "State and local finance",
+        "State and local government operations",
+        "State and local taxation",
+        "Strategic materials and reserves",
+        "Student aid and college costs",
+        "Supreme Court",
+        "Taiwan",
+        "Tax administration and collection, taxpayers",
+        "Tax treatment of families",
+        "Teaching, teachers, curricula",
+        "Telecommunication rates and fees",
+        "Telephone and wireless communication",
+        "Television and film",
+        "Temporary and part-time employment",
+        "Tennessee",
+        "Terrorism",
+        "Thailand",
+        "Transportation employees",
+        "Transportation programs funding",
+        "Transportation safety and security",
+        "U.S. Agency for Global Media",
+        "U.S. Agency for International Development (USAID)",
+        "U.S. Capitol",
+        "U.S. Postal Service",
+        "U.S. history",
+        "U.S. territories and protectorates",
+        "Ukraine",
+        "Unemployment",
+        "Urban and suburban affairs and development",
+        "User charges and fees",
+        "Veterans' education, employment, rehabilitation",
+        "Veterans' loans, housing, homeless programs",
+        "Veterans' medical care",
+        "Virgin Islands",
+        "Visas and passports",
+        "Vocational and technical education",
+        "Voting rights",
+        "Wages and earnings",
+        "War crimes, genocide, crimes against humanity",
+        "Water quality",
+        "Water resources funding",
+        "Water use and supply",
+        "Watersheds",
+        "Wetlands",
+        "Wilderness and natural areas, wildlife refuges, wild rivers, habitats",
+        "Wildlife conservation and habitat protection",
+        "Women in business",
+        "Women's health",
+        "Women's rights",
+        "Worker safety and health",
+        "World health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1654?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -929,7 +1777,50 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1554?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-02-25",
+          "original": true
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-02-25",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-04-02",
+          "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -951,7 +1842,9 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1280?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -975,7 +1868,42 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1279?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-02-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -997,14 +1925,41 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1049?format=json",
       "updateDate": null,
-      "bipartisan": false
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-02-06",
+          "original": true
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-02-11",
+          "original": false
+        },
+        {
+          "bioguide": "H001093",
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-02-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     }
   ],
   "work_statistics": {
     "total_hr_sr": 31,
     "total_hr_sr_bipartisan": 7,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 76,
+    "passed_rate_percentile_party": 75,
     "bipartisan_rate_percentile_party": 24
   },
   "district": {

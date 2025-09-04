@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -848,13 +848,345 @@
       "longitude": -116.8040665
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "S001148",
+      "name": "Rep. Simpson, Michael K. [R-ID-2]",
+      "count": 8
+    },
+    {
+      "bioguide": "N000189",
+      "name": "Rep. Newhouse, Dan [R-WA-4]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001302",
+      "name": "Rep. Biggs, Andy [R-AZ-5]",
+      "count": 5
+    },
+    {
+      "bioguide": "B000825",
+      "name": "Rep. Boebert, Lauren [R-CO-3]",
+      "count": 4
+    },
+    {
+      "bioguide": "D000615",
+      "name": "Rep. Duncan, Jeff [R-SC-3]",
+      "count": 4
+    },
+    {
+      "bioguide": "T000165",
+      "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+      "count": 4
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 4
+    },
+    {
+      "bioguide": "P000048",
+      "name": "Rep. Pfluger, August [R-TX-11]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001212",
+      "name": "Rep. Stauber, Pete [R-MN-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 3
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "S001148",
+      "name": "Rep. Simpson, Michael K. [R-ID-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001228",
+      "name": "Rep. Maloy, Celeste [R-UT-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "B000825",
+      "name": "Rep. Boebert, Lauren [R-CO-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000590",
+      "name": "Rep. Lee, Susie [D-NV-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "P000048",
+      "name": "Rep. Pfluger, August [R-TX-11]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "H001098",
+      "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "R000619",
+      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4324",
+      "title": "One Subject at a Time Act",
+      "introducedDate": "2025-07-10",
+      "latestAction": {
+        "date": "2025-07-10",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4324?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2298",
+      "title": "Reducing Barriers for Broadband on Federal Lands Act of 2025",
+      "introducedDate": "2025-03-24",
+      "latestAction": {
+        "date": "2025-03-24",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2298?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1687",
+      "title": "CLEAN Act",
+      "introducedDate": "2025-02-27",
+      "latestAction": {
+        "date": "2025-02-27",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1687?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001228",
+          "name": "Rep. Maloy, Celeste [R-UT-2]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-02-27",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-4]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-02-27",
+          "original": true
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-03-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "859",
+      "title": "Informing Consumers about Smart Devices Act",
+      "introducedDate": "2025-01-31",
+      "latestAction": {
+        "date": "2025-04-30",
+        "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 64."
+      },
+      "policy_area": "Commerce",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Computers and information technology",
+        "Federal Trade Commission (FTC)",
+        "Internet, web applications, social media",
+        "Photography and imaging",
+        "Right of privacy",
+        "Sound recording"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/859?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-01-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "765",
+      "title": "MAILS Act",
+      "introducedDate": "2025-01-28",
+      "latestAction": {
+        "date": "2025-01-28",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Congressional oversight",
+        "Government information and archives",
+        "Postal service",
+        "State and local government operations",
+        "U.S. Postal Service"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/765?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001148",
+          "name": "Rep. Simpson, Michael K. [R-ID-2]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "613",
+      "title": "ATF Transparency Act",
+      "introducedDate": "2025-01-22",
+      "latestAction": {
+        "date": "2025-01-22",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Administrative remedies",
+        "Congressional oversight",
+        "Criminal justice information and records",
+        "Firearms and explosives",
+        "Licensing and registrations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/613?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-05-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "405",
+      "title": "Keep Every Extra Penny Act of 2025",
+      "introducedDate": "2025-01-15",
+      "latestAction": {
+        "date": "2025-01-15",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/405?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000619",
+          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-01-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "331",
+      "title": "To amend the Aquifer Recharge Flexibility Act to clarify a provision relating to conveyances for aquifer recharge purposes.",
+      "introducedDate": "2025-01-13",
+      "latestAction": {
+        "date": "2025-05-14",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": "Water Resources Development",
+      "subjects": [
+        "Land use and conservation",
+        "Water use and supply"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/331?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001148",
+          "name": "Rep. Simpson, Michael K. [R-ID-2]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-01-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 36,
+    "total_hr_sr_bipartisan": 5,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "passed_rate_percentile_party": 20,
+    "bipartisan_rate_percentile_party": 10
   },
   "district": {
     "year": 2023,

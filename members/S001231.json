@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 27
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -862,6 +862,56 @@
       "phone": "510-763-0370"
     }
   ],
+  "cosponsors_top": [
+    {
+      "bioguide": "V000081",
+      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "count": 1
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "V000081",
+      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3736",
+      "title": "The Small Business Representation in Contracting Rulemaking Act",
+      "introducedDate": "2025-06-04",
+      "latestAction": {
+        "date": "2025-06-04",
+        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Commerce",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3736?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-06-04",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 1,
+    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 2
+  },
   "district": {
     "year": 2023,
     "state_fips": "06",
@@ -998,9 +1048,5 @@
       "name": "Bennie G. Thompson",
       "distance": 0.010417293314484356
     }
-  ],
-  "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
-  }
+  ]
 }

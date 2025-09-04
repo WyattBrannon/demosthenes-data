@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 46
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -916,13 +916,257 @@
       "hours": "By appointment only"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "D000615",
+      "name": "Rep. Duncan, Jeff [R-SC-3]",
+      "count": 6
+    },
+    {
+      "bioguide": "L000564",
+      "name": "Rep. Lamborn, Doug [R-CO-5]",
+      "count": 6
+    },
+    {
+      "bioguide": "W000795",
+      "name": "Rep. Wilson, Joe [R-SC-2]",
+      "count": 6
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 5
+    },
+    {
+      "bioguide": "H001071",
+      "name": "Rep. Hice, Jody B. [R-GA-10]",
+      "count": 5
+    },
+    {
+      "bioguide": "C000266",
+      "name": "Rep. Chabot, Steve [R-OH-1]",
+      "count": 5
+    },
+    {
+      "bioguide": "L000578",
+      "name": "Rep. LaMalfa, Doug [R-CA-1]",
+      "count": 5
+    },
+    {
+      "bioguide": "G000568",
+      "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+      "count": 5
+    },
+    {
+      "bioguide": "R000582",
+      "name": "Rep. Roe, David P. [R-TN-1]",
+      "count": 5
+    },
+    {
+      "bioguide": "B001302",
+      "name": "Rep. Biggs, Andy [R-AZ-5]",
+      "count": 4
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "C001116",
+      "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001077",
+      "name": "Rep. Higgins, Clay [R-LA-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 1
+    },
+    {
+      "bioguide": "B000825",
+      "name": "Rep. Boebert, Lauren [R-CO-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000603",
+      "name": "Rep. Gill, Brandon [R-TX-26]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001115",
+      "name": "Rep. Cloud, Michael [R-TX-27]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001302",
+      "name": "Rep. Biggs, Andy [R-AZ-5]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001316",
+      "name": "Rep. Burlison, Eric [R-MO-7]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001132",
+      "name": "Rep. Crane, Elijah [R-AZ-2]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4229",
+      "title": "To amend the Impoundment Control Act of 1974 to require prior approval from Congress before the Comptroller General may pursue a civil action under such Act, and for other purposes.",
+      "introducedDate": "2025-06-27",
+      "latestAction": {
+        "date": "2025-06-27",
+        "text": "Referred to the Committee on the Budget, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4229?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-4]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-06-27",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-06-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4121",
+      "title": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2026",
+      "introducedDate": "2025-06-25",
+      "latestAction": {
+        "date": "2025-06-25",
+        "text": "Placed on the Union Calendar, Calendar No. 138."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Adult day care",
+        "Agricultural conservation and pollution",
+        "Agricultural education",
+        "Agricultural insurance",
+        "Agricultural marketing and promotion",
+        "Agricultural prices, subsidies, credit",
+        "Agricultural research",
+        "Agricultural trade",
+        "Animal and plant health",
+        "Animal protection and human-animal relationships",
+        "Appropriations",
+        "Asia",
+        "Cardiovascular and respiratory health",
+        "Child care and development",
+        "Child health",
+        "China",
+        "Commodities markets",
+        "Commodity Futures Trading Commission",
+        "Congressional oversight",
+        "Department of Agriculture",
+        "Department of Health and Human Services",
+        "Drug safety, medical device, and laboratory regulation",
+        "Economic development",
+        "Educational technology and distance education",
+        "Electric power generation and transmission",
+        "Elementary and secondary education",
+        "Emergency medical services and trauma care",
+        "Environmental assessment, monitoring, research",
+        "Executive agency funding and structure",
+        "Farm Credit Administration",
+        "Floods and storm protection",
+        "Food and Drug Administration (FDA)",
+        "Food assistance and relief",
+        "Food supply, safety, and labeling",
+        "Foreign aid and international relief",
+        "Government buildings, facilities, and property",
+        "Government lending and loan guarantees",
+        "Hazardous wastes and toxic substances",
+        "Historical and cultural resources",
+        "Housing and community development funding",
+        "Indian lands and resources rights",
+        "Infectious and parasitic diseases",
+        "Meat",
+        "Nutrition and diet",
+        "Pest management",
+        "Public utilities and utility rates",
+        "Rural conditions and development",
+        "Solid waste and recycling",
+        "Trade restrictions",
+        "Water use and supply",
+        "Watersheds",
+        "Wildlife conservation and habitat protection",
+        "Worker safety and health"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4121?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 36,
+    "total_hr_sr_bipartisan": 14,
+    "total_hr_sr_became_public_law": 1,
+    "passed_rate_percentile_party": 71,
+    "bipartisan_rate_percentile_party": 49
   },
   "district": {
     "year": 2023,

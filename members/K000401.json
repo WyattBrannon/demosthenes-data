@@ -85,7 +85,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -658,13 +658,801 @@
       "phone": "916-724-2575"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "O000086",
+      "name": "Rep. Owens, Burgess [R-UT-4]",
+      "count": 5
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 4
+    },
+    {
+      "bioguide": "F000480",
+      "name": "Rep. Fong, Vince [R-CA-20]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001194",
+      "name": "Rep. Moolenaar, John R. [R-MI-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "P000608",
+      "name": "Rep. Peters, Scott H. [D-CA-50]",
+      "count": 3
+    },
+    {
+      "bioguide": "K000398",
+      "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+      "count": 3
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
+      "count": 3
+    },
+    {
+      "bioguide": "H001096",
+      "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+      "count": 3
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "O000086",
+      "name": "Rep. Owens, Burgess [R-UT-4]",
+      "count": 3
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001194",
+      "name": "Rep. Moolenaar, John R. [R-MI-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001233",
+      "name": "Rep. Messmer, Mark [R-IN-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "K000398",
+      "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+      "count": 2
+    },
+    {
+      "bioguide": "O000177",
+      "name": "Rep. Onder, Robert F. [R-MO-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001322",
+      "name": "Rep. Baumgartner, Michael [R-WA-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 2
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4889",
+      "title": "To prohibit States from carrying out more than one Congressional redistricting after a decennial census and apportionment.",
+      "introducedDate": "2025-08-05",
+      "latestAction": {
+        "date": "2025-08-05",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4889?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4232",
+      "title": "No Tax Dollars for Riots",
+      "introducedDate": "2025-06-27",
+      "latestAction": {
+        "date": "2025-06-27",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4232?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3495",
+      "title": "Direct Seller and Real Estate Agent Harmonization Act",
+      "introducedDate": "2025-05-19",
+      "latestAction": {
+        "date": "2025-05-19",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3495?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-05-19",
+          "original": true
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "F000480",
+          "name": "Rep. Fong, Vince [R-CA-20]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-06-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-08-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-08-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001224",
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-08-26",
+          "original": false
+        },
+        {
+          "bioguide": "A000379",
+          "name": "Rep. Alford, Mark [R-MO-4]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-08-26",
+          "original": false
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-08-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001194",
+          "name": "Rep. Moolenaar, John R. [R-MI-2]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3152",
+      "title": "Patent Eligibility Restoration Act of 2025",
+      "introducedDate": "2025-05-01",
+      "latestAction": {
+        "date": "2025-05-01",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Commerce",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3152?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3007",
+      "title": "Medicare Protection Act of 2025",
+      "introducedDate": "2025-04-24",
+      "latestAction": {
+        "date": "2025-04-24",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3007?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2634",
+      "title": "Free Speech On Campus Act",
+      "introducedDate": "2025-04-03",
+      "latestAction": {
+        "date": "2025-04-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Education",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2634?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-04-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1874",
+      "title": "To amend the Coastal Zone Management Act of 1972 to establish a conclusive presumption that a State concurs to certain activities, and for other purposes.",
+      "introducedDate": "2025-03-05",
+      "latestAction": {
+        "date": "2025-03-06",
+        "text": "Sponsor introductory remarks on measure. (CR H1032-1033)"
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1874?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1320",
+      "title": "To ensure that the provision of portable benefits to an individual is not considered in determining whether such individual is an employee of a person.",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 19 - 16."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Employee benefits and pensions",
+        "Labor standards"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1320?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001233",
+          "name": "Rep. Messmer, Mark [R-IN-8]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-03-25",
+          "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-04-24",
+          "original": false
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-06-11",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-07-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-07-16",
+          "original": false
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-07-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1319",
+      "title": "To amend the Fair Labor Standards Act of 1938 and the National Labor Relations Act to clarify the standard for determining whether an individual is an employee, and for other purposes.",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 19 - 16."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Labor standards",
+        "Self-employed"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1319?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001194",
+          "name": "Rep. Moolenaar, John R. [R-MI-2]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001233",
+          "name": "Rep. Messmer, Mark [R-IN-8]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-03-25",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-03-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-04-24",
+          "original": false
+        },
+        {
+          "bioguide": "A000372",
+          "name": "Rep. Allen, Rick W. [R-GA-12]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-06-11",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-06-12",
+          "original": false
+        },
+        {
+          "bioguide": "B001309",
+          "name": "Rep. Burchett, Tim [R-TN-2]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-06-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "L000595",
+          "name": "Rep. Letlow, Julia [R-LA-5]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-07-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "948",
+      "title": "SAFE HOME Act",
+      "introducedDate": "2025-02-04",
+      "latestAction": {
+        "date": "2025-02-04",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/948?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "864",
+      "title": "Freedom to Cooperate Act",
+      "introducedDate": "2025-01-31",
+      "latestAction": {
+        "date": "2025-01-31",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/864?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "863",
+      "title": "National Human Trafficking Database Act",
+      "introducedDate": "2025-01-31",
+      "latestAction": {
+        "date": "2025-01-31",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Computers and information technology",
+        "Congressional oversight",
+        "Crime victims",
+        "Criminal justice information and records",
+        "Department of Justice",
+        "Executive agency funding and structure",
+        "Government information and archives",
+        "Human trafficking",
+        "Intergovernmental relations",
+        "Internet, web applications, social media",
+        "Smuggling and trafficking",
+        "Social work, volunteer service, charitable organizations",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/863?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-01-31",
+          "original": true
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-04-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "584",
+      "title": "No Medicaid for Illegal Immigrants Act of 2025",
+      "introducedDate": "2025-01-21",
+      "latestAction": {
+        "date": "2025-01-21",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Border security and unlawful immigration",
+        "Immigrant health and welfare",
+        "Medicaid"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/584?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-01-23",
+          "original": false
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-01-31",
+          "original": false
+        },
+        {
+          "bioguide": "I000056",
+          "name": "Rep. Issa, Darrell [R-CA-48]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-03-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-03-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Rep. McCaul, Michael T. [R-TX-10]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-03-25",
+          "original": false
+        },
+        {
+          "bioguide": "B001317",
+          "name": "Rep. Brecheen, Josh [R-OK-2]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-03-25",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-04-01",
+          "original": false
+        },
+        {
+          "bioguide": "F000482",
+          "name": "Rep. Fedorchak, Julie [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-05-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "213",
+      "title": "To prohibit the use of Federal financial assistance for a certain high-speed rail development project in the State of California, and for other purposes.",
+      "introducedDate": "2025-01-06",
+      "latestAction": {
+        "date": "2025-01-07",
+        "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/213?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 28,
+    "total_hr_sr_bipartisan": 8,
+    "total_hr_sr_became_public_law": 1,
+    "passed_rate_percentile_party": 79,
+    "bipartisan_rate_percentile_party": 30
   },
   "district": {
     "year": 2023,

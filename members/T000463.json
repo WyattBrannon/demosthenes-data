@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 62,
     "reliability_percentile_party": 32
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -967,13 +967,667 @@
       "phone": "937-225-2843"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "R000577",
+      "name": "Rep. Ryan, Timothy J. [D-OH-17]",
+      "count": 24
+    },
+    {
+      "bioguide": "J000292",
+      "name": "Rep. Johnson, Bill [R-OH-6]",
+      "count": 23
+    },
+    {
+      "bioguide": "S001187",
+      "name": "Rep. Stivers, Steve [R-OH-15]",
+      "count": 21
+    },
+    {
+      "bioguide": "M001144",
+      "name": "Rep. Miller, Jeff [R-FL-1]",
+      "count": 20
+    },
+    {
+      "bioguide": "C000266",
+      "name": "Rep. Chabot, Steve [R-OH-1]",
+      "count": 19
+    },
+    {
+      "bioguide": "B001250",
+      "name": "Rep. Bishop, Rob [R-UT-1]",
+      "count": 19
+    },
+    {
+      "bioguide": "L000553",
+      "name": "Rep. LaTourette, Steven C. [R-OH-14]",
+      "count": 19
+    },
+    {
+      "bioguide": "R000575",
+      "name": "Rep. Rogers, Mike D. [R-AL-3]",
+      "count": 18
+    },
+    {
+      "bioguide": "T000462",
+      "name": "Rep. Tiberi, Patrick J. [R-OH-12]",
+      "count": 18
+    },
+    {
+      "bioguide": "F000448",
+      "name": "Rep. Franks, Trent [R-AZ-2]",
+      "count": 17
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "L000601",
+      "name": "Rep. Landsman, Greg [D-OH-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "S000510",
+      "name": "Rep. Smith, Adam [D-WA-9]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001126",
+      "name": "Rep. Carey, Mike [R-OH-15]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000273",
+      "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "E000301",
+      "name": "Rep. Elfreth, Sarah [D-MD-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "K000399",
+      "name": "Rep. Kiggans, Jennifer A [R-VA-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "K000404",
+      "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+      "count": 1
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 1
+    },
+    {
+      "bioguide": "B000490",
+      "name": "Rep. Bishop, Sanford D., Jr. [D-GA-2]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4747",
+      "title": "To amend the Dayton Aviation Heritage Preservation Act of 1992 to adjust the boundary of the Dayton Aviation Heritage National Historical Park, and for other purposes.",
+      "introducedDate": "2025-07-23",
+      "latestAction": {
+        "date": "2025-07-23",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4747?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-07-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4538",
+      "title": "PAPER Act",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-07-17",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4538?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3418",
+      "title": "Historic Preservation Fund Reauthorization Act",
+      "introducedDate": "2025-05-14",
+      "latestAction": {
+        "date": "2025-05-14",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3418?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-05-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000273",
+          "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-05-14",
+          "original": true
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-05-14",
+          "original": true
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-06-17",
+          "original": false
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-06-17",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-06-20",
+          "original": false
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-06-27",
+          "original": false
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-07-07",
+          "original": false
+        },
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-07-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001159",
+          "name": "Rep. Strickland, Marilyn [D-WA-10]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-07-10",
+          "original": false
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-07-14",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "P000621",
+          "name": "Rep. Pou, Nellie [D-NJ-9]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-07-25",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-08-12",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-08-19",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 26
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2164",
+      "title": "Dayton National Cemetery Expansion Act of 2025",
+      "introducedDate": "2025-03-14",
+      "latestAction": {
+        "date": "2025-03-14",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2164?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1357",
+      "title": "Susan Muffley Act of 2025",
+      "introducedDate": "2025-02-13",
+      "latestAction": {
+        "date": "2025-02-13",
+        "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1357?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000009",
+          "name": "Rep. Kaptur, Marcy [D-OH-9]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "R000619",
+          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "S001189",
+          "name": "Rep. Scott, Austin [R-GA-8]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "S001213",
+          "name": "Rep. Steil, Bryan [R-WI-1]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Rep. Pocan, Mark [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "J000295",
+          "name": "Rep. Joyce, David P. [R-OH-14]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001237",
+          "name": "Rep. McDonald Rivet, Kristen [D-MI-8]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "S000929",
+          "name": "Rep. Spartz, Victoria [R-IN-5]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-02-13",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-02-21",
+          "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-02-26",
+          "original": false
+        },
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-03-06",
+          "original": false
+        },
+        {
+          "bioguide": "T000490",
+          "name": "Rep. Taylor, David [R-OH-2]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-03-14",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-04-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-04-14",
+          "original": false
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-04-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001206",
+          "name": "Rep. Morelle, Joseph D. [D-NY-25]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-05-06",
+          "original": false
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "D000626",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-05-13",
+          "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-05-29",
+          "original": false
+        },
+        {
+          "bioguide": "M001194",
+          "name": "Rep. Moolenaar, John R. [R-MI-2]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-08-19",
+          "original": false
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 30
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 143,
+    "total_hr_sr_bipartisan": 75,
+    "total_hr_sr_became_public_law": 1,
+    "passed_rate_percentile_party": 41,
+    "bipartisan_rate_percentile_party": 75
   },
   "district": {
     "year": 2023,

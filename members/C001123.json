@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 80
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -723,6 +723,125 @@
       "phone": "626-646-0369"
     }
   ],
+  "cosponsors_top": [
+    {
+      "bioguide": "G000574",
+      "name": "Rep. Gallego, Ruben [D-AZ-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001199",
+      "name": "Rep. Mast, Brian J. [R-FL-18]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001080",
+      "name": "Rep. Chu, Judy [D-CA-27]",
+      "count": 2
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "E000299",
+      "name": "Rep. Escobar, Veronica [D-TX-16]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001121",
+      "name": "Rep. Crow, Jason [D-CO-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000591",
+      "name": "Rep. Luria, Elaine G. [D-VA-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000590",
+      "name": "Rep. Lee, Susie [D-NV-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "J000311",
+      "name": "Rep. Jack, Brian [R-GA-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001301",
+      "name": "Rep. Bergman, Jack [R-MI-1]",
+      "count": 1
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "J000311",
+      "name": "Rep. Jack, Brian [R-GA-3]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4842",
+      "title": "SBIR Commercialization Improvement Act",
+      "introducedDate": "2025-08-01",
+      "latestAction": {
+        "date": "2025-08-01",
+        "text": "Referred to the Committee on Small Business, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4842?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4491",
+      "title": "SBA IT Modernization Reporting Act",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-08-15",
+        "text": "Placed on the Union Calendar, Calendar No. 181."
+      },
+      "policy_area": "Commerce",
+      "subjects": [
+        "Administrative remedies",
+        "Computer security and identity theft",
+        "Computers and information technology",
+        "Small Business Administration",
+        "Technology assessment"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4491?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "J000311",
+          "name": "Rep. Jack, Brian [R-GA-3]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-07-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 18,
+    "total_hr_sr_bipartisan": 10,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 75
+  },
   "district": {
     "year": 2023,
     "state_fips": "06",
@@ -859,9 +978,5 @@
       "name": "William R. Keating",
       "distance": 0.008631338250815987
     }
-  ],
-  "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
-  }
+  ]
 }

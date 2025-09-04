@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 30
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -886,13 +886,863 @@
       "phone": "508-771-6868"
     }
   ],
-  "cosponsors_top_latest": [],
+  "cosponsors_top": [
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "count": 37
+    },
+    {
+      "bioguide": "M000312",
+      "name": "Rep. McGovern, James P. [D-MA-2]",
+      "count": 34
+    },
+    {
+      "bioguide": "W000795",
+      "name": "Rep. Wilson, Joe [R-SC-2]",
+      "count": 33
+    },
+    {
+      "bioguide": "T000468",
+      "name": "Rep. Titus, Dina [D-NV-1]",
+      "count": 30
+    },
+    {
+      "bioguide": "C001059",
+      "name": "Rep. Costa, Jim [D-CA-16]",
+      "count": 27
+    },
+    {
+      "bioguide": "K000009",
+      "name": "Rep. Kaptur, Marcy [D-OH-9]",
+      "count": 24
+    },
+    {
+      "bioguide": "C001084",
+      "name": "Rep. Cicilline, David N. [D-RI-1]",
+      "count": 23
+    },
+    {
+      "bioguide": "V000130",
+      "name": "Rep. Vargas, Juan [D-CA-51]",
+      "count": 22
+    },
+    {
+      "bioguide": "Q000023",
+      "name": "Rep. Quigley, Mike [D-IL-5]",
+      "count": 21
+    },
+    {
+      "bioguide": "L000562",
+      "name": "Rep. Lynch, Stephen F. [D-MA-8]",
+      "count": 19
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "W000795",
+      "name": "Rep. Wilson, Joe [R-SC-2]",
+      "count": 5
+    },
+    {
+      "bioguide": "K000009",
+      "name": "Rep. Kaptur, Marcy [D-OH-9]",
+      "count": 3
+    },
+    {
+      "bioguide": "S000522",
+      "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+      "count": 3
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 3
+    },
+    {
+      "bioguide": "K000397",
+      "name": "Rep. Kim, Young [R-CA-39]",
+      "count": 2
+    },
+    {
+      "bioguide": "Q000023",
+      "name": "Rep. Quigley, Mike [D-IL-5]",
+      "count": 2
+    },
+    {
+      "bioguide": "T000478",
+      "name": "Rep. Tenney, Claudia [R-NY-22]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001058",
+      "name": "Rep. Huizenga, Bill [R-MI-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "K000399",
+      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "count": 2
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4804",
+      "title": "To authorize an annual strategic dialogue to return democratic rule to Belarus, and for other purposes.",
+      "introducedDate": "2025-07-29",
+      "latestAction": {
+        "date": "2025-07-29",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4804?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000009",
+          "name": "Rep. Kaptur, Marcy [D-OH-9]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-07-29",
+          "original": true
+        },
+        {
+          "bioguide": "S000522",
+          "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-07-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4506",
+      "title": "Securing Global Telecommunications Act",
+      "introducedDate": "2025-07-17",
+      "latestAction": {
+        "date": "2025-07-17",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4506?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-07-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3973",
+      "title": "Ukraine War Risk Insurance Act",
+      "introducedDate": "2025-06-12",
+      "latestAction": {
+        "date": "2025-06-12",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3973?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "Q000023",
+          "name": "Rep. Quigley, Mike [D-IL-5]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-06-12",
+          "original": true
+        },
+        {
+          "bioguide": "M000312",
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-06-12",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3918",
+      "title": "To ensure that certain short-term rentals are equipped with a smoke detector and a carbon monoxide detector, and for other purposes.",
+      "introducedDate": "2025-06-11",
+      "latestAction": {
+        "date": "2025-06-11",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Commerce",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3918?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-07-02",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "3104",
+      "title": "Ukrainian Adjustment Act of 2025",
+      "introducedDate": "2025-04-30",
+      "latestAction": {
+        "date": "2025-04-30",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3104?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-04-30",
+          "original": true
+        },
+        {
+          "bioguide": "K000009",
+          "name": "Rep. Kaptur, Marcy [D-OH-9]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-04-30",
+          "original": true
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Rep. Quigley, Mike [D-IL-5]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-04-30",
+          "original": true
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-05-05",
+          "original": false
+        },
+        {
+          "bioguide": "P000034",
+          "name": "Rep. Pallone, Frank [D-NJ-6]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-07-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-08-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2505",
+      "title": "Block the Use of Transatlantic Technology in Iranian Made Drones Act",
+      "introducedDate": "2025-03-31",
+      "latestAction": {
+        "date": "2025-07-22",
+        "text": "Ordered to be Reported by the Yeas and Nays: 50 - 0."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Aviation and airports",
+        "Computers and information technology",
+        "Congressional oversight",
+        "Diplomacy, foreign officials, Americans abroad",
+        "Iran",
+        "Manufacturing",
+        "Middle East",
+        "Research and development",
+        "Retail and wholesale trades",
+        "Sanctions",
+        "Trade restrictions"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2505?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-03-31",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-13",
+          "original": false
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-14",
+          "original": false
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-06-05",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-07-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2504",
+      "title": "The U.S.-European Nuclear Energy Cooperation Act of 2025",
+      "introducedDate": "2025-03-31",
+      "latestAction": {
+        "date": "2025-03-31",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2504?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000454",
+          "name": "Rep. Foster, Bill [D-IL-11]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-03-31",
+          "original": true
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-03-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "2000",
+      "title": "Arctic Watchers Act",
+      "introducedDate": "2025-03-10",
+      "latestAction": {
+        "date": "2025-03-10",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2000?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001091",
+          "name": "Rep. Castro, Joaquin [D-TX-20]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-03-10",
+          "original": true
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-03-10",
+          "original": true
+        },
+        {
+          "bioguide": "A000369",
+          "name": "Rep. Amodei, Mark E. [R-NV-2]",
+          "party": "R",
+          "state": "NV",
+          "date": "2025-03-10",
+          "original": true
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Rep. McCaul, Michael T. [R-TX-10]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-04-09",
+          "original": false
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-05-13",
+          "original": false
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-19",
+          "original": false
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-06-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "947",
+      "title": "Non-Recognition of Russian Annexation of Ukrainian Territory Act",
+      "introducedDate": "2025-02-04",
+      "latestAction": {
+        "date": "2025-02-04",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/947?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-02-04",
+          "original": true
+        },
+        {
+          "bioguide": "H000874",
+          "name": "Rep. Hoyer, Steny H. [D-MD-5]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-03-05",
+          "original": false
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-04-07",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "681",
+      "title": "To amend the Act of August 9, 1955 (commonly known as the \"Long-Term Leasing Act\"), to authorize leases of up to 99 years for land held in trust for the Mashpee Wampanoag Tribe and the Wampanoag Tribe of Gay Head (Aquinnah), and for other purposes.",
+      "introducedDate": "2025-01-23",
+      "latestAction": {
+        "date": "2025-01-23",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [
+        "Federal-Indian relations",
+        "Indian lands and resources rights",
+        "Land use and conservation",
+        "Massachusetts"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/681?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "436",
+      "title": "To prohibit the use of Federal funds to support or facilitate the participation of the Russian Federation in the Group of Seven, and for other purposes.",
+      "introducedDate": "2025-01-15",
+      "latestAction": {
+        "date": "2025-01-15",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Diplomacy, foreign officials, Americans abroad",
+        "Europe",
+        "International organizations and cooperation",
+        "Russia"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/436?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-01-15",
+          "original": true
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-02-12",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-02-12",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-02-12",
+          "original": false
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-02-25",
+          "original": false
+        },
+        {
+          "bioguide": "H000874",
+          "name": "Rep. Hoyer, Steny H. [D-MD-5]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-03-05",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-04-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-05-08",
+          "original": false
+        },
+        {
+          "bioguide": "T000463",
+          "name": "Rep. Turner, Michael R. [R-OH-10]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-05-08",
+          "original": false
+        },
+        {
+          "bioguide": "S000522",
+          "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-05-13",
+          "original": false
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-05-13",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-05-13",
+          "original": false
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-06-04",
+          "original": false
+        },
+        {
+          "bioguide": "O000176",
+          "name": "Rep. Olszewski, Johnny [D-MD-2]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-06-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "347",
+      "title": "Sea Turtle Rescue Assistance and Rehabilitation Act of 2025",
+      "introducedDate": "2025-01-13",
+      "latestAction": {
+        "date": "2025-01-13",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Animals",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/347?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "G000597",
+          "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-02-27",
+          "original": false
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-02-27",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-03-05",
+          "original": false
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-03-05",
+          "original": false
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-03-25",
+          "original": false
+        },
+        {
+          "bioguide": "C001069",
+          "name": "Rep. Courtney, Joe [D-CT-2]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-03-25",
+          "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-05-08",
+          "original": false
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Rep. Chu, Judy [D-CA-28]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-05-19",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
+    }
+  ],
   "work_statistics": {
-    "total_hr_sr": 0,
-    "total_hr_sr_bipartisan": 0,
-    "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
+    "total_hr_sr": 93,
+    "total_hr_sr_bipartisan": 48,
+    "total_hr_sr_became_public_law": 1,
+    "passed_rate_percentile_party": 52,
+    "bipartisan_rate_percentile_party": 70
   },
   "district": {
     "year": 2023,

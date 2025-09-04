@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 31,
     "reliability_percentile_party": 19
   },
-  "generated_at": "2025-09-02",
+  "generated_at": "2025-09-04",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -982,6 +982,128 @@
       "phone": "661-568-4855"
     }
   ],
+  "cosponsors_top": [
+    {
+      "bioguide": "G000598",
+      "name": "Rep. Garcia, Robert [D-CA-42]",
+      "count": 1
+    },
+    {
+      "bioguide": "H001066",
+      "name": "Rep. Horsford, Steven [D-NV-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000601",
+      "name": "Rep. Landsman, Greg [D-OH-1]",
+      "count": 1
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "G000598",
+      "name": "Rep. Garcia, Robert [D-CA-42]",
+      "count": 1
+    },
+    {
+      "bioguide": "H001066",
+      "name": "Rep. Horsford, Steven [D-NV-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
+      "count": 1
+    },
+    {
+      "bioguide": "L000601",
+      "name": "Rep. Landsman, Greg [D-OH-1]",
+      "count": 1
+    }
+  ],
+  "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "4907",
+      "title": "To protect the integrity, impartiality, and independence of Federal statistical agencies by establishing fixed terms and for-cause removal protections for the heads of such agencies.",
+      "introducedDate": "2025-08-05",
+      "latestAction": {
+        "date": "2025-08-05",
+        "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Oversight and Government Reform, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4907?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "G000598",
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-08-05",
+          "original": true
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-08-05",
+          "original": true
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-08-05",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-08-05",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "1179",
+      "title": "Chiquita Canyon Tax Relief Act",
+      "introducedDate": "2025-02-10",
+      "latestAction": {
+        "date": "2025-02-10",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Emergency Management",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1179?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    }
+  ],
+  "work_statistics": {
+    "total_hr_sr": 2,
+    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 2
+  },
   "district": {
     "year": 2023,
     "state_fips": "06",
@@ -1118,9 +1240,5 @@
       "name": "Gabriel (Gabe) Vasquez",
       "distance": 0.019884164553734728
     }
-  ],
-  "work_statistics": {
-    "passed_rate_percentile_party": null,
-    "bipartisan_rate_percentile_party": null
-  }
+  ]
 }
