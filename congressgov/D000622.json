@@ -3,23 +3,382 @@
     "bioguide": "D000622",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T15:28:09Z",
+    "generated_at": "2025-11-01T15:21:30Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "s",
+      "number": "3033",
+      "title": "Improving Access to Care for Rural Veterans Act",
+      "introducedDate": "2025-10-22",
+      "latestAction": {
+        "date": "2025-10-22",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3033?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-22",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2943",
+      "title": "ACE Veterans Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2943?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2862",
+      "title": "CCAMPIS Reauthorization Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2862?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Sen. Smith, Tina [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-07",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 17
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2863",
+      "title": "RRLEF Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2863?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2738",
+      "title": "ESP, Paraprofessional, and Education Support Staff Family Leave Act",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2738?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-08-01",
+      "introducedDate": "2025-09-08",
       "latestAction": {
-        "date": "2025-08-01",
-        "text": "Amendment SA 3466 not agreed to in Senate by Yea-Nay Vote. 45 - 50. Record Vote Number: 475."
+        "date": null,
+        "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3466?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3802?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -84,7 +443,7 @@
         "date": "2025-07-24",
         "text": "Referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/338?format=json",
       "updateDate": null,
@@ -295,7 +654,7 @@
         "date": "2025-07-22",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2377?format=json",
       "updateDate": null,
@@ -779,7 +1138,7 @@
         "date": "2025-06-25",
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2162?format=json",
       "updateDate": null,
@@ -1075,9 +1434,17 @@
           "state": "CA",
           "date": "2025-07-24",
           "original": false
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-18",
+          "original": false
         }
       ],
-      "cosponsors_total": 33
+      "cosponsors_total": 34
     },
     {
       "congress": 119,
@@ -1327,8 +1694,8 @@
       "title": "Uniformed Services Leave Parity Act",
       "introducedDate": "2025-04-10",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Health, Education, Labor, and Pensions. Ordered to be reported without amendment favorably."
+        "date": "2025-10-17",
+        "text": "Held at the desk."
       },
       "policy_area": "Health",
       "subjects": [
@@ -1825,7 +2192,12 @@
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
       "policy_area": "Health",
-      "subjects": [],
+      "subjects": [
+        "Family planning and birth control",
+        "Government employee pay, benefits, personnel management",
+        "Health care coverage and access",
+        "Sex and reproductive health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/797?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -4890,7 +5262,7 @@
         "date": "2022-09-28",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": "Labor and Employment",
+      "policy_area": "Civil Rights and Liberties, Minority Issues",
       "subjects": [
         "Administrative law and regulatory procedures",
         "Advisory bodies",
@@ -12979,532 +13351,6 @@
         }
       ],
       "cosponsors_total": 30
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "795",
-      "title": "Emmett Till and Mamie Till-Mobley and Roberts Temple National Historic Site Act",
-      "introducedDate": "2021-03-17",
-      "latestAction": {
-        "date": "2021-03-17",
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
-      },
-      "policy_area": "Public Lands and Natural Resources",
-      "subjects": [
-        "Congressional oversight",
-        "Historic sites and heritage areas",
-        "Illinois",
-        "Parks, recreation areas, trails",
-        "Protest and dissent",
-        "Racial and ethnic relations",
-        "U.S. history"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/795?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "D000563",
-          "name": "Sen. Durbin, Richard J. [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2021-03-17",
-          "original": true
-        },
-        {
-          "bioguide": "B001288",
-          "name": "Sen. Booker, Cory A. [D-NJ]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2021-03-17",
-          "original": true
-        },
-        {
-          "bioguide": "W000437",
-          "name": "Sen. Wicker, Roger F. [R-MS]",
-          "party": "R",
-          "state": "MS",
-          "date": "2021-03-17",
-          "original": true
-        },
-        {
-          "bioguide": "H001079",
-          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
-          "party": "R",
-          "state": "MS",
-          "date": "2021-03-17",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 4
-    },
-    {
-      "congress": 117,
-      "billType": "sres",
-      "number": "86",
-      "title": "A resolution recommitting the United States to the promotion of disability rights and to the values enshrined in the Prologue Room of the Franklin Delano Roosevelt Memorial in the District of Columbia, and recognizing the enduring contributions that individuals with disabilities have made throughout the history of the United States and the role of the disability community in the ongoing struggle for civil rights in the United States, and for other purposes.",
-      "introducedDate": "2021-03-02",
-      "latestAction": {
-        "date": "2021-03-02",
-        "text": "Referred to the Committee on Energy and Natural Resources."
-      },
-      "policy_area": "Public Lands and Natural Resources",
-      "subjects": [
-        "Commemorative events and holidays",
-        "Congressional tributes",
-        "Disability and health-based discrimination",
-        "Disability and paralysis",
-        "Disability assistance",
-        "District of Columbia",
-        "Monuments and memorials",
-        "Parks, recreation areas, trails",
-        "Presidents and presidential powers, Vice Presidents",
-        "U.S. history"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/86?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "C001070",
-          "name": "Sen. Casey, Robert P., Jr. [D-PA]",
-          "party": "D",
-          "state": "PA",
-          "date": "2021-03-02",
-          "original": true
-        },
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-03-02",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "738",
-      "title": "Police Training and Independent Review Act of 2021",
-      "introducedDate": "2021-03-11",
-      "latestAction": {
-        "date": "2021-03-11",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Criminal investigation, prosecution, interrogation",
-        "Disability and paralysis",
-        "Law enforcement administration and funding",
-        "Law enforcement officers",
-        "Mental health",
-        "Racial and ethnic relations",
-        "Sex, gender, sexual orientation discrimination"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/738?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "S000033",
-          "name": "Sen. Sanders, Bernard [I-VT]",
-          "party": "I",
-          "state": "VT",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "H001042",
-          "name": "Sen. Hirono, Mazie K. [D-HI]",
-          "party": "D",
-          "state": "HI",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "M000133",
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "C000127",
-          "name": "Sen. Cantwell, Maria [D-WA]",
-          "party": "D",
-          "state": "WA",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "S001203",
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "W000779",
-          "name": "Sen. Wyden, Ron [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "W000817",
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "V000128",
-          "name": "Sen. Van Hollen, Chris [D-MD]",
-          "party": "D",
-          "state": "MD",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "M001176",
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "C001113",
-          "name": "Sen. Cortez Masto, Catherine [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "K000384",
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "B001230",
-          "name": "Sen. Baldwin, Tammy [D-WI]",
-          "party": "D",
-          "state": "WI",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "P000145",
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "R000608",
-          "name": "Sen. Rosen, Jacky [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2021-03-11",
-          "original": true
-        },
-        {
-          "bioguide": "G000555",
-          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
-          "party": "D",
-          "state": "NY",
-          "date": "2021-03-18",
-          "original": false
-        },
-        {
-          "bioguide": "B000944",
-          "name": "Sen. Brown, Sherrod [D-OH]",
-          "party": "D",
-          "state": "OH",
-          "date": "2021-03-18",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 18
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "476",
-      "title": "Pandemic Heroes Compensation Act of 2021",
-      "introducedDate": "2021-02-25",
-      "latestAction": {
-        "date": "2021-02-25",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "policy_area": "Law",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Administrative remedies",
-        "Cardiovascular and respiratory health",
-        "Cemeteries and funerals",
-        "Department of Justice",
-        "Economic performance and conditions",
-        "Emergency medical services and trauma care",
-        "Government trust funds",
-        "Health care costs and insurance",
-        "Infectious and parasitic diseases",
-        "Unemployment",
-        "Wages and earnings",
-        "Worker safety and health"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/476?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2021-02-25",
-          "original": true
-        },
-        {
-          "bioguide": "M000133",
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2021-02-25",
-          "original": true
-        },
-        {
-          "bioguide": "M001176",
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2021-02-25",
-          "original": true
-        },
-        {
-          "bioguide": "G000555",
-          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
-          "party": "D",
-          "state": "NY",
-          "date": "2021-02-25",
-          "original": true
-        },
-        {
-          "bioguide": "K000384",
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2021-02-25",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 5
-    },
-    {
-      "congress": 116,
-      "billType": "s",
-      "number": "1739",
-      "title": "Department of Energy National Labs Jobs ACCESS Act",
-      "introducedDate": "2019-06-05",
-      "latestAction": {
-        "date": "2020-01-15",
-        "text": "By Senator Murkowski from Committee on Energy and Natural Resources filed written report. Report No. 116-205."
-      },
-      "policy_area": "Science, Technology, Communications",
-      "subjects": [
-        "Congressional oversight",
-        "Department of Energy",
-        "Education programs funding",
-        "Employment and training programs",
-        "Energy research",
-        "Government buildings, facilities, and property",
-        "Higher education",
-        "Intergovernmental relations",
-        "Licensing and registrations",
-        "Nuclear weapons",
-        "Public-private cooperation",
-        "Science and engineering education",
-        "Veterans' education, employment, rehabilitation",
-        "Vocational and technical education"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1739?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C000880",
-          "name": "Sen. Crapo, Mike [R-ID]",
-          "party": "R",
-          "state": "ID",
-          "date": "2019-06-05",
-          "original": true
-        },
-        {
-          "bioguide": "M001183",
-          "name": "Sen. Manchin, Joe, III [D-WV]",
-          "party": "D",
-          "state": "WV",
-          "date": "2019-09-10",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 116,
-      "billType": "s",
-      "number": "4306",
-      "title": "Marshall Plan for Coal Country Act of 2020",
-      "introducedDate": "2020-07-23",
-      "latestAction": {
-        "date": "2020-07-23",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "policy_area": "Energy",
-      "subjects": [
-        "Bankruptcy",
-        "Coal",
-        "Congressional oversight",
-        "Economic development",
-        "Electric power generation and transmission",
-        "Employee benefits and pensions",
-        "Environmental technology",
-        "Government information and archives",
-        "Government lending and loan guarantees",
-        "Government studies and investigations",
-        "Hazardous wastes and toxic substances",
-        "Health care coverage and access",
-        "Housing and community development funding",
-        "Housing finance and home ownership",
-        "Income tax credits",
-        "Labor standards",
-        "Land use and conservation",
-        "Medicare",
-        "Mining",
-        "Pollution liability",
-        "Small business",
-        "State and local government operations",
-        "Student aid and college costs",
-        "Unemployment",
-        "Wages and earnings",
-        "Water quality",
-        "Youth employment and child labor"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/4306?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 116,
-      "billType": "s",
-      "number": "3755",
-      "title": "Pandemic Heroes Compensation Act of 2020",
-      "introducedDate": "2020-05-18",
-      "latestAction": {
-        "date": "2020-05-18",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "policy_area": "Law",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Administrative remedies",
-        "Cardiovascular and respiratory health",
-        "Cemeteries and funerals",
-        "Department of Justice",
-        "Economic performance and conditions",
-        "Emergency medical services and trauma care",
-        "Government trust funds",
-        "Health care costs and insurance",
-        "Infectious and parasitic diseases",
-        "Unemployment",
-        "Wages and earnings",
-        "Worker safety and health"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/3755?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "M000133",
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2020-05-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2020-05-18",
-          "original": true
-        },
-        {
-          "bioguide": "G000555",
-          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
-          "party": "D",
-          "state": "NY",
-          "date": "2020-05-18",
-          "original": true
-        },
-        {
-          "bioguide": "K000384",
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2020-05-18",
-          "original": true
-        },
-        {
-          "bioguide": "H001075",
-          "name": "Sen. Harris, Kamala D. [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2020-05-20",
-          "original": false
-        },
-        {
-          "bioguide": "M001176",
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2020-06-03",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 6
     }
   ]
 }

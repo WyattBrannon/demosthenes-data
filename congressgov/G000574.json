@@ -3,7 +3,7 @@
     "bioguide": "G000574",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T15:31:02Z",
+    "generated_at": "2025-11-01T15:23:01Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -12,14 +12,277 @@
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-07-30",
+      "introducedDate": "2025-10-08",
       "latestAction": {
-        "date": null,
-        "text": null
+        "date": "2025-10-09",
+        "text": "Amendment SA 3928 agreed to in Senate by Voice Vote."
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3137?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3928?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2867",
+      "title": "Uplifting First-Time Homebuyers Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2867?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2817",
+      "title": "Fed Integrity and Independence Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2817?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2779",
+      "title": "Tax Cut for Striking Workers Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2779?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2780",
+      "title": "No Tax on Large Party Tips Act",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2780?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "382",
+      "title": "A resolution expressing the sense of the Senate that Ashli Babbitt is disqualified from eligibility for military funeral honors under section 985 of title 10, United States Code.",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the Committee on Veterans' Affairs. (text: CR S6539)"
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/382?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2716",
+      "title": "You Earned It, You Keep It Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2716?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -35,7 +298,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2526?format=json",
       "updateDate": null,
@@ -70,7 +333,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Science, Technology, Communications",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2495?format=json",
       "updateDate": null,
@@ -97,7 +360,7 @@
         "date": "2025-07-29",
         "text": "Referred to the Committee on the Judiciary. (text: CR S4829: 1)"
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/341?format=json",
       "updateDate": null,
@@ -115,7 +378,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2473?format=json",
       "updateDate": null,
@@ -142,7 +405,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2388?format=json",
       "updateDate": null,
@@ -167,7 +430,7 @@
       "introducedDate": "2025-07-17",
       "latestAction": {
         "date": "2025-07-17",
-        "text": "Referred to the Committee on the Judiciary. (text: CR S4459-4460: 2)"
+        "text": "Referred to the Committee on the Judiciary. (text: CR S4459)"
       },
       "policy_area": "Crime and Law Enforcement",
       "subjects": [],
@@ -560,8 +823,8 @@
       "title": "La Paz County Solar Energy and Job Creation Act",
       "introducedDate": "2025-03-10",
       "latestAction": {
-        "date": "2025-03-10",
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+        "date": "2025-09-11",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -5893,6 +6156,63 @@
     {
       "congress": 116,
       "billType": "hr",
+      "number": "6237",
+      "title": "PRC for Native Veterans Act",
+      "introducedDate": "2020-03-12",
+      "latestAction": {
+        "date": "2021-01-05",
+        "text": "Became Public Law No: 116-311."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [
+        "Health care costs and insurance",
+        "Health care coverage and access",
+        "Indian social and development programs",
+        "Minority health",
+        "Veterans' medical care"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/6237?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001190",
+          "name": "Rep. Mullin, Markwayne [R-OK-2]",
+          "party": "R",
+          "state": "OK",
+          "date": "2020-03-12",
+          "original": true
+        },
+        {
+          "bioguide": "O000171",
+          "name": "Rep. O'Halleran, Tom [D-AZ-1]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2020-04-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001053",
+          "name": "Rep. Cole, Tom [R-OK-4]",
+          "party": "R",
+          "state": "OK",
+          "date": "2020-04-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001083",
+          "name": "Rep. Horn, Kendra S. [D-OK-5]",
+          "party": "D",
+          "state": "OK",
+          "date": "2020-07-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 116,
+      "billType": "hr",
       "number": "6236",
       "title": "Collegiate Freedom of Association Act 2.0",
       "introducedDate": "2020-03-12",
@@ -6066,63 +6386,6 @@
         }
       ],
       "cosponsors_total": 19
-    },
-    {
-      "congress": 116,
-      "billType": "hr",
-      "number": "6237",
-      "title": "PRC for Native Veterans Act",
-      "introducedDate": "2020-03-12",
-      "latestAction": {
-        "date": "2021-01-05",
-        "text": "Became Public Law No: 116-311."
-      },
-      "policy_area": "Native Americans",
-      "subjects": [
-        "Health care costs and insurance",
-        "Health care coverage and access",
-        "Indian social and development programs",
-        "Minority health",
-        "Veterans' medical care"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/6237?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "M001190",
-          "name": "Rep. Mullin, Markwayne [R-OK-2]",
-          "party": "R",
-          "state": "OK",
-          "date": "2020-03-12",
-          "original": true
-        },
-        {
-          "bioguide": "O000171",
-          "name": "Rep. O'Halleran, Tom [D-AZ-1]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2020-04-21",
-          "original": false
-        },
-        {
-          "bioguide": "C001053",
-          "name": "Rep. Cole, Tom [R-OK-4]",
-          "party": "R",
-          "state": "OK",
-          "date": "2020-04-21",
-          "original": false
-        },
-        {
-          "bioguide": "H001083",
-          "name": "Rep. Horn, Kendra S. [D-OK-5]",
-          "party": "D",
-          "state": "OK",
-          "date": "2020-07-09",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 4
     },
     {
       "congress": 116,
@@ -11784,6 +12047,71 @@
     {
       "congress": 114,
       "billType": "hr",
+      "number": "4011",
+      "title": "DOCs for Veterans Act of 2015",
+      "introducedDate": "2015-11-16",
+      "latestAction": {
+        "date": "2015-11-20",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Department of Veterans Affairs",
+        "Government employee pay, benefits, personnel management",
+        "Health care coverage and access",
+        "Health facilities and institutions",
+        "Health personnel",
+        "Health promotion and preventive care",
+        "Medical education",
+        "Medicare",
+        "Mental health",
+        "Nursing",
+        "Rural conditions and development",
+        "Student aid and college costs",
+        "Veterans' medical care"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/4011?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000368",
+          "name": "Rep. Kirkpatrick, Ann [D-AZ-1]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2015-11-16",
+          "original": true
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2015-11-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001034",
+          "name": "Rep. Honda, Michael M. [D-CA-17]",
+          "party": "D",
+          "state": "CA",
+          "date": "2015-11-16",
+          "original": true
+        },
+        {
+          "bioguide": "E000293",
+          "name": "Rep. Esty, Elizabeth H. [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2015-11-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 114,
+      "billType": "hr",
       "number": "4010",
       "title": "To designate the facility of the United States Postal Service located at 522 North Central Avenue in Phoenix, Arizona, as the \"Ed Pastor Post Office\".",
       "introducedDate": "2015-11-16",
@@ -11870,71 +12198,6 @@
         }
       ],
       "cosponsors_total": 8
-    },
-    {
-      "congress": 114,
-      "billType": "hr",
-      "number": "4011",
-      "title": "DOCs for Veterans Act of 2015",
-      "introducedDate": "2015-11-16",
-      "latestAction": {
-        "date": "2015-11-20",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "Department of Veterans Affairs",
-        "Government employee pay, benefits, personnel management",
-        "Health care coverage and access",
-        "Health facilities and institutions",
-        "Health personnel",
-        "Health promotion and preventive care",
-        "Medical education",
-        "Medicare",
-        "Mental health",
-        "Nursing",
-        "Rural conditions and development",
-        "Student aid and college costs",
-        "Veterans' medical care"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/4011?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "K000368",
-          "name": "Rep. Kirkpatrick, Ann [D-AZ-1]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2015-11-16",
-          "original": true
-        },
-        {
-          "bioguide": "P000597",
-          "name": "Rep. Pingree, Chellie [D-ME-1]",
-          "party": "D",
-          "state": "ME",
-          "date": "2015-11-16",
-          "original": true
-        },
-        {
-          "bioguide": "H001034",
-          "name": "Rep. Honda, Michael M. [D-CA-17]",
-          "party": "D",
-          "state": "CA",
-          "date": "2015-11-16",
-          "original": true
-        },
-        {
-          "bioguide": "E000293",
-          "name": "Rep. Esty, Elizabeth H. [D-CT-5]",
-          "party": "D",
-          "state": "CT",
-          "date": "2015-11-16",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 4
     },
     {
       "congress": 114,

@@ -3,7 +3,7 @@
     "bioguide": "B000825",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T15:21:07Z",
+    "generated_at": "2025-11-01T15:17:58Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -509,9 +509,17 @@
           "state": "CO",
           "date": "2025-05-05",
           "original": false
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -616,11 +624,11 @@
       "congress": 119,
       "billType": "hr",
       "number": "845",
-      "title": "Pet and Livestock Protection Act of 2025",
+      "title": "Pet and Livestock Protection Act",
       "introducedDate": "2025-01-31",
       "latestAction": {
-        "date": "2025-04-09",
-        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 24 - 17."
+        "date": "2025-10-03",
+        "text": "Placed on the Union Calendar, Calendar No. 285."
       },
       "policy_area": "Environmental Protection",
       "subjects": [
@@ -944,7 +952,11 @@
         "text": "Referred to the Subcommittee on Emergency Management and Technology."
       },
       "policy_area": "Emergency Management",
-      "subjects": [],
+      "subjects": [
+        "Chemical and biological weapons",
+        "Drug, alcohol, tobacco use",
+        "Law enforcement administration and funding"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/128?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1112,7 +1124,13 @@
         "text": "Referred to the Committee on Natural Resources, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
       "policy_area": "Energy",
-      "subjects": [],
+      "subjects": [
+        "Congressional-executive branch relations",
+        "Mining",
+        "Oil and gas",
+        "Presidents and presidential powers, Vice Presidents",
+        "State and local government operations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/133?format=json",
       "updateDate": null,
       "bipartisan": false,
