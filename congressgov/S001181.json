@@ -3,54 +3,587 @@
     "bioguide": "S001181",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T09:43:03Z",
+    "generated_at": "2025-11-01T09:30:02Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "s",
+      "number": "3014",
+      "title": "Ensuring Timely Access to Generics Act of 2025",
+      "introducedDate": "2025-10-16",
+      "latestAction": {
+        "date": "2025-10-16",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3014?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-10-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "448",
+      "title": "A resolution designating October 1, 2025, as \"Energy Efficiency Day\" in celebration of the economic and environmental benefits that have been driven by private sector innovation and Federal energy efficiency policies.",
+      "introducedDate": "2025-10-09",
+      "latestAction": {
+        "date": "2025-10-09",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/448?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "C000127",
+          "name": "Sen. Cantwell, Maria [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "R000122",
+          "name": "Sen. Reed, Jack [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Sen. Smith, Tina [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 19
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "441",
+      "title": "A resolution designating the week of October 5, 2025, through October 11, 2025, as \"National Community Policing Week\".",
+      "introducedDate": "2025-10-07",
+      "latestAction": {
+        "date": "2025-10-07",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/441?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "P000595",
+          "name": "Sen. Peters, Gary C. [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-07",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "392",
+      "title": "A resolution expressing support for the designation of November 16, 2025, as \"National Warrior Call Day\" and recognizing the importance of connecting members of the Armed Forces and veterans in the United States to support structures necessary to transition from the battlefield, especially peer-to-peer connection.",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6637; text: CR S6652: 2)"
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Commemorative events and holidays",
+        "Mental health",
+        "Veterans' organizations and recognition"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/392?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001095",
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "T000278",
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001198",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 34
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-08-02",
+      "introducedDate": "2025-09-10",
       "latestAction": {
         "date": null,
         "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3683?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3870?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "2657",
-      "title": "STOP China and Russia Act of 2025",
-      "introducedDate": "2025-08-01",
-      "latestAction": {
-        "date": "2025-08-01",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
-      },
-      "policy_area": null,
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2657?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001056",
-          "name": "Sen. Cornyn, John [R-TX]",
-          "party": "R",
-          "state": "TX",
-          "date": "2025-08-01",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -62,7 +595,7 @@
         "date": "2025-08-01",
         "text": "Read twice and referred to the Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2648?format=json",
       "updateDate": null,
@@ -98,6 +631,33 @@
     {
       "congress": 119,
       "billType": "s",
+      "number": "2657",
+      "title": "STOP China and Russia Act of 2025",
+      "introducedDate": "2025-08-01",
+      "latestAction": {
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 241."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2657?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-08-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
       "number": "2592",
       "title": "Supporting Ukraine Act of 2025",
       "introducedDate": "2025-07-31",
@@ -105,7 +665,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2592?format=json",
       "updateDate": null,
@@ -132,7 +692,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2627?format=json",
       "updateDate": null,
@@ -159,7 +719,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2611?format=json",
       "updateDate": null,
@@ -220,9 +780,17 @@
           "state": "VT",
           "date": "2025-07-31",
           "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -231,10 +799,10 @@
       "title": "Critical Minerals Partnership Act of 2025",
       "introducedDate": "2025-07-30",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 239."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2550?format=json",
       "updateDate": null,
@@ -388,7 +956,7 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2252?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "S001194",
@@ -413,9 +981,33 @@
           "state": "VA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1215,8 +1807,8 @@
       "title": "Haiti Criminal Collusion Transparency Act of 2025",
       "introducedDate": "2025-05-21",
       "latestAction": {
-        "date": "2025-05-21",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 233."
       },
       "policy_area": "International Affairs",
       "subjects": [],
@@ -1255,9 +1847,25 @@
           "state": "DE",
           "date": "2025-05-21",
           "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1416,9 +2024,25 @@
           "state": "WV",
           "date": "2025-04-28",
           "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "W000437",
+          "name": "Sen. Wicker, Roger F. [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1435,8 +2059,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1365?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -2805,9 +3438,17 @@
           "state": "IA",
           "date": "2025-01-30",
           "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -6170,640 +6811,6 @@
         }
       ],
       "cosponsors_total": 17
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "4565",
-      "title": "Student Protection and Success Act",
-      "introducedDate": "2024-06-18",
-      "latestAction": {
-        "date": "2024-06-18",
-        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
-      },
-      "policy_area": "Education",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4565?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "Y000064",
-          "name": "Sen. Young, Todd [R-IN]",
-          "party": "R",
-          "state": "IN",
-          "date": "2024-06-18",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "4564",
-      "title": "A bill to designate the facility of the United States Postal Service located at 50 East Derry Road in East Derry, New Hampshire, as the \"Chief Edward B. Garone Post Office\".",
-      "introducedDate": "2024-06-18",
-      "latestAction": {
-        "date": "2024-06-18",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Congressional tributes",
-        "Government buildings, facilities, and property",
-        "New Hampshire",
-        "Postal service"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4564?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "H001076",
-          "name": "Sen. Hassan, Margaret Wood [D-NH]",
-          "party": "D",
-          "state": "NH",
-          "date": "2024-06-18",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "4584",
-      "title": "Manufactured Housing Community Sustainability Act of 2024",
-      "introducedDate": "2024-06-18",
-      "latestAction": {
-        "date": "2024-06-18",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "policy_area": "Taxation",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4584?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "T000464",
-          "name": "Sen. Tester, Jon [D-MT]",
-          "party": "D",
-          "state": "MT",
-          "date": "2024-06-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2024-06-18",
-          "original": true
-        },
-        {
-          "bioguide": "K000383",
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME",
-          "date": "2024-07-10",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 3
-    },
-    {
-      "congress": 118,
-      "billType": "sres",
-      "number": "734",
-      "title": "A resolution recognizing 30 years since the International Conference on Population and Development in Cairo, Egypt, and reaffirming the goals and ideals of the International Conference on Population and Development Programme of Action, including comprehensive sexual and reproductive health and rights.",
-      "introducedDate": "2024-06-13",
-      "latestAction": {
-        "date": "2024-06-13",
-        "text": "Referred to the Committee on Foreign Relations. (text: CR S4089-4090)"
-      },
-      "policy_area": "International Affairs",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/sres/734?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "D000622",
-          "name": "Sen. Duckworth, Tammy [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2024-06-13",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "3293",
-      "title": "Semiquincentennial Congressional Time Capsule Act",
-      "introducedDate": "2023-11-14",
-      "latestAction": {
-        "date": "2023-11-14",
-        "text": "Read twice and referred to the Committee on Rules and Administration."
-      },
-      "policy_area": "Congress",
-      "subjects": [
-        "Congressional leadership",
-        "Historical and cultural resources",
-        "U.S. Capitol",
-        "U.S. history"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/3293?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "T000476",
-          "name": "Sen. Tillis, Thomas [R-NC]",
-          "party": "R",
-          "state": "NC",
-          "date": "2023-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2023-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "G000386",
-          "name": "Sen. Grassley, Chuck [R-IA]",
-          "party": "R",
-          "state": "IA",
-          "date": "2023-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "C001070",
-          "name": "Sen. Casey, Robert P., Jr. [D-PA]",
-          "party": "D",
-          "state": "PA",
-          "date": "2023-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "R000605",
-          "name": "Sen. Rounds, Mike [R-SD]",
-          "party": "R",
-          "state": "SD",
-          "date": "2023-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "P000145",
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2024-06-11",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 6
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "4504",
-      "title": "SCREEN for Type 1 Diabetes Act of 2024",
-      "introducedDate": "2024-06-11",
-      "latestAction": {
-        "date": "2024-06-11",
-        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
-      },
-      "policy_area": "Health",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4504?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001035",
-          "name": "Sen. Collins, Susan M. [R-ME]",
-          "party": "R",
-          "state": "ME",
-          "date": "2024-06-11",
-          "original": true
-        },
-        {
-          "bioguide": "O000174",
-          "name": "Sen. Ossoff, Jon [D-GA]",
-          "party": "D",
-          "state": "GA",
-          "date": "2024-12-03",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "1960",
-      "title": "Global Respect Act of 2023",
-      "introducedDate": "2023-06-13",
-      "latestAction": {
-        "date": "2023-06-13",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
-      },
-      "policy_area": "International Affairs",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1960?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "M001153",
-          "name": "Sen. Murkowski, Lisa [R-AK]",
-          "party": "R",
-          "state": "AK",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "C001035",
-          "name": "Sen. Collins, Susan M. [R-ME]",
-          "party": "R",
-          "state": "ME",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "M001169",
-          "name": "Sen. Murphy, Christopher [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "M001176",
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "M000133",
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "B001288",
-          "name": "Sen. Booker, Cory A. [D-NJ]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2023-06-13",
-          "original": true
-        },
-        {
-          "bioguide": "C000141",
-          "name": "Sen. Cardin, Benjamin L. [D-MD]",
-          "party": "D",
-          "state": "MD",
-          "date": "2023-07-18",
-          "original": false
-        },
-        {
-          "bioguide": "W000779",
-          "name": "Sen. Wyden, Ron [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2023-12-13",
-          "original": false
-        },
-        {
-          "bioguide": "C001113",
-          "name": "Sen. Cortez Masto, Catherine [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2024-06-04",
-          "original": false
-        },
-        {
-          "bioguide": "C001070",
-          "name": "Sen. Casey, Robert P., Jr. [D-PA]",
-          "party": "D",
-          "state": "PA",
-          "date": "2024-09-11",
-          "original": false
-        },
-        {
-          "bioguide": "P000145",
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2024-09-12",
-          "original": false
-        },
-        {
-          "bioguide": "B001320",
-          "name": "Sen. Butler, Laphonza R. [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2024-09-12",
-          "original": false
-        },
-        {
-          "bioguide": "L000570",
-          "name": "Sen. Lujan, Ben Ray [D-NM]",
-          "party": "D",
-          "state": "NM",
-          "date": "2024-09-16",
-          "original": false
-        },
-        {
-          "bioguide": "W000817",
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2024-09-16",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 15
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "1527",
-      "title": "Access to Contraception for Servicemembers and Dependents Act of 2023",
-      "introducedDate": "2023-05-10",
-      "latestAction": {
-        "date": "2023-05-10",
-        "text": "Read twice and referred to the Committee on Armed Services."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/1527?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001035",
-          "name": "Sen. Collins, Susan M. [R-ME]",
-          "party": "R",
-          "state": "ME",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "H001042",
-          "name": "Sen. Hirono, Mazie K. [D-HI]",
-          "party": "D",
-          "state": "HI",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "W000817",
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "S000770",
-          "name": "Sen. Stabenow, Debbie [D-MI]",
-          "party": "D",
-          "state": "MI",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "M000639",
-          "name": "Sen. Menendez, Robert [D-NJ]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "H001076",
-          "name": "Sen. Hassan, Margaret Wood [D-NH]",
-          "party": "D",
-          "state": "NH",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "G000555",
-          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
-          "party": "D",
-          "state": "NY",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "B001267",
-          "name": "Sen. Bennet, Michael F. [D-CO]",
-          "party": "D",
-          "state": "CO",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "T000464",
-          "name": "Sen. Tester, Jon [D-MT]",
-          "party": "D",
-          "state": "MT",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "K000377",
-          "name": "Sen. Kelly, Mark [D-AZ]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "B001230",
-          "name": "Sen. Baldwin, Tammy [D-WI]",
-          "party": "D",
-          "state": "WI",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "K000384",
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "M001111",
-          "name": "Sen. Murray, Patty [D-WA]",
-          "party": "D",
-          "state": "WA",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "D000563",
-          "name": "Sen. Durbin, Richard J. [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "B000944",
-          "name": "Sen. Brown, Sherrod [D-OH]",
-          "party": "D",
-          "state": "OH",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "S000033",
-          "name": "Sen. Sanders, Bernard [I-VT]",
-          "party": "I",
-          "state": "VT",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "S001203",
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "W000779",
-          "name": "Sen. Wyden, Ron [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2023-05-10",
-          "original": true
-        },
-        {
-          "bioguide": "C001113",
-          "name": "Sen. Cortez Masto, Catherine [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2023-06-14",
-          "original": false
-        },
-        {
-          "bioguide": "W000800",
-          "name": "Sen. Welch, Peter [D-VT]",
-          "party": "D",
-          "state": "VT",
-          "date": "2023-07-19",
-          "original": false
-        },
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2023-07-19",
-          "original": false
-        },
-        {
-          "bioguide": "C000141",
-          "name": "Sen. Cardin, Benjamin L. [D-MD]",
-          "party": "D",
-          "state": "MD",
-          "date": "2023-07-26",
-          "original": false
-        },
-        {
-          "bioguide": "V000128",
-          "name": "Sen. Van Hollen, Chris [D-MD]",
-          "party": "D",
-          "state": "MD",
-          "date": "2023-10-17",
-          "original": false
-        },
-        {
-          "bioguide": "F000479",
-          "name": "Sen. Fetterman, John [D-PA]",
-          "party": "D",
-          "state": "PA",
-          "date": "2024-01-11",
-          "original": false
-        },
-        {
-          "bioguide": "D000622",
-          "name": "Sen. Duckworth, Tammy [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2024-01-11",
-          "original": false
-        },
-        {
-          "bioguide": "K000383",
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME",
-          "date": "2024-01-11",
-          "original": false
-        },
-        {
-          "bioguide": "M001153",
-          "name": "Sen. Murkowski, Lisa [R-AK]",
-          "party": "R",
-          "state": "AK",
-          "date": "2024-01-25",
-          "original": false
-        },
-        {
-          "bioguide": "H001046",
-          "name": "Sen. Heinrich, Martin [D-NM]",
-          "party": "D",
-          "state": "NM",
-          "date": "2024-06-04",
-          "original": false
-        },
-        {
-          "bioguide": "H000273",
-          "name": "Sen. Hickenlooper, John W. [D-CO]",
-          "party": "D",
-          "state": "CO",
-          "date": "2024-07-23",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 30
     }
   ]
 }

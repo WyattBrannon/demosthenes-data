@@ -3,10 +3,85 @@
     "bioguide": "L000562",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T09:38:26Z",
+    "generated_at": "2025-11-01T09:27:28Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5683",
+      "title": "Military Consumer Protection Task Force Act of 2025",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5683?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-03",
+          "original": true
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-03",
+          "original": true
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5344",
+      "title": "Kleptocracy Asset Recovery Rewards Program Act",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 50 - 0."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [
+        "Accounting and auditing",
+        "Criminal investigation, prosecution, interrogation",
+        "Government studies and investigations",
+        "Rule of law and government transparency"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5344?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hres",
@@ -2347,9 +2422,49 @@
           "state": "MD",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "I000058",
+          "name": "Rep. Ivey, Glenn [D-MD-4]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 221
+      "cosponsors_total": 226
     },
     {
       "congress": 118,
@@ -4468,6 +4583,24 @@
     {
       "congress": 117,
       "billType": "hr",
+      "number": "4466",
+      "title": "National Strategy for the Global Information Domain Act",
+      "introducedDate": "2021-07-16",
+      "latestAction": {
+        "date": "2021-07-19",
+        "text": "Referred to the Subcommittee on Water Resources and Environment."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/4466?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 117,
+      "billType": "hr",
       "number": "4465",
       "title": "Federally Funded Research and Technology Development Protection Act",
       "introducedDate": "2021-07-16",
@@ -4496,24 +4629,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 117,
-      "billType": "hr",
-      "number": "4466",
-      "title": "National Strategy for the Global Information Domain Act",
-      "introducedDate": "2021-07-16",
-      "latestAction": {
-        "date": "2021-07-19",
-        "text": "Referred to the Subcommittee on Water Resources and Environment."
-      },
-      "policy_area": "International Affairs",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/4466?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -5652,6 +5767,31 @@
     {
       "congress": 117,
       "billType": "hr",
+      "number": "1152",
+      "title": "Green Buses for Every Community Act",
+      "introducedDate": "2021-02-18",
+      "latestAction": {
+        "date": "2021-02-19",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Air quality",
+        "Alternative and renewable resources",
+        "Climate change and greenhouse gases",
+        "Housing and community development funding",
+        "Public transit",
+        "Transportation programs funding"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/1152?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 117,
+      "billType": "hr",
       "number": "1151",
       "title": "CPR Fund Act",
       "introducedDate": "2021-02-18",
@@ -5672,31 +5812,6 @@
         "Temporary and part-time employment"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/1151?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 117,
-      "billType": "hr",
-      "number": "1152",
-      "title": "Green Buses for Every Community Act",
-      "introducedDate": "2021-02-18",
-      "latestAction": {
-        "date": "2021-02-19",
-        "text": "Referred to the Subcommittee on Highways and Transit."
-      },
-      "policy_area": "Transportation and Public Works",
-      "subjects": [
-        "Air quality",
-        "Alternative and renewable resources",
-        "Climate change and greenhouse gases",
-        "Housing and community development funding",
-        "Public transit",
-        "Transportation programs funding"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/1152?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -18779,48 +18894,6 @@
     {
       "congress": 116,
       "billType": "hr",
-      "number": "391",
-      "title": "White House Ethics Transparency Act of 2019",
-      "introducedDate": "2019-01-09",
-      "latestAction": {
-        "date": "2019-06-12",
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 23 - 16."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Corporate finance and management",
-        "Federal officials",
-        "Financial services and investments",
-        "Government ethics and transparency, public corruption",
-        "Government information and archives",
-        "Presidents and presidential powers, Vice Presidents"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/391?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "C000984",
-          "name": "Rep. Cummings, Elijah E. [D-MD-7]",
-          "party": "D",
-          "state": "MD",
-          "date": "2019-01-09",
-          "original": true
-        },
-        {
-          "bioguide": "N000147",
-          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-          "party": "D",
-          "state": "DC",
-          "date": "2019-05-07",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 116,
-      "billType": "hr",
       "number": "390",
       "title": "To establish the Adams Memorial Commission to carry out the provisions of Public Law 107-62, and for other purposes.",
       "introducedDate": "2019-01-09",
@@ -18885,42 +18958,40 @@
     {
       "congress": 116,
       "billType": "hr",
-      "number": "392",
-      "title": "Secure Government Buildings from Espionage Act of 2019",
+      "number": "391",
+      "title": "White House Ethics Transparency Act of 2019",
       "introducedDate": "2019-01-09",
       "latestAction": {
-        "date": "2019-05-22",
-        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+        "date": "2019-06-12",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 23 - 16."
       },
       "policy_area": "Government Operations and Politics",
       "subjects": [
-        "Espionage and treason",
-        "Government buildings, facilities, and property",
+        "Corporate finance and management",
+        "Federal officials",
+        "Financial services and investments",
+        "Government ethics and transparency, public corruption",
         "Government information and archives",
-        "Intelligence activities, surveillance, classified information",
-        "Landlord and tenant",
-        "Public contracts and procurement",
-        "Real estate business",
-        "U.S. and foreign investments"
+        "Presidents and presidential powers, Vice Presidents"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/392?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/391?format=json",
       "updateDate": null,
-      "bipartisan": true,
+      "bipartisan": false,
       "cosponsors": [
         {
-          "bioguide": "K000210",
-          "name": "Rep. King, Peter T. [R-NY-2]",
-          "party": "R",
-          "state": "NY",
+          "bioguide": "C000984",
+          "name": "Rep. Cummings, Elijah E. [D-MD-7]",
+          "party": "D",
+          "state": "MD",
           "date": "2019-01-09",
           "original": true
         },
         {
-          "bioguide": "M001203",
-          "name": "Rep. Malinowski, Tom [D-NJ-7]",
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
           "party": "D",
-          "state": "NJ",
-          "date": "2019-10-22",
+          "state": "DC",
+          "date": "2019-05-07",
           "original": false
         }
       ],
@@ -18982,6 +19053,50 @@
         }
       ],
       "cosponsors_total": 4
+    },
+    {
+      "congress": 116,
+      "billType": "hr",
+      "number": "392",
+      "title": "Secure Government Buildings from Espionage Act of 2019",
+      "introducedDate": "2019-01-09",
+      "latestAction": {
+        "date": "2019-05-22",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Espionage and treason",
+        "Government buildings, facilities, and property",
+        "Government information and archives",
+        "Intelligence activities, surveillance, classified information",
+        "Landlord and tenant",
+        "Public contracts and procurement",
+        "Real estate business",
+        "U.S. and foreign investments"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/392?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000210",
+          "name": "Rep. King, Peter T. [R-NY-2]",
+          "party": "R",
+          "state": "NY",
+          "date": "2019-01-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001203",
+          "name": "Rep. Malinowski, Tom [D-NJ-7]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2019-10-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 116,
@@ -28957,29 +29072,6 @@
     {
       "congress": 114,
       "billType": "hr",
-      "number": "2986",
-      "title": "Justice for Victims of Confidential Informant Crime Act of 2015",
-      "introducedDate": "2015-07-08",
-      "latestAction": {
-        "date": "2015-07-29",
-        "text": "Referred to the Subcommittee on the Constitution and Civil Justice."
-      },
-      "policy_area": "Law",
-      "subjects": [
-        "Crime victims",
-        "Criminal investigation, prosecution, interrogation",
-        "Government liability",
-        "Judicial procedure and administration"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/2986?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 114,
-      "billType": "hr",
       "number": "2985",
       "title": "Confidential Informant Accountability Act of 2015",
       "introducedDate": "2015-07-08",
@@ -29000,6 +29092,29 @@
         "Pornography"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/2985?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 114,
+      "billType": "hr",
+      "number": "2986",
+      "title": "Justice for Victims of Confidential Informant Crime Act of 2015",
+      "introducedDate": "2015-07-08",
+      "latestAction": {
+        "date": "2015-07-29",
+        "text": "Referred to the Subcommittee on the Constitution and Civil Justice."
+      },
+      "policy_area": "Law",
+      "subjects": [
+        "Crime victims",
+        "Criminal investigation, prosecution, interrogation",
+        "Government liability",
+        "Judicial procedure and administration"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/2986?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -30307,34 +30422,6 @@
     {
       "congress": 109,
       "billType": "hr",
-      "number": "6292",
-      "title": "To provide for competitive status for certain employees of the Internal Revenue Service.",
-      "introducedDate": "2006-09-29",
-      "latestAction": {
-        "date": "2006-09-29",
-        "text": "Referred to the House Committee on Government Reform."
-      },
-      "policy_area": "Taxation",
-      "subjects": [
-        "Department of the Treasury",
-        "Estate tax",
-        "Federal employees",
-        "Gift tax",
-        "Government Operations and Politics",
-        "Government attorneys",
-        "Internal Revenue Service (IRS)",
-        "Law",
-        "Layoffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/6292?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
       "number": "6318",
       "title": "Iraq Weapons Accountability Act of 2006",
       "introducedDate": "2006-11-13",
@@ -30386,6 +30473,34 @@
         }
       ],
       "cosponsors_total": 2
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
+      "number": "6292",
+      "title": "To provide for competitive status for certain employees of the Internal Revenue Service.",
+      "introducedDate": "2006-09-29",
+      "latestAction": {
+        "date": "2006-09-29",
+        "text": "Referred to the House Committee on Government Reform."
+      },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Department of the Treasury",
+        "Estate tax",
+        "Federal employees",
+        "Gift tax",
+        "Government Operations and Politics",
+        "Government attorneys",
+        "Internal Revenue Service (IRS)",
+        "Law",
+        "Layoffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/6292?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 109,
@@ -30451,215 +30566,6 @@
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
-      "number": "4372",
-      "title": "Rail Worker Emergency Training Act of 2005",
-      "introducedDate": "2005-11-17",
-      "latestAction": {
-        "date": "2005-12-08",
-        "text": "Sponsor introductory remarks on measure. (CR E2200-2201)"
-      },
-      "policy_area": "Transportation and Public Works",
-      "subjects": [
-        "Administrative procedure",
-        "Bridges",
-        "Commerce",
-        "Contractors",
-        "Crime and Law Enforcement",
-        "Criminal justice information",
-        "Department of Homeland Security",
-        "Disasters",
-        "Economics and Public Finance",
-        "Emergency Management",
-        "Emergency communication systems",
-        "Employee training",
-        "Employment tests",
-        "Environmental Protection",
-        "Evacuation of civilians",
-        "Explosions",
-        "Federal aid to transportation",
-        "Fires",
-        "Government Operations and Politics",
-        "Government publicity",
-        "Identification of criminals",
-        "Infrastructure",
-        "Labor and Employment",
-        "Law",
-        "Railroad employees",
-        "Railroad equipment",
-        "Railroad freight operations",
-        "Railroad passenger traffic",
-        "Railroad safety",
-        "Railroads",
-        "Science, Technology, Communications",
-        "Security measures",
-        "Storage",
-        "Subcontractors",
-        "Terrorism",
-        "Transportation of hazardous substances",
-        "Whistle blowing"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/4372?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "M000639",
-          "name": "Rep. Menendez, Robert [D-NJ-13]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2005-12-07",
-          "original": false
-        },
-        {
-          "bioguide": "T000193",
-          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
-          "party": "D",
-          "state": "MS",
-          "date": "2005-12-08",
-          "original": false
-        },
-        {
-          "bioguide": "G000551",
-          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2005-12-08",
-          "original": false
-        },
-        {
-          "bioguide": "O000159",
-          "name": "Rep. Owens, Major R. [D-NY-11]",
-          "party": "D",
-          "state": "NY",
-          "date": "2005-12-13",
-          "original": false
-        },
-        {
-          "bioguide": "B001234",
-          "name": "Rep. Baca, Joe [D-CA-43]",
-          "party": "D",
-          "state": "CA",
-          "date": "2005-12-13",
-          "original": false
-        },
-        {
-          "bioguide": "W000314",
-          "name": "Rep. Wexler, Robert [D-FL-19]",
-          "party": "D",
-          "state": "FL",
-          "date": "2005-12-13",
-          "original": false
-        },
-        {
-          "bioguide": "H001038",
-          "name": "Rep. Higgins, Brian [D-NY-27]",
-          "party": "D",
-          "state": "NY",
-          "date": "2005-12-18",
-          "original": false
-        },
-        {
-          "bioguide": "P000034",
-          "name": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2005-12-18",
-          "original": false
-        },
-        {
-          "bioguide": "S001145",
-          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
-          "party": "D",
-          "state": "IL",
-          "date": "2005-12-18",
-          "original": false
-        },
-        {
-          "bioguide": "K000180",
-          "name": "Rep. Kilpatrick, Carolyn C. [D-MI-13]",
-          "party": "D",
-          "state": "MI",
-          "date": "2005-12-18",
-          "original": false
-        },
-        {
-          "bioguide": "T000326",
-          "name": "Rep. Towns, Edolphus [D-NY-10]",
-          "party": "D",
-          "state": "NY",
-          "date": "2005-12-18",
-          "original": false
-        },
-        {
-          "bioguide": "C000984",
-          "name": "Rep. Cummings, Elijah E. [D-MD-7]",
-          "party": "D",
-          "state": "MD",
-          "date": "2005-12-18",
-          "original": false
-        },
-        {
-          "bioguide": "E000250",
-          "name": "Rep. Evans, Lane [D-IL-17]",
-          "party": "D",
-          "state": "IL",
-          "date": "2006-01-31",
-          "original": false
-        },
-        {
-          "bioguide": "L000551",
-          "name": "Rep. Lee, Barbara [D-CA-9]",
-          "party": "D",
-          "state": "CA",
-          "date": "2006-03-08",
-          "original": false
-        },
-        {
-          "bioguide": "R000576",
-          "name": "Rep. Ruppersberger, C. A. Dutch [D-MD-2]",
-          "party": "D",
-          "state": "MD",
-          "date": "2006-03-09",
-          "original": false
-        },
-        {
-          "bioguide": "N000179",
-          "name": "Rep. Napolitano, Grace F. [D-CA-38]",
-          "party": "D",
-          "state": "CA",
-          "date": "2006-03-28",
-          "original": false
-        },
-        {
-          "bioguide": "M000087",
-          "name": "Rep. Maloney, Carolyn B. [D-NY-14]",
-          "party": "D",
-          "state": "NY",
-          "date": "2006-03-28",
-          "original": false
-        },
-        {
-          "bioguide": "C001061",
-          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
-          "party": "D",
-          "state": "MO",
-          "date": "2006-03-28",
-          "original": false
-        },
-        {
-          "bioguide": "M001163",
-          "name": "Rep. Matsui, Doris O. [D-CA-5]",
-          "party": "D",
-          "state": "CA",
-          "date": "2006-05-03",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 19
     },
     {
       "congress": 109,
@@ -31005,6 +30911,215 @@
         }
       ],
       "cosponsors_total": 38
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
+      "number": "4372",
+      "title": "Rail Worker Emergency Training Act of 2005",
+      "introducedDate": "2005-11-17",
+      "latestAction": {
+        "date": "2005-12-08",
+        "text": "Sponsor introductory remarks on measure. (CR E2200-2201)"
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Administrative procedure",
+        "Bridges",
+        "Commerce",
+        "Contractors",
+        "Crime and Law Enforcement",
+        "Criminal justice information",
+        "Department of Homeland Security",
+        "Disasters",
+        "Economics and Public Finance",
+        "Emergency Management",
+        "Emergency communication systems",
+        "Employee training",
+        "Employment tests",
+        "Environmental Protection",
+        "Evacuation of civilians",
+        "Explosions",
+        "Federal aid to transportation",
+        "Fires",
+        "Government Operations and Politics",
+        "Government publicity",
+        "Identification of criminals",
+        "Infrastructure",
+        "Labor and Employment",
+        "Law",
+        "Railroad employees",
+        "Railroad equipment",
+        "Railroad freight operations",
+        "Railroad passenger traffic",
+        "Railroad safety",
+        "Railroads",
+        "Science, Technology, Communications",
+        "Security measures",
+        "Storage",
+        "Subcontractors",
+        "Terrorism",
+        "Transportation of hazardous substances",
+        "Whistle blowing"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/4372?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M000639",
+          "name": "Rep. Menendez, Robert [D-NJ-13]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2005-12-07",
+          "original": false
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2005-12-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000551",
+          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2005-12-08",
+          "original": false
+        },
+        {
+          "bioguide": "O000159",
+          "name": "Rep. Owens, Major R. [D-NY-11]",
+          "party": "D",
+          "state": "NY",
+          "date": "2005-12-13",
+          "original": false
+        },
+        {
+          "bioguide": "B001234",
+          "name": "Rep. Baca, Joe [D-CA-43]",
+          "party": "D",
+          "state": "CA",
+          "date": "2005-12-13",
+          "original": false
+        },
+        {
+          "bioguide": "W000314",
+          "name": "Rep. Wexler, Robert [D-FL-19]",
+          "party": "D",
+          "state": "FL",
+          "date": "2005-12-13",
+          "original": false
+        },
+        {
+          "bioguide": "H001038",
+          "name": "Rep. Higgins, Brian [D-NY-27]",
+          "party": "D",
+          "state": "NY",
+          "date": "2005-12-18",
+          "original": false
+        },
+        {
+          "bioguide": "P000034",
+          "name": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2005-12-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL",
+          "date": "2005-12-18",
+          "original": false
+        },
+        {
+          "bioguide": "K000180",
+          "name": "Rep. Kilpatrick, Carolyn C. [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2005-12-18",
+          "original": false
+        },
+        {
+          "bioguide": "T000326",
+          "name": "Rep. Towns, Edolphus [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2005-12-18",
+          "original": false
+        },
+        {
+          "bioguide": "C000984",
+          "name": "Rep. Cummings, Elijah E. [D-MD-7]",
+          "party": "D",
+          "state": "MD",
+          "date": "2005-12-18",
+          "original": false
+        },
+        {
+          "bioguide": "E000250",
+          "name": "Rep. Evans, Lane [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2006-01-31",
+          "original": false
+        },
+        {
+          "bioguide": "L000551",
+          "name": "Rep. Lee, Barbara [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2006-03-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000576",
+          "name": "Rep. Ruppersberger, C. A. Dutch [D-MD-2]",
+          "party": "D",
+          "state": "MD",
+          "date": "2006-03-09",
+          "original": false
+        },
+        {
+          "bioguide": "N000179",
+          "name": "Rep. Napolitano, Grace F. [D-CA-38]",
+          "party": "D",
+          "state": "CA",
+          "date": "2006-03-28",
+          "original": false
+        },
+        {
+          "bioguide": "M000087",
+          "name": "Rep. Maloney, Carolyn B. [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2006-03-28",
+          "original": false
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2006-03-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001163",
+          "name": "Rep. Matsui, Doris O. [D-CA-5]",
+          "party": "D",
+          "state": "CA",
+          "date": "2006-05-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 19
     },
     {
       "congress": 109,
@@ -32102,6 +32217,101 @@
     {
       "congress": 109,
       "billType": "hr",
+      "number": "336",
+      "title": "Brownfields Improvement Act of 2005",
+      "introducedDate": "2005-01-25",
+      "latestAction": {
+        "date": "2005-04-20",
+        "text": "Referred to the Subcommittee on Domestic and International Monetary Policy, Trade, and Technology."
+      },
+      "policy_area": "Economics and Public Finance",
+      "subjects": [
+        "Affordable housing",
+        "Armed Forces and National Security",
+        "Brownfields",
+        "Capital investments",
+        "Commerce",
+        "Community development",
+        "Depressed areas",
+        "Dislocated workers",
+        "Diversification in industry",
+        "Economic development",
+        "Energy",
+        "Environmental Protection",
+        "Federal installations",
+        "Federal-Indian relations",
+        "Federal-local relations",
+        "Federal-state relations",
+        "Finance and Financial Sector",
+        "Government Operations and Politics",
+        "Government lending",
+        "Grants-in-aid",
+        "Hazardous wastes",
+        "Housing and Community Development",
+        "Industrial pollution",
+        "Infrastructure",
+        "Internal migration",
+        "Labor and Employment",
+        "Land use",
+        "Loans",
+        "Military base closures",
+        "Minorities",
+        "Native Americans",
+        "Nonprofit organizations",
+        "Planning",
+        "Plant shutdowns",
+        "Population",
+        "Poverty",
+        "Public Lands and Natural Resources",
+        "Public-private partnerships",
+        "Real estate development",
+        "Revolving funds",
+        "Skilled labor",
+        "Social Welfare",
+        "Taxation",
+        "Unemployment",
+        "Urban affairs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/336?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
+      "number": "334",
+      "title": "Angolan Temporary Protected Status Act of 2005",
+      "introducedDate": "2005-01-25",
+      "latestAction": {
+        "date": "2005-03-02",
+        "text": "Referred to the Subcommittee on Immigration, Border Security, and Claims."
+      },
+      "policy_area": "Immigration",
+      "subjects": [
+        "Admission of nonimmigrants",
+        "Africa (Sub-Saharan)",
+        "Aliens",
+        "Angola",
+        "Civil Rights and Liberties, Minority Issues",
+        "Civil War",
+        "Government Operations and Politics",
+        "Government paperwork",
+        "International Affairs",
+        "Refugees",
+        "Residence requirements",
+        "Right to travel"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/334?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
       "number": "333",
       "title": "Military Educational Parity Act of 2005",
       "introducedDate": "2005-01-25",
@@ -32582,101 +32792,6 @@
         }
       ],
       "cosponsors_total": 56
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
-      "number": "334",
-      "title": "Angolan Temporary Protected Status Act of 2005",
-      "introducedDate": "2005-01-25",
-      "latestAction": {
-        "date": "2005-03-02",
-        "text": "Referred to the Subcommittee on Immigration, Border Security, and Claims."
-      },
-      "policy_area": "Immigration",
-      "subjects": [
-        "Admission of nonimmigrants",
-        "Africa (Sub-Saharan)",
-        "Aliens",
-        "Angola",
-        "Civil Rights and Liberties, Minority Issues",
-        "Civil War",
-        "Government Operations and Politics",
-        "Government paperwork",
-        "International Affairs",
-        "Refugees",
-        "Residence requirements",
-        "Right to travel"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/334?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
-      "number": "336",
-      "title": "Brownfields Improvement Act of 2005",
-      "introducedDate": "2005-01-25",
-      "latestAction": {
-        "date": "2005-04-20",
-        "text": "Referred to the Subcommittee on Domestic and International Monetary Policy, Trade, and Technology."
-      },
-      "policy_area": "Economics and Public Finance",
-      "subjects": [
-        "Affordable housing",
-        "Armed Forces and National Security",
-        "Brownfields",
-        "Capital investments",
-        "Commerce",
-        "Community development",
-        "Depressed areas",
-        "Dislocated workers",
-        "Diversification in industry",
-        "Economic development",
-        "Energy",
-        "Environmental Protection",
-        "Federal installations",
-        "Federal-Indian relations",
-        "Federal-local relations",
-        "Federal-state relations",
-        "Finance and Financial Sector",
-        "Government Operations and Politics",
-        "Government lending",
-        "Grants-in-aid",
-        "Hazardous wastes",
-        "Housing and Community Development",
-        "Industrial pollution",
-        "Infrastructure",
-        "Internal migration",
-        "Labor and Employment",
-        "Land use",
-        "Loans",
-        "Military base closures",
-        "Minorities",
-        "Native Americans",
-        "Nonprofit organizations",
-        "Planning",
-        "Plant shutdowns",
-        "Population",
-        "Poverty",
-        "Public Lands and Natural Resources",
-        "Public-private partnerships",
-        "Real estate development",
-        "Revolving funds",
-        "Skilled labor",
-        "Social Welfare",
-        "Taxation",
-        "Unemployment",
-        "Urban affairs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/336?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 109,
@@ -34629,49 +34744,6 @@
     {
       "congress": 111,
       "billType": "hr",
-      "number": "1128",
-      "title": "Liver Research Enhancement Act of 2009",
-      "introducedDate": "2009-02-23",
-      "latestAction": {
-        "date": "2009-02-24",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Department of Health and Human Services",
-        "Digestive and metabolic diseases",
-        "Executive agency funding and structure",
-        "Health programs administration and funding",
-        "Medical research",
-        "National Institutes of Health (NIH)",
-        "Research administration and funding"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/111/hr/1128?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "K000210",
-          "name": "Rep. King, Peter T. [R-NY-3]",
-          "party": "R",
-          "state": "NY",
-          "date": "2009-02-23",
-          "original": true
-        },
-        {
-          "bioguide": "M001173",
-          "name": "Rep. Massa, Eric J. J. [D-NY-29]",
-          "party": "D",
-          "state": "NY",
-          "date": "2009-06-17",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 111,
-      "billType": "hr",
       "number": "1129",
       "title": "To authorize the Secretary of the Interior to provide an annual grant to facilitate an iron working training program for Native Americans.",
       "introducedDate": "2009-02-23",
@@ -34724,6 +34796,49 @@
         }
       ],
       "cosponsors_total": 4
+    },
+    {
+      "congress": 111,
+      "billType": "hr",
+      "number": "1128",
+      "title": "Liver Research Enhancement Act of 2009",
+      "introducedDate": "2009-02-23",
+      "latestAction": {
+        "date": "2009-02-24",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Department of Health and Human Services",
+        "Digestive and metabolic diseases",
+        "Executive agency funding and structure",
+        "Health programs administration and funding",
+        "Medical research",
+        "National Institutes of Health (NIH)",
+        "Research administration and funding"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/111/hr/1128?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000210",
+          "name": "Rep. King, Peter T. [R-NY-3]",
+          "party": "R",
+          "state": "NY",
+          "date": "2009-02-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001173",
+          "name": "Rep. Massa, Eric J. J. [D-NY-29]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-06-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 111,
@@ -37499,33 +37614,6 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "536",
-      "title": "Helping America Hear Act of 2007",
-      "introducedDate": "2007-01-17",
-      "latestAction": {
-        "date": "2007-05-18",
-        "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Employee health benefits",
-        "Federal employees",
-        "Finance and Financial Sector",
-        "Government Operations and Politics",
-        "Government employees' health insurance",
-        "Health insurance",
-        "Hearing aids",
-        "Labor and Employment"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/536?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 110,
-      "billType": "hr",
       "number": "535",
       "title": "Rail Worker Emergency Training Act of 2007",
       "introducedDate": "2007-01-17",
@@ -37615,6 +37703,66 @@
     {
       "congress": 110,
       "billType": "hr",
+      "number": "536",
+      "title": "Helping America Hear Act of 2007",
+      "introducedDate": "2007-01-17",
+      "latestAction": {
+        "date": "2007-05-18",
+        "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Employee health benefits",
+        "Federal employees",
+        "Finance and Financial Sector",
+        "Government Operations and Politics",
+        "Government employees' health insurance",
+        "Health insurance",
+        "Hearing aids",
+        "Labor and Employment"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/536?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 110,
+      "billType": "hr",
+      "number": "533",
+      "title": "Iraq Transition Act of 2007",
+      "introducedDate": "2007-01-17",
+      "latestAction": {
+        "date": "2007-03-20",
+        "text": "Committee Hearings Held."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [
+        "Armed Forces and National Security",
+        "Armed forces abroad",
+        "Democracy",
+        "Federal advisory bodies",
+        "Foreign leaders",
+        "Government Operations and Politics",
+        "Government officials",
+        "Iraq",
+        "Iraq compilation",
+        "Middle East and North Africa",
+        "Military occupation",
+        "Military operations",
+        "Military withdrawal",
+        "Sovereignty"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/533?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 110,
+      "billType": "hr",
       "number": "528",
       "title": "Iraq Contracting Fraud Review Act of 2007",
       "introducedDate": "2007-01-17",
@@ -37695,171 +37843,94 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "534",
-      "title": "Rail Transit Security and Safety Act of 2007",
-      "introducedDate": "2007-01-17",
-      "latestAction": {
-        "date": "2007-01-29",
-        "text": "Referred to the Subcommittee on Transportation Security and Infrastructure Protection."
-      },
-      "policy_area": "Transportation and Public Works",
-      "subjects": [
-        "Administrative remedies",
-        "Animals",
-        "Armed Forces and National Security",
-        "Biological warfare",
-        "Bridges",
-        "Chemical warfare",
-        "Chemicals",
-        "Civil Rights and Liberties, Minority Issues",
-        "Civil actions and liability",
-        "Commerce",
-        "Congress",
-        "Congressional investigations",
-        "Congressional oversight",
-        "Congressional reporting requirements",
-        "Contractors",
-        "Cost accounting",
-        "Crime and Law Enforcement",
-        "Criminal investigation",
-        "Criminal justice information",
-        "Damages",
-        "Department of Homeland Security",
-        "Department of Labor",
-        "Disasters",
-        "Disciplining of employees",
-        "Discrimination in employment",
-        "Dismissal of employees",
-        "District of Columbia",
-        "Dogs",
-        "Drainage",
-        "East Asia",
-        "Economic impact statements",
-        "Economics and Public Finance",
-        "Electronic surveillance",
-        "Emergency Management",
-        "Emergency communication systems",
-        "Employee training",
-        "Environmental Protection",
-        "Equipment and supplies",
-        "Europe",
-        "European Union",
-        "Evacuation of civilians",
-        "Executive reorganization",
-        "Explosions",
-        "Explosives",
-        "Federal aid to research",
-        "Federal aid to transportation",
-        "Federal officials",
-        "Federal-local relations",
-        "Federal-state relations",
-        "Financial planning",
-        "Fire prevention",
-        "Fires",
-        "Geographic information systems",
-        "Government Operations and Politics",
-        "Government corporations",
-        "Government paperwork",
-        "Governmental investigations",
-        "Grievance procedures",
-        "Hours of labor",
-        "Identification of criminals",
-        "Infrastructure",
-        "International Affairs",
-        "Japan",
-        "Labor and Employment",
-        "Law",
-        "Legal fees",
-        "Lighting",
-        "Maryland",
-        "Mass rapid transit",
-        "Massachusetts",
-        "National Railroad Passenger Corporation (Amtrak)",
-        "New York City",
-        "Nuclear terrorism",
-        "Public service advertising",
-        "Railroad employees",
-        "Railroad engineering",
-        "Railroad finance",
-        "Railroad freight operations",
-        "Railroad passenger traffic",
-        "Railroad safety",
-        "Railroad terminals",
-        "Railroads",
-        "Research and development",
-        "Research grants",
-        "Risk",
-        "Science, Technology, Communications",
-        "Security measures",
-        "Subcontractors",
-        "Technological innovations",
-        "Terrorism",
-        "Transportation of hazardous substances",
-        "Transportation planning",
-        "Transportation research",
-        "Transportation workers",
-        "Tunnels",
-        "Wage restitution",
-        "Wages",
-        "Water Resources Development",
-        "Whistle blowing"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/534?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 110,
-      "billType": "hr",
-      "number": "532",
-      "title": "Seniors Offering Quality Child Care Act of 2007",
+      "number": "531",
+      "title": "Retirement Security Education Act of 2007",
       "introducedDate": "2007-01-17",
       "latestAction": {
         "date": "2007-05-18",
-        "text": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education."
+        "text": "Referred to the Subcommittee on Healthy Families and Communities."
       },
-      "policy_area": "Families",
+      "policy_area": "Finance and Financial Sector",
       "subjects": [
-        "Block grants",
-        "Caregivers",
-        "Child care workers",
-        "Continuing education",
-        "Day care",
-        "Earnings",
+        "Adult education",
+        "Commerce",
+        "Congressional reporting requirements",
+        "Consumer education",
+        "Crime and Law Enforcement",
+        "Crime prevention",
+        "Crimes against the elderly",
         "Economics and Public Finance",
-        "Education",
-        "Elementary and secondary education",
-        "Government Operations and Politics",
-        "Higher education",
-        "Income",
+        "Estates (Law)",
+        "Evaluation research (Social action programs)",
+        "Financial planning",
+        "Financial services",
+        "Fraud",
+        "Grants-in-aid",
+        "Health",
+        "Housing and Community Development",
+        "Identity theft",
         "Labor and Employment",
-        "Literacy programs",
-        "Old age, survivors and disability insurance",
-        "Older workers",
-        "Preschool education",
-        "Quality of care",
-        "Recruiting of employees",
+        "Law",
+        "Long-term care",
+        "Mortgages",
+        "Nonprofit organizations",
+        "Performance measurement",
+        "Personal budgets",
+        "Retirement",
+        "Saving and investment",
+        "Science, Technology, Communications",
         "Social Welfare",
-        "Social security eligibility",
-        "Wages",
-        "Welfare eligibility"
+        "Telemarketing",
+        "Usury",
+        "Women",
+        "Women's retirement"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/532?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/531?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [
         {
-          "bioguide": "K000113",
-          "name": "Rep. Kennedy, Patrick J. [D-RI-1]",
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
           "party": "D",
-          "state": "RI",
-          "date": "2007-06-05",
+          "state": "TN",
+          "date": "2007-04-25",
+          "original": false
+        },
+        {
+          "bioguide": "J000032",
+          "name": "Rep. Jackson-Lee, Sheila [D-TX-18]",
+          "party": "D",
+          "state": "TX",
+          "date": "2007-04-25",
+          "original": false
+        },
+        {
+          "bioguide": "G000551",
+          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2007-04-25",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2007-04-26",
+          "original": false
+        },
+        {
+          "bioguide": "W000794",
+          "name": "Rep. Watson, Diane E. [D-CA-33]",
+          "party": "D",
+          "state": "CA",
+          "date": "2007-04-26",
           "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 5
     },
     {
       "congress": 110,
@@ -38036,94 +38107,171 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "531",
-      "title": "Retirement Security Education Act of 2007",
+      "number": "534",
+      "title": "Rail Transit Security and Safety Act of 2007",
+      "introducedDate": "2007-01-17",
+      "latestAction": {
+        "date": "2007-01-29",
+        "text": "Referred to the Subcommittee on Transportation Security and Infrastructure Protection."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [
+        "Administrative remedies",
+        "Animals",
+        "Armed Forces and National Security",
+        "Biological warfare",
+        "Bridges",
+        "Chemical warfare",
+        "Chemicals",
+        "Civil Rights and Liberties, Minority Issues",
+        "Civil actions and liability",
+        "Commerce",
+        "Congress",
+        "Congressional investigations",
+        "Congressional oversight",
+        "Congressional reporting requirements",
+        "Contractors",
+        "Cost accounting",
+        "Crime and Law Enforcement",
+        "Criminal investigation",
+        "Criminal justice information",
+        "Damages",
+        "Department of Homeland Security",
+        "Department of Labor",
+        "Disasters",
+        "Disciplining of employees",
+        "Discrimination in employment",
+        "Dismissal of employees",
+        "District of Columbia",
+        "Dogs",
+        "Drainage",
+        "East Asia",
+        "Economic impact statements",
+        "Economics and Public Finance",
+        "Electronic surveillance",
+        "Emergency Management",
+        "Emergency communication systems",
+        "Employee training",
+        "Environmental Protection",
+        "Equipment and supplies",
+        "Europe",
+        "European Union",
+        "Evacuation of civilians",
+        "Executive reorganization",
+        "Explosions",
+        "Explosives",
+        "Federal aid to research",
+        "Federal aid to transportation",
+        "Federal officials",
+        "Federal-local relations",
+        "Federal-state relations",
+        "Financial planning",
+        "Fire prevention",
+        "Fires",
+        "Geographic information systems",
+        "Government Operations and Politics",
+        "Government corporations",
+        "Government paperwork",
+        "Governmental investigations",
+        "Grievance procedures",
+        "Hours of labor",
+        "Identification of criminals",
+        "Infrastructure",
+        "International Affairs",
+        "Japan",
+        "Labor and Employment",
+        "Law",
+        "Legal fees",
+        "Lighting",
+        "Maryland",
+        "Mass rapid transit",
+        "Massachusetts",
+        "National Railroad Passenger Corporation (Amtrak)",
+        "New York City",
+        "Nuclear terrorism",
+        "Public service advertising",
+        "Railroad employees",
+        "Railroad engineering",
+        "Railroad finance",
+        "Railroad freight operations",
+        "Railroad passenger traffic",
+        "Railroad safety",
+        "Railroad terminals",
+        "Railroads",
+        "Research and development",
+        "Research grants",
+        "Risk",
+        "Science, Technology, Communications",
+        "Security measures",
+        "Subcontractors",
+        "Technological innovations",
+        "Terrorism",
+        "Transportation of hazardous substances",
+        "Transportation planning",
+        "Transportation research",
+        "Transportation workers",
+        "Tunnels",
+        "Wage restitution",
+        "Wages",
+        "Water Resources Development",
+        "Whistle blowing"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/534?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 110,
+      "billType": "hr",
+      "number": "532",
+      "title": "Seniors Offering Quality Child Care Act of 2007",
       "introducedDate": "2007-01-17",
       "latestAction": {
         "date": "2007-05-18",
-        "text": "Referred to the Subcommittee on Healthy Families and Communities."
+        "text": "Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education."
       },
-      "policy_area": "Finance and Financial Sector",
+      "policy_area": "Families",
       "subjects": [
-        "Adult education",
-        "Commerce",
-        "Congressional reporting requirements",
-        "Consumer education",
-        "Crime and Law Enforcement",
-        "Crime prevention",
-        "Crimes against the elderly",
+        "Block grants",
+        "Caregivers",
+        "Child care workers",
+        "Continuing education",
+        "Day care",
+        "Earnings",
         "Economics and Public Finance",
-        "Estates (Law)",
-        "Evaluation research (Social action programs)",
-        "Financial planning",
-        "Financial services",
-        "Fraud",
-        "Grants-in-aid",
-        "Health",
-        "Housing and Community Development",
-        "Identity theft",
+        "Education",
+        "Elementary and secondary education",
+        "Government Operations and Politics",
+        "Higher education",
+        "Income",
         "Labor and Employment",
-        "Law",
-        "Long-term care",
-        "Mortgages",
-        "Nonprofit organizations",
-        "Performance measurement",
-        "Personal budgets",
-        "Retirement",
-        "Saving and investment",
-        "Science, Technology, Communications",
+        "Literacy programs",
+        "Old age, survivors and disability insurance",
+        "Older workers",
+        "Preschool education",
+        "Quality of care",
+        "Recruiting of employees",
         "Social Welfare",
-        "Telemarketing",
-        "Usury",
-        "Women",
-        "Women's retirement"
+        "Social security eligibility",
+        "Wages",
+        "Welfare eligibility"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/531?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/532?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [
         {
-          "bioguide": "C001068",
-          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "bioguide": "K000113",
+          "name": "Rep. Kennedy, Patrick J. [D-RI-1]",
           "party": "D",
-          "state": "TN",
-          "date": "2007-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "J000032",
-          "name": "Rep. Jackson-Lee, Sheila [D-TX-18]",
-          "party": "D",
-          "state": "TX",
-          "date": "2007-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "G000551",
-          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2007-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "N000147",
-          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-          "party": "D",
-          "state": "DC",
-          "date": "2007-04-26",
-          "original": false
-        },
-        {
-          "bioguide": "W000794",
-          "name": "Rep. Watson, Diane E. [D-CA-33]",
-          "party": "D",
-          "state": "CA",
-          "date": "2007-04-26",
+          "state": "RI",
+          "date": "2007-06-05",
           "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 1
     },
     {
       "congress": 110,
@@ -38171,39 +38319,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 110,
-      "billType": "hr",
-      "number": "533",
-      "title": "Iraq Transition Act of 2007",
-      "introducedDate": "2007-01-17",
-      "latestAction": {
-        "date": "2007-03-20",
-        "text": "Committee Hearings Held."
-      },
-      "policy_area": "International Affairs",
-      "subjects": [
-        "Armed Forces and National Security",
-        "Armed forces abroad",
-        "Democracy",
-        "Federal advisory bodies",
-        "Foreign leaders",
-        "Government Operations and Politics",
-        "Government officials",
-        "Iraq",
-        "Iraq compilation",
-        "Middle East and North Africa",
-        "Military occupation",
-        "Military operations",
-        "Military withdrawal",
-        "Sovereignty"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/533?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 110,
@@ -39013,54 +39128,6 @@
     {
       "congress": 108,
       "billType": "hr",
-      "number": "372",
-      "title": "To provide for a pilot program to be conducted by the Department of Veterans Affairs to assess the benefits of providing for pharmacies of the Department of Veterans Affairs to fill prescriptions for drugs and medicines written by private physicians.",
-      "introducedDate": "2003-01-27",
-      "latestAction": {
-        "date": "2003-02-20",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "Access to health care",
-        "Congress",
-        "Congressional reporting requirements",
-        "Drugs",
-        "Finance and Financial Sector",
-        "Health",
-        "Medical economics",
-        "Pharmacies",
-        "Physicians",
-        "Prescription pricing",
-        "Veterans' hospitals",
-        "Veterans' medical care"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/108/hr/372?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "F000116",
-          "name": "Rep. Filner, Bob [D-CA-51]",
-          "party": "D",
-          "state": "CA",
-          "date": "2003-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "D000210",
-          "name": "Rep. Delahunt, William D. [D-MA-10]",
-          "party": "D",
-          "state": "MA",
-          "date": "2003-06-24",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 108,
-      "billType": "hr",
       "number": "371",
       "title": "Liver Research Enhancement Act ",
       "introducedDate": "2003-01-27",
@@ -39621,6 +39688,54 @@
     },
     {
       "congress": 108,
+      "billType": "hr",
+      "number": "372",
+      "title": "To provide for a pilot program to be conducted by the Department of Veterans Affairs to assess the benefits of providing for pharmacies of the Department of Veterans Affairs to fill prescriptions for drugs and medicines written by private physicians.",
+      "introducedDate": "2003-01-27",
+      "latestAction": {
+        "date": "2003-02-20",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Access to health care",
+        "Congress",
+        "Congressional reporting requirements",
+        "Drugs",
+        "Finance and Financial Sector",
+        "Health",
+        "Medical economics",
+        "Pharmacies",
+        "Physicians",
+        "Prescription pricing",
+        "Veterans' hospitals",
+        "Veterans' medical care"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/108/hr/372?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000116",
+          "name": "Rep. Filner, Bob [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2003-03-11",
+          "original": false
+        },
+        {
+          "bioguide": "D000210",
+          "name": "Rep. Delahunt, William D. [D-MA-10]",
+          "party": "D",
+          "state": "MA",
+          "date": "2003-06-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 108,
       "billType": "hres",
       "number": "610",
       "title": "Expressing the sense of the House of Representatives with respect to the level of funding provided to the National Institutes of Health for carrying out the Autoimmune Diseases Research Plan.",
@@ -39956,28 +40071,6 @@
     {
       "congress": 107,
       "billType": "hr",
-      "number": "4218",
-      "title": "To suspend temporarily the duty on certain filament yarns.",
-      "introducedDate": "2002-04-15",
-      "latestAction": {
-        "date": "2002-04-15",
-        "text": "Referred to the House Committee on Ways and Means."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Commerce",
-        "Synthetic fibers",
-        "Tariff"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/107/hr/4218?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 107,
-      "billType": "hr",
       "number": "4217",
       "title": "To suspend temporarily the duty on certain filament yarns.",
       "introducedDate": "2002-04-15",
@@ -39992,6 +40085,28 @@
         "Tariff"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/107/hr/4217?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 107,
+      "billType": "hr",
+      "number": "4218",
+      "title": "To suspend temporarily the duty on certain filament yarns.",
+      "introducedDate": "2002-04-15",
+      "latestAction": {
+        "date": "2002-04-15",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Commerce",
+        "Synthetic fibers",
+        "Tariff"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/107/hr/4218?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],

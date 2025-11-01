@@ -3,10 +3,176 @@
     "bioguide": "C001039",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T09:25:02Z",
+    "generated_at": "2025-11-01T09:19:48Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5813",
+      "title": "Women’s Health and Cancer Rights Modernization Act of 2025",
+      "introducedDate": "2025-10-24",
+      "latestAction": {
+        "date": "2025-10-24",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5813?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "685",
+      "title": "Expressing support for testing for antiphospholipid syndrome (APS) as a standard part of prenatal screening, and for other purposes.",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/685?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "C001127",
+          "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-26",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +183,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4783?format=json",
       "updateDate": null,
@@ -35,7 +201,7 @@
         "date": "2025-07-25",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/611?format=json",
       "updateDate": null,
@@ -116,7 +282,7 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/500?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "B001323",
@@ -125,9 +291,25 @@
           "state": "AK",
           "date": "2025-06-27",
           "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-19",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -197,9 +379,41 @@
           "state": "MA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "C001108",
+          "name": "Rep. Comer, James [R-KY-1]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -402,9 +616,41 @@
           "state": "CA",
           "date": "2025-06-24",
           "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 25
     },
     {
       "congress": 119,
@@ -2912,9 +3158,130 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1105?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "C001135",
+          "name": "Rep. Chavez-DeRemer, Lori [R-OR-5]",
+          "party": "R",
+          "state": "OR",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001189",
+          "name": "Rep. Scott, Austin [R-GA-8]",
+          "party": "R",
+          "state": "GA",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "S001226",
+          "name": "Rep. Salinas, Andrea [D-OR-6]",
+          "party": "D",
+          "state": "OR",
+          "date": "2024-03-22",
+          "original": true
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2024-07-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
     },
     {
       "congress": 118,
