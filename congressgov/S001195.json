@@ -3,7 +3,7 @@
     "bioguide": "S001195",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T18:40:57Z",
+    "generated_at": "2025-11-01T18:47:49Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -8999,8 +8999,73 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/5594?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2020-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001177",
+          "name": "Rep. McClintock, Tom [R-CA-4]",
+          "party": "R",
+          "state": "CA",
+          "date": "2020-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2020-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2020-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "C001109",
+          "name": "Rep. Cheney, Liz [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2020-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "G000584",
+          "name": "Rep. Gianforte, Greg [R-MT-At Large]",
+          "party": "R",
+          "state": "MT",
+          "date": "2020-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2020-02-05",
+          "original": false
+        },
+        {
+          "bioguide": "A000377",
+          "name": "Rep. Armstrong, Kelly [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2020-02-05",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
     },
     {
       "congress": 116,
@@ -14998,9 +15063,90 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/3220?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2017-07-13",
+          "original": true
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Rep. Chu, Judy [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2017-07-13",
+          "original": true
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-5]",
+          "party": "D",
+          "state": "CA",
+          "date": "2017-07-13",
+          "original": true
+        },
+        {
+          "bioguide": "C001107",
+          "name": "Rep. Curbelo, Carlos [R-FL-26]",
+          "party": "R",
+          "state": "FL",
+          "date": "2017-07-13",
+          "original": true
+        },
+        {
+          "bioguide": "H001065",
+          "name": "Rep. Holding, George [R-NC-2]",
+          "party": "R",
+          "state": "NC",
+          "date": "2017-07-13",
+          "original": true
+        },
+        {
+          "bioguide": "H001038",
+          "name": "Rep. Higgins, Brian [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2017-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "J000290",
+          "name": "Rep. Jenkins, Lynn [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2017-07-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000578",
+          "name": "Rep. Reichert, David G. [R-WA-8]",
+          "party": "R",
+          "state": "WA",
+          "date": "2017-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "K000188",
+          "name": "Rep. Kind, Ron [D-WI-3]",
+          "party": "D",
+          "state": "WI",
+          "date": "2017-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "B001293",
+          "name": "Rep. Bishop, Mike [R-MI-8]",
+          "party": "R",
+          "state": "MI",
+          "date": "2018-03-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
     },
     {
       "congress": 115,

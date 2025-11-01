@@ -3,10 +3,120 @@
     "bioguide": "V000129",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T18:41:47Z",
+    "generated_at": "2025-11-01T18:49:16Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "841",
+      "title": "Expressing support for the recognition and commemoration of the Sikh Genocide of 1984.",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/841?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000480",
+          "name": "Rep. Fong, Vince [R-CA-20]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5097",
+      "title": "To amend the Agricultural Marketing Act of 1946 to direct the Secretary of Agriculture to establish a program under which the Secretary will award grants to specialty crop producers to acquire certain equipment and provide training with respect to the use of such equipment.",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5097?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +127,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5059?format=json",
       "updateDate": null,
@@ -76,7 +186,7 @@
         "date": "2025-08-22",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5030?format=json",
       "updateDate": null,
@@ -121,9 +231,33 @@
           "state": "CA",
           "date": "2025-08-22",
           "original": true
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -135,7 +269,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Oversight and Government Reform."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/639?format=json",
       "updateDate": null,
@@ -178,8 +312,12 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural marketing and promotion",
+        "Commemorative events and holidays",
+        "Retail and wholesale trades"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/638?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -335,11 +473,11 @@
       "congress": 119,
       "billType": "hr",
       "number": "3854",
-      "title": "Modernizing All Veterans and Survivors Claims Processing Act",
+      "title": "Modernizing All Veterans and Survivors",
       "introducedDate": "2025-06-09",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported by Voice Vote."
+        "date": "2025-09-16",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -393,9 +531,25 @@
           "state": "CA",
           "date": "2025-05-21",
           "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -404,11 +558,16 @@
       "title": "To amend the Public Health Service Act to reauthorize the telehealth network and telehealth resource centers grant programs.",
       "introducedDate": "2025-05-14",
       "latestAction": {
-        "date": "2025-05-14",
-        "text": "Referred to the House Committee on Energy and Commerce."
+        "date": "2025-10-03",
+        "text": "Placed on the Union Calendar, Calendar No. 275."
       },
       "policy_area": "Health",
-      "subjects": [],
+      "subjects": [
+        "Computers and information technology",
+        "Health care coverage and access",
+        "Health programs administration and funding",
+        "Health technology, devices, supplies"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3419?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -461,9 +620,25 @@
           "state": "PA",
           "date": "2025-06-09",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -640,9 +815,89 @@
           "state": "MI",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001231",
+          "name": "Rep. Mannion, John W. [D-NY-22]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 20
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
@@ -780,9 +1035,33 @@
           "state": "ME",
           "date": "2025-06-11",
           "original": false
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "H001085",
+          "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1175,9 +1454,105 @@
           "state": "AZ",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "L000273",
+          "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Rep. Meng, Grace [D-NY-6]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "L000562",
+          "name": "Rep. Lynch, Stephen F. [D-MA-8]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001237",
+          "name": "Rep. McDonald Rivet, Kristen [D-MI-8]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 47
+      "cosponsors_total": 59
     },
     {
       "congress": 119,
@@ -1866,7 +2241,11 @@
         "text": "Referred to the House Committee on Agriculture."
       },
       "policy_area": "Agriculture and Food",
-      "subjects": [],
+      "subjects": [
+        "Agricultural marketing and promotion",
+        "Commemorative events and holidays",
+        "Retail and wholesale trades"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hres/1385?format=json",
       "updateDate": null,
       "bipartisan": true,
