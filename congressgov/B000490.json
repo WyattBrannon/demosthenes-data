@@ -3,10 +3,37 @@
     "bioguide": "B000490",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T12:43:58Z",
+    "generated_at": "2025-11-01T12:38:40Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5422",
+      "title": "Military Housing Performance Insight Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5422?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -5659,46 +5686,6 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "4499",
-      "title": "To extend the temporary suspension of duty on Dimethyl carbonate.",
-      "introducedDate": "2012-04-24",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4499?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "4498",
-      "title": "To extend the temporary suspension of duty on formulations containing Diuron and application adjuvants.",
-      "introducedDate": "2012-04-24",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4498?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
       "number": "4500",
       "title": "To extend the temporary suspension of duty on 5-Chloro-1-indanone.",
       "introducedDate": "2012-04-24",
@@ -5739,6 +5726,46 @@
     {
       "congress": 112,
       "billType": "hr",
+      "number": "4498",
+      "title": "To extend the temporary suspension of duty on formulations containing Diuron and application adjuvants.",
+      "introducedDate": "2012-04-24",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4498?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4499",
+      "title": "To extend the temporary suspension of duty on Dimethyl carbonate.",
+      "introducedDate": "2012-04-24",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4499?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
       "number": "4497",
       "title": "To extend the temporary suspension of duty on formulations containing Bromacil and Diuron and application adjuvants.",
       "introducedDate": "2012-04-24",
@@ -5751,6 +5778,26 @@
         "Tariffs"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4497?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4419",
+      "title": "To suspend temporarily the duty on certain acrylic filament tow.",
+      "introducedDate": "2012-04-19",
+      "latestAction": {
+        "date": "2012-04-27",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4419?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -5839,26 +5886,6 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "4419",
-      "title": "To suspend temporarily the duty on certain acrylic filament tow.",
-      "introducedDate": "2012-04-19",
-      "latestAction": {
-        "date": "2012-04-27",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4419?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
       "number": "4412",
       "title": "To extend temporarily the reduction of duty on certain dyed acrylic staple fibers.",
       "introducedDate": "2012-04-19",
@@ -5899,6 +5926,26 @@
     {
       "congress": 112,
       "billType": "hr",
+      "number": "4414",
+      "title": "To extend temporarily the reduction of duty on certain dyed polyacrylonitrile staple.",
+      "introducedDate": "2012-04-19",
+      "latestAction": {
+        "date": "2012-04-27",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4414?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
       "number": "4415",
       "title": "To extend temporarily the reduction of duty on certain undyed polyacrylonitrile staple.",
       "introducedDate": "2012-04-19",
@@ -5931,26 +5978,6 @@
         "Tariffs"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4410?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "4414",
-      "title": "To extend temporarily the reduction of duty on certain dyed polyacrylonitrile staple.",
-      "introducedDate": "2012-04-19",
-      "latestAction": {
-        "date": "2012-04-27",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4414?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -8256,9 +8283,26 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/283?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001189",
+          "name": "Rep. Scott, Austin [R-GA-8]",
+          "party": "R",
+          "state": "GA",
+          "date": "2019-01-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000583",
+          "name": "Rep. Loudermilk, Barry [R-GA-11]",
+          "party": "R",
+          "state": "GA",
+          "date": "2019-01-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 116,
@@ -9811,6 +9855,29 @@
     {
       "congress": 109,
       "billType": "hr",
+      "number": "2909",
+      "title": "To reduce temporarily the duty on formulated product KROVAR IDF.",
+      "introducedDate": "2005-06-15",
+      "latestAction": {
+        "date": "2005-06-21",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Agriculture and Food",
+        "Environmental Protection",
+        "Herbicides",
+        "Tariff"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/2909?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
       "number": "2908",
       "title": "To suspend temporarily the duty on diuron.",
       "introducedDate": "2005-06-15",
@@ -9849,29 +9916,6 @@
         "Tariff"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/2906?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
-      "number": "2909",
-      "title": "To reduce temporarily the duty on formulated product KROVAR IDF.",
-      "introducedDate": "2005-06-15",
-      "latestAction": {
-        "date": "2005-06-21",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Agriculture and Food",
-        "Environmental Protection",
-        "Herbicides",
-        "Tariff"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/2909?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -11779,8 +11823,8 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "5410",
-      "title": "To extend the temporary suspension of duty on 3-oxido-5-oxo-4-propionylcyclohex-3-enecarboxylic acid calcium salt.",
+      "number": "5411",
+      "title": "To extend the temporary suspension of duty on Methyl (E)-methoxyimino-2(2-o-tolyloxymethyl) phenyl) acetate (kresoxim methyl).",
       "introducedDate": "2008-02-13",
       "latestAction": {
         "date": "2008-02-18",
@@ -11790,27 +11834,7 @@
       "subjects": [
         "Tariff"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/5410?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 110,
-      "billType": "hr",
-      "number": "5408",
-      "title": "To extend the temporary suspension of duty on Paraquat dichloride (1,1'dimethyl-4,4'-bipyridinium dichloride).",
-      "introducedDate": "2008-02-13",
-      "latestAction": {
-        "date": "2008-02-18",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariff"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/5408?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/5411?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -11839,8 +11863,8 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "5411",
-      "title": "To extend the temporary suspension of duty on Methyl (E)-methoxyimino-2(2-o-tolyloxymethyl) phenyl) acetate (kresoxim methyl).",
+      "number": "5410",
+      "title": "To extend the temporary suspension of duty on 3-oxido-5-oxo-4-propionylcyclohex-3-enecarboxylic acid calcium salt.",
       "introducedDate": "2008-02-13",
       "latestAction": {
         "date": "2008-02-18",
@@ -11850,7 +11874,7 @@
       "subjects": [
         "Tariff"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/5411?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/5410?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -11879,7 +11903,27 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "4578",
+      "number": "5408",
+      "title": "To extend the temporary suspension of duty on Paraquat dichloride (1,1'dimethyl-4,4'-bipyridinium dichloride).",
+      "introducedDate": "2008-02-13",
+      "latestAction": {
+        "date": "2008-02-18",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariff"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/5408?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 110,
+      "billType": "hr",
+      "number": "4579",
       "title": "To suspend temporarily the duty on certain acrylic synthetic staple fiber.",
       "introducedDate": "2007-12-13",
       "latestAction": {
@@ -11890,7 +11934,7 @@
       "subjects": [
         "Tariff"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4578?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4579?format=json",
       "updateDate": null,
       "bipartisan": true,
       "cosponsors": [
@@ -11916,7 +11960,7 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "4579",
+      "number": "4578",
       "title": "To suspend temporarily the duty on certain acrylic synthetic staple fiber.",
       "introducedDate": "2007-12-13",
       "latestAction": {
@@ -11927,7 +11971,7 @@
       "subjects": [
         "Tariff"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4579?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4578?format=json",
       "updateDate": null,
       "bipartisan": true,
       "cosponsors": [
@@ -12027,46 +12071,6 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "4466",
-      "title": "To extend the temporary suspension of duty on formulated product KROVAR IDF.",
-      "introducedDate": "2007-12-12",
-      "latestAction": {
-        "date": "2007-12-12",
-        "text": "Referred to the House Committee on Ways and Means."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariff"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4466?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 110,
-      "billType": "hr",
-      "number": "4468",
-      "title": "To extend the temporary suspension of duty on N,N-dimethylpiperidinium chloride.",
-      "introducedDate": "2007-12-12",
-      "latestAction": {
-        "date": "2007-12-12",
-        "text": "Referred to the House Committee on Ways and Means."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariff"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4468?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 110,
-      "billType": "hr",
       "number": "4465",
       "title": "To reduce temporarily the duty on certain acrylic synthetic staple fiber.",
       "introducedDate": "2007-12-12",
@@ -12104,6 +12108,26 @@
     {
       "congress": 110,
       "billType": "hr",
+      "number": "4467",
+      "title": "To extend the temporary suspension of duty on diuron.",
+      "introducedDate": "2007-12-12",
+      "latestAction": {
+        "date": "2007-12-12",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariff"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4467?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 110,
+      "billType": "hr",
       "number": "4469",
       "title": "To extend the temporary suspension of duty on linuron.",
       "introducedDate": "2007-12-12",
@@ -12124,8 +12148,8 @@
     {
       "congress": 110,
       "billType": "hr",
-      "number": "4467",
-      "title": "To extend the temporary suspension of duty on diuron.",
+      "number": "4466",
+      "title": "To extend the temporary suspension of duty on formulated product KROVAR IDF.",
       "introducedDate": "2007-12-12",
       "latestAction": {
         "date": "2007-12-12",
@@ -12135,7 +12159,7 @@
       "subjects": [
         "Tariff"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4467?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4466?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -12177,6 +12201,26 @@
         }
       ],
       "cosponsors_total": 2
+    },
+    {
+      "congress": 110,
+      "billType": "hr",
+      "number": "4468",
+      "title": "To extend the temporary suspension of duty on N,N-dimethylpiperidinium chloride.",
+      "introducedDate": "2007-12-12",
+      "latestAction": {
+        "date": "2007-12-12",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariff"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/110/hr/4468?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 110,
@@ -16192,6 +16236,38 @@
     {
       "congress": 108,
       "billType": "hr",
+      "number": "3666",
+      "title": "To amend the Internal Revenue Code of 1986 to increase from 13 to 15 the age of dependents who may be taken into account for purposes of determining the credit for expenses for household and dependent care services necessary for gainful employment.",
+      "introducedDate": "2003-12-08",
+      "latestAction": {
+        "date": "2003-12-08",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Day care",
+        "Families",
+        "Income tax",
+        "Tax credits"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/108/hr/3666?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000284",
+          "name": "Rep. Jones, Stephanie Tubbs [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2003-12-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 108,
+      "billType": "hr",
       "number": "3665",
       "title": "To award congressional gold medals to former President Jimmy Carter and his wife Rosalynn Carter in recognition of their outstanding service to the United States and to the world.",
       "introducedDate": "2003-12-08",
@@ -16219,38 +16295,6 @@
           "state": "CA",
           "date": "2004-03-09",
           "original": false
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 108,
-      "billType": "hr",
-      "number": "3666",
-      "title": "To amend the Internal Revenue Code of 1986 to increase from 13 to 15 the age of dependents who may be taken into account for purposes of determining the credit for expenses for household and dependent care services necessary for gainful employment.",
-      "introducedDate": "2003-12-08",
-      "latestAction": {
-        "date": "2003-12-08",
-        "text": "Referred to the House Committee on Ways and Means."
-      },
-      "policy_area": "Taxation",
-      "subjects": [
-        "Day care",
-        "Families",
-        "Income tax",
-        "Tax credits"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/108/hr/3666?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "J000284",
-          "name": "Rep. Jones, Stephanie Tubbs [D-OH-11]",
-          "party": "D",
-          "state": "OH",
-          "date": "2003-12-08",
-          "original": true
         }
       ],
       "cosponsors_total": 1
@@ -19633,40 +19677,6 @@
     {
       "congress": 106,
       "billType": "hr",
-      "number": "3262",
-      "title": "Lower Muscogee-Creek Indian Tribe of Georgia Recognition Act",
-      "introducedDate": "1999-11-09",
-      "latestAction": {
-        "date": "1999-11-09",
-        "text": "Referred to the House Committee on Resources."
-      },
-      "policy_area": "Native Americans",
-      "subjects": [
-        "Economics and Public Finance",
-        "Federal aid to Indians",
-        "Federal-Indian relations",
-        "Georgia",
-        "Indian lands",
-        "Minorities"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/106/hr/3262?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "I000055",
-          "name": "Rep. Isakson, Johnny [R-GA-6]",
-          "party": "R",
-          "state": "GA",
-          "date": "1999-11-18",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 106,
-      "billType": "hr",
       "number": "3263",
       "title": "Peanut Labeling Act of 1999",
       "introducedDate": "1999-11-09",
@@ -19861,6 +19871,40 @@
         }
       ],
       "cosponsors_total": 21
+    },
+    {
+      "congress": 106,
+      "billType": "hr",
+      "number": "3262",
+      "title": "Lower Muscogee-Creek Indian Tribe of Georgia Recognition Act",
+      "introducedDate": "1999-11-09",
+      "latestAction": {
+        "date": "1999-11-09",
+        "text": "Referred to the House Committee on Resources."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [
+        "Economics and Public Finance",
+        "Federal aid to Indians",
+        "Federal-Indian relations",
+        "Georgia",
+        "Indian lands",
+        "Minorities"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/106/hr/3262?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "I000055",
+          "name": "Rep. Isakson, Johnny [R-GA-6]",
+          "party": "R",
+          "state": "GA",
+          "date": "1999-11-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 106,

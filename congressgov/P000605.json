@@ -3,10 +3,46 @@
     "bioguide": "P000605",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T13:00:06Z",
+    "generated_at": "2025-11-01T12:48:17Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5525",
+      "title": "Stop DC CAMERA Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5525?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "",
+      "number": null,
+      "title": "",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "On agreeing to the Perry amendment (A013) Failed by recorded vote: 127 - 297 (Roll no. 236)."
+      },
+      "policy_area": null,
+      "subjects": null,
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/hamdt/75?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +53,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5054?format=json",
       "updateDate": null,
@@ -54,9 +90,25 @@
           "state": "LA",
           "date": "2025-08-26",
           "original": true
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -132,8 +184,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3822?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -609,9 +670,17 @@
           "state": "NC",
           "date": "2025-02-24",
           "original": false
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -870,24 +939,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 119,
-      "billType": "",
-      "number": null,
-      "title": "",
-      "introducedDate": "2025-01-23",
-      "latestAction": {
-        "date": "2025-01-23",
-        "text": "On agreeing to the Perry amendment (A001) Agreed to by voice vote."
-      },
-      "policy_area": null,
-      "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/hamdt/2?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -2716,9 +2767,18 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hconres/15?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2023-02-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 118,
@@ -9775,689 +9835,6 @@
         }
       ],
       "cosponsors_total": 50
-    },
-    {
-      "congress": 116,
-      "billType": "hr",
-      "number": "960",
-      "title": "Empower our Girls Act",
-      "introducedDate": "2019-02-04",
-      "latestAction": {
-        "date": "2019-03-22",
-        "text": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Child safety and welfare",
-        "Crime prevention",
-        "Crime victims",
-        "Crimes against children",
-        "Crimes against women",
-        "Criminal investigation, prosecution, interrogation",
-        "Government trust funds",
-        "Homelessness and emergency shelter",
-        "Violent crime"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/960?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "W000812",
-          "name": "Rep. Wagner, Ann [R-MO-2]",
-          "party": "R",
-          "state": "MO",
-          "date": "2019-02-04",
-          "original": true
-        },
-        {
-          "bioguide": "Q000023",
-          "name": "Rep. Quigley, Mike [D-IL-5]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-02-04",
-          "original": true
-        },
-        {
-          "bioguide": "R000577",
-          "name": "Rep. Ryan, Tim [D-OH-13]",
-          "party": "D",
-          "state": "OH",
-          "date": "2019-02-04",
-          "original": true
-        },
-        {
-          "bioguide": "L000569",
-          "name": "Rep. Luetkemeyer, Blaine [R-MO-3]",
-          "party": "R",
-          "state": "MO",
-          "date": "2019-02-05",
-          "original": false
-        },
-        {
-          "bioguide": "M000312",
-          "name": "Rep. McGovern, James P. [D-MA-2]",
-          "party": "D",
-          "state": "MA",
-          "date": "2019-02-05",
-          "original": false
-        },
-        {
-          "bioguide": "C000059",
-          "name": "Rep. Calvert, Ken [R-CA-42]",
-          "party": "R",
-          "state": "CA",
-          "date": "2019-02-14",
-          "original": false
-        },
-        {
-          "bioguide": "M001166",
-          "name": "Rep. McNerney, Jerry [D-CA-9]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-02-14",
-          "original": false
-        },
-        {
-          "bioguide": "S001145",
-          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-02-22",
-          "original": false
-        },
-        {
-          "bioguide": "S001212",
-          "name": "Rep. Stauber, Pete [R-MN-8]",
-          "party": "R",
-          "state": "MN",
-          "date": "2019-03-04",
-          "original": false
-        },
-        {
-          "bioguide": "F000454",
-          "name": "Rep. Foster, Bill [D-IL-11]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-03-04",
-          "original": false
-        },
-        {
-          "bioguide": "C001123",
-          "name": "Rep. Cisneros, Gilbert Ray, Jr. [D-CA-39]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-05",
-          "original": false
-        },
-        {
-          "bioguide": "R000486",
-          "name": "Rep. Roybal-Allard, Lucille [D-CA-40]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-06",
-          "original": false
-        },
-        {
-          "bioguide": "M001188",
-          "name": "Rep. Meng, Grace [D-NY-6]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-06",
-          "original": false
-        },
-        {
-          "bioguide": "G000565",
-          "name": "Rep. Gosar, Paul A. [R-AZ-4]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "B000755",
-          "name": "Rep. Brady, Kevin [R-TX-8]",
-          "party": "R",
-          "state": "TX",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "M001187",
-          "name": "Rep. Meadows, Mark [R-NC-11]",
-          "party": "R",
-          "state": "NC",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "S001196",
-          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
-          "party": "R",
-          "state": "NY",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "B001284",
-          "name": "Rep. Brooks, Susan W. [R-IN-5]",
-          "party": "R",
-          "state": "IN",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "N000147",
-          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-          "party": "D",
-          "state": "DC",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "M001195",
-          "name": "Rep. Mooney, Alexander X. [R-WV-2]",
-          "party": "R",
-          "state": "WV",
-          "date": "2019-03-11",
-          "original": false
-        },
-        {
-          "bioguide": "W000813",
-          "name": "Rep. Walorski, Jackie [R-IN-2]",
-          "party": "R",
-          "state": "IN",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "D000616",
-          "name": "Rep. DesJarlais, Scott [R-TN-4]",
-          "party": "R",
-          "state": "TN",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "K000382",
-          "name": "Rep. Kuster, Ann M. [D-NH-2]",
-          "party": "D",
-          "state": "NH",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "C001078",
-          "name": "Rep. Connolly, Gerald E. [D-VA-11]",
-          "party": "D",
-          "state": "VA",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "R000602",
-          "name": "Rep. Rice, Kathleen M. [D-NY-4]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "W000826",
-          "name": "Rep. Wild, Susan [D-PA-7]",
-          "party": "D",
-          "state": "PA",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "G000552",
-          "name": "Rep. Gohmert, Louie [R-TX-1]",
-          "party": "R",
-          "state": "TX",
-          "date": "2019-03-14",
-          "original": false
-        },
-        {
-          "bioguide": "H001053",
-          "name": "Rep. Hartzler, Vicky [R-MO-4]",
-          "party": "R",
-          "state": "MO",
-          "date": "2019-04-02",
-          "original": false
-        },
-        {
-          "bioguide": "S001187",
-          "name": "Rep. Stivers, Steve [R-OH-15]",
-          "party": "R",
-          "state": "OH",
-          "date": "2019-04-02",
-          "original": false
-        },
-        {
-          "bioguide": "K000210",
-          "name": "Rep. King, Peter T. [R-NY-2]",
-          "party": "R",
-          "state": "NY",
-          "date": "2019-05-21",
-          "original": false
-        },
-        {
-          "bioguide": "P000616",
-          "name": "Rep. Phillips, Dean [D-MN-3]",
-          "party": "D",
-          "state": "MN",
-          "date": "2019-09-09",
-          "original": false
-        },
-        {
-          "bioguide": "L000397",
-          "name": "Rep. Lofgren, Zoe [D-CA-19]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-09-09",
-          "original": false
-        },
-        {
-          "bioguide": "K000394",
-          "name": "Rep. Kim, Andy [D-NJ-3]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2019-09-25",
-          "original": false
-        },
-        {
-          "bioguide": "L000563",
-          "name": "Rep. Lipinski, Daniel [D-IL-3]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-09-25",
-          "original": false
-        },
-        {
-          "bioguide": "N000190",
-          "name": "Rep. Norman, Ralph [R-SC-5]",
-          "party": "R",
-          "state": "SC",
-          "date": "2019-09-25",
-          "original": false
-        },
-        {
-          "bioguide": "B001306",
-          "name": "Rep. Balderson, Troy [R-OH-12]",
-          "party": "R",
-          "state": "OH",
-          "date": "2019-10-11",
-          "original": false
-        },
-        {
-          "bioguide": "M001201",
-          "name": "Rep. Mitchell, Paul [R-MI-10]",
-          "party": "R",
-          "state": "MI",
-          "date": "2019-10-18",
-          "original": false
-        },
-        {
-          "bioguide": "D000630",
-          "name": "Rep. Delgado, Antonio [D-NY-19]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-10-23",
-          "original": false
-        },
-        {
-          "bioguide": "G000582",
-          "name": "Resident Commissioner González-Colón, Jenniffer [R-PR-At Large]",
-          "party": "R",
-          "state": "PR",
-          "date": "2019-11-15",
-          "original": false
-        },
-        {
-          "bioguide": "G000583",
-          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2019-12-17",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 41
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "7381",
-      "title": "Protect our Girls Act of 2018",
-      "introducedDate": "2018-12-20",
-      "latestAction": {
-        "date": "2018-12-20",
-        "text": "Referred to the House Committee on the Judiciary."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Child health",
-        "Crimes against women",
-        "Sex and reproductive health",
-        "Women's health"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/7381?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "6438",
-      "title": "DHS Countering Unmanned Aircraft Systems Coordinator Act",
-      "introducedDate": "2018-07-19",
-      "latestAction": {
-        "date": "2018-09-05",
-        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Emergency Management",
-      "subjects": [
-        "Aviation and airports",
-        "Department of Homeland Security",
-        "Executive agency funding and structure",
-        "Federal officials",
-        "Federal-Indian relations",
-        "Intergovernmental relations",
-        "Public-private cooperation",
-        "Research and development",
-        "State and local government operations",
-        "Terrorism",
-        "Transportation safety and security"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/6438?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "M001157",
-          "name": "Rep. McCaul, Michael T. [R-TX-10]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-07-19",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 115,
-      "billType": "",
-      "number": null,
-      "title": "",
-      "introducedDate": "2018-07-18",
-      "latestAction": {
-        "date": "2018-07-18",
-        "text": "On agreeing to the Perry amendment (A054) Agreed to by voice vote. "
-      },
-      "policy_area": null,
-      "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/115/hamdt/923?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "6374",
-      "title": "FIT Act",
-      "introducedDate": "2018-07-13",
-      "latestAction": {
-        "date": "2018-09-05",
-        "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Congressional oversight",
-        "Criminal justice information and records",
-        "Government studies and investigations",
-        "Homeland security",
-        "Personnel records",
-        "Public contracts and procurement"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/6374?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "M001157",
-          "name": "Rep. McCaul, Michael T. [R-TX-10]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-07-13",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "5496",
-      "title": "TPS Process Reform Act",
-      "introducedDate": "2018-04-12",
-      "latestAction": {
-        "date": "2018-05-21",
-        "text": "Referred to the Subcommittee on Immigration and Border Security."
-      },
-      "policy_area": "Immigration",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Department of Justice",
-        "Foreign labor",
-        "Immigration status and procedures",
-        "Refugees, asylum, displaced persons"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/5496?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2018-04-12",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "5229",
-      "title": "Tuition Fairness for Citizens Act",
-      "introducedDate": "2018-03-08",
-      "latestAction": {
-        "date": "2018-04-30",
-        "text": "Referred to the Subcommittee on Immigration and Border Security."
-      },
-      "policy_area": "Education",
-      "subjects": [
-        "Higher education"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/5229?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "H001071",
-          "name": "Rep. Hice, Jody B. [R-GA-10]",
-          "party": "R",
-          "state": "GA",
-          "date": "2018-03-08",
-          "original": true
-        },
-        {
-          "bioguide": "K000362",
-          "name": "Rep. King, Steve [R-IA-4]",
-          "party": "R",
-          "state": "IA",
-          "date": "2018-03-08",
-          "original": true
-        },
-        {
-          "bioguide": "B001291",
-          "name": "Rep. Babin, Brian [R-TX-36]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-03-08",
-          "original": true
-        },
-        {
-          "bioguide": "H001052",
-          "name": "Rep. Harris, Andy [R-MD-1]",
-          "party": "R",
-          "state": "MD",
-          "date": "2018-03-08",
-          "original": true
-        },
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2018-03-08",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 5
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "4994",
-      "title": "Energy Sovereignty Act",
-      "introducedDate": "2018-02-08",
-      "latestAction": {
-        "date": "2018-02-09",
-        "text": "Referred to the Subcommittee on Environment."
-      },
-      "policy_area": "Environmental Protection",
-      "subjects": [
-        "Air quality",
-        "Environmental health",
-        "Intergovernmental relations",
-        "International organizations and cooperation",
-        "State and local government operations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/4994?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "4310",
-      "title": "Allow State Sovereignty Upon Refugee Entry (ASSURE) Act",
-      "introducedDate": "2017-11-08",
-      "latestAction": {
-        "date": "2017-12-13",
-        "text": "Referred to the Subcommittee on Immigration and Border Security."
-      },
-      "policy_area": "Immigration",
-      "subjects": [
-        "Citizenship and naturalization",
-        "Criminal justice information and records",
-        "Government information and archives",
-        "Health information and medical records",
-        "Immigration status and procedures",
-        "Intergovernmental relations",
-        "Public contracts and procurement",
-        "Refugees, asylum, displaced persons",
-        "State and local government operations",
-        "Terrorism"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/4310?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "B001274",
-          "name": "Rep. Brooks, Mo [R-AL-5]",
-          "party": "R",
-          "state": "AL",
-          "date": "2017-11-08",
-          "original": true
-        },
-        {
-          "bioguide": "D000615",
-          "name": "Rep. Duncan, Jeff [R-SC-3]",
-          "party": "R",
-          "state": "SC",
-          "date": "2017-11-08",
-          "original": true
-        },
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2017-11-08",
-          "original": true
-        },
-        {
-          "bioguide": "N000190",
-          "name": "Rep. Norman, Ralph [R-SC-5]",
-          "party": "R",
-          "state": "SC",
-          "date": "2017-11-08",
-          "original": true
-        },
-        {
-          "bioguide": "B001269",
-          "name": "Rep. Barletta, Lou [R-PA-11]",
-          "party": "R",
-          "state": "PA",
-          "date": "2017-11-14",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 5
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "4021",
-      "title": "Leveraging Performance-Based Transportation Services Act of 2017",
-      "introducedDate": "2017-10-11",
-      "latestAction": {
-        "date": "2017-10-12",
-        "text": "Referred to the Subcommittee on Highways and Transit."
-      },
-      "policy_area": "Transportation and Public Works",
-      "subjects": [
-        "Commuting",
-        "Government information and archives",
-        "Public transit",
-        "Transportation costs",
-        "Transportation programs funding"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/4021?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     }
   ]
 }
