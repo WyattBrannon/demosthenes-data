@@ -3,23 +3,50 @@
     "bioguide": "C001035",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T08:33:38Z",
+    "generated_at": "2025-11-01T08:26:34Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "sres",
+      "number": "453",
+      "title": "A resolution designating the week beginning September 7, 2025, as \"National Direct Support Professionals Week\".",
+      "introducedDate": "2025-10-15",
+      "latestAction": {
+        "date": "2025-10-15",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/453?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-07-31",
+      "introducedDate": "2025-09-11",
       "latestAction": {
-        "date": "2025-08-01",
-        "text": "Under the order of 8/1/2025, having achieved 60 votes in the affirmative, amendment SA 3411, as amended, agreed to in Senate by Yea-Nay Vote. 87 - 9. Record Vote Number: 479."
+        "date": "2025-10-09",
+        "text": "Amendment SA 3880 agreed to in Senate by Voice Vote."
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3411?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3880?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -28,15 +55,46 @@
     {
       "congress": 119,
       "billType": "s",
+      "number": "2699",
+      "title": "Geriatrics Workforce Improvement Act",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S6010-6011)"
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2699?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
       "number": "2398",
       "title": "Kay Hagan Tick Reauthorization Act",
       "introducedDate": "2025-07-23",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Health, Education, Labor, and Pensions. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        "date": "2025-09-08",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 154."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Health",
+      "subjects": [
+        "Health programs administration and funding",
+        "Infectious and parasitic diseases",
+        "Insects"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2398?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -160,9 +218,41 @@
           "state": "CO",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-07",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -174,7 +264,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (Sponsor introductory remarks on measure: CR S4626: 2)"
       },
-      "policy_area": null,
+      "policy_area": "Emergency Management",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2399?format=json",
       "updateDate": null,
@@ -217,7 +307,7 @@
         "date": "2025-07-15",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S4370-4371: 2)"
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2294?format=json",
       "updateDate": null,
@@ -377,9 +467,105 @@
           "state": "IL",
           "date": "2025-07-31",
           "original": false
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001198",
+          "name": "Sen. Marshall, Roger [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-07",
+          "original": false
+        },
+        {
+          "bioguide": "H001104",
+          "name": "Sen. Husted, Jon [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 24
     },
     {
       "congress": 119,
@@ -477,9 +663,17 @@
           "state": "NH",
           "date": "2025-05-19",
           "original": true
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -6487,7 +6681,7 @@
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/117/samdt/6295?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/117/samdt/6294?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -18862,40 +19056,6 @@
         }
       ],
       "cosponsors_total": 25
-    },
-    {
-      "congress": 115,
-      "billType": "s",
-      "number": "3197",
-      "title": "SIMPLE Plan Modernization Act",
-      "introducedDate": "2018-07-11",
-      "latestAction": {
-        "date": "2018-07-11",
-        "text": "Read twice and referred to the Committee on Finance. (sponsor introductory remarks on measure: CR S4917-4918)"
-      },
-      "policy_area": "Taxation",
-      "subjects": [
-        "Congressional oversight",
-        "Employee benefits and pensions",
-        "Government information and archives",
-        "Income tax deferral",
-        "Income tax exclusion",
-        "Income tax rates"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/s/3197?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "W000805",
-          "name": "Sen. Warner, Mark R. [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2018-07-11",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
     }
   ]
 }
