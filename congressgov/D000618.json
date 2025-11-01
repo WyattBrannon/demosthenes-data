@@ -3,23 +3,187 @@
     "bioguide": "D000618",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T14:23:56Z",
+    "generated_at": "2025-11-01T14:23:40Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "s",
+      "number": "3064",
+      "title": "A bill to amend title XVIII of the Social Security Act to ensure appropriate access to non-opioid pain management drugs for chronic pain conditions under part D of the Medicare program.",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3064?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C000127",
+          "name": "Sen. Cantwell, Maria [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "459",
+      "title": "A resolution honoring the strategic importance of the C5+1 diplomatic platform and recognizing the deepening partnership between the United States and the nations of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Referred to the Committee on Foreign Relations."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/459?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000595",
+          "name": "Sen. Peters, Gary C. [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "M001169",
+          "name": "Sen. Murphy, Christopher [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2704",
+      "title": "CDFI Fund Transparency Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2704?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-04",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2715",
+      "title": "FAIR Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2715?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-08-01",
+      "introducedDate": "2025-09-03",
       "latestAction": {
         "date": null,
         "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3640?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3769?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -35,7 +199,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2577?format=json",
       "updateDate": null,
@@ -372,9 +536,73 @@
           "state": "OR",
           "date": "2025-07-31",
           "original": false
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "M000355",
+          "name": "Sen. McConnell, Mitch [R-KY]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001095",
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-22",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 23
+      "cosponsors_total": 31
     },
     {
       "congress": 119,
@@ -386,7 +614,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
+      "policy_area": "Taxation",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2461?format=json",
       "updateDate": null,
@@ -543,9 +771,41 @@
           "state": "NV",
           "date": "2025-07-30",
           "original": false
+        },
+        {
+          "bioguide": "S001232",
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -608,8 +868,8 @@
       "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
       "introducedDate": "2025-07-10",
       "latestAction": {
-        "date": "2025-07-10",
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+        "date": "2025-10-07",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 179."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
@@ -984,9 +1244,17 @@
           "state": "OH",
           "date": "2025-06-10",
           "original": false
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1833,9 +2101,57 @@
           "state": "NV",
           "date": "2025-03-27",
           "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001232",
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-07",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1901,7 +2217,14 @@
         "text": "Read twice and referred to the Committee on Finance."
       },
       "policy_area": "Foreign Trade and International Finance",
-      "subjects": [],
+      "subjects": [
+        "Conflicts and wars",
+        "Europe",
+        "Metals",
+        "Russia",
+        "Trade restrictions",
+        "Ukraine"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/808?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -3757,9 +4080,17 @@
           "state": "IA",
           "date": "2025-01-21",
           "original": true
+        },
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-07",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 20
     },
     {
       "congress": 119,
@@ -3979,9 +4310,17 @@
           "state": "OH",
           "date": "2025-02-18",
           "original": false
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 25
+      "cosponsors_total": 26
     },
     {
       "congress": 119,
@@ -4042,9 +4381,17 @@
           "state": "MT",
           "date": "2025-01-13",
           "original": true
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-06",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -12509,870 +12856,6 @@
         }
       ],
       "cosponsors_total": 8
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "2756",
-      "title": "A bill to posthumously award a Congressional Gold Medal, in commemoration of the service members who perished as a result of the attack in Afghanistan on August 26, 2021, during the evacuation of citizens of the United States and Afghan allies at Hamid Karzai International Airport, and for other purposes.",
-      "introducedDate": "2021-09-15",
-      "latestAction": {
-        "date": "2021-09-15",
-        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "Afghanistan",
-        "Asia",
-        "Conflicts and wars",
-        "Congressional tributes",
-        "Emergency planning and evacuation",
-        "Military operations and strategy",
-        "Military personnel and dependents",
-        "Museums, exhibitions, cultural centers",
-        "Smithsonian Institution",
-        "Terrorism"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2756?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "W000817",
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "B001243",
-          "name": "Sen. Blackburn, Marsha [R-TN]",
-          "party": "R",
-          "state": "TN",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "S001217",
-          "name": "Sen. Scott, Rick [R-FL]",
-          "party": "R",
-          "state": "FL",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "M000133",
-          "name": "Sen. Markey, Edward J. [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "R000615",
-          "name": "Sen. Romney, Mitt [R-UT]",
-          "party": "R",
-          "state": "UT",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "K000384",
-          "name": "Sen. Kaine, Tim [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "L000575",
-          "name": "Sen. Lankford, James [R-OK]",
-          "party": "R",
-          "state": "OK",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "V000128",
-          "name": "Sen. Van Hollen, Chris [D-MD]",
-          "party": "D",
-          "state": "MD",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "C001047",
-          "name": "Sen. Capito, Shelley Moore [R-WV]",
-          "party": "R",
-          "state": "WV",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "C000141",
-          "name": "Sen. Cardin, Benjamin L. [D-MD]",
-          "party": "D",
-          "state": "MD",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "C001096",
-          "name": "Sen. Cramer, Kevin [R-ND]",
-          "party": "R",
-          "state": "ND",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "B001267",
-          "name": "Sen. Bennet, Michael F. [D-CO]",
-          "party": "D",
-          "state": "CO",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "R000584",
-          "name": "Sen. Risch, James E. [R-ID]",
-          "party": "R",
-          "state": "ID",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "S001203",
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "H001079",
-          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
-          "party": "R",
-          "state": "MS",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "R000608",
-          "name": "Sen. Rosen, Jacky [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "M001198",
-          "name": "Sen. Marshall, Roger [R-KS]",
-          "party": "R",
-          "state": "KS",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "F000062",
-          "name": "Sen. Feinstein, Dianne [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "Y000064",
-          "name": "Sen. Young, Todd [R-IN]",
-          "party": "R",
-          "state": "IN",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "S001181",
-          "name": "Sen. Shaheen, Jeanne [D-NH]",
-          "party": "D",
-          "state": "NH",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "H000601",
-          "name": "Sen. Hagerty, Bill [R-TN]",
-          "party": "R",
-          "state": "TN",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "H001076",
-          "name": "Sen. Hassan, Margaret Wood [D-NH]",
-          "party": "D",
-          "state": "NH",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "C000880",
-          "name": "Sen. Crapo, Mike [R-ID]",
-          "party": "R",
-          "state": "ID",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "B000944",
-          "name": "Sen. Brown, Sherrod [D-OH]",
-          "party": "D",
-          "state": "OH",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "H001061",
-          "name": "Sen. Hoeven, John [R-ND]",
-          "party": "R",
-          "state": "ND",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "P000145",
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "L000571",
-          "name": "Sen. Lummis, Cynthia M. [R-WY]",
-          "party": "R",
-          "state": "WY",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "W000805",
-          "name": "Sen. Warner, Mark R. [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "B001261",
-          "name": "Sen. Barrasso, John [R-WY]",
-          "party": "R",
-          "state": "WY",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "B001230",
-          "name": "Sen. Baldwin, Tammy [D-WI]",
-          "party": "D",
-          "state": "WI",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "S000033",
-          "name": "Sen. Sanders, Bernard [I-VT]",
-          "party": "I",
-          "state": "VT",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "T000250",
-          "name": "Sen. Thune, John [R-SD]",
-          "party": "R",
-          "state": "SD",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "H000273",
-          "name": "Sen. Hickenlooper, John W. [D-CO]",
-          "party": "D",
-          "state": "CO",
-          "date": "2021-09-15",
-          "original": true
-        },
-        {
-          "bioguide": "H001089",
-          "name": "Sen. Hawley, Josh [R-MO]",
-          "party": "R",
-          "state": "MO",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "W000779",
-          "name": "Sen. Wyden, Ron [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "W000437",
-          "name": "Sen. Wicker, Roger F. [R-MS]",
-          "party": "R",
-          "state": "MS",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "R000595",
-          "name": "Sen. Rubio, Marco [R-FL]",
-          "party": "R",
-          "state": "FL",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "C001113",
-          "name": "Sen. Cortez Masto, Catherine [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "B001310",
-          "name": "Sen. Braun, Mike [R-IN]",
-          "party": "R",
-          "state": "IN",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "K000377",
-          "name": "Sen. Kelly, Mark [D-AZ]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "S001184",
-          "name": "Sen. Scott, Tim [R-SC]",
-          "party": "R",
-          "state": "SC",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "P000595",
-          "name": "Sen. Peters, Gary C. [D-MI]",
-          "party": "D",
-          "state": "MI",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "M000934",
-          "name": "Sen. Moran, Jerry [R-KS]",
-          "party": "R",
-          "state": "KS",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "M001183",
-          "name": "Sen. Manchin, Joe, III [D-WV]",
-          "party": "D",
-          "state": "WV",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "M001111",
-          "name": "Sen. Murray, Patty [D-WA]",
-          "party": "D",
-          "state": "WA",
-          "date": "2021-09-20",
-          "original": false
-        },
-        {
-          "bioguide": "E000295",
-          "name": "Sen. Ernst, Joni [R-IA]",
-          "party": "R",
-          "state": "IA",
-          "date": "2021-09-28",
-          "original": false
-        },
-        {
-          "bioguide": "R000605",
-          "name": "Sen. Rounds, Mike [R-SD]",
-          "party": "R",
-          "state": "SD",
-          "date": "2021-09-28",
-          "original": false
-        },
-        {
-          "bioguide": "T000278",
-          "name": "Sen. Tuberville, Tommy [R-AL]",
-          "party": "R",
-          "state": "AL",
-          "date": "2021-09-28",
-          "original": false
-        },
-        {
-          "bioguide": "J000293",
-          "name": "Sen. Johnson, Ron [R-WI]",
-          "party": "R",
-          "state": "WI",
-          "date": "2021-09-28",
-          "original": false
-        },
-        {
-          "bioguide": "C001098",
-          "name": "Sen. Cruz, Ted [R-TX]",
-          "party": "R",
-          "state": "TX",
-          "date": "2021-09-28",
-          "original": false
-        },
-        {
-          "bioguide": "P000449",
-          "name": "Sen. Portman, Rob [R-OH]",
-          "party": "R",
-          "state": "OH",
-          "date": "2021-09-28",
-          "original": false
-        },
-        {
-          "bioguide": "T000464",
-          "name": "Sen. Tester, Jon [D-MT]",
-          "party": "D",
-          "state": "MT",
-          "date": "2021-10-05",
-          "original": false
-        },
-        {
-          "bioguide": "B000575",
-          "name": "Sen. Blunt, Roy [R-MO]",
-          "party": "R",
-          "state": "MO",
-          "date": "2021-10-28",
-          "original": false
-        },
-        {
-          "bioguide": "C001095",
-          "name": "Sen. Cotton, Tom [R-AR]",
-          "party": "R",
-          "state": "AR",
-          "date": "2021-10-28",
-          "original": false
-        },
-        {
-          "bioguide": "K000393",
-          "name": "Sen. Kennedy, John [R-LA]",
-          "party": "R",
-          "state": "LA",
-          "date": "2021-11-02",
-          "original": false
-        },
-        {
-          "bioguide": "F000463",
-          "name": "Sen. Fischer, Deb [R-NE]",
-          "party": "R",
-          "state": "NE",
-          "date": "2021-11-02",
-          "original": false
-        },
-        {
-          "bioguide": "C000127",
-          "name": "Sen. Cantwell, Maria [D-WA]",
-          "party": "D",
-          "state": "WA",
-          "date": "2021-11-02",
-          "original": false
-        },
-        {
-          "bioguide": "C001075",
-          "name": "Sen. Cassidy, Bill [R-LA]",
-          "party": "R",
-          "state": "LA",
-          "date": "2021-11-02",
-          "original": false
-        },
-        {
-          "bioguide": "M001169",
-          "name": "Sen. Murphy, Christopher [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2021-11-03",
-          "original": false
-        },
-        {
-          "bioguide": "T000476",
-          "name": "Sen. Tillis, Thomas [R-NC]",
-          "party": "R",
-          "state": "NC",
-          "date": "2021-11-03",
-          "original": false
-        },
-        {
-          "bioguide": "B001135",
-          "name": "Sen. Burr, Richard [R-NC]",
-          "party": "R",
-          "state": "NC",
-          "date": "2021-11-03",
-          "original": false
-        },
-        {
-          "bioguide": "S000770",
-          "name": "Sen. Stabenow, Debbie [D-MI]",
-          "party": "D",
-          "state": "MI",
-          "date": "2021-11-03",
-          "original": false
-        },
-        {
-          "bioguide": "C001056",
-          "name": "Sen. Cornyn, John [R-TX]",
-          "party": "R",
-          "state": "TX",
-          "date": "2021-11-03",
-          "original": false
-        },
-        {
-          "bioguide": "G000359",
-          "name": "Sen. Graham, Lindsey [R-SC]",
-          "party": "R",
-          "state": "SC",
-          "date": "2021-11-04",
-          "original": false
-        },
-        {
-          "bioguide": "L000577",
-          "name": "Sen. Lee, Mike [R-UT]",
-          "party": "R",
-          "state": "UT",
-          "date": "2021-11-04",
-          "original": false
-        },
-        {
-          "bioguide": "W000790",
-          "name": "Sen. Warnock, Raphael G. [D-GA]",
-          "party": "D",
-          "state": "GA",
-          "date": "2021-11-04",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 68
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "2573",
-      "title": "Airport Classification Retention Act",
-      "introducedDate": "2021-07-30",
-      "latestAction": {
-        "date": "2021-07-30",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "policy_area": "Transportation and Public Works",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2573?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "H001061",
-          "name": "Sen. Hoeven, John [R-ND]",
-          "party": "R",
-          "state": "ND",
-          "date": "2021-08-02",
-          "original": false
-        },
-        {
-          "bioguide": "K000383",
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME",
-          "date": "2021-08-02",
-          "original": false
-        },
-        {
-          "bioguide": "M001153",
-          "name": "Sen. Murkowski, Lisa [R-AK]",
-          "party": "R",
-          "state": "AK",
-          "date": "2021-08-02",
-          "original": false
-        },
-        {
-          "bioguide": "P000145",
-          "name": "Sen. Padilla, Alex [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2021-08-02",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 4
-    },
-    {
-      "congress": 116,
-      "billType": "s",
-      "number": "1228",
-      "title": "PIRATE Act",
-      "introducedDate": "2019-04-29",
-      "latestAction": {
-        "date": "2020-01-09",
-        "text": "Held at the desk."
-      },
-      "policy_area": "Science, Technology, Communications",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Broadcasting, cable, digital technologies",
-        "Congressional oversight",
-        "Criminal investigation, prosecution, interrogation",
-        "Federal Communications Commission (FCC)",
-        "Government information and archives",
-        "Licensing and registrations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/1228?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "P000595",
-          "name": "Sen. Peters, Gary C. [D-MI]",
-          "party": "D",
-          "state": "MI",
-          "date": "2019-04-29",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "1221",
-      "title": "Wildland Firefighter Recognition Act",
-      "introducedDate": "2021-04-20",
-      "latestAction": {
-        "date": "2021-04-20",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Department of Agriculture",
-        "Department of the Interior",
-        "Fires",
-        "First responders and emergency personnel",
-        "Forests, forestry, trees",
-        "Government employee pay, benefits, personnel management"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/1221?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "F000062",
-          "name": "Sen. Feinstein, Dianne [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2021-04-20",
-          "original": true
-        },
-        {
-          "bioguide": "L000571",
-          "name": "Sen. Lummis, Cynthia M. [R-WY]",
-          "party": "R",
-          "state": "WY",
-          "date": "2021-07-12",
-          "original": false
-        },
-        {
-          "bioguide": "R000608",
-          "name": "Sen. Rosen, Jacky [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-09-14",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 3
-    },
-    {
-      "congress": 117,
-      "billType": "sres",
-      "number": "273",
-      "title": "A resolution designating June 2021 as \"Great Outdoors Month\".",
-      "introducedDate": "2021-06-16",
-      "latestAction": {
-        "date": "2021-06-16",
-        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Voice Vote. (consideration: CR S4597; text: CR S4596)"
-      },
-      "policy_area": "Sports and Recreation",
-      "subjects": [
-        "Commemorative events and holidays",
-        "Outdoor recreation"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sres/273?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "P000595",
-          "name": "Sen. Peters, Gary C. [D-MI]",
-          "party": "D",
-          "state": "MI",
-          "date": "2021-06-16",
-          "original": true
-        },
-        {
-          "bioguide": "S001181",
-          "name": "Sen. Shaheen, Jeanne [D-NH]",
-          "party": "D",
-          "state": "NH",
-          "date": "2021-06-16",
-          "original": true
-        },
-        {
-          "bioguide": "K000383",
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME",
-          "date": "2021-06-16",
-          "original": true
-        },
-        {
-          "bioguide": "C001096",
-          "name": "Sen. Cramer, Kevin [R-ND]",
-          "party": "R",
-          "state": "ND",
-          "date": "2021-06-16",
-          "original": true
-        },
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-06-16",
-          "original": true
-        },
-        {
-          "bioguide": "H001046",
-          "name": "Sen. Heinrich, Martin [D-NM]",
-          "party": "D",
-          "state": "NM",
-          "date": "2021-06-16",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 6
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "1897",
-      "title": "Protecting Indian Tribes from Scams Act",
-      "introducedDate": "2021-05-27",
-      "latestAction": {
-        "date": "2021-05-27",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "policy_area": "Native Americans",
-      "subjects": [
-        "Congressional oversight",
-        "Consumer affairs",
-        "Crime prevention",
-        "Federal-Indian relations",
-        "Fraud offenses and financial crimes",
-        "Government information and archives"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/1897?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-05-27",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 116,
-      "billType": "sres",
-      "number": "425",
-      "title": "A resolution designating October 2019 as \"National Down Syndrome Awareness Month\" and supporting the goals and ideals of National Down Syndrome Awareness Month.",
-      "introducedDate": "2019-11-14",
-      "latestAction": {
-        "date": "2019-11-14",
-        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6614; text: CR S6612)"
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Birth defects",
-        "Commemorative events and holidays",
-        "Congressional tributes",
-        "Health promotion and preventive care",
-        "Hereditary and development disorders",
-        "Medical research"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/sres/425?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "B001267",
-          "name": "Sen. Bennet, Michael F. [D-CO]",
-          "party": "D",
-          "state": "CO",
-          "date": "2019-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "I000024",
-          "name": "Sen. Inhofe, James M. [R-OK]",
-          "party": "R",
-          "state": "OK",
-          "date": "2019-11-14",
-          "original": true
-        },
-        {
-          "bioguide": "W000817",
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2019-11-14",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 3
     }
   ]
 }

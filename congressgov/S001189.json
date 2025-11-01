@@ -3,10 +3,46 @@
     "bioguide": "S001189",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T14:32:07Z",
+    "generated_at": "2025-11-01T14:34:59Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "",
+      "number": null,
+      "title": "",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "On agreeing to the Scott, Austin amendment (A016) Agreed to by voice vote."
+      },
+      "policy_area": null,
+      "subjects": null,
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/hamdt/92?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "682",
+      "title": "Providing for consideration of the bill (H.R. 3838) to authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes, and providing for consideration of the bill (H.R. 3486) to amend the Immigration and Nationality Act to increase penalties for individuals who illegally enter and reenter the United States after being removed, and for other purposes.",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/682?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hres",
@@ -14,8 +50,8 @@
       "title": "Providing for the adoption of the resolution (H. Res. 589) providing for the public release of certain documents, records, and communications related to the investigation of Jeffrey Epstein.",
       "introducedDate": "2025-07-21",
       "latestAction": {
-        "date": "2025-07-21",
-        "text": "Placed on the House Calendar, Calendar No. 39."
+        "date": "2025-09-03",
+        "text": "Pursuant to the provisions of H. Res. 672, H. Res. 598 is laid on the table."
       },
       "policy_area": "Congress",
       "subjects": [
@@ -218,8 +254,11 @@
         "date": "2025-01-22",
         "text": "Motion to reconsider laid on the table Agreed to without objection."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Congress",
+      "subjects": [
+        "House of Representatives",
+        "Legislative rules and procedure"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/53?format=json",
       "updateDate": null,
       "bipartisan": false,
