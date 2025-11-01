@@ -3,21 +3,56 @@
     "bioguide": "L000582",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T16:42:04Z",
+    "generated_at": "2025-11-01T16:34:43Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
       "billType": "hr",
+      "number": "5323",
+      "title": "To enhance subnational diplomacy efforts within the Department of State, and for other purposes.",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5323?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001137",
+          "name": "Rep. Meeks, Gregory W. [D-NY-5]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-09-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
       "number": "5065",
-      "title": "To amend the Elementary and Secondary Education Act of 1965 to protect students from sexual abuse, and for other purposes.",
+      "title": "Preventing Sexual Abuse of K–12 Students Act of 2025",
       "introducedDate": "2025-08-29",
       "latestAction": {
         "date": "2025-08-29",
         "text": "Referred to the House Committee on Education and Workforce."
       },
-      "policy_area": null,
+      "policy_area": "Education",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5065?format=json",
       "updateDate": null,
@@ -35,7 +70,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5045?format=json",
       "updateDate": null,
@@ -62,7 +97,7 @@
         "date": "2025-07-29",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Intelligence (Permanent Select), Armed Services, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4811?format=json",
       "updateDate": null,
@@ -89,7 +124,7 @@
         "date": "2025-07-23",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4695?format=json",
       "updateDate": null,
@@ -140,7 +175,7 @@
         "date": "2025-07-22",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4599?format=json",
       "updateDate": null,
@@ -175,7 +210,7 @@
         "date": "2025-07-10",
         "text": "Referred to the Committee on Agriculture, and in addition to the Committees on Science, Space, and Technology, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Energy",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4339?format=json",
       "updateDate": null,
@@ -1552,9 +1587,41 @@
           "state": "CA",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001047",
+          "name": "Rep. Himes, James A. [D-CT-4]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 100
+      "cosponsors_total": 104
     },
     {
       "congress": 119,
@@ -1691,9 +1758,57 @@
           "state": "CA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "D000623",
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "E000299",
+          "name": "Rep. Escobar, Veronica [D-TX-16]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-18",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -2440,9 +2555,41 @@
           "state": "CO",
           "date": "2025-07-16",
           "original": false
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "T000482",
+          "name": "Rep. Trahan, Lori [D-MA-3]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 34
+      "cosponsors_total": 38
     },
     {
       "congress": 119,
@@ -2552,7 +2699,14 @@
         "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
       "policy_area": "International Affairs",
-      "subjects": [],
+      "subjects": [
+        "Congressional-executive branch relations",
+        "Military command and structure",
+        "Military operations and strategy",
+        "Nuclear weapons",
+        "Presidents and presidential powers, Vice Presidents",
+        "War and emergency powers"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/669?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -2724,9 +2878,25 @@
           "state": "CA",
           "date": "2025-08-05",
           "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "N000002",
+          "name": "Rep. Nadler, Jerrold [D-NY-12]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 23
     },
     {
       "congress": 118,
@@ -8404,7 +8574,14 @@
         "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
       "policy_area": "International Affairs",
-      "subjects": [],
+      "subjects": [
+        "Congressional-executive branch relations",
+        "Military command and structure",
+        "Military operations and strategy",
+        "Nuclear weapons",
+        "Presidents and presidential powers, Vice Presidents",
+        "War and emergency powers"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/669?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -34481,24 +34658,6 @@
         }
       ],
       "cosponsors_total": 8
-    },
-    {
-      "congress": 114,
-      "billType": "",
-      "number": null,
-      "title": "",
-      "introducedDate": "2015-06-02",
-      "latestAction": {
-        "date": "2015-06-02",
-        "text": "On agreeing to the Lieu, Ted amendment (A028) Agreed to by voice vote. "
-      },
-      "policy_area": null,
-      "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/114/hamdt/296?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     }
   ]
 }

@@ -3,10 +3,37 @@
     "bioguide": "C001061",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T16:30:48Z",
+    "generated_at": "2025-11-01T16:26:26Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "699",
+      "title": "Expressing support for the designation of September 2025 as \"National Polycystic Kidney Disease Awareness Month\", and raising awareness and understanding of polycystic kidney disease.",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/699?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000546",
+          "name": "Rep. Graves, Sam [R-MO-6]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +44,7 @@
         "date": "2025-07-21",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4556?format=json",
       "updateDate": null,
@@ -86,9 +113,33 @@
           "state": "DC",
           "date": "2025-07-21",
           "original": true
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -113,9 +164,25 @@
           "state": "TN",
           "date": "2025-06-13",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -279,9 +346,25 @@
           "state": "PA",
           "date": "2025-07-02",
           "original": false
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-09-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -574,9 +657,25 @@
           "state": "AZ",
           "date": "2025-03-10",
           "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 7
     },
     {
       "congress": 118,
@@ -7307,11 +7406,11 @@
       "introducedDate": "2023-01-26",
       "latestAction": {
         "date": "2023-01-26",
-        "text": "On agreeing to the Cleaver amendment (A010) Failed by voice vote. "
+        "text": "On agreeing to the Cleaver amendment (A008) Failed by voice vote. "
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/118/hamdt/11?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/118/hamdt/9?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -16238,26 +16337,6 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "5592",
-      "title": "To suspend temporarily the duty on mixtures containing beta-cyfluthrin.",
-      "introducedDate": "2012-05-08",
-      "latestAction": {
-        "date": "2012-05-14",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/5592?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
       "number": "5591",
       "title": "To modify and extend the temporary reduction of duty on beta-cyfluthrin.",
       "introducedDate": "2012-05-08",
@@ -16278,18 +16357,18 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "4668",
-      "title": "To extend the temporary suspension of duty on Cyfluthrin.",
-      "introducedDate": "2012-04-25",
+      "number": "5592",
+      "title": "To suspend temporarily the duty on mixtures containing beta-cyfluthrin.",
+      "introducedDate": "2012-05-08",
       "latestAction": {
-        "date": "2012-05-02",
+        "date": "2012-05-14",
         "text": "Referred to the Subcommittee on Trade."
       },
       "policy_area": "Foreign Trade and International Finance",
       "subjects": [
         "Tariffs"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4668?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/5592?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -16310,26 +16389,6 @@
         "Tariffs"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4666?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "4667",
-      "title": "To extend the temporary suspension of duty on Isoxadifen-Ethyl.",
-      "introducedDate": "2012-04-25",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4667?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -16438,8 +16497,8 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "4659",
-      "title": "To suspend temporarily the duty on N-(4-Fluorophenyl)-2-hydroxy-N-(1-methylethyl)acetamide.",
+      "number": "4668",
+      "title": "To extend the temporary suspension of duty on Cyfluthrin.",
       "introducedDate": "2012-04-25",
       "latestAction": {
         "date": "2012-05-02",
@@ -16449,7 +16508,27 @@
       "subjects": [
         "Tariffs"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4659?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4668?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4667",
+      "title": "To extend the temporary suspension of duty on Isoxadifen-Ethyl.",
+      "introducedDate": "2012-04-25",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4667?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -16478,8 +16557,8 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "4664",
-      "title": "To suspend temporarily the duty on 1,3-Cyclohexanedione.",
+      "number": "4658",
+      "title": "To extend the temporary reduction of duty on Deltamethrin.",
       "introducedDate": "2012-04-25",
       "latestAction": {
         "date": "2012-05-02",
@@ -16489,67 +16568,7 @@
       "subjects": [
         "Tariffs"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4664?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "4663",
-      "title": "To modify and extend the temporary reduction of duty on 2-Acetylbutyrolactone.",
-      "introducedDate": "2012-04-25",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4663?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "4662",
-      "title": "To suspend temporarily the duty on Trifloxystrobin.",
-      "introducedDate": "2012-04-25",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4662?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "4661",
-      "title": "To extend the temporary suspension of duty on Spiromesifen.",
-      "introducedDate": "2012-04-25",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4661?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4658?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -16578,8 +16597,8 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "4658",
-      "title": "To extend the temporary reduction of duty on Deltamethrin.",
+      "number": "4664",
+      "title": "To suspend temporarily the duty on 1,3-Cyclohexanedione.",
       "introducedDate": "2012-04-25",
       "latestAction": {
         "date": "2012-05-02",
@@ -16589,7 +16608,87 @@
       "subjects": [
         "Tariffs"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4658?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4664?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4659",
+      "title": "To suspend temporarily the duty on N-(4-Fluorophenyl)-2-hydroxy-N-(1-methylethyl)acetamide.",
+      "introducedDate": "2012-04-25",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4659?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4661",
+      "title": "To extend the temporary suspension of duty on Spiromesifen.",
+      "introducedDate": "2012-04-25",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4661?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4662",
+      "title": "To suspend temporarily the duty on Trifloxystrobin.",
+      "introducedDate": "2012-04-25",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4662?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "4663",
+      "title": "To modify and extend the temporary reduction of duty on 2-Acetylbutyrolactone.",
+      "introducedDate": "2012-04-25",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/4663?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -20059,9 +20158,818 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/111/hr/1849?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "A000358",
+          "name": "Rep. Akin, W. Todd [R-MO-2]",
+          "party": "R",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "B000575",
+          "name": "Rep. Blunt, Roy [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "C001060",
+          "name": "Rep. Carnahan, Russ [D-MO-3]",
+          "party": "D",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "C001049",
+          "name": "Rep. Clay, Wm. Lacy [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "E000172",
+          "name": "Rep. Emerson, Jo Ann [R-MO-8]",
+          "party": "R",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "G000546",
+          "name": "Rep. Graves, Sam [R-MO-6]",
+          "party": "R",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "L000569",
+          "name": "Rep. Luetkemeyer, Blaine [R-MO-9]",
+          "party": "R",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "S000465",
+          "name": "Rep. Skelton, Ike [D-MO-4]",
+          "party": "D",
+          "state": "MO",
+          "date": "2009-04-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001140",
+          "name": "Rep. Moore, Dennis [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2009-04-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001137",
+          "name": "Rep. Meeks, Gregory W. [D-NY-6]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-04-28",
+          "original": false
+        },
+        {
+          "bioguide": "O000107",
+          "name": "Rep. Ortiz, Solomon P. [D-TX-27]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-05-05",
+          "original": false
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-44]",
+          "party": "R",
+          "state": "CA",
+          "date": "2009-06-16",
+          "original": false
+        },
+        {
+          "bioguide": "S000583",
+          "name": "Rep. Smith, Lamar [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2009-06-23",
+          "original": false
+        },
+        {
+          "bioguide": "J000290",
+          "name": "Rep. Jenkins, Lynn [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2009-06-24",
+          "original": false
+        },
+        {
+          "bioguide": "H000636",
+          "name": "Rep. Hinojosa, Ruben [D-TX-15]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-06-24",
+          "original": false
+        },
+        {
+          "bioguide": "H001030",
+          "name": "Rep. Hill, Baron P. [D-IN-9]",
+          "party": "D",
+          "state": "IN",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "A000363",
+          "name": "Rep. Arcuri, Michael A. [D-NY-24]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "W000314",
+          "name": "Rep. Wexler, Robert [D-FL-19]",
+          "party": "D",
+          "state": "FL",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "R000581",
+          "name": "Rep. Richardson, Laura [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "B001251",
+          "name": "Rep. Butterfield, G. K. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-11]",
+          "party": "D",
+          "state": "FL",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "F000455",
+          "name": "Rep. Fudge, Marcia L. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "K000180",
+          "name": "Rep. Kilpatrick, Carolyn C. [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-11]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001036",
+          "name": "Rep. Capps, Lois [D-CA-23]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "W000738",
+          "name": "Rep. Woolsey, Lynn C. [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001058",
+          "name": "Rep. Chandler, Ben [D-KY-6]",
+          "party": "D",
+          "state": "KY",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-20]",
+          "party": "D",
+          "state": "FL",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001037",
+          "name": "Rep. Capuano, Michael E. [D-MA-8]",
+          "party": "D",
+          "state": "MA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001171",
+          "name": "Rep. Shuler, Heath [D-NC-11]",
+          "party": "D",
+          "state": "NC",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "T000038",
+          "name": "Rep. Tanner, John S. [D-TN-8]",
+          "party": "D",
+          "state": "TN",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Rep. Moran, Jerry [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001144",
+          "name": "Rep. Miller, Jeff [R-FL-1]",
+          "party": "R",
+          "state": "FL",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "D000599",
+          "name": "Rep. Davis, Lincoln [D-TN-4]",
+          "party": "D",
+          "state": "TN",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "G000556",
+          "name": "Rep. Grayson, Alan [D-FL-8]",
+          "party": "D",
+          "state": "FL",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001161",
+          "name": "Rep. Melancon, Charlie [D-LA-3]",
+          "party": "D",
+          "state": "LA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Velazquez, Nydia M. [D-NY-12]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Rep. Baldwin, Tammy [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "L000559",
+          "name": "Rep. Langevin, James R. [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "H001038",
+          "name": "Rep. Higgins, Brian [D-NY-27]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001078",
+          "name": "Rep. Connolly, Gerald E. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "D000609",
+          "name": "Rep. Driehaus, Steve [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Rep. Capito, Shelley Moore [R-WV-2]",
+          "party": "R",
+          "state": "WV",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "W000119",
+          "name": "Rep. Wamp, Zach [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "F000453",
+          "name": "Rep. Fallin, Mary [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "B001259",
+          "name": "Rep. Braley, Bruce L. [D-IA-1]",
+          "party": "D",
+          "state": "IA",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "P000422",
+          "name": "Rep. Pomeroy, Earl [D-ND-At Large]",
+          "party": "D",
+          "state": "ND",
+          "date": "2009-07-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001172",
+          "name": "Rep. Markey, Betsy [D-CO-4]",
+          "party": "D",
+          "state": "CO",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "S001156",
+          "name": "Rep. Sánchez, Linda T. [D-CA-39]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "S001162",
+          "name": "Rep. Schwartz, Allyson Y. [D-PA-13]",
+          "party": "D",
+          "state": "PA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "P000593",
+          "name": "Rep. Perlmutter, Ed [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "R000515",
+          "name": "Rep. Rush, Bobby L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "J000032",
+          "name": "Rep. Jackson-Lee, Sheila [D-TX-18]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001253",
+          "name": "Rep. Bean, Melissa L. [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "K000113",
+          "name": "Rep. Kennedy, Patrick J. [D-RI-1]",
+          "party": "D",
+          "state": "RI",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001173",
+          "name": "Rep. Massa, Eric J. J. [D-NY-29]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Rep. Foster, Bill [D-IL-14]",
+          "party": "D",
+          "state": "IL",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "F000043",
+          "name": "Rep. Fattah, Chaka [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000015",
+          "name": "Rep. Neal, Richard E. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001154",
+          "name": "Rep. Miller, Brad [D-NC-13]",
+          "party": "D",
+          "state": "NC",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "G000553",
+          "name": "Rep. Green, Al [D-TX-9]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "A000362",
+          "name": "Rep. Altmire, Jason [D-PA-4]",
+          "party": "D",
+          "state": "PA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "J000126",
+          "name": "Rep. Johnson, Eddie Bernice [D-TX-30]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "H000324",
+          "name": "Rep. Hastings, Alcee L. [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "D000492",
+          "name": "Rep. Dreier, David [R-CA-26]",
+          "party": "R",
+          "state": "CA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "H001036",
+          "name": "Rep. Hensarling, Jeb [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "S000248",
+          "name": "Rep. Serrano, Jose E. [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001252",
+          "name": "Rep. Barrow, John [D-GA-12]",
+          "party": "D",
+          "state": "GA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D., Jr. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "E000290",
+          "name": "Rep. Edwards, Donna F. [D-MD-4]",
+          "party": "D",
+          "state": "MD",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "R000568",
+          "name": "Rep. Rodriguez, Ciro D. [D-TX-23]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001166",
+          "name": "Rep. McNerney, Jerry [D-CA-11]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "S000185",
+          "name": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+          "party": "D",
+          "state": "VA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Rep. Chu, Judy [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "P000583",
+          "name": "Rep. Paul, Ron [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "B000208",
+          "name": "Rep. Bartlett, Roscoe G. [R-MD-6]",
+          "party": "R",
+          "state": "MD",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "K000370",
+          "name": "Rep. Kosmas, Suzanne M. [D-FL-24]",
+          "party": "D",
+          "state": "FL",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "K000369",
+          "name": "Rep. Kissell, Larry [D-NC-8]",
+          "party": "D",
+          "state": "NC",
+          "date": "2009-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "F000448",
+          "name": "Rep. Franks, Trent [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2009-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "W000801",
+          "name": "Rep. Wilson, Charles A. [D-OH-6]",
+          "party": "D",
+          "state": "OH",
+          "date": "2009-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "T000074",
+          "name": "Rep. Taylor, Gene [D-MS-4]",
+          "party": "D",
+          "state": "MS",
+          "date": "2009-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "B001242",
+          "name": "Rep. Bishop, Timothy H. [D-NY-1]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "M001174",
+          "name": "Rep. McMahon, Michael E. [D-NY-13]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "C000380",
+          "name": "Del. Christensen, Donna M. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2009-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "L000321",
+          "name": "Rep. Linder, John [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "W000207",
+          "name": "Rep. Watt, Melvin L. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "D000197",
+          "name": "Rep. DeGette, Diana [D-CO-1]",
+          "party": "D",
+          "state": "CO",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001156",
+          "name": "Rep. McHenry, Patrick T. [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Rep. Lujan, Ben Ray [D-NM-3]",
+          "party": "D",
+          "state": "NM",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "N000179",
+          "name": "Rep. Napolitano, Grace F. [D-CA-38]",
+          "party": "D",
+          "state": "CA",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "E000288",
+          "name": "Rep. Ellison, Keith [D-MN-5]",
+          "party": "D",
+          "state": "MN",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M000309",
+          "name": "Rep. McCarthy, Carolyn [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B000574",
+          "name": "Rep. Blumenauer, Earl [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2009-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "G000544",
+          "name": "Rep. Gonzalez, Charles A. [D-TX-20]",
+          "party": "D",
+          "state": "TX",
+          "date": "2009-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 101
     },
     {
       "congress": 111,

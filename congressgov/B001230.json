@@ -3,23 +3,95 @@
     "bioguide": "B001230",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T16:26:35Z",
+    "generated_at": "2025-11-01T16:23:33Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "sres",
+      "number": "440",
+      "title": "A resolution designating September 2025 as \"National Spinal Cord Injury Awareness Month\".",
+      "introducedDate": "2025-10-07",
+      "latestAction": {
+        "date": "2025-10-07",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/440?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001244",
+          "name": "Sen. Moody, Ashley [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-07",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2826",
+      "title": "988 LGBTQ+ Youth Access Act of 2025",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2826?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-07-31",
+      "introducedDate": "2025-09-11",
       "latestAction": {
         "date": null,
         "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3369?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3873?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2711",
+      "title": "Go Pack Go Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2711?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -35,7 +107,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2575?format=json",
       "updateDate": null,
@@ -53,7 +125,7 @@
         "date": "2025-07-30",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2532?format=json",
       "updateDate": null,
@@ -171,7 +243,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2507?format=json",
       "updateDate": null,
@@ -523,9 +595,17 @@
           "state": "NJ",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 29
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
@@ -598,9 +678,25 @@
           "state": "NE",
           "date": "2025-08-01",
           "original": false
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -612,7 +708,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2436?format=json",
       "updateDate": null,
@@ -657,7 +753,7 @@
         "date": "2025-07-15",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2287?format=json",
       "updateDate": null,
@@ -814,9 +910,25 @@
           "state": "MS",
           "date": "2025-07-30",
           "original": false
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "J000312",
+          "name": "Sen. Justice, James C. [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -825,11 +937,18 @@
       "title": "A bill to amend the Digital Coast Act to improve the acquisition, integration, and accessibility of data of the Digital Coast program and to extend the program.",
       "introducedDate": "2025-07-10",
       "latestAction": {
-        "date": "2025-07-10",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        "date": "2025-10-21",
+        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Computers and information technology",
+        "Environmental assessment, monitoring, research",
+        "Intergovernmental relations",
+        "Internet, web applications, social media",
+        "Marine and coastal resources, fisheries",
+        "State and local government operations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2245?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1696,9 +1815,17 @@
           "state": "CT",
           "date": "2025-06-26",
           "original": false
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1739,9 +1866,25 @@
           "state": "MN",
           "date": "2025-05-22",
           "original": true
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-10-29",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -1996,9 +2139,89 @@
           "state": "WV",
           "date": "2025-07-23",
           "original": false
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "J000312",
+          "name": "Sen. Justice, James C. [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-01",
+          "original": false
+        },
+        {
+          "bioguide": "S001208",
+          "name": "Sen. Slotkin, Elissa [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-29",
+          "original": false
         }
       ],
-      "cosponsors_total": 20
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
