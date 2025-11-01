@@ -3,10 +3,91 @@
     "bioguide": "S001183",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T10:39:01Z",
+    "generated_at": "2025-11-01T10:39:42Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5530",
+      "title": "Postal Contracting Financial Accountability Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5530?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5410",
+      "title": "Critical Mineral Brine Extraction Research and Development Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5410?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "696",
+      "title": "Recognizing the 60th anniversary of independence of the Republic of Singapore and supporting a strong United States-Singapore relationship.",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/696?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000560",
+          "name": "Rep. Larsen, Rick [D-WA-2]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "",
+      "number": null,
+      "title": "",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "On agreeing to the Schweikert amendment (A014) Failed by recorded vote: 76 - 351 (Roll no. 237)."
+      },
+      "policy_area": null,
+      "subjects": null,
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/hamdt/76?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +98,7 @@
         "date": "2025-08-15",
         "text": "Referred to the House Committee on Foreign Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4988?format=json",
       "updateDate": null,
@@ -35,7 +116,7 @@
         "date": "2025-07-25",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Law",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4770?format=json",
       "updateDate": null,
@@ -202,9 +283,209 @@
           "state": "AZ",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John J. [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "E000235",
+          "name": "Rep. Ezell, Mike [R-MS-4]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001228",
+          "name": "Rep. Maloy, Celeste [R-UT-2]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "H001082",
+          "name": "Rep. Hern, Kevin [R-OK-1]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Rep. Boyle, Brendan F. [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "K000392",
+          "name": "Rep. Kustoff, David [R-TN-8]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 43
     },
     {
       "congress": 119,
@@ -243,7 +524,7 @@
         "date": "2025-06-12",
         "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3996?format=json",
       "updateDate": null,
@@ -273,7 +554,7 @@
       "congress": 119,
       "billType": "hr",
       "number": "3466",
-      "title": "To amend the Immigration and Nationality Act to establish a skills-based immigration points system, to focus family-sponsored immigration on spouses and minor children, to eliminate the Diversity Visa Program, to set a limit on the number of refugees admitted annually to the United States, and for other purposes.",
+      "title": "SMART Act",
       "introducedDate": "2025-05-15",
       "latestAction": {
         "date": "2025-06-03",
@@ -370,9 +651,17 @@
           "state": "CA",
           "date": "2025-07-15",
           "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -2083,24 +2372,6 @@
     },
     {
       "congress": 117,
-      "billType": "hres",
-      "number": "1290",
-      "title": "Expressing the sense of the House of Representatives that two consecutive quarters of negative growth in gross domestic product, as reported by the Bureau of Economic Analysis, constitutes a recession.",
-      "introducedDate": "2022-07-27",
-      "latestAction": {
-        "date": "2022-07-27",
-        "text": "Referred to the House Committee on Oversight and Reform."
-      },
-      "policy_area": "Finance and Financial Sector",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1290?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 117,
       "billType": "hr",
       "number": "8489",
       "title": "Greater Access to Telehealth Act",
@@ -2133,6 +2404,24 @@
         }
       ],
       "cosponsors_total": 2
+    },
+    {
+      "congress": 117,
+      "billType": "hres",
+      "number": "1290",
+      "title": "Expressing the sense of the House of Representatives that two consecutive quarters of negative growth in gross domestic product, as reported by the Bureau of Economic Analysis, constitutes a recession.",
+      "introducedDate": "2022-07-27",
+      "latestAction": {
+        "date": "2022-07-27",
+        "text": "Referred to the House Committee on Oversight and Reform."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1290?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -3148,6 +3437,38 @@
     {
       "congress": 117,
       "billType": "hr",
+      "number": "317",
+      "title": "To amend the Public Health Service Act to establish a health insurance Federal Invisible Risk Sharing Program.",
+      "introducedDate": "2021-01-13",
+      "latestAction": {
+        "date": "2021-01-14",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Health care costs and insurance",
+        "Health programs administration and funding",
+        "State and local finance",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/317?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000449",
+          "name": "Rep. Fortenberry, Jeff [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2021-01-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 117,
+      "billType": "hr",
       "number": "318",
       "title": "Safe Testing at Residence Telehealth Act of 2021",
       "introducedDate": "2021-01-13",
@@ -3208,38 +3529,6 @@
         }
       ],
       "cosponsors_total": 4
-    },
-    {
-      "congress": 117,
-      "billType": "hr",
-      "number": "317",
-      "title": "To amend the Public Health Service Act to establish a health insurance Federal Invisible Risk Sharing Program.",
-      "introducedDate": "2021-01-13",
-      "latestAction": {
-        "date": "2021-01-14",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Health care costs and insurance",
-        "Health programs administration and funding",
-        "State and local finance",
-        "State and local government operations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/317?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "F000449",
-          "name": "Rep. Fortenberry, Jeff [R-NE-1]",
-          "party": "R",
-          "state": "NE",
-          "date": "2021-01-13",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
     },
     {
       "congress": 117,
@@ -4820,26 +5109,6 @@
     {
       "congress": 113,
       "billType": "hr",
-      "number": "245",
-      "title": "To amend the Truth in Lending Act to allow certain loans that are not fully amortizing to be used in seller carryback financing on residential mortgage loans.",
-      "introducedDate": "2013-01-14",
-      "latestAction": {
-        "date": "2013-01-14",
-        "text": "Referred to the House Committee on Financial Services."
-      },
-      "policy_area": "Housing and Community Development",
-      "subjects": [
-        "Housing finance and home ownership"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/hr/245?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 113,
-      "billType": "hr",
       "number": "247",
       "title": "Ensuring the Full Faith and Credit of the United States and Protecting America's Soldiers and Seniors Act",
       "introducedDate": "2013-01-14",
@@ -4899,6 +5168,26 @@
         }
       ],
       "cosponsors_total": 5
+    },
+    {
+      "congress": 113,
+      "billType": "hr",
+      "number": "245",
+      "title": "To amend the Truth in Lending Act to allow certain loans that are not fully amortizing to be used in seller carryback financing on residential mortgage loans.",
+      "introducedDate": "2013-01-14",
+      "latestAction": {
+        "date": "2013-01-14",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": "Housing and Community Development",
+      "subjects": [
+        "Housing finance and home ownership"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/hr/245?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 113,
@@ -7192,6 +7481,27 @@
     {
       "congress": 115,
       "billType": "hr",
+      "number": "7002",
+      "title": "Blockchain Records and Transactions Act of 2018",
+      "introducedDate": "2018-09-28",
+      "latestAction": {
+        "date": "2018-09-28",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [
+        "Business records",
+        "Computers and information technology"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/7002?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 115,
+      "billType": "hr",
       "number": "7003",
       "title": "To amend the Public Health Service Act to establish a health insurance Federal Invisible Risk Sharing Program.",
       "introducedDate": "2018-09-28",
@@ -7236,27 +7546,6 @@
         }
       ],
       "cosponsors_total": 3
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "7002",
-      "title": "Blockchain Records and Transactions Act of 2018",
-      "introducedDate": "2018-09-28",
-      "latestAction": {
-        "date": "2018-09-28",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "policy_area": "Finance and Financial Sector",
-      "subjects": [
-        "Business records",
-        "Computers and information technology"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/7002?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 115,
@@ -7859,6 +8148,31 @@
     {
       "congress": 114,
       "billType": "hr",
+      "number": "163",
+      "title": "RATE Act of 2015",
+      "introducedDate": "2015-01-06",
+      "latestAction": {
+        "date": "2015-01-06",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Credit and credit markets",
+        "Federal Reserve System",
+        "Government information and archives",
+        "Interest, dividends, interest rates",
+        "Securities"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/163?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 114,
+      "billType": "hr",
       "number": "164",
       "title": "Ensuring the Full Faith and Credit of the United States and Protecting America's Soldiers and Seniors Act",
       "introducedDate": "2015-01-06",
@@ -7896,31 +8210,6 @@
         "Executive agency funding and structure"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/165?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 114,
-      "billType": "hr",
-      "number": "163",
-      "title": "RATE Act of 2015",
-      "introducedDate": "2015-01-06",
-      "latestAction": {
-        "date": "2015-01-06",
-        "text": "Referred to the House Committee on Financial Services."
-      },
-      "policy_area": "Finance and Financial Sector",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Credit and credit markets",
-        "Federal Reserve System",
-        "Government information and archives",
-        "Interest, dividends, interest rates",
-        "Securities"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/163?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -8165,33 +8454,6 @@
     {
       "congress": 114,
       "billType": "hr",
-      "number": "5918",
-      "title": "To establish requirements for participants in the peer-to-peer economy to be considered independent contractors and not employees for purposes of several employment-related statutes.",
-      "introducedDate": "2016-07-18",
-      "latestAction": {
-        "date": "2016-09-19",
-        "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
-      },
-      "policy_area": "Labor and Employment",
-      "subjects": [
-        "Employee leave",
-        "Internet and video services",
-        "Internet, web applications, social media",
-        "Labor standards",
-        "Labor-management relations",
-        "Service industries",
-        "Telephone and wireless communication",
-        "Wages and earnings"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/5918?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 114,
-      "billType": "hr",
       "number": "5919",
       "title": "Preserving and Reforming SSDI (PAR-SSDI) Act of 2016",
       "introducedDate": "2016-07-18",
@@ -8213,6 +8475,33 @@
         "Unemployment"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/5919?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 114,
+      "billType": "hr",
+      "number": "5918",
+      "title": "To establish requirements for participants in the peer-to-peer economy to be considered independent contractors and not employees for purposes of several employment-related statutes.",
+      "introducedDate": "2016-07-18",
+      "latestAction": {
+        "date": "2016-09-19",
+        "text": "Referred to the Subcommittee on Health, Employment, Labor, and Pensions."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Employee leave",
+        "Internet and video services",
+        "Internet, web applications, social media",
+        "Labor standards",
+        "Labor-management relations",
+        "Service industries",
+        "Telephone and wireless communication",
+        "Wages and earnings"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/5918?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],

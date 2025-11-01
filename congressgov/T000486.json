@@ -3,10 +3,99 @@
     "bioguide": "T000486",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T10:41:08Z",
+    "generated_at": "2025-11-01T10:42:34Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5741",
+      "title": "TRUMP Act of 2025",
+      "introducedDate": "2025-10-10",
+      "latestAction": {
+        "date": "2025-10-10",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5741?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000607",
+          "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "688",
+      "title": "Expressing the sense of the House of Representatives that there should be established a \"National African Immigrant Heritage Month\" in September to celebrate the great contributions of Americans of African immigrant heritage in the United States who have enriched the history of the Nation.",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/688?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5124",
+      "title": "River’s Law",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Families",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5124?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "O000172",
+          "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +106,7 @@
         "date": "2025-08-08",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4946?format=json",
       "updateDate": null,
@@ -53,7 +142,7 @@
         "date": "2025-07-14",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4385?format=json",
       "updateDate": null,
@@ -66,9 +155,33 @@
           "state": "SC",
           "date": "2025-07-14",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "P000617",
+          "name": "Rep. Pressley, Ayanna [D-MA-7]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -141,7 +254,7 @@
         "date": "2025-06-10",
         "text": "Referred to the House Committee on Oversight and Government Reform."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3893?format=json",
       "updateDate": null,
@@ -195,7 +308,7 @@
         "date": "2025-05-01",
         "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
       },
-      "policy_area": "Energy",
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3167?format=json",
       "updateDate": null,
@@ -4010,6 +4123,24 @@
     {
       "congress": 118,
       "billType": "hr",
+      "number": "2658",
+      "title": "Conspiracy to Obstruct the Electoral Count Act",
+      "introducedDate": "2023-04-17",
+      "latestAction": {
+        "date": "2023-04-17",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2658?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 118,
+      "billType": "hr",
       "number": "2656",
       "title": "Trigger Leads Abatement Act of 2023",
       "introducedDate": "2023-04-17",
@@ -4081,24 +4212,6 @@
         }
       ],
       "cosponsors_total": 6
-    },
-    {
-      "congress": 118,
-      "billType": "hr",
-      "number": "2658",
-      "title": "Conspiracy to Obstruct the Electoral Count Act",
-      "introducedDate": "2023-04-17",
-      "latestAction": {
-        "date": "2023-04-17",
-        "text": "Referred to the House Committee on the Judiciary."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/2658?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 118,

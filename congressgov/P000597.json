@@ -3,10 +3,45 @@
     "bioguide": "P000597",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T10:36:41Z",
+    "generated_at": "2025-11-01T10:36:41Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "817",
+      "title": "Supporting the designation of October 16, 2025, and October 16, 2026, as \"World Food Day\".",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/817?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "M000312",
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +52,7 @@
         "date": "2025-08-15",
         "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4987?format=json",
       "updateDate": null,
@@ -30,9 +65,65 @@
           "state": "WA",
           "date": "2025-08-15",
           "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Rep. Casten, Sean [D-IL-6]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -143,9 +234,33 @@
           "state": "WI",
           "date": "2025-07-07",
           "original": true
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "D000635",
+          "name": "Rep. Dexter, Maxine [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -194,9 +309,17 @@
           "state": "NY",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -317,9 +440,17 @@
           "state": "RI",
           "date": "2025-06-30",
           "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -590,9 +721,17 @@
           "state": "WA",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "W000831",
+          "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 20
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -665,9 +804,17 @@
           "state": "PA",
           "date": "2025-05-06",
           "original": false
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -774,9 +921,41 @@
           "state": "IN",
           "date": "2025-04-01",
           "original": true
+        },
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, André [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -817,9 +996,17 @@
           "state": "CA",
           "date": "2025-03-31",
           "original": true
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -980,9 +1167,17 @@
           "state": "CA",
           "date": "2025-04-30",
           "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -5795,9 +5990,114 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/2896?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000449",
+          "name": "Rep. Fortenberry, Jeff [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2021-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2021-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-10]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-04-28",
+          "original": true
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-3]",
+          "party": "D",
+          "state": "CA",
+          "date": "2021-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "D000630",
+          "name": "Rep. Delgado, Antonio [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2021-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2021-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2021-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2021-05-07",
+          "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Rep. Welch, Peter [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2021-06-08",
+          "original": false
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2021-09-20",
+          "original": false
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2022-07-29",
+          "original": false
+        },
+        {
+          "bioguide": "M001163",
+          "name": "Rep. Matsui, Doris O. [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2022-09-20",
+          "original": false
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-20]",
+          "party": "D",
+          "state": "CA",
+          "date": "2022-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 13
     },
     {
       "congress": 117,
@@ -9566,26 +9866,6 @@
     {
       "congress": 112,
       "billType": "hr",
-      "number": "5282",
-      "title": "To reduce temporarily the duty on sodium alginate.",
-      "introducedDate": "2012-04-27",
-      "latestAction": {
-        "date": "2012-05-02",
-        "text": "Referred to the Subcommittee on Trade."
-      },
-      "policy_area": "Foreign Trade and International Finance",
-      "subjects": [
-        "Tariffs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/5282?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
       "number": "5281",
       "title": "To suspend temporarily the duty on propylene glycol alginates.",
       "introducedDate": "2012-04-27",
@@ -9598,6 +9878,26 @@
         "Tariffs"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/5281?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
+      "number": "5282",
+      "title": "To reduce temporarily the duty on sodium alginate.",
+      "introducedDate": "2012-04-27",
+      "latestAction": {
+        "date": "2012-05-02",
+        "text": "Referred to the Subcommittee on Trade."
+      },
+      "policy_area": "Foreign Trade and International Finance",
+      "subjects": [
+        "Tariffs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/5282?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
