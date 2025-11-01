@@ -3,23 +3,361 @@
     "bioguide": "S001150",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T04:08:23Z",
+    "generated_at": "2025-11-01T03:55:13Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "sres",
+      "number": "435",
+      "title": "A resolution honoring the life of Brian Douglas Wilson as a rock-n-roll and pop icon, a musical genius, and one of the greatest composers, songwriters, and innovators in the history of the United States.",
+      "introducedDate": "2025-10-06",
+      "latestAction": {
+        "date": "2025-10-06",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/435?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "sjres",
+      "number": "83",
+      "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Motion to discharge Senate Committee on Foreign Relations rejected by Yea-Nay Vote. 48 - 51. Record Vote Number: 555."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sjres/83?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "P000603",
+          "name": "Sen. Paul, Rand [R-KY]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2838",
+      "title": "Protecting Our Democracy Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2838?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
+    {
+      "congress": 119,
+      "billType": "sjres",
+      "number": "78",
+      "title": "A joint resolution proposing an amendment to the Constitution of the United States relating to the authority of Congress and the States to regulate contributions and expenditures intended to affect elections and to enact public financing systems for political campaigns.",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sjres/78?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2731",
+      "title": "Empowering Striking Workers Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2731?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "sjres",
+      "number": "76",
+      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review Final Rule\".",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 162."
+      },
+      "policy_area": "Environmental Protection",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sjres/76?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-04",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-08-01",
+      "introducedDate": "2025-09-02",
       "latestAction": {
         "date": null,
         "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3542?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3688?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -35,7 +373,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2569?format=json",
       "updateDate": null,
@@ -140,7 +478,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2349?format=json",
       "updateDate": null,
@@ -167,7 +505,7 @@
         "date": "2025-07-09",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2219?format=json",
       "updateDate": null,
@@ -17700,11 +18038,11 @@
       "introducedDate": "2022-07-14",
       "latestAction": {
         "date": "2022-07-14",
-        "text": "By unanimous consent, the Schiff amendment was withdrawn. (consideration: CR H6586)"
+        "text": "On agreeing to the Schiff amendment (A036) Agreed to by the Yeas and Nays: 215 - 213 (Roll no. 342). (consideration: CR H6598-6599)"
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/117/hamdt/282?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/117/hamdt/280?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -31114,612 +31452,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 116,
-      "billType": "hr",
-      "number": "1627",
-      "title": "Abuse of the Pardon Prevention Act",
-      "introducedDate": "2019-03-07",
-      "latestAction": {
-        "date": "2019-04-12",
-        "text": "Referred to the Subcommittee on the Constitution, Civil Rights, and Civil Liberties."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Congressional oversight",
-        "Criminal investigation, prosecution, interrogation",
-        "Criminal procedure and sentencing",
-        "Evidence and witnesses",
-        "Government ethics and transparency, public corruption",
-        "Presidents and presidential powers, Vice Presidents"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/1627?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "L000579",
-          "name": "Rep. Lowenthal, Alan S. [D-CA-47]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "P000034",
-          "name": "Rep. Pallone, Frank, Jr. [D-NJ-6]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "R000602",
-          "name": "Rep. Rice, Kathleen M. [D-NY-4]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "J000032",
-          "name": "Rep. Jackson Lee, Sheila [D-TX-18]",
-          "party": "D",
-          "state": "TX",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "C001084",
-          "name": "Rep. Cicilline, David N. [D-RI-1]",
-          "party": "D",
-          "state": "RI",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "C001068",
-          "name": "Rep. Cohen, Steve [D-TN-9]",
-          "party": "D",
-          "state": "TN",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "L000480",
-          "name": "Rep. Lowey, Nita M. [D-NY-17]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "W000822",
-          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "T000474",
-          "name": "Rep. Torres, Norma J. [D-CA-35]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "C001101",
-          "name": "Rep. Clark, Katherine M. [D-MA-5]",
-          "party": "D",
-          "state": "MA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "K000381",
-          "name": "Rep. Kilmer, Derek [D-WA-6]",
-          "party": "D",
-          "state": "WA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "S001145",
-          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "W000800",
-          "name": "Rep. Welch, Peter [D-VT-At Large]",
-          "party": "D",
-          "state": "VT",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "S001175",
-          "name": "Rep. Speier, Jackie [D-CA-14]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "W000187",
-          "name": "Rep. Waters, Maxine [D-CA-43]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "R000515",
-          "name": "Rep. Rush, Bobby L. [D-IL-1]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "L000581",
-          "name": "Rep. Lawrence, Brenda L. [D-MI-14]",
-          "party": "D",
-          "state": "MI",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "C001067",
-          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "W000797",
-          "name": "Rep. Wasserman Schultz, Debbie [D-FL-23]",
-          "party": "D",
-          "state": "FL",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "L000563",
-          "name": "Rep. Lipinski, Daniel [D-IL-3]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "B000574",
-          "name": "Rep. Blumenauer, Earl [D-OR-3]",
-          "party": "D",
-          "state": "OR",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "R000616",
-          "name": "Rep. Rouda, Harley [D-CA-48]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "B001285",
-          "name": "Rep. Brownley, Julia [D-CA-26]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "N000179",
-          "name": "Rep. Napolitano, Grace F. [D-CA-32]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "M000312",
-          "name": "Rep. McGovern, James P. [D-MA-2]",
-          "party": "D",
-          "state": "MA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "P000613",
-          "name": "Rep. Panetta, Jimmy [D-CA-20]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "K000391",
-          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-03-07",
-          "original": true
-        },
-        {
-          "bioguide": "T000460",
-          "name": "Rep. Thompson, Mike [D-CA-5]",
-          "party": "D",
-          "state": "CA",
-          "date": "2020-07-13",
-          "original": false
-        },
-        {
-          "bioguide": "S001205",
-          "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
-          "party": "D",
-          "state": "PA",
-          "date": "2020-07-20",
-          "original": false
-        },
-        {
-          "bioguide": "M001207",
-          "name": "Rep. Mucarsel-Powell, Debbie [D-FL-26]",
-          "party": "D",
-          "state": "FL",
-          "date": "2020-07-20",
-          "original": false
-        },
-        {
-          "bioguide": "E000299",
-          "name": "Rep. Escobar, Veronica [D-TX-16]",
-          "party": "D",
-          "state": "TX",
-          "date": "2020-07-20",
-          "original": false
-        },
-        {
-          "bioguide": "L000582",
-          "name": "Rep. Lieu, Ted [D-CA-33]",
-          "party": "D",
-          "state": "CA",
-          "date": "2020-07-20",
-          "original": false
-        },
-        {
-          "bioguide": "N000015",
-          "name": "Rep. Neal, Richard E. [D-MA-1]",
-          "party": "D",
-          "state": "MA",
-          "date": "2020-07-20",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 33
-    },
-    {
-      "congress": 116,
-      "billType": "hres",
-      "number": "179",
-      "title": "Recognizing the importance of vaccinations and immunizations in the United States.",
-      "introducedDate": "2019-03-05",
-      "latestAction": {
-        "date": "2019-03-06",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Child health",
-        "Congressional tributes",
-        "Immunology and vaccination",
-        "Infectious and parasitic diseases",
-        "Medical research",
-        "World health"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hres/179?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "B001248",
-          "name": "Rep. Burgess, Michael C. [R-TX-26]",
-          "party": "R",
-          "state": "TX",
-          "date": "2019-03-05",
-          "original": true
-        },
-        {
-          "bioguide": "J000126",
-          "name": "Rep. Johnson, Eddie Bernice [D-TX-30]",
-          "party": "D",
-          "state": "TX",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "B001287",
-          "name": "Rep. Bera, Ami [D-CA-7]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "N000002",
-          "name": "Rep. Nadler, Jerrold [D-NY-10]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "N000147",
-          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-          "party": "D",
-          "state": "DC",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "C001068",
-          "name": "Rep. Cohen, Steve [D-TN-9]",
-          "party": "D",
-          "state": "TN",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "S000248",
-          "name": "Rep. Serrano, Jose E. [D-NY-15]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "J000032",
-          "name": "Rep. Jackson Lee, Sheila [D-TX-18]",
-          "party": "D",
-          "state": "TX",
-          "date": "2019-03-13",
-          "original": false
-        },
-        {
-          "bioguide": "M000087",
-          "name": "Rep. Maloney, Carolyn B. [D-NY-12]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-04-02",
-          "original": false
-        },
-        {
-          "bioguide": "H000324",
-          "name": "Rep. Hastings, Alcee L. [D-FL-20]",
-          "party": "D",
-          "state": "FL",
-          "date": "2019-04-12",
-          "original": false
-        },
-        {
-          "bioguide": "R000486",
-          "name": "Rep. Roybal-Allard, Lucille [D-CA-40]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-12",
-          "original": false
-        },
-        {
-          "bioguide": "C000754",
-          "name": "Rep. Cooper, Jim [D-TN-5]",
-          "party": "D",
-          "state": "TN",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "R000515",
-          "name": "Rep. Rush, Bobby L. [D-IL-1]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "G000551",
-          "name": "Rep. Grijalva, Raúl M. [D-AZ-3]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "W000797",
-          "name": "Rep. Wasserman Schultz, Debbie [D-FL-23]",
-          "party": "D",
-          "state": "FL",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "B001300",
-          "name": "Rep. Barragan, Nanette Diaz [D-CA-44]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "L000551",
-          "name": "Rep. Lee, Barbara [D-CA-13]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "C001097",
-          "name": "Rep. Cárdenas, Tony [D-CA-29]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "B001285",
-          "name": "Rep. Brownley, Julia [D-CA-26]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-29",
-          "original": false
-        },
-        {
-          "bioguide": "K000389",
-          "name": "Rep. Khanna, Ro [D-CA-17]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-29",
-          "original": false
-        },
-        {
-          "bioguide": "C001053",
-          "name": "Rep. Cole, Tom [R-OK-4]",
-          "party": "R",
-          "state": "OK",
-          "date": "2019-04-30",
-          "original": false
-        },
-        {
-          "bioguide": "L000582",
-          "name": "Rep. Lieu, Ted [D-CA-33]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-04-30",
-          "original": false
-        },
-        {
-          "bioguide": "H001087",
-          "name": "Rep. Hill, Katie [D-CA-25]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-05-07",
-          "original": false
-        },
-        {
-          "bioguide": "C001080",
-          "name": "Rep. Chu, Judy [D-CA-27]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-05-07",
-          "original": false
-        },
-        {
-          "bioguide": "C001090",
-          "name": "Rep. Cartwright, Matt [D-PA-8]",
-          "party": "D",
-          "state": "PA",
-          "date": "2019-05-07",
-          "original": false
-        },
-        {
-          "bioguide": "M001207",
-          "name": "Rep. Mucarsel-Powell, Debbie [D-FL-26]",
-          "party": "D",
-          "state": "FL",
-          "date": "2019-05-07",
-          "original": false
-        },
-        {
-          "bioguide": "B001257",
-          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
-          "party": "R",
-          "state": "FL",
-          "date": "2019-05-07",
-          "original": false
-        },
-        {
-          "bioguide": "L000397",
-          "name": "Rep. Lofgren, Zoe [D-CA-19]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-05-08",
-          "original": false
-        },
-        {
-          "bioguide": "G000586",
-          "name": "Rep. Garcia, Jesus G. \"Chuy\" [D-IL-4]",
-          "party": "D",
-          "state": "IL",
-          "date": "2019-05-08",
-          "original": false
-        },
-        {
-          "bioguide": "M001137",
-          "name": "Rep. Meeks, Gregory W. [D-NY-5]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-05-10",
-          "original": false
-        },
-        {
-          "bioguide": "R000613",
-          "name": "Rep. Rose, Max [D-NY-11]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-05-10",
-          "original": false
-        },
-        {
-          "bioguide": "R000602",
-          "name": "Rep. Rice, Kathleen M. [D-NY-4]",
-          "party": "D",
-          "state": "NY",
-          "date": "2019-05-10",
-          "original": false
-        },
-        {
-          "bioguide": "R000616",
-          "name": "Rep. Rouda, Harley [D-CA-48]",
-          "party": "D",
-          "state": "CA",
-          "date": "2019-05-16",
-          "original": false
-        },
-        {
-          "bioguide": "T000481",
-          "name": "Rep. Tlaib, Rashida [D-MI-13]",
-          "party": "D",
-          "state": "MI",
-          "date": "2019-06-04",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 34
-    },
-    {
-      "congress": 113,
-      "billType": "",
-      "number": null,
-      "title": "",
-      "introducedDate": "2014-07-09",
-      "latestAction": {
-        "date": "2014-07-10",
-        "text": "On agreeing to the Schiff amendment (A032) Agreed to by recorded vote: 216 - 205 (Roll no. 383). (consideration: CR H6059-6060)"
-      },
-      "policy_area": null,
-      "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/113/hamdt/1003?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     }
   ]
 }
