@@ -3,10 +3,28 @@
     "bioguide": "D000230",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T06:36:29Z",
+    "generated_at": "2025-11-01T06:31:04Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5837",
+      "title": "Restoring Electoral Stability to Enhance Trust (RESET) Act of 2025",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5837?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hres",
@@ -17,7 +35,7 @@
         "date": "2025-08-08",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/641?format=json",
       "updateDate": null,
@@ -127,9 +145,17 @@
           "state": "PA",
           "date": "2025-06-20",
           "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -678,7 +704,11 @@
         "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
       "policy_area": "Health",
-      "subjects": [],
+      "subjects": [
+        "Genetics",
+        "Medicare",
+        "Prescription drugs"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1672?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -842,9 +872,65 @@
           "state": "NC",
           "date": "2025-06-10",
           "original": false
+        },
+        {
+          "bioguide": "K000376",
+          "name": "Rep. Kelly, Mike [R-PA-16]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 20
+      "cosponsors_total": 27
     },
     {
       "congress": 119,
@@ -922,9 +1008,41 @@
           "state": "NC",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S000185",
+          "name": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "A000055",
+          "name": "Rep. Aderholt, Robert B. [R-AL-4]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -1052,9 +1170,17 @@
           "state": "TX",
           "date": "2025-02-12",
           "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
