@@ -3,7 +3,7 @@
     "bioguide": "P000603",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T11:24:58Z",
+    "generated_at": "2025-11-01T11:28:25Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -12,18 +12,111 @@
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-07-29",
+      "introducedDate": "2025-09-29",
       "latestAction": {
         "date": null,
         "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3092?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3913?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "sconres",
+      "number": "22",
+      "title": "A concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Motion to proceed to consideration of measure rejected in Senate by Yea-Nay Vote. 36 - 62. Record Vote Number: 521. (: CR S6635-6637)"
+      },
+      "policy_area": "Economics and Public Finance",
+      "subjects": [
+        "Budget deficits and national debt",
+        "Budget process",
+        "Disability assistance",
+        "Government information and archives",
+        "Government trust funds",
+        "House of Representatives",
+        "Legislative rules and procedure",
+        "Postal service",
+        "Senate",
+        "Social security and elderly assistance",
+        "U.S. Postal Service"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sconres/22?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2769",
+      "title": "Safeguarding Personal Information Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2769?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2732",
+      "title": "Bonuses for Cost-Cutters Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2732?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2733",
+      "title": "Duplication Scoring Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2733?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -35,7 +128,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2327?format=json",
       "updateDate": null,
@@ -102,7 +195,7 @@
         "date": "2025-07-10",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2244?format=json",
       "updateDate": null,
@@ -316,9 +409,17 @@
           "state": "SC",
           "date": "2025-07-15",
           "original": false
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -483,12 +584,46 @@
     {
       "congress": 119,
       "billType": "s",
+      "number": "855",
+      "title": "Royalty Transparency Act",
+      "introducedDate": "2025-03-05",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 165."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Congressional oversight",
+        "Government employee pay, benefits, personnel management",
+        "Government ethics and transparency, public corruption",
+        "Government information and archives",
+        "Intellectual property",
+        "Public contracts and procurement"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/855?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-03-05",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
       "number": "854",
       "title": "Risky Research Review Act",
       "introducedDate": "2025-03-05",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
+        "date": "2025-09-17",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 164."
       },
       "policy_area": "Health",
       "subjects": [
@@ -515,40 +650,6 @@
           "name": "Sen. Peters, Gary C. [D-MI]",
           "party": "D",
           "state": "MI",
-          "date": "2025-03-05",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "855",
-      "title": "Royalty Transparency Act",
-      "introducedDate": "2025-03-05",
-      "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Congressional oversight",
-        "Government employee pay, benefits, personnel management",
-        "Government ethics and transparency, public corruption",
-        "Government information and archives",
-        "Intellectual property",
-        "Public contracts and procurement"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/855?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "S001217",
-          "name": "Sen. Scott, Rick [R-FL]",
-          "party": "R",
-          "state": "FL",
           "date": "2025-03-05",
           "original": true
         }
@@ -850,9 +951,17 @@
           "state": "IA",
           "date": "2025-07-16",
           "original": false
+        },
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 22
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -1455,6 +1564,29 @@
     {
       "congress": 119,
       "billType": "s",
+      "number": "59",
+      "title": "One Subject at a Time Act",
+      "introducedDate": "2025-01-09",
+      "latestAction": {
+        "date": "2025-01-09",
+        "text": "Read twice and referred to the Committee on Rules and Administration."
+      },
+      "policy_area": "Congress",
+      "subjects": [
+        "Appropriations",
+        "Civil actions and liability",
+        "Government liability",
+        "Legislative rules and procedure"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/59?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
       "number": "60",
       "title": "Write the Laws Act",
       "introducedDate": "2025-01-09",
@@ -1471,29 +1603,6 @@
         "Presidents and presidential powers, Vice Presidents"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/60?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "59",
-      "title": "One Subject at a Time Act",
-      "introducedDate": "2025-01-09",
-      "latestAction": {
-        "date": "2025-01-09",
-        "text": "Read twice and referred to the Committee on Rules and Administration."
-      },
-      "policy_area": "Congress",
-      "subjects": [
-        "Appropriations",
-        "Civil actions and liability",
-        "Government liability",
-        "Legislative rules and procedure"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/59?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -5791,104 +5900,6 @@
         }
       ],
       "cosponsors_total": 21
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "3514",
-      "title": "Restore Parental and Consumer Medical Rights in the Nation's Capital Act",
-      "introducedDate": "2022-01-18",
-      "latestAction": {
-        "date": "2022-01-18",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Cardiovascular and respiratory health",
-        "Child care and development",
-        "Child health",
-        "District of Columbia",
-        "Elementary and secondary education",
-        "Emergency medical services and trauma care",
-        "Food industry and services",
-        "Health information and medical records",
-        "Immunology and vaccination",
-        "Infectious and parasitic diseases",
-        "Intergovernmental relations",
-        "Sports and recreation facilities",
-        "State and local government operations",
-        "Worker safety and health"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3514?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "S001217",
-          "name": "Sen. Scott, Rick [R-FL]",
-          "party": "R",
-          "state": "FL",
-          "date": "2022-01-18",
-          "original": true
-        },
-        {
-          "bioguide": "L000575",
-          "name": "Sen. Lankford, James [R-OK]",
-          "party": "R",
-          "state": "OK",
-          "date": "2022-01-18",
-          "original": true
-        },
-        {
-          "bioguide": "W000437",
-          "name": "Sen. Wicker, Roger F. [R-MS]",
-          "party": "R",
-          "state": "MS",
-          "date": "2022-01-18",
-          "original": true
-        },
-        {
-          "bioguide": "C001096",
-          "name": "Sen. Cramer, Kevin [R-ND]",
-          "party": "R",
-          "state": "ND",
-          "date": "2022-01-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001310",
-          "name": "Sen. Braun, Mike [R-IN]",
-          "party": "R",
-          "state": "IN",
-          "date": "2022-01-19",
-          "original": false
-        },
-        {
-          "bioguide": "L000577",
-          "name": "Sen. Lee, Mike [R-UT]",
-          "party": "R",
-          "state": "UT",
-          "date": "2022-01-20",
-          "original": false
-        },
-        {
-          "bioguide": "H001089",
-          "name": "Sen. Hawley, Josh [R-MO]",
-          "party": "R",
-          "state": "MO",
-          "date": "2022-01-20",
-          "original": false
-        },
-        {
-          "bioguide": "H001061",
-          "name": "Sen. Hoeven, John [R-ND]",
-          "party": "R",
-          "state": "ND",
-          "date": "2022-02-09",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 8
     }
   ]
 }
