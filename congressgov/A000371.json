@@ -3,10 +3,33 @@
     "bioguide": "A000371",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T05:21:33Z",
+    "generated_at": "2025-11-01T05:20:08Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "721",
+      "title": "Electing Members to certain standing committees of the House of Representatives.",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "policy_area": "Congress",
+      "subjects": [
+        "Congressional committees",
+        "House Committee on Transportation and Infrastructure",
+        "House of Representatives",
+        "Members of Congress"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/721?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +40,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4874?format=json",
       "updateDate": null,
@@ -377,9 +400,25 @@
           "state": "MI",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 17
+      "cosponsors_total": 19
     },
     {
       "congress": 119,

@@ -3,10 +3,93 @@
     "bioguide": "S001157",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T05:40:05Z",
+    "generated_at": "2025-11-01T05:45:30Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5239",
+      "title": "Endometrial Cancer Research and Education Act of 2025",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5239?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "B001313",
+          "name": "Rep. Brown, Shontel M. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "J000299",
+          "name": "Rep. Johnson, Mike [R-LA-4]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +100,7 @@
         "date": "2025-07-17",
         "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4529?format=json",
       "updateDate": null,
@@ -385,9 +468,17 @@
           "state": "CA",
           "date": "2025-07-17",
           "original": false
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 22
     },
     {
       "congress": 119,
@@ -532,9 +623,17 @@
           "state": "FL",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -586,9 +685,17 @@
           "state": "CA",
           "date": "2025-04-10",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1067,9 +1174,97 @@
           "state": "NY",
           "date": "2025-02-27",
           "original": true
+        },
+        {
+          "bioguide": "C001123",
+          "name": "Rep. Cisneros, Gilbert Ray [D-CA-31]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "N000002",
+          "name": "Rep. Nadler, Jerrold [D-NY-12]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "S001205",
+          "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000617",
+          "name": "Rep. Pressley, Ayanna [D-MA-7]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001163",
+          "name": "Rep. Matsui, Doris O. [D-CA-7]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001047",
+          "name": "Rep. Himes, James A. [D-CT-4]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 32
+      "cosponsors_total": 43
     },
     {
       "congress": 119,
@@ -4375,121 +4570,6 @@
     {
       "congress": 117,
       "billType": "hres",
-      "number": "879",
-      "title": "Supporting the designation of July 2022 as Uterine Fibroids Awareness Month.",
-      "introducedDate": "2022-01-19",
-      "latestAction": {
-        "date": "2022-01-20",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Health",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/879?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "C001067",
-          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
-          "party": "D",
-          "state": "NY",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "M001160",
-          "name": "Rep. Moore, Gwen [D-WI-4]",
-          "party": "D",
-          "state": "WI",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "B001303",
-          "name": "Rep. Blunt Rochester, Lisa [D-DE-At Large]",
-          "party": "D",
-          "state": "DE",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "L000581",
-          "name": "Rep. Lawrence, Brenda L. [D-MI-14]",
-          "party": "D",
-          "state": "MI",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "M001208",
-          "name": "Rep. McBath, Lucy [D-GA-6]",
-          "party": "D",
-          "state": "GA",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "N000147",
-          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-          "party": "D",
-          "state": "DC",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "P000617",
-          "name": "Rep. Pressley, Ayanna [D-MA-7]",
-          "party": "D",
-          "state": "MA",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "W000822",
-          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "C001078",
-          "name": "Rep. Connolly, Gerald E. [D-VA-11]",
-          "party": "D",
-          "state": "VA",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "M000087",
-          "name": "Rep. Maloney, Carolyn B. [D-NY-12]",
-          "party": "D",
-          "state": "NY",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "C001080",
-          "name": "Rep. Chu, Judy [D-CA-27]",
-          "party": "D",
-          "state": "CA",
-          "date": "2022-01-19",
-          "original": true
-        },
-        {
-          "bioguide": "W000788",
-          "name": "Rep. Williams, Nikema [D-GA-5]",
-          "party": "D",
-          "state": "GA",
-          "date": "2022-01-19",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 12
-    },
-    {
-      "congress": 117,
-      "billType": "hres",
       "number": "880",
       "title": "Supporting the designation of March 2022 as Endometriosis Awareness Month.",
       "introducedDate": "2022-01-19",
@@ -5732,6 +5812,121 @@
         }
       ],
       "cosponsors_total": 115
+    },
+    {
+      "congress": 117,
+      "billType": "hres",
+      "number": "879",
+      "title": "Supporting the designation of July 2022 as Uterine Fibroids Awareness Month.",
+      "introducedDate": "2022-01-19",
+      "latestAction": {
+        "date": "2022-01-20",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/879?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Rep. Blunt Rochester, Lisa [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "L000581",
+          "name": "Rep. Lawrence, Brenda L. [D-MI-14]",
+          "party": "D",
+          "state": "MI",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "P000617",
+          "name": "Rep. Pressley, Ayanna [D-MA-7]",
+          "party": "D",
+          "state": "MA",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "C001078",
+          "name": "Rep. Connolly, Gerald E. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "M000087",
+          "name": "Rep. Maloney, Carolyn B. [D-NY-12]",
+          "party": "D",
+          "state": "NY",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Rep. Chu, Judy [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2022-01-19",
+          "original": true
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2022-01-19",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 12
     },
     {
       "congress": 117,
@@ -15020,145 +15215,6 @@
     {
       "congress": 115,
       "billType": "hr",
-      "number": "52",
-      "title": "Jobs, On-the-Job 'Earn While You Learn' Training, and Apprenticeships for African-American Young Men Act",
-      "introducedDate": "2017-01-03",
-      "latestAction": {
-        "date": "2017-01-03",
-        "text": "Referred to the House Committee on Education and the Workforce."
-      },
-      "policy_area": "Labor and Employment",
-      "subjects": [
-        "Computers and information technology",
-        "Employee hiring",
-        "Employment and training programs",
-        "Energy storage, supplies, demand",
-        "Infrastructure development",
-        "Labor-management relations",
-        "Minority employment"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/52?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001096",
-          "name": "Rep. Cramer, Kevin [R-ND-At Large]",
-          "party": "R",
-          "state": "ND",
-          "date": "2017-01-03",
-          "original": true
-        },
-        {
-          "bioguide": "F000455",
-          "name": "Rep. Fudge, Marcia L. [D-OH-11]",
-          "party": "D",
-          "state": "OH",
-          "date": "2017-01-03",
-          "original": true
-        },
-        {
-          "bioguide": "L000584",
-          "name": "Rep. Love, Mia B. [R-UT-4]",
-          "party": "R",
-          "state": "UT",
-          "date": "2017-01-03",
-          "original": true
-        },
-        {
-          "bioguide": "A000370",
-          "name": "Rep. Adams, Alma S. [D-NC-12]",
-          "party": "D",
-          "state": "NC",
-          "date": "2017-01-03",
-          "original": true
-        },
-        {
-          "bioguide": "C001061",
-          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
-          "party": "D",
-          "state": "MO",
-          "date": "2017-01-03",
-          "original": true
-        },
-        {
-          "bioguide": "T000472",
-          "name": "Rep. Takano, Mark [D-CA-41]",
-          "party": "D",
-          "state": "CA",
-          "date": "2017-01-06",
-          "original": false
-        },
-        {
-          "bioguide": "R000577",
-          "name": "Rep. Ryan, Tim [D-OH-13]",
-          "party": "D",
-          "state": "OH",
-          "date": "2017-01-06",
-          "original": false
-        },
-        {
-          "bioguide": "P000610",
-          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
-          "party": "D",
-          "state": "VI",
-          "date": "2017-01-06",
-          "original": false
-        },
-        {
-          "bioguide": "L000586",
-          "name": "Rep. Lawson, Al, Jr. [D-FL-5]",
-          "party": "D",
-          "state": "FL",
-          "date": "2017-01-10",
-          "original": false
-        },
-        {
-          "bioguide": "G000553",
-          "name": "Rep. Green, Al [D-TX-9]",
-          "party": "D",
-          "state": "TX",
-          "date": "2017-04-25",
-          "original": false
-        },
-        {
-          "bioguide": "N000188",
-          "name": "Rep. Norcross, Donald [D-NJ-1]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2017-05-22",
-          "original": false
-        },
-        {
-          "bioguide": "R000515",
-          "name": "Rep. Rush, Bobby L. [D-IL-1]",
-          "party": "D",
-          "state": "IL",
-          "date": "2017-07-03",
-          "original": false
-        },
-        {
-          "bioguide": "E000296",
-          "name": "Rep. Evans, Dwight [D-PA-2]",
-          "party": "D",
-          "state": "PA",
-          "date": "2017-07-03",
-          "original": false
-        },
-        {
-          "bioguide": "C001049",
-          "name": "Rep. Clay, Wm. Lacy [D-MO-1]",
-          "party": "D",
-          "state": "MO",
-          "date": "2017-07-25",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 14
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
       "number": "51",
       "title": "Funding for Student Scholarships for the 1890s Land-Grant African-American Colleges and Universities Act",
       "introducedDate": "2017-01-03",
@@ -15343,6 +15399,252 @@
       "cosponsors_total": 20
     },
     {
+      "congress": 115,
+      "billType": "hr",
+      "number": "52",
+      "title": "Jobs, On-the-Job 'Earn While You Learn' Training, and Apprenticeships for African-American Young Men Act",
+      "introducedDate": "2017-01-03",
+      "latestAction": {
+        "date": "2017-01-03",
+        "text": "Referred to the House Committee on Education and the Workforce."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Computers and information technology",
+        "Employee hiring",
+        "Employment and training programs",
+        "Energy storage, supplies, demand",
+        "Infrastructure development",
+        "Labor-management relations",
+        "Minority employment"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/52?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Rep. Cramer, Kevin [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2017-01-03",
+          "original": true
+        },
+        {
+          "bioguide": "F000455",
+          "name": "Rep. Fudge, Marcia L. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2017-01-03",
+          "original": true
+        },
+        {
+          "bioguide": "L000584",
+          "name": "Rep. Love, Mia B. [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2017-01-03",
+          "original": true
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2017-01-03",
+          "original": true
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2017-01-03",
+          "original": true
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Rep. Takano, Mark [D-CA-41]",
+          "party": "D",
+          "state": "CA",
+          "date": "2017-01-06",
+          "original": false
+        },
+        {
+          "bioguide": "R000577",
+          "name": "Rep. Ryan, Tim [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2017-01-06",
+          "original": false
+        },
+        {
+          "bioguide": "P000610",
+          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2017-01-06",
+          "original": false
+        },
+        {
+          "bioguide": "L000586",
+          "name": "Rep. Lawson, Al, Jr. [D-FL-5]",
+          "party": "D",
+          "state": "FL",
+          "date": "2017-01-10",
+          "original": false
+        },
+        {
+          "bioguide": "G000553",
+          "name": "Rep. Green, Al [D-TX-9]",
+          "party": "D",
+          "state": "TX",
+          "date": "2017-04-25",
+          "original": false
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2017-05-22",
+          "original": false
+        },
+        {
+          "bioguide": "R000515",
+          "name": "Rep. Rush, Bobby L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2017-07-03",
+          "original": false
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Rep. Evans, Dwight [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2017-07-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001049",
+          "name": "Rep. Clay, Wm. Lacy [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2017-07-25",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
+    },
+    {
+      "congress": 114,
+      "billType": "hr",
+      "number": "6021",
+      "title": "Jobs, On-the-Job `Earn While You Learn' Training, and Apprenticeships for African-American Young Men Act",
+      "introducedDate": "2016-09-14",
+      "latestAction": {
+        "date": "2016-09-14",
+        "text": "Referred to the House Committee on Education and the Workforce."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Computers and information technology",
+        "Employee hiring",
+        "Employment and training programs",
+        "Energy storage, supplies, demand",
+        "Infrastructure development",
+        "Labor-management relations",
+        "Minority employment"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/6021?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Rep. Cramer, Kevin [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2016-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000455",
+          "name": "Rep. Fudge, Marcia L. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2016-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "A000373",
+          "name": "Rep. Ashford, Brad [D-NE-2]",
+          "party": "D",
+          "state": "NE",
+          "date": "2016-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000584",
+          "name": "Rep. Love, Mia B. [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2016-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "G000575",
+          "name": "Rep. Graham, Gwen [D-FL-2]",
+          "party": "D",
+          "state": "FL",
+          "date": "2016-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2016-09-14",
+          "original": true
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-32]",
+          "party": "R",
+          "state": "TX",
+          "date": "2016-09-27",
+          "original": false
+        },
+        {
+          "bioguide": "R000577",
+          "name": "Rep. Ryan, Tim [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2016-11-29",
+          "original": false
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Rep. Takano, Mark [D-CA-41]",
+          "party": "D",
+          "state": "CA",
+          "date": "2016-11-29",
+          "original": false
+        },
+        {
+          "bioguide": "P000610",
+          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2016-12-05",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
       "congress": 114,
       "billType": "hr",
       "number": "6020",
@@ -15471,113 +15773,6 @@
         }
       ],
       "cosponsors_total": 13
-    },
-    {
-      "congress": 114,
-      "billType": "hr",
-      "number": "6021",
-      "title": "Jobs, On-the-Job `Earn While You Learn' Training, and Apprenticeships for African-American Young Men Act",
-      "introducedDate": "2016-09-14",
-      "latestAction": {
-        "date": "2016-09-14",
-        "text": "Referred to the House Committee on Education and the Workforce."
-      },
-      "policy_area": "Labor and Employment",
-      "subjects": [
-        "Computers and information technology",
-        "Employee hiring",
-        "Employment and training programs",
-        "Energy storage, supplies, demand",
-        "Infrastructure development",
-        "Labor-management relations",
-        "Minority employment"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/114/hr/6021?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001096",
-          "name": "Rep. Cramer, Kevin [R-ND-At Large]",
-          "party": "R",
-          "state": "ND",
-          "date": "2016-09-14",
-          "original": true
-        },
-        {
-          "bioguide": "F000455",
-          "name": "Rep. Fudge, Marcia L. [D-OH-11]",
-          "party": "D",
-          "state": "OH",
-          "date": "2016-09-14",
-          "original": true
-        },
-        {
-          "bioguide": "A000373",
-          "name": "Rep. Ashford, Brad [D-NE-2]",
-          "party": "D",
-          "state": "NE",
-          "date": "2016-09-14",
-          "original": true
-        },
-        {
-          "bioguide": "L000584",
-          "name": "Rep. Love, Mia B. [R-UT-4]",
-          "party": "R",
-          "state": "UT",
-          "date": "2016-09-14",
-          "original": true
-        },
-        {
-          "bioguide": "G000575",
-          "name": "Rep. Graham, Gwen [D-FL-2]",
-          "party": "D",
-          "state": "FL",
-          "date": "2016-09-14",
-          "original": true
-        },
-        {
-          "bioguide": "A000370",
-          "name": "Rep. Adams, Alma S. [D-NC-12]",
-          "party": "D",
-          "state": "NC",
-          "date": "2016-09-14",
-          "original": true
-        },
-        {
-          "bioguide": "S000250",
-          "name": "Rep. Sessions, Pete [R-TX-32]",
-          "party": "R",
-          "state": "TX",
-          "date": "2016-09-27",
-          "original": false
-        },
-        {
-          "bioguide": "R000577",
-          "name": "Rep. Ryan, Tim [D-OH-13]",
-          "party": "D",
-          "state": "OH",
-          "date": "2016-11-29",
-          "original": false
-        },
-        {
-          "bioguide": "T000472",
-          "name": "Rep. Takano, Mark [D-CA-41]",
-          "party": "D",
-          "state": "CA",
-          "date": "2016-11-29",
-          "original": false
-        },
-        {
-          "bioguide": "P000610",
-          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
-          "party": "D",
-          "state": "VI",
-          "date": "2016-12-05",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 10
     },
     {
       "congress": 114,
@@ -16078,6 +16273,97 @@
     {
       "congress": 109,
       "billType": "hr",
+      "number": "197",
+      "title": "Military In-State Tuition Act of 2005",
+      "introducedDate": "2005-01-04",
+      "latestAction": {
+        "date": "2005-01-27",
+        "text": "Referred to the Subcommittee on Military Personnel."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "College costs",
+        "Education",
+        "Families",
+        "Higher education",
+        "Military dependents",
+        "Military personnel",
+        "Residence requirements"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/197?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000262",
+          "name": "Rep. Ford, Harold E., Jr. [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2005-03-02",
+          "original": false
+        },
+        {
+          "bioguide": "F000116",
+          "name": "Rep. Filner, Bob [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2005-03-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001050",
+          "name": "Rep. Cardoza, Dennis A. [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2005-04-19",
+          "original": false
+        },
+        {
+          "bioguide": "R000170",
+          "name": "Rep. Reyes, Silvestre [D-TX-16]",
+          "party": "D",
+          "state": "TX",
+          "date": "2005-04-19",
+          "original": false
+        },
+        {
+          "bioguide": "E000063",
+          "name": "Rep. Edwards, Chet [D-TX-17]",
+          "party": "D",
+          "state": "TX",
+          "date": "2005-05-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001147",
+          "name": "Rep. McCotter, Thaddeus G. [R-MI-11]",
+          "party": "R",
+          "state": "MI",
+          "date": "2005-07-12",
+          "original": false
+        },
+        {
+          "bioguide": "S001152",
+          "name": "Rep. Simmons, Rob [R-CT-2]",
+          "party": "R",
+          "state": "CT",
+          "date": "2005-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001140",
+          "name": "Rep. Moore, Dennis [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2005-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
       "number": "198",
       "title": "Prosecutors and Defenders Incentive Act",
       "introducedDate": "2005-01-04",
@@ -16519,97 +16805,6 @@
         }
       ],
       "cosponsors_total": 3
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
-      "number": "197",
-      "title": "Military In-State Tuition Act of 2005",
-      "introducedDate": "2005-01-04",
-      "latestAction": {
-        "date": "2005-01-27",
-        "text": "Referred to the Subcommittee on Military Personnel."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "College costs",
-        "Education",
-        "Families",
-        "Higher education",
-        "Military dependents",
-        "Military personnel",
-        "Residence requirements"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/197?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "F000262",
-          "name": "Rep. Ford, Harold E., Jr. [D-TN-9]",
-          "party": "D",
-          "state": "TN",
-          "date": "2005-03-02",
-          "original": false
-        },
-        {
-          "bioguide": "F000116",
-          "name": "Rep. Filner, Bob [D-CA-51]",
-          "party": "D",
-          "state": "CA",
-          "date": "2005-03-17",
-          "original": false
-        },
-        {
-          "bioguide": "C001050",
-          "name": "Rep. Cardoza, Dennis A. [D-CA-18]",
-          "party": "D",
-          "state": "CA",
-          "date": "2005-04-19",
-          "original": false
-        },
-        {
-          "bioguide": "R000170",
-          "name": "Rep. Reyes, Silvestre [D-TX-16]",
-          "party": "D",
-          "state": "TX",
-          "date": "2005-04-19",
-          "original": false
-        },
-        {
-          "bioguide": "E000063",
-          "name": "Rep. Edwards, Chet [D-TX-17]",
-          "party": "D",
-          "state": "TX",
-          "date": "2005-05-10",
-          "original": false
-        },
-        {
-          "bioguide": "M001147",
-          "name": "Rep. McCotter, Thaddeus G. [R-MI-11]",
-          "party": "R",
-          "state": "MI",
-          "date": "2005-07-12",
-          "original": false
-        },
-        {
-          "bioguide": "S001152",
-          "name": "Rep. Simmons, Rob [R-CT-2]",
-          "party": "R",
-          "state": "CT",
-          "date": "2005-10-03",
-          "original": false
-        },
-        {
-          "bioguide": "M001140",
-          "name": "Rep. Moore, Dennis [D-KS-3]",
-          "party": "D",
-          "state": "KS",
-          "date": "2005-10-03",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 8
     },
     {
       "congress": 114,
