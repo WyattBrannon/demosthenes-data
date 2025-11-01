@@ -3,10 +3,28 @@
     "bioguide": "M001222",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T19:34:25Z",
+    "generated_at": "2025-11-01T19:24:44Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5779",
+      "title": "American Workforce Act",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5779?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hjres",
@@ -17,7 +35,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hjres/116?format=json",
       "updateDate": null,
@@ -174,9 +192,41 @@
           "state": "IN",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -188,7 +238,7 @@
         "date": "2025-08-01",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Energy",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/628?format=json",
       "updateDate": null,
@@ -279,7 +329,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4625?format=json",
       "updateDate": null,
@@ -303,8 +353,8 @@
       "title": "Time is Money Act",
       "introducedDate": "2025-06-26",
       "latestAction": {
-        "date": "2025-06-26",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-06-27",
+        "text": "Referred to the Subcommittee on Aviation."
       },
       "policy_area": "Transportation and Public Works",
       "subjects": [],
@@ -362,9 +412,17 @@
           "state": "VA",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -406,11 +464,11 @@
       "congress": 119,
       "billType": "hr",
       "number": "2791",
-      "title": "To amend title 38, United States Code, to increase the maximum amount of housing loan guaranty entitlement available to certain veterans under the laws administered by the Secretary of Veterans Affairs.",
+      "title": "Homes for Heroes Act",
       "introducedDate": "2025-04-09",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Voice Vote."
+        "date": "2025-09-18",
+        "text": "Placed on the Union Calendar, Calendar No. 257."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -559,9 +617,17 @@
           "state": "WI",
           "date": "2025-03-06",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 16
     },
     {
       "congress": 119,

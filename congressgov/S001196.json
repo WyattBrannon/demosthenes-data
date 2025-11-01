@@ -3,10 +3,245 @@
     "bioguide": "S001196",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T19:40:37Z",
+    "generated_at": "2025-11-01T19:28:18Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5760",
+      "title": "PASS Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the Committee on Financial Services, and in addition to the Committees on Foreign Affairs, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5760?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5759",
+      "title": "INFANT Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5759?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000463",
+          "name": "Rep. Turner, Michael R. [R-OH-10]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5659",
+      "title": "Consistent Egg Labels Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5659?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000530",
+          "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5411",
+      "title": "Sovereign Enforcement Integrity Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5411?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5213",
+      "title": "Keep Violent Criminals Off Our Streets Act",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5213?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5214",
+      "title": "District of Columbia Cash Bail Reform Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Placed on the Union Calendar, Calendar No. 269."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Correctional facilities and imprisonment",
+        "Crimes against property",
+        "Criminal procedure and sentencing",
+        "District of Columbia",
+        "Violent crime"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5214?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5121",
+      "title": "Fairness in Higher Education Accreditation Act",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Education",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5121?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +252,7 @@
         "date": "2025-08-05",
         "text": "Referred to the Committee on Financial Services, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4901?format=json",
       "updateDate": null,
@@ -38,9 +273,41 @@
           "state": "VA",
           "date": "2025-08-05",
           "original": true
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -52,7 +319,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Oversight and Government Reform."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/636?format=json",
       "updateDate": null,
@@ -175,7 +442,7 @@
         "date": "2025-07-22",
         "text": "Referred to the Committee on Financial Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4617?format=json",
       "updateDate": null,
@@ -193,7 +460,7 @@
         "date": "2025-07-22",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4616?format=json",
       "updateDate": null,
@@ -287,8 +554,8 @@
       "title": "Ernest Peltz Accrued Veterans Benefits Act",
       "introducedDate": "2025-04-30",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Voice Vote."
+        "date": "2025-10-08",
+        "text": "Placed on the Union Calendar, Calendar No. 291."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -306,9 +573,17 @@
           "state": "CA",
           "date": "2025-04-30",
           "original": true
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -333,9 +608,17 @@
           "state": "HI",
           "date": "2025-04-24",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -393,8 +676,8 @@
       "title": "To authorize, ratify, and confirm the Agreement of Settlement and Compromise to Resolve the Akwesasne Mohawk Land Claim in the State of New York, and for other purposes.",
       "introducedDate": "2025-04-14",
       "latestAction": {
-        "date": "2025-06-11",
-        "text": "Subcommittee Hearings Held"
+        "date": "2025-10-31",
+        "text": "Placed on the Union Calendar, Calendar No. 307."
       },
       "policy_area": "Native Americans",
       "subjects": [
@@ -26131,6 +26414,93 @@
     {
       "congress": 115,
       "billType": "hr",
+      "number": "279",
+      "title": "Military Family Stability Act of 2017",
+      "introducedDate": "2017-01-04",
+      "latestAction": {
+        "date": "2017-02-21",
+        "text": "Referred to the Subcommittee on Readiness."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Child health",
+        "Congressional oversight",
+        "Defense spending",
+        "Department of Defense",
+        "Elementary and secondary education",
+        "Family relationships",
+        "Licensing and registrations",
+        "Long-term, rehabilitative, and terminal care",
+        "Mental health",
+        "Military personnel and dependents",
+        "Transportation costs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/279?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 115,
+      "billType": "hr",
+      "number": "284",
+      "title": "Advancing Medical Resident Training in Community Hospitals Act of 2017",
+      "introducedDate": "2017-01-04",
+      "latestAction": {
+        "date": "2017-01-25",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Education programs funding",
+        "Health facilities and institutions",
+        "Health programs administration and funding",
+        "Hospital care",
+        "Medical education",
+        "Medicare"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/284?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000381",
+          "name": "Rep. Kilmer, Derek [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2017-09-12",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 115,
+      "billType": "hr",
+      "number": "283",
+      "title": "Student Debt Repayment Fairness Act",
+      "introducedDate": "2017-01-04",
+      "latestAction": {
+        "date": "2017-01-04",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Higher education",
+        "Income tax exclusion",
+        "Student aid and college costs"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/283?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 115,
+      "billType": "hr",
       "number": "282",
       "title": "Military Residency Choice Act",
       "introducedDate": "2017-01-04",
@@ -26243,60 +26613,6 @@
     {
       "congress": 115,
       "billType": "hr",
-      "number": "280",
-      "title": "HIRED Act",
-      "introducedDate": "2017-01-04",
-      "latestAction": {
-        "date": "2017-01-04",
-        "text": "Referred to the House Committee on Education and the Workforce."
-      },
-      "policy_area": "Labor and Employment",
-      "subjects": [
-        "Business education",
-        "Employment and training programs",
-        "Small business",
-        "Unemployment"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/280?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "279",
-      "title": "Military Family Stability Act of 2017",
-      "introducedDate": "2017-01-04",
-      "latestAction": {
-        "date": "2017-02-21",
-        "text": "Referred to the Subcommittee on Readiness."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Child health",
-        "Congressional oversight",
-        "Defense spending",
-        "Department of Defense",
-        "Elementary and secondary education",
-        "Family relationships",
-        "Licensing and registrations",
-        "Long-term, rehabilitative, and terminal care",
-        "Mental health",
-        "Military personnel and dependents",
-        "Transportation costs"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/279?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
       "number": "281",
       "title": "Family Farm Relief Act of 2017",
       "introducedDate": "2017-01-04",
@@ -26401,58 +26717,25 @@
     {
       "congress": 115,
       "billType": "hr",
-      "number": "283",
-      "title": "Student Debt Repayment Fairness Act",
+      "number": "280",
+      "title": "HIRED Act",
       "introducedDate": "2017-01-04",
       "latestAction": {
         "date": "2017-01-04",
-        "text": "Referred to the House Committee on Ways and Means."
+        "text": "Referred to the House Committee on Education and the Workforce."
       },
-      "policy_area": "Taxation",
+      "policy_area": "Labor and Employment",
       "subjects": [
-        "Higher education",
-        "Income tax exclusion",
-        "Student aid and college costs"
+        "Business education",
+        "Employment and training programs",
+        "Small business",
+        "Unemployment"
       ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/283?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/280?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "284",
-      "title": "Advancing Medical Resident Training in Community Hospitals Act of 2017",
-      "introducedDate": "2017-01-04",
-      "latestAction": {
-        "date": "2017-01-25",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Education programs funding",
-        "Health facilities and institutions",
-        "Health programs administration and funding",
-        "Hospital care",
-        "Medical education",
-        "Medicare"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/284?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "K000381",
-          "name": "Rep. Kilmer, Derek [D-WA-6]",
-          "party": "D",
-          "state": "WA",
-          "date": "2017-09-12",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 1
     },
     {
       "congress": 114,
