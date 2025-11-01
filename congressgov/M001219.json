@@ -3,7 +3,7 @@
     "bioguide": "M001219",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T17:29:55Z",
+    "generated_at": "2025-11-01T17:26:13Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
@@ -17,7 +17,7 @@
         "date": "2025-08-12",
         "text": "Referred to the House Committee on Foreign Affairs."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4955?format=json",
       "updateDate": null,
@@ -54,9 +54,41 @@
           "state": "VA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Rep. McCaul, Michael T. [R-TX-10]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -65,10 +97,10 @@
       "title": "Noncontiguous Disaster Shipping Act",
       "introducedDate": "2025-07-29",
       "latestAction": {
-        "date": "2025-07-29",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-30",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Emergency Management",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4813?format=json",
       "updateDate": null,
@@ -119,7 +151,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on Ways and Means."
       },
-      "policy_area": null,
+      "policy_area": "Social Welfare",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4814?format=json",
       "updateDate": null,
@@ -525,8 +557,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3646?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -802,9 +843,17 @@
           "state": "VA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 29
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
@@ -903,7 +952,12 @@
         "text": "Referred to the House Committee on Education and Workforce."
       },
       "policy_area": "Labor and Employment",
-      "subjects": [],
+      "subjects": [
+        "Employee benefits and pensions",
+        "Guam",
+        "Military personnel and dependents",
+        "U.S. territories and protectorates"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/876?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -3219,7 +3273,12 @@
         "text": "Referred to the House Committee on Education and the Workforce."
       },
       "policy_area": "Labor and Employment",
-      "subjects": [],
+      "subjects": [
+        "Employee benefits and pensions",
+        "Guam",
+        "Military personnel and dependents",
+        "U.S. territories and protectorates"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/hr/842?format=json",
       "updateDate": null,
       "bipartisan": false,

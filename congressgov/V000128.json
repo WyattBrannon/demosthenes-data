@@ -3,27 +3,800 @@
     "bioguide": "V000128",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T17:38:13Z",
+    "generated_at": "2025-11-01T17:31:56Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "s",
+      "number": "3039",
+      "title": "True Shutdown Fairness Act",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3039?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "P000595",
+          "name": "Sen. Peters, Gary C. [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Sen. Smith, Tina [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 30
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2995",
+      "title": "Shutdown Guidance for Financial Institutions Act",
+      "introducedDate": "2025-10-09",
+      "latestAction": {
+        "date": "2025-10-09",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2995?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2891",
+      "title": "Democracy in Design Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2891?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "386",
+      "title": "A resolution designating the week of September 14 through September 20, 2025, as \"Community School Coordinators Appreciation Week\".",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-15",
+        "text": "Referred to the Committee on the Judiciary. (text: CR S6601)"
+      },
+      "policy_area": "Education",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/386?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-16",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-08-01",
+      "introducedDate": "2025-09-10",
       "latestAction": {
-        "date": null,
-        "text": null
+        "date": "2025-10-09",
+        "text": "Amendment SA 3872, under the order of 10/9/2025, not having achieved 60 votes in the affirmative, not agreed to in Senate by Yea-Nay Vote. 47 - 50. Record Vote Number: 566."
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3677?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3872?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2689",
+      "title": "District of Columbia Police Home Rule Act",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2689?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2688",
+      "title": "District of Columbia National Guard Home Rule Act",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2688?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 12
+    },
+    {
+      "congress": 119,
+      "billType": "sjres",
+      "number": "75",
+      "title": "A joint resolution terminating the emergency determined by the President on August 11, 2025, in the Executive Order titled \"Declaring a crime emergency in the District of Columbia\".",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sjres/75?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -35,7 +808,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2590?format=json",
       "updateDate": null,
@@ -62,7 +835,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Labor and Employment",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2438?format=json",
       "updateDate": null,
@@ -91,9 +864,25 @@
           "state": "TN",
           "date": "2025-07-24",
           "original": true
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -254,8 +1043,8 @@
       "title": "Taiwan International Solidarity Act",
       "introducedDate": "2025-07-09",
       "latestAction": {
-        "date": "2025-07-09",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 237."
       },
       "policy_area": "International Affairs",
       "subjects": [],
@@ -623,9 +1412,17 @@
           "state": "NY",
           "date": "2025-06-12",
           "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -682,9 +1479,41 @@
           "state": "VA",
           "date": "2025-07-31",
           "original": false
+        },
+        {
+          "bioguide": "S001198",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1152,9 +1981,25 @@
           "state": "AZ",
           "date": "2025-07-31",
           "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 36
+      "cosponsors_total": 38
     },
     {
       "congress": 115,
@@ -2149,9 +2994,17 @@
           "state": "MD",
           "date": "2025-02-27",
           "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -2317,9 +3170,25 @@
           "state": "OR",
           "date": "2025-07-31",
           "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luján, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 20
     },
     {
       "congress": 119,
@@ -9408,389 +10277,6 @@
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "2545",
-      "title": "YALI Act of 2021",
-      "introducedDate": "2021-07-29",
-      "latestAction": {
-        "date": "2021-07-29",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
-      },
-      "policy_area": "International Affairs",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/2545?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "R000605",
-          "name": "Sen. Rounds, Mike [R-SD]",
-          "party": "R",
-          "state": "SD",
-          "date": "2021-07-29",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 116,
-      "billType": "s",
-      "number": "5022",
-      "title": "Federal Flood Risk Management Act of 2020",
-      "introducedDate": "2020-12-15",
-      "latestAction": {
-        "date": "2020-12-15",
-        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
-      },
-      "policy_area": "Emergency Management",
-      "subjects": [
-        "Appropriations",
-        "Building construction",
-        "Congressional oversight",
-        "Disaster relief and insurance",
-        "Environmental assessment, monitoring, research",
-        "Floods and storm protection",
-        "Government information and archives",
-        "Government lending and loan guarantees",
-        "Housing and community development funding",
-        "Lakes and rivers",
-        "Land use and conservation"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/s/5022?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "S001194",
-          "name": "Sen. Schatz, Brian [D-HI]",
-          "party": "D",
-          "state": "HI",
-          "date": "2020-12-15",
-          "original": true
-        },
-        {
-          "bioguide": "B001288",
-          "name": "Sen. Booker, Cory A. [D-NJ]",
-          "party": "D",
-          "state": "NJ",
-          "date": "2020-12-15",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "1661",
-      "title": "National Fab Lab Network Act of 2021",
-      "introducedDate": "2021-05-17",
-      "latestAction": {
-        "date": "2021-05-17",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "policy_area": "Commerce",
-      "subjects": [
-        "Advanced technology and technological innovations",
-        "Digital media",
-        "Manufacturing",
-        "Product development and innovation",
-        "Public-private cooperation",
-        "Research and development",
-        "Tax-exempt organizations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/1661?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "M001153",
-          "name": "Sen. Murkowski, Lisa [R-AK]",
-          "party": "R",
-          "state": "AK",
-          "date": "2021-05-17",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "1545",
-      "title": "Disclosure of Tax Havens and Offshoring Act",
-      "introducedDate": "2021-05-11",
-      "latestAction": {
-        "date": "2021-05-11",
-        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
-      },
-      "policy_area": "Finance and Financial Sector",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Foreign and international corporations",
-        "Securities",
-        "Securities and Exchange Commission (SEC)",
-        "Tax administration and collection, taxpayers",
-        "Taxation of foreign income"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/1545?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "K000367",
-          "name": "Sen. Klobuchar, Amy [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-05-11",
-          "original": true
-        },
-        {
-          "bioguide": "D000622",
-          "name": "Sen. Duckworth, Tammy [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2021-05-11",
-          "original": true
-        },
-        {
-          "bioguide": "W000802",
-          "name": "Sen. Whitehouse, Sheldon [D-RI]",
-          "party": "D",
-          "state": "RI",
-          "date": "2021-05-11",
-          "original": true
-        },
-        {
-          "bioguide": "S000033",
-          "name": "Sen. Sanders, Bernard [I-VT]",
-          "party": "I",
-          "state": "VT",
-          "date": "2021-05-11",
-          "original": true
-        },
-        {
-          "bioguide": "D000563",
-          "name": "Sen. Durbin, Richard J. [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2021-05-11",
-          "original": true
-        },
-        {
-          "bioguide": "B001277",
-          "name": "Sen. Blumenthal, Richard [D-CT]",
-          "party": "D",
-          "state": "CT",
-          "date": "2021-05-11",
-          "original": true
-        },
-        {
-          "bioguide": "S001203",
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-05-11",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 7
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "838",
-      "title": "Federal Firefighter Flexibility and Fairness Act",
-      "introducedDate": "2021-03-18",
-      "latestAction": {
-        "date": "2021-03-18",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Fires",
-        "First responders and emergency personnel",
-        "Government employee pay, benefits, personnel management"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/838?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "T000464",
-          "name": "Sen. Tester, Jon [D-MT]",
-          "party": "D",
-          "state": "MT",
-          "date": "2021-03-18",
-          "original": true
-        },
-        {
-          "bioguide": "C001035",
-          "name": "Sen. Collins, Susan M. [R-ME]",
-          "party": "R",
-          "state": "ME",
-          "date": "2021-03-18",
-          "original": true
-        },
-        {
-          "bioguide": "C000174",
-          "name": "Sen. Carper, Thomas R. [D-DE]",
-          "party": "D",
-          "state": "DE",
-          "date": "2021-03-18",
-          "original": true
-        },
-        {
-          "bioguide": "F000463",
-          "name": "Sen. Fischer, Deb [R-NE]",
-          "party": "R",
-          "state": "NE",
-          "date": "2021-06-14",
-          "original": false
-        },
-        {
-          "bioguide": "R000608",
-          "name": "Sen. Rosen, Jacky [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-09-29",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 5
-    },
-    {
-      "congress": 117,
-      "billType": "sjres",
-      "number": "15",
-      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Comptroller of Currency relating to \"National Banks and Federal Savings Associations as Lenders\".",
-      "introducedDate": "2021-03-25",
-      "latestAction": {
-        "date": "2021-06-30",
-        "text": "Became Public Law No: 117-24."
-      },
-      "policy_area": "Finance and Financial Sector",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Banking and financial institutions regulation",
-        "Congressional oversight",
-        "Credit and credit markets",
-        "Department of the Treasury"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/sjres/15?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "B000944",
-          "name": "Sen. Brown, Sherrod [D-OH]",
-          "party": "D",
-          "state": "OH",
-          "date": "2021-03-25",
-          "original": true
-        },
-        {
-          "bioguide": "R000122",
-          "name": "Sen. Reed, Jack [D-RI]",
-          "party": "D",
-          "state": "RI",
-          "date": "2021-03-25",
-          "original": true
-        },
-        {
-          "bioguide": "W000817",
-          "name": "Sen. Warren, Elizabeth [D-MA]",
-          "party": "D",
-          "state": "MA",
-          "date": "2021-03-25",
-          "original": true
-        },
-        {
-          "bioguide": "C001113",
-          "name": "Sen. Cortez Masto, Catherine [D-NV]",
-          "party": "D",
-          "state": "NV",
-          "date": "2021-03-25",
-          "original": true
-        },
-        {
-          "bioguide": "S001203",
-          "name": "Sen. Smith, Tina [D-MN]",
-          "party": "D",
-          "state": "MN",
-          "date": "2021-03-25",
-          "original": true
-        },
-        {
-          "bioguide": "F000062",
-          "name": "Sen. Feinstein, Dianne [D-CA]",
-          "party": "D",
-          "state": "CA",
-          "date": "2021-03-25",
-          "original": true
-        },
-        {
-          "bioguide": "D000563",
-          "name": "Sen. Durbin, Richard J. [D-IL]",
-          "party": "D",
-          "state": "IL",
-          "date": "2021-04-26",
-          "original": false
-        },
-        {
-          "bioguide": "W000802",
-          "name": "Sen. Whitehouse, Sheldon [D-RI]",
-          "party": "D",
-          "state": "RI",
-          "date": "2021-04-26",
-          "original": false
-        },
-        {
-          "bioguide": "M001176",
-          "name": "Sen. Merkley, Jeff [D-OR]",
-          "party": "D",
-          "state": "OR",
-          "date": "2021-04-29",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 9
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "1213",
-      "title": "National SEAL Act of 2021",
-      "introducedDate": "2021-04-19",
-      "latestAction": {
-        "date": "2021-04-19",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "policy_area": "Science, Technology, Communications",
-      "subjects": [
-        "Advanced technology and technological innovations",
-        "Congressional oversight",
-        "Employment and training programs",
-        "Government studies and investigations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/1213?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "B000575",
-          "name": "Sen. Blunt, Roy [R-MO]",
-          "party": "R",
-          "state": "MO",
-          "date": "2021-04-19",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
     }
   ]
 }
