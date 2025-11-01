@@ -3,10 +3,107 @@
     "bioguide": "O000175",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T03:01:17Z",
+    "generated_at": "2025-11-01T02:47:44Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5207",
+      "title": "Capital Emergency Control Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5207?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5118",
+      "title": "Protecting Law Enforcement from Doxxing Act",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5118?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5078",
+      "title": "PILLAR Act",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Ordered to be Reported by the Yeas and Nays: 21 - 1."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Advanced technology and technological innovations",
+        "Computer security and identity theft",
+        "Computers and information technology",
+        "Congressional oversight",
+        "Government information and archives",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Internet, web applications, social media",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5078?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000597",
+          "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001193",
+          "name": "Rep. Swalwell, Eric [D-CA-14]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "E000300",
+          "name": "Rep. Evans, Gabe [R-CO-8]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -792,9 +889,41 @@
           "state": "SC",
           "date": "2025-02-13",
           "original": false
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001129",
+          "name": "Rep. Collins, Mike [R-GA-10]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 10
     },
     {
       "congress": 119,

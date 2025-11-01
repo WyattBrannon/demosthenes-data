@@ -3,10 +3,98 @@
     "bioguide": "H001086",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T02:56:06Z",
+    "generated_at": "2025-11-01T02:44:53Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5737",
+      "title": "ROOT Act",
+      "introducedDate": "2025-10-10",
+      "latestAction": {
+        "date": "2025-10-10",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5737?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5316",
+      "title": "Drug Shortage Compounding Patient Access Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5316?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Rep. Owens, Burgess [R-UT-4]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001052",
+          "name": "Rep. Harris, Andy [R-MD-1]",
+          "party": "R",
+          "state": "MD",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5266",
+      "title": "5G UPGRADE Act of 2025",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5266?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -102,9 +190,49 @@
           "state": "NY",
           "date": "2025-06-25",
           "original": true
+        },
+        {
+          "bioguide": "H001067",
+          "name": "Rep. Hudson, Richard [R-NC-9]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "T000480",
+          "name": "Rep. Timmons, William R. [R-SC-4]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -153,9 +281,17 @@
           "state": "MD",
           "date": "2025-07-25",
           "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 118,
@@ -307,11 +443,15 @@
       "title": "Michael Enzi Voluntary Protection Program Act",
       "introducedDate": "2025-04-10",
       "latestAction": {
-        "date": "2025-04-10",
-        "text": "Referred to the House Committee on Education and Workforce."
+        "date": "2025-09-17",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 19 - 16."
       },
       "policy_area": "Labor and Employment",
-      "subjects": [],
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Department of Labor",
+        "Worker safety and health"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2844?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -455,9 +595,25 @@
           "state": "IA",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001224",
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 12
     },
     {
       "congress": 119,
@@ -554,9 +710,33 @@
           "state": "TN",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John J. [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -855,9 +1035,17 @@
           "state": "TX",
           "date": "2025-05-17",
           "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 23
+      "cosponsors_total": 24
     },
     {
       "congress": 119,
@@ -947,9 +1135,25 @@
           "state": "NM",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
