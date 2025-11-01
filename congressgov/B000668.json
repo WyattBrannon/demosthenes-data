@@ -3,10 +3,80 @@
     "bioguide": "B000668",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T13:29:26Z",
+    "generated_at": "2025-11-01T13:24:05Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5171",
+      "title": "Pacific Northwest Gray Wolves Relief Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5171?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-09-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5133",
+      "title": "Patients’ Right to Know Their Medication Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5133?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000592",
+          "name": "Rep. Golden, Jared F. [D-ME-2]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 118,
       "billType": "",
@@ -138,11 +208,11 @@
       "congress": 119,
       "billType": "hr",
       "number": "655",
-      "title": "The Dalles Watershed Development Act",
+      "title": "Dalles Watershed Development Act",
       "introducedDate": "2025-01-23",
       "latestAction": {
-        "date": "2025-06-25",
-        "text": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent."
+        "date": "2025-09-15",
+        "text": "Placed on the Union Calendar, Calendar No. 233."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [

@@ -3,10 +3,165 @@
     "bioguide": "G000565",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T13:37:58Z",
+    "generated_at": "2025-11-01T13:30:39Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5392",
+      "title": "Northern Arizona Protection Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5392?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5393",
+      "title": "Southern Arizona Protection Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5393?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5183",
+      "title": "District of Columbia Home Rule Improvement Act",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Ordered to be Reported by the Yeas and Nays: 22 - 18."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Congressional oversight",
+        "District of Columbia",
+        "Government information and archives",
+        "House of Representatives",
+        "Intergovernmental relations",
+        "Legislative rules and procedure",
+        "Senate",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5183?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001108",
+          "name": "Rep. Comer, James [R-KY-1]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +172,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4668?format=json",
       "updateDate": null,
@@ -283,11 +438,15 @@
       "title": "Enhancing Safety for Animals Act of 2025",
       "introducedDate": "2025-06-30",
       "latestAction": {
-        "date": "2025-06-30",
-        "text": "Referred to the House Committee on Natural Resources."
+        "date": "2025-09-03",
+        "text": "Subcommittee Hearings Held"
       },
       "policy_area": "Animals",
-      "subjects": [],
+      "subjects": [
+        "Animal protection and human-animal relationships",
+        "Endangered and threatened species",
+        "Wildlife conservation and habitat protection"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4255?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -630,9 +789,65 @@
           "state": "MN",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 28
+      "cosponsors_total": 35
     },
     {
       "congress": 119,
@@ -713,9 +928,17 @@
           "state": "WA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 118,
@@ -953,9 +1176,57 @@
           "state": "OH",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -1159,8 +1430,8 @@
       "title": "La Paz County Solar Energy and Job Creation Act",
       "introducedDate": "2025-02-06",
       "latestAction": {
-        "date": "2025-07-22",
-        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+        "date": "2025-09-11",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -1279,9 +1550,17 @@
           "state": "UT",
           "date": "2025-02-24",
           "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -1405,9 +1684,17 @@
           "state": "ID",
           "date": "2025-04-30",
           "original": false
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     },
     {
       "congress": 118,
@@ -4091,6 +4378,29 @@
     {
       "congress": 117,
       "billType": "hres",
+      "number": "1379",
+      "title": "Of inquiry requesting the President and directing the Secretary of Veterans Affairs to transmit, respectively, certain documents to the House of Representatives relating to the wait times for veterans to receive primary care, mental health care, and specialty care appointments at medical centers of the Department of Veterans Affairs.",
+      "introducedDate": "2022-09-21",
+      "latestAction": {
+        "date": "2022-12-20",
+        "text": "Supplemental report filed by the Committee on Veterans' Affairs, H. Rept. 117-583, Part II."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Department of Veterans Affairs",
+        "Government information and archives",
+        "Presidents and presidential powers, Vice Presidents",
+        "Veterans' medical care"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1379?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 117,
+      "billType": "hres",
       "number": "1378",
       "title": "Of inquiry requesting the President and directing the Secretary of Agriculture to transmit, respectively, certain documents to the House of Representatives relating to Resolution Copper mine.",
       "introducedDate": "2022-09-21",
@@ -4108,29 +4418,6 @@
         "Presidents and presidential powers, Vice Presidents"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1378?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 117,
-      "billType": "hres",
-      "number": "1379",
-      "title": "Of inquiry requesting the President and directing the Secretary of Veterans Affairs to transmit, respectively, certain documents to the House of Representatives relating to the wait times for veterans to receive primary care, mental health care, and specialty care appointments at medical centers of the Department of Veterans Affairs.",
-      "introducedDate": "2022-09-21",
-      "latestAction": {
-        "date": "2022-12-20",
-        "text": "Supplemental report filed by the Committee on Veterans' Affairs, H. Rept. 117-583, Part II."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "Department of Veterans Affairs",
-        "Government information and archives",
-        "Presidents and presidential powers, Vice Presidents",
-        "Veterans' medical care"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hres/1379?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -5297,24 +5584,6 @@
     {
       "congress": 117,
       "billType": "hr",
-      "number": "5087",
-      "title": "Laughlin/Bullhead International Airport Land Conveyance Act",
-      "introducedDate": "2021-08-24",
-      "latestAction": {
-        "date": "2021-08-25",
-        "text": "Referred to the Subcommittee on National Parks, Forests, and Public Lands."
-      },
-      "policy_area": "Public Lands and Natural Resources",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/5087?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 117,
-      "billType": "hr",
       "number": "5088",
       "title": "Stopping Terrorist Minerals Trade Act",
       "introducedDate": "2021-08-24",
@@ -5378,6 +5647,24 @@
         }
       ],
       "cosponsors_total": 4
+    },
+    {
+      "congress": 117,
+      "billType": "hr",
+      "number": "5087",
+      "title": "Laughlin/Bullhead International Airport Land Conveyance Act",
+      "introducedDate": "2021-08-24",
+      "latestAction": {
+        "date": "2021-08-25",
+        "text": "Referred to the Subcommittee on National Parks, Forests, and Public Lands."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/5087?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,
@@ -8295,11 +8582,11 @@
       "introducedDate": "2019-10-30",
       "latestAction": {
         "date": "2019-10-30",
-        "text": "On agreeing to the Gosar amendment (A002) Failed by recorded vote: 178 - 243 (Roll no. 599). "
+        "text": "On agreeing to the Gosar amendment (A003) Failed by recorded vote: 186 - 237 (Roll no. 600). "
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/116/hamdt/653?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/116/hamdt/654?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -19351,499 +19638,6 @@
         }
       ],
       "cosponsors_total": 5
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "5653",
-      "title": "Criminal Alien Removal Clarification Act of 2018",
-      "introducedDate": "2018-04-27",
-      "latestAction": {
-        "date": "2018-05-22",
-        "text": "Referred to the Subcommittee on Immigration and Border Security."
-      },
-      "policy_area": "Immigration",
-      "subjects": [
-        "Criminal procedure and sentencing",
-        "Immigration status and procedures"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/5653?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "A000374",
-          "name": "Rep. Abraham, Ralph Lee [R-LA-5]",
-          "party": "R",
-          "state": "LA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001291",
-          "name": "Rep. Babin, Brian [R-TX-36]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001294",
-          "name": "Rep. Blum, Rod [R-IA-1]",
-          "party": "R",
-          "state": "IA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001305",
-          "name": "Rep. Budd, Ted [R-NC-13]",
-          "party": "R",
-          "state": "NC",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "C001096",
-          "name": "Rep. Cramer, Kevin [R-ND-At Large]",
-          "party": "R",
-          "state": "ND",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "C001087",
-          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
-          "party": "R",
-          "state": "AR",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "D000616",
-          "name": "Rep. DesJarlais, Scott [R-TN-4]",
-          "party": "R",
-          "state": "TN",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "D000615",
-          "name": "Rep. Duncan, Jeff [R-SC-3]",
-          "party": "R",
-          "state": "SC",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "D000533",
-          "name": "Rep. Duncan, John J., Jr. [R-TN-2]",
-          "party": "R",
-          "state": "TN",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "G000580",
-          "name": "Rep. Garrett, Thomas A., Jr. [R-VA-5]",
-          "party": "R",
-          "state": "VA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "G000563",
-          "name": "Rep. Gibbs, Bob [R-OH-7]",
-          "party": "R",
-          "state": "OH",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "G000552",
-          "name": "Rep. Gohmert, Louie [R-TX-1]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "H001052",
-          "name": "Rep. Harris, Andy [R-MD-1]",
-          "party": "R",
-          "state": "MD",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "H001071",
-          "name": "Rep. Hice, Jody B. [R-GA-10]",
-          "party": "R",
-          "state": "GA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "J000292",
-          "name": "Rep. Johnson, Bill [R-OH-6]",
-          "party": "R",
-          "state": "OH",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "J000255",
-          "name": "Rep. Jones, Walter B., Jr. [R-NC-3]",
-          "party": "R",
-          "state": "NC",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "K000362",
-          "name": "Rep. King, Steve [R-IA-4]",
-          "party": "R",
-          "state": "IA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "M001179",
-          "name": "Rep. Marino, Tom [R-PA-10]",
-          "party": "R",
-          "state": "PA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "N000190",
-          "name": "Rep. Norman, Ralph [R-SC-5]",
-          "party": "R",
-          "state": "SC",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "P000605",
-          "name": "Rep. Perry, Scott [R-PA-4]",
-          "party": "R",
-          "state": "PA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "P000599",
-          "name": "Rep. Posey, Bill [R-FL-8]",
-          "party": "R",
-          "state": "FL",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "Y000065",
-          "name": "Rep. Yoho, Ted S. [R-FL-3]",
-          "party": "R",
-          "state": "FL",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001297",
-          "name": "Rep. Buck, Ken [R-CO-4]",
-          "party": "R",
-          "state": "CO",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "A000375",
-          "name": "Rep. Arrington, Jodey C. [R-TX-19]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "M001177",
-          "name": "Rep. McClintock, Tom [R-CA-4]",
-          "party": "R",
-          "state": "CA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001269",
-          "name": "Rep. Barletta, Lou [R-PA-11]",
-          "party": "R",
-          "state": "PA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "B001290",
-          "name": "Rep. Brat, Dave [R-VA-7]",
-          "party": "R",
-          "state": "VA",
-          "date": "2018-04-27",
-          "original": true
-        },
-        {
-          "bioguide": "J000174",
-          "name": "Rep. Johnson, Sam [R-TX-3]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-05-22",
-          "original": false
-        },
-        {
-          "bioguide": "A000055",
-          "name": "Rep. Aderholt, Robert B. [R-AL-4]",
-          "party": "R",
-          "state": "AL",
-          "date": "2018-05-29",
-          "original": false
-        },
-        {
-          "bioguide": "R000592",
-          "name": "Rep. Rokita, Todd [R-IN-4]",
-          "party": "R",
-          "state": "IN",
-          "date": "2018-06-12",
-          "original": false
-        },
-        {
-          "bioguide": "L000589",
-          "name": "Rep. Lesko, Debbie [R-AZ-8]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2018-06-12",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 32
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "5556",
-      "title": "Environmental Compliance Cost Transparency Act of 2018",
-      "introducedDate": "2018-04-18",
-      "latestAction": {
-        "date": "2018-09-20",
-        "text": "Placed on the Union Calendar, Calendar No. 742."
-      },
-      "policy_area": "Energy",
-      "subjects": [
-        "Congressional oversight",
-        "Consumer affairs",
-        "Electric power generation and transmission",
-        "Environmental regulatory procedures",
-        "Public utilities and utility rates",
-        "Wildlife conservation and habitat protection"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/5556?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "A000374",
-          "name": "Rep. Abraham, Ralph Lee [R-LA-5]",
-          "party": "R",
-          "state": "LA",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "A000369",
-          "name": "Rep. Amodei, Mark E. [R-NV-2]",
-          "party": "R",
-          "state": "NV",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001290",
-          "name": "Rep. Brat, Dave [R-VA-7]",
-          "party": "R",
-          "state": "VA",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001297",
-          "name": "Rep. Buck, Ken [R-CO-4]",
-          "party": "R",
-          "state": "CO",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "B001305",
-          "name": "Rep. Budd, Ted [R-NC-13]",
-          "party": "R",
-          "state": "NC",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "G000584",
-          "name": "Rep. Gianforte, Greg [R-MT-At Large]",
-          "party": "R",
-          "state": "MT",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "G000552",
-          "name": "Rep. Gohmert, Louie [R-TX-1]",
-          "party": "R",
-          "state": "TX",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "J000255",
-          "name": "Rep. Jones, Walter B., Jr. [R-NC-3]",
-          "party": "R",
-          "state": "NC",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "K000362",
-          "name": "Rep. King, Steve [R-IA-4]",
-          "party": "R",
-          "state": "IA",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "M001177",
-          "name": "Rep. McClintock, Tom [R-CA-4]",
-          "party": "R",
-          "state": "CA",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "M001180",
-          "name": "Rep. McKinley, David B. [R-WV-1]",
-          "party": "R",
-          "state": "WV",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "N000190",
-          "name": "Rep. Norman, Ralph [R-SC-5]",
-          "party": "R",
-          "state": "SC",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "P000588",
-          "name": "Rep. Pearce, Stevan [R-NM-2]",
-          "party": "R",
-          "state": "NM",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "S001180",
-          "name": "Rep. Schrader, Kurt [D-OR-5]",
-          "party": "D",
-          "state": "OR",
-          "date": "2018-04-18",
-          "original": true
-        },
-        {
-          "bioguide": "Y000065",
-          "name": "Rep. Yoho, Ted S. [R-FL-3]",
-          "party": "R",
-          "state": "FL",
-          "date": "2018-04-18",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 16
-    },
-    {
-      "congress": 115,
-      "billType": "hr",
-      "number": "4723",
-      "title": "Hualapai Tribe Water Rights Settlement Act of 2017",
-      "introducedDate": "2017-12-21",
-      "latestAction": {
-        "date": "2018-01-02",
-        "text": "Referred to the Subcommittee on Water, Power and Oceans."
-      },
-      "policy_area": "Native Americans",
-      "subjects": [
-        "Arizona",
-        "Federal-Indian relations",
-        "Government trust funds",
-        "Indian claims",
-        "Indian lands and resources rights",
-        "Infrastructure development",
-        "Lakes and rivers",
-        "Land transfers",
-        "Water use and supply"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/115/hr/4723?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "B001302",
-          "name": "Rep. Biggs, Andy [R-AZ-5]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2017-12-21",
-          "original": true
-        },
-        {
-          "bioguide": "S001191",
-          "name": "Rep. Sinema, Kyrsten [D-AZ-9]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2017-12-21",
-          "original": true
-        },
-        {
-          "bioguide": "S001183",
-          "name": "Rep. Schweikert, David [R-AZ-6]",
-          "party": "R",
-          "state": "AZ",
-          "date": "2017-12-21",
-          "original": true
-        },
-        {
-          "bioguide": "O000171",
-          "name": "Rep. O'Halleran, Tom [D-AZ-1]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2017-12-21",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 4
     }
   ]
 }

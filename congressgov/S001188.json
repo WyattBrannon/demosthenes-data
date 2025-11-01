@@ -3,10 +3,28 @@
     "bioguide": "S001188",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T13:47:31Z",
+    "generated_at": "2025-11-01T13:38:42Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5808",
+      "title": "Nigeria Religious Freedom Accountability Act of 2025",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5808?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -17,7 +35,7 @@
         "date": "2025-08-15",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4989?format=json",
       "updateDate": null,
@@ -46,9 +64,41 @@
           "state": "GA",
           "date": "2025-08-15",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Rep. De La Cruz, Monica [R-TX-15]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -60,7 +110,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4737?format=json",
       "updateDate": null,
@@ -2925,6 +2975,26 @@
     {
       "congress": 112,
       "billType": "hr",
+      "number": "2301",
+      "title": "Streamlining Education Claims Processing Act of 2011",
+      "introducedDate": "2011-06-22",
+      "latestAction": {
+        "date": "2011-07-21",
+        "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote ."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [
+        "Veterans' education, employment, rehabilitation"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/2301?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 112,
+      "billType": "hr",
       "number": "2302",
       "title": "To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to notify Congress of conferences sponsored by the Department of Veterans Affairs, and for other purposes.",
       "introducedDate": "2011-06-22",
@@ -2941,26 +3011,6 @@
         "Public contracts and procurement"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/2302?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 112,
-      "billType": "hr",
-      "number": "2301",
-      "title": "Streamlining Education Claims Processing Act of 2011",
-      "introducedDate": "2011-06-22",
-      "latestAction": {
-        "date": "2011-07-21",
-        "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote ."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [
-        "Veterans' education, employment, rehabilitation"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/112/hr/2301?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],

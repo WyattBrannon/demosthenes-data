@@ -3,23 +3,477 @@
     "bioguide": "L000575",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T13:41:22Z",
+    "generated_at": "2025-11-01T13:33:13Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
     {
       "congress": 119,
+      "billType": "s",
+      "number": "2951",
+      "title": "Competitive Bidding Relief Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2951?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "414",
+      "title": "A resolution designating September 2025 as \"National Child Awareness Month\" to promote awareness of charities that benefit children as well as youth-serving organizations throughout the United States and recognizing the efforts made by those charities and organizations on behalf of children and youth as critical contributions to the future of the United States.",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S6798; text: CR S6794)"
+      },
+      "policy_area": "Families",
+      "subjects": [
+        "Adoption and foster care",
+        "Child care and development",
+        "Child health",
+        "Child safety and welfare",
+        "Commemorative events and holidays",
+        "Congressional tributes",
+        "Crime victims",
+        "Crimes against children",
+        "Emergency medical services and trauma care",
+        "Homelessness and emergency shelter",
+        "Human trafficking",
+        "Mental health",
+        "Sex offenses",
+        "Social work, volunteer service, charitable organizations",
+        "Violent crime"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/414?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-19",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2859",
+      "title": "Equal Campus Access Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S6732-6734: 2)"
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2859?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001184",
+          "name": "Sen. Scott, Tim [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001089",
+          "name": "Sen. Hawley, Josh [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001095",
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001299",
+          "name": "Sen. Banks, Jim [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Sen. Daines, Steve [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "E000295",
+          "name": "Sen. Ernst, Joni [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 28
+    },
+    {
+      "congress": 119,
+      "billType": "sres",
+      "number": "384",
+      "title": "A resolution authorizing the Majority Leader to move to proceed to the en bloc consideration of certain nominations.",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the Committee on Rules and Administration. (text: CR S6578)"
+      },
+      "policy_area": "Congress",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/sres/384?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2721",
+      "title": "Prevent Government Shutdowns Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Economics and Public Finance",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2721?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Sen. Daines, Steve [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "T000278",
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "E000295",
+          "name": "Sen. Ernst, Joni [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "H001089",
+          "name": "Sen. Hawley, Josh [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 13
+    },
+    {
+      "congress": 119,
       "billType": "",
       "number": null,
       "title": "",
-      "introducedDate": "2025-08-01",
+      "introducedDate": "2025-09-02",
       "latestAction": {
         "date": null,
         "text": null
       },
       "policy_area": null,
       "subjects": null,
-      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3537?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/amendment/119/samdt/3739?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -168,9 +622,49 @@
           "state": "LA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -261,9 +755,17 @@
           "state": "NV",
           "date": "2025-07-21",
           "original": true
+        },
+        {
+          "bioguide": "B001299",
+          "name": "Sen. Banks, Jim [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -272,16 +774,25 @@
       "title": "A bill to designate the facility of the United States Postal Service located at 201 West Oklahoma Avenue in Guthrie, Oklahoma, as the \"Oscar J. Upham Post Office\".",
       "introducedDate": "2025-07-15",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+        "date": "2025-10-17",
+        "text": "Held at the desk."
       },
       "policy_area": null,
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2283?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -293,8 +804,8 @@
         "date": "2025-07-10",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
-      "subjects": null,
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2249?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -711,57 +1222,6 @@
     {
       "congress": 119,
       "billType": "s",
-      "number": "1428",
-      "title": "Safeguarding Charity Act",
-      "introducedDate": "2025-04-10",
-      "latestAction": {
-        "date": "2025-04-10",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "policy_area": "Taxation",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1428?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "L000577",
-          "name": "Sen. Lee, Mike [R-UT]",
-          "party": "R",
-          "state": "UT",
-          "date": "2025-04-10",
-          "original": true
-        },
-        {
-          "bioguide": "H001089",
-          "name": "Sen. Hawley, Josh [R-MO]",
-          "party": "R",
-          "state": "MO",
-          "date": "2025-04-10",
-          "original": true
-        },
-        {
-          "bioguide": "B001305",
-          "name": "Sen. Budd, Ted [R-NC]",
-          "party": "R",
-          "state": "NC",
-          "date": "2025-04-10",
-          "original": true
-        },
-        {
-          "bioguide": "S001227",
-          "name": "Sen. Schmitt, Eric [R-MO]",
-          "party": "R",
-          "state": "MO",
-          "date": "2025-05-01",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 4
-    },
-    {
-      "congress": 119,
-      "billType": "s",
       "number": "1429",
       "title": "POWER Act of 2025",
       "introducedDate": "2025-04-10",
@@ -825,6 +1285,57 @@
         }
       ],
       "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1428",
+      "title": "Safeguarding Charity Act",
+      "introducedDate": "2025-04-10",
+      "latestAction": {
+        "date": "2025-04-10",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1428?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000577",
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "H001089",
+          "name": "Sen. Hawley, Josh [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-04-10",
+          "original": true
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-05-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -2885,9 +3396,51 @@
           "state": "WV",
           "date": "2025-01-21",
           "original": false
+        },
+        {
+          "bioguide": "M001244",
+          "name": "Sen. Moody, Ashley [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-06",
+          "original": false
         }
       ],
-      "cosponsors_total": 46
+      "cosponsors_total": 47
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "76",
+      "title": "SMART Act of 2025",
+      "introducedDate": "2025-01-13",
+      "latestAction": {
+        "date": "2025-01-13",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Competition and antitrust",
+        "Competitiveness, trade promotion, trade deficits",
+        "Economic performance and conditions",
+        "Inflation and prices",
+        "Judicial review and appeals"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/76?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-01-13",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -2927,40 +3480,6 @@
           "state": "MI",
           "date": "2025-01-22",
           "original": false
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "76",
-      "title": "SMART Act of 2025",
-      "introducedDate": "2025-01-13",
-      "latestAction": {
-        "date": "2025-01-13",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Competition and antitrust",
-        "Competitiveness, trade promotion, trade deficits",
-        "Economic performance and conditions",
-        "Inflation and prices",
-        "Judicial review and appeals"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/76?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "C001047",
-          "name": "Sen. Capito, Shelley Moore [R-WV]",
-          "party": "R",
-          "state": "WV",
-          "date": "2025-01-13",
-          "original": true
         }
       ],
       "cosponsors_total": 1
@@ -3059,44 +3578,6 @@
     {
       "congress": 119,
       "billType": "s",
-      "number": "81",
-      "title": "Guidance Clarity Act of 2025",
-      "introducedDate": "2025-01-13",
-      "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Government information and archives"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/81?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "J000293",
-          "name": "Sen. Johnson, Ron [R-WI]",
-          "party": "R",
-          "state": "WI",
-          "date": "2025-01-13",
-          "original": true
-        },
-        {
-          "bioguide": "M001244",
-          "name": "Sen. Moody, Ashley [R-FL]",
-          "party": "R",
-          "state": "FL",
-          "date": "2025-08-01",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 2
-    },
-    {
-      "congress": 119,
-      "billType": "s",
       "number": "78",
       "title": "TRUE Accountability Act",
       "introducedDate": "2025-01-13",
@@ -3139,6 +3620,44 @@
       "bipartisan": false,
       "cosponsors": [],
       "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "81",
+      "title": "Guidance Clarity Act of 2025",
+      "introducedDate": "2025-01-13",
+      "latestAction": {
+        "date": "2025-07-30",
+        "text": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Government information and archives"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/81?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000293",
+          "name": "Sen. Johnson, Ron [R-WI]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-01-13",
+          "original": true
+        },
+        {
+          "bioguide": "M001244",
+          "name": "Sen. Moody, Ashley [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-08-01",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 118,
@@ -4401,8 +4920,8 @@
         "date": "2024-08-01",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
-      "subjects": null,
+      "policy_area": "Taxation",
+      "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4965?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -4417,24 +4936,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 118,
-      "billType": "s",
-      "number": "4986",
-      "title": "UPDATE Act",
-      "introducedDate": "2024-08-01",
-      "latestAction": {
-        "date": "2024-08-01",
-        "text": "Read twice and referred to the Committee on Environment and Public Works."
-      },
-      "policy_area": "Environmental Protection",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4986?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -4470,6 +4971,24 @@
         }
       ],
       "cosponsors_total": 2
+    },
+    {
+      "congress": 118,
+      "billType": "s",
+      "number": "4986",
+      "title": "UPDATE Act",
+      "introducedDate": "2024-08-01",
+      "latestAction": {
+        "date": "2024-08-01",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": "Environmental Protection",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/118/s/4986?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 118,
@@ -10110,67 +10629,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "3962",
-      "title": "Quad Critical Minerals Partnership Act",
-      "introducedDate": "2022-03-30",
-      "latestAction": {
-        "date": "2022-03-30",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
-      },
-      "policy_area": "International Affairs",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/3962?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "K000383",
-          "name": "Sen. King, Angus S., Jr. [I-ME]",
-          "party": "I",
-          "state": "ME",
-          "date": "2022-03-30",
-          "original": true
-        },
-        {
-          "bioguide": "C001056",
-          "name": "Sen. Cornyn, John [R-TX]",
-          "party": "R",
-          "state": "TX",
-          "date": "2022-03-30",
-          "original": true
-        },
-        {
-          "bioguide": "W000805",
-          "name": "Sen. Warner, Mark R. [D-VA]",
-          "party": "D",
-          "state": "VA",
-          "date": "2022-03-30",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 3
-    },
-    {
-      "congress": 117,
-      "billType": "s",
-      "number": "4397",
-      "title": "Strengthening Counter-Unmanned Aircraft Systems Operations (C-UAS) Partnerships Act",
-      "introducedDate": "2022-06-14",
-      "latestAction": {
-        "date": "2022-06-14",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
-      },
-      "policy_area": "Armed Forces and National Security",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/s/4397?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     }
   ]
 }
