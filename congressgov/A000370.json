@@ -3,10 +3,112 @@
     "bioguide": "A000370",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T04:32:35Z",
+    "generated_at": "2025-11-01T04:24:10Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hres",
+      "number": "691",
+      "title": "Expressing the sense of Congress that August 30, 2025, be observed as the 135th anniversary of the 1890 Institutions.",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/691?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000463",
+          "name": "Rep. Turner, Michael R. [R-OH-10]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5129",
+      "title": "Closing the Meal Gap Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5129?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Velázquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "L000602",
+          "name": "Rep. Lee, Summer L. [D-PA-12]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-04",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hres",
@@ -17,7 +119,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/662?format=json",
       "updateDate": null,
@@ -863,9 +965,17 @@
           "state": "MN",
           "date": "2025-06-24",
           "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -1306,9 +1416,17 @@
           "state": "KS",
           "date": "2025-05-21",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 53
+      "cosponsors_total": 54
     },
     {
       "congress": 119,
@@ -2083,9 +2201,65 @@
           "state": "PA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000587",
+          "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001094",
+          "name": "Rep. Hoyle, Val T. [D-OR-4]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 67
+      "cosponsors_total": 74
     },
     {
       "congress": 119,
@@ -11081,7 +11255,7 @@
         "date": "2022-03-10",
         "text": "Referred to the Subcommittee on Health."
       },
-      "policy_area": "Social Welfare",
+      "policy_area": "Health",
       "subjects": [
         "Child health",
         "Medical research",
@@ -17460,43 +17634,6 @@
     {
       "congress": 117,
       "billType": "hr",
-      "number": "2556",
-      "title": "Maternal CARE Act",
-      "introducedDate": "2021-04-15",
-      "latestAction": {
-        "date": "2021-04-16",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "policy_area": "Health",
-      "subjects": [
-        "Alternative treatments",
-        "Child health",
-        "Congressional oversight",
-        "Disability and health-based discrimination",
-        "Education programs funding",
-        "Employment and training programs",
-        "Government studies and investigations",
-        "Health care quality",
-        "Health personnel",
-        "Health programs administration and funding",
-        "Health promotion and preventive care",
-        "Home and outpatient care",
-        "Medical education",
-        "Minority health",
-        "Racial and ethnic relations",
-        "Sex and reproductive health",
-        "State and local government operations",
-        "Women's health"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/2556?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 117,
-      "billType": "hr",
       "number": "2555",
       "title": "CARE for Families Act",
       "introducedDate": "2021-04-15",
@@ -17541,6 +17678,43 @@
         }
       ],
       "cosponsors_total": 2
+    },
+    {
+      "congress": 117,
+      "billType": "hr",
+      "number": "2556",
+      "title": "Maternal CARE Act",
+      "introducedDate": "2021-04-15",
+      "latestAction": {
+        "date": "2021-04-16",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Health",
+      "subjects": [
+        "Alternative treatments",
+        "Child health",
+        "Congressional oversight",
+        "Disability and health-based discrimination",
+        "Education programs funding",
+        "Employment and training programs",
+        "Government studies and investigations",
+        "Health care quality",
+        "Health personnel",
+        "Health programs administration and funding",
+        "Health promotion and preventive care",
+        "Home and outpatient care",
+        "Medical education",
+        "Minority health",
+        "Racial and ethnic relations",
+        "Sex and reproductive health",
+        "State and local government operations",
+        "Women's health"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/117/hr/2556?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 117,

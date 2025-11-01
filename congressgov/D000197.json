@@ -3,10 +3,168 @@
     "bioguide": "D000197",
     "congress": 119,
     "from_date": "2025-01-03",
-    "generated_at": "2025-09-01T04:42:39Z",
+    "generated_at": "2025-11-01T04:31:53Z",
     "source": "https://api.congress.gov/v3"
   },
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5621",
+      "title": "Physical Therapist Workforce and Patient Access Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5621?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000568",
+          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5461",
+      "title": "Special Diabetes Program Reauthorization Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5461?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "J000295",
+          "name": "Rep. Joyce, David P. [R-OH-14]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barragán, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "W000187",
+          "name": "Rep. Waters, Maxine [D-CA-43]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -37,7 +195,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hres/601?format=json",
       "updateDate": null,
@@ -117,9 +275,33 @@
           "state": "MN",
           "date": "2025-05-19",
           "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -136,8 +318,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2995?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -209,7 +400,13 @@
         "text": "Referred to the House Committee on the Judiciary."
       },
       "policy_area": "Crime and Law Enforcement",
-      "subjects": [],
+      "subjects": [
+        "Civil actions and liability",
+        "Firearms and explosives",
+        "Law enforcement administration and funding",
+        "Retail and wholesale trades",
+        "Trade restrictions"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1674?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1349,9 +1546,17 @@
           "state": "TX",
           "date": "2025-08-12",
           "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 142
+      "cosponsors_total": 143
     },
     {
       "congress": 119,
@@ -12249,6 +12454,101 @@
     {
       "congress": 116,
       "billType": "hr",
+      "number": "7516",
+      "title": "Clean Energy Innovation and Deployment Act of 2020",
+      "introducedDate": "2020-07-09",
+      "latestAction": {
+        "date": "2020-07-10",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
+      },
+      "policy_area": "Energy",
+      "subjects": [
+        "Accounting and auditing",
+        "Administrative law and regulatory procedures",
+        "Administrative remedies",
+        "Advanced technology and technological innovations",
+        "Advisory bodies",
+        "Air quality",
+        "Alternative and renewable resources",
+        "Aviation and airports",
+        "Civil actions and liability",
+        "Climate change and greenhouse gases",
+        "Coal",
+        "Congressional oversight",
+        "Credit and credit markets",
+        "Debt collection",
+        "Department of Energy",
+        "Electric power generation and transmission",
+        "Employee hiring",
+        "Employment and training programs",
+        "Energy assistance for the poor and aged",
+        "Energy efficiency and conservation",
+        "Energy research",
+        "Energy storage, supplies, demand",
+        "Executive agency funding and structure",
+        "Floods and storm protection",
+        "Forests, forestry, trees",
+        "Government employee pay, benefits, personnel management",
+        "Government information and archives",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Government trust funds",
+        "Higher education",
+        "Hybrid, electric, and advanced technology vehicles",
+        "Income tax credits",
+        "Infrastructure development",
+        "Interest, dividends, interest rates",
+        "Land use and conservation",
+        "Lighting, heating, cooling",
+        "Manufacturing",
+        "Motor vehicles",
+        "Nuclear power",
+        "Oil and gas",
+        "Performance measurement",
+        "Public contracts and procurement",
+        "Public utilities and utility rates",
+        "Research and development",
+        "Residential rehabilitation and home repair",
+        "Science and engineering education",
+        "Securities",
+        "State and local government operations",
+        "Student aid and college costs",
+        "Tax administration and collection, taxpayers",
+        "Teaching, teachers, curricula",
+        "Technology assessment",
+        "Technology transfer and commercialization",
+        "User charges and fees",
+        "Veterans' education, employment, rehabilitation",
+        "Vocational and technical education",
+        "Water quality",
+        "Wetlands"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/7516?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2020-07-09",
+          "original": true
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2020-07-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 116,
+      "billType": "hr",
       "number": "7517",
       "title": "Protect Access to Birth Control Act",
       "introducedDate": "2020-07-09",
@@ -13414,101 +13714,6 @@
         }
       ],
       "cosponsors_total": 142
-    },
-    {
-      "congress": 116,
-      "billType": "hr",
-      "number": "7516",
-      "title": "Clean Energy Innovation and Deployment Act of 2020",
-      "introducedDate": "2020-07-09",
-      "latestAction": {
-        "date": "2020-07-10",
-        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
-      },
-      "policy_area": "Energy",
-      "subjects": [
-        "Accounting and auditing",
-        "Administrative law and regulatory procedures",
-        "Administrative remedies",
-        "Advanced technology and technological innovations",
-        "Advisory bodies",
-        "Air quality",
-        "Alternative and renewable resources",
-        "Aviation and airports",
-        "Civil actions and liability",
-        "Climate change and greenhouse gases",
-        "Coal",
-        "Congressional oversight",
-        "Credit and credit markets",
-        "Debt collection",
-        "Department of Energy",
-        "Electric power generation and transmission",
-        "Employee hiring",
-        "Employment and training programs",
-        "Energy assistance for the poor and aged",
-        "Energy efficiency and conservation",
-        "Energy research",
-        "Energy storage, supplies, demand",
-        "Executive agency funding and structure",
-        "Floods and storm protection",
-        "Forests, forestry, trees",
-        "Government employee pay, benefits, personnel management",
-        "Government information and archives",
-        "Government lending and loan guarantees",
-        "Government studies and investigations",
-        "Government trust funds",
-        "Higher education",
-        "Hybrid, electric, and advanced technology vehicles",
-        "Income tax credits",
-        "Infrastructure development",
-        "Interest, dividends, interest rates",
-        "Land use and conservation",
-        "Lighting, heating, cooling",
-        "Manufacturing",
-        "Motor vehicles",
-        "Nuclear power",
-        "Oil and gas",
-        "Performance measurement",
-        "Public contracts and procurement",
-        "Public utilities and utility rates",
-        "Research and development",
-        "Residential rehabilitation and home repair",
-        "Science and engineering education",
-        "Securities",
-        "State and local government operations",
-        "Student aid and college costs",
-        "Tax administration and collection, taxpayers",
-        "Teaching, teachers, curricula",
-        "Technology assessment",
-        "Technology transfer and commercialization",
-        "User charges and fees",
-        "Veterans' education, employment, rehabilitation",
-        "Vocational and technical education",
-        "Water quality",
-        "Wetlands"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/7516?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "H001068",
-          "name": "Rep. Huffman, Jared [D-CA-2]",
-          "party": "D",
-          "state": "CA",
-          "date": "2020-07-09",
-          "original": true
-        },
-        {
-          "bioguide": "P000608",
-          "name": "Rep. Peters, Scott H. [D-CA-52]",
-          "party": "D",
-          "state": "CA",
-          "date": "2020-07-09",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 2
     },
     {
       "congress": 116,
@@ -19518,53 +19723,6 @@
     {
       "congress": 116,
       "billType": "hr",
-      "number": "2012",
-      "title": "Respect States’ and Citizens’ Rights Act of 2019",
-      "introducedDate": "2019-04-01",
-      "latestAction": {
-        "date": "2019-05-03",
-        "text": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Drug trafficking and controlled substances",
-        "Federal preemption",
-        "State and local government operations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/2012?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "C001068",
-          "name": "Rep. Cohen, Steve [D-TN-9]",
-          "party": "D",
-          "state": "TN",
-          "date": "2019-04-10",
-          "original": false
-        },
-        {
-          "bioguide": "P000593",
-          "name": "Rep. Perlmutter, Ed [D-CO-7]",
-          "party": "D",
-          "state": "CO",
-          "date": "2019-04-10",
-          "original": false
-        },
-        {
-          "bioguide": "C001121",
-          "name": "Rep. Crow, Jason [D-CO-6]",
-          "party": "D",
-          "state": "CO",
-          "date": "2019-04-10",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 3
-    },
-    {
-      "congress": 116,
-      "billType": "hr",
       "number": "2011",
       "title": "Protecting Access to Biosimilars Act of 2019",
       "introducedDate": "2019-04-01",
@@ -19628,6 +19786,53 @@
         }
       ],
       "cosponsors_total": 5
+    },
+    {
+      "congress": 116,
+      "billType": "hr",
+      "number": "2012",
+      "title": "Respect States’ and Citizens’ Rights Act of 2019",
+      "introducedDate": "2019-04-01",
+      "latestAction": {
+        "date": "2019-05-03",
+        "text": "Referred to the Subcommittee on Crime, Terrorism, and Homeland Security."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Drug trafficking and controlled substances",
+        "Federal preemption",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/116/hr/2012?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2019-04-10",
+          "original": false
+        },
+        {
+          "bioguide": "P000593",
+          "name": "Rep. Perlmutter, Ed [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2019-04-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2019-04-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
     },
     {
       "congress": 116,
@@ -21197,101 +21402,6 @@
     {
       "congress": 113,
       "billType": "hr",
-      "number": "964",
-      "title": "Respect States' and Citizens' Rights Act of 2013",
-      "introducedDate": "2013-03-05",
-      "latestAction": {
-        "date": "2013-04-08",
-        "text": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Drug trafficking and controlled substances",
-        "Federal preemption",
-        "State and local government operations"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/hr/964?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001077",
-          "name": "Rep. Coffman, Mike [R-CO-6]",
-          "party": "R",
-          "state": "CO",
-          "date": "2013-03-05",
-          "original": true
-        },
-        {
-          "bioguide": "G000551",
-          "name": "Rep. Grijalva, Raúl M. [D-AZ-3]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2013-06-03",
-          "original": false
-        },
-        {
-          "bioguide": "N000147",
-          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-          "party": "D",
-          "state": "DC",
-          "date": "2013-06-03",
-          "original": false
-        },
-        {
-          "bioguide": "L000551",
-          "name": "Rep. Lee, Barbara [D-CA-13]",
-          "party": "D",
-          "state": "CA",
-          "date": "2013-06-03",
-          "original": false
-        },
-        {
-          "bioguide": "B000574",
-          "name": "Rep. Blumenauer, Earl [D-OR-3]",
-          "party": "D",
-          "state": "OR",
-          "date": "2013-06-11",
-          "original": false
-        },
-        {
-          "bioguide": "P000607",
-          "name": "Rep. Pocan, Mark [D-WI-2]",
-          "party": "D",
-          "state": "WI",
-          "date": "2013-10-09",
-          "original": false
-        },
-        {
-          "bioguide": "S001193",
-          "name": "Rep. Swalwell, Eric [D-CA-15]",
-          "party": "D",
-          "state": "CA",
-          "date": "2014-01-16",
-          "original": false
-        },
-        {
-          "bioguide": "P000597",
-          "name": "Rep. Pingree, Chellie [D-ME-1]",
-          "party": "D",
-          "state": "ME",
-          "date": "2014-02-26",
-          "original": false
-        },
-        {
-          "bioguide": "P000593",
-          "name": "Rep. Perlmutter, Ed [D-CO-7]",
-          "party": "D",
-          "state": "CO",
-          "date": "2014-03-10",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 9
-    },
-    {
-      "congress": 113,
-      "billType": "hr",
       "number": "963",
       "title": "Coordination of Pro Bono Medically Recommended Dental Care Act",
       "introducedDate": "2013-03-05",
@@ -21676,6 +21786,101 @@
         }
       ],
       "cosponsors_total": 45
+    },
+    {
+      "congress": 113,
+      "billType": "hr",
+      "number": "964",
+      "title": "Respect States' and Citizens' Rights Act of 2013",
+      "introducedDate": "2013-03-05",
+      "latestAction": {
+        "date": "2013-04-08",
+        "text": "Referred to the Subcommittee on Crime, Terrorism, Homeland Security, And Investigations."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Drug trafficking and controlled substances",
+        "Federal preemption",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/113/hr/964?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001077",
+          "name": "Rep. Coffman, Mike [R-CO-6]",
+          "party": "R",
+          "state": "CO",
+          "date": "2013-03-05",
+          "original": true
+        },
+        {
+          "bioguide": "G000551",
+          "name": "Rep. Grijalva, Raúl M. [D-AZ-3]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2013-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2013-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000551",
+          "name": "Rep. Lee, Barbara [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2013-06-03",
+          "original": false
+        },
+        {
+          "bioguide": "B000574",
+          "name": "Rep. Blumenauer, Earl [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2013-06-11",
+          "original": false
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Rep. Pocan, Mark [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2013-10-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001193",
+          "name": "Rep. Swalwell, Eric [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2014-01-16",
+          "original": false
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2014-02-26",
+          "original": false
+        },
+        {
+          "bioguide": "P000593",
+          "name": "Rep. Perlmutter, Ed [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2014-03-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
     },
     {
       "congress": 112,
@@ -30438,95 +30643,6 @@
     {
       "congress": 109,
       "billType": "hr",
-      "number": "5727",
-      "title": "Meat and Poultry Products Traceability and Safety Act of 2006",
-      "introducedDate": "2006-06-29",
-      "latestAction": {
-        "date": "2006-07-10",
-        "text": "Referred to the Subcommittee on Livestock and Horticulture ."
-      },
-      "policy_area": "Agriculture and Food",
-      "subjects": [
-        "Agricultural estimating and reporting",
-        "Animals",
-        "Business records",
-        "Cattle",
-        "Commerce",
-        "Crime and Law Enforcement",
-        "Food industry",
-        "Food safety",
-        "Fraud",
-        "Goats",
-        "Government Operations and Politics",
-        "Government paperwork",
-        "Horses",
-        "Identification devices",
-        "Livestock",
-        "Meat inspection",
-        "Meat packing industry",
-        "Poultry",
-        "Produce trade",
-        "Sheep",
-        "Swine"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/5727?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "B001245",
-          "name": "Del. Bordallo, Madeleine Z. [D-GU-At Large]",
-          "party": "D",
-          "state": "GU",
-          "date": "2006-07-13",
-          "original": false
-        },
-        {
-          "bioguide": "G000551",
-          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
-          "party": "D",
-          "state": "AZ",
-          "date": "2006-07-13",
-          "original": false
-        },
-        {
-          "bioguide": "B000944",
-          "name": "Rep. Brown, Sherrod [D-OH-13]",
-          "party": "D",
-          "state": "OH",
-          "date": "2006-07-13",
-          "original": false
-        },
-        {
-          "bioguide": "D000355",
-          "name": "Rep. Dingell, John D. [D-MI-15]",
-          "party": "D",
-          "state": "MI",
-          "date": "2006-09-29",
-          "original": false
-        },
-        {
-          "bioguide": "D000216",
-          "name": "Rep. DeLauro, Rosa L. [D-CT-3]",
-          "party": "D",
-          "state": "CT",
-          "date": "2006-09-29",
-          "original": false
-        },
-        {
-          "bioguide": "E000215",
-          "name": "Rep. Eshoo, Anna G. [D-CA-14]",
-          "party": "D",
-          "state": "CA",
-          "date": "2006-09-29",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 6
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
       "number": "5729",
       "title": "SAFER Meat, Poultry, and Food Act of 2006",
       "introducedDate": "2006-06-29",
@@ -30688,6 +30804,95 @@
     {
       "congress": 109,
       "billType": "hr",
+      "number": "5727",
+      "title": "Meat and Poultry Products Traceability and Safety Act of 2006",
+      "introducedDate": "2006-06-29",
+      "latestAction": {
+        "date": "2006-07-10",
+        "text": "Referred to the Subcommittee on Livestock and Horticulture ."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [
+        "Agricultural estimating and reporting",
+        "Animals",
+        "Business records",
+        "Cattle",
+        "Commerce",
+        "Crime and Law Enforcement",
+        "Food industry",
+        "Food safety",
+        "Fraud",
+        "Goats",
+        "Government Operations and Politics",
+        "Government paperwork",
+        "Horses",
+        "Identification devices",
+        "Livestock",
+        "Meat inspection",
+        "Meat packing industry",
+        "Poultry",
+        "Produce trade",
+        "Sheep",
+        "Swine"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/5727?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001245",
+          "name": "Del. Bordallo, Madeleine Z. [D-GU-At Large]",
+          "party": "D",
+          "state": "GU",
+          "date": "2006-07-13",
+          "original": false
+        },
+        {
+          "bioguide": "G000551",
+          "name": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2006-07-13",
+          "original": false
+        },
+        {
+          "bioguide": "B000944",
+          "name": "Rep. Brown, Sherrod [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2006-07-13",
+          "original": false
+        },
+        {
+          "bioguide": "D000355",
+          "name": "Rep. Dingell, John D. [D-MI-15]",
+          "party": "D",
+          "state": "MI",
+          "date": "2006-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "D000216",
+          "name": "Rep. DeLauro, Rosa L. [D-CT-3]",
+          "party": "D",
+          "state": "CT",
+          "date": "2006-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "E000215",
+          "name": "Rep. Eshoo, Anna G. [D-CA-14]",
+          "party": "D",
+          "state": "CA",
+          "date": "2006-09-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
       "number": "5578",
       "title": "Protection for Participants in Research Act of 2006",
       "introducedDate": "2006-06-09",
@@ -30783,6 +30988,69 @@
         }
       ],
       "cosponsors_total": 5
+    },
+    {
+      "congress": 109,
+      "billType": "hr",
+      "number": "5226",
+      "title": "Energy Fairness Act of 2006",
+      "introducedDate": "2006-04-27",
+      "latestAction": {
+        "date": "2006-04-27",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [
+        "Alternative energy sources",
+        "Capital investments",
+        "Coke industry",
+        "Commerce",
+        "Cooperative societies",
+        "Corporation taxes",
+        "Depletion allowances",
+        "Depreciation and amortization",
+        "Electric utilities",
+        "Energy",
+        "Energy development",
+        "Environmental Protection",
+        "Environmental technology",
+        "Finance and Financial Sector",
+        "Fuel",
+        "Gas industry",
+        "Gas pipelines",
+        "Gasoline",
+        "Government Operations and Politics",
+        "Income tax",
+        "Motor vehicle pollution control",
+        "Natural gas",
+        "Oil well drilling",
+        "Petroleum industry",
+        "Petroleum refineries",
+        "Prospecting",
+        "Public utilities",
+        "Science, Technology, Communications",
+        "Securities regulation",
+        "Small business",
+        "Sulphur",
+        "Tax credits",
+        "Tax deductions",
+        "Tax-exempt securities",
+        "Transportation and Public Works"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/5226?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M000133",
+          "name": "Rep. Markey, Edward J. [D-MA-7]",
+          "party": "D",
+          "state": "MA",
+          "date": "2006-04-27",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 109,
@@ -31411,69 +31679,6 @@
         }
       ],
       "cosponsors_total": 67
-    },
-    {
-      "congress": 109,
-      "billType": "hr",
-      "number": "5226",
-      "title": "Energy Fairness Act of 2006",
-      "introducedDate": "2006-04-27",
-      "latestAction": {
-        "date": "2006-04-27",
-        "text": "Referred to the House Committee on Ways and Means."
-      },
-      "policy_area": "Taxation",
-      "subjects": [
-        "Alternative energy sources",
-        "Capital investments",
-        "Coke industry",
-        "Commerce",
-        "Cooperative societies",
-        "Corporation taxes",
-        "Depletion allowances",
-        "Depreciation and amortization",
-        "Electric utilities",
-        "Energy",
-        "Energy development",
-        "Environmental Protection",
-        "Environmental technology",
-        "Finance and Financial Sector",
-        "Fuel",
-        "Gas industry",
-        "Gas pipelines",
-        "Gasoline",
-        "Government Operations and Politics",
-        "Income tax",
-        "Motor vehicle pollution control",
-        "Natural gas",
-        "Oil well drilling",
-        "Petroleum industry",
-        "Petroleum refineries",
-        "Prospecting",
-        "Public utilities",
-        "Science, Technology, Communications",
-        "Securities regulation",
-        "Small business",
-        "Sulphur",
-        "Tax credits",
-        "Tax deductions",
-        "Tax-exempt securities",
-        "Transportation and Public Works"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/109/hr/5226?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "M000133",
-          "name": "Rep. Markey, Edward J. [D-MA-7]",
-          "party": "D",
-          "state": "MA",
-          "date": "2006-04-27",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
     },
     {
       "congress": 109,
