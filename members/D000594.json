@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 3
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -87,6 +87,7 @@
       "dim2": 0.095
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -918,6 +919,16 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "G000594",
+      "name": "Rep. Gonzales, Tony [R-TX-23]",
+      "count": 16
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 16
+    },
+    {
       "bioguide": "C001120",
       "name": "Rep. Crenshaw, Dan [R-TX-2]",
       "count": 16
@@ -928,14 +939,9 @@
       "count": 15
     },
     {
-      "bioguide": "G000594",
-      "name": "Rep. Gonzales, Tony [R-TX-23]",
-      "count": 15
-    },
-    {
-      "bioguide": "L000599",
-      "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 15
+      "bioguide": "G000589",
+      "name": "Rep. Gooden, Lance [R-TX-5]",
+      "count": 14
     },
     {
       "bioguide": "S000250",
@@ -943,9 +949,9 @@
       "count": 13
     },
     {
-      "bioguide": "G000589",
-      "name": "Rep. Gooden, Lance [R-TX-5]",
-      "count": 13
+      "bioguide": "C001063",
+      "name": "Rep. Cuellar, Henry [D-TX-28]",
+      "count": 12
     },
     {
       "bioguide": "B001291",
@@ -958,13 +964,8 @@
       "count": 11
     },
     {
-      "bioguide": "C001063",
-      "name": "Rep. Cuellar, Henry [D-TX-28]",
-      "count": 11
-    },
-    {
-      "bioguide": "E000071",
-      "name": "Rep. Ellzey, Jake [R-TX-6]",
+      "bioguide": "M001224",
+      "name": "Rep. Moran, Nathaniel [R-TX-1]",
       "count": 10
     }
   ],
@@ -977,12 +978,22 @@
     {
       "bioguide": "G000594",
       "name": "Rep. Gonzales, Tony [R-TX-23]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "S000250",
       "name": "Rep. Sessions, Pete [R-TX-17]",
       "count": 6
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "count": 5
+    },
+    {
+      "bioguide": "G000589",
+      "name": "Rep. Gooden, Lance [R-TX-5]",
+      "count": 5
     },
     {
       "bioguide": "W000814",
@@ -1008,19 +1019,319 @@
       "bioguide": "P000048",
       "name": "Rep. Pfluger, August [R-TX-11]",
       "count": 5
-    },
-    {
-      "bioguide": "E000071",
-      "name": "Rep. Ellzey, Jake [R-TX-6]",
-      "count": 5
-    },
-    {
-      "bioguide": "C001133",
-      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
-      "count": 4
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5429",
+      "title": "HUD-USDA-VA Interagency Coordination Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-10-01",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5429?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5260",
+      "title": "Pay Our Border Patrol and Customs Agents Act",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Appropriations."
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5260?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "P000622",
+          "name": "Rep. Patronis, Jimmy [R-FL-1]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Rep. Mace, Nancy [R-SC-1]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000594",
+          "name": "Rep. Gonzales, Tony [R-TX-23]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000558",
+          "name": "Rep. Guthrie, Brett [R-KY-2]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "R000619",
+          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001224",
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001325",
+          "name": "Rep. Biggs, Sheri [R-SC-3]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001212",
+          "name": "Rep. Stauber, Pete [R-MN-8]",
+          "party": "R",
+          "state": "MN",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "S001229",
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 32
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1031,7 +1342,7 @@
         "date": "2025-07-23",
         "text": "Referred to the Committee on Financial Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4646?format=json",
       "updateDate": null,
@@ -1176,7 +1487,7 @@
       "congress": 119,
       "billType": "hr",
       "number": "4367",
-      "title": "To reform the H-2A worker program, and for other purposes.",
+      "title": "Bracero Program 2.0 Act",
       "introducedDate": "2025-07-14",
       "latestAction": {
         "date": "2025-07-14",
@@ -1211,7 +1522,7 @@
       "congress": 119,
       "billType": "hr",
       "number": "3806",
-      "title": "To direct the Secretary of Agriculture to study and report on strategies to combat the New World screwworm and enhance the United States' preparedness and response capabilities against potential outbreaks.",
+      "title": "New World Screwworm Preparedness Act of 2025",
       "introducedDate": "2025-06-06",
       "latestAction": {
         "date": "2025-06-06",
@@ -1396,8 +1707,8 @@
       "title": "Bringing the Discount Window into the 21st Century Act",
       "introducedDate": "2025-05-14",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 48 - 1."
+        "date": "2025-09-04",
+        "text": "Placed on the Union Calendar, Calendar No. 191."
       },
       "policy_area": "Finance and Financial Sector",
       "subjects": [
@@ -1595,9 +1906,17 @@
           "state": "TX",
           "date": "2025-07-16",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -1734,9 +2053,17 @@
           "state": "TX",
           "date": "2025-07-23",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -2510,11 +2837,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 45,
-    "total_hr_sr_bipartisan": 27,
+    "total_hr_sr": 47,
+    "total_hr_sr_bipartisan": 29,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 64,
-    "bipartisan_rate_percentile_party": 84
+    "passed_rate_percentile_party": 61,
+    "bipartisan_rate_percentile_party": 87
   },
   "district": {
     "year": 2023,

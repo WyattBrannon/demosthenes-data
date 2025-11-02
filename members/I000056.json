@@ -81,7 +81,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 62
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -149,6 +149,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -831,7 +832,7 @@
     {
       "bioguide": "O000019",
       "name": "Rep. Obernolte, Jay [R-CA-8]",
-      "count": 22
+      "count": 23
     },
     {
       "bioguide": "R000593",
@@ -866,14 +867,19 @@
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "O000019",
+      "name": "Rep. Obernolte, Jay [R-CA-8]",
+      "count": 8
+    },
+    {
       "bioguide": "T000478",
       "name": "Rep. Tenney, Claudia [R-NY-22]",
       "count": 7
     },
     {
-      "bioguide": "O000019",
-      "name": "Rep. Obernolte, Jay [R-CA-8]",
-      "count": 7
+      "bioguide": "G000589",
+      "name": "Rep. Gooden, Lance [R-TX-5]",
+      "count": 5
     },
     {
       "bioguide": "L000578",
@@ -891,9 +897,14 @@
       "count": 4
     },
     {
-      "bioguide": "G000589",
-      "name": "Rep. Gooden, Lance [R-TX-5]",
+      "bioguide": "B001322",
+      "name": "Rep. Baumgartner, Michael [R-WA-5]",
       "count": 4
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+      "count": 3
     },
     {
       "bioguide": "L000596",
@@ -904,19 +915,62 @@
       "bioguide": "M001216",
       "name": "Rep. Mills, Cory [R-FL-7]",
       "count": 3
-    },
-    {
-      "bioguide": "B001322",
-      "name": "Rep. Baumgartner, Michael [R-WA-5]",
-      "count": 3
-    },
-    {
-      "bioguide": "H001077",
-      "name": "Rep. Higgins, Clay [R-LA-3]",
-      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5682",
+      "title": "To take certain land in the State of California into trust for the benefit of the Pechanga Band of Indians, and for other purposes.",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5682?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5632",
+      "title": "PEACE Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5632?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "S001213",
+          "name": "Rep. Steil, Bryan [R-WI-1]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-10-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -927,7 +981,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Energy",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5042?format=json",
       "updateDate": null,
@@ -982,9 +1036,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4982?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -996,7 +1059,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Oversight and Government Reform."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4887?format=json",
       "updateDate": null,
@@ -1014,7 +1077,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4676?format=json",
       "updateDate": null,
@@ -1123,9 +1186,17 @@
           "state": "TX",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -1217,9 +1288,17 @@
           "state": "NC",
           "date": "2025-07-15",
           "original": true
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1235,9 +1314,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4283?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1310,9 +1398,17 @@
           "state": "CA",
           "date": "2025-07-02",
           "original": false
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -1337,9 +1433,25 @@
           "state": "NC",
           "date": "2025-06-23",
           "original": true
+        },
+        {
+          "bioguide": "G000589",
+          "name": "Rep. Gooden, Lance [R-TX-5]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1383,8 +1495,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3914?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1393,11 +1514,17 @@
       "title": "FIREARM Act",
       "introducedDate": "2025-06-05",
       "latestAction": {
-        "date": "2025-06-05",
-        "text": "Referred to the House Committee on the Judiciary."
+        "date": "2025-09-10",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 15 - 8."
       },
       "policy_area": "Crime and Law Enforcement",
-      "subjects": [],
+      "subjects": [
+        "Civil actions and liability",
+        "Federal district courts",
+        "Firearms and explosives",
+        "Judicial review and appeals",
+        "Licensing and registrations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3770?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -2510,9 +2637,65 @@
           "state": "TX",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Rep. De La Cruz, Monica [R-TX-15]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -2886,11 +3069,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 203,
-    "total_hr_sr_bipartisan": 89,
+    "total_hr_sr": 205,
+    "total_hr_sr_bipartisan": 91,
     "total_hr_sr_became_public_law": 8,
     "passed_rate_percentile_party": 81,
-    "bipartisan_rate_percentile_party": 57
+    "bipartisan_rate_percentile_party": 58
   },
   "district": {
     "year": 2023,

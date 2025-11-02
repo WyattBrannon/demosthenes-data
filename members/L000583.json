@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -103,6 +103,7 @@
       "dim2": 0.194
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-05-13",
@@ -843,7 +844,7 @@
     {
       "bioguide": "C001103",
       "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
-      "count": 14
+      "count": 15
     },
     {
       "bioguide": "B001282",
@@ -861,37 +862,62 @@
       "count": 12
     },
     {
+      "bioguide": "M001204",
+      "name": "Rep. Meuser, Daniel [R-PA-9]",
+      "count": 9
+    },
+    {
+      "bioguide": "S001189",
+      "name": "Rep. Scott, Austin [R-GA-8]",
+      "count": 9
+    },
+    {
+      "bioguide": "W000812",
+      "name": "Rep. Wagner, Ann [R-MO-2]",
+      "count": 8
+    },
+    {
+      "bioguide": "A000372",
+      "name": "Rep. Allen, Rick W. [R-GA-12]",
+      "count": 8
+    },
+    {
       "bioguide": "H001072",
       "name": "Rep. Hill, J. French [R-AR-2]",
       "count": 8
     },
     {
-      "bioguide": "W000812",
-      "name": "Rep. Wagner, Ann [R-MO-2]",
-      "count": 7
-    },
-    {
-      "bioguide": "M001204",
-      "name": "Rep. Meuser, Daniel [R-PA-9]",
-      "count": 7
-    },
-    {
-      "bioguide": "G000576",
-      "name": "Rep. Grothman, Glenn [R-WI-6]",
-      "count": 7
-    },
-    {
-      "bioguide": "W000814",
-      "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
-      "count": 7
-    },
-    {
-      "bioguide": "A000372",
-      "name": "Rep. Allen, Rick W. [R-GA-12]",
+      "bioguide": "K000392",
+      "name": "Rep. Kustoff, David [R-TN-8]",
       "count": 7
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "M001204",
+      "name": "Rep. Meuser, Daniel [R-PA-9]",
+      "count": 4
+    },
+    {
+      "bioguide": "W000812",
+      "name": "Rep. Wagner, Ann [R-MO-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "F000471",
+      "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001129",
+      "name": "Rep. Collins, Mike [R-GA-10]",
+      "count": 3
+    },
     {
       "bioguide": "D000634",
       "name": "Rep. Downing, Troy [R-MT-2]",
@@ -903,47 +929,338 @@
       "count": 3
     },
     {
-      "bioguide": "R000612",
-      "name": "Rep. Rose, John W. [R-TN-6]",
+      "bioguide": "H001058",
+      "name": "Rep. Huizenga, Bill [R-MI-2]",
       "count": 2
     },
     {
-      "bioguide": "C001129",
-      "name": "Rep. Collins, Mike [R-GA-10]",
+      "bioguide": "S001189",
+      "name": "Rep. Scott, Austin [R-GA-8]",
       "count": 2
     },
     {
-      "bioguide": "C001103",
-      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "F000469",
-      "name": "Rep. Fulcher, Russ [R-ID-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000812",
-      "name": "Rep. Wagner, Ann [R-MO-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001204",
-      "name": "Rep. Meuser, Daniel [R-PA-9]",
-      "count": 2
-    },
-    {
-      "bioguide": "M000871",
-      "name": "Rep. Mann, Tracey [R-KS-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "F000472",
-      "name": "Rep. Franklin, Scott [R-FL-18]",
+      "bioguide": "W000788",
+      "name": "Rep. Williams, Nikema [D-GA-5]",
       "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5775",
+      "title": "FCRA Liability Harmonization Act",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the Committee on Financial Services, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5775?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000812",
+          "name": "Rep. Wagner, Ann [R-MO-2]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-10-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5644",
+      "title": "Catastrophic Specialty Hospital Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5644?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000197",
+          "name": "Rep. DeGette, Diana [D-CO-1]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "S001189",
+          "name": "Rep. Scott, Austin [R-GA-8]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5520",
+      "title": "Portal for Appraisal Licensing Act of 2025",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5520?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "F000471",
+          "name": "Rep. Fitzgerald, Scott [R-WI-5]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "K000392",
+          "name": "Rep. Kustoff, David [R-TN-8]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5362",
+      "title": "To name the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia, as the \"Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic\".",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-25",
+        "text": "Referred to the Subcommittee on Health."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5362?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "S001189",
+          "name": "Rep. Scott, Austin [R-GA-8]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "A000372",
+          "name": "Rep. Allen, Rick W. [R-GA-12]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "J000311",
+          "name": "Rep. Jack, Brian [R-GA-3]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "C001116",
+          "name": "Rep. Clyde, Andrew S. [R-GA-9]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "C001129",
+          "name": "Rep. Collins, Mike [R-GA-10]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 13
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1061,9 +1378,17 @@
           "state": "KY",
           "date": "2025-03-25",
           "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1079,7 +1404,7 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1799?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "B001282",
@@ -1160,9 +1485,33 @@
           "state": "AK",
           "date": "2025-06-03",
           "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1578,9 +1927,41 @@
           "state": "IA",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "M001224",
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000491",
+          "name": "Rep. Lucas, Frank D. [R-OK-3]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-19",
+          "original": false
         }
       ],
-      "cosponsors_total": 42
+      "cosponsors_total": 46
     },
     {
       "congress": 119,
@@ -1811,11 +2192,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 55,
-    "total_hr_sr_bipartisan": 21,
+    "total_hr_sr": 59,
+    "total_hr_sr_bipartisan": 25,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 48
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 55
   },
   "district": {
     "year": 2023,

@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -150,6 +150,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [],
   "key_votes": [
@@ -651,7 +652,7 @@
     {
       "bioguide": "M001139",
       "name": "Rep. Miller, Gary G. [R-CA-41]",
-      "count": 35
+      "count": 34
     },
     {
       "bioguide": "R000409",
@@ -696,18 +697,28 @@
       "count": 3
     },
     {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001260",
+      "name": "Rep. Buchanan, Vern [R-FL-16]",
+      "count": 3
+    },
+    {
       "bioguide": "T000478",
       "name": "Rep. Tenney, Claudia [R-NY-22]",
       "count": 2
     },
     {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "bioguide": "L000598",
+      "name": "Rep. LaLota, Nick [R-NY-1]",
       "count": 2
     },
     {
-      "bioguide": "B001260",
-      "name": "Rep. Buchanan, Vern [R-FL-16]",
+      "bioguide": "G000603",
+      "name": "Rep. Gill, Brandon [R-TX-26]",
       "count": 2
     },
     {
@@ -721,22 +732,30 @@
       "count": 2
     },
     {
-      "bioguide": "V000129",
-      "name": "Rep. Valadao, David G. [R-CA-21]",
-      "count": 2
-    },
-    {
-      "bioguide": "C001133",
-      "name": "Rep. Ciscomani, Juan [R-AZ-6]",
-      "count": 2
-    },
-    {
-      "bioguide": "C001112",
-      "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
       "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5726",
+      "title": "DOD Entrepreneurial Innovation Act",
+      "introducedDate": "2025-10-10",
+      "latestAction": {
+        "date": "2025-10-10",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5726?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -747,7 +766,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4638?format=json",
       "updateDate": null,
@@ -872,9 +891,33 @@
           "state": "MN",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-04",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 18
     },
     {
       "congress": 119,
@@ -883,10 +926,10 @@
       "title": "Department of Defense Appropriations Act, 2026",
       "introducedDate": "2025-06-16",
       "latestAction": {
-        "date": "2025-07-31",
-        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 136."
+        "date": "2025-10-16",
+        "text": "Motion by Senator Thune to reconsider the vote by which cloture on the motion to proceed to H.R. 4016 was not invoked (Record Vote No. 575) entered in Senate."
       },
-      "policy_area": "Armed Forces and National Security",
+      "policy_area": "Economics and Public Finance",
       "subjects": [
         "Africa",
         "American Samoa",
@@ -1098,9 +1141,17 @@
           "state": "CA",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1127,8 +1178,8 @@
       "title": "VSAFE Act of 2025",
       "introducedDate": "2025-02-27",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Voice Vote."
+        "date": "2025-10-21",
+        "text": "Placed on the Union Calendar, Calendar No. 302."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -1238,9 +1289,17 @@
           "state": "CA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1383,9 +1442,33 @@
           "state": "VA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Rep. Buchanan, Vern [R-FL-16]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -1456,9 +1539,17 @@
           "state": "CA",
           "date": "2025-02-10",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-04",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1467,8 +1558,8 @@
       "title": "Lower Colorado River Multi-Species Conservation Program Amendment Act of 2025",
       "introducedDate": "2025-01-31",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Ordered to be Reported (Amended) by Unanimous Consent."
+        "date": "2025-09-15",
+        "text": "Placed on the Union Calendar, Calendar No. 234."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -1736,17 +1827,49 @@
           "state": "OH",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 18
     }
   ],
   "work_statistics": {
     "total_hr_sr": 207,
-    "total_hr_sr_bipartisan": 91,
+    "total_hr_sr_bipartisan": 90,
     "total_hr_sr_became_public_law": 11,
     "passed_rate_percentile_party": 90,
-    "bipartisan_rate_percentile_party": 57
+    "bipartisan_rate_percentile_party": 56
   },
   "district": {
     "year": 2023,

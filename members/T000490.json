@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,6 +86,7 @@
       "dim2": 0.559
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-22",
@@ -664,6 +665,11 @@
       "count": 3
     },
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 3
+    },
+    {
       "bioguide": "C001129",
       "name": "Rep. Collins, Mike [R-GA-10]",
       "count": 3
@@ -681,11 +687,6 @@
     {
       "bioguide": "L000578",
       "name": "Rep. LaMalfa, Doug [R-CA-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001325",
-      "name": "Rep. Biggs, Sheri [R-SC-3]",
       "count": 2
     }
   ],
@@ -716,6 +717,11 @@
       "count": 3
     },
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 3
+    },
+    {
       "bioguide": "C001129",
       "name": "Rep. Collins, Mike [R-GA-10]",
       "count": 3
@@ -734,14 +740,27 @@
       "bioguide": "L000578",
       "name": "Rep. LaMalfa, Doug [R-CA-1]",
       "count": 2
-    },
-    {
-      "bioguide": "B001325",
-      "name": "Rep. Biggs, Sheri [R-SC-3]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5610",
+      "title": "Improving Drought Monitoring Act",
+      "introducedDate": "2025-09-26",
+      "latestAction": {
+        "date": "2025-09-26",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5610?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -752,7 +771,7 @@
         "date": "2025-08-12",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4964?format=json",
       "updateDate": null,
@@ -861,9 +880,25 @@
           "state": "MS",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -875,7 +910,7 @@
         "date": "2025-07-17",
         "text": "Referred to the House Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4535?format=json",
       "updateDate": null,
@@ -952,9 +987,25 @@
           "state": "OH",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "D000626",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -1013,9 +1064,41 @@
           "state": "IL",
           "date": "2025-07-02",
           "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1144,9 +1227,25 @@
           "state": "FL",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "P000622",
+          "name": "Rep. Patronis, Jimmy [R-FL-1]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001212",
+          "name": "Rep. Stauber, Pete [R-MN-8]",
+          "party": "R",
+          "state": "MN",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -1173,8 +1272,8 @@
       "title": "Water Resources Technical Assistance Review Act",
       "introducedDate": "2025-05-15",
       "latestAction": {
-        "date": "2025-06-11",
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 61 - 3."
+        "date": "2025-09-16",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
       },
       "policy_area": "Environmental Protection",
       "subjects": [
@@ -1196,9 +1295,17 @@
           "state": "AL",
           "date": "2025-06-03",
           "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1210,7 +1317,7 @@
         "date": "2025-05-08",
         "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": "Energy",
+      "policy_area": "Taxation",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3313?format=json",
       "updateDate": null,
@@ -1266,9 +1373,17 @@
           "state": "IL",
           "date": "2025-04-30",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1908,9 +2023,17 @@
           "state": "NC",
           "date": "2025-06-27",
           "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 22
     },
     {
       "congress": 119,
@@ -2025,11 +2148,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 17,
+    "total_hr_sr": 18,
     "total_hr_sr_bipartisan": 4,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 25
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 22
   },
   "district": {
     "year": 2023,

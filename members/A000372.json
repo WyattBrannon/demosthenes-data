@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 52
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -107,6 +107,7 @@
       "dim2": 0.746
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-22",
@@ -794,6 +795,16 @@
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "M001208",
+      "name": "Rep. McBath, Lucy [D-GA-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "O000177",
+      "name": "Rep. Onder, Robert F. [R-MO-3]",
+      "count": 2
+    },
+    {
       "bioguide": "C001103",
       "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
       "count": 2
@@ -804,47 +815,143 @@
       "count": 2
     },
     {
+      "bioguide": "M001215",
+      "name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+      "count": 1
+    },
+    {
+      "bioguide": "R000599",
+      "name": "Rep. Ruiz, Raul [D-CA-25]",
+      "count": 1
+    },
+    {
+      "bioguide": "E000246",
+      "name": "Rep. Edwards, Chuck [R-NC-11]",
+      "count": 1
+    },
+    {
+      "bioguide": "M001233",
+      "name": "Rep. Messmer, Mark B. [R-IN-8]",
+      "count": 1
+    },
+    {
+      "bioguide": "B001322",
+      "name": "Rep. Baumgartner, Michael [R-WA-5]",
+      "count": 1
+    },
+    {
       "bioguide": "B001306",
       "name": "Rep. Balderson, Troy [R-OH-12]",
-      "count": 1
-    },
-    {
-      "bioguide": "L000566",
-      "name": "Rep. Latta, Robert E. [R-OH-5]",
-      "count": 1
-    },
-    {
-      "bioguide": "N000189",
-      "name": "Rep. Newhouse, Dan [R-WA-4]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000568",
-      "name": "Rep. Griffith, H. Morgan [R-VA-9]",
-      "count": 1
-    },
-    {
-      "bioguide": "O000019",
-      "name": "Rep. Obernolte, Jay [R-CA-8]",
-      "count": 1
-    },
-    {
-      "bioguide": "W000795",
-      "name": "Rep. Wilson, Joe [R-SC-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "B001314",
-      "name": "Rep. Bean, Aaron [R-FL-4]",
-      "count": 1
-    },
-    {
-      "bioguide": "N000190",
-      "name": "Rep. Norman, Ralph [R-SC-5]",
       "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5509",
+      "title": "Safe Step Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5509?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "M001215",
+          "name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-19",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5169",
+      "title": "Retire through Ownership Act",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 35 - 0."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Employee benefits and pensions",
+        "Financial services and investments",
+        "Securities"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5169?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "M001233",
+          "name": "Rep. Messmer, Mark B. [R-IN-8]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-10-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -855,7 +962,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Energy",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4626?format=json",
       "updateDate": null,
@@ -948,7 +1055,7 @@
         "date": "2025-06-26",
         "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Labor and Employment",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4154?format=json",
       "updateDate": null,
@@ -1025,9 +1132,41 @@
           "state": "LA",
           "date": "2025-07-15",
           "original": false
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1295,11 +1434,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 46,
-    "total_hr_sr_bipartisan": 10,
+    "total_hr_sr": 48,
+    "total_hr_sr_bipartisan": 12,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 85,
-    "bipartisan_rate_percentile_party": 21
+    "passed_rate_percentile_party": 84,
+    "bipartisan_rate_percentile_party": 26
   },
   "district": {
     "year": 2023,

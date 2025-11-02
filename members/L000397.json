@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 35
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -153,6 +153,7 @@
       "dim2": 0.136
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -946,14 +947,24 @@
       "count": 43
     },
     {
+      "bioguide": "C001080",
+      "name": "Rep. Chu, Judy [D-CA-32]",
+      "count": 40
+    },
+    {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 40
     },
     {
-      "bioguide": "C001080",
-      "name": "Rep. Chu, Judy [D-CA-32]",
-      "count": 39
+      "bioguide": "H001068",
+      "name": "Rep. Huffman, Jared [D-CA-2]",
+      "count": 37
+    },
+    {
+      "bioguide": "M001163",
+      "name": "Rep. Matsui, Doris O. [D-CA-5]",
+      "count": 37
     },
     {
       "bioguide": "M000312",
@@ -966,30 +977,40 @@
       "count": 37
     },
     {
-      "bioguide": "H001068",
-      "name": "Rep. Huffman, Jared [D-CA-2]",
-      "count": 36
-    },
-    {
-      "bioguide": "M001163",
-      "name": "Rep. Matsui, Doris O. [D-CA-5]",
-      "count": 36
-    },
-    {
       "bioguide": "J000032",
       "name": "Rep. Jackson-Lee, Sheila [D-TX-18]",
-      "count": 36
+      "count": 35
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "R000305",
       "name": "Rep. Ross, Deborah K. [D-NC-2]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "H001068",
       "name": "Rep. Huffman, Jared [D-CA-2]",
+      "count": 7
+    },
+    {
+      "bioguide": "F000483",
+      "name": "Rep. Friedman, Laura [D-CA-30]",
+      "count": 6
+    },
+    {
+      "bioguide": "R000620",
+      "name": "Rep. Rivas, Luz [D-CA-29]",
+      "count": 6
+    },
+    {
+      "bioguide": "W000830",
+      "name": "Rep. Whitesides, George [D-CA-27]",
+      "count": 6
+    },
+    {
+      "bioguide": "F000477",
+      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
       "count": 6
     },
     {
@@ -1011,29 +1032,468 @@
       "bioguide": "S001215",
       "name": "Rep. Stevens, Haley M. [D-MI-11]",
       "count": 5
-    },
-    {
-      "bioguide": "S001226",
-      "name": "Rep. Salinas, Andrea [D-OR-6]",
-      "count": 5
-    },
-    {
-      "bioguide": "F000477",
-      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
-      "count": 5
-    },
-    {
-      "bioguide": "A000380",
-      "name": "Rep. Amo, Gabe [D-RI-1]",
-      "count": 5
-    },
-    {
-      "bioguide": "S001230",
-      "name": "Rep. Subramanyam, Suhas [D-VA-10]",
-      "count": 5
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5449",
+      "title": "Redistricting Reform Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5449?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "A000371",
+          "name": "Rep. Aguilar, Pete [D-CA-33]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001080",
+          "name": "Rep. Chu, Judy [D-CA-28]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001123",
+          "name": "Rep. Cisneros, Gilbert Ray [D-CA-31]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000623",
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "F000483",
+          "name": "Rep. Friedman, Laura [D-CA-30]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000598",
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000585",
+          "name": "Rep. Gomez, Jimmy [D-CA-34]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000389",
+          "name": "Rep. Khanna, Ro [D-CA-17]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000607",
+          "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001163",
+          "name": "Rep. Matsui, Doris O. [D-CA-7]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001241",
+          "name": "Rep. Min, Dave [D-CA-47]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "P000197",
+          "name": "Rep. Pelosi, Nancy [D-CA-11]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000620",
+          "name": "Rep. Rivas, Luz M. [D-CA-29]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001156",
+          "name": "Rep. S\u00e1nchez, Linda T. [D-CA-38]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001193",
+          "name": "Rep. Swalwell, Eric [D-CA-14]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Rep. Takano, Mark [D-CA-39]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000491",
+          "name": "Rep. Tran, Derek [D-CA-45]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000187",
+          "name": "Rep. Waters, Maxine [D-CA-43]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Rep. Vargas, Juan [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001214",
+          "name": "Rep. Mrvan, Frank J. [D-IN-1]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000553",
+          "name": "Rep. Green, Al [D-TX-9]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "F000477",
+          "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Rep. Quigley, Mike [D-IL-5]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 55
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1044,7 +1504,7 @@
         "date": "2025-08-19",
         "text": "Referred to the House Committee on Science, Space, and Technology."
       },
-      "policy_area": null,
+      "policy_area": "Science, Technology, Communications",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4999?format=json",
       "updateDate": null,
@@ -1071,7 +1531,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4696?format=json",
       "updateDate": null,
@@ -1316,9 +1776,57 @@
           "state": "IL",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "S001205",
+          "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 30
+      "cosponsors_total": 36
     },
     {
       "congress": 119,
@@ -1399,9 +1907,17 @@
           "state": "CA",
           "date": "2025-06-30",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1621,9 +2137,17 @@
           "state": "MI",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "M001234",
+          "name": "Rep. Morrison, Kelly [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 22
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -2461,10 +2985,10 @@
   ],
   "work_statistics": {
     "total_hr_sr": 188,
-    "total_hr_sr_bipartisan": 87,
+    "total_hr_sr_bipartisan": 86,
     "total_hr_sr_became_public_law": 5,
-    "passed_rate_percentile_party": 80,
-    "bipartisan_rate_percentile_party": 61
+    "passed_rate_percentile_party": 79,
+    "bipartisan_rate_percentile_party": 62
   },
   "district": {
     "year": 2023,

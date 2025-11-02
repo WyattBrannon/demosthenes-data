@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,6 +91,7 @@
       "dim2": 0.407
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -744,7 +745,12 @@
     {
       "bioguide": "V000134",
       "name": "Rep. Van Duyne, Beth [R-TX-24]",
-      "count": 7
+      "count": 8
+    },
+    {
+      "bioguide": "J000304",
+      "name": "Rep. Jackson, Ronny [R-TX-13]",
+      "count": 5
     },
     {
       "bioguide": "V000133",
@@ -782,11 +788,6 @@
       "count": 4
     },
     {
-      "bioguide": "J000304",
-      "name": "Rep. Jackson, Ronny [R-TX-13]",
-      "count": 4
-    },
-    {
       "bioguide": "L000583",
       "name": "Rep. Loudermilk, Barry [R-GA-11]",
       "count": 4
@@ -794,13 +795,43 @@
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "F000475",
-      "name": "Rep. Finstad, Brad [R-MN-1]",
+      "bioguide": "V000134",
+      "name": "Rep. Van Duyne, Beth [R-TX-24]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
       "count": 2
     },
     {
-      "bioguide": "V000134",
-      "name": "Rep. Van Duyne, Beth [R-TX-24]",
+      "bioguide": "F000246",
+      "name": "Rep. Fallon, Pat [R-TX-4]",
+      "count": 2
+    },
+    {
+      "bioguide": "J000304",
+      "name": "Rep. Jackson, Ronny [R-TX-13]",
+      "count": 2
+    },
+    {
+      "bioguide": "W000806",
+      "name": "Rep. Webster, Daniel [R-FL-11]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001101",
+      "name": "Rep. Harrigan, Pat [R-NC-10]",
+      "count": 2
+    },
+    {
+      "bioguide": "F000475",
+      "name": "Rep. Finstad, Brad [R-MN-1]",
       "count": 2
     },
     {
@@ -812,39 +843,183 @@
       "bioguide": "H001098",
       "name": "Rep. Hamadeh, Abraham [R-AZ-8]",
       "count": 2
-    },
-    {
-      "bioguide": "E000071",
-      "name": "Rep. Ellzey, Jake [R-TX-6]",
-      "count": 2
-    },
-    {
-      "bioguide": "C001132",
-      "name": "Rep. Crane, Elijah [R-AZ-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "G000565",
-      "name": "Rep. Gosar, Paul A. [R-AZ-9]",
-      "count": 2
-    },
-    {
-      "bioguide": "D000530",
-      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
-      "count": 1
-    },
-    {
-      "bioguide": "P000048",
-      "name": "Rep. Pfluger, August [R-TX-11]",
-      "count": 1
-    },
-    {
-      "bioguide": "D000230",
-      "name": "Rep. Davis, Donald G. [D-NC-1]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5477",
+      "title": "Litigation Reimbursement Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5477?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "E000235",
+          "name": "Rep. Ezell, Mike [R-MS-4]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5438",
+      "title": "Incentivize Savings Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Economics and Public Finance",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5438?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001317",
+          "name": "Rep. Brecheen, Josh [R-OK-2]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000246",
+          "name": "Rep. Fallon, Pat [R-TX-4]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Rep. Jackson, Ronny [R-TX-13]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001229",
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -855,7 +1030,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4704?format=json",
       "updateDate": null,
@@ -988,9 +1163,25 @@
           "state": "VA",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 18
     },
     {
       "congress": 119,
@@ -1474,17 +1665,25 @@
           "state": "FL",
           "date": "2025-08-12",
           "original": false
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 37
+      "cosponsors_total": 38
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 18,
+    "total_hr_sr": 20,
     "total_hr_sr_bipartisan": 4,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 22
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 18
   },
   "district": {
     "year": 2023,

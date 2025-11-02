@@ -113,7 +113,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 7
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -201,6 +201,7 @@
       "dim2": 0.343
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-01",
@@ -1099,7 +1100,12 @@
     {
       "bioguide": "S001184",
       "name": "Sen. Scott, Tim [R-SC]",
-      "count": 43
+      "count": 44
+    },
+    {
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "count": 38
     },
     {
       "bioguide": "R000595",
@@ -1107,9 +1113,9 @@
       "count": 38
     },
     {
-      "bioguide": "B001243",
-      "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 37
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "count": 36
     },
     {
       "bioguide": "T000476",
@@ -1119,17 +1125,17 @@
     {
       "bioguide": "C001056",
       "name": "Sen. Cornyn, John [R-TX]",
-      "count": 33
-    },
-    {
-      "bioguide": "B001277",
-      "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 33
+      "count": 34
     },
     {
       "bioguide": "C001088",
       "name": "Sen. Coons, Christopher A. [D-DE]",
-      "count": 32
+      "count": 33
+    },
+    {
+      "bioguide": "W000437",
+      "name": "Sen. Wicker, Roger F. [R-MS]",
+      "count": 29
     },
     {
       "bioguide": "G000386",
@@ -1137,69 +1143,150 @@
       "count": 29
     },
     {
-      "bioguide": "W000437",
-      "name": "Sen. Wicker, Roger F. [R-MS]",
-      "count": 28
-    },
-    {
       "bioguide": "D000618",
       "name": "Sen. Daines, Steve [R-MT]",
-      "count": 27
+      "count": 28
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "B001319",
       "name": "Sen. Britt, Katie Boyd [R-AL]",
+      "count": 9
+    },
+    {
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
       "count": 6
     },
     {
       "bioguide": "F000479",
       "name": "Sen. Fetterman, John [D-PA]",
+      "count": 5
+    },
+    {
+      "bioguide": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "count": 4
+    },
+    {
+      "bioguide": "C001095",
+      "name": "Sen. Cotton, Tom [R-AR]",
       "count": 4
     },
     {
       "bioguide": "S001184",
       "name": "Sen. Scott, Tim [R-SC]",
+      "count": 4
+    },
+    {
+      "bioguide": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
       "count": 3
     },
     {
-      "bioguide": "C001088",
-      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "bioguide": "B001261",
+      "name": "Sen. Barrasso, John [R-WY]",
       "count": 3
     },
     {
-      "bioguide": "B001236",
-      "name": "Sen. Boozman, John [R-AR]",
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
       "count": 3
     },
     {
-      "bioguide": "C001095",
-      "name": "Sen. Cotton, Tom [R-AR]",
+      "bioguide": "B001305",
+      "name": "Sen. Budd, Ted [R-NC]",
       "count": 3
-    },
-    {
-      "bioguide": "T000476",
-      "name": "Sen. Tillis, Thomas [R-NC]",
-      "count": 3
-    },
-    {
-      "bioguide": "B001277",
-      "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 3
-    },
-    {
-      "bioguide": "K000377",
-      "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000790",
-      "name": "Sen. Warnock, Raphael G. [D-GA]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2978",
+      "title": "Designating the Russian Federation as a State Sponsor of Terrorism Act",
+      "introducedDate": "2025-10-07",
+      "latestAction": {
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 246."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2978?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-07",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2805",
+      "title": "Designating the Russian Federation as a State Sponsor of Terrorism Act",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 160."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2805?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-15",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1210,7 +1297,7 @@
         "date": "2025-08-01",
         "text": "Read twice and referred to the Committee on Energy and Natural Resources."
       },
-      "policy_area": null,
+      "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2644?format=json",
       "updateDate": null,
@@ -2027,9 +2114,33 @@
           "state": "NM",
           "date": "2025-02-27",
           "original": true
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -2094,9 +2205,17 @@
           "state": "OH",
           "date": "2025-05-19",
           "original": false
+        },
+        {
+          "bioguide": "B001299",
+          "name": "Sen. Banks, Jim [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -2130,11 +2249,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 93,
-    "total_hr_sr_bipartisan": 45,
+    "total_hr_sr": 95,
+    "total_hr_sr_bipartisan": 47,
     "total_hr_sr_became_public_law": 4,
     "passed_rate_percentile_party": 85,
-    "bipartisan_rate_percentile_party": 66
+    "bipartisan_rate_percentile_party": 69
   },
   "district": {
     "year": 2023,

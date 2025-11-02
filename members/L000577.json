@@ -105,7 +105,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 57
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -153,6 +153,7 @@
       "dim2": -0.049
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-01",
@@ -929,14 +930,66 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "C001114",
+      "name": "Sen. Curtis, John R. [R-UT]",
+      "count": 20
+    },
+    {
       "bioguide": "B001243",
       "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 18
+      "count": 19
     },
+    {
+      "bioguide": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "count": 17
+    },
+    {
+      "bioguide": "L000571",
+      "name": "Sen. Lummis, Cynthia M. [R-WY]",
+      "count": 15
+    },
+    {
+      "bioguide": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
+      "count": 12
+    },
+    {
+      "bioguide": "C001098",
+      "name": "Sen. Cruz, Ted [R-TX]",
+      "count": 11
+    },
+    {
+      "bioguide": "B001305",
+      "name": "Sen. Budd, Ted [R-NC]",
+      "count": 10
+    },
+    {
+      "bioguide": "R000584",
+      "name": "Sen. Risch, James E. [R-ID]",
+      "count": 10
+    },
+    {
+      "bioguide": "S001227",
+      "name": "Sen. Schmitt, Eric [R-MO]",
+      "count": 10
+    },
+    {
+      "bioguide": "C001075",
+      "name": "Sen. Cassidy, Bill [R-LA]",
+      "count": 9
+    }
+  ],
+  "cosponsors_top_latest": [
     {
       "bioguide": "C001114",
       "name": "Sen. Curtis, John R. [R-UT]",
-      "count": 15
+      "count": 20
+    },
+    {
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "count": 16
     },
     {
       "bioguide": "S001217",
@@ -954,84 +1007,446 @@
       "count": 10
     },
     {
-      "bioguide": "S001227",
-      "name": "Sen. Schmitt, Eric [R-MO]",
-      "count": 9
-    },
-    {
-      "bioguide": "R000584",
-      "name": "Sen. Risch, James E. [R-ID]",
-      "count": 9
-    },
-    {
       "bioguide": "C001098",
       "name": "Sen. Cruz, Ted [R-TX]",
-      "count": 9
+      "count": 10
     },
     {
       "bioguide": "H001089",
       "name": "Sen. Hawley, Josh [R-MO]",
-      "count": 8
-    },
-    {
-      "bioguide": "P000603",
-      "name": "Sen. Paul, Rand [R-KY]",
-      "count": 8
-    }
-  ],
-  "cosponsors_top_latest": [
-    {
-      "bioguide": "C001114",
-      "name": "Sen. Curtis, John R. [R-UT]",
-      "count": 15
-    },
-    {
-      "bioguide": "B001243",
-      "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 13
-    },
-    {
-      "bioguide": "S001217",
-      "name": "Sen. Scott, Rick [R-FL]",
-      "count": 11
-    },
-    {
-      "bioguide": "H001089",
-      "name": "Sen. Hawley, Josh [R-MO]",
-      "count": 8
-    },
-    {
-      "bioguide": "C001096",
-      "name": "Sen. Cramer, Kevin [R-ND]",
-      "count": 8
-    },
-    {
-      "bioguide": "C001098",
-      "name": "Sen. Cruz, Ted [R-TX]",
-      "count": 7
-    },
-    {
-      "bioguide": "L000571",
-      "name": "Sen. Lummis, Cynthia M. [R-WY]",
-      "count": 7
-    },
-    {
-      "bioguide": "S001227",
-      "name": "Sen. Schmitt, Eric [R-MO]",
-      "count": 6
+      "count": 9
     },
     {
       "bioguide": "B001305",
       "name": "Sen. Budd, Ted [R-NC]",
-      "count": 6
+      "count": 8
     },
     {
-      "bioguide": "H000601",
-      "name": "Sen. Hagerty, Bill [R-TN]",
-      "count": 5
+      "bioguide": "C001075",
+      "name": "Sen. Cassidy, Bill [R-LA]",
+      "count": 8
+    },
+    {
+      "bioguide": "M001242",
+      "name": "Sen. Moreno, Bernie [R-OH]",
+      "count": 7
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3077",
+      "title": "A bill to amend title 18, United States Code, to provide appropriate standards for the inclusion of a term of supervised release after imprisonment, and for other purposes.",
+      "introducedDate": "2025-10-30",
+      "latestAction": {
+        "date": "2025-10-30",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3077?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000437",
+          "name": "Sen. Wicker, Roger F. [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-30",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-10-30",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-30",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3049",
+      "title": "Fair Air Enforcement Act of 2025",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3049?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3004",
+      "title": "Upper Price River Watershed Project Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3004?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2969",
+      "title": "A bill to amend title 54, United States Code, to provide that State law shall apply to the use of motor vehicles on roads within a System unit.",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2969?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2970",
+      "title": "A bill to authorize the use of off-highway vehicles in certain areas of the Capitol Reef National Park, Utah.",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2970?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2968",
+      "title": "Outdoor Americans with Disabilities Act",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2968?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2967",
+      "title": "Border Lands Conservation Act",
+      "introducedDate": "2025-10-02",
+      "latestAction": {
+        "date": "2025-10-22",
+        "text": "Star Print ordered on the bill."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2967?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-02",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-02",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-02",
+          "original": true
+        },
+        {
+          "bioguide": "C001095",
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2945",
+      "title": "Safe Transit Accountability Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2945?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2844",
+      "title": "Charlie Kirk Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-10-07",
+        "text": "Star Print ordered on the bill."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2844?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2742",
+      "title": "Protect Consumers from Reallocation Costs Act of 2025",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2742?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2685",
+      "title": "Department of War Restoration Act of 2025",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2685?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1042,7 +1457,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Labor and Employment",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2568?format=json",
       "updateDate": null,
@@ -1060,7 +1475,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Law",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2634?format=json",
       "updateDate": null,
@@ -1087,7 +1502,7 @@
         "date": "2025-07-30",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2536?format=json",
       "updateDate": null,
@@ -1105,7 +1520,7 @@
         "date": "2025-07-30",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2535?format=json",
       "updateDate": null,
@@ -1123,7 +1538,7 @@
         "date": "2025-07-30",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2537?format=json",
       "updateDate": null,
@@ -1141,7 +1556,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2404?format=json",
       "updateDate": null,
@@ -1159,7 +1574,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2343?format=json",
       "updateDate": null,
@@ -1530,8 +1945,8 @@
       "title": "University of Utah Research Park Act",
       "introducedDate": "2025-04-10",
       "latestAction": {
-        "date": "2025-04-10",
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+        "date": "2025-09-11",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -1964,9 +2379,17 @@
           "state": "SC",
           "date": "2025-05-21",
           "original": false
+        },
+        {
+          "bioguide": "M001242",
+          "name": "Sen. Moreno, Bernie [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-29",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -2283,7 +2706,10 @@
         "text": "Read twice and referred to the Committee on Armed Services."
       },
       "policy_area": "Armed Forces and National Security",
-      "subjects": [],
+      "subjects": [
+        "Intergovernmental relations",
+        "National Guard and reserves"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/807?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2431,9 +2857,33 @@
           "state": "DE",
           "date": "2025-06-25",
           "original": false
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-20",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -3835,9 +4285,17 @@
           "state": "WV",
           "date": "2025-05-08",
           "original": false
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 28
+      "cosponsors_total": 29
     },
     {
       "congress": 119,
@@ -3899,10 +4357,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 122,
+    "total_hr_sr": 121,
     "total_hr_sr_bipartisan": 7,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
+    "passed_rate_percentile_party": 19,
     "bipartisan_rate_percentile_party": 6
   },
   "district": {

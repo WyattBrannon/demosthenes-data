@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,6 +82,7 @@
       "dim2": -0.565
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [],
   "key_votes": [
@@ -456,109 +457,319 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "V000081",
+      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "count": 4
+    },
+    {
       "bioguide": "T000486",
       "name": "Rep. Torres, Ritchie [D-NY-15]",
+      "count": 4
+    },
+    {
+      "bioguide": "K000402",
+      "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
       "count": 2
     },
     {
-      "bioguide": "V000081",
-      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "bioguide": "T000193",
+      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
       "count": 2
     },
     {
       "bioguide": "H001068",
       "name": "Rep. Huffman, Jared [D-CA-2]",
-      "count": 1
+      "count": 2
+    },
+    {
+      "bioguide": "E000297",
+      "name": "Rep. Espaillat, Adriano [D-NY-13]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Rep. Soto, Darren [D-FL-9]",
+      "count": 2
     },
     {
       "bioguide": "O000172",
       "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001211",
+      "name": "Rep. Stanton, Greg [D-AZ-4]",
       "count": 1
     },
     {
-      "bioguide": "C001055",
-      "name": "Rep. Case, Ed [D-HI-1]",
-      "count": 1
-    },
-    {
-      "bioguide": "L000273",
-      "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
-      "count": 1
-    },
-    {
-      "bioguide": "T000491",
-      "name": "Rep. Tran, Derek [D-CA-45]",
-      "count": 1
-    },
-    {
-      "bioguide": "B001285",
-      "name": "Rep. Brownley, Julia [D-CA-26]",
-      "count": 1
-    },
-    {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 1
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+      "bioguide": "N000015",
+      "name": "Rep. Neal, Richard E. [D-MA-1]",
       "count": 1
     }
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "V000081",
+      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "count": 4
+    },
+    {
       "bioguide": "T000486",
       "name": "Rep. Torres, Ritchie [D-NY-15]",
+      "count": 4
+    },
+    {
+      "bioguide": "K000402",
+      "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
       "count": 2
     },
     {
-      "bioguide": "V000081",
-      "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+      "bioguide": "T000193",
+      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
       "count": 2
     },
     {
       "bioguide": "H001068",
       "name": "Rep. Huffman, Jared [D-CA-2]",
-      "count": 1
+      "count": 2
+    },
+    {
+      "bioguide": "E000297",
+      "name": "Rep. Espaillat, Adriano [D-NY-13]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Rep. Soto, Darren [D-FL-9]",
+      "count": 2
     },
     {
       "bioguide": "O000172",
       "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001211",
+      "name": "Rep. Stanton, Greg [D-AZ-4]",
       "count": 1
     },
     {
-      "bioguide": "C001055",
-      "name": "Rep. Case, Ed [D-HI-1]",
-      "count": 1
-    },
-    {
-      "bioguide": "L000273",
-      "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
-      "count": 1
-    },
-    {
-      "bioguide": "T000491",
-      "name": "Rep. Tran, Derek [D-CA-45]",
-      "count": 1
-    },
-    {
-      "bioguide": "B001285",
-      "name": "Rep. Brownley, Julia [D-CA-26]",
-      "count": 1
-    },
-    {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 1
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+      "bioguide": "N000015",
+      "name": "Rep. Neal, Richard E. [D-MA-1]",
       "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5464",
+      "title": "Net Metering Protection Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5464?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5432",
+      "title": "Puerto Rico Energy Oversight and Accountability Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5432?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5395",
+      "title": "Disaster Relief Disbursement Accountability Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+      },
+      "policy_area": "Emergency Management",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5395?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001211",
+          "name": "Rep. Stanton, Greg [D-AZ-4]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5168",
+      "title": "Puerto Rico Nutrition Assistance Fairness Act",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5168?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "M000312",
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001085",
+          "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Rep. Torres, Ritchie [D-NY-15]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Rep. Espaillat, Adriano [D-NY-13]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000594",
+          "name": "Rep. Gonzales, Tony [R-TX-23]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "C001123",
+          "name": "Rep. Cisneros, Gilbert Ray [D-CA-31]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 15
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -736,9 +947,17 @@
           "state": "NY",
           "date": "2025-05-08",
           "original": false
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -747,8 +966,8 @@
       "title": "Strengthening Oversight of DHS Intelligence Act",
       "introducedDate": "2025-03-21",
       "latestAction": {
-        "date": "2025-03-25",
-        "text": "Forwarded by Subcommittee to Full Committee by Voice Vote."
+        "date": "2025-09-03",
+        "text": "Ordered to be Reported by the Yeas and Nays: 22 - 0."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -759,7 +978,7 @@
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2261?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "T000193",
@@ -768,9 +987,17 @@
           "state": "MS",
           "date": "2025-04-01",
           "original": false
+        },
+        {
+          "bioguide": "E000300",
+          "name": "Rep. Evans, Gabe [R-CO-8]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -844,11 +1071,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 9,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 13,
+    "total_hr_sr_bipartisan": 2,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 2
+    "bipartisan_rate_percentile_party": 9
   },
   "profileText": "a Resident Commissioner from Puerto Rico; born in San Juan, P.R., May 11, 1991; A.B., Harvard College, Cambridge, Mass., 2013; J.D., Stanford University, Stanford, Calif., 2017; lawyer, private practice; clerk, U.S. District Court of Puerto Rico; author; elected as a Popular Democrat to the One Hundred Nineteenth Congress to a four-year term in 2024 (January 3, 2025-present).",
   "ideologically_similar": [

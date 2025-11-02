@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 52
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,6 +108,7 @@
       "dim2": -0.418
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-24",
@@ -690,7 +691,7 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 53
+      "count": 55
     },
     {
       "bioguide": "G000551",
@@ -705,7 +706,12 @@
     {
       "bioguide": "M000312",
       "name": "Rep. McGovern, James P. [D-MA-2]",
-      "count": 36
+      "count": 37
+    },
+    {
+      "bioguide": "P000607",
+      "name": "Rep. Pocan, Mark [D-WI-2]",
+      "count": 34
     },
     {
       "bioguide": "S001145",
@@ -713,14 +719,14 @@
       "count": 34
     },
     {
-      "bioguide": "P000607",
-      "name": "Rep. Pocan, Mark [D-WI-2]",
-      "count": 32
-    },
-    {
       "bioguide": "L000551",
       "name": "Rep. Lee, Barbara [D-CA-13]",
       "count": 31
+    },
+    {
+      "bioguide": "V000130",
+      "name": "Rep. Vargas, Juan [D-CA-51]",
+      "count": 27
     },
     {
       "bioguide": "S001200",
@@ -731,66 +737,392 @@
       "bioguide": "L000579",
       "name": "Rep. Lowenthal, Alan S. [D-CA-47]",
       "count": 27
-    },
-    {
-      "bioguide": "V000130",
-      "name": "Rep. Vargas, Juan [D-CA-51]",
-      "count": 26
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 6
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-13]",
+      "count": 5
+    },
+    {
+      "bioguide": "R000606",
+      "name": "Rep. Raskin, Jamie [D-MD-8]",
+      "count": 5
+    },
+    {
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
+      "count": 5
+    },
     {
       "bioguide": "M001188",
       "name": "Rep. Meng, Grace [D-NY-6]",
       "count": 5
     },
     {
-      "bioguide": "W000187",
-      "name": "Rep. Waters, Maxine [D-CA-43]",
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
       "count": 4
     },
     {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
       "count": 4
     },
     {
-      "bioguide": "M001160",
-      "name": "Rep. Moore, Gwen [D-WI-4]",
+      "bioguide": "P000607",
+      "name": "Rep. Pocan, Mark [D-WI-2]",
       "count": 4
     },
     {
-      "bioguide": "K000391",
-      "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
       "count": 4
     },
     {
-      "bioguide": "C001055",
-      "name": "Rep. Case, Ed [D-HI-1]",
+      "bioguide": "F000476",
+      "name": "Rep. Frost, Maxwell [D-FL-10]",
       "count": 4
-    },
-    {
-      "bioguide": "M001163",
-      "name": "Rep. Matsui, Doris O. [D-CA-6]",
-      "count": 4
-    },
-    {
-      "bioguide": "T000487",
-      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
-      "count": 4
-    },
-    {
-      "bioguide": "S001156",
-      "name": "Rep. S\u00e1nchez, Linda T. [D-CA-38]",
-      "count": 3
-    },
-    {
-      "bioguide": "M001214",
-      "name": "Rep. Mrvan, Frank J. [D-IN-1]",
-      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5786",
+      "title": "White House NOT FOR SALE Act",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5786?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001241",
+          "name": "Rep. Min, Dave [D-CA-47]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Rep. Pocan, Mark [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5787",
+      "title": "BALL Act",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5787?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Rep. Pocan, Mark [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5723",
+      "title": "Fraud Reduction And Uncovering Deception (FRAUD) in VA Disability Exams Act",
+      "introducedDate": "2025-10-08",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5723?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5535",
+      "title": "Veteran Service Recognition Act of 2025",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Veterans' Affairs, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5535?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "N000002",
+          "name": "Rep. Nadler, Jerrold [D-NY-12]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Rep. Vargas, Juan [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "T000491",
+          "name": "Rep. Tran, Derek [D-CA-45]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M000312",
+          "name": "Rep. McGovern, James P. [D-MA-2]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Rep. Ramirez, Delia C. [D-IL-3]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1546,9 +1878,33 @@
           "state": "MD",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "D000623",
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 88
+      "cosponsors_total": 91
     },
     {
       "congress": 119,
@@ -3269,9 +3625,17 @@
           "state": "FL",
           "date": "2025-04-29",
           "original": true
+        },
+        {
+          "bioguide": "W000831",
+          "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 213
+      "cosponsors_total": 214
     },
     {
       "congress": 119,
@@ -3425,9 +3789,49 @@
           "state": "CA",
           "date": "2025-08-05",
           "original": false
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Rep. Ramirez, Delia C. [D-IL-3]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -3737,11 +4141,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 154,
-    "total_hr_sr_bipartisan": 42,
+    "total_hr_sr": 158,
+    "total_hr_sr_bipartisan": 43,
     "total_hr_sr_became_public_law": 6,
-    "passed_rate_percentile_party": 91,
-    "bipartisan_rate_percentile_party": 24
+    "passed_rate_percentile_party": 90,
+    "bipartisan_rate_percentile_party": 25
   },
   "district": {
     "year": 2023,

@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -121,6 +121,7 @@
       "dim2": -0.159
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -717,17 +718,17 @@
     {
       "bioguide": "C001103",
       "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
-      "count": 20
+      "count": 21
+    },
+    {
+      "bioguide": "W000804",
+      "name": "Rep. Wittman, Robert J. [R-VA-1]",
+      "count": 19
     },
     {
       "bioguide": "G000558",
       "name": "Rep. Guthrie, Brett [R-KY-2]",
       "count": 19
-    },
-    {
-      "bioguide": "W000804",
-      "name": "Rep. Wittman, Robert J. [R-VA-1]",
-      "count": 18
     },
     {
       "bioguide": "C001118",
@@ -762,13 +763,38 @@
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 4
+    },
+    {
+      "bioguide": "B001306",
+      "name": "Rep. Balderson, Troy [R-OH-12]",
+      "count": 4
+    },
+    {
+      "bioguide": "M001215",
+      "name": "Rep. Miller-Meeks, Mariannette [R-IA-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001216",
+      "name": "Rep. Schrier, Kim [D-WA-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "O000177",
+      "name": "Rep. Onder, Robert [R-MO-3]",
+      "count": 3
+    },
+    {
       "bioguide": "B001295",
       "name": "Rep. Bost, Mike [R-IL-12]",
       "count": 3
     },
     {
-      "bioguide": "C001103",
-      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "bioguide": "W000795",
+      "name": "Rep. Wilson, Joe [R-SC-2]",
       "count": 3
     },
     {
@@ -777,42 +803,183 @@
       "count": 3
     },
     {
-      "bioguide": "B001306",
-      "name": "Rep. Balderson, Troy [R-OH-12]",
-      "count": 3
-    },
-    {
       "bioguide": "P000048",
       "name": "Rep. Pfluger, August [R-TX-11]",
       "count": 3
     },
     {
-      "bioguide": "O000019",
-      "name": "Rep. Obernolte, Jay [R-CA-8]",
-      "count": 2
-    },
-    {
-      "bioguide": "O000177",
-      "name": "Rep. Onder, Robert [R-MO-3]",
-      "count": 2
-    },
-    {
-      "bioguide": "D000628",
-      "name": "Rep. Dunn, Neal P. [R-FL-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000814",
-      "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001215",
-      "name": "Rep. Miller-Meeks, Mariannette [R-IA-2]",
+      "bioguide": "B001287",
+      "name": "Rep. Bera, Ami [D-CA-7]",
       "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5736",
+      "title": "PAVE Act",
+      "introducedDate": "2025-10-10",
+      "latestAction": {
+        "date": "2025-10-10",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5736?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "M001215",
+          "name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "A000148",
+          "name": "Rep. Auchincloss, Jake [D-MA-4]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5549",
+      "title": "Efficient Nuclear Licensing Hearings Act",
+      "introducedDate": "2025-09-23",
+      "latestAction": {
+        "date": "2025-09-23",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5549?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001316",
+          "name": "Rep. Burlison, Eric [R-MO-7]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -823,7 +990,7 @@
         "date": "2025-07-02",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Commerce",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4282?format=json",
       "updateDate": null,
@@ -868,21 +1035,93 @@
           "state": "WA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "L000562",
+          "name": "Rep. Lynch, Stephen F. [D-MA-8]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Rep. Foster, Bill [D-IL-11]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
       "billType": "hr",
       "number": "3877",
-      "title": "To provide for the retrocession of the District of Columbia to Maryland, and for other purposes.",
+      "title": "Washington, D.C. Residents Voting Act",
       "introducedDate": "2025-06-10",
       "latestAction": {
         "date": "2025-06-10",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Oversight and Government Reform, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3877?format=json",
       "updateDate": null,
@@ -897,8 +1136,8 @@
       "title": "Power Plant Reliability Act of 2025",
       "introducedDate": "2025-05-29",
       "latestAction": {
-        "date": "2025-06-25",
-        "text": "Ordered to be Reported by the Yeas and Nays: 25 - 21."
+        "date": "2025-09-23",
+        "text": "Placed on the Union Calendar, Calendar No. 261."
       },
       "policy_area": "Energy",
       "subjects": [
@@ -938,9 +1177,17 @@
           "state": "MO",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "M001205",
+          "name": "Rep. Miller, Carol D. [R-WV-1]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -973,9 +1220,25 @@
           "state": "NJ",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1223,9 +1486,41 @@
           "state": "TX",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001224",
+          "name": "Rep. Moran, Nathaniel [R-TX-1]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001199",
+          "name": "Rep. Smucker, Lloyd [R-PA-11]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 26
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
@@ -1249,8 +1544,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1863?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1406,7 +1710,12 @@
         "text": "Referred to the House Committee on Ways and Means."
       },
       "policy_area": "Taxation",
-      "subjects": [],
+      "subjects": [
+        "Elementary and secondary education",
+        "Employment and training programs",
+        "Income tax deductions",
+        "Teaching, teachers, curricula"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/228?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1953,11 +2262,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 168,
-    "total_hr_sr_bipartisan": 53,
+    "total_hr_sr": 170,
+    "total_hr_sr_bipartisan": 55,
     "total_hr_sr_became_public_law": 3,
     "passed_rate_percentile_party": 55,
-    "bipartisan_rate_percentile_party": 33
+    "bipartisan_rate_percentile_party": 34
   },
   "district": {
     "year": 2023,

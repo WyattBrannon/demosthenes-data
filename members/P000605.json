@@ -97,7 +97,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -140,6 +140,7 @@
       "dim2": -0.418
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -902,7 +903,7 @@
     {
       "bioguide": "B001302",
       "name": "Rep. Biggs, Andy [R-AZ-5]",
-      "count": 24
+      "count": 20
     },
     {
       "bioguide": "G000595",
@@ -910,24 +911,24 @@
       "count": 19
     },
     {
-      "bioguide": "G000565",
-      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
-      "count": 17
-    },
-    {
       "bioguide": "R000614",
       "name": "Rep. Roy, Chip [R-TX-21]",
       "count": 16
     },
     {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 16
+    },
+    {
       "bioguide": "M001211",
       "name": "Rep. Miller, Mary E. [R-IL-15]",
-      "count": 13
+      "count": 14
     },
     {
       "bioguide": "D000615",
       "name": "Rep. Duncan, Jeff [R-SC-3]",
-      "count": 13
+      "count": 12
     },
     {
       "bioguide": "B000825",
@@ -935,9 +936,9 @@
       "count": 12
     },
     {
-      "bioguide": "G000552",
-      "name": "Rep. Gohmert, Louie [R-TX-1]",
-      "count": 12
+      "bioguide": "P000599",
+      "name": "Rep. Posey, Bill [R-FL-8]",
+      "count": 11
     }
   ],
   "cosponsors_top_latest": [
@@ -955,6 +956,11 @@
       "bioguide": "R000614",
       "name": "Rep. Roy, Chip [R-TX-21]",
       "count": 4
+    },
+    {
+      "bioguide": "H001102",
+      "name": "Rep. Harris, Mark [R-NC-8]",
+      "count": 3
     },
     {
       "bioguide": "C001115",
@@ -985,14 +991,27 @@
       "bioguide": "M001210",
       "name": "Rep. Murphy, Gregory [R-NC-3]",
       "count": 2
-    },
-    {
-      "bioguide": "B001257",
-      "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5525",
+      "title": "Stop DC CAMERA Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5525?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1003,7 +1022,7 @@
         "date": "2025-08-26",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5054?format=json",
       "updateDate": null,
@@ -1040,9 +1059,25 @@
           "state": "LA",
           "date": "2025-08-26",
           "original": true
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1118,8 +1153,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3822?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1577,9 +1621,17 @@
           "state": "NC",
           "date": "2025-02-24",
           "original": false
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1919,10 +1971,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 154,
-    "total_hr_sr_bipartisan": 19,
+    "total_hr_sr": 146,
+    "total_hr_sr_bipartisan": 18,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
+    "passed_rate_percentile_party": 19,
     "bipartisan_rate_percentile_party": 8
   },
   "district": {

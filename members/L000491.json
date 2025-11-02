@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -166,6 +166,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -662,12 +663,12 @@
     {
       "bioguide": "W000814",
       "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
-      "count": 16
+      "count": 17
     },
     {
       "bioguide": "B001291",
       "name": "Rep. Babin, Brian [R-TX-36]",
-      "count": 15
+      "count": 16
     },
     {
       "bioguide": "C001053",
@@ -675,9 +676,19 @@
       "count": 13
     },
     {
+      "bioguide": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
+      "count": 12
+    },
+    {
       "bioguide": "P000258",
       "name": "Rep. Peterson, Collin C. [D-MN-7]",
       "count": 12
+    },
+    {
+      "bioguide": "L000397",
+      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "count": 11
     },
     {
       "bioguide": "B000740",
@@ -685,13 +696,8 @@
       "count": 11
     },
     {
-      "bioguide": "B001307",
-      "name": "Rep. Baird, James R. [R-IN-4]",
-      "count": 11
-    },
-    {
-      "bioguide": "L000397",
-      "name": "Rep. Lofgren, Zoe [D-CA-18]",
+      "bioguide": "T000478",
+      "name": "Rep. Tenney, Claudia [R-NY-22]",
       "count": 10
     },
     {
@@ -703,66 +709,301 @@
       "bioguide": "S000250",
       "name": "Rep. Sessions, Pete [R-TX-5]",
       "count": 10
-    },
-    {
-      "bioguide": "G000289",
-      "name": "Rep. Goodlatte, Bob [R-VA-6]",
-      "count": 10
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "L000397",
       "name": "Rep. Lofgren, Zoe [D-CA-18]",
-      "count": 3
+      "count": 4
     },
     {
       "bioguide": "T000478",
       "name": "Rep. Tenney, Claudia [R-NY-22]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
       "count": 2
     },
     {
-      "bioguide": "B001282",
-      "name": "Rep. Barr, Andy [R-KY-6]",
+      "bioguide": "W000814",
+      "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
       "count": 2
     },
     {
-      "bioguide": "N000193",
-      "name": "Rep. Nunn, Zachary [R-IA-3]",
+      "bioguide": "S001215",
+      "name": "Rep. Stevens, Haley M. [D-MI-11]",
       "count": 2
     },
     {
-      "bioguide": "P000620",
-      "name": "Rep. Pettersen, Brittany [D-CO-7]",
+      "bioguide": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
       "count": 2
     },
     {
-      "bioguide": "S001157",
-      "name": "Rep. Scott, David [D-GA-13]",
-      "count": 2
-    },
-    {
-      "bioguide": "S000250",
-      "name": "Rep. Sessions, Pete [R-TX-5]",
-      "count": 2
-    },
-    {
-      "bioguide": "P000613",
-      "name": "Rep. Panetta, Jimmy [D-CA-19]",
+      "bioguide": "R000305",
+      "name": "Rep. Ross, Deborah K. [D-NC-2]",
       "count": 2
     },
     {
       "bioguide": "F000472",
       "name": "Rep. Franklin, C. Scott [R-FL-15]",
-      "count": 1
+      "count": 2
     },
     {
-      "bioguide": "B001278",
-      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
-      "count": 1
+      "bioguide": "M001222",
+      "name": "Rep. Miller, Max L. [R-OH-7]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000603",
+      "name": "Rep. Rouzer, David [R-NC-7]",
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5089",
+      "title": "Weather Act Reauthorization Act of 2025",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Ordered to be Reported (Amended) by Voice Vote."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Aquatic ecology",
+        "Atmospheric science and weather",
+        "Aviation and airports",
+        "Computers and information technology",
+        "Disaster relief and insurance",
+        "Emergency communications systems",
+        "Hydrology and hydrography",
+        "Natural disasters",
+        "Public contracts and procurement",
+        "Public-private cooperation",
+        "Spacecraft and satellites",
+        "Water quality"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5089?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000477",
+          "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "H001099",
+          "name": "Rep. Haridopolos, Mike [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "A000380",
+          "name": "Rep. Amo, Gabe [D-RI-1]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "R000603",
+          "name": "Rep. Rouzer, David [R-NC-7]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000483",
+          "name": "Rep. Friedman, Laura [D-CA-30]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 26
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -773,7 +1014,7 @@
         "date": "2025-07-16",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4459?format=json",
       "updateDate": null,
@@ -986,9 +1227,18 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2563?format=json",
       "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000604",
+          "name": "Rep. Goodlander, Maggie [D-NH-2]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1188,8 +1438,8 @@
       "title": "PROTECT Taiwan Act",
       "introducedDate": "2025-02-24",
       "latestAction": {
-        "date": "2025-02-24",
-        "text": "Referred to the Committee on Financial Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-09-16",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 49 - 0."
       },
       "policy_area": "International Affairs",
       "subjects": [],
@@ -1204,9 +1454,17 @@
           "state": "TX",
           "date": "2025-02-24",
           "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1462,17 +1720,49 @@
           "state": "OR",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Rep. Schneider, Bradley Scott [D-IL-10]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 23
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 101,
-    "total_hr_sr_bipartisan": 55,
+    "total_hr_sr": 102,
+    "total_hr_sr_bipartisan": 57,
     "total_hr_sr_became_public_law": 4,
     "passed_rate_percentile_party": 82,
-    "bipartisan_rate_percentile_party": 77
+    "bipartisan_rate_percentile_party": 79
   },
   "district": {
     "year": 2023,

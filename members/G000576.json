@@ -81,7 +81,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 46
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -119,6 +119,7 @@
       "dim2": -0.069
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -895,14 +896,14 @@
       "count": 16
     },
     {
-      "bioguide": "M001160",
-      "name": "Rep. Moore, Gwen [D-WI-4]",
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
       "count": 15
     },
     {
-      "bioguide": "G000565",
-      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
-      "count": 14
+      "bioguide": "M001160",
+      "name": "Rep. Moore, Gwen [D-WI-4]",
+      "count": 15
     },
     {
       "bioguide": "L000589",
@@ -917,6 +918,11 @@
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene [D-VA-7]",
+      "count": 5
+    },
+    {
       "bioguide": "R000603",
       "name": "Rep. Rouzer, David [R-NC-7]",
       "count": 4
@@ -925,6 +931,21 @@
       "bioguide": "M001160",
       "name": "Rep. Moore, Gwen [D-WI-4]",
       "count": 3
+    },
+    {
+      "bioguide": "H001098",
+      "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001172",
+      "name": "Rep. Smith, Adrian [R-NE-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 2
     },
     {
       "bioguide": "D000624",
@@ -945,29 +966,79 @@
       "bioguide": "C001119",
       "name": "Rep. Craig, Angie [D-MN-2]",
       "count": 2
-    },
-    {
-      "bioguide": "V000129",
-      "name": "Rep. Valadao, David G. [R-CA-21]",
-      "count": 2
-    },
-    {
-      "bioguide": "T000165",
-      "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
-      "count": 2
-    },
-    {
-      "bioguide": "F000476",
-      "name": "Rep. Frost, Maxwell [D-FL-10]",
-      "count": 2
-    },
-    {
-      "bioguide": "P000607",
-      "name": "Rep. Pocan, Mark [D-WI-2]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5346",
+      "title": "Fair and Accountable IRS Reviews Act",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Placed on the Union Calendar, Calendar No. 272."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5346?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001172",
+          "name": "Rep. Smith, Adrian [R-NE-3]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5314",
+      "title": "Randy Susen Visitation Rights Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5314?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B000740",
+          "name": "Rep. Bice, Stephanie I. [R-OK-5]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -978,7 +1049,7 @@
         "date": "2025-07-21",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4564?format=json",
       "updateDate": null,
@@ -1087,9 +1158,17 @@
           "state": "VA",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -1245,9 +1324,81 @@
           "state": "FL",
           "date": "2025-06-25",
           "original": false
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001085",
+          "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -1371,9 +1522,17 @@
           "state": "KS",
           "date": "2025-06-27",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1465,9 +1624,17 @@
           "state": "WV",
           "date": "2025-05-15",
           "original": false
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1596,9 +1763,25 @@
           "state": "MT",
           "date": "2025-06-03",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -2789,9 +2972,49 @@
           "state": "AZ",
           "date": "2025-07-17",
           "original": false
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "G000586",
+          "name": "Rep. Garc\u00eda, Jes\u00fas G. \"Chuy\" [D-IL-4]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001241",
+          "name": "Rep. Min, Dave [D-CA-47]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 139
+      "cosponsors_total": 144
     },
     {
       "congress": 119,
@@ -2996,9 +3219,33 @@
           "state": "AL",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "F000472",
+          "name": "Rep. Franklin, Scott [R-FL-18]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -3043,11 +3290,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 119,
+    "total_hr_sr": 121,
     "total_hr_sr_bipartisan": 31,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 43,
-    "bipartisan_rate_percentile_party": 28
+    "passed_rate_percentile_party": 42,
+    "bipartisan_rate_percentile_party": 27
   },
   "district": {
     "year": 2023,

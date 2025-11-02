@@ -77,7 +77,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 17
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -100,6 +100,7 @@
       "dim2": -0.256
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -950,6 +951,11 @@
       "count": 7
     },
     {
+      "bioguide": "R000612",
+      "name": "Rep. Rose, John W. [R-TN-6]",
+      "count": 5
+    },
+    {
       "bioguide": "H001096",
       "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
       "count": 5
@@ -965,6 +971,11 @@
       "count": 5
     },
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 4
+    },
+    {
       "bioguide": "R000575",
       "name": "Rep. Rogers, Mike D. [R-AL-3]",
       "count": 4
@@ -975,22 +986,17 @@
       "count": 4
     },
     {
-      "bioguide": "R000612",
-      "name": "Rep. Rose, John W. [R-TN-6]",
-      "count": 4
-    },
-    {
-      "bioguide": "T000478",
-      "name": "Rep. Tenney, Claudia [R-NY-24]",
-      "count": 3
-    },
-    {
-      "bioguide": "J000304",
-      "name": "Rep. Jackson, Ronny [R-TX-13]",
+      "bioguide": "B001298",
+      "name": "Rep. Bacon, Don [R-NE-2]",
       "count": 3
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 4
+    },
     {
       "bioguide": "H001096",
       "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
@@ -1002,47 +1008,242 @@
       "count": 3
     },
     {
+      "bioguide": "R000612",
+      "name": "Rep. Rose, John W. [R-TN-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001102",
+      "name": "Rep. Harris, Mark [R-NC-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+      "count": 2
+    },
+    {
       "bioguide": "T000478",
       "name": "Rep. Tenney, Claudia [R-NY-24]",
       "count": 2
     },
     {
-      "bioguide": "L000596",
-      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "bioguide": "C001120",
+      "name": "Rep. Crenshaw, Dan [R-TX-2]",
       "count": 2
     },
     {
-      "bioguide": "S001224",
-      "name": "Rep. Self, Keith [R-TX-3]",
+      "bioguide": "S001228",
+      "name": "Rep. Schmidt, Derek [R-KS-2]",
       "count": 2
     },
     {
-      "bioguide": "R000575",
-      "name": "Rep. Rogers, Mike D. [R-AL-3]",
+      "bioguide": "N000026",
+      "name": "Rep. Nehls, Troy E. [R-TX-22]",
       "count": 2
-    },
-    {
-      "bioguide": "W000814",
-      "name": "Rep. Weber, Randy K., Sr. [R-TX-14]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001211",
-      "name": "Rep. Miller, Mary E. [R-IL-15]",
-      "count": 2
-    },
-    {
-      "bioguide": "G000603",
-      "name": "Rep. Gill, Brandon [R-TX-26]",
-      "count": 2
-    },
-    {
-      "bioguide": "G000587",
-      "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5647",
+      "title": "Advocates for Families Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5647?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5331",
+      "title": "Auto Bailout Accident Victims Recovery Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Law",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5331?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5152",
+      "title": "BOP Release Card ID Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5152?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001136",
+          "name": "Rep. Conaway, Herbert C. [D-NJ-3]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Rep. Guest, Michael [R-MS-3]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "D000631",
+          "name": "Rep. Dean, Madeleine [D-PA-4]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 17
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1101,9 +1302,81 @@
           "state": "NJ",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Rep. Quigley, Mike [D-IL-5]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001309",
+          "name": "Rep. Burchett, Tim [R-TN-2]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -1383,9 +1656,17 @@
           "state": "NM",
           "date": "2025-03-26",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1697,11 +1978,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 35,
-    "total_hr_sr_bipartisan": 16,
+    "total_hr_sr": 38,
+    "total_hr_sr_bipartisan": 18,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 71,
-    "bipartisan_rate_percentile_party": 59
+    "passed_rate_percentile_party": 69,
+    "bipartisan_rate_percentile_party": 64
   },
   "district": {
     "year": 2023,

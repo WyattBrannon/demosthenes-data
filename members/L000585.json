@@ -77,7 +77,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 26
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -115,6 +115,7 @@
       "dim2": 0.95
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-05-08",
@@ -835,12 +836,12 @@
     {
       "bioguide": "D000617",
       "name": "Rep. DelBene, Suzan K. [D-WA-1]",
-      "count": 26
+      "count": 25
     },
     {
       "bioguide": "P000613",
       "name": "Rep. Panetta, Jimmy [D-CA-20]",
-      "count": 26
+      "count": 25
     },
     {
       "bioguide": "K000391",
@@ -875,6 +876,11 @@
       "count": 9
     },
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 7
+    },
+    {
       "bioguide": "D000617",
       "name": "Rep. DelBene, Suzan K. [D-WA-1]",
       "count": 7
@@ -887,6 +893,11 @@
     {
       "bioguide": "C001126",
       "name": "Rep. Carey, Mike [R-OH-15]",
+      "count": 6
+    },
+    {
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
       "count": 6
     },
     {
@@ -908,19 +919,71 @@
       "bioguide": "T000478",
       "name": "Rep. Tenney, Claudia [R-NY-22]",
       "count": 5
-    },
-    {
-      "bioguide": "Y000067",
-      "name": "Rep. Yakym, Rudy [R-IN-2]",
-      "count": 5
-    },
-    {
-      "bioguide": "C001119",
-      "name": "Rep. Craig, Angie [D-MN-2]",
-      "count": 5
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5470",
+      "title": "Route 66 National Historic Trail Designation Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5470?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000273",
+          "name": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5146",
+      "title": "Federal Receivership Fairness Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5146?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001292",
+          "name": "Rep. Beyer, Donald S. [D-VA-8]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -931,7 +994,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Veterans' Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4689?format=json",
       "updateDate": null,
@@ -1107,9 +1170,17 @@
           "state": "IL",
           "date": "2025-06-11",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1158,9 +1229,33 @@
           "state": "NC",
           "date": "2025-07-25",
           "original": false
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1241,9 +1336,25 @@
           "state": "WA",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -1343,9 +1454,73 @@
           "state": "FL",
           "date": "2025-07-16",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Rep. Casten, Sean [D-IL-6]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001234",
+          "name": "Rep. Morrison, Kelly [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -1546,9 +1721,25 @@
           "state": "WA",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "P000621",
+          "name": "Rep. Pou, Nellie [D-NJ-9]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 23
+      "cosponsors_total": 25
     },
     {
       "congress": 119,
@@ -2813,9 +3004,41 @@
           "state": "IN",
           "date": "2025-07-02",
           "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "T000463",
+          "name": "Rep. Turner, Michael R. [R-OH-10]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 156
+      "cosponsors_total": 160
     },
     {
       "congress": 119,
@@ -2895,7 +3118,17 @@
         "text": "Referred to the House Committee on Ways and Means."
       },
       "policy_area": "Health",
-      "subjects": [],
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Department of Health and Human Services",
+        "Employment and training programs",
+        "Health care costs and insurance",
+        "Health personnel",
+        "Higher education",
+        "Medical education",
+        "Medicare",
+        "Nursing"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1708?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2931,9 +3164,49 @@
           "state": "VA",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -3212,9 +3485,57 @@
           "state": "PA",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "W000831",
+          "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 32
+      "cosponsors_total": 38
     },
     {
       "congress": 119,
@@ -3770,9 +4091,41 @@
           "state": "OR",
           "date": "2025-07-25",
           "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-17]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "D000635",
+          "name": "Rep. Dexter, Maxine [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 63
+      "cosponsors_total": 67
     },
     {
       "congress": 119,
@@ -3891,9 +4244,17 @@
           "state": "CA",
           "date": "2025-02-06",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -4087,8 +4448,8 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 101,
-    "total_hr_sr_bipartisan": 72,
+    "total_hr_sr": 103,
+    "total_hr_sr_bipartisan": 74,
     "total_hr_sr_became_public_law": 5,
     "passed_rate_percentile_party": 88,
     "bipartisan_rate_percentile_party": 93

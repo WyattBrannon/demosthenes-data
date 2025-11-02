@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 24
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -84,6 +84,7 @@
       "dim2": -0.355
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -1036,6 +1037,11 @@
       "bioguide": "L000606",
       "name": "Rep. Latimer, George [D-NY-16]",
       "count": 1
+    },
+    {
+      "bioguide": "S001201",
+      "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+      "count": 1
     }
   ],
   "bills": [
@@ -1049,7 +1055,7 @@
         "date": "2025-07-16",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4438?format=json",
       "updateDate": null,
@@ -1125,9 +1131,17 @@
           "state": "NY",
           "date": "2025-02-27",
           "original": false
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     }
   ],
   "work_statistics": {

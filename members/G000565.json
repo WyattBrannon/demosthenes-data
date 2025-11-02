@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -117,6 +117,7 @@
       "dim2": -0.529
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-22",
@@ -978,22 +979,22 @@
     {
       "bioguide": "B001302",
       "name": "Rep. Biggs, Andy [R-AZ-5]",
-      "count": 54
+      "count": 53
     },
     {
       "bioguide": "S001183",
       "name": "Rep. Schweikert, David [R-AZ-6]",
-      "count": 42
+      "count": 41
     },
     {
       "bioguide": "N000190",
       "name": "Rep. Norman, Ralph [R-SC-5]",
-      "count": 35
+      "count": 33
     },
     {
       "bioguide": "L000589",
       "name": "Rep. Lesko, Debbie [R-AZ-8]",
-      "count": 32
+      "count": 31
     },
     {
       "bioguide": "F000448",
@@ -1001,14 +1002,14 @@
       "count": 25
     },
     {
-      "bioguide": "G000552",
-      "name": "Rep. Gohmert, Louie [R-TX-1]",
-      "count": 23
-    },
-    {
       "bioguide": "K000368",
       "name": "Rep. Kirkpatrick, Ann [D-AZ-2]",
       "count": 22
+    },
+    {
+      "bioguide": "G000552",
+      "name": "Rep. Gohmert, Louie [R-TX-1]",
+      "count": 21
     },
     {
       "bioguide": "B000825",
@@ -1021,15 +1022,20 @@
       "count": 20
     },
     {
-      "bioguide": "M001177",
-      "name": "Rep. McClintock, Tom [R-CA-4]",
-      "count": 20
+      "bioguide": "D000615",
+      "name": "Rep. Duncan, Jeff [R-SC-3]",
+      "count": 19
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "B001302",
       "name": "Rep. Biggs, Andy [R-AZ-5]",
+      "count": 9
+    },
+    {
+      "bioguide": "C001132",
+      "name": "Rep. Crane, Elijah [R-AZ-2]",
       "count": 7
     },
     {
@@ -1040,12 +1046,12 @@
     {
       "bioguide": "N000026",
       "name": "Rep. Nehls, Troy E. [R-TX-22]",
-      "count": 6
+      "count": 7
     },
     {
-      "bioguide": "C001132",
-      "name": "Rep. Crane, Elijah [R-AZ-2]",
-      "count": 5
+      "bioguide": "H001096",
+      "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+      "count": 6
     },
     {
       "bioguide": "N000190",
@@ -1063,22 +1069,172 @@
       "count": 4
     },
     {
-      "bioguide": "H001096",
-      "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+      "bioguide": "D000032",
+      "name": "Rep. Donalds, Byron [R-FL-19]",
       "count": 4
     },
     {
       "bioguide": "L000596",
       "name": "Rep. Luna, Anna Paulina [R-FL-13]",
       "count": 4
-    },
-    {
-      "bioguide": "O000175",
-      "name": "Rep. Ogles, Andrew [R-TN-5]",
-      "count": 4
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5392",
+      "title": "Northern Arizona Protection Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5392?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5393",
+      "title": "Southern Arizona Protection Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5393?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001302",
+          "name": "Rep. Biggs, Andy [R-AZ-5]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000469",
+          "name": "Rep. Fulcher, Russ [R-ID-1]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5183",
+      "title": "District of Columbia Home Rule Improvement Act",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Ordered to be Reported by the Yeas and Nays: 22 - 18."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Congressional oversight",
+        "District of Columbia",
+        "Government information and archives",
+        "House of Representatives",
+        "Intergovernmental relations",
+        "Legislative rules and procedure",
+        "Senate",
+        "State and local government operations"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5183?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001108",
+          "name": "Rep. Comer, James [R-KY-1]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1089,7 +1245,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4668?format=json",
       "updateDate": null,
@@ -1337,11 +1493,15 @@
       "title": "Enhancing Safety for Animals Act of 2025",
       "introducedDate": "2025-06-30",
       "latestAction": {
-        "date": "2025-06-30",
-        "text": "Referred to the House Committee on Natural Resources."
+        "date": "2025-09-03",
+        "text": "Subcommittee Hearings Held"
       },
       "policy_area": "Animals",
-      "subjects": [],
+      "subjects": [
+        "Animal protection and human-animal relationships",
+        "Endangered and threatened species",
+        "Wildlife conservation and habitat protection"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4255?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1684,9 +1844,65 @@
           "state": "MN",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001095",
+          "name": "Rep. Hunt, Wesley [R-TX-38]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 28
+      "cosponsors_total": 35
     },
     {
       "congress": 119,
@@ -1767,9 +1983,17 @@
           "state": "WA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1989,9 +2213,57 @@
           "state": "OH",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001115",
+          "name": "Rep. Cloud, Michael [R-TX-27]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -2195,8 +2467,8 @@
       "title": "La Paz County Solar Energy and Job Creation Act",
       "introducedDate": "2025-02-06",
       "latestAction": {
-        "date": "2025-07-22",
-        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
+        "date": "2025-09-11",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -2315,9 +2587,17 @@
           "state": "UT",
           "date": "2025-02-24",
           "original": false
+        },
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -2441,17 +2721,25 @@
           "state": "ID",
           "date": "2025-04-30",
           "original": false
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     }
   ],
   "work_statistics": {
     "total_hr_sr": 151,
-    "total_hr_sr_bipartisan": 51,
+    "total_hr_sr_bipartisan": 49,
     "total_hr_sr_became_public_law": 6,
     "passed_rate_percentile_party": 82,
-    "bipartisan_rate_percentile_party": 39
+    "bipartisan_rate_percentile_party": 35
   },
   "district": {
     "year": 2023,

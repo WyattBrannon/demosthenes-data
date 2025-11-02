@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -92,6 +92,7 @@
       "dim2": -0.284
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-22",
@@ -796,6 +797,16 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "S001214",
+      "name": "Rep. Steube, W. Gregory [R-FL-17]",
+      "count": 12
+    },
+    {
+      "bioguide": "R000609",
+      "name": "Rep. Rutherford, John H. [R-FL-4]",
+      "count": 12
+    },
+    {
       "bioguide": "D000032",
       "name": "Rep. Donalds, Byron [R-FL-19]",
       "count": 12
@@ -806,13 +817,8 @@
       "count": 12
     },
     {
-      "bioguide": "S001214",
-      "name": "Rep. Steube, W. Gregory [R-FL-17]",
-      "count": 11
-    },
-    {
-      "bioguide": "R000609",
-      "name": "Rep. Rutherford, John H. [R-FL-4]",
+      "bioguide": "H001091",
+      "name": "Rep. Hinson, Ashley [R-IA-1]",
       "count": 11
     },
     {
@@ -821,18 +827,13 @@
       "count": 10
     },
     {
-      "bioguide": "H001091",
-      "name": "Rep. Hinson, Ashley [R-IA-1]",
+      "bioguide": "L000600",
+      "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
       "count": 9
     },
     {
       "bioguide": "F000470",
       "name": "Rep. Fischbach, Michelle [R-MN-7]",
-      "count": 8
-    },
-    {
-      "bioguide": "L000600",
-      "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
       "count": 8
     },
     {
@@ -848,57 +849,140 @@
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "H001091",
+      "name": "Rep. Hinson, Ashley [R-IA-1]",
+      "count": 4
+    },
+    {
+      "bioguide": "L000600",
+      "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+      "count": 4
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001214",
+      "name": "Rep. Steube, W. Gregory [R-FL-17]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Rep. Soto, Darren [D-FL-9]",
+      "count": 3
+    },
+    {
       "bioguide": "W000804",
       "name": "Rep. Wittman, Robert J. [R-VA-1]",
       "count": 3
     },
     {
-      "bioguide": "L000600",
-      "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+      "bioguide": "R000609",
+      "name": "Rep. Rutherford, John H. [R-FL-4]",
       "count": 3
     },
     {
-      "bioguide": "H001082",
-      "name": "Rep. Hern, Kevin [R-OK-1]",
+      "bioguide": "D000624",
+      "name": "Rep. Dingell, Debbie [D-MI-6]",
       "count": 2
     },
     {
-      "bioguide": "M001223",
-      "name": "Rep. Magaziner, Seth [D-RI-2]",
+      "bioguide": "K000397",
+      "name": "Rep. Kim, Young [R-CA-39]",
       "count": 2
     },
     {
-      "bioguide": "P000613",
-      "name": "Rep. Panetta, Jimmy [D-CA-19]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000797",
-      "name": "Rep. Wasserman Schultz, Debbie [D-FL-23]",
-      "count": 2
-    },
-    {
-      "bioguide": "S001200",
-      "name": "Rep. Soto, Darren [D-FL-9]",
-      "count": 2
-    },
-    {
-      "bioguide": "C001068",
-      "name": "Rep. Cohen, Steve [D-TN-9]",
-      "count": 2
-    },
-    {
-      "bioguide": "V000133",
-      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "D000629",
-      "name": "Rep. Davids, Sharice [D-KS-3]",
+      "bioguide": "M001232",
+      "name": "Rep. McClain Delaney, April [D-MD-6]",
       "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5813",
+      "title": "Women\u2019s Health and Cancer Rights Modernization Act of 2025",
+      "introducedDate": "2025-10-24",
+      "latestAction": {
+        "date": "2025-10-24",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5813?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-24",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -909,7 +993,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4783?format=json",
       "updateDate": null,
@@ -985,9 +1069,41 @@
           "state": "MA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "C001108",
+          "name": "Rep. Comer, James [R-KY-1]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -1190,9 +1306,41 @@
           "state": "CA",
           "date": "2025-06-24",
           "original": false
+        },
+        {
+          "bioguide": "R000609",
+          "name": "Rep. Rutherford, John H. [R-FL-5]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 25
     },
     {
       "congress": 119,
@@ -2373,11 +2521,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 41,
-    "total_hr_sr_bipartisan": 16,
+    "total_hr_sr": 42,
+    "total_hr_sr_bipartisan": 17,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 50
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 52
   },
   "district": {
     "year": 2023,

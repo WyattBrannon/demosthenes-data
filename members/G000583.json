@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 2
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -106,6 +106,7 @@
       "dim2": 0.295
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -1069,107 +1070,604 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
-      "count": 48
-    },
-    {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
-      "count": 30
+      "count": 50
     },
     {
       "bioguide": "L000599",
       "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 27
+      "count": 34
+    },
+    {
+      "bioguide": "B001298",
+      "name": "Rep. Bacon, Don [R-NE-2]",
+      "count": 34
     },
     {
       "bioguide": "M001217",
       "name": "Rep. Moskowitz, Jared [D-FL-23]",
-      "count": 22
+      "count": 26
     },
     {
       "bioguide": "S001201",
       "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
-      "count": 20
-    },
-    {
-      "bioguide": "C001059",
-      "name": "Rep. Costa, Jim [D-CA-16]",
-      "count": 19
+      "count": 24
     },
     {
       "bioguide": "W000797",
       "name": "Rep. Wasserman Schultz, Debbie [D-FL-23]",
-      "count": 18
+      "count": 22
     },
     {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 17
+      "bioguide": "C001059",
+      "name": "Rep. Costa, Jim [D-CA-16]",
+      "count": 22
     },
     {
       "bioguide": "S001200",
       "name": "Rep. Soto, Darren [D-FL-9]",
-      "count": 16
+      "count": 20
     },
     {
-      "bioguide": "S001207",
-      "name": "Rep. Sherrill, Mikie [D-NJ-11]",
-      "count": 15
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 18
+    },
+    {
+      "bioguide": "M001223",
+      "name": "Rep. Magaziner, Seth [D-RI-2]",
+      "count": 17
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
-      "count": 15
-    },
-    {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 7
-    },
-    {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
-      "count": 6
+      "count": 17
     },
     {
       "bioguide": "L000599",
       "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 6
+      "count": 13
+    },
+    {
+      "bioguide": "B001298",
+      "name": "Rep. Bacon, Don [R-NE-2]",
+      "count": 10
     },
     {
       "bioguide": "M001217",
       "name": "Rep. Moskowitz, Jared [D-FL-23]",
-      "count": 6
-    },
-    {
-      "bioguide": "K000398",
-      "name": "Rep. Kean, Thomas H. [R-NJ-7]",
-      "count": 5
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 5
+      "count": 10
     },
     {
       "bioguide": "S001201",
       "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
-      "count": 5
+      "count": 9
     },
     {
-      "bioguide": "F000483",
-      "name": "Rep. Friedman, Laura [D-CA-30]",
-      "count": 5
+      "bioguide": "M001223",
+      "name": "Rep. Magaziner, Seth [D-RI-2]",
+      "count": 9
+    },
+    {
+      "bioguide": "D000230",
+      "name": "Rep. Davis, Donald G. [D-NC-1]",
+      "count": 8
     },
     {
       "bioguide": "W000797",
       "name": "Rep. Wasserman Schultz, Debbie [D-FL-23]",
-      "count": 5
+      "count": 8
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 8
+    },
+    {
+      "bioguide": "S001211",
+      "name": "Rep. Stanton, Greg [D-AZ-9]",
+      "count": 7
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5715",
+      "title": "October 7 Gold Medal Act",
+      "introducedDate": "2025-10-08",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5715?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001211",
+          "name": "Rep. Stanton, Greg [D-AZ-4]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "H000874",
+          "name": "Rep. Hoyer, Steny H. [D-MD-5]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "P000034",
+          "name": "Rep. Pallone, Frank [D-NJ-6]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 21
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5714",
+      "title": "October 7 Remembrance Education Act",
+      "introducedDate": "2025-10-08",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5714?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001211",
+          "name": "Rep. Stanton, Greg [D-AZ-4]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001063",
+          "name": "Rep. Cuellar, Henry [D-TX-28]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "L000598",
+          "name": "Rep. LaLota, Nick [R-NY-1]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 20
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5681",
+      "title": "STOP HATE Act of 2025",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5681?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5623",
+      "title": "SEIZE Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5623?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001229",
+          "name": "Rep. Shreve, Jefferson [R-IN-6]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5579",
+      "title": "ETA Act of 2025",
+      "introducedDate": "2025-09-26",
+      "latestAction": {
+        "date": "2025-09-26",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5579?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5265",
+      "title": "SAFE Ride Act of 2025",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5265?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "S001193",
+          "name": "Rep. Swalwell, Eric [D-CA-14]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1180,7 +1678,7 @@
         "date": "2025-08-15",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4979?format=json",
       "updateDate": null,
@@ -1209,9 +1707,33 @@
           "state": "PA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1223,7 +1745,7 @@
         "date": "2025-08-15",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4980?format=json",
       "updateDate": null,
@@ -1252,9 +1774,33 @@
           "state": "NE",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1266,7 +1812,7 @@
         "date": "2025-08-15",
         "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4981?format=json",
       "updateDate": null,
@@ -1295,9 +1841,41 @@
           "state": "PA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "R000579",
+          "name": "Rep. Ryan, Patrick [D-NY-18]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1309,7 +1887,7 @@
         "date": "2025-07-10",
         "text": "Referred to the House Committee on Ways and Means."
       },
-      "policy_area": null,
+      "policy_area": "Foreign Trade and International Finance",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4326?format=json",
       "updateDate": null,
@@ -1664,9 +2242,113 @@
           "state": "NY",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "A000381",
+          "name": "Rep. Ansari, Yassamin [D-AZ-3]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Rep. Sykes, Emilia Strong [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "M001231",
+          "name": "Rep. Mannion, John W. [D-NY-22]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 31
+      "cosponsors_total": 44
     },
     {
       "congress": 119,
@@ -1867,9 +2549,33 @@
           "state": "MA",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001193",
+          "name": "Rep. Swalwell, Eric [D-CA-14]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 23
+      "cosponsors_total": 26
     },
     {
       "congress": 119,
@@ -1982,9 +2688,25 @@
           "state": "MI",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "S001211",
+          "name": "Rep. Stanton, Greg [D-AZ-4]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -2475,9 +3197,121 @@
           "state": "NY",
           "date": "2025-05-15",
           "original": false
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Rep. McGarvey, Morgan [D-KY-3]",
+          "party": "D",
+          "state": "KY",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "A000381",
+          "name": "Rep. Ansari, Yassamin [D-AZ-3]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "S001226",
+          "name": "Rep. Salinas, Andrea [D-OR-6]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 29
     },
     {
       "congress": 119,
@@ -2888,9 +3722,17 @@
           "state": "PA",
           "date": "2025-03-04",
           "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -3030,9 +3872,41 @@
           "state": "TX",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Rep. Schneider, Bradley Scott [D-IL-10]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "K000376",
+          "name": "Rep. Kelly, Mike [R-PA-16]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -4347,7 +5221,12 @@
         "text": "Referred to the House Committee on Ways and Means."
       },
       "policy_area": "Taxation",
-      "subjects": [],
+      "subjects": [
+        "Energy prices",
+        "Income tax credits",
+        "Landlord and tenant",
+        "Public utilities and utility rates"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/615?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -4365,7 +5244,13 @@
         "text": "Referred to the House Committee on Ways and Means."
       },
       "policy_area": "Taxation",
-      "subjects": [],
+      "subjects": [
+        "Alternative and renewable resources",
+        "Energy efficiency and conservation",
+        "Income tax credits",
+        "Lighting, heating, cooling",
+        "Residential rehabilitation and home repair"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/616?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -4419,8 +5304,8 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 135,
-    "total_hr_sr_bipartisan": 106,
+    "total_hr_sr": 141,
+    "total_hr_sr_bipartisan": 112,
     "total_hr_sr_became_public_law": 1,
     "passed_rate_percentile_party": 43,
     "bipartisan_rate_percentile_party": 94

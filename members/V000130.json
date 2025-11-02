@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 22
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -104,6 +104,7 @@
       "dim2": 0.314
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-12",
@@ -862,6 +863,16 @@
       "count": 10
     },
     {
+      "bioguide": "T000472",
+      "name": "Rep. Takano, Mark [D-CA-41]",
+      "count": 9
+    },
+    {
+      "bioguide": "B001300",
+      "name": "Rep. Barragan, Nanette Diaz [D-CA-44]",
+      "count": 9
+    },
+    {
       "bioguide": "A000371",
       "name": "Rep. Aguilar, Pete [D-CA-31]",
       "count": 9
@@ -870,19 +881,34 @@
       "bioguide": "C001080",
       "name": "Rep. Chu, Judy [D-CA-27]",
       "count": 9
-    },
-    {
-      "bioguide": "C001097",
-      "name": "Rep. C\u00e1rdenas, Tony [D-CA-29]",
-      "count": 9
-    },
-    {
-      "bioguide": "G000551",
-      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-3]",
-      "count": 9
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "V000081",
+      "name": "Rep. Velazquez, Nydia M. [D-NY-7]",
+      "count": 4
+    },
+    {
+      "bioguide": "M001226",
+      "name": "Rep. Menendez, Robert [D-NJ-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "G000587",
+      "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+      "count": 3
+    },
+    {
+      "bioguide": "G000585",
+      "name": "Rep. Gomez, Jimmy [D-CA-34]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 3
+    },
     {
       "bioguide": "P000608",
       "name": "Rep. Peters, Scott H. [D-CA-52]",
@@ -894,47 +920,324 @@
       "count": 3
     },
     {
-      "bioguide": "R000599",
-      "name": "Rep. Ruiz, Raul [D-CA-36]",
+      "bioguide": "L000607",
+      "name": "Rep. Liccardo, Sam T. [D-CA-16]",
       "count": 2
     },
     {
-      "bioguide": "G000587",
-      "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-13]",
       "count": 2
     },
     {
-      "bioguide": "C001091",
-      "name": "Rep. Castro, Joaquin [D-TX-20]",
+      "bioguide": "T000472",
+      "name": "Rep. Takano, Mark [D-CA-41]",
       "count": 2
-    },
-    {
-      "bioguide": "G000585",
-      "name": "Rep. Gomez, Jimmy [D-CA-34]",
-      "count": 2
-    },
-    {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001226",
-      "name": "Rep. Menendez, Robert [D-NJ-8]",
-      "count": 2
-    },
-    {
-      "bioguide": "V000081",
-      "name": "Rep. Velazquez, Nydia M. [D-NY-7]",
-      "count": 2
-    },
-    {
-      "bioguide": "J000305",
-      "name": "Rep. Jacobs, Sara [D-CA-53]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5499",
+      "title": "Fed Integrity and Independence Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5499?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5340",
+      "title": "To prohibit the disclosure of records by the Secretary of Housing and Urban Development of individuals for the purposes of immigration enforcement, and for other purposes.",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the Committee on Financial Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Housing and Community Development",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5340?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000607",
+          "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "G000587",
+          "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Rep. Ramirez, Delia C. [D-IL-3]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Rep. Takano, Mark [D-CA-39]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "M001143",
+          "name": "Rep. McCollum, Betty [D-MN-4]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "A000381",
+          "name": "Rep. Ansari, Yassamin [D-AZ-3]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "G000585",
+          "name": "Rep. Gomez, Jimmy [D-CA-34]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Rep. Evans, Dwight [D-PA-3]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "R000620",
+          "name": "Rep. Rivas, Luz M. [D-CA-29]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "O000172",
+          "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 30
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -942,8 +1245,8 @@
       "title": "Border Water Quality Restoration and Protection Act",
       "introducedDate": "2025-07-10",
       "latestAction": {
-        "date": "2025-07-10",
-        "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committees on Energy and Commerce, Natural Resources, Foreign Affairs, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-07-11",
+        "text": "Referred to the Subcommittee on Water Resources and Environment."
       },
       "policy_area": "Environmental Protection",
       "subjects": [],
@@ -1327,11 +1630,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 66,
+    "total_hr_sr": 68,
     "total_hr_sr_bipartisan": 24,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 45
+    "bipartisan_rate_percentile_party": 44
   },
   "district": {
     "year": 2023,

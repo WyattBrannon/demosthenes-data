@@ -105,7 +105,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 6
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -143,6 +143,7 @@
       "dim2": -0.117
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-30",
@@ -1047,7 +1048,7 @@
     {
       "bioguide": "B001305",
       "name": "Sen. Budd, Ted [R-NC]",
-      "count": 34
+      "count": 37
     },
     {
       "bioguide": "C001056",
@@ -1055,14 +1056,24 @@
       "count": 26
     },
     {
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "count": 19
+    },
+    {
       "bioguide": "C001088",
       "name": "Sen. Coons, Christopher A. [D-DE]",
       "count": 18
     },
     {
-      "bioguide": "B001243",
-      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "bioguide": "D000618",
+      "name": "Sen. Daines, Steve [R-MT]",
       "count": 18
+    },
+    {
+      "bioguide": "C001047",
+      "name": "Sen. Capito, Shelley Moore [R-WV]",
+      "count": 16
     },
     {
       "bioguide": "B001236",
@@ -1070,28 +1081,18 @@
       "count": 16
     },
     {
+      "bioguide": "C001075",
+      "name": "Sen. Cassidy, Bill [R-LA]",
+      "count": 15
+    },
+    {
       "bioguide": "C001098",
       "name": "Sen. Cruz, Ted [R-TX]",
       "count": 15
     },
     {
-      "bioguide": "D000618",
-      "name": "Sen. Daines, Steve [R-MT]",
-      "count": 15
-    },
-    {
-      "bioguide": "B001277",
-      "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 14
-    },
-    {
-      "bioguide": "C001047",
-      "name": "Sen. Capito, Shelley Moore [R-WV]",
-      "count": 14
-    },
-    {
-      "bioguide": "C001075",
-      "name": "Sen. Cassidy, Bill [R-LA]",
+      "bioguide": "W000790",
+      "name": "Sen. Warnock, Raphael G. [D-GA]",
       "count": 14
     }
   ],
@@ -1099,7 +1100,7 @@
     {
       "bioguide": "B001305",
       "name": "Sen. Budd, Ted [R-NC]",
-      "count": 16
+      "count": 19
     },
     {
       "bioguide": "C001088",
@@ -1107,23 +1108,33 @@
       "count": 10
     },
     {
+      "bioguide": "C001047",
+      "name": "Sen. Capito, Shelley Moore [R-WV]",
+      "count": 9
+    },
+    {
+      "bioguide": "P000145",
+      "name": "Sen. Padilla, Alex [D-CA]",
+      "count": 8
+    },
+    {
+      "bioguide": "W000790",
+      "name": "Sen. Warnock, Raphael G. [D-GA]",
+      "count": 8
+    },
+    {
       "bioguide": "C001056",
       "name": "Sen. Cornyn, John [R-TX]",
       "count": 7
     },
     {
-      "bioguide": "P000145",
-      "name": "Sen. Padilla, Alex [D-CA]",
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
       "count": 7
     },
     {
-      "bioguide": "C001047",
-      "name": "Sen. Capito, Shelley Moore [R-WV]",
-      "count": 7
-    },
-    {
-      "bioguide": "W000790",
-      "name": "Sen. Warnock, Raphael G. [D-GA]",
+      "bioguide": "D000618",
+      "name": "Sen. Daines, Steve [R-MT]",
       "count": 7
     },
     {
@@ -1135,19 +1146,36 @@
       "bioguide": "S001181",
       "name": "Sen. Shaheen, Jeanne [D-NH]",
       "count": 6
-    },
-    {
-      "bioguide": "B001243",
-      "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 6
-    },
-    {
-      "bioguide": "B001319",
-      "name": "Sen. Britt, Katie Boyd [R-AL]",
-      "count": 5
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2761",
+      "title": "RESULTS Act",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2761?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1337,9 +1365,33 @@
           "state": "MD",
           "date": "2025-07-30",
           "original": false
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "H001104",
+          "name": "Sen. Husted, Jon [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 24
     },
     {
       "congress": 119,
@@ -1351,7 +1403,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on Energy and Natural Resources."
       },
-      "policy_area": null,
+      "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2498?format=json",
       "updateDate": null,
@@ -1375,8 +1427,8 @@
       "title": "TRACE Act",
       "introducedDate": "2025-03-13",
       "latestAction": {
-        "date": "2025-07-28",
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 126."
+        "date": "2025-09-04",
+        "text": "Held at the desk."
       },
       "policy_area": "Crime and Law Enforcement",
       "subjects": [
@@ -1443,7 +1495,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2414?format=json",
       "updateDate": null,
@@ -1512,9 +1564,17 @@
           "state": "AZ",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1526,7 +1586,7 @@
         "date": "2025-07-15",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2290?format=json",
       "updateDate": null,
@@ -1539,9 +1599,25 @@
           "state": "NM",
           "date": "2025-07-15",
           "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-07",
+          "original": false
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-07",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1714,9 +1790,17 @@
           "state": "MD",
           "date": "2025-07-30",
           "original": false
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-07",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 20
     },
     {
       "congress": 119,
@@ -1864,8 +1948,8 @@
       "title": "Stratton Ridge Air Force Memorial Act",
       "introducedDate": "2025-05-22",
       "latestAction": {
-        "date": "2025-05-22",
-        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+        "date": "2025-10-27",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 215."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
@@ -1955,9 +2039,25 @@
           "state": "GA",
           "date": "2025-07-09",
           "original": false
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Sen. Daines, Steve [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-23",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -2006,9 +2106,17 @@
           "state": "IA",
           "date": "2025-06-10",
           "original": false
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Sen. Daines, Steve [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -2066,7 +2174,11 @@
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
       "policy_area": "Commerce",
-      "subjects": [],
+      "subjects": [
+        "Intellectual property",
+        "Judicial procedure and administration",
+        "Judicial review and appeals"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1546?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2150,8 +2262,8 @@
       "title": "Benton MacKaye National Scenic Trail Feasibility Study Act of 2025",
       "introducedDate": "2025-04-09",
       "latestAction": {
-        "date": "2025-04-09",
-        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+        "date": "2025-10-27",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 211."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
@@ -2174,9 +2286,17 @@
           "state": "NC",
           "date": "2025-04-09",
           "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -2244,9 +2364,17 @@
           "state": "VA",
           "date": "2025-05-08",
           "original": false
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -3197,9 +3325,25 @@
           "state": "GA",
           "date": "2025-06-10",
           "original": false
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-07",
+          "original": false
+        },
+        {
+          "bioguide": "S001232",
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-07",
+          "original": false
         }
       ],
-      "cosponsors_total": 26
+      "cosponsors_total": 28
     },
     {
       "congress": 119,
@@ -3402,30 +3546,6 @@
     {
       "congress": 119,
       "billType": "s",
-      "number": "166",
-      "title": "Justice for Fallen Law Enforcement Act",
-      "introducedDate": "2025-01-21",
-      "latestAction": {
-        "date": "2025-01-21",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "policy_area": "Crime and Law Enforcement",
-      "subjects": [
-        "Assault and harassment offenses",
-        "Congressional oversight",
-        "Criminal procedure and sentencing",
-        "Law enforcement officers",
-        "Violent crime"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/166?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 119,
-      "billType": "s",
       "number": "167",
       "title": "Protect and Serve Act of 2025",
       "introducedDate": "2025-01-21",
@@ -3589,14 +3709,78 @@
           "state": "ND",
           "date": "2025-06-18",
           "original": false
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Sen. Daines, Steve [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "J000312",
+          "name": "Sen. Justice, James C. [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 23
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "166",
+      "title": "Justice for Fallen Law Enforcement Act",
+      "introducedDate": "2025-01-21",
+      "latestAction": {
+        "date": "2025-01-21",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Assault and harassment offenses",
+        "Congressional oversight",
+        "Criminal procedure and sentencing",
+        "Law enforcement officers",
+        "Violent crime"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/166?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 125,
-    "total_hr_sr_bipartisan": 59,
+    "total_hr_sr": 126,
+    "total_hr_sr_bipartisan": 60,
     "total_hr_sr_became_public_law": 3,
     "passed_rate_percentile_party": 67,
     "bipartisan_rate_percentile_party": 64

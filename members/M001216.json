@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 42
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,6 +91,7 @@
       "dim2": -0.117
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -912,7 +913,22 @@
     {
       "bioguide": "L000596",
       "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "count": 7
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
       "count": 6
+    },
+    {
+      "bioguide": "H001077",
+      "name": "Rep. Higgins, Clay [R-LA-3]",
+      "count": 5
+    },
+    {
+      "bioguide": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-6]",
+      "count": 5
     },
     {
       "bioguide": "D000032",
@@ -920,18 +936,18 @@
       "count": 5
     },
     {
-      "bioguide": "L000599",
-      "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 5
+      "bioguide": "H001098",
+      "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+      "count": 4
+    },
+    {
+      "bioguide": "J000304",
+      "name": "Rep. Jackson, Ronny [R-TX-13]",
+      "count": 4
     },
     {
       "bioguide": "S001214",
       "name": "Rep. Steube, W. Gregory [R-FL-17]",
-      "count": 4
-    },
-    {
-      "bioguide": "M001218",
-      "name": "Rep. McCormick, Richard [R-GA-6]",
       "count": 4
     },
     {
@@ -943,76 +959,132 @@
       "bioguide": "S000168",
       "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
       "count": 4
-    },
-    {
-      "bioguide": "B001307",
-      "name": "Rep. Baird, James R. [R-IN-4]",
-      "count": 4
-    },
-    {
-      "bioguide": "B001260",
-      "name": "Rep. Buchanan, Vern [R-FL-16]",
-      "count": 4
-    },
-    {
-      "bioguide": "H001077",
-      "name": "Rep. Higgins, Clay [R-LA-3]",
-      "count": 4
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "H001098",
       "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
-      "count": 3
-    },
-    {
-      "bioguide": "S001214",
-      "name": "Rep. Steube, W. Gregory [R-FL-17]",
-      "count": 2
+      "count": 4
     },
     {
       "bioguide": "L000596",
       "name": "Rep. Luna, Anna Paulina [R-FL-13]",
-      "count": 2
-    },
-    {
-      "bioguide": "H001052",
-      "name": "Rep. Harris, Andy [R-MD-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "F000459",
-      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
-      "count": 1
+      "count": 3
     },
     {
       "bioguide": "B001298",
       "name": "Rep. Bacon, Don [R-NE-2]",
-      "count": 1
+      "count": 2
+    },
+    {
+      "bioguide": "W000795",
+      "name": "Rep. Wilson, Joe [R-SC-2]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001077",
+      "name": "Rep. Higgins, Clay [R-LA-3]",
+      "count": 2
+    },
+    {
+      "bioguide": "P000622",
+      "name": "Rep. Patronis, Jimmy [R-FL-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000619",
+      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "D000616",
+      "name": "Rep. DesJarlais, Scott [R-TN-4]",
+      "count": 2
     },
     {
       "bioguide": "F000472",
       "name": "Rep. Franklin, Scott [R-FL-18]",
-      "count": 1
-    },
-    {
-      "bioguide": "M001218",
-      "name": "Rep. McCormick, Richard [R-GA-6]",
-      "count": 1
-    },
-    {
-      "bioguide": "V000138",
-      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
-      "count": 1
-    },
-    {
-      "bioguide": "L000491",
-      "name": "Rep. Lucas, Frank D. [R-OK-3]",
-      "count": 1
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5279",
+      "title": "THE DON-ument Act",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5279?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "P000622",
+          "name": "Rep. Patronis, Jimmy [R-FL-1]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-15",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5244",
+      "title": "To provide for the authorities of the Secretary of State.",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 27 - 20."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5244?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5117",
+      "title": "SPIN Act",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5117?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1508,11 +1580,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 21,
+    "total_hr_sr": 24,
     "total_hr_sr_bipartisan": 3,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 87,
-    "bipartisan_rate_percentile_party": 12
+    "passed_rate_percentile_party": 84,
+    "bipartisan_rate_percentile_party": 9
   },
   "district": {
     "year": 2023,

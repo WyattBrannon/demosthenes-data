@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -133,6 +133,7 @@
       "dim2": 0.231
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -730,17 +731,17 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 34
+      "count": 35
     },
     {
       "bioguide": "C001067",
       "name": "Rep. Clarke, Yvette D. [D-NY-11]",
-      "count": 30
+      "count": 31
     },
     {
       "bioguide": "J000288",
       "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
-      "count": 29
+      "count": 30
     },
     {
       "bioguide": "C001061",
@@ -768,8 +769,8 @@
       "count": 20
     },
     {
-      "bioguide": "M001137",
-      "name": "Rep. Meeks, Gregory W. [D-NY-6]",
+      "bioguide": "M001160",
+      "name": "Rep. Moore, Gwen [D-WI-4]",
       "count": 19
     }
   ],
@@ -777,12 +778,27 @@
     {
       "bioguide": "J000288",
       "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "S001185",
       "name": "Rep. Sewell, Terri A. [D-AL-7]",
+      "count": 6
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 5
+    },
+    {
+      "bioguide": "C001067",
+      "name": "Rep. Clarke, Yvette D. [D-NY-11]",
+      "count": 4
+    },
+    {
+      "bioguide": "B001313",
+      "name": "Rep. Brown, Shontel M. [D-OH-11]",
+      "count": 4
     },
     {
       "bioguide": "B000490",
@@ -800,11 +816,6 @@
       "count": 4
     },
     {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 4
-    },
-    {
       "bioguide": "T000193",
       "name": "Rep. Thompson, Bennie G. [D-MS-2]",
       "count": 4
@@ -813,19 +824,92 @@
       "bioguide": "S001218",
       "name": "Rep. Stansbury, Melanie Ann [D-NM-1]",
       "count": 4
-    },
-    {
-      "bioguide": "A000370",
-      "name": "Rep. Adams, Alma S. [D-NC-12]",
-      "count": 3
-    },
-    {
-      "bioguide": "B001313",
-      "name": "Rep. Brown, Shontel M. [D-OH-11]",
-      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5239",
+      "title": "Endometrial Cancer Research and Education Act of 2025",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5239?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "B001313",
+          "name": "Rep. Brown, Shontel M. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "J000299",
+          "name": "Rep. Johnson, Mike [R-LA-4]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -836,7 +920,7 @@
         "date": "2025-07-17",
         "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4529?format=json",
       "updateDate": null,
@@ -1164,9 +1248,17 @@
           "state": "FL",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -1218,9 +1310,17 @@
           "state": "CA",
           "date": "2025-04-10",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1494,11 +1594,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 70,
-    "total_hr_sr_bipartisan": 38,
+    "total_hr_sr": 71,
+    "total_hr_sr_bipartisan": 39,
     "total_hr_sr_became_public_law": 5,
     "passed_rate_percentile_party": 98,
-    "bipartisan_rate_percentile_party": 73
+    "bipartisan_rate_percentile_party": 75
   },
   "district": {
     "year": 2023,

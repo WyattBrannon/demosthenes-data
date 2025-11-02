@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 17
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -111,6 +111,7 @@
       "dim2": -0.515
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -1040,14 +1041,14 @@
       "count": 16
     },
     {
-      "bioguide": "G000565",
-      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "bioguide": "M001184",
+      "name": "Rep. Massie, Thomas [R-KY-4]",
       "count": 15
     },
     {
-      "bioguide": "M001184",
-      "name": "Rep. Massie, Thomas [R-KY-4]",
-      "count": 14
+      "bioguide": "G000565",
+      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
+      "count": 15
     },
     {
       "bioguide": "P000609",
@@ -1097,6 +1098,11 @@
       "count": 4
     },
     {
+      "bioguide": "M001184",
+      "name": "Rep. Massie, Thomas [R-KY-4]",
+      "count": 4
+    },
+    {
       "bioguide": "G000565",
       "name": "Rep. Gosar, Paul A. [R-AZ-4]",
       "count": 4
@@ -1110,14 +1116,27 @@
       "bioguide": "R000612",
       "name": "Rep. Rose, John W. [R-TN-6]",
       "count": 3
-    },
-    {
-      "bioguide": "D000032",
-      "name": "Rep. Donalds, Byron [R-FL-19]",
-      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5136",
+      "title": "Dollar Dominance Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5136?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1128,7 +1147,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4789?format=json",
       "updateDate": null,
@@ -1146,7 +1165,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Foreign Affairs."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4645?format=json",
       "updateDate": null,
@@ -1492,7 +1511,16 @@
         "text": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs."
       },
       "policy_area": "Armed Forces and National Security",
-      "subjects": [],
+      "subjects": [
+        "Cardiovascular and respiratory health",
+        "Congressional oversight",
+        "Government information and archives",
+        "Immunology and vaccination",
+        "Infectious and parasitic diseases",
+        "Military personnel and dependents",
+        "Veterans' medical care",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1671?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -3487,9 +3515,57 @@
           "state": "NY",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "B000668",
+          "name": "Rep. Bentz, Cliff [R-OR-2]",
+          "party": "R",
+          "state": "OR",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001184",
+          "name": "Rep. Massie, Thomas [R-KY-4]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 178
+      "cosponsors_total": 184
     },
     {
       "congress": 119,
@@ -3605,7 +3681,11 @@
         "text": "Referred to the House Committee on Financial Services."
       },
       "policy_area": "Finance and Financial Sector",
-      "subjects": [],
+      "subjects": [
+        "Bank accounts, deposits, capital",
+        "Currency",
+        "Digital media"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/148?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -3617,9 +3697,17 @@
           "state": "AK",
           "date": "2025-06-03",
           "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-04",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -3658,7 +3746,11 @@
         "text": "Referred to the House Committee on Financial Services."
       },
       "policy_area": "Finance and Financial Sector",
-      "subjects": [],
+      "subjects": [
+        "Business investment and capital",
+        "Financial services and investments",
+        "Securities"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/145?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -3741,7 +3833,12 @@
         "text": "Referred to the House Committee on Financial Services."
       },
       "policy_area": "Finance and Financial Sector",
-      "subjects": [],
+      "subjects": [
+        "Banking and financial institutions regulation",
+        "Federal Reserve System",
+        "Financial services and investments",
+        "Interest, dividends, interest rates"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/146?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -3759,7 +3856,14 @@
         "text": "Referred to the House Committee on Financial Services."
       },
       "policy_area": "Finance and Financial Sector",
-      "subjects": [],
+      "subjects": [
+        "Congressional oversight",
+        "Congressional-executive branch relations",
+        "Fraud offenses and financial crimes",
+        "Government ethics and transparency, public corruption",
+        "Government information and archives",
+        "Government studies and investigations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/147?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -3768,10 +3872,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 107,
+    "total_hr_sr": 108,
     "total_hr_sr_bipartisan": 14,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
+    "passed_rate_percentile_party": 19,
     "bipartisan_rate_percentile_party": 9
   },
   "district": {

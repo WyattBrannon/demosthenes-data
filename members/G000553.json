@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 61
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -124,6 +124,7 @@
       "dim2": -0.566
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -757,27 +758,22 @@
     {
       "bioguide": "C001072",
       "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 74
+      "count": 73
     },
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 69
+      "count": 67
     },
     {
       "bioguide": "J000032",
       "name": "Rep. Jackson Lee, Sheila [D-TX-18]",
-      "count": 66
+      "count": 63
     },
     {
       "bioguide": "M001160",
       "name": "Rep. Moore, Gwen [D-WI-4]",
-      "count": 64
-    },
-    {
-      "bioguide": "L000551",
-      "name": "Rep. Lee, Barbara [D-CA-13]",
-      "count": 63
+      "count": 62
     },
     {
       "bioguide": "C001061",
@@ -785,23 +781,28 @@
       "count": 60
     },
     {
+      "bioguide": "L000551",
+      "name": "Rep. Lee, Barbara [D-CA-13]",
+      "count": 60
+    },
+    {
       "bioguide": "T000193",
       "name": "Rep. Thompson, Bennie G. [D-MS-2]",
-      "count": 58
+      "count": 57
     },
     {
       "bioguide": "C001067",
       "name": "Rep. Clarke, Yvette D. [D-NY-9]",
-      "count": 58
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
-      "count": 55
+      "count": 56
     },
     {
       "bioguide": "D000096",
       "name": "Rep. Davis, Danny K. [D-IL-7]",
+      "count": 56
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
       "count": 54
     }
   ],
@@ -809,52 +810,52 @@
     {
       "bioguide": "C001072",
       "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "M001229",
       "name": "Rep. McIver, LaMonica [D-NJ-10]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "T000193",
       "name": "Rep. Thompson, Bennie G. [D-MS-2]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "T000481",
       "name": "Rep. Tlaib, Rashida [D-MI-13]",
-      "count": 6
+      "count": 7
     },
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 5
-    },
-    {
-      "bioguide": "S001200",
-      "name": "Rep. Soto, Darren [D-FL-9]",
-      "count": 5
+      "count": 6
     },
     {
       "bioguide": "T000488",
       "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001281",
+      "name": "Rep. Beatty, Joyce [D-OH-3]",
       "count": 5
     },
     {
       "bioguide": "B001313",
       "name": "Rep. Brown, Shontel M. [D-OH-11]",
-      "count": 4
+      "count": 5
     },
     {
-      "bioguide": "L000562",
-      "name": "Rep. Lynch, Stephen F. [D-MA-8]",
-      "count": 4
+      "bioguide": "C001125",
+      "name": "Rep. Carter, Troy [D-LA-2]",
+      "count": 5
     },
     {
-      "bioguide": "S001185",
-      "name": "Rep. Sewell, Terri A. [D-AL-7]",
-      "count": 4
+      "bioguide": "E000296",
+      "name": "Rep. Evans, Dwight [D-PA-2]",
+      "count": 5
     }
   ],
   "bills": [
@@ -868,7 +869,7 @@
         "date": "2025-08-08",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4925?format=json",
       "updateDate": null,
@@ -886,13 +887,22 @@
         "date": "2025-08-05",
         "text": "Referred to the Committee on Financial Services, and in addition to the Committees on House Administration, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Civil Rights and Liberties, Minority Issues",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4885?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1232,9 +1242,25 @@
           "state": "CA",
           "date": "2025-04-17",
           "original": false
+        },
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 18
     },
     {
       "congress": 119,
@@ -1325,8 +1351,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/39?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "D000623",
+          "name": "Rep. DeSaulnier, Mark [D-CA-10]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1385,11 +1420,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 129,
+    "total_hr_sr": 128,
     "total_hr_sr_bipartisan": 22,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 44,
-    "bipartisan_rate_percentile_party": 11
+    "passed_rate_percentile_party": 45,
+    "bipartisan_rate_percentile_party": 12
   },
   "district": {
     "year": 2023,

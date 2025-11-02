@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 52
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,6 +108,7 @@
       "dim2": -0.005
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -854,14 +855,14 @@
       "count": 27
     },
     {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "bioguide": "L000593",
+      "name": "Rep. Levin, Mike [D-CA-49]",
       "count": 24
     },
     {
-      "bioguide": "L000593",
-      "name": "Rep. Levin, Mike [D-CA-49]",
-      "count": 23
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
+      "count": 24
     },
     {
       "bioguide": "C001078",
@@ -898,12 +899,22 @@
     {
       "bioguide": "L000593",
       "name": "Rep. Levin, Mike [D-CA-49]",
-      "count": 5
+      "count": 6
     },
     {
       "bioguide": "O000019",
       "name": "Rep. Obernolte, Jay [R-CA-23]",
-      "count": 4
+      "count": 5
+    },
+    {
+      "bioguide": "J000305",
+      "name": "Rep. Jacobs, Sara [D-CA-53]",
+      "count": 5
+    },
+    {
+      "bioguide": "N000193",
+      "name": "Rep. Nunn, Zachary [R-IA-3]",
+      "count": 5
     },
     {
       "bioguide": "F000466",
@@ -911,8 +922,8 @@
       "count": 4
     },
     {
-      "bioguide": "J000305",
-      "name": "Rep. Jacobs, Sara [D-CA-53]",
+      "bioguide": "H001090",
+      "name": "Rep. Harder, Josh [D-CA-10]",
       "count": 4
     },
     {
@@ -931,18 +942,8 @@
       "count": 3
     },
     {
-      "bioguide": "N000193",
-      "name": "Rep. Nunn, Zachary [R-IA-3]",
-      "count": 3
-    },
-    {
-      "bioguide": "C001125",
-      "name": "Rep. Carter, Troy [D-LA-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "N000188",
-      "name": "Rep. Norcross, Donald [D-NJ-1]",
+      "bioguide": "H001058",
+      "name": "Rep. Huizenga, Bill [R-MI-4]",
       "count": 2
     }
   ],
@@ -950,14 +951,312 @@
     {
       "congress": 119,
       "billType": "hr",
+      "number": "5887",
+      "title": "To establish a universal personal savings program, and for other purposes.",
+      "introducedDate": "2025-10-31",
+      "latestAction": {
+        "date": "2025-10-31",
+        "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5887?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5755",
+      "title": "No Budget, No Pay Act",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the House Committee on House Administration."
+      },
+      "policy_area": "Congress",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5755?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5601",
+      "title": "Faith in Housing Act of 2025",
+      "introducedDate": "2025-09-26",
+      "latestAction": {
+        "date": "2025-09-26",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5601?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-26",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5600",
+      "title": "SPEED and Reliability Act of 2025",
+      "introducedDate": "2025-09-26",
+      "latestAction": {
+        "date": "2025-09-26",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5600?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-26",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5443",
+      "title": "Fair Housing Improvement Act of 2025",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5443?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Rep. Evans, Dwight [D-PA-3]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000598",
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000585",
+          "name": "Rep. Gomez, Jimmy [D-CA-34]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Rep. McGarvey, Morgan [D-KY-3]",
+          "party": "D",
+          "state": "KY",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Rep. Ramirez, Delia C. [D-IL-3]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001313",
+          "name": "Rep. Brown, Shontel M. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "F000483",
+          "name": "Rep. Friedman, Laura [D-CA-30]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 16
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5119",
+      "title": "National Security Climate Intelligence Act of 2025",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Intelligence (Permanent Select)."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5119?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001121",
+          "name": "Rep. Crow, Jason [D-CO-6]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
       "number": "4818",
       "title": "Gas Pipeline Leak Detection and Repair Act of 2025",
       "introducedDate": "2025-07-29",
       "latestAction": {
-        "date": "2025-07-29",
-        "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-07-30",
+        "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4818?format=json",
       "updateDate": null,
@@ -1021,10 +1320,10 @@
       "title": "Build More Housing Near Transit Act of 2025",
       "introducedDate": "2025-07-21",
       "latestAction": {
-        "date": "2025-07-21",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-22",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4576?format=json",
       "updateDate": null,
@@ -1085,9 +1384,33 @@
           "state": "NC",
           "date": "2025-08-12",
           "original": false
+        },
+        {
+          "bioguide": "A000148",
+          "name": "Rep. Auchincloss, Jake [D-MA-4]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -1347,9 +1670,49 @@
           "state": "IL",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "L000607",
+          "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -1633,9 +1996,17 @@
           "state": "VA",
           "date": "2025-04-17",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -2227,11 +2598,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 169,
-    "total_hr_sr_bipartisan": 100,
+    "total_hr_sr": 175,
+    "total_hr_sr_bipartisan": 103,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 56,
-    "bipartisan_rate_percentile_party": 79
+    "passed_rate_percentile_party": 55,
+    "bipartisan_rate_percentile_party": 80
   },
   "district": {
     "year": 2023,

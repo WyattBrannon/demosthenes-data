@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 35
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,6 +88,7 @@
       "dim2": 0.241
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -931,7 +932,7 @@
     {
       "bioguide": "C001067",
       "name": "Rep. Clarke, Yvette D. [D-NY-9]",
-      "count": 17
+      "count": 18
     },
     {
       "bioguide": "V000081",
@@ -971,6 +972,11 @@
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "C001067",
+      "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+      "count": 3
+    },
+    {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 3
@@ -981,8 +987,8 @@
       "count": 3
     },
     {
-      "bioguide": "C001067",
-      "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+      "bioguide": "O000172",
+      "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
       "count": 2
     },
     {
@@ -1014,14 +1020,71 @@
       "bioguide": "G000597",
       "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
       "count": 2
-    },
-    {
-      "bioguide": "T000480",
-      "name": "Rep. Timmons, William R. [R-SC-4]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5741",
+      "title": "TRUMP Act of 2025",
+      "introducedDate": "2025-10-10",
+      "latestAction": {
+        "date": "2025-10-10",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5741?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000607",
+          "name": "Rep. Liccardo, Sam T. [D-CA-16]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5124",
+      "title": "River\u2019s Law",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Families",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5124?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "O000172",
+          "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1032,7 +1095,7 @@
         "date": "2025-08-08",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4946?format=json",
       "updateDate": null,
@@ -1068,7 +1131,7 @@
         "date": "2025-07-14",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4385?format=json",
       "updateDate": null,
@@ -1081,9 +1144,33 @@
           "state": "SC",
           "date": "2025-07-14",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "P000617",
+          "name": "Rep. Pressley, Ayanna [D-MA-7]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1113,7 +1200,7 @@
         "date": "2025-06-10",
         "text": "Referred to the House Committee on Oversight and Government Reform."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3893?format=json",
       "updateDate": null,
@@ -1167,7 +1254,7 @@
         "date": "2025-05-01",
         "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
       },
-      "policy_area": "Energy",
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3167?format=json",
       "updateDate": null,
@@ -1861,11 +1948,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 123,
+    "total_hr_sr": 125,
     "total_hr_sr_bipartisan": 26,
     "total_hr_sr_became_public_law": 1,
     "passed_rate_percentile_party": 45,
-    "bipartisan_rate_percentile_party": 15
+    "bipartisan_rate_percentile_party": 14
   },
   "district": {
     "year": 2023,

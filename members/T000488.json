@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 40
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -79,6 +79,7 @@
       "dim2": 0.014
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -891,12 +892,37 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 8
+      "count": 10
     },
     {
       "bioguide": "K000391",
       "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
-      "count": 7
+      "count": 8
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 6
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+      "count": 6
+    },
+    {
+      "bioguide": "D000624",
+      "name": "Rep. Dingell, Debbie [D-MI-6]",
+      "count": 6
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 6
+    },
+    {
+      "bioguide": "G000583",
+      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "count": 6
     },
     {
       "bioguide": "S001200",
@@ -904,94 +930,141 @@
       "count": 6
     },
     {
-      "bioguide": "S001145",
-      "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+      "bioguide": "M001160",
+      "name": "Rep. Moore, Gwen [D-WI-4]",
       "count": 5
     },
     {
-      "bioguide": "L000599",
-      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
       "count": 5
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 5
-    },
-    {
-      "bioguide": "G000583",
-      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
-      "count": 5
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
-      "count": 5
-    },
-    {
-      "bioguide": "G000599",
-      "name": "Rep. Goldman, Daniel S. [D-NY-10]",
-      "count": 5
-    },
-    {
-      "bioguide": "S000344",
-      "name": "Rep. Sherman, Brad [D-CA-32]",
-      "count": 4
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 5
+      "count": 7
     },
     {
       "bioguide": "K000391",
       "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "count": 5
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
       "count": 4
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 4
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 3
+    },
+    {
+      "bioguide": "L000601",
+      "name": "Rep. Landsman, Greg [D-OH-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "D000624",
+      "name": "Rep. Dingell, Debbie [D-MI-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "G000583",
+      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "count": 3
     },
     {
       "bioguide": "S001145",
       "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
       "count": 3
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 3
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
-      "count": 3
-    },
-    {
-      "bioguide": "S000344",
-      "name": "Rep. Sherman, Brad [D-CA-32]",
-      "count": 2
-    },
-    {
-      "bioguide": "L000601",
-      "name": "Rep. Landsman, Greg [D-OH-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "L000599",
-      "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 2
-    },
-    {
-      "bioguide": "G000583",
-      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
-      "count": 2
-    },
-    {
-      "bioguide": "S001200",
-      "name": "Rep. Soto, Darren [D-FL-9]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5809",
+      "title": "Fight Hunger Act",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5809?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5662",
+      "title": "Improving Access to Institutional Mental Health Care Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5662?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5611",
+      "title": "Mental Health Care Provider Retention Act of 2025",
+      "introducedDate": "2025-09-26",
+      "latestAction": {
+        "date": "2025-09-26",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5611?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5561",
+      "title": "Picket Line Protection Act of 2025",
+      "introducedDate": "2025-09-23",
+      "latestAction": {
+        "date": "2025-09-23",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5561?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1002,7 +1075,7 @@
         "date": "2025-08-08",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4944?format=json",
       "updateDate": null,
@@ -1029,7 +1102,7 @@
         "date": "2025-08-01",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4867?format=json",
       "updateDate": null,
@@ -1064,7 +1137,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on Small Business."
       },
-      "policy_area": null,
+      "policy_area": "Commerce",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4824?format=json",
       "updateDate": null,
@@ -1093,9 +1166,17 @@
           "state": "PR",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1575,11 +1656,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 30,
+    "total_hr_sr": 34,
     "total_hr_sr_bipartisan": 10,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 41
+    "bipartisan_rate_percentile_party": 29
   },
   "district": {
     "year": 2023,

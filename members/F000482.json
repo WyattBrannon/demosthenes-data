@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 37
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -74,6 +74,7 @@
       "dim2": 0.318
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-22",
@@ -788,6 +789,11 @@
       "count": 2
     },
     {
+      "bioguide": "L000597",
+      "name": "Rep. Lee, Laurel M. [R-FL-15]",
+      "count": 2
+    },
+    {
       "bioguide": "R000619",
       "name": "Rep. Rulli, Michael A. [R-OH-6]",
       "count": 1
@@ -808,13 +814,8 @@
       "count": 1
     },
     {
-      "bioguide": "D000628",
-      "name": "Rep. Dunn, Neal P. [R-FL-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "J000302",
-      "name": "Rep. Joyce, John [R-PA-13]",
+      "bioguide": "H001072",
+      "name": "Rep. Hill, J. French [R-AR-2]",
       "count": 1
     }
   ],
@@ -840,6 +841,11 @@
       "count": 2
     },
     {
+      "bioguide": "L000597",
+      "name": "Rep. Lee, Laurel M. [R-FL-15]",
+      "count": 2
+    },
+    {
       "bioguide": "R000619",
       "name": "Rep. Rulli, Michael A. [R-OH-6]",
       "count": 1
@@ -860,17 +866,35 @@
       "count": 1
     },
     {
-      "bioguide": "D000628",
-      "name": "Rep. Dunn, Neal P. [R-FL-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "J000302",
-      "name": "Rep. Joyce, John [R-PA-13]",
+      "bioguide": "H001072",
+      "name": "Rep. Hill, J. French [R-AR-2]",
       "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5311",
+      "title": "CABLE Expansion Act",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Broadcasting, cable, digital technologies",
+        "Licensing and registrations",
+        "State and local government operations",
+        "Television and film"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5311?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -950,9 +974,121 @@
           "state": "IN",
           "date": "2025-06-23",
           "original": false
+        },
+        {
+          "bioguide": "H001072",
+          "name": "Rep. Hill, J. French [R-AR-2]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "L000597",
+          "name": "Rep. Lee, Laurel M. [R-FL-15]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Rep. Baumgartner, Michael [R-WA-5]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001099",
+          "name": "Rep. Haridopolos, Mike [R-FL-8]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "E000300",
+          "name": "Rep. Evans, Gabe [R-CO-8]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001093",
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000568",
+          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "J000301",
+          "name": "Rep. Johnson, Dusty [R-SD-At Large]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John J. [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 22
     },
     {
       "congress": 119,
@@ -961,8 +1097,8 @@
       "title": "Promoting Cross-border Energy Infrastructure Act",
       "introducedDate": "2025-04-29",
       "latestAction": {
-        "date": "2025-07-02",
-        "text": "Placed on the Union Calendar, Calendar No. 151."
+        "date": "2025-09-19",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources."
       },
       "policy_area": "Energy",
       "subjects": [
@@ -1096,10 +1232,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 5,
+    "total_hr_sr": 6,
     "total_hr_sr_bipartisan": 0,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
+    "passed_rate_percentile_party": 19,
     "bipartisan_rate_percentile_party": 2
   },
   "district": {

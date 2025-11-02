@@ -117,7 +117,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 55
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -190,6 +190,7 @@
       "dim2": 0.343
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-01",
@@ -1033,7 +1034,7 @@
     {
       "bioguide": "B001236",
       "name": "Sen. Boozman, John [R-AR]",
-      "count": 27
+      "count": 28
     },
     {
       "bioguide": "W000437",
@@ -1093,6 +1094,11 @@
       "count": 3
     },
     {
+      "bioguide": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "count": 3
+    },
+    {
       "bioguide": "W000802",
       "name": "Sen. Whitehouse, Sheldon [D-RI]",
       "count": 3
@@ -1113,18 +1119,13 @@
       "count": 2
     },
     {
-      "bioguide": "A000382",
-      "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+      "bioguide": "K000383",
+      "name": "Sen. King, Angus S., Jr. [I-ME]",
       "count": 2
     },
     {
-      "bioguide": "W000437",
-      "name": "Sen. Wicker, Roger F. [R-MS]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001303",
-      "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+      "bioguide": "B001236",
+      "name": "Sen. Boozman, John [R-AR]",
       "count": 2
     }
   ],
@@ -1139,7 +1140,7 @@
         "date": "2025-07-31",
         "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 140."
       },
-      "policy_area": null,
+      "policy_area": "Economics and Public Finance",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2587?format=json",
       "updateDate": null,
@@ -1157,7 +1158,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2621?format=json",
       "updateDate": null,
@@ -1202,9 +1203,41 @@
           "state": "NC",
           "date": "2025-07-31",
           "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-10-16",
+          "original": false
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-20",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1817,7 +1850,7 @@
     "total_hr_sr_bipartisan": 104,
     "total_hr_sr_became_public_law": 2,
     "passed_rate_percentile_party": 48,
-    "bipartisan_rate_percentile_party": 88
+    "bipartisan_rate_percentile_party": 89
   },
   "district": {
     "year": 2023,

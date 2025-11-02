@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 30
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -92,6 +92,7 @@
       "dim2": -0.014
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -846,7 +847,17 @@
     {
       "bioguide": "C001072",
       "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 10
+      "count": 11
+    },
+    {
+      "bioguide": "S000510",
+      "name": "Rep. Smith, Adam [D-WA-9]",
+      "count": 9
+    },
+    {
+      "bioguide": "P000613",
+      "name": "Rep. Panetta, Jimmy [D-CA-20]",
+      "count": 9
     },
     {
       "bioguide": "R000305",
@@ -856,27 +867,17 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 9
+    },
+    {
+      "bioguide": "S001185",
+      "name": "Rep. Sewell, Terri A. [D-AL-7]",
       "count": 8
     },
     {
-      "bioguide": "P000613",
-      "name": "Rep. Panetta, Jimmy [D-CA-20]",
+      "bioguide": "S001207",
+      "name": "Rep. Sherrill, Mikie [D-NJ-11]",
       "count": 8
-    },
-    {
-      "bioguide": "D000617",
-      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
-      "count": 8
-    },
-    {
-      "bioguide": "M001196",
-      "name": "Rep. Moulton, Seth [D-MA-6]",
-      "count": 8
-    },
-    {
-      "bioguide": "T000468",
-      "name": "Rep. Titus, Dina [D-NV-1]",
-      "count": 7
     }
   ],
   "cosponsors_top_latest": [
@@ -886,9 +887,24 @@
       "count": 10
     },
     {
+      "bioguide": "S001185",
+      "name": "Rep. Sewell, Terri A. [D-AL-7]",
+      "count": 6
+    },
+    {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 6
+    },
+    {
+      "bioguide": "S000510",
+      "name": "Rep. Smith, Adam [D-WA-9]",
       "count": 5
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 4
     },
     {
       "bioguide": "J000288",
@@ -896,13 +912,13 @@
       "count": 4
     },
     {
-      "bioguide": "S001185",
-      "name": "Rep. Sewell, Terri A. [D-AL-7]",
+      "bioguide": "S001207",
+      "name": "Rep. Sherrill, Mikie [D-NJ-11]",
       "count": 4
     },
     {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andre [D-IN-7]",
+      "bioguide": "P000613",
+      "name": "Rep. Panetta, Jimmy [D-CA-20]",
       "count": 3
     },
     {
@@ -911,27 +927,132 @@
       "count": 3
     },
     {
-      "bioguide": "S000510",
-      "name": "Rep. Smith, Adam [D-WA-9]",
-      "count": 3
-    },
-    {
-      "bioguide": "M001227",
-      "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
-      "count": 3
-    },
-    {
-      "bioguide": "T000487",
-      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
-      "count": 3
-    },
-    {
-      "bioguide": "M001196",
-      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "bioguide": "S001218",
+      "name": "Rep. Stansbury, Melanie Ann [D-NM-1]",
       "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5559",
+      "title": "Investments in Innovation Act of 2025",
+      "introducedDate": "2025-09-23",
+      "latestAction": {
+        "date": "2025-09-23",
+        "text": "Referred to the House Committee on Small Business."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5559?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5367",
+      "title": "Capital for Beginning Farmers and Ranchers Act of 2025",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-15",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5367?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "A000370",
+          "name": "Rep. Adams, Alma S. [D-NC-12]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "F000481",
+          "name": "Rep. Figures, Shomari [D-AL-2]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 7
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5368",
+      "title": "Pipeline Safety Engagement Act of 2025",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5368?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -942,7 +1063,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4821?format=json",
       "updateDate": null,
@@ -1075,9 +1196,97 @@
           "state": "MA",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "T000472",
+          "name": "Rep. Takano, Mark [D-CA-39]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "O000173",
+          "name": "Rep. Omar, Ilhan [D-MN-5]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "H001047",
+          "name": "Rep. Himes, James A. [D-CT-4]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "A000381",
+          "name": "Rep. Ansari, Yassamin [D-AZ-3]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "W000788",
+          "name": "Rep. Williams, Nikema [D-GA-5]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001207",
+          "name": "Rep. Sherrill, Mikie [D-NJ-11]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "S001218",
+          "name": "Rep. Stansbury, Melanie A. [D-NM-1]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Rep. Sykes, Emilia Strong [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 27
     },
     {
       "congress": 119,
@@ -1086,8 +1295,8 @@
       "title": "Cool Corridors Act of 2025",
       "introducedDate": "2025-07-15",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-16",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
       "policy_area": "Transportation and Public Works",
       "subjects": [],
@@ -1294,9 +1503,33 @@
           "state": "GA",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 25
+      "cosponsors_total": 28
     },
     {
       "congress": 119,
@@ -1308,7 +1541,7 @@
         "date": "2025-07-10",
         "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Oversight and Government Reform, and House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Labor and Employment",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4351?format=json",
       "updateDate": null,
@@ -1345,9 +1578,25 @@
           "state": "MO",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Rep. McGarvey, Morgan [D-KY-3]",
+          "party": "D",
+          "state": "KY",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001241",
+          "name": "Rep. Min, Dave [D-CA-47]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1359,7 +1608,7 @@
         "date": "2025-06-30",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4265?format=json",
       "updateDate": null,
@@ -1476,9 +1725,17 @@
           "state": "DC",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -1554,9 +1811,33 @@
           "state": "VA",
           "date": "2025-05-05",
           "original": true
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Rep. Sykes, Emilia Strong [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1720,9 +2001,25 @@
           "state": "PA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "E000299",
+          "name": "Rep. Escobar, Veronica [D-TX-16]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Rep. Sykes, Emilia Strong [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": false
         }
       ],
-      "cosponsors_total": 15
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -2113,9 +2410,17 @@
           "state": "TN",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "W000831",
+          "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 34
+      "cosponsors_total": 35
     },
     {
       "congress": 119,
@@ -2239,9 +2544,17 @@
           "state": "NY",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -2554,9 +2867,17 @@
           "state": "NJ",
           "date": "2025-03-31",
           "original": false
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Rep. Horsford, Steven [D-NV-4]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 24
+      "cosponsors_total": 25
     },
     {
       "congress": 119,
@@ -2746,11 +3067,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 47,
+    "total_hr_sr": 50,
     "total_hr_sr_bipartisan": 22,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 62
+    "bipartisan_rate_percentile_party": 58
   },
   "district": {
     "year": 2023,

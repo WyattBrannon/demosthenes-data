@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -144,6 +144,7 @@
       "dim2": 0.178
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -751,7 +752,7 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 58
+      "count": 59
     },
     {
       "bioguide": "G000551",
@@ -796,57 +797,215 @@
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "A000148",
-      "name": "Rep. Auchincloss, Jake [D-MA-4]",
-      "count": 2
-    },
-    {
-      "bioguide": "D000216",
-      "name": "Rep. DeLauro, Rosa L. [D-CT-3]",
-      "count": 2
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
+      "count": 3
     },
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Rep. Bilirakis, Gus M. [R-FL-9]",
       "count": 2
     },
     {
-      "bioguide": "G000599",
-      "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+      "bioguide": "R000599",
+      "name": "Rep. Ruiz, Raul [D-CA-36]",
       "count": 2
     },
     {
-      "bioguide": "P000617",
-      "name": "Rep. Pressley, Ayanna [D-MA-7]",
+      "bioguide": "T000193",
+      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
       "count": 2
     },
     {
-      "bioguide": "S001156",
-      "name": "Rep. S\u00e1nchez, Linda T. [D-CA-39]",
-      "count": 2
-    },
-    {
-      "bioguide": "Q000023",
-      "name": "Rep. Quigley, Mike [D-IL-5]",
-      "count": 2
-    },
-    {
-      "bioguide": "S001216",
-      "name": "Rep. Schrier, Kim [D-WA-8]",
+      "bioguide": "C001061",
+      "name": "Rep. Cleaver, Emanuel [D-MO-5]",
       "count": 2
     },
     {
       "bioguide": "R000606",
       "name": "Rep. Raskin, Jamie [D-MD-8]",
-      "count": 1
+      "count": 2
     },
     {
-      "bioguide": "H001067",
-      "name": "Rep. Hudson, Richard [R-NC-9]",
-      "count": 1
+      "bioguide": "M001160",
+      "name": "Rep. Moore, Gwen [D-WI-4]",
+      "count": 2
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-13]",
+      "count": 2
+    },
+    {
+      "bioguide": "D000399",
+      "name": "Rep. Doggett, Lloyd [D-TX-10]",
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5621",
+      "title": "Physical Therapist Workforce and Patient Access Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5621?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000568",
+          "name": "Rep. Griffith, H. Morgan [R-VA-9]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5461",
+      "title": "Special Diabetes Program Reauthorization Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5461?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "J000295",
+          "name": "Rep. Joyce, David P. [R-OH-14]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "W000187",
+          "name": "Rep. Waters, Maxine [D-CA-43]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -922,9 +1081,33 @@
           "state": "MN",
           "date": "2025-05-19",
           "original": true
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -941,8 +1124,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2995?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1014,7 +1206,13 @@
         "text": "Referred to the House Committee on the Judiciary."
       },
       "policy_area": "Crime and Law Enforcement",
-      "subjects": [],
+      "subjects": [
+        "Civil actions and liability",
+        "Firearms and explosives",
+        "Law enforcement administration and funding",
+        "Retail and wholesale trades",
+        "Trade restrictions"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1674?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -2154,9 +2352,17 @@
           "state": "TX",
           "date": "2025-08-12",
           "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 142
+      "cosponsors_total": 143
     },
     {
       "congress": 119,
@@ -2220,11 +2426,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 199,
-    "total_hr_sr_bipartisan": 112,
+    "total_hr_sr": 201,
+    "total_hr_sr_bipartisan": 114,
     "total_hr_sr_became_public_law": 2,
     "passed_rate_percentile_party": 50,
-    "bipartisan_rate_percentile_party": 76
+    "bipartisan_rate_percentile_party": 77
   },
   "district": {
     "year": 2023,

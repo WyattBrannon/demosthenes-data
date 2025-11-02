@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 30
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,6 +86,7 @@
       "dim2": 0.447
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -830,109 +831,366 @@
   ],
   "cosponsors_top": [
     {
-      "bioguide": "M001229",
-      "name": "Rep. McIver, LaMonica [D-NJ-10]",
-      "count": 6
-    },
-    {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 6
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
-      "count": 5
-    },
-    {
-      "bioguide": "W000822",
-      "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
-      "count": 5
+      "count": 12
     },
     {
       "bioguide": "H001068",
       "name": "Rep. Huffman, Jared [D-CA-2]",
-      "count": 5
+      "count": 9
+    },
+    {
+      "bioguide": "W000822",
+      "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "count": 8
+    },
+    {
+      "bioguide": "T000488",
+      "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "count": 8
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-12]",
+      "count": 8
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+      "count": 8
     },
     {
       "bioguide": "B001300",
       "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
-      "count": 5
+      "count": 7
     },
     {
-      "bioguide": "E000296",
-      "name": "Rep. Evans, Dwight [D-PA-3]",
-      "count": 4
+      "bioguide": "M001229",
+      "name": "Rep. McIver, LaMonica [D-NJ-10]",
+      "count": 7
     },
     {
-      "bioguide": "H001066",
-      "name": "Rep. Horsford, Steven [D-NV-4]",
-      "count": 4
+      "bioguide": "J000298",
+      "name": "Rep. Jayapal, Pramila [D-WA-7]",
+      "count": 6
     },
     {
-      "bioguide": "B001324",
-      "name": "Rep. Bell, Wesley [D-MO-1]",
-      "count": 4
-    },
-    {
-      "bioguide": "D000635",
-      "name": "Rep. Dexter, Maxine [D-OR-3]",
-      "count": 4
+      "bioguide": "M001225",
+      "name": "Rep. Mullin, Kevin [D-CA-15]",
+      "count": 6
     }
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "M001229",
-      "name": "Rep. McIver, LaMonica [D-NJ-10]",
-      "count": 6
-    },
-    {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 6
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
-      "count": 5
-    },
-    {
-      "bioguide": "W000822",
-      "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
-      "count": 5
+      "count": 12
     },
     {
       "bioguide": "H001068",
       "name": "Rep. Huffman, Jared [D-CA-2]",
-      "count": 5
+      "count": 9
+    },
+    {
+      "bioguide": "W000822",
+      "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "count": 8
+    },
+    {
+      "bioguide": "T000488",
+      "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "count": 8
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-12]",
+      "count": 8
+    },
+    {
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+      "count": 8
     },
     {
       "bioguide": "B001300",
       "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
-      "count": 5
+      "count": 7
     },
     {
-      "bioguide": "E000296",
-      "name": "Rep. Evans, Dwight [D-PA-3]",
-      "count": 4
+      "bioguide": "M001229",
+      "name": "Rep. McIver, LaMonica [D-NJ-10]",
+      "count": 7
     },
     {
-      "bioguide": "H001066",
-      "name": "Rep. Horsford, Steven [D-NV-4]",
-      "count": 4
+      "bioguide": "J000298",
+      "name": "Rep. Jayapal, Pramila [D-WA-7]",
+      "count": 6
     },
     {
-      "bioguide": "B001324",
-      "name": "Rep. Bell, Wesley [D-MO-1]",
-      "count": 4
-    },
-    {
-      "bioguide": "D000635",
-      "name": "Rep. Dexter, Maxine [D-OR-3]",
-      "count": 4
+      "bioguide": "M001225",
+      "name": "Rep. Mullin, Kevin [D-CA-15]",
+      "count": 6
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5706",
+      "title": "Mental Health Emergency Responder Act",
+      "introducedDate": "2025-10-08",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5706?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000587",
+          "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001226",
+          "name": "Rep. Salinas, Andrea [D-OR-6]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5617",
+      "title": "Geothermal Gold Book Development Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5617?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5541",
+      "title": "Every Kid Outdoors Reauthorization Act",
+      "introducedDate": "2025-09-23",
+      "latestAction": {
+        "date": "2025-09-23",
+        "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5541?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "D000197",
+          "name": "Rep. DeGette, Diana [D-CO-1]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -943,7 +1201,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Foreign Affairs."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4627?format=json",
       "updateDate": null,
@@ -1098,11 +1356,11 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4628?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "B001278",
@@ -1143,9 +1401,17 @@
           "state": "MN",
           "date": "2025-07-23",
           "original": true
+        },
+        {
+          "bioguide": "H001098",
+          "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1985,9 +2251,17 @@
           "state": "CA",
           "date": "2025-05-19",
           "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -2399,9 +2673,17 @@
           "state": "WA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "M001214",
+          "name": "Rep. Mrvan, Frank J. [D-IN-1]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 43
+      "cosponsors_total": 44
     },
     {
       "congress": 119,
@@ -2423,11 +2705,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 11,
-    "total_hr_sr_bipartisan": 0,
+    "total_hr_sr": 14,
+    "total_hr_sr_bipartisan": 1,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 2
+    "bipartisan_rate_percentile_party": 5
   },
   "district": {
     "year": 2023,

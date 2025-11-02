@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 45
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -154,6 +154,7 @@
       "dim2": 0.478
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -1015,12 +1016,17 @@
       "count": 15
     },
     {
-      "bioguide": "B000911",
-      "name": "Rep. Brown, Corrine [D-FL-3]",
+      "bioguide": "S001189",
+      "name": "Rep. Scott, Austin [R-GA-8]",
       "count": 14
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "K000399",
+      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "count": 1
+    },
     {
       "bioguide": "S001189",
       "name": "Rep. Scott, Austin [R-GA-8]",
@@ -1065,14 +1071,36 @@
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 1
-    },
-    {
-      "bioguide": "W000808",
-      "name": "Rep. Wilson, Frederica S. [D-FL-24]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5422",
+      "title": "Military Housing Performance Insight Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5422?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1313,11 +1341,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 114,
-    "total_hr_sr_bipartisan": 54,
+    "total_hr_sr": 115,
+    "total_hr_sr_bipartisan": 56,
     "total_hr_sr_became_public_law": 6,
     "passed_rate_percentile_party": 95,
-    "bipartisan_rate_percentile_party": 63
+    "bipartisan_rate_percentile_party": 66
   },
   "district": {
     "year": 2023,

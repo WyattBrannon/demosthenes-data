@@ -89,7 +89,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 55
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,6 +102,7 @@
       "dim2": -0.011
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-02",
@@ -879,107 +880,581 @@
     {
       "bioguide": "V000128",
       "name": "Sen. Van Hollen, Chris [D-MD]",
-      "count": 4
+      "count": 11
     },
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000800",
-      "name": "Sen. Welch, Peter [D-VT]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000779",
-      "name": "Sen. Wyden, Ron [D-OR]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000805",
-      "name": "Sen. Warner, Mark R. [D-VA]",
-      "count": 2
+      "count": 7
     },
     {
       "bioguide": "K000384",
       "name": "Sen. Kaine, Tim [D-VA]",
-      "count": 2
+      "count": 6
     },
     {
-      "bioguide": "L000571",
-      "name": "Sen. Lummis, Cynthia M. [R-WY]",
-      "count": 1
+      "bioguide": "W000805",
+      "name": "Sen. Warner, Mark R. [D-VA]",
+      "count": 5
     },
     {
-      "bioguide": "F000479",
-      "name": "Sen. Fetterman, John [D-PA]",
-      "count": 1
+      "bioguide": "W000779",
+      "name": "Sen. Wyden, Ron [D-OR]",
+      "count": 5
     },
     {
       "bioguide": "M001176",
       "name": "Sen. Merkley, Jeff [D-OR]",
-      "count": 1
+      "count": 5
+    },
+    {
+      "bioguide": "L000570",
+      "name": "Sen. Lujan, Ben Ray [D-NM]",
+      "count": 4
+    },
+    {
+      "bioguide": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
+      "count": 4
     },
     {
       "bioguide": "W000817",
       "name": "Sen. Warren, Elizabeth [D-MA]",
-      "count": 1
+      "count": 3
+    },
+    {
+      "bioguide": "K000394",
+      "name": "Sen. Kim, Andy [D-NJ]",
+      "count": 3
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "V000128",
       "name": "Sen. Van Hollen, Chris [D-MD]",
-      "count": 4
+      "count": 11
     },
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000800",
-      "name": "Sen. Welch, Peter [D-VT]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000779",
-      "name": "Sen. Wyden, Ron [D-OR]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000805",
-      "name": "Sen. Warner, Mark R. [D-VA]",
-      "count": 2
+      "count": 7
     },
     {
       "bioguide": "K000384",
       "name": "Sen. Kaine, Tim [D-VA]",
-      "count": 2
+      "count": 6
     },
     {
-      "bioguide": "L000571",
-      "name": "Sen. Lummis, Cynthia M. [R-WY]",
-      "count": 1
+      "bioguide": "W000805",
+      "name": "Sen. Warner, Mark R. [D-VA]",
+      "count": 5
     },
     {
-      "bioguide": "F000479",
-      "name": "Sen. Fetterman, John [D-PA]",
-      "count": 1
+      "bioguide": "W000779",
+      "name": "Sen. Wyden, Ron [D-OR]",
+      "count": 5
     },
     {
       "bioguide": "M001176",
       "name": "Sen. Merkley, Jeff [D-OR]",
-      "count": 1
+      "count": 5
+    },
+    {
+      "bioguide": "L000570",
+      "name": "Sen. Lujan, Ben Ray [D-NM]",
+      "count": 4
+    },
+    {
+      "bioguide": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
+      "count": 4
     },
     {
       "bioguide": "W000817",
       "name": "Sen. Warren, Elizabeth [D-MA]",
-      "count": 1
+      "count": 3
+    },
+    {
+      "bioguide": "K000394",
+      "name": "Sen. Kim, Andy [D-NJ]",
+      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3070",
+      "title": "A bill to provide Federal student loan borrower relief for Federal employees.",
+      "introducedDate": "2025-10-29",
+      "latestAction": {
+        "date": "2025-10-29",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3070?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 14
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2948",
+      "title": "Help FEDS Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2948?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2912",
+      "title": "Deceptive Practices and Voter Intimidation Prevention Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2912?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C000127",
+          "name": "Sen. Cantwell, Maria [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2913",
+      "title": "Protecting Students with Disabilities Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2913?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "R000122",
+          "name": "Sen. Reed, Jack [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-23",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 14
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2848",
+      "title": "DoD COW Act of 2025",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2848?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2756",
+      "title": "Affordable Inhalers and Nebulizers Act of 2025",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2756?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -990,7 +1465,7 @@
         "date": "2025-07-30",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2531?format=json",
       "updateDate": null,
@@ -1017,7 +1492,7 @@
         "date": "2025-07-22",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Education",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2373?format=json",
       "updateDate": null,
@@ -1293,11 +1768,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 5,
+    "total_hr_sr": 11,
     "total_hr_sr_bipartisan": 1,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 14
+    "bipartisan_rate_percentile_party": 5
   },
   "district": {
     "year": 2023,

@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 80
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -85,6 +85,7 @@
       "dim2": 0.168
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -788,7 +789,7 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 23
+      "count": 25
     },
     {
       "bioguide": "C001059",
@@ -806,13 +807,13 @@
       "count": 17
     },
     {
-      "bioguide": "S001193",
-      "name": "Rep. Swalwell, Eric [D-CA-15]",
-      "count": 10
-    },
-    {
       "bioguide": "T000460",
       "name": "Rep. Thompson, Mike [D-CA-5]",
+      "count": 11
+    },
+    {
+      "bioguide": "S001193",
+      "name": "Rep. Swalwell, Eric [D-CA-15]",
       "count": 10
     },
     {
@@ -831,8 +832,8 @@
       "count": 7
     },
     {
-      "bioguide": "D000623",
-      "name": "Rep. DeSaulnier, Mark [D-CA-11]",
+      "bioguide": "B001287",
+      "name": "Rep. Bera, Ami [D-CA-7]",
       "count": 6
     }
   ],
@@ -840,7 +841,7 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 9
+      "count": 11
     },
     {
       "bioguide": "G000559",
@@ -853,42 +854,123 @@
       "count": 3
     },
     {
+      "bioguide": "N000193",
+      "name": "Rep. Nunn, Zachary [R-IA-3]",
+      "count": 3
+    },
+    {
+      "bioguide": "T000460",
+      "name": "Rep. Thompson, Mike [D-CA-5]",
+      "count": 3
+    },
+    {
       "bioguide": "V000129",
       "name": "Rep. Valadao, David G. [R-CA-21]",
       "count": 2
     },
     {
-      "bioguide": "T000460",
-      "name": "Rep. Thompson, Mike [D-CA-5]",
+      "bioguide": "K000397",
+      "name": "Rep. Kim, Young [R-CA-39]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001112",
+      "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+      "count": 2
+    },
+    {
+      "bioguide": "R000622",
+      "name": "Rep. Riley, Josh [D-NY-19]",
       "count": 2
     },
     {
       "bioguide": "D000623",
       "name": "Rep. DeSaulnier, Mark [D-CA-11]",
       "count": 2
-    },
-    {
-      "bioguide": "L000578",
-      "name": "Rep. LaMalfa, Doug [R-CA-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "C001059",
-      "name": "Rep. Costa, Jim [D-CA-16]",
-      "count": 2
-    },
-    {
-      "bioguide": "K000399",
-      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000592",
-      "name": "Rep. Golden, Jared F. [D-ME-2]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5751",
+      "title": "CPUC Act",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5751?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5550",
+      "title": "Lower Internet Costs Act",
+      "introducedDate": "2025-09-23",
+      "latestAction": {
+        "date": "2025-09-23",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5550?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5359",
+      "title": "No Bribes for Politicians Act of 2025",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-15",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5359?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5141",
+      "title": "Stop the Rate Hikes Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5141?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -899,7 +981,7 @@
         "date": "2025-08-12",
         "text": "Referred to the House Committee on Ways and Means."
       },
-      "policy_area": null,
+      "policy_area": "Taxation",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4949?format=json",
       "updateDate": null,
@@ -912,9 +994,17 @@
           "state": "VA",
           "date": "2025-08-12",
           "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -923,10 +1013,10 @@
       "title": "Wildfire Emergency Preparedness Act of 2025",
       "introducedDate": "2025-08-01",
       "latestAction": {
-        "date": "2025-08-01",
-        "text": "Referred to the Committee on Agriculture, and in addition to the Committees on Natural Resources, Transportation and Infrastructure, Armed Services, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-08-02",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
       },
-      "policy_area": null,
+      "policy_area": "Emergency Management",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4852?format=json",
       "updateDate": null,
@@ -939,9 +1029,41 @@
           "state": "CA",
           "date": "2025-08-01",
           "original": true
+        },
+        {
+          "bioguide": "K000397",
+          "name": "Rep. Kim, Young [R-CA-40]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -974,9 +1096,17 @@
           "state": "NH",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -988,7 +1118,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Natural Resources."
       },
-      "policy_area": null,
+      "policy_area": "Emergency Management",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4671?format=json",
       "updateDate": null,
@@ -1023,7 +1153,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Oversight and Government Reform."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4672?format=json",
       "updateDate": null,
@@ -1071,9 +1201,17 @@
           "state": "NY",
           "date": "2025-06-23",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1387,9 +1525,49 @@
           "state": "CA",
           "date": "2025-07-14",
           "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "E000299",
+          "name": "Rep. Escobar, Veronica [D-TX-16]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "P000614",
+          "name": "Rep. Pappas, Chris [D-NH-1]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 26
     },
     {
       "congress": 119,
@@ -1527,9 +1705,17 @@
           "state": "PA",
           "date": "2025-03-25",
           "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -1821,11 +2007,15 @@
       "title": "Fire Department Repayment Act of 2025",
       "introducedDate": "2025-01-13",
       "latestAction": {
-        "date": "2025-02-14",
-        "text": "Referred to the Subcommittee on Forestry and Horticulture."
+        "date": "2025-07-23",
+        "text": "Ordered to be Reported (Amended) by Unanimous Consent."
       },
       "policy_area": "Public Lands and Natural Resources",
-      "subjects": [],
+      "subjects": [
+        "Fires",
+        "First responders and emergency personnel",
+        "State and local government operations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/345?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1899,11 +2089,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 125,
+    "total_hr_sr": 129,
     "total_hr_sr_bipartisan": 54,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 62,
-    "bipartisan_rate_percentile_party": 56
+    "passed_rate_percentile_party": 61,
+    "bipartisan_rate_percentile_party": 54
   },
   "district": {
     "year": 2023,

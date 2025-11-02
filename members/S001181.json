@@ -133,7 +133,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 32
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -186,6 +186,7 @@
       "dim2": -0.21
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-02",
@@ -1140,7 +1141,7 @@
     {
       "bioguide": "K000384",
       "name": "Sen. Kaine, Tim [D-VA]",
-      "count": 20
+      "count": 21
     },
     {
       "bioguide": "C001035",
@@ -1151,6 +1152,11 @@
       "bioguide": "K000383",
       "name": "Sen. King, Angus S., Jr. [I-ME]",
       "count": 18
+    },
+    {
+      "bioguide": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "count": 17
     },
     {
       "bioguide": "V000128",
@@ -1163,8 +1169,8 @@
       "count": 16
     },
     {
-      "bioguide": "C001088",
-      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "bioguide": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
       "count": 16
     },
     {
@@ -1175,98 +1181,101 @@
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 16
-    },
-    {
-      "bioguide": "K000367",
-      "name": "Sen. Klobuchar, Amy [D-MN]",
       "count": 15
     },
     {
-      "bioguide": "B001288",
-      "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 14
+      "bioguide": "W000802",
+      "name": "Sen. Whitehouse, Sheldon [D-RI]",
+      "count": 15
     }
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "C001088",
-      "name": "Sen. Coons, Christopher A. [D-DE]",
-      "count": 13
-    },
-    {
       "bioguide": "K000384",
       "name": "Sen. Kaine, Tim [D-VA]",
-      "count": 13
+      "count": 15
+    },
+    {
+      "bioguide": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "count": 14
     },
     {
       "bioguide": "W000800",
       "name": "Sen. Welch, Peter [D-VT]",
-      "count": 11
-    },
-    {
-      "bioguide": "S001194",
-      "name": "Sen. Schatz, Brian [D-HI]",
-      "count": 10
-    },
-    {
-      "bioguide": "K000383",
-      "name": "Sen. King, Angus S., Jr. [I-ME]",
-      "count": 9
-    },
-    {
-      "bioguide": "V000128",
-      "name": "Sen. Van Hollen, Chris [D-MD]",
-      "count": 9
-    },
-    {
-      "bioguide": "B001288",
-      "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 9
+      "count": 12
     },
     {
       "bioguide": "C001035",
       "name": "Sen. Collins, Susan M. [R-ME]",
-      "count": 8
+      "count": 11
+    },
+    {
+      "bioguide": "K000383",
+      "name": "Sen. King, Angus S., Jr. [I-ME]",
+      "count": 11
+    },
+    {
+      "bioguide": "B001288",
+      "name": "Sen. Booker, Cory A. [D-NJ]",
+      "count": 11
+    },
+    {
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "count": 10
     },
     {
       "bioguide": "H001076",
       "name": "Sen. Hassan, Margaret Wood [D-NH]",
-      "count": 8
+      "count": 10
     },
     {
-      "bioguide": "M001176",
-      "name": "Sen. Merkley, Jeff [D-OR]",
-      "count": 8
+      "bioguide": "V000128",
+      "name": "Sen. Van Hollen, Chris [D-MD]",
+      "count": 10
+    },
+    {
+      "bioguide": "R000608",
+      "name": "Sen. Rosen, Jacky [D-NV]",
+      "count": 10
     }
   ],
   "bills": [
     {
       "congress": 119,
       "billType": "s",
-      "number": "2657",
-      "title": "STOP China and Russia Act of 2025",
-      "introducedDate": "2025-08-01",
+      "number": "3014",
+      "title": "Ensuring Timely Access to Generics Act of 2025",
+      "introducedDate": "2025-10-16",
       "latestAction": {
-        "date": "2025-08-01",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-16",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
       "policy_area": null,
       "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2657?format=json",
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3014?format=json",
       "updateDate": null,
       "bipartisan": true,
       "cosponsors": [
         {
-          "bioguide": "C001056",
-          "name": "Sen. Cornyn, John [R-TX]",
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
           "party": "R",
-          "state": "TX",
-          "date": "2025-08-01",
+          "state": "ME",
+          "date": "2025-10-16",
           "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1278,7 +1287,7 @@
         "date": "2025-08-01",
         "text": "Read twice and referred to the Committee on Armed Services."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2648?format=json",
       "updateDate": null,
@@ -1314,6 +1323,33 @@
     {
       "congress": 119,
       "billType": "s",
+      "number": "2657",
+      "title": "STOP China and Russia Act of 2025",
+      "introducedDate": "2025-08-01",
+      "latestAction": {
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 241."
+      },
+      "policy_area": "International Affairs",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2657?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-08-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
       "number": "2592",
       "title": "Supporting Ukraine Act of 2025",
       "introducedDate": "2025-07-31",
@@ -1321,7 +1357,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2592?format=json",
       "updateDate": null,
@@ -1348,7 +1384,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2627?format=json",
       "updateDate": null,
@@ -1375,7 +1411,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2611?format=json",
       "updateDate": null,
@@ -1436,9 +1472,17 @@
           "state": "VT",
           "date": "2025-07-31",
           "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -1447,10 +1491,10 @@
       "title": "Critical Minerals Partnership Act of 2025",
       "introducedDate": "2025-07-30",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 239."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2550?format=json",
       "updateDate": null,
@@ -1604,7 +1648,7 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2252?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "S001194",
@@ -1629,9 +1673,33 @@
           "state": "VA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -2150,8 +2218,8 @@
       "title": "Haiti Criminal Collusion Transparency Act of 2025",
       "introducedDate": "2025-05-21",
       "latestAction": {
-        "date": "2025-05-21",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 233."
       },
       "policy_area": "International Affairs",
       "subjects": [],
@@ -2190,9 +2258,25 @@
           "state": "DE",
           "date": "2025-05-21",
           "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -2351,9 +2435,25 @@
           "state": "WV",
           "date": "2025-04-28",
           "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "W000437",
+          "name": "Sen. Wicker, Roger F. [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -2370,8 +2470,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1365?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -2758,9 +2867,17 @@
           "state": "IA",
           "date": "2025-01-30",
           "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -3575,11 +3692,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 66,
-    "total_hr_sr_bipartisan": 43,
+    "total_hr_sr": 60,
+    "total_hr_sr_bipartisan": 40,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 85
+    "bipartisan_rate_percentile_party": 86
   },
   "district": {
     "year": 2023,

@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 11
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -92,6 +92,7 @@
       "dim2": -0.474
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-22",
@@ -1035,13 +1036,13 @@
       "count": 11
     },
     {
-      "bioguide": "F000459",
-      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+      "bioguide": "L000596",
+      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
       "count": 10
     },
     {
-      "bioguide": "P000599",
-      "name": "Rep. Posey, Bill [R-FL-8]",
+      "bioguide": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
       "count": 10
     }
   ],
@@ -1057,13 +1058,33 @@
       "count": 4
     },
     {
+      "bioguide": "W000806",
+      "name": "Rep. Webster, Daniel [R-FL-11]",
+      "count": 3
+    },
+    {
       "bioguide": "F000472",
       "name": "Rep. Franklin, C. Scott [R-FL-15]",
       "count": 3
     },
     {
+      "bioguide": "G000603",
+      "name": "Rep. Gill, Brandon [R-TX-26]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "count": 2
+    },
+    {
       "bioguide": "H001099",
       "name": "Rep. Haridopolos, Mike [R-FL-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "S000250",
+      "name": "Rep. Sessions, Pete [R-TX-17]",
       "count": 2
     },
     {
@@ -1075,41 +1096,55 @@
       "bioguide": "S000168",
       "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
       "count": 2
-    },
-    {
-      "bioguide": "W000806",
-      "name": "Rep. Webster, Daniel [R-FL-11]",
-      "count": 2
-    },
-    {
-      "bioguide": "R000609",
-      "name": "Rep. Rutherford, John H. [R-FL-4]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001260",
-      "name": "Rep. Buchanan, Vern [R-FL-16]",
-      "count": 2
-    },
-    {
-      "bioguide": "H001066",
-      "name": "Rep. Horsford, Steven [D-NV-4]",
-      "count": 2
     }
   ],
   "bills": [
     {
       "congress": 119,
       "billType": "hr",
+      "number": "5177",
+      "title": "To amend title 49, United States Code, with respect to the enforcement of certain safety requirements relating to commercial motor vehicle drivers, and for other purposes.",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5177?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
       "number": "4922",
-      "title": "DC CRIMES Act",
+      "title": "D. C. Criminal Reforms to Immediately Make Everyone Safe Act of 2025",
       "introducedDate": "2025-08-08",
       "latestAction": {
-        "date": "2025-08-08",
-        "text": "Referred to the House Committee on Oversight and Government Reform."
+        "date": "2025-09-17",
+        "text": "Received in the Senate."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Criminal justice information and records",
+        "Criminal procedure and sentencing",
+        "District of Columbia",
+        "Government information and archives",
+        "Internet, web applications, social media",
+        "Juvenile crime and gang violence"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4922?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1121,9 +1156,65 @@
           "state": "GA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001309",
+          "name": "Rep. Burchett, Tim [R-TN-2]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -1696,9 +1787,25 @@
           "state": "NY",
           "date": "2025-07-02",
           "original": false
+        },
+        {
+          "bioguide": "J000304",
+          "name": "Rep. Jackson, Ronny [R-TX-13]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -1849,8 +1956,8 @@
       "title": "Make SWAPs Efficient Act of 2025",
       "introducedDate": "2025-02-27",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent."
+        "date": "2025-09-15",
+        "text": "Placed on the Union Calendar, Calendar No. 238."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -1991,9 +2098,17 @@
           "state": "FL",
           "date": "2025-03-18",
           "original": false
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-17]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -2057,10 +2172,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 109,
+    "total_hr_sr": 110,
     "total_hr_sr_bipartisan": 29,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 44,
+    "passed_rate_percentile_party": 43,
     "bipartisan_rate_percentile_party": 28
   },
   "district": {

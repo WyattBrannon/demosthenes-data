@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 40
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -118,6 +118,7 @@
       "dim2": 0.12
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-12",
@@ -774,7 +775,7 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
-      "count": 34
+      "count": 36
     },
     {
       "bioguide": "N000147",
@@ -826,7 +827,37 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-8]",
-      "count": 6
+      "count": 8
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 3
+    },
+    {
+      "bioguide": "O000172",
+      "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "count": 3
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [D-NJ-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "W000822",
+      "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "count": 3
+    },
+    {
+      "bioguide": "Q000023",
+      "name": "Rep. Quigley, Mike [D-IL-5]",
+      "count": 3
+    },
+    {
+      "bioguide": "H001090",
+      "name": "Rep. Harder, Josh [D-CA-10]",
+      "count": 3
     },
     {
       "bioguide": "C001066",
@@ -834,47 +865,319 @@
       "count": 3
     },
     {
+      "bioguide": "T000488",
+      "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "count": 3
+    },
+    {
       "bioguide": "D000399",
       "name": "Rep. Doggett, Lloyd [D-TX-25]",
       "count": 3
-    },
-    {
-      "bioguide": "D000629",
-      "name": "Rep. Davids, Sharice [D-KS-3]",
-      "count": 3
-    },
-    {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "A000380",
-      "name": "Rep. Amo, Gabe [D-RI-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "A000381",
-      "name": "Rep. Ansari, Yassamin [D-AZ-3]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001300",
-      "name": "Rep. Barragan, Nanette Diaz [D-CA-44]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001278",
-      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001285",
-      "name": "Rep. Brownley, Julia [D-CA-26]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5762",
+      "title": "New York-New Jersey Watershed Protection Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5762?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001231",
+          "name": "Rep. Mannion, John W. [D-NY-22]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001229",
+          "name": "Rep. McIver, LaMonica [D-NJ-10]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001137",
+          "name": "Rep. Meeks, Gregory W. [D-NY-5]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Rep. Meng, Grace [D-NY-6]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "O000172",
+          "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "P000034",
+          "name": "Rep. Pallone, Frank [D-NJ-6]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "P000621",
+          "name": "Rep. Pou, Nellie [D-NJ-9]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "R000579",
+          "name": "Rep. Ryan, Patrick [D-NY-18]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "S001207",
+          "name": "Rep. Sherrill, Mikie [D-NJ-11]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Rep. Torres, Ritchie [D-NY-15]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "W000822",
+          "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 25
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5123",
+      "title": "Indoor Air Quality and Healthy Schools Act of 2025",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Environmental Protection",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5123?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Rep. Quigley, Mike [D-IL-5]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001234",
+          "name": "Rep. Morrison, Kelly [D-MN-3]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "D000635",
+          "name": "Rep. Dexter, Maxine [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Rep. Vargas, Juan [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -885,7 +1188,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4744?format=json",
       "updateDate": null,
@@ -928,7 +1231,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4745?format=json",
       "updateDate": null,
@@ -941,9 +1244,17 @@
           "state": "PA",
           "date": "2025-07-23",
           "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -955,7 +1266,7 @@
         "date": "2025-07-22",
         "text": "Referred to the House Committee on Ways and Means."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4619?format=json",
       "updateDate": null,
@@ -1589,9 +1900,57 @@
           "state": "DE",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "L000397",
+          "name": "Rep. Lofgren, Zoe [D-CA-18]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001160",
+          "name": "Rep. Moore, Gwen [D-WI-4]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "L000602",
+          "name": "Rep. Lee, Summer L. [D-PA-12]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 71
+      "cosponsors_total": 77
     },
     {
       "congress": 119,
@@ -1714,9 +2073,41 @@
           "state": "CA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "M001231",
+          "name": "Rep. Mannion, John W. [D-NY-22]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -2677,17 +3068,49 @@
           "state": "PA",
           "date": "2025-07-23",
           "original": false
+        },
+        {
+          "bioguide": "W000831",
+          "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 118
+      "cosponsors_total": 122
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 170,
-    "total_hr_sr_bipartisan": 91,
+    "total_hr_sr": 172,
+    "total_hr_sr_bipartisan": 93,
     "total_hr_sr_became_public_law": 3,
-    "passed_rate_percentile_party": 68,
-    "bipartisan_rate_percentile_party": 72
+    "passed_rate_percentile_party": 67,
+    "bipartisan_rate_percentile_party": 73
   },
   "district": {
     "year": 2023,

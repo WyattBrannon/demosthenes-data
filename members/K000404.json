@@ -85,7 +85,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 1
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,6 +98,7 @@
       "dim2": 0.526
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -668,7 +669,7 @@
     {
       "bioguide": "R000600",
       "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
-      "count": 4
+      "count": 5
     },
     {
       "bioguide": "M001219",
@@ -720,7 +721,7 @@
     {
       "bioguide": "R000600",
       "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
-      "count": 4
+      "count": 5
     },
     {
       "bioguide": "M001219",
@@ -772,12 +773,39 @@
     {
       "congress": 119,
       "billType": "hr",
+      "number": "5640",
+      "title": "Northern Mariana Islands and American Samoa Criminal Justice Support Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5640?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
       "number": "4408",
       "title": "UNITY Act",
       "introducedDate": "2025-07-15",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-16",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
       },
       "policy_area": "Emergency Management",
       "subjects": [],
@@ -889,8 +917,8 @@
       "title": "TRAVEL Act of 2025",
       "introducedDate": "2025-05-14",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Voice Vote."
+        "date": "2025-09-16",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -996,9 +1024,17 @@
           "state": "NV",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 12
     },
     {
       "congress": 119,
@@ -1099,11 +1135,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 8,
+    "total_hr_sr": 9,
     "total_hr_sr_bipartisan": 3,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 46
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 38
   },
   "profileText": "a Delegate from the Northern Mariana Islands; born in Tinian, Northern Mariana Islands, April 10, 1975; graduated from Tinian Junior/Senior High School, Tinian, Northern Mariana Islands; B.A., Loyola Marymount University, Los Angeles, Calif., 2000; M.H.R.M., University of Hawaii, Manoa, Hawaii, 2007; J.D., University of Hawaii, Manoa, Hawaii, 2014; staff, Tinian office of the mayor; lawyer; member, Northern Marianas College board of regents; member, Northern Mariana Islands commonwealth ports authority board of directors; elected as a Republican to the One Hundred Nineteenth Congress (January 3, 2025-present).",
   "ideologically_similar": [

@@ -85,7 +85,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 11
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -128,6 +128,7 @@
       "dim2": 0.316
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -966,7 +967,7 @@
     {
       "bioguide": "M001177",
       "name": "Rep. McClintock, Tom [R-CA-4]",
-      "count": 28
+      "count": 29
     },
     {
       "bioguide": "V000129",
@@ -986,7 +987,7 @@
     {
       "bioguide": "N000189",
       "name": "Rep. Newhouse, Dan [R-WA-4]",
-      "count": 17
+      "count": 18
     },
     {
       "bioguide": "D000612",
@@ -999,6 +1000,11 @@
       "count": 15
     },
     {
+      "bioguide": "T000460",
+      "name": "Rep. Thompson, Mike [D-CA-5]",
+      "count": 14
+    },
+    {
       "bioguide": "G000565",
       "name": "Rep. Gosar, Paul A. [R-AZ-4]",
       "count": 13
@@ -1007,11 +1013,6 @@
       "bioguide": "R000603",
       "name": "Rep. Rouzer, David [R-NC-7]",
       "count": 13
-    },
-    {
-      "bioguide": "T000460",
-      "name": "Rep. Thompson, Mike [D-CA-5]",
-      "count": 13
     }
   ],
   "cosponsors_top_latest": [
@@ -1019,6 +1020,31 @@
       "bioguide": "V000129",
       "name": "Rep. Valadao, David G. [R-CA-21]",
       "count": 5
+    },
+    {
+      "bioguide": "T000460",
+      "name": "Rep. Thompson, Mike [D-CA-5]",
+      "count": 4
+    },
+    {
+      "bioguide": "B000668",
+      "name": "Rep. Bentz, Cliff [R-OR-2]",
+      "count": 4
+    },
+    {
+      "bioguide": "H001100",
+      "name": "Rep. Hurd, Jeff [R-CO-3]",
+      "count": 4
+    },
+    {
+      "bioguide": "M001177",
+      "name": "Rep. McClintock, Tom [R-CA-4]",
+      "count": 3
+    },
+    {
+      "bioguide": "S000344",
+      "name": "Rep. Sherman, Brad [D-CA-30]",
+      "count": 3
     },
     {
       "bioguide": "K000397",
@@ -1039,34 +1065,128 @@
       "bioguide": "R000603",
       "name": "Rep. Rouzer, David [R-NC-7]",
       "count": 3
-    },
-    {
-      "bioguide": "C001059",
-      "name": "Rep. Costa, Jim [D-CA-16]",
-      "count": 3
-    },
-    {
-      "bioguide": "H001100",
-      "name": "Rep. Hurd, Jeff [R-CO-3]",
-      "count": 3
-    },
-    {
-      "bioguide": "P000613",
-      "name": "Rep. Panetta, Jimmy [D-CA-20]",
-      "count": 3
-    },
-    {
-      "bioguide": "F000480",
-      "name": "Rep. Fong, Vince [R-CA-20]",
-      "count": 3
-    },
-    {
-      "bioguide": "C000059",
-      "name": "Rep. Calvert, Ken [R-CA-42]",
-      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5821",
+      "title": "Rural Hospital Fairness Act",
+      "introducedDate": "2025-10-24",
+      "latestAction": {
+        "date": "2025-10-24",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5821?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5696",
+      "title": "STREAMLINE ACT",
+      "introducedDate": "2025-10-06",
+      "latestAction": {
+        "date": "2025-10-06",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5696?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5225",
+      "title": "Protect Innocent Victims of Taxation After Fire Extension Act",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5225?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001177",
+          "name": "Rep. McClintock, Tom [R-CA-5]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "B000668",
+          "name": "Rep. Bentz, Cliff [R-OR-2]",
+          "party": "R",
+          "state": "OR",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1074,11 +1194,15 @@
       "title": "Orland Project Water Management Act",
       "introducedDate": "2025-08-15",
       "latestAction": {
-        "date": "2025-08-15",
-        "text": "Referred to the House Committee on Natural Resources."
+        "date": "2025-09-03",
+        "text": "Subcommittee Hearings Held"
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Water Resources Development",
+      "subjects": [
+        "California",
+        "Water resources funding",
+        "Water use and supply"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4970?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1271,9 +1395,25 @@
           "state": "FL",
           "date": "2025-07-23",
           "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-18",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 18
     },
     {
       "congress": 119,
@@ -1440,8 +1580,8 @@
       "title": "Pit River Land Transfer Act of 2025",
       "introducedDate": "2025-03-27",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Unanimous Consent."
+        "date": "2025-09-15",
+        "text": "Placed on the Union Calendar, Calendar No. 245."
       },
       "policy_area": "Native Americans",
       "subjects": [
@@ -1510,9 +1650,17 @@
           "state": "NY",
           "date": "2025-06-05",
           "original": false
+        },
+        {
+          "bioguide": "H001100",
+          "name": "Rep. Hurd, Jeff [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1705,9 +1853,17 @@
           "state": "MN",
           "date": "2025-06-12",
           "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 22
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -1868,9 +2024,33 @@
           "state": "AL",
           "date": "2025-06-05",
           "original": false
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "E000246",
+          "name": "Rep. Edwards, Chuck [R-NC-11]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 21
     },
     {
       "congress": 119,
@@ -2202,18 +2382,18 @@
           "original": false
         },
         {
-          "bioguide": "W000830",
-          "name": "Rep. Whitesides, George [D-CA-27]",
-          "party": "D",
-          "state": "CA",
-          "date": "2025-03-06",
-          "original": false
-        },
-        {
           "bioguide": "S001216",
           "name": "Rep. Schrier, Kim [D-WA-8]",
           "party": "D",
           "state": "WA",
+          "date": "2025-03-06",
+          "original": false
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
           "date": "2025-03-06",
           "original": false
         },
@@ -2544,9 +2724,41 @@
           "state": "VA",
           "date": "2025-07-16",
           "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "C001132",
+          "name": "Rep. Crane, Elijah [R-AZ-2]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 74
+      "cosponsors_total": 78
     },
     {
       "congress": 119,
@@ -2665,10 +2877,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 92,
-    "total_hr_sr_bipartisan": 53,
+    "total_hr_sr": 95,
+    "total_hr_sr_bipartisan": 54,
     "total_hr_sr_became_public_law": 3,
-    "passed_rate_percentile_party": 76,
+    "passed_rate_percentile_party": 75,
     "bipartisan_rate_percentile_party": 81
   },
   "district": {

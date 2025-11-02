@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 24
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -90,6 +90,7 @@
       "dim2": 0.952
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -1017,23 +1018,23 @@
       "count": 9
     },
     {
-      "bioguide": "E000299",
-      "name": "Rep. Escobar, Veronica [D-TX-16]",
-      "count": 6
-    },
-    {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 6
-    },
-    {
       "bioguide": "G000587",
       "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
-      "count": 6
+      "count": 8
+    },
+    {
+      "bioguide": "E000299",
+      "name": "Rep. Escobar, Veronica [D-TX-16]",
+      "count": 7
     },
     {
       "bioguide": "S000344",
       "name": "Rep. Sherman, Brad [D-CA-30]",
+      "count": 7
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 6
     },
     {
@@ -1047,13 +1048,13 @@
       "count": 5
     },
     {
-      "bioguide": "J000032",
-      "name": "Rep. Jackson Lee, Sheila [D-TX-18]",
+      "bioguide": "C001110",
+      "name": "Rep. Correa, J. Luis [D-CA-46]",
       "count": 5
     },
     {
-      "bioguide": "V000132",
-      "name": "Rep. Vela, Filemon [D-TX-34]",
+      "bioguide": "L000582",
+      "name": "Rep. Lieu, Ted [D-CA-33]",
       "count": 5
     }
   ],
@@ -1062,6 +1063,31 @@
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
       "count": 3
+    },
+    {
+      "bioguide": "E000299",
+      "name": "Rep. Escobar, Veronica [D-TX-16]",
+      "count": 2
+    },
+    {
+      "bioguide": "D000399",
+      "name": "Rep. Doggett, Lloyd [D-TX-35]",
+      "count": 1
+    },
+    {
+      "bioguide": "V000131",
+      "name": "Rep. Veasey, Marc A. [D-TX-33]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001091",
+      "name": "Rep. Castro, Joaquin [D-TX-20]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000587",
+      "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+      "count": 1
     },
     {
       "bioguide": "C001080",
@@ -1074,11 +1100,6 @@
       "count": 1
     },
     {
-      "bioguide": "E000299",
-      "name": "Rep. Escobar, Veronica [D-TX-16]",
-      "count": 1
-    },
-    {
       "bioguide": "B001287",
       "name": "Rep. Bera, Ami [D-CA-6]",
       "count": 1
@@ -1087,29 +1108,68 @@
       "bioguide": "S001205",
       "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
       "count": 1
-    },
-    {
-      "bioguide": "F000477",
-      "name": "Rep. Foushee, Valerie P. [D-NC-4]",
-      "count": 1
-    },
-    {
-      "bioguide": "M001196",
-      "name": "Rep. Moulton, Seth [D-MA-6]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000586",
-      "name": "Rep. Garcia, Jesus G. \"Chuy\" [D-IL-4]",
-      "count": 1
-    },
-    {
-      "bioguide": "S001145",
-      "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5879",
+      "title": "To prohibit States from carrying out more than one Congressional redistricting after a decennial census and appointment unless it is strictly mandated in the legislation used to implement the new Congressional map or it is necessary to comply with the Constitution of the United States, the Voting Rights Act of 1965, or the Constitution of the State, and for other purposes.",
+      "introducedDate": "2025-10-31",
+      "latestAction": {
+        "date": "2025-10-31",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5879?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "C001091",
+          "name": "Rep. Castro, Joaquin [D-TX-20]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "G000587",
+          "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "E000299",
+          "name": "Rep. Escobar, Veronica [D-TX-16]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1120,7 +1180,7 @@
         "date": "2025-07-23",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4667?format=json",
       "updateDate": null,
@@ -1221,9 +1281,97 @@
           "state": "DC",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Rep. Kelly, Robin L. [D-IL-2]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Rep. Ramirez, Delia C. [D-IL-3]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001094",
+          "name": "Rep. Hoyle, Val T. [D-OR-4]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 23
     },
     {
       "congress": 119,
@@ -1232,8 +1380,8 @@
       "title": "Advocating for Small Business Act",
       "introducedDate": "2025-07-16",
       "latestAction": {
-        "date": "2025-07-22",
-        "text": "Ordered to be Reported by the Yeas and Nays: 50 - 4."
+        "date": "2025-09-08",
+        "text": "Placed on the Union Calendar, Calendar No. 207."
       },
       "policy_area": "Finance and Financial Sector",
       "subjects": [
@@ -1586,17 +1734,113 @@
           "state": "OR",
           "date": "2025-07-25",
           "original": false
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001085",
+          "name": "Rep. Houlahan, Chrissy [D-PA-6]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001157",
+          "name": "Rep. Scott, David [D-GA-13]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 35
+      "cosponsors_total": 47
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 45,
-    "total_hr_sr_bipartisan": 26,
+    "total_hr_sr": 46,
+    "total_hr_sr_bipartisan": 27,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 73,
-    "bipartisan_rate_percentile_party": 78
+    "passed_rate_percentile_party": 72,
+    "bipartisan_rate_percentile_party": 79
   },
   "district": {
     "year": 2023,

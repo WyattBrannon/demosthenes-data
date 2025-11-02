@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 21
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -121,6 +121,7 @@
       "dim2": 0.261
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-12",
@@ -1113,6 +1114,11 @@
       "count": 2
     },
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 2
+    },
+    {
       "bioguide": "H001066",
       "name": "Rep. Horsford, Steven [D-NV-4]",
       "count": 2
@@ -1146,11 +1152,6 @@
       "bioguide": "C001059",
       "name": "Rep. Costa, Jim [D-CA-21]",
       "count": 1
-    },
-    {
-      "bioguide": "K000375",
-      "name": "Rep. Keating, William R. [D-MA-9]",
-      "count": 1
     }
   ],
   "bills": [
@@ -1164,8 +1165,57 @@
         "date": "2025-06-26",
         "text": "Placed on the Union Calendar, Calendar No. 139."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Economics and Public Finance",
+      "subjects": [
+        "Appropriations",
+        "Aviation and airports",
+        "Border security and unlawful immigration",
+        "Building construction",
+        "Canada",
+        "Coast guard",
+        "Computer security and identity theft",
+        "Congressional oversight",
+        "Customs enforcement",
+        "Department of Homeland Security",
+        "Disaster relief and insurance",
+        "Emergency communications systems",
+        "Emergency planning and evacuation",
+        "Employment and training programs",
+        "Executive agency funding and structure",
+        "Federal Emergency Management Agency (FEMA)",
+        "Fires",
+        "First responders and emergency personnel",
+        "Floods and storm protection",
+        "Geography and mapping",
+        "Government buildings, facilities, and property",
+        "Government employee pay, benefits, personnel management",
+        "Government information and archives",
+        "Government trust funds",
+        "Human trafficking",
+        "Immigration status and procedures",
+        "Infrastructure development",
+        "Intellectual property",
+        "Intelligence activities, surveillance, classified information",
+        "Internet, web applications, social media",
+        "Law enforcement administration and funding",
+        "Law enforcement officers",
+        "Lease and rental services",
+        "Motor vehicles",
+        "North America",
+        "Pollution liability",
+        "Prescription drugs",
+        "Protection of officials",
+        "Public contracts and procurement",
+        "Public transit",
+        "Radiation",
+        "Refugees, asylum, displaced persons",
+        "Research administration and funding",
+        "Research and development",
+        "Smuggling and trafficking",
+        "Transportation programs funding",
+        "Transportation safety and security",
+        "Visas and passports"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4213?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1292,9 +1342,17 @@
           "state": "NY",
           "date": "2025-05-19",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1314,8 +1372,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1399?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "D000616",
+          "name": "Rep. DesJarlais, Scott [R-TN-4]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1324,8 +1391,8 @@
       "title": "Mining Regulatory Clarity Act of 2025",
       "introducedDate": "2025-02-14",
       "latestAction": {
-        "date": "2025-02-14",
-        "text": "Referred to the House Committee on Natural Resources."
+        "date": "2025-09-17",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 17."
       },
       "policy_area": "Environmental Protection",
       "subjects": [
@@ -1344,9 +1411,17 @@
           "state": "NV",
           "date": "2025-02-14",
           "original": true
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,

@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -87,6 +87,7 @@
       "dim2": -0.353
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -801,7 +802,7 @@
     {
       "bioguide": "G000565",
       "name": "Rep. Gosar, Paul A. [R-AZ-9]",
-      "count": 11
+      "count": 13
     },
     {
       "bioguide": "M001228",
@@ -814,23 +815,28 @@
       "count": 8
     },
     {
-      "bioguide": "B000825",
-      "name": "Rep. Boebert, Lauren [R-CO-3]",
+      "bioguide": "Z000018",
+      "name": "Rep. Zinke, Ryan K. [R-MT-1]",
       "count": 7
     },
     {
       "bioguide": "M001212",
       "name": "Rep. Moore, Barry [R-AL-2]",
+      "count": 7
+    },
+    {
+      "bioguide": "B000825",
+      "name": "Rep. Boebert, Lauren [R-CO-3]",
+      "count": 7
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Rep. Miller, Mary E. [R-IL-15]",
       "count": 6
     },
     {
       "bioguide": "C001132",
       "name": "Rep. Crane, Elijah [R-AZ-2]",
-      "count": 6
-    },
-    {
-      "bioguide": "Z000018",
-      "name": "Rep. Zinke, Ryan K. [R-MT-1]",
       "count": 6
     },
     {
@@ -842,22 +848,27 @@
       "bioguide": "R000103",
       "name": "Rep. Rosendale Sr., Matthew M. [R-MT-2]",
       "count": 6
-    },
-    {
-      "bioguide": "M001211",
-      "name": "Rep. Miller, Mary E. [R-IL-15]",
-      "count": 5
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "G000565",
       "name": "Rep. Gosar, Paul A. [R-AZ-9]",
-      "count": 3
+      "count": 5
     },
     {
       "bioguide": "M001211",
       "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 4
+    },
+    {
+      "bioguide": "M001212",
+      "name": "Rep. Moore, Barry [R-AL-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
       "count": 3
     },
     {
@@ -866,42 +877,260 @@
       "count": 3
     },
     {
-      "bioguide": "G000603",
-      "name": "Rep. Gill, Brandon [R-TX-26]",
+      "bioguide": "D000626",
+      "name": "Rep. Davidson, Warren [R-OH-8]",
       "count": 2
     },
     {
-      "bioguide": "N000026",
-      "name": "Rep. Nehls, Troy E. [R-TX-22]",
+      "bioguide": "M001184",
+      "name": "Rep. Massie, Thomas [R-KY-4]",
       "count": 2
     },
     {
-      "bioguide": "B001317",
-      "name": "Rep. Brecheen, Josh [R-OK-2]",
+      "bioguide": "G000596",
+      "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
       "count": 2
     },
     {
-      "bioguide": "M001212",
-      "name": "Rep. Moore, Barry [R-AL-2]",
+      "bioguide": "Z000018",
+      "name": "Rep. Zinke, Ryan K. [R-MT-1]",
       "count": 2
     },
     {
-      "bioguide": "C001132",
-      "name": "Rep. Crane, Elijah [R-AZ-2]",
+      "bioguide": "T000165",
+      "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
       "count": 2
-    },
-    {
-      "bioguide": "M001228",
-      "name": "Rep. Maloy, Celeste [R-UT-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "T000468",
-      "name": "Rep. Titus, Dina [D-NV-1]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5880",
+      "title": "To amend the Controlled Substances Act to require regulated persons to identify tableting machines and encapsulating machines by serial number.",
+      "introducedDate": "2025-10-31",
+      "latestAction": {
+        "date": "2025-10-31",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5880?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001218",
+          "name": "Rep. Stansbury, Melanie A. [D-NM-1]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "F000478",
+          "name": "Rep. Fry, Russell [R-SC-7]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5818",
+      "title": "Country of Origin Labeling Enforcement Act of 2025",
+      "introducedDate": "2025-10-24",
+      "latestAction": {
+        "date": "2025-10-24",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5818?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000389",
+          "name": "Rep. Khanna, Ro [D-CA-17]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "D000626",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001184",
+          "name": "Rep. Massie, Thomas [R-KY-4]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "G000596",
+          "name": "Rep. Greene, Marjorie Taylor [R-GA-14]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "Z000018",
+          "name": "Rep. Zinke, Ryan K. [R-MT-1]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5431",
+      "title": "To prohibit the use of Federal funds to pay reparations issued by international bodies or courts for violations of international law.",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5431?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000165",
+          "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "T000490",
+          "name": "Rep. Taylor, David J. [R-OH-2]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "D000626",
+          "name": "Rep. Davidson, Warren [R-OH-8]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5315",
+      "title": "FAIR Act",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5315?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -909,10 +1138,10 @@
       "title": "Highway Funding Transferability Improvement Act",
       "introducedDate": "2025-08-08",
       "latestAction": {
-        "date": "2025-08-08",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-08-09",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4926?format=json",
       "updateDate": null,
@@ -925,9 +1154,33 @@
           "state": "NV",
           "date": "2025-08-08",
           "original": true
+        },
+        {
+          "bioguide": "J000301",
+          "name": "Rep. Johnson, Dusty [R-SD-At Large]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -939,7 +1192,7 @@
         "date": "2025-08-01",
         "text": "Referred to the House Committee on Natural Resources."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4850?format=json",
       "updateDate": null,
@@ -957,7 +1210,7 @@
         "date": "2025-07-23",
         "text": "Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4670?format=json",
       "updateDate": null,
@@ -1365,9 +1618,17 @@
           "state": "ME",
           "date": "2025-02-12",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1475,24 +1736,6 @@
     {
       "congress": 119,
       "billType": "hr",
-      "number": "773",
-      "title": "To amend the Food Security Act of 1985 to repeal certain provisions relating to the acceptance and use of contributions for public-private partnerships, and for other purposes.",
-      "introducedDate": "2025-01-28",
-      "latestAction": {
-        "date": "2025-02-28",
-        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
-      },
-      "policy_area": "Agriculture and Food",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/773?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
-    },
-    {
-      "congress": 119,
-      "billType": "hr",
       "number": "775",
       "title": "No Net Gain in Federal Lands Act of 2025",
       "introducedDate": "2025-01-28",
@@ -1503,6 +1746,24 @@
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/775?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "773",
+      "title": "To amend the Food Security Act of 1985 to repeal certain provisions relating to the acceptance and use of contributions for public-private partnerships, and for other purposes.",
+      "introducedDate": "2025-01-28",
+      "latestAction": {
+        "date": "2025-02-28",
+        "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/773?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [],
@@ -1654,11 +1915,11 @@
       "congress": 119,
       "billType": "hr",
       "number": "281",
-      "title": "Grizzly Bear State Management Act of 2025",
+      "title": "Grizzly Bear State Management Act",
       "introducedDate": "2025-01-09",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 20 - 19."
+        "date": "2025-10-03",
+        "text": "Placed on the Union Calendar, Calendar No. 281."
       },
       "policy_area": "Environmental Protection",
       "subjects": [
@@ -1717,8 +1978,8 @@
       "title": "COAL Act of 2025",
       "introducedDate": "2025-01-09",
       "latestAction": {
-        "date": "2025-07-02",
-        "text": "Referred to the Subcommittee on Energy and Mineral Resources."
+        "date": "2025-09-03",
+        "text": "Subcommittee Hearings Held"
       },
       "policy_area": "Energy",
       "subjects": [
@@ -1754,9 +2015,17 @@
           "state": "MN",
           "date": "2025-06-06",
           "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1967,17 +2236,25 @@
           "state": "NC",
           "date": "2025-02-10",
           "original": false
+        },
+        {
+          "bioguide": "G000565",
+          "name": "Rep. Gosar, Paul A. [R-AZ-9]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 69,
-    "total_hr_sr_bipartisan": 14,
+    "total_hr_sr": 73,
+    "total_hr_sr_bipartisan": 16,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 19
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 21
   },
   "district": {
     "year": 2023,

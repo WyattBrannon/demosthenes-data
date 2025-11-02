@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -112,6 +112,7 @@
       "dim2": -0.27
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-24",
@@ -673,14 +674,24 @@
       "count": 8
     },
     {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-13]",
+      "count": 7
+    },
+    {
+      "bioguide": "T000193",
+      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+      "count": 6
+    },
+    {
       "bioguide": "D000096",
       "name": "Rep. Davis, Danny K. [D-IL-7]",
       "count": 6
     },
     {
-      "bioguide": "T000481",
-      "name": "Rep. Tlaib, Rashida [D-MI-13]",
-      "count": 6
+      "bioguide": "L000602",
+      "name": "Rep. Lee, Summer L. [D-PA-12]",
+      "count": 5
     },
     {
       "bioguide": "W000822",
@@ -698,11 +709,6 @@
       "count": 5
     },
     {
-      "bioguide": "T000193",
-      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
-      "count": 5
-    },
-    {
       "bioguide": "B001278",
       "name": "Rep. Bonamici, Suzanne [D-OR-1]",
       "count": 5
@@ -711,14 +717,52 @@
       "bioguide": "C001127",
       "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
       "count": 5
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andre [D-IN-7]",
-      "count": 5
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5129",
+      "title": "Closing the Meal Gap Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5129?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "L000602",
+          "name": "Rep. Lee, Summer L. [D-PA-12]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-04",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -929,9 +973,17 @@
           "state": "MN",
           "date": "2025-06-24",
           "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -1639,9 +1691,65 @@
           "state": "PA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000587",
+          "name": "Rep. Garcia, Sylvia R. [D-TX-29]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Rep. Sorensen, Eric [D-IL-17]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001094",
+          "name": "Rep. Hoyle, Val T. [D-OR-4]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 67
+      "cosponsors_total": 74
     },
     {
       "congress": 119,
@@ -1856,10 +1964,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 113,
+    "total_hr_sr": 114,
     "total_hr_sr_bipartisan": 31,
     "total_hr_sr_became_public_law": 3,
-    "passed_rate_percentile_party": 80,
+    "passed_rate_percentile_party": 78,
     "bipartisan_rate_percentile_party": 25
   },
   "district": {

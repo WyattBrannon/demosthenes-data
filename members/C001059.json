@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 14
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -128,6 +128,7 @@
       "dim2": 0.791
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -1033,34 +1034,34 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "V000129",
+      "name": "Rep. Valadao, David G. [R-CA-21]",
+      "count": 30
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 28
+    },
+    {
       "bioguide": "C001050",
       "name": "Rep. Cardoza, Dennis A. [D-CA-18]",
       "count": 27
     },
     {
-      "bioguide": "V000129",
-      "name": "Rep. Valadao, David G. [R-CA-21]",
-      "count": 25
-    },
-    {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 25
-    },
-    {
       "bioguide": "H001090",
       "name": "Rep. Harder, Josh [D-CA-10]",
-      "count": 19
+      "count": 21
+    },
+    {
+      "bioguide": "P000613",
+      "name": "Rep. Panetta, Jimmy [D-CA-20]",
+      "count": 18
     },
     {
       "bioguide": "G000559",
       "name": "Rep. Garamendi, John [D-CA-3]",
       "count": 18
-    },
-    {
-      "bioguide": "P000613",
-      "name": "Rep. Panetta, Jimmy [D-CA-20]",
-      "count": 17
     },
     {
       "bioguide": "M000312",
@@ -1085,57 +1086,452 @@
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 7
-    },
-    {
       "bioguide": "V000129",
       "name": "Rep. Valadao, David G. [R-CA-21]",
-      "count": 5
+      "count": 10
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "count": 10
     },
     {
       "bioguide": "G000605",
       "name": "Rep. Gray, Adam [D-CA-13]",
-      "count": 5
+      "count": 7
     },
     {
       "bioguide": "H001090",
       "name": "Rep. Harder, Josh [D-CA-10]",
-      "count": 4
-    },
-    {
-      "bioguide": "H001068",
-      "name": "Rep. Huffman, Jared [D-CA-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "N000189",
-      "name": "Rep. Newhouse, Dan [R-WA-4]",
-      "count": 2
-    },
-    {
-      "bioguide": "Q000023",
-      "name": "Rep. Quigley, Mike [D-IL-5]",
-      "count": 2
-    },
-    {
-      "bioguide": "L000397",
-      "name": "Rep. Lofgren, Zoe [D-CA-16]",
-      "count": 2
+      "count": 6
     },
     {
       "bioguide": "D000629",
       "name": "Rep. Davids, Sharice [D-KS-3]",
-      "count": 2
+      "count": 4
     },
     {
-      "bioguide": "R000603",
-      "name": "Rep. Rouzer, David [R-NC-7]",
-      "count": 2
+      "bioguide": "N000189",
+      "name": "Rep. Newhouse, Dan [R-WA-4]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000193",
+      "name": "Rep. Nunn, Zachary [R-IA-3]",
+      "count": 3
+    },
+    {
+      "bioguide": "D000617",
+      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 3
+    },
+    {
+      "bioguide": "G000583",
+      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5875",
+      "title": "To provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2029, and for other purposes.",
+      "introducedDate": "2025-10-31",
+      "latestAction": {
+        "date": "2025-10-31",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5875?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "P000597",
+          "name": "Rep. Pingree, Chellie [D-ME-1]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-10-31",
+          "original": true
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5796",
+      "title": "BUILD Act",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5796?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000821",
+          "name": "Rep. Westerman, Bruce [R-AR-4]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5747",
+      "title": "Preventing Illegal Laboratories and Protecting Public Health Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5747?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-14",
+          "original": true
+        },
+        {
+          "bioguide": "K000401",
+          "name": "Rep. Kiley, Kevin [R-CA-3]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5728",
+      "title": "Rural Homeownership Continuity Act of 2025",
+      "introducedDate": "2025-10-10",
+      "latestAction": {
+        "date": "2025-10-10",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5728?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "L000578",
+          "name": "Rep. LaMalfa, Doug [R-CA-1]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "S001226",
+          "name": "Rep. Salinas, Andrea [D-OR-6]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-10",
+          "original": true
+        },
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5677",
+      "title": "RIDE FAST Act",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5677?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-03",
+          "original": true
+        },
+        {
+          "bioguide": "B001292",
+          "name": "Rep. Beyer, Donald S. [D-VA-8]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5355",
+      "title": "Ian Kalvinskas Pediatric Liver Cancer Early Detection and Screening Act",
+      "introducedDate": "2025-09-15",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Sponsor introductory remarks on measure. (CR H4418)"
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5355?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-14",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5259",
+      "title": "Permanent OPTN Fee Authority Act",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5259?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5227",
+      "title": "Unleashing Low-Cost Rural AI Act",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5227?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M001213",
+          "name": "Rep. Moore, Blake D. [R-UT-1]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Rep. Gray, Adam [D-CA-13]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5111",
+      "title": "CRP Improvement and Flexibility Act of 2025",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5111?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1143,10 +1539,10 @@
       "title": "Emergency Rural Water Response Act of 2025",
       "introducedDate": "2025-08-05",
       "latestAction": {
-        "date": "2025-08-05",
-        "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-08-06",
+        "text": "Referred to the Subcommittee on Water Resources and Environment."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4879?format=json",
       "updateDate": null,
@@ -1159,9 +1555,17 @@
           "state": "NC",
           "date": "2025-08-05",
           "original": true
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Rep. Luna, Anna Paulina [R-FL-13]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1186,9 +1590,41 @@
           "state": "VA",
           "date": "2025-05-13",
           "original": true
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -1221,9 +1657,17 @@
           "state": "PA",
           "date": "2025-05-07",
           "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1494,9 +1938,41 @@
           "state": "OR",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001228",
+          "name": "Rep. Maloy, Celeste [R-UT-2]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "T000478",
+          "name": "Rep. Tenney, Claudia [R-NY-24]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 20
     },
     {
       "congress": 119,
@@ -1888,9 +2364,97 @@
           "state": "IL",
           "date": "2025-08-01",
           "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Rep. McGarvey, Morgan [D-KY-3]",
+          "party": "D",
+          "state": "KY",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "H001086",
+          "name": "Rep. Harshbarger, Diana [R-TN-1]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 32
     },
     {
       "congress": 119,
@@ -1903,7 +2467,17 @@
         "text": "Referred to the Subcommittee on Conservation, Research, and Biotechnology."
       },
       "policy_area": "Public Lands and Natural Resources",
-      "subjects": [],
+      "subjects": [
+        "Emergency planning and evacuation",
+        "Fires",
+        "Forests, forestry, trees",
+        "Land use and conservation",
+        "Public-private cooperation",
+        "Water quality",
+        "Water use and supply",
+        "Watersheds",
+        "Wildlife conservation and habitat protection"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/605?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2125,11 +2699,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 118,
-    "total_hr_sr_bipartisan": 64,
+    "total_hr_sr": 127,
+    "total_hr_sr_bipartisan": 72,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 64,
-    "bipartisan_rate_percentile_party": 73
+    "passed_rate_percentile_party": 61,
+    "bipartisan_rate_percentile_party": 77
   },
   "district": {
     "year": 2023,

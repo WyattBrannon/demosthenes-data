@@ -89,7 +89,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 3
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -127,6 +127,7 @@
       "dim2": 0.294
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-15",
@@ -994,6 +995,36 @@
     {
       "bioguide": "F000479",
       "name": "Sen. Fetterman, John [D-PA]",
+      "count": 3
+    },
+    {
+      "bioguide": "V000128",
+      "name": "Rep. Van Hollen, Chris [D-MD-8]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001113",
+      "name": "Sen. Cortez Masto, Catherine [D-NV]",
+      "count": 2
+    },
+    {
+      "bioguide": "W000779",
+      "name": "Sen. Wyden, Ron [D-OR]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001288",
+      "name": "Sen. Booker, Cory A. [D-NJ]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001176",
+      "name": "Sen. Merkley, Jeff [D-OR]",
+      "count": 2
+    },
+    {
+      "bioguide": "S001150",
+      "name": "Rep. Schiff, Adam B. [D-CA-28]",
       "count": 2
     },
     {
@@ -1005,39 +1036,254 @@
       "bioguide": "P000145",
       "name": "Sen. Padilla, Alex [D-CA]",
       "count": 2
-    },
-    {
-      "bioguide": "M001242",
-      "name": "Sen. Moreno, Bernie [R-OH]",
-      "count": 1
-    },
-    {
-      "bioguide": "C001114",
-      "name": "Rep. Curtis, John R. [R-UT-3]",
-      "count": 1
-    },
-    {
-      "bioguide": "W000800",
-      "name": "Rep. Welch, Peter [D-VT-At Large]",
-      "count": 1
-    },
-    {
-      "bioguide": "C001095",
-      "name": "Sen. Cotton, Tom [R-AR]",
-      "count": 1
-    },
-    {
-      "bioguide": "M001243",
-      "name": "Sen. McCormick, David [R-PA]",
-      "count": 1
-    },
-    {
-      "bioguide": "C001096",
-      "name": "Sen. Cramer, Kevin [R-ND]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2867",
+      "title": "Uplifting First-Time Homebuyers Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2867?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2817",
+      "title": "Fed Integrity and Independence Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2817?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2779",
+      "title": "Tax Cut for Striking Workers Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2779?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "W000779",
+          "name": "Sen. Wyden, Ron [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2780",
+      "title": "No Tax on Large Party Tips Act",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2780?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2716",
+      "title": "You Earned It, You Keep It Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2716?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1048,7 +1294,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2526?format=json",
       "updateDate": null,
@@ -1083,7 +1329,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Science, Technology, Communications",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2495?format=json",
       "updateDate": null,
@@ -1110,7 +1356,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2473?format=json",
       "updateDate": null,
@@ -1137,7 +1383,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2388?format=json",
       "updateDate": null,
@@ -1537,8 +1783,8 @@
       "title": "La Paz County Solar Energy and Job Creation Act",
       "introducedDate": "2025-03-10",
       "latestAction": {
-        "date": "2025-03-10",
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+        "date": "2025-09-11",
+        "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -1617,11 +1863,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 134,
-    "total_hr_sr_bipartisan": 46,
+    "total_hr_sr": 139,
+    "total_hr_sr_bipartisan": 47,
     "total_hr_sr_became_public_law": 4,
-    "passed_rate_percentile_party": 84,
-    "bipartisan_rate_percentile_party": 43
+    "passed_rate_percentile_party": 82,
+    "bipartisan_rate_percentile_party": 41
   },
   "district": {
     "year": 2023,

@@ -89,7 +89,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 75
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -122,6 +122,7 @@
       "dim2": 0.179
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-01",
@@ -900,12 +901,12 @@
     {
       "bioguide": "B001243",
       "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 33
+      "count": 34
     },
     {
       "bioguide": "S001217",
       "name": "Sen. Scott, Rick [R-FL]",
-      "count": 32
+      "count": 33
     },
     {
       "bioguide": "H001079",
@@ -915,7 +916,7 @@
     {
       "bioguide": "C001096",
       "name": "Sen. Cramer, Kevin [R-ND]",
-      "count": 22
+      "count": 23
     },
     {
       "bioguide": "L000577",
@@ -950,14 +951,24 @@
       "count": 8
     },
     {
+      "bioguide": "R000618",
+      "name": "Sen. Ricketts, Pete [R-NE]",
+      "count": 7
+    },
+    {
       "bioguide": "H001079",
       "name": "Sen. Hyde-Smith, Cindy [R-MS]",
       "count": 7
     },
     {
-      "bioguide": "R000618",
-      "name": "Sen. Ricketts, Pete [R-NE]",
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
       "count": 6
+    },
+    {
+      "bioguide": "B001267",
+      "name": "Sen. Bennet, Michael F. [D-CO]",
+      "count": 5
     },
     {
       "bioguide": "S001232",
@@ -965,8 +976,13 @@
       "count": 5
     },
     {
-      "bioguide": "B001243",
-      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "bioguide": "E000295",
+      "name": "Sen. Ernst, Joni [R-IA]",
+      "count": 5
+    },
+    {
+      "bioguide": "B001230",
+      "name": "Sen. Baldwin, Tammy [D-WI]",
       "count": 5
     },
     {
@@ -978,24 +994,106 @@
       "bioguide": "B001305",
       "name": "Sen. Budd, Ted [R-NC]",
       "count": 5
-    },
-    {
-      "bioguide": "B001267",
-      "name": "Sen. Bennet, Michael F. [D-CO]",
-      "count": 4
-    },
-    {
-      "bioguide": "G000386",
-      "name": "Sen. Grassley, Chuck [R-IA]",
-      "count": 4
-    },
-    {
-      "bioguide": "K000367",
-      "name": "Sen. Klobuchar, Amy [D-MN]",
-      "count": 4
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3084",
+      "title": "A bill to amend the Rural Electrification Act of 1936 to establish the ReConnet program under that Act, and for other purposes.",
+      "introducedDate": "2025-10-30",
+      "latestAction": {
+        "date": "2025-10-30",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3084?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2959",
+      "title": "Passport Sanity Act",
+      "introducedDate": "2025-10-01",
+      "latestAction": {
+        "date": "2025-10-01",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2959?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-01",
+          "original": true
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-01",
+          "original": true
+        },
+        {
+          "bioguide": "M001244",
+          "name": "Sen. Moody, Ashley [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-01",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2927",
+      "title": "Mobile Cancer Screening Act",
+      "introducedDate": "2025-09-29",
+      "latestAction": {
+        "date": "2025-09-29",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2927?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000122",
+          "name": "Sen. Reed, Jack [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1006,7 +1104,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2420?format=json",
       "updateDate": null,
@@ -1030,11 +1128,15 @@
       "title": "Retire through Ownership Act",
       "introducedDate": "2025-07-23",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Health, Education, Labor, and Pensions. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        "date": "2025-10-17",
+        "text": "Held at the desk."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Labor and Employment",
+      "subjects": [
+        "Employee benefits and pensions",
+        "Financial services and investments",
+        "Securities"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2403?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1060,7 +1162,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2316?format=json",
       "updateDate": null,
@@ -1119,7 +1221,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2355?format=json",
       "updateDate": null,
@@ -1164,9 +1266,17 @@
           "state": "IA",
           "date": "2025-07-17",
           "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1780,9 +1890,89 @@
           "state": "MI",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001242",
+          "name": "Sen. Moreno, Bernie [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "J000312",
+          "name": "Sen. Justice, James C. [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "E000295",
+          "name": "Sen. Ernst, Joni [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-07",
+          "original": false
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001104",
+          "name": "Sen. Husted, Jon [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 53
+      "cosponsors_total": 63
     },
     {
       "congress": 119,
@@ -2380,9 +2570,17 @@
           "state": "DE",
           "date": "2025-03-13",
           "original": true
+        },
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-29",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -2495,9 +2693,17 @@
           "state": "ID",
           "date": "2025-03-12",
           "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -3009,11 +3215,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 136,
-    "total_hr_sr_bipartisan": 44,
+    "total_hr_sr": 139,
+    "total_hr_sr_bipartisan": 46,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 34
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 36
   },
   "district": {
     "year": 2023,

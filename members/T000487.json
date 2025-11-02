@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,6 +91,7 @@
       "dim2": -0.285
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-24",
@@ -608,7 +609,12 @@
     {
       "bioguide": "C001055",
       "name": "Rep. Case, Ed [D-HI-1]",
-      "count": 35
+      "count": 39
+    },
+    {
+      "bioguide": "M001219",
+      "name": "Del. Moylan, James C. [R-GU-At Large]",
+      "count": 9
     },
     {
       "bioguide": "P000619",
@@ -616,23 +622,23 @@
       "count": 7
     },
     {
+      "bioguide": "R000600",
+      "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+      "count": 6
+    },
+    {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 6
     },
     {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "count": 5
+    },
+    {
       "bioguide": "S001226",
       "name": "Rep. Salinas, Andrea [D-OR-6]",
-      "count": 5
-    },
-    {
-      "bioguide": "R000600",
-      "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
-      "count": 5
-    },
-    {
-      "bioguide": "M001219",
-      "name": "Del. Moylan, James C. [R-GU-At Large]",
       "count": 5
     },
     {
@@ -649,18 +655,28 @@
       "bioguide": "T000469",
       "name": "Rep. Tonko, Paul [D-NY-20]",
       "count": 4
-    },
-    {
-      "bioguide": "P000597",
-      "name": "Rep. Pingree, Chellie [D-ME-1]",
-      "count": 4
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "C001055",
       "name": "Rep. Case, Ed [D-HI-1]",
-      "count": 8
+      "count": 12
+    },
+    {
+      "bioguide": "M001219",
+      "name": "Del. Moylan, James C. [R-GU-At Large]",
+      "count": 4
+    },
+    {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001323",
+      "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+      "count": 3
     },
     {
       "bioguide": "N000147",
@@ -678,37 +694,314 @@
       "count": 3
     },
     {
-      "bioguide": "S001226",
-      "name": "Rep. Salinas, Andrea [D-OR-6]",
+      "bioguide": "H001103",
+      "name": "Rescom. Hern\u00e1ndez, Pablo Jose [D-PR-At Large]",
       "count": 2
     },
     {
-      "bioguide": "T000488",
-      "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "bioguide": "T000491",
+      "name": "Rep. Tran, Derek [D-CA-45]",
       "count": 2
     },
     {
-      "bioguide": "M001229",
-      "name": "Rep. McIver, LaMonica [D-NJ-10]",
-      "count": 2
-    },
-    {
-      "bioguide": "T000481",
-      "name": "Rep. Tlaib, Rashida [D-MI-12]",
-      "count": 2
-    },
-    {
-      "bioguide": "P000620",
-      "name": "Rep. Pettersen, Brittany [D-CO-7]",
-      "count": 2
-    },
-    {
-      "bioguide": "A000381",
-      "name": "Rep. Ansari, Yassamin [D-AZ-3]",
+      "bioguide": "K000404",
+      "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
       "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5562",
+      "title": "Tropical Plant Health Initiative Act",
+      "introducedDate": "2025-09-23",
+      "latestAction": {
+        "date": "2025-09-23",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5562?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-23",
+          "original": true
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-24",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5241",
+      "title": "RTCP Revitalization Act",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5241?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "K000404",
+          "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+          "party": "R",
+          "state": "MP",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "R000600",
+          "name": "Del. Radewagen, Aumua Amata Coleman [R-AS-At Large]",
+          "party": "R",
+          "state": "AS",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "H001103",
+          "name": "Rescom. Hern\u00e1ndez, Pablo Jose [D-PR-At Large]",
+          "party": "D",
+          "state": "PR",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "P000610",
+          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2025-09-09",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5217",
+      "title": "Rural Behavioral Health Improvement Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5217?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "Z000018",
+          "name": "Rep. Zinke, Ryan K. [R-MT-1]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001231",
+          "name": "Rep. Mannion, John W. [D-NY-22]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "G000546",
+          "name": "Rep. Graves, Sam [R-MO-6]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "P000614",
+          "name": "Rep. Pappas, Chris [D-NH-1]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "B000825",
+          "name": "Rep. Boebert, Lauren [R-CO-4]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "S001172",
+          "name": "Rep. Smith, Adrian [R-NE-3]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "F000481",
+          "name": "Rep. Figures, Shomari [D-AL-2]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 17
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5164",
+      "title": "Promoting American Competition in Aquaculture Research Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5164?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -719,7 +1012,7 @@
         "date": "2025-08-12",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4967?format=json",
       "updateDate": null,
@@ -924,9 +1217,65 @@
           "state": "NM",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Rep. Vargas, Juan [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "S000510",
+          "name": "Rep. Smith, Adam [D-WA-9]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 25
+      "cosponsors_total": 32
     },
     {
       "congress": 119,
@@ -938,7 +1287,7 @@
         "date": "2025-08-12",
         "text": "Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Social Welfare",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4968?format=json",
       "updateDate": null,
@@ -1069,8 +1418,8 @@
       "title": "Essential Air Service Reliability Act of 2025",
       "introducedDate": "2025-06-27",
       "latestAction": {
-        "date": "2025-06-27",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-06-28",
+        "text": "Referred to the Subcommittee on Aviation."
       },
       "policy_area": "Transportation and Public Works",
       "subjects": [],
@@ -1636,9 +1985,25 @@
           "state": "PA",
           "date": "2025-03-10",
           "original": false
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1677,11 +2042,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 40,
-    "total_hr_sr_bipartisan": 15,
+    "total_hr_sr": 44,
+    "total_hr_sr_bipartisan": 19,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 95,
-    "bipartisan_rate_percentile_party": 48
+    "passed_rate_percentile_party": 92,
+    "bipartisan_rate_percentile_party": 57
   },
   "district": {
     "year": 2023,

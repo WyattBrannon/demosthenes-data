@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,6 +91,7 @@
       "dim2": 0.029
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -657,6 +658,11 @@
       "count": 5
     },
     {
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
+      "count": 4
+    },
+    {
       "bioguide": "K000391",
       "name": "Rep. Krishnamoorthi, Raja [D-IL-8]",
       "count": 4
@@ -670,14 +676,14 @@
       "bioguide": "D000530",
       "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
       "count": 4
-    },
-    {
-      "bioguide": "V000081",
-      "name": "Rep. Velazquez, Nydia M. [D-NY-7]",
-      "count": 4
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
+      "count": 2
+    },
     {
       "bioguide": "B001257",
       "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
@@ -701,11 +707,6 @@
     {
       "bioguide": "T000481",
       "name": "Rep. Tlaib, Rashida [D-MI-12]",
-      "count": 1
-    },
-    {
-      "bioguide": "C001068",
-      "name": "Rep. Cohen, Steve [D-TN-9]",
       "count": 1
     },
     {
@@ -740,7 +741,7 @@
         "date": "2025-08-19",
         "text": "Referred to the Committee on Small Business, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Commerce",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5001?format=json",
       "updateDate": null,
@@ -755,10 +756,10 @@
       "title": "ACHE Act of 2025",
       "introducedDate": "2025-07-23",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Energy and Commerce, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-07-24",
+        "text": "Referred to the Subcommittee on Water Resources and Environment."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4705?format=json",
       "updateDate": null,
@@ -825,7 +826,7 @@
         "date": "2025-07-21",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4569?format=json",
       "updateDate": null,
@@ -931,9 +932,17 @@
           "state": "FL",
           "date": "2025-03-24",
           "original": true
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,

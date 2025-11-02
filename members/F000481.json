@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 45
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,6 +86,7 @@
       "dim2": 0.498
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -883,107 +884,369 @@
     {
       "bioguide": "S001185",
       "name": "Rep. Sewell, Terri A. [D-AL-7]",
-      "count": 3
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
-      "count": 3
-    },
-    {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001212",
-      "name": "Rep. Moore, Barry [R-AL-1]",
-      "count": 2
+      "count": 4
     },
     {
       "bioguide": "F000110",
       "name": "Rep. Fields, Cleo [D-LA-6]",
+      "count": 4
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+      "count": 4
+    },
+    {
+      "bioguide": "B001324",
+      "name": "Rep. Bell, Wesley [D-MO-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001125",
+      "name": "Rep. Carter, Troy A. [D-LA-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "I000058",
+      "name": "Rep. Ivey, Glenn [D-MD-4]",
       "count": 2
     },
     {
-      "bioguide": "T000193",
-      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
       "count": 2
     },
     {
-      "bioguide": "K000385",
-      "name": "Rep. Kelly, Robin L. [D-IL-2]",
+      "bioguide": "R000622",
+      "name": "Rep. Riley, Josh [D-NY-19]",
       "count": 2
     },
     {
-      "bioguide": "K000400",
-      "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
       "count": 2
     },
     {
-      "bioguide": "G000585",
-      "name": "Rep. Gomez, Jimmy [D-CA-34]",
-      "count": 1
-    },
-    {
-      "bioguide": "H001066",
-      "name": "Rep. Horsford, Steven [D-NV-4]",
-      "count": 1
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 2
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "S001185",
       "name": "Rep. Sewell, Terri A. [D-AL-7]",
-      "count": 3
-    },
-    {
-      "bioguide": "J000288",
-      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
-      "count": 3
-    },
-    {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001212",
-      "name": "Rep. Moore, Barry [R-AL-1]",
-      "count": 2
+      "count": 4
     },
     {
       "bioguide": "F000110",
       "name": "Rep. Fields, Cleo [D-LA-6]",
+      "count": 4
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+      "count": 4
+    },
+    {
+      "bioguide": "B001324",
+      "name": "Rep. Bell, Wesley [D-MO-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001125",
+      "name": "Rep. Carter, Troy A. [D-LA-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "I000058",
+      "name": "Rep. Ivey, Glenn [D-MD-4]",
       "count": 2
     },
     {
-      "bioguide": "T000193",
-      "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
       "count": 2
     },
     {
-      "bioguide": "K000385",
-      "name": "Rep. Kelly, Robin L. [D-IL-2]",
+      "bioguide": "R000622",
+      "name": "Rep. Riley, Josh [D-NY-19]",
       "count": 2
     },
     {
-      "bioguide": "K000400",
-      "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
       "count": 2
     },
     {
-      "bioguide": "G000585",
-      "name": "Rep. Gomez, Jimmy [D-CA-34]",
-      "count": 1
-    },
-    {
-      "bioguide": "H001066",
-      "name": "Rep. Horsford, Steven [D-NV-4]",
-      "count": 1
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5849",
+      "title": "USCP Act",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Referred to the House Committee on Appropriations."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5849?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "I000058",
+          "name": "Rep. Ivey, Glenn [D-MD-4]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Rep. Boyle, Brendan F. [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "G000583",
+          "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 13
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5850",
+      "title": "GRAD Act",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5850?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "M001229",
+          "name": "Rep. McIver, LaMonica [D-NJ-10]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "F000477",
+          "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "L000602",
+          "name": "Rep. Lee, Summer L. [D-PA-12]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Rep. Evans, Dwight [D-PA-3]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "P000610",
+          "name": "Del. Plaskett, Stacey E. [D-VI-At Large]",
+          "party": "D",
+          "state": "VI",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "J000288",
+          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 15
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1076,8 +1339,8 @@
       "title": "Building Resilient Infrastructure and Communities for All Act of 2025",
       "introducedDate": "2025-07-21",
       "latestAction": {
-        "date": "2025-07-21",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-22",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
       },
       "policy_area": "Emergency Management",
       "subjects": [],
@@ -1111,8 +1374,8 @@
       "title": "Bridge Investment and Modernization Act of 2025",
       "introducedDate": "2025-07-15",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-16",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
       "policy_area": "Transportation and Public Works",
       "subjects": [],
@@ -1143,9 +1406,17 @@
           "state": "AL",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1154,8 +1425,8 @@
       "title": "ESTUARIES Act",
       "introducedDate": "2025-06-12",
       "latestAction": {
-        "date": "2025-06-13",
-        "text": "Referred to the Subcommittee on Water Resources and Environment."
+        "date": "2025-09-17",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 2."
       },
       "policy_area": "Environmental Protection",
       "subjects": [],
@@ -1298,9 +1569,81 @@
           "state": "NH",
           "date": "2025-08-01",
           "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "J000298",
+          "name": "Rep. Jayapal, Pramila [D-WA-7]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "E000235",
+          "name": "Rep. Ezell, Mike [R-MS-4]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Rep. Espaillat, Adriano [D-NY-13]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000034",
+          "name": "Rep. Pallone, Frank [D-NJ-6]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 17
+      "cosponsors_total": 26
     },
     {
       "congress": 119,
@@ -1405,9 +1748,57 @@
           "state": "NC",
           "date": "2025-05-13",
           "original": false
+        },
+        {
+          "bioguide": "M001229",
+          "name": "Rep. McIver, LaMonica [D-NJ-10]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -1512,9 +1903,25 @@
           "state": "MS",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "F000474",
+          "name": "Rep. Flood, Mike [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1625,11 +2032,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 8,
+    "total_hr_sr": 10,
     "total_hr_sr_bipartisan": 4,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,
-    "bipartisan_rate_percentile_party": 68
+    "bipartisan_rate_percentile_party": 52
   },
   "district": {
     "year": 2023,

@@ -89,7 +89,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,6 +102,7 @@
       "dim2": -0.003
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -1002,109 +1003,368 @@
   ],
   "cosponsors_top": [
     {
-      "bioguide": "M001233",
-      "name": "Rep. Messmer, Mark [R-IN-8]",
+      "bioguide": "H001052",
+      "name": "Rep. Harris, Andy [R-MD-1]",
+      "count": 4
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 4
+    },
+    {
+      "bioguide": "G000603",
+      "name": "Rep. Gill, Brandon [R-TX-26]",
       "count": 3
     },
     {
-      "bioguide": "H001052",
-      "name": "Rep. Harris, Andy [R-MD-1]",
+      "bioguide": "B001325",
+      "name": "Rep. Biggs, Sheri [R-SC-3]",
       "count": 3
     },
     {
       "bioguide": "M001211",
       "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001233",
+      "name": "Rep. Messmer, Mark [R-IN-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-7]",
       "count": 2
     },
     {
-      "bioguide": "B001325",
-      "name": "Rep. Biggs, Sheri [R-SC-3]",
+      "bioguide": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
       "count": 2
     },
     {
-      "bioguide": "G000603",
-      "name": "Rep. Gill, Brandon [R-TX-26]",
+      "bioguide": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
       "count": 2
     },
     {
-      "bioguide": "C001129",
-      "name": "Rep. Collins, Mike [R-GA-10]",
-      "count": 1
-    },
-    {
-      "bioguide": "P000614",
-      "name": "Rep. Pappas, Chris [D-NH-1]",
-      "count": 1
-    },
-    {
-      "bioguide": "W000795",
-      "name": "Rep. Wilson, Joe [R-SC-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "P000605",
-      "name": "Rep. Perry, Scott [R-PA-10]",
-      "count": 1
-    },
-    {
-      "bioguide": "K000403",
-      "name": "Rep. Kennedy, Mike [R-UT-3]",
-      "count": 1
+      "bioguide": "M001212",
+      "name": "Rep. Moore, Barry [R-AL-1]",
+      "count": 2
     }
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "M001233",
-      "name": "Rep. Messmer, Mark [R-IN-8]",
+      "bioguide": "H001052",
+      "name": "Rep. Harris, Andy [R-MD-1]",
+      "count": 4
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "count": 4
+    },
+    {
+      "bioguide": "G000603",
+      "name": "Rep. Gill, Brandon [R-TX-26]",
       "count": 3
     },
     {
-      "bioguide": "H001052",
-      "name": "Rep. Harris, Andy [R-MD-1]",
+      "bioguide": "B001325",
+      "name": "Rep. Biggs, Sheri [R-SC-3]",
       "count": 3
     },
     {
       "bioguide": "M001211",
       "name": "Rep. Miller, Mary E. [R-IL-15]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001233",
+      "name": "Rep. Messmer, Mark [R-IN-8]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001218",
+      "name": "Rep. McCormick, Richard [R-GA-7]",
       "count": 2
     },
     {
-      "bioguide": "B001325",
-      "name": "Rep. Biggs, Sheri [R-SC-3]",
+      "bioguide": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
       "count": 2
     },
     {
-      "bioguide": "G000603",
-      "name": "Rep. Gill, Brandon [R-TX-26]",
+      "bioguide": "W000814",
+      "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
       "count": 2
     },
     {
-      "bioguide": "C001129",
-      "name": "Rep. Collins, Mike [R-GA-10]",
-      "count": 1
-    },
-    {
-      "bioguide": "P000614",
-      "name": "Rep. Pappas, Chris [D-NH-1]",
-      "count": 1
-    },
-    {
-      "bioguide": "W000795",
-      "name": "Rep. Wilson, Joe [R-SC-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "P000605",
-      "name": "Rep. Perry, Scott [R-PA-10]",
-      "count": 1
-    },
-    {
-      "bioguide": "K000403",
-      "name": "Rep. Kennedy, Mike [R-UT-3]",
-      "count": 1
+      "bioguide": "M001212",
+      "name": "Rep. Moore, Barry [R-AL-1]",
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5483",
+      "title": "Chloe Cole Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5483?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001210",
+          "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001218",
+          "name": "Rep. McCormick, Richard [R-GA-7]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "R000612",
+          "name": "Rep. Rose, John W. [R-TN-6]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001235",
+          "name": "Rep. Moore, Riley M. [R-WV-2]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000490",
+          "name": "Rep. Taylor, David J. [R-OH-2]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001148",
+          "name": "Rep. Simpson, Michael K. [R-ID-2]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001325",
+          "name": "Rep. Biggs, Sheri [R-SC-3]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001052",
+          "name": "Rep. Harris, Andy [R-MD-1]",
+          "party": "R",
+          "state": "MD",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "A000055",
+          "name": "Rep. Aderholt, Robert B. [R-AL-4]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Rep. Ogles, Andrew [R-TN-5]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "C001129",
+          "name": "Rep. Collins, Mike [R-GA-10]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001317",
+          "name": "Rep. Brecheen, Josh [R-OK-2]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001096",
+          "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Rep. Miller, Mary E. [R-IL-15]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "J000311",
+          "name": "Rep. Jack, Brian [R-GA-3]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "R000619",
+          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John J. [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 30
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1112,10 +1372,10 @@
       "title": "MEGA Act of 2025",
       "introducedDate": "2025-07-23",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-24",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
       },
-      "policy_area": null,
+      "policy_area": "Arts, Culture, Religion",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4715?format=json",
       "updateDate": null,
@@ -1130,10 +1390,10 @@
       "title": "To make technical amendments to title 49, United States Code, as necessary to improve the Code.",
       "introducedDate": "2025-07-17",
       "latestAction": {
-        "date": "2025-07-17",
-        "text": "Referred to the House Committee on the Judiciary."
+        "date": "2025-09-10",
+        "text": "Ordered to be Reported by Voice Vote."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4523?format=json",
       "updateDate": null,
@@ -1175,8 +1435,8 @@
       "title": "SPACE Act of 2025",
       "introducedDate": "2025-05-15",
       "latestAction": {
-        "date": "2025-06-11",
-        "text": "Ordered to be Reported by Voice Vote."
+        "date": "2025-09-09",
+        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
       },
       "policy_area": "Government Operations and Politics",
       "subjects": [
@@ -1194,9 +1454,17 @@
           "state": "NH",
           "date": "2025-06-05",
           "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1269,9 +1537,25 @@
           "state": "WI",
           "date": "2025-07-15",
           "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-10",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1299,9 +1583,17 @@
           "state": "IN",
           "date": "2025-07-10",
           "original": false
+        },
+        {
+          "bioguide": "G000576",
+          "name": "Rep. Grothman, Glenn [R-WI-6]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1625,9 +1917,41 @@
           "state": "TX",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "W000816",
+          "name": "Rep. Williams, Roger [R-TX-25]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 28
+      "cosponsors_total": 32
     },
     {
       "congress": 119,
@@ -1723,11 +2047,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 10,
+    "total_hr_sr": 11,
     "total_hr_sr_bipartisan": 1,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 8
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 7
   },
   "district": {
     "year": 2023,

@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 5
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,6 +88,7 @@
       "dim2": -0.49
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-24",
@@ -874,7 +875,12 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 18
+      "count": 19
+    },
+    {
+      "bioguide": "V000136",
+      "name": "Rep. Vasquez, Gabe [D-NM-2]",
+      "count": 12
     },
     {
       "bioguide": "G000551",
@@ -882,9 +888,24 @@
       "count": 12
     },
     {
-      "bioguide": "V000136",
-      "name": "Rep. Vasquez, Gabe [D-NM-2]",
-      "count": 11
+      "bioguide": "R000305",
+      "name": "Rep. Ross, Deborah K. [D-NC-2]",
+      "count": 10
+    },
+    {
+      "bioguide": "G000586",
+      "name": "Rep. Garcia, Jesus G. \"Chuy\" [D-IL-4]",
+      "count": 10
+    },
+    {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "count": 10
+    },
+    {
+      "bioguide": "R000599",
+      "name": "Rep. Ruiz, Raul [D-CA-36]",
+      "count": 10
     },
     {
       "bioguide": "S001200",
@@ -895,26 +916,6 @@
       "bioguide": "G000574",
       "name": "Rep. Gallego, Ruben [D-AZ-7]",
       "count": 10
-    },
-    {
-      "bioguide": "R000305",
-      "name": "Rep. Ross, Deborah K. [D-NC-2]",
-      "count": 9
-    },
-    {
-      "bioguide": "R000599",
-      "name": "Rep. Ruiz, Raul [D-CA-36]",
-      "count": 9
-    },
-    {
-      "bioguide": "G000586",
-      "name": "Rep. Garcia, Jesus G. \"Chuy\" [D-IL-4]",
-      "count": 9
-    },
-    {
-      "bioguide": "B001278",
-      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
-      "count": 9
     }
   ],
   "cosponsors_top_latest": [
@@ -926,50 +927,277 @@
     {
       "bioguide": "V000136",
       "name": "Rep. Vasquez, Gabe [D-NM-2]",
-      "count": 4
-    },
-    {
-      "bioguide": "F000466",
-      "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "C001117",
-      "name": "Rep. Casten, Sean [D-IL-6]",
-      "count": 2
+      "count": 5
     },
     {
       "bioguide": "R000305",
       "name": "Rep. Ross, Deborah K. [D-NC-2]",
-      "count": 2
+      "count": 3
     },
     {
-      "bioguide": "P000597",
-      "name": "Rep. Pingree, Chellie [D-ME-1]",
-      "count": 2
+      "bioguide": "T000474",
+      "name": "Rep. Torres, Norma J. [D-CA-35]",
+      "count": 3
     },
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 3
+    },
+    {
+      "bioguide": "H001081",
+      "name": "Rep. Hayes, Jahana [D-CT-5]",
       "count": 2
     },
     {
-      "bioguide": "D000629",
-      "name": "Rep. Davids, Sharice [D-KS-3]",
+      "bioguide": "C001072",
+      "name": "Rep. Carson, Andre [D-IN-7]",
       "count": 2
-    },
-    {
-      "bioguide": "S001223",
-      "name": "Rep. Sykes, Emilia Strong [D-OH-13]",
-      "count": 1
     },
     {
       "bioguide": "D000624",
       "name": "Rep. Dingell, Debbie [D-MI-6]",
-      "count": 1
+      "count": 2
+    },
+    {
+      "bioguide": "J000309",
+      "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+      "count": 2
+    },
+    {
+      "bioguide": "C001061",
+      "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5774",
+      "title": "Every Child Deserves a Head Start Act of 2025",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5774?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001229",
+          "name": "Rep. McIver, LaMonica [D-NJ-10]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001061",
+          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001313",
+          "name": "Rep. Brown, Shontel M. [D-OH-11]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000130",
+          "name": "Rep. Vargas, Juan [D-CA-52]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "R000305",
+          "name": "Rep. Ross, Deborah K. [D-NC-2]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Rep. Evans, Dwight [D-PA-3]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "F000476",
+          "name": "Rep. Frost, Maxwell [D-FL-10]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "S001226",
+          "name": "Rep. Salinas, Andrea [D-OR-6]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "H001103",
+          "name": "Rescom. Hern\u00e1ndez, Pablo Jose [D-PR-At Large]",
+          "party": "D",
+          "state": "PR",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 26
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -980,7 +1208,7 @@
         "date": "2025-08-05",
         "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4892?format=json",
       "updateDate": null,
@@ -998,7 +1226,7 @@
         "date": "2025-07-22",
         "text": "Referred to the House Committee on Natural Resources."
       },
-      "policy_area": null,
+      "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4598?format=json",
       "updateDate": null,
@@ -1016,7 +1244,7 @@
         "date": "2025-07-17",
         "text": "Referred to the House Committee on Education and Workforce."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4510?format=json",
       "updateDate": null,
@@ -1077,9 +1305,33 @@
           "state": "HI",
           "date": "2025-08-12",
           "original": false
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001241",
+          "name": "Rep. Min, Dave [D-CA-47]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "P000607",
+          "name": "Rep. Pocan, Mark [D-WI-2]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -1131,11 +1383,15 @@
       "title": "Small Cemetery Conveyance Act",
       "introducedDate": "2025-07-02",
       "latestAction": {
-        "date": "2025-07-02",
-        "text": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-09-18",
+        "text": "Subcommittee Hearings Held"
       },
       "policy_area": "Public Lands and Natural Resources",
-      "subjects": [],
+      "subjects": [
+        "Cemeteries and funerals",
+        "Land transfers",
+        "Land use and conservation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4284?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1289,9 +1545,17 @@
           "state": "NM",
           "date": "2025-04-08",
           "original": true
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1803,11 +2067,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 77,
+    "total_hr_sr": 78,
     "total_hr_sr_bipartisan": 23,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 59,
-    "bipartisan_rate_percentile_party": 31
+    "passed_rate_percentile_party": 58,
+    "bipartisan_rate_percentile_party": 30
   },
   "district": {
     "year": 2023,

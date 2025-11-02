@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 37
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,6 +86,7 @@
       "dim2": 0.188
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-23",
@@ -914,8 +915,23 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "M001240",
+      "name": "Rep. McDowell, Addison [R-NC-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "R000619",
+      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "count": 3
+    },
+    {
       "bioguide": "K000405",
       "name": "Rep. Knott, Brad [R-NC-13]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001228",
+      "name": "Rep. Schmidt, Derek [R-KS-2]",
       "count": 3
     },
     {
@@ -924,50 +940,50 @@
       "count": 3
     },
     {
-      "bioguide": "M001240",
-      "name": "Rep. McDowell, Addison [R-NC-6]",
+      "bioguide": "N000026",
+      "name": "Rep. Nehls, Troy E. [R-TX-22]",
       "count": 2
     },
     {
-      "bioguide": "R000619",
-      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "bioguide": "O000177",
+      "name": "Rep. Onder, Robert [R-MO-3]",
       "count": 2
     },
     {
-      "bioguide": "S001228",
-      "name": "Rep. Schmidt, Derek [R-KS-2]",
+      "bioguide": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "count": 2
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
       "count": 2
     },
     {
       "bioguide": "S001224",
       "name": "Rep. Self, Keith [R-TX-3]",
-      "count": 2
-    },
-    {
-      "bioguide": "O000175",
-      "name": "Rep. Ogles, Andrew [R-TN-5]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001321",
-      "name": "Rep. Barrett, Tom [R-MI-7]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001235",
-      "name": "Rep. Moore, Riley [R-WV-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000829",
-      "name": "Rep. Wied, Tony [R-WI-8]",
       "count": 2
     }
   ],
   "cosponsors_top_latest": [
     {
+      "bioguide": "M001240",
+      "name": "Rep. McDowell, Addison [R-NC-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "R000619",
+      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "count": 3
+    },
+    {
       "bioguide": "K000405",
       "name": "Rep. Knott, Brad [R-NC-13]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001228",
+      "name": "Rep. Schmidt, Derek [R-KS-2]",
       "count": 3
     },
     {
@@ -976,47 +992,201 @@
       "count": 3
     },
     {
-      "bioguide": "M001240",
-      "name": "Rep. McDowell, Addison [R-NC-6]",
+      "bioguide": "N000026",
+      "name": "Rep. Nehls, Troy E. [R-TX-22]",
       "count": 2
     },
     {
-      "bioguide": "R000619",
-      "name": "Rep. Rulli, Michael A. [R-OH-6]",
+      "bioguide": "O000177",
+      "name": "Rep. Onder, Robert [R-MO-3]",
       "count": 2
     },
     {
-      "bioguide": "S001228",
-      "name": "Rep. Schmidt, Derek [R-KS-2]",
+      "bioguide": "B001291",
+      "name": "Rep. Babin, Brian [R-TX-36]",
+      "count": 2
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
       "count": 2
     },
     {
       "bioguide": "S001224",
       "name": "Rep. Self, Keith [R-TX-3]",
       "count": 2
-    },
-    {
-      "bioguide": "O000175",
-      "name": "Rep. Ogles, Andrew [R-TN-5]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001321",
-      "name": "Rep. Barrett, Tom [R-MI-7]",
-      "count": 2
-    },
-    {
-      "bioguide": "M001235",
-      "name": "Rep. Moore, Riley [R-WV-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000829",
-      "name": "Rep. Wied, Tony [R-WI-8]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5800",
+      "title": "SAFE Drivers Act",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5800?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "O000177",
+          "name": "Rep. Onder, Robert F. [R-MO-3]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "B001291",
+          "name": "Rep. Babin, Brian [R-TX-36]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "A000055",
+          "name": "Rep. Aderholt, Robert B. [R-AL-4]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Rep. Donalds, Byron [R-FL-19]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5394",
+      "title": "Freedom from Automated Speed Enforcement Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Referred to the Subcommittee on Highways and Transit."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5394?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "P000605",
+          "name": "Rep. Perry, Scott [R-PA-10]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "R000619",
+          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5086",
+      "title": "SkyFoundry Act of 2025",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5086?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-10",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1098,9 +1268,17 @@
           "state": "TX",
           "date": "2025-06-26",
           "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1321,9 +1499,17 @@
           "state": "SC",
           "date": "2025-06-04",
           "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 21
+      "cosponsors_total": 22
     },
     {
       "congress": 119,
@@ -1336,7 +1522,10 @@
         "text": "Referred to the House Committee on Armed Services."
       },
       "policy_area": "Armed Forces and National Security",
-      "subjects": [],
+      "subjects": [
+        "Intergovernmental relations",
+        "National Guard and reserves"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1695?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1476,9 +1665,25 @@
           "state": "SC",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "M001231",
+          "name": "Rep. Mannion, John W. [D-NY-22]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "F000446",
+          "name": "Rep. Feenstra, Randy [R-IA-4]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 17
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -1739,11 +1944,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 7,
-    "total_hr_sr_bipartisan": 1,
+    "total_hr_sr": 10,
+    "total_hr_sr_bipartisan": 2,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 12
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 18
   },
   "district": {
     "year": 2023,

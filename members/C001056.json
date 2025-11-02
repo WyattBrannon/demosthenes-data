@@ -113,7 +113,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -181,6 +181,7 @@
       "dim2": 0.257
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-01",
@@ -755,12 +756,12 @@
     {
       "bioguide": "T000476",
       "name": "Sen. Tillis, Thomas [R-NC]",
-      "count": 21
+      "count": 23
     },
     {
       "bioguide": "B001243",
       "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 20
+      "count": 23
     },
     {
       "bioguide": "L000575",
@@ -768,14 +769,14 @@
       "count": 19
     },
     {
-      "bioguide": "H001076",
-      "name": "Sen. Hassan, Margaret Wood [D-NH]",
-      "count": 18
-    },
-    {
       "bioguide": "P000595",
       "name": "Sen. Peters, Gary C. [D-MI]",
-      "count": 18
+      "count": 17
+    },
+    {
+      "bioguide": "K000377",
+      "name": "Sen. Kelly, Mark [D-AZ]",
+      "count": 16
     },
     {
       "bioguide": "C001088",
@@ -783,74 +784,798 @@
       "count": 16
     },
     {
-      "bioguide": "K000377",
-      "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 15
+      "bioguide": "H001076",
+      "name": "Sen. Hassan, Margaret Wood [D-NH]",
+      "count": 16
     },
     {
       "bioguide": "G000386",
       "name": "Sen. Grassley, Chuck [R-IA]",
-      "count": 14
+      "count": 15
     },
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 13
+      "count": 14
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "C001098",
       "name": "Sen. Cruz, Ted [R-TX]",
-      "count": 14
+      "count": 16
     },
     {
       "bioguide": "B001243",
       "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 11
+      "count": 14
     },
     {
       "bioguide": "T000476",
       "name": "Sen. Tillis, Thomas [R-NC]",
-      "count": 9
+      "count": 13
     },
     {
       "bioguide": "L000570",
       "name": "Sen. Lujan, Ben Ray [D-NM]",
-      "count": 9
-    },
-    {
-      "bioguide": "R000618",
-      "name": "Sen. Ricketts, Pete [R-NE]",
-      "count": 8
-    },
-    {
-      "bioguide": "C001088",
-      "name": "Sen. Coons, Christopher A. [D-DE]",
-      "count": 8
-    },
-    {
-      "bioguide": "H001076",
-      "name": "Sen. Hassan, Margaret Wood [D-NH]",
-      "count": 8
-    },
-    {
-      "bioguide": "B001319",
-      "name": "Sen. Britt, Katie Boyd [R-AL]",
-      "count": 8
+      "count": 11
     },
     {
       "bioguide": "K000377",
       "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 8
+      "count": 11
     },
     {
-      "bioguide": "L000575",
-      "name": "Sen. Lankford, James [R-OK]",
-      "count": 7
+      "bioguide": "B001319",
+      "name": "Sen. Britt, Katie Boyd [R-AL]",
+      "count": 10
+    },
+    {
+      "bioguide": "R000618",
+      "name": "Sen. Ricketts, Pete [R-NE]",
+      "count": 9
+    },
+    {
+      "bioguide": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
+      "count": 9
+    },
+    {
+      "bioguide": "H001076",
+      "name": "Sen. Hassan, Margaret Wood [D-NH]",
+      "count": 9
+    },
+    {
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "count": 8
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3061",
+      "title": "A bill to require the Inspector General of the Department of Housing and Urban Development to testify before the Congress annually, and for other purposes.",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3061?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3051",
+      "title": "PARTNERS Act",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3051?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-10-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3053",
+      "title": "A bill to require a plan to modernize the nuclear security enterprise.",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3053?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3050",
+      "title": "PAID OFF Act of 2025",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3050?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "F000463",
+          "name": "Sen. Fischer, Deb [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "H000601",
+          "name": "Sen. Hagerty, Bill [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 8
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3052",
+      "title": "A bill to promote recruiter access to secondary schools.",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Armed Services."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3052?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3054",
+      "title": "Kayla Hamilton Act",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3054?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "T000278",
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "S001227",
+          "name": "Sen. Schmitt, Eric [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-23",
+          "original": true
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3021",
+      "title": "ENFORCE Act",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3021?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "L000577",
+          "name": "Sen. Lee, Mike [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-21",
+          "original": true
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-21",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2950",
+      "title": "Scam Compound Accountability and Mobilization Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-10-30",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 244."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2950?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2934",
+      "title": "Protecting Americans from Russian Litigation Act of 2025",
+      "introducedDate": "2025-09-29",
+      "latestAction": {
+        "date": "2025-09-29",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2934?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2902",
+      "title": "Hidden Foster Care Transparency Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2902?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2870",
+      "title": "Fight Illicit Pill Presses Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2870?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C000127",
+          "name": "Sen. Cantwell, Maria [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2807",
+      "title": "RESPECT Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2807?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "F000479",
+          "name": "Sen. Fetterman, John [D-PA]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2815",
+      "title": "JUSTICE in D.C. Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2815?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2770",
+      "title": "Share the Savings with Seniors Act",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2770?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000608",
+          "name": "Sen. Rosen, Jacky [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2683",
+      "title": "VSAFE Act of 2025",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "policy_area": "Armed Forces and National Security",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2683?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -861,7 +1586,7 @@
         "date": "2025-08-02",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2680?format=json",
       "updateDate": null,
@@ -914,9 +1639,17 @@
           "state": "MT",
           "date": "2025-08-02",
           "original": true
+        },
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -928,7 +1661,7 @@
         "date": "2025-08-01",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2646?format=json",
       "updateDate": null,
@@ -971,7 +1704,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2584?format=json",
       "updateDate": null,
@@ -998,7 +1731,7 @@
         "date": "2025-07-30",
         "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2543?format=json",
       "updateDate": null,
@@ -1235,7 +1968,7 @@
         "date": "2025-07-29",
         "text": "Read twice and referred to the Committee on Veterans' Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2501?format=json",
       "updateDate": null,
@@ -1278,7 +2011,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2413?format=json",
       "updateDate": null,
@@ -1329,7 +2062,7 @@
         "date": "2025-07-22",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Law",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2379?format=json",
       "updateDate": null,
@@ -1390,9 +2123,41 @@
           "state": "GA",
           "date": "2025-07-24",
           "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-10-07",
+          "original": false
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -1404,8 +2169,15 @@
         "date": "2025-07-22",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [
+        "Advanced technology and technological innovations",
+        "Child safety and welfare",
+        "Computers and information technology",
+        "Crimes against children",
+        "Pornography",
+        "Research and development"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2381?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1431,7 +2203,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2336?format=json",
       "updateDate": null,
@@ -1485,7 +2257,7 @@
         "date": "2025-07-09",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2227?format=json",
       "updateDate": null,
@@ -1599,6 +2371,33 @@
     {
       "congress": 119,
       "billType": "s",
+      "number": "2008",
+      "title": "Stop Funding Genital Mutilation Act",
+      "introducedDate": "2025-06-10",
+      "latestAction": {
+        "date": "2025-06-10",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2008?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-06-10",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
       "number": "2014",
       "title": "Special District Fairness and Accessibility Act",
       "introducedDate": "2025-06-10",
@@ -1638,33 +2437,6 @@
         }
       ],
       "cosponsors_total": 3
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "2008",
-      "title": "Stop Funding Genital Mutilation Act",
-      "introducedDate": "2025-06-10",
-      "latestAction": {
-        "date": "2025-06-10",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "policy_area": "Health",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2008?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "L000575",
-          "name": "Sen. Lankford, James [R-OK]",
-          "party": "R",
-          "state": "OK",
-          "date": "2025-06-10",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1882,9 +2654,57 @@
           "state": "CA",
           "date": "2025-06-04",
           "original": false
+        },
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "S001208",
+          "name": "Sen. Slotkin, Elissa [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "M001242",
+          "name": "Sen. Moreno, Bernie [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "G000386",
+          "name": "Sen. Grassley, Chuck [R-IA]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-20",
+          "original": false
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Sen. Cruz, Ted [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -1975,9 +2795,17 @@
           "state": "CO",
           "date": "2025-05-15",
           "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-29",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -2170,9 +2998,17 @@
           "state": "IA",
           "date": "2025-06-17",
           "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -2409,7 +3245,15 @@
         "text": "Read twice and referred to the Committee on Rules and Administration."
       },
       "policy_area": "Science, Technology, Communications",
-      "subjects": [],
+      "subjects": [
+        "District of Columbia",
+        "Government buildings, facilities, and property",
+        "Historical and cultural resources",
+        "Museums, exhibitions, cultural centers",
+        "Space flight and exploration",
+        "Spacecraft and satellites",
+        "Texas"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1403?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -2477,11 +3321,18 @@
       "title": "Strengthening Child Exploitation Enforcement Act",
       "introducedDate": "2025-04-08",
       "latestAction": {
-        "date": "2025-04-08",
-        "text": "Read twice and referred to the Committee on the Judiciary."
+        "date": "2025-10-10",
+        "text": "Held at the desk."
       },
       "policy_area": "Crime and Law Enforcement",
-      "subjects": [],
+      "subjects": [
+        "Child safety and welfare",
+        "Crimes against children",
+        "Criminal procedure and sentencing",
+        "Domestic violence and child abuse",
+        "Sex offenses",
+        "Violent crime"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1333?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2493,9 +3344,17 @@
           "state": "NJ",
           "date": "2025-04-08",
           "original": true
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-19",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -2575,7 +3434,13 @@
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
       "policy_area": "Crime and Law Enforcement",
-      "subjects": [],
+      "subjects": [
+        "Community life and organization",
+        "Congressional oversight",
+        "Employee hiring",
+        "Law enforcement administration and funding",
+        "Law enforcement officers"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1300?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -3228,9 +4093,17 @@
           "state": "UT",
           "date": "2025-04-10",
           "original": false
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -3313,8 +4186,8 @@
       "title": "United States Legal Gold and Mining Partnership Act",
       "introducedDate": "2025-02-27",
       "latestAction": {
-        "date": "2025-02-27",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
+        "date": "2025-10-22",
+        "text": "Committee on Foreign Relations. Ordered to be reported with an amendment in the nature of a substitute favorably."
       },
       "policy_area": "International Affairs",
       "subjects": [],
@@ -3411,9 +4284,17 @@
           "state": "ME",
           "date": "2025-02-25",
           "original": true
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-19",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -3583,9 +4464,17 @@
           "state": "TX",
           "date": "2025-02-27",
           "original": false
+        },
+        {
+          "bioguide": "M001243",
+          "name": "Sen. McCormick, David [R-PA]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -3612,8 +4501,8 @@
       "title": "SAFE Orbit Act",
       "introducedDate": "2025-02-05",
       "latestAction": {
-        "date": "2025-03-12",
-        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment favorably."
+        "date": "2025-09-29",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 170."
       },
       "policy_area": "Science, Technology, Communications",
       "subjects": [
@@ -4266,16 +5155,24 @@
           "state": "WV",
           "date": "2025-02-10",
           "original": false
+        },
+        {
+          "bioguide": "M001244",
+          "name": "Sen. Moody, Ashley [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 46
+      "cosponsors_total": 47
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 122,
-    "total_hr_sr_bipartisan": 93,
+    "total_hr_sr": 129,
+    "total_hr_sr_bipartisan": 98,
     "total_hr_sr_became_public_law": 5,
-    "passed_rate_percentile_party": 83,
+    "passed_rate_percentile_party": 81,
     "bipartisan_rate_percentile_party": 96
   },
   "district": {

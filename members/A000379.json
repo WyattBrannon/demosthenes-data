@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 42
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,6 +91,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -708,14 +709,34 @@
   ],
   "cosponsors_top": [
     {
+      "bioguide": "F000475",
+      "name": "Rep. Finstad, Brad [R-MN-1]",
+      "count": 8
+    },
+    {
+      "bioguide": "H001091",
+      "name": "Rep. Hinson, Ashley [R-IA-2]",
+      "count": 7
+    },
+    {
       "bioguide": "J000304",
       "name": "Rep. Jackson, Ronny [R-TX-13]",
       "count": 7
     },
     {
-      "bioguide": "F000475",
-      "name": "Rep. Finstad, Brad [R-MN-1]",
-      "count": 7
+      "bioguide": "M000871",
+      "name": "Rep. Mann, Tracey [R-KS-1]",
+      "count": 6
+    },
+    {
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001307",
+      "name": "Rep. Baird, James R. [R-IN-4]",
+      "count": 6
     },
     {
       "bioguide": "D000230",
@@ -728,16 +749,6 @@
       "count": 6
     },
     {
-      "bioguide": "H001091",
-      "name": "Rep. Hinson, Ashley [R-IA-2]",
-      "count": 6
-    },
-    {
-      "bioguide": "C001119",
-      "name": "Rep. Craig, Angie [D-MN-2]",
-      "count": 5
-    },
-    {
       "bioguide": "R000603",
       "name": "Rep. Rouzer, David [R-NC-7]",
       "count": 5
@@ -746,19 +757,44 @@
       "bioguide": "N000193",
       "name": "Rep. Nunn, Zachary [R-IA-3]",
       "count": 5
+    }
+  ],
+  "cosponsors_top_latest": [
+    {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 3
+    },
+    {
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "F000475",
+      "name": "Rep. Finstad, Brad [R-MN-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "S001214",
+      "name": "Rep. Steube, W. Gregory [R-FL-17]",
+      "count": 2
     },
     {
       "bioguide": "M000871",
       "name": "Rep. Mann, Tracey [R-KS-1]",
-      "count": 5
+      "count": 2
     },
     {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
-      "count": 5
-    }
-  ],
-  "cosponsors_top_latest": [
+      "bioguide": "R000622",
+      "name": "Rep. Riley, Josh [D-NY-19]",
+      "count": 2
+    },
+    {
+      "bioguide": "H001090",
+      "name": "Rep. Harder, Josh [D-CA-9]",
+      "count": 2
+    },
     {
       "bioguide": "M001237",
       "name": "Rep. McDonald Rivet, Kristen [D-MI-8]",
@@ -770,47 +806,309 @@
       "count": 2
     },
     {
-      "bioguide": "C001119",
-      "name": "Rep. Craig, Angie [D-MN-2]",
-      "count": 2
-    },
-    {
-      "bioguide": "D000230",
-      "name": "Rep. Davis, Donald G. [D-NC-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "G000546",
-      "name": "Rep. Graves, Sam [R-MO-6]",
-      "count": 2
-    },
-    {
-      "bioguide": "W000829",
-      "name": "Rep. Wied, Tony [R-WI-8]",
-      "count": 2
-    },
-    {
-      "bioguide": "R000603",
-      "name": "Rep. Rouzer, David [R-NC-7]",
-      "count": 2
-    },
-    {
-      "bioguide": "S001172",
-      "name": "Rep. Smith, Adrian [R-NE-3]",
-      "count": 2
-    },
-    {
-      "bioguide": "F000475",
-      "name": "Rep. Finstad, Brad [R-MN-1]",
-      "count": 2
-    },
-    {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
+      "bioguide": "H001091",
+      "name": "Rep. Hinson, Ashley [R-IA-2]",
       "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5838",
+      "title": "Combatting the Persecution of Religious Groups in China Act",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5838?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001214",
+          "name": "Rep. Steube, W. Gregory [R-FL-17]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Rep. McCaul, Michael T. [R-TX-10]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-28",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5764",
+      "title": "AI for Mainstreet Act",
+      "introducedDate": "2025-10-17",
+      "latestAction": {
+        "date": "2025-10-17",
+        "text": "Referred to the House Committee on Small Business."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5764?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001221",
+          "name": "Rep. Scholten, Hillary J. [D-MI-3]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-17",
+          "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5387",
+      "title": "Saving the American Dream Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-10-01",
+        "text": "Referred to the Subcommittee on Economic Opportunity."
+      },
+      "policy_area": "Housing and Community Development",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5387?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001093",
+          "name": "Rep. Houchin, Erin [R-IN-9]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "R000610",
+          "name": "Rep. Reschenthaler, Guy [R-PA-14]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "G000598",
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "F000483",
+          "name": "Rep. Friedman, Laura [D-CA-30]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001321",
+          "name": "Rep. Barrett, Tom [R-MI-7]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "P000621",
+          "name": "Rep. Pou, Nellie [D-NJ-9]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Rep. Carbajal, Salud O. [D-CA-24]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001323",
+          "name": "Rep. Begich, Nicholas J. [R-AK-At Large]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "D000530",
+          "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 25
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -821,7 +1119,7 @@
         "date": "2025-08-01",
         "text": "Referred to the Committee on Agriculture, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4832?format=json",
       "updateDate": null,
@@ -850,9 +1148,33 @@
           "state": "MN",
           "date": "2025-08-01",
           "original": true
+        },
+        {
+          "bioguide": "F000475",
+          "name": "Rep. Finstad, Brad [R-MN-1]",
+          "party": "R",
+          "state": "MN",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -868,7 +1190,7 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4153?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "W000829",
@@ -877,9 +1199,73 @@
           "state": "WI",
           "date": "2025-06-26",
           "original": true
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "B000490",
+          "name": "Rep. Bishop, Sanford D. [D-GA-2]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Rep. Meuser, Daniel [R-PA-9]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "G000591",
+          "name": "Rep. Guest, Michael [R-MS-3]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "P000048",
+          "name": "Rep. Pfluger, August [R-TX-11]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "P000613",
+          "name": "Rep. Panetta, Jimmy [D-CA-19]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "J000311",
+          "name": "Rep. Jack, Brian [R-GA-3]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1129,9 +1515,17 @@
           "state": "VA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "H001102",
+          "name": "Rep. Harris, Mark [R-NC-8]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 20
     },
     {
       "congress": 119,
@@ -1180,11 +1574,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 26,
-    "total_hr_sr_bipartisan": 9,
+    "total_hr_sr": 29,
+    "total_hr_sr_bipartisan": 12,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 40
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 53
   },
   "district": {
     "year": 2023,

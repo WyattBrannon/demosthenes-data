@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -119,6 +119,7 @@
       "dim2": 0.319
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -638,22 +639,32 @@
     {
       "bioguide": "M001180",
       "name": "Rep. McKinley, David B. [R-WV-1]",
-      "count": 28
+      "count": 29
     },
     {
       "bioguide": "W000804",
       "name": "Rep. Wittman, Robert J. [R-VA-1]",
-      "count": 26
+      "count": 27
     },
     {
       "bioguide": "J000292",
       "name": "Rep. Johnson, Bill [R-OH-6]",
-      "count": 26
+      "count": 27
     },
     {
       "bioguide": "T000463",
       "name": "Rep. Turner, Michael R. [R-OH-3]",
-      "count": 23
+      "count": 24
+    },
+    {
+      "bioguide": "W000798",
+      "name": "Rep. Walberg, Tim [R-MI-7]",
+      "count": 22
+    },
+    {
+      "bioguide": "B001248",
+      "name": "Rep. Burgess, Michael C. [R-TX-26]",
+      "count": 22
     },
     {
       "bioguide": "O000168",
@@ -666,24 +677,14 @@
       "count": 22
     },
     {
-      "bioguide": "W000798",
-      "name": "Rep. Walberg, Tim [R-MI-7]",
+      "bioguide": "J000289",
+      "name": "Rep. Jordan, Jim [R-OH-4]",
       "count": 21
     },
     {
       "bioguide": "L000576",
       "name": "Rep. Long, Billy [R-MO-7]",
       "count": 21
-    },
-    {
-      "bioguide": "B001248",
-      "name": "Rep. Burgess, Michael C. [R-TX-26]",
-      "count": 21
-    },
-    {
-      "bioguide": "J000289",
-      "name": "Rep. Jordan, Jim [R-OH-4]",
-      "count": 20
     }
   ],
   "cosponsors_top_latest": [
@@ -695,6 +696,11 @@
     {
       "bioguide": "P000609",
       "name": "Rep. Palmer, Gary J. [R-AL-6]",
+      "count": 2
+    },
+    {
+      "bioguide": "M000871",
+      "name": "Rep. Mann, Tracey [R-KS-1]",
       "count": 2
     },
     {
@@ -731,14 +737,27 @@
       "bioguide": "C001120",
       "name": "Rep. Crenshaw, Dan [R-TX-2]",
       "count": 1
-    },
-    {
-      "bioguide": "D000624",
-      "name": "Rep. Dingell, Debbie [D-MI-12]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5147",
+      "title": "WIRELESS Leadership Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Science, Technology, Communications",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5147?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -746,8 +765,8 @@
       "title": "Over-the-Counter Monograph Drug User Fee Amendments",
       "introducedDate": "2025-07-02",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 51 - 0."
+        "date": "2025-09-17",
+        "text": "Placed on the Union Calendar, Calendar No. 254."
       },
       "policy_area": "Health",
       "subjects": [
@@ -881,9 +900,49 @@
           "state": "MA",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001306",
+          "name": "Rep. Balderson, Troy [R-OH-12]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -892,8 +951,8 @@
       "title": "Electric Supply Chain Act",
       "introducedDate": "2025-05-29",
       "latestAction": {
-        "date": "2025-06-25",
-        "text": "Ordered to be Reported by the Yeas and Nays: 33 - 16."
+        "date": "2025-09-19",
+        "text": "Placed on the Union Calendar, Calendar No. 258."
       },
       "policy_area": "Energy",
       "subjects": [
@@ -933,8 +992,8 @@
       "title": "REFINER Act",
       "introducedDate": "2025-04-30",
       "latestAction": {
-        "date": "2025-06-25",
-        "text": "Ordered to be Reported by the Yeas and Nays: 28 - 20."
+        "date": "2025-09-11",
+        "text": "Placed on the Union Calendar, Calendar No. 223."
       },
       "policy_area": "Energy",
       "subjects": [
@@ -1309,9 +1368,25 @@
           "state": "SC",
           "date": "2025-02-11",
           "original": false
+        },
+        {
+          "bioguide": "M001212",
+          "name": "Rep. Moore, Barry [R-AL-1]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 27
+      "cosponsors_total": 29
     },
     {
       "congress": 119,
@@ -1378,7 +1453,7 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 183,
+    "total_hr_sr": 184,
     "total_hr_sr_bipartisan": 93,
     "total_hr_sr_became_public_law": 6,
     "passed_rate_percentile_party": 76,

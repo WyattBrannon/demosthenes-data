@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 4
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -92,6 +92,7 @@
       "dim2": 0.604
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -784,7 +785,12 @@
     {
       "bioguide": "L000599",
       "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 17
+      "count": 19
+    },
+    {
+      "bioguide": "H001091",
+      "name": "Rep. Hinson, Ashley [R-IA-1]",
+      "count": 18
     },
     {
       "bioguide": "F000446",
@@ -792,14 +798,14 @@
       "count": 17
     },
     {
-      "bioguide": "H001091",
-      "name": "Rep. Hinson, Ashley [R-IA-1]",
-      "count": 17
-    },
-    {
       "bioguide": "N000193",
       "name": "Rep. Nunn, Zachary [R-IA-3]",
-      "count": 15
+      "count": 16
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+      "count": 13
     },
     {
       "bioguide": "B001298",
@@ -807,28 +813,23 @@
       "count": 13
     },
     {
-      "bioguide": "V000133",
-      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+      "bioguide": "M001210",
+      "name": "Rep. Murphy, Gregory [R-NC-3]",
       "count": 12
     },
     {
       "bioguide": "C001103",
       "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 12
+    },
+    {
+      "bioguide": "S000168",
+      "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
       "count": 11
     },
     {
-      "bioguide": "B001295",
-      "name": "Rep. Bost, Mike [R-IL-12]",
-      "count": 11
-    },
-    {
-      "bioguide": "H001067",
-      "name": "Rep. Hudson, Richard [R-NC-8]",
-      "count": 11
-    },
-    {
-      "bioguide": "M001210",
-      "name": "Rep. Murphy, Gregory [R-NC-3]",
+      "bioguide": "M000317",
+      "name": "Rep. Malliotakis, Nicole [R-NY-11]",
       "count": 11
     }
   ],
@@ -836,7 +837,17 @@
     {
       "bioguide": "N000193",
       "name": "Rep. Nunn, Zachary [R-IA-3]",
-      "count": 6
+      "count": 7
+    },
+    {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 7
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
+      "count": 5
     },
     {
       "bioguide": "F000446",
@@ -844,47 +855,248 @@
       "count": 5
     },
     {
-      "bioguide": "S001216",
-      "name": "Rep. Schrier, Kim [D-WA-8]",
+      "bioguide": "B001327",
+      "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
       "count": 4
     },
     {
-      "bioguide": "D000624",
-      "name": "Rep. Dingell, Debbie [D-MI-6]",
+      "bioguide": "M000317",
+      "name": "Rep. Malliotakis, Nicole [R-NY-11]",
       "count": 4
     },
     {
-      "bioguide": "C001121",
-      "name": "Rep. Crow, Jason [D-CO-6]",
-      "count": 3
-    },
-    {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
-      "count": 3
+      "bioguide": "S001228",
+      "name": "Rep. Schmidt, Derek [R-KS-2]",
+      "count": 4
     },
     {
       "bioguide": "P000613",
       "name": "Rep. Panetta, Jimmy [D-CA-20]",
-      "count": 3
+      "count": 4
     },
     {
-      "bioguide": "L000599",
-      "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 3
-    },
-    {
-      "bioguide": "H001091",
-      "name": "Rep. Hinson, Ashley [R-IA-1]",
-      "count": 3
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 4
     },
     {
       "bioguide": "C001120",
       "name": "Rep. Crenshaw, Dan [R-TX-2]",
-      "count": 3
+      "count": 4
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5822",
+      "title": "Keep SNAP Funded Act of 2025",
+      "introducedDate": "2025-10-24",
+      "latestAction": {
+        "date": "2025-10-24",
+        "text": "Referred to the House Committee on Appropriations."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5822?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-24",
+          "original": true
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "C001133",
+          "name": "Rep. Ciscomani, Juan [R-AZ-6]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Rep. De La Cruz, Monica [R-TX-15]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "G000558",
+          "name": "Rep. Guthrie, Brett [R-KY-2]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "C001108",
+          "name": "Rep. Comer, James [R-KY-1]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Rep. Barr, Andy [R-KY-6]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "H001100",
+          "name": "Rep. Hurd, Jeff [R-CO-3]",
+          "party": "R",
+          "state": "CO",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "S000522",
+          "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "J000301",
+          "name": "Rep. Johnson, Dusty [R-SD-At Large]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "R000395",
+          "name": "Rep. Rogers, Harold [R-KY-5]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "K000401",
+          "name": "Rep. Kiley, Kevin [R-CA-3]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001219",
+          "name": "Del. Moylan, James C. [R-GU-At Large]",
+          "party": "R",
+          "state": "GU",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 24
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -895,7 +1107,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Immigration",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4895?format=json",
       "updateDate": null,
@@ -988,9 +1200,73 @@
           "state": "CA",
           "date": "2025-08-05",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "S001199",
+          "name": "Rep. Smucker, Lloyd [R-PA-11]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Rep. Crenshaw, Dan [R-TX-2]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001207",
+          "name": "Rep. Sherrill, Mikie [D-NJ-11]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001211",
+          "name": "Rep. Stanton, Greg [D-AZ-4]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001183",
+          "name": "Rep. Schweikert, David [R-AZ-1]",
+          "party": "R",
+          "state": "AZ",
+          "date": "2025-10-06",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 19
     },
     {
       "congress": 119,
@@ -1002,7 +1278,7 @@
         "date": "2025-07-25",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4764?format=json",
       "updateDate": null,
@@ -1071,9 +1347,41 @@
           "state": "IA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "C001059",
+          "name": "Rep. Costa, Jim [D-CA-21]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "F000474",
+          "name": "Rep. Flood, Mike [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 12
     },
     {
       "congress": 119,
@@ -1128,7 +1436,7 @@
         "date": "2025-07-17",
         "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4518?format=json",
       "updateDate": null,
@@ -1197,9 +1505,17 @@
           "state": "NJ",
           "date": "2025-07-17",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-11",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1256,9 +1572,49 @@
           "state": "MO",
           "date": "2025-07-21",
           "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "O000019",
+          "name": "Rep. Obernolte, Jay [R-CA-23]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "P000609",
+          "name": "Rep. Palmer, Gary J. [R-AL-6]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001220",
+          "name": "Rep. Strong, Dale W. [R-AL-5]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -1283,9 +1639,25 @@
           "state": "MI",
           "date": "2025-06-04",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1318,9 +1690,17 @@
           "state": "FL",
           "date": "2025-06-03",
           "original": true
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-26",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1724,9 +2104,33 @@
           "state": "TX",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "P000614",
+          "name": "Rep. Pappas, Chris [D-NH-1]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 19
+      "cosponsors_total": 22
     },
     {
       "congress": 119,
@@ -1948,9 +2352,25 @@
           "state": "IL",
           "date": "2025-08-01",
           "original": false
+        },
+        {
+          "bioguide": "W000798",
+          "name": "Rep. Walberg, Tim [R-MI-5]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-04",
+          "original": false
         }
       ],
-      "cosponsors_total": 20
+      "cosponsors_total": 22
     },
     {
       "congress": 119,
@@ -2223,9 +2643,65 @@
           "state": "MN",
           "date": "2025-08-05",
           "original": false
+        },
+        {
+          "bioguide": "C001136",
+          "name": "Rep. Conaway, Herbert C. [D-NJ-3]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Rep. De La Cruz, Monica [R-TX-15]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "S001159",
+          "name": "Rep. Strickland, Marilyn [D-WA-10]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 28
+      "cosponsors_total": 35
     },
     {
       "congress": 119,
@@ -2261,7 +2737,13 @@
         "text": "Referred to the House Committee on Energy and Commerce."
       },
       "policy_area": "Energy",
-      "subjects": [],
+      "subjects": [
+        "Alternative and renewable resources",
+        "Congressional oversight",
+        "Marine and inland water transportation",
+        "Marine pollution",
+        "Oil and gas"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1896?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2401,9 +2883,17 @@
           "state": "NE",
           "date": "2025-06-24",
           "original": false
+        },
+        {
+          "bioguide": "F000475",
+          "name": "Rep. Finstad, Brad [R-MN-1]",
+          "party": "R",
+          "state": "MN",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 17
+      "cosponsors_total": 18
     },
     {
       "congress": 119,
@@ -2624,9 +3114,41 @@
           "state": "CA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "W000812",
+          "name": "Rep. Wagner, Ann [R-MO-2]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "T000480",
+          "name": "Rep. Timmons, William R. [R-SC-4]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "R000619",
+          "name": "Rep. Rulli, Michael A. [R-OH-6]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 10
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -2952,9 +3474,73 @@
           "state": "IL",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "M001199",
+          "name": "Rep. Mast, Brian J. [R-FL-21]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001327",
+          "name": "Rep. Bresnahan, Robert P. [R-PA-8]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001220",
+          "name": "Rep. McGarvey, Morgan [D-KY-3]",
+          "party": "D",
+          "state": "KY",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 38
+      "cosponsors_total": 46
     },
     {
       "congress": 119,
@@ -3041,11 +3627,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 98,
+    "total_hr_sr": 99,
     "total_hr_sr_bipartisan": 50,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 73
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 71
   },
   "district": {
     "year": 2023,

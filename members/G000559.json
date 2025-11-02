@@ -77,7 +77,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 4
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -130,6 +130,7 @@
       "dim2": -0.464
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-24",
@@ -927,6 +928,11 @@
       "count": 4
     },
     {
+      "bioguide": "H001068",
+      "name": "Rep. Huffman, Jared [D-CA-2]",
+      "count": 3
+    },
+    {
       "bioguide": "C001059",
       "name": "Rep. Costa, Jim [D-CA-20]",
       "count": 3
@@ -955,11 +961,6 @@
       "bioguide": "B001278",
       "name": "Rep. Bonamici, Suzanne [D-OR-1]",
       "count": 3
-    },
-    {
-      "bioguide": "D000530",
-      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
-      "count": 3
     }
   ],
   "bills": [
@@ -970,10 +971,10 @@
       "title": "Transportation Emergency Relief Extension Act",
       "introducedDate": "2025-08-01",
       "latestAction": {
-        "date": "2025-08-01",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-08-02",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4847?format=json",
       "updateDate": null,
@@ -1002,9 +1003,33 @@
           "state": "CA",
           "date": "2025-08-19",
           "original": false
+        },
+        {
+          "bioguide": "C001123",
+          "name": "Rep. Cisneros, Gilbert Ray [D-CA-31]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "H001068",
+          "name": "Rep. Huffman, Jared [D-CA-2]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001237",
+          "name": "Rep. McDonald Rivet, Kristen [D-MI-8]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1064,8 +1089,8 @@
       "title": "Bridge Corrosion Prevention and Repair Act of 2025",
       "introducedDate": "2025-06-26",
       "latestAction": {
-        "date": "2025-06-26",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-06-27",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
       "policy_area": "Transportation and Public Works",
       "subjects": [],
@@ -1128,9 +1153,17 @@
           "state": "MD",
           "date": "2025-06-26",
           "original": true
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 7
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -1377,9 +1410,25 @@
           "state": "HI",
           "date": "2025-07-25",
           "original": false
+        },
+        {
+          "bioguide": "L000560",
+          "name": "Rep. Larsen, Rick [D-WA-2]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001298",
+          "name": "Rep. Bacon, Don [R-NE-2]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-18",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -2875,9 +2924,81 @@
           "state": "CA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Rep. Bost, Mike [R-IL-12]",
+          "party": "R",
+          "state": "IL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001309",
+          "name": "Rep. Burchett, Tim [R-TN-2]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Rep. Wilson, Joe [R-SC-2]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "K000399",
+          "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Rep. Espaillat, Adriano [D-NY-13]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001126",
+          "name": "Rep. Carey, Mike [R-OH-15]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001101",
+          "name": "Rep. Clark, Katherine M. [D-MA-5]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 147
+      "cosponsors_total": 156
     }
   ],
   "work_statistics": {

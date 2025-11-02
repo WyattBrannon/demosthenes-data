@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 81
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,6 +96,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -602,7 +603,7 @@
     {
       "bioguide": "N000189",
       "name": "Rep. Newhouse, Dan [R-WA-4]",
-      "count": 5
+      "count": 6
     },
     {
       "bioguide": "F000469",
@@ -618,6 +619,11 @@
       "bioguide": "T000165",
       "name": "Rep. Tiffany, Thomas P. [R-WI-7]",
       "count": 3
+    },
+    {
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 2
     },
     {
       "bioguide": "H001096",
@@ -643,14 +649,29 @@
       "bioguide": "M001159",
       "name": "Rep. McMorris Rodgers, Cathy [R-WA-5]",
       "count": 2
-    },
-    {
-      "bioguide": "G000565",
-      "name": "Rep. Gosar, Paul A. [R-AZ-4]",
-      "count": 2
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "N000189",
+      "name": "Rep. Newhouse, Dan [R-WA-4]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000592",
+      "name": "Rep. Golden, Jared F. [D-ME-2]",
+      "count": 1
+    },
+    {
+      "bioguide": "C001103",
+      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "count": 1
+    },
+    {
+      "bioguide": "G000600",
+      "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+      "count": 1
+    },
     {
       "bioguide": "D000631",
       "name": "Rep. Dean, Madeleine [D-PA-4]",
@@ -680,19 +701,79 @@
       "bioguide": "K000392",
       "name": "Rep. Kustoff, David [R-TN-8]",
       "count": 1
-    },
-    {
-      "bioguide": "D000617",
-      "name": "Rep. DelBene, Suzan K. [D-WA-1]",
-      "count": 1
-    },
-    {
-      "bioguide": "M001238",
-      "name": "Rep. McBride, Sarah [D-DE-At Large]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5171",
+      "title": "Pacific Northwest Gray Wolves Relief Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": "Public Lands and Natural Resources",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5171?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000189",
+          "name": "Rep. Newhouse, Dan [R-WA-4]",
+          "party": "R",
+          "state": "WA",
+          "date": "2025-09-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5133",
+      "title": "Patients\u2019 Right to Know Their Medication Act of 2025",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5133?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "G000592",
+          "name": "Rep. Golden, Jared F. [D-ME-2]",
+          "party": "D",
+          "state": "ME",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -806,11 +887,11 @@
       "congress": 119,
       "billType": "hr",
       "number": "655",
-      "title": "The Dalles Watershed Development Act",
+      "title": "Dalles Watershed Development Act",
       "introducedDate": "2025-01-23",
       "latestAction": {
-        "date": "2025-06-25",
-        "text": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent."
+        "date": "2025-09-15",
+        "text": "Placed on the Union Calendar, Calendar No. 233."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -827,11 +908,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 15,
-    "total_hr_sr_bipartisan": 1,
+    "total_hr_sr": 17,
+    "total_hr_sr_bipartisan": 2,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 94,
-    "bipartisan_rate_percentile_party": 7
+    "passed_rate_percentile_party": 93,
+    "bipartisan_rate_percentile_party": 8
   },
   "district": {
     "year": 2023,

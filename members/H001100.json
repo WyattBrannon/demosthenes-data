@@ -85,7 +85,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 52
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,6 +98,7 @@
       "dim2": 0.532
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -700,6 +701,16 @@
       "count": 2
     },
     {
+      "bioguide": "R000621",
+      "name": "Rep. Randall, Emily [D-WA-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001159",
+      "name": "Rep. Strickland, Marilyn [D-WA-10]",
+      "count": 1
+    },
+    {
       "bioguide": "M000871",
       "name": "Rep. Mann, Tracey [R-KS-1]",
       "count": 1
@@ -710,18 +721,8 @@
       "count": 1
     },
     {
-      "bioguide": "K000376",
-      "name": "Rep. Kelly, Mike [R-PA-16]",
-      "count": 1
-    },
-    {
-      "bioguide": "B000740",
-      "name": "Rep. Bice, Stephanie I. [R-OK-5]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000576",
-      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "bioguide": "V000129",
+      "name": "Rep. Valadao, David G. [R-CA-22]",
       "count": 1
     }
   ],
@@ -752,6 +753,16 @@
       "count": 2
     },
     {
+      "bioguide": "R000621",
+      "name": "Rep. Randall, Emily [D-WA-6]",
+      "count": 1
+    },
+    {
+      "bioguide": "S001159",
+      "name": "Rep. Strickland, Marilyn [D-WA-10]",
+      "count": 1
+    },
+    {
       "bioguide": "M000871",
       "name": "Rep. Mann, Tracey [R-KS-1]",
       "count": 1
@@ -762,18 +773,8 @@
       "count": 1
     },
     {
-      "bioguide": "K000376",
-      "name": "Rep. Kelly, Mike [R-PA-16]",
-      "count": 1
-    },
-    {
-      "bioguide": "B000740",
-      "name": "Rep. Bice, Stephanie I. [R-OK-5]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000576",
-      "name": "Rep. Grothman, Glenn [R-WI-6]",
+      "bioguide": "V000129",
+      "name": "Rep. Valadao, David G. [R-CA-22]",
       "count": 1
     }
   ],
@@ -781,14 +782,67 @@
     {
       "congress": 119,
       "billType": "hr",
+      "number": "5631",
+      "title": "Geothermal Ombudsman for National Deployment and Optimal Reviews Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5631?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5515",
+      "title": "Indian Trust Asset Reform Amendment Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5515?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-19",
+          "original": true
+        },
+        {
+          "bioguide": "S001159",
+          "name": "Rep. Strickland, Marilyn [D-WA-10]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
       "number": "4500",
       "title": "HELP Act",
       "introducedDate": "2025-07-17",
       "latestAction": {
-        "date": "2025-07-17",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-18",
+        "text": "Referred to the Subcommittee on Highways and Transit."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4500?format=json",
       "updateDate": null,
@@ -817,9 +871,25 @@
           "state": "TN",
           "date": "2025-07-17",
           "original": true
+        },
+        {
+          "bioguide": "V000129",
+          "name": "Rep. Valadao, David G. [R-CA-22]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "F000474",
+          "name": "Rep. Flood, Mike [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -922,11 +992,17 @@
       "title": "Snow Water Supply Forecasting Reauthorization Act of 2025",
       "introducedDate": "2025-06-10",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Unanimous Consent."
+        "date": "2025-09-15",
+        "text": "Placed on the Union Calendar, Calendar No. 249."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Water Resources Development",
+      "subjects": [
+        "Advanced technology and technological innovations",
+        "Environmental assessment, monitoring, research",
+        "Environmental technology",
+        "Water resources funding",
+        "Water use and supply"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3857?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1057,8 +1133,8 @@
       "title": "Wetlands Conservation and Access Improvement Act of 2025",
       "introducedDate": "2025-03-25",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Received in the Senate and Read twice and referred to the Committee on Environment and Public Works."
+        "date": "2025-10-23",
+        "text": "Message on Senate action sent to the House."
       },
       "policy_area": "Public Lands and Natural Resources",
       "subjects": [
@@ -1337,11 +1413,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 10,
-    "total_hr_sr_bipartisan": 4,
+    "total_hr_sr": 12,
+    "total_hr_sr_bipartisan": 5,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 52
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 53
   },
   "district": {
     "year": 2023,

@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 6
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,6 +108,7 @@
       "dim2": -0.23
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -1022,6 +1023,11 @@
       "count": 3
     },
     {
+      "bioguide": "B001324",
+      "name": "Rep. Bell, Wesley [D-MO-1]",
+      "count": 3
+    },
+    {
       "bioguide": "J000288",
       "name": "Rep. Johnson, Henry C. \"Hank,\" Jr. [D-GA-4]",
       "count": 2
@@ -1055,14 +1061,27 @@
       "bioguide": "L000562",
       "name": "Rep. Lynch, Stephen F. [D-MA-8]",
       "count": 2
-    },
-    {
-      "bioguide": "M001223",
-      "name": "Rep. Magaziner, Seth [D-RI-2]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5294",
+      "title": "For the relief of Miguel Lopez Luvian.",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5294?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1750,9 +1769,105 @@
           "state": "IN",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000586",
+          "name": "Rep. Garc\u00eda, Jes\u00fas G. \"Chuy\" [D-IL-4]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "D000197",
+          "name": "Rep. DeGette, Diana [D-CO-1]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-11",
+          "original": false
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Rep. Boyle, Brendan F. [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "T000482",
+          "name": "Rep. Trahan, Lori [D-MA-3]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001214",
+          "name": "Rep. Mrvan, Frank J. [D-IN-1]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Rep. Sykes, Emilia Strong [D-OH-13]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 84
+      "cosponsors_total": 96
     },
     {
       "congress": 119,
@@ -2105,9 +2220,25 @@
           "state": "NY",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "L000606",
+          "name": "Rep. Latimer, George [D-NY-16]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 42
+      "cosponsors_total": 44
     },
     {
       "congress": 119,
@@ -2445,17 +2576,33 @@
           "state": "CA",
           "date": "2025-06-26",
           "original": false
+        },
+        {
+          "bioguide": "C001055",
+          "name": "Rep. Case, Ed [D-HI-1]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 6
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 89,
+    "total_hr_sr": 90,
     "total_hr_sr_bipartisan": 31,
     "total_hr_sr_became_public_law": 3,
-    "passed_rate_percentile_party": 88,
-    "bipartisan_rate_percentile_party": 44
+    "passed_rate_percentile_party": 87,
+    "bipartisan_rate_percentile_party": 43
   },
   "district": {
     "year": 2023,

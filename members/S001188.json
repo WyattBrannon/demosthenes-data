@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IN",
     "district": "03",
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,6 +94,7 @@
       "dim2": -0.155
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -934,6 +935,26 @@
       "count": 1
     },
     {
+      "bioguide": "V000138",
+      "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+      "count": 1
+    },
+    {
+      "bioguide": "D000594",
+      "name": "Rep. De La Cruz, Monica [R-TX-15]",
+      "count": 1
+    },
+    {
+      "bioguide": "N000193",
+      "name": "Rep. Nunn, Zachary [R-IA-3]",
+      "count": 1
+    },
+    {
+      "bioguide": "D000634",
+      "name": "Rep. Downing, Troy [R-MT-2]",
+      "count": 1
+    },
+    {
       "bioguide": "L000596",
       "name": "Rep. Luna, Anna Paulina [R-FL-13]",
       "count": 1
@@ -942,29 +963,27 @@
       "bioguide": "G000565",
       "name": "Rep. Gosar, Paul A. [R-AZ-4]",
       "count": 1
-    },
-    {
-      "bioguide": "P000605",
-      "name": "Rep. Perry, Scott [R-PA-4]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000589",
-      "name": "Rep. Gooden, Lance [R-TX-5]",
-      "count": 1
-    },
-    {
-      "bioguide": "S001229",
-      "name": "Rep. Shreve, Jefferson [R-IN-6]",
-      "count": 1
-    },
-    {
-      "bioguide": "G000576",
-      "name": "Rep. Grothman, Glenn [R-WI-6]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5808",
+      "title": "Nigeria Religious Freedom Accountability Act of 2025",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5808?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -975,7 +994,7 @@
         "date": "2025-08-15",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4989?format=json",
       "updateDate": null,
@@ -1004,9 +1023,41 @@
           "state": "GA",
           "date": "2025-08-15",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "D000594",
+          "name": "Rep. De La Cruz, Monica [R-TX-15]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "D000634",
+          "name": "Rep. Downing, Troy [R-MT-2]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1018,7 +1069,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4737?format=json",
       "updateDate": null,
@@ -1176,11 +1227,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 31,
+    "total_hr_sr": 32,
     "total_hr_sr_bipartisan": 7,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 75,
-    "bipartisan_rate_percentile_party": 24
+    "passed_rate_percentile_party": 74,
+    "bipartisan_rate_percentile_party": 21
   },
   "district": {
     "year": 2023,

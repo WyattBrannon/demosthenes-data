@@ -97,7 +97,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 85
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -175,6 +175,7 @@
       "dim2": -0.307
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-02",
@@ -875,23 +876,23 @@
       "count": 19
     },
     {
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "count": 18
+    },
+    {
       "bioguide": "S001198",
       "name": "Sen. Sullivan, Dan [R-AK]",
       "count": 18
     },
     {
-      "bioguide": "B001277",
-      "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 17
+      "bioguide": "H001046",
+      "name": "Sen. Heinrich, Martin [D-NM]",
+      "count": 18
     },
     {
       "bioguide": "M000133",
       "name": "Sen. Markey, Edward J. [D-MA]",
-      "count": 17
-    },
-    {
-      "bioguide": "H001046",
-      "name": "Sen. Heinrich, Martin [D-NM]",
       "count": 17
     },
     {
@@ -905,25 +906,30 @@
       "count": 16
     },
     {
-      "bioguide": "M000934",
-      "name": "Sen. Moran, Jerry [R-KS]",
+      "bioguide": "L000570",
+      "name": "Sen. Lujan, Ben Ray [D-NM]",
       "count": 15
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "count": 5
+    },
     {
       "bioguide": "K000367",
       "name": "Sen. Klobuchar, Amy [D-MN]",
       "count": 4
     },
     {
-      "bioguide": "B001277",
-      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "bioguide": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
       "count": 4
     },
     {
-      "bioguide": "S001181",
-      "name": "Sen. Shaheen, Jeanne [D-NH]",
+      "bioguide": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
       "count": 4
     },
     {
@@ -947,22 +953,52 @@
       "count": 3
     },
     {
-      "bioguide": "W000800",
-      "name": "Sen. Welch, Peter [D-VT]",
+      "bioguide": "L000570",
+      "name": "Sen. Lujan, Ben Ray [D-NM]",
       "count": 3
     },
     {
       "bioguide": "M001153",
       "name": "Sen. Murkowski, Lisa [R-AK]",
       "count": 3
-    },
-    {
-      "bioguide": "G000386",
-      "name": "Sen. Grassley, Chuck [R-IA]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2932",
+      "title": "Student Athlete Fairness and Enforcement Act",
+      "introducedDate": "2025-09-29",
+      "latestAction": {
+        "date": "2025-09-29",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2932?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-29",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -973,7 +1009,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2581?format=json",
       "updateDate": null,
@@ -1067,9 +1103,25 @@
           "state": "DE",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-16",
+          "original": false
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1174,9 +1226,25 @@
           "state": "OR",
           "date": "2025-07-31",
           "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-22",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1188,7 +1256,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Indian Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Native Americans",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2452?format=json",
       "updateDate": null,
@@ -1201,9 +1269,57 @@
           "state": "OK",
           "date": "2025-07-24",
           "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -1356,9 +1472,73 @@
           "state": "VA",
           "date": "2025-07-08",
           "original": false
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001267",
+          "name": "Sen. Bennet, Michael F. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 17
+      "cosponsors_total": 21
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "1514",
+      "title": "Quinault Indian Nation Land Transfer Act",
+      "introducedDate": "2025-04-29",
+      "latestAction": {
+        "date": "2025-04-29",
+        "text": "Read twice and referred to the Committee on Indian Affairs."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [
+        "Federal-Indian relations",
+        "Indian lands and resources rights",
+        "Land transfers",
+        "Washington State"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1514?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-04-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1380,38 +1560,6 @@
         "Land use and conservation"
       ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1513?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [
-        {
-          "bioguide": "M001111",
-          "name": "Sen. Murray, Patty [D-WA]",
-          "party": "D",
-          "state": "WA",
-          "date": "2025-04-29",
-          "original": true
-        }
-      ],
-      "cosponsors_total": 1
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "1514",
-      "title": "Quinault Indian Nation Land Transfer Act",
-      "introducedDate": "2025-04-29",
-      "latestAction": {
-        "date": "2025-04-29",
-        "text": "Read twice and referred to the Committee on Indian Affairs."
-      },
-      "policy_area": "Native Americans",
-      "subjects": [
-        "Federal-Indian relations",
-        "Indian lands and resources rights",
-        "Land transfers",
-        "Washington State"
-      ],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1514?format=json",
       "updateDate": null,
       "bipartisan": false,
       "cosponsors": [
@@ -1749,8 +1897,8 @@
       "title": "Fire Ready Nation Act of 2025",
       "introducedDate": "2025-01-29",
       "latestAction": {
-        "date": "2025-07-16",
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 119."
+        "date": "2025-09-11",
+        "text": "Held at the desk."
       },
       "policy_area": "Science, Technology, Communications",
       "subjects": [
@@ -1890,16 +2038,24 @@
           "state": "NH",
           "date": "2025-03-11",
           "original": false
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 120,
+    "total_hr_sr": 121,
     "total_hr_sr_bipartisan": 69,
     "total_hr_sr_became_public_law": 4,
-    "passed_rate_percentile_party": 88,
+    "passed_rate_percentile_party": 86,
     "bipartisan_rate_percentile_party": 77
   },
   "district": {

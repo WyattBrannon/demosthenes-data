@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 9
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -125,6 +125,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -906,6 +907,11 @@
       "count": 2
     },
     {
+      "bioguide": "F000459",
+      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+      "count": 2
+    },
+    {
       "bioguide": "T000478",
       "name": "Rep. Tenney, Claudia [R-NY-22]",
       "count": 2
@@ -918,11 +924,6 @@
     {
       "bioguide": "L000599",
       "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 2
-    },
-    {
-      "bioguide": "H001096",
-      "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
       "count": 2
     }
   ],
@@ -937,7 +938,7 @@
         "date": "2025-07-25",
         "text": "Placed on the Union Calendar, Calendar No. 177."
       },
-      "policy_area": "Economics and Public Finance",
+      "policy_area": "International Affairs",
       "subjects": [
         "Accounting and auditing",
         "Afghanistan",
@@ -1293,9 +1294,41 @@
           "state": "NY",
           "date": "2025-08-29",
           "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "R000614",
+          "name": "Rep. Roy, Chip [R-TX-21]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "M001216",
+          "name": "Rep. Mills, Cory [R-FL-7]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "S001224",
+          "name": "Rep. Self, Keith [R-TX-3]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 18
     },
     {
       "congress": 119,
@@ -1483,9 +1516,17 @@
           "state": "IN",
           "date": "2025-06-06",
           "original": false
+        },
+        {
+          "bioguide": "F000459",
+          "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-16",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 15
     },
     {
       "congress": 119,
@@ -1627,9 +1668,25 @@
           "state": "NE",
           "date": "2025-08-08",
           "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 14
+      "cosponsors_total": 16
     },
     {
       "congress": 119,
@@ -1774,7 +1831,15 @@
         "text": "Referred to the House Committee on Foreign Affairs."
       },
       "policy_area": "International Affairs",
-      "subjects": [],
+      "subjects": [
+        "Criminal investigation, prosecution, interrogation",
+        "Department of State",
+        "Drug trafficking and controlled substances",
+        "Federal officials",
+        "Foreign property",
+        "Latin America",
+        "Venezuela"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/268?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1843,8 +1908,8 @@
     "total_hr_sr": 71,
     "total_hr_sr_bipartisan": 39,
     "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 50,
-    "bipartisan_rate_percentile_party": 78
+    "passed_rate_percentile_party": 49,
+    "bipartisan_rate_percentile_party": 77
   },
   "district": {
     "year": 2023,

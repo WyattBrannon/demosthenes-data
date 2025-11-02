@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -101,6 +101,7 @@
       "dim2": 0.296
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-21",
@@ -716,22 +717,22 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 37
+      "count": 38
     },
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 27
+      "count": 28
     },
     {
       "bioguide": "T000468",
       "name": "Rep. Titus, Dina [D-NV-1]",
-      "count": 24
+      "count": 25
     },
     {
       "bioguide": "C001119",
       "name": "Rep. Craig, Angie [D-MN-2]",
-      "count": 22
+      "count": 23
     },
     {
       "bioguide": "M000312",
@@ -744,13 +745,13 @@
       "count": 19
     },
     {
-      "bioguide": "B001285",
-      "name": "Rep. Brownley, Julia [D-CA-26]",
-      "count": 17
-    },
-    {
       "bioguide": "C001072",
       "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 18
+    },
+    {
+      "bioguide": "B001285",
+      "name": "Rep. Brownley, Julia [D-CA-26]",
       "count": 17
     },
     {
@@ -763,7 +764,17 @@
     {
       "bioguide": "F000466",
       "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
-      "count": 7
+      "count": 8
+    },
+    {
+      "bioguide": "G000604",
+      "name": "Rep. Goodlander, Maggie [D-NH-2]",
+      "count": 6
+    },
+    {
+      "bioguide": "C001119",
+      "name": "Rep. Craig, Angie [D-MN-2]",
+      "count": 5
     },
     {
       "bioguide": "G000583",
@@ -771,47 +782,238 @@
       "count": 4
     },
     {
-      "bioguide": "C001119",
-      "name": "Rep. Craig, Angie [D-MN-2]",
-      "count": 4
-    },
-    {
-      "bioguide": "G000604",
-      "name": "Rep. Goodlander, Maggie [D-NH-2]",
-      "count": 3
-    },
-    {
-      "bioguide": "K000398",
-      "name": "Rep. Kean, Thomas H. [R-NJ-7]",
-      "count": 3
-    },
-    {
-      "bioguide": "M001227",
-      "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
-      "count": 3
-    },
-    {
-      "bioguide": "P000608",
-      "name": "Rep. Peters, Scott H. [D-CA-52]",
-      "count": 3
-    },
-    {
-      "bioguide": "L000599",
-      "name": "Rep. Lawler, Michael [R-NY-17]",
-      "count": 3
-    },
-    {
-      "bioguide": "K000399",
-      "name": "Rep. Kiggans, Jennifer A. [R-VA-2]",
-      "count": 2
-    },
-    {
       "bioguide": "T000468",
       "name": "Rep. Titus, Dina [D-NV-1]",
-      "count": 2
+      "count": 3
+    },
+    {
+      "bioguide": "M001196",
+      "name": "Rep. Moulton, Seth [D-MA-6]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001223",
+      "name": "Rep. Magaziner, Seth [D-RI-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "R000599",
+      "name": "Rep. Ruiz, Raul [D-CA-36]",
+      "count": 3
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 3
+    },
+    {
+      "bioguide": "T000488",
+      "name": "Rep. Thanedar, Shri [D-MI-13]",
+      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5687",
+      "title": "Keep the Heat On Act of 2025",
+      "introducedDate": "2025-10-03",
+      "latestAction": {
+        "date": "2025-10-03",
+        "text": "Referred to the House Committee on Appropriations."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5687?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-10",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "E000296",
+          "name": "Rep. Evans, Dwight [D-PA-3]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-31",
+          "original": false
+        },
+        {
+          "bioguide": "T000491",
+          "name": "Rep. Tran, Derek [D-CA-45]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-31",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5236",
+      "title": "Critical Infrastructure Security Act",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Referred to the Committee on Financial Services, and in addition to the Committees on Energy and Commerce, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5236?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "W000814",
+          "name": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "G000604",
+          "name": "Rep. Goodlander, Maggie [D-NH-2]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-09",
+          "original": true
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5094",
+      "title": "Protect Patients from Costly Care Act",
+      "introducedDate": "2025-09-02",
+      "latestAction": {
+        "date": "2025-09-02",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5094?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "R000599",
+          "name": "Rep. Ruiz, Raul [D-CA-25]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "F000110",
+          "name": "Rep. Fields, Cleo [D-LA-6]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Rep. Craig, Angie [D-MN-2]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-02",
+          "original": true
+        },
+        {
+          "bioguide": "G000604",
+          "name": "Rep. Goodlander, Maggie [D-NH-2]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-02",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 9
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -822,7 +1024,7 @@
         "date": "2025-08-26",
         "text": "Referred to the Committee on Armed Services, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5053?format=json",
       "updateDate": null,
@@ -835,9 +1037,25 @@
           "state": "VA",
           "date": "2025-08-26",
           "original": true
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "G000604",
+          "name": "Rep. Goodlander, Maggie [D-NH-2]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -849,7 +1067,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Ways and Means."
       },
-      "policy_area": null,
+      "policy_area": "Foreign Trade and International Finance",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4899?format=json",
       "updateDate": null,
@@ -945,9 +1163,17 @@
           "state": "NJ",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "S000344",
+          "name": "Rep. Sherman, Brad [D-CA-32]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     },
     {
       "congress": 119,
@@ -1372,9 +1598,25 @@
           "state": "MI",
           "date": "2025-08-05",
           "original": false
+        },
+        {
+          "bioguide": "D000197",
+          "name": "Rep. DeGette, Diana [D-CO-1]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001232",
+          "name": "Rep. McClain Delaney, April [D-MD-6]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 51
+      "cosponsors_total": 53
     },
     {
       "congress": 119,
@@ -1549,9 +1791,25 @@
           "state": "CA",
           "date": "2025-05-14",
           "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "G000598",
+          "name": "Rep. Garcia, Robert [D-CA-42]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 11
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1560,8 +1818,8 @@
       "title": "BUILD Act of 2025",
       "introducedDate": "2025-04-21",
       "latestAction": {
-        "date": "2025-04-21",
-        "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Transportation and Infrastructure, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-04-22",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
       },
       "policy_area": "Crime and Law Enforcement",
       "subjects": [],
@@ -1592,9 +1850,17 @@
           "state": "PA",
           "date": "2025-05-06",
           "original": false
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Rep. Van Orden, Derrick [R-WI-3]",
+          "party": "R",
+          "state": "WI",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -1603,8 +1869,8 @@
       "title": "Veterans\u2019 Transition to Trucking Act of 2025",
       "introducedDate": "2025-04-17",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Voice Vote."
+        "date": "2025-09-19",
+        "text": "Placed on the Union Calendar, Calendar No. 259."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -1706,7 +1972,12 @@
         "text": "Referred to the Subcommittee on Disability Assistance and Memorial Affairs."
       },
       "policy_area": "Armed Forces and National Security",
-      "subjects": [],
+      "subjects": [
+        "Civil actions and liability",
+        "Fraud offenses and financial crimes",
+        "User charges and fees",
+        "Veterans' pensions and compensation"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1732?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -2478,9 +2749,57 @@
           "state": "CA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "G000600",
+          "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "W000831",
+          "name": "Rep. Walkinshaw, James R. [D-VA-11]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 96
+      "cosponsors_total": 102
     },
     {
       "congress": 119,
@@ -2723,16 +3042,24 @@
           "state": "IL",
           "date": "2025-05-07",
           "original": false
+        },
+        {
+          "bioguide": "S001201",
+          "name": "Rep. Suozzi, Thomas R. [D-NY-3]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-06",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 9
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 122,
-    "total_hr_sr_bipartisan": 76,
+    "total_hr_sr": 125,
+    "total_hr_sr_bipartisan": 77,
     "total_hr_sr_became_public_law": 3,
-    "passed_rate_percentile_party": 77,
+    "passed_rate_percentile_party": 76,
     "bipartisan_rate_percentile_party": 84
   },
   "district": {

@@ -117,7 +117,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 75
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -165,6 +165,7 @@
       "dim2": -0.292
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-02",
@@ -857,107 +858,278 @@
     {
       "bioguide": "H001042",
       "name": "Sen. Hirono, Mazie K. [D-HI]",
-      "count": 43
+      "count": 46
     },
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 34
+      "count": 37
     },
     {
       "bioguide": "P000145",
       "name": "Sen. Padilla, Alex [D-CA]",
-      "count": 34
-    },
-    {
-      "bioguide": "W000779",
-      "name": "Sen. Wyden, Ron [D-OR]",
-      "count": 31
+      "count": 36
     },
     {
       "bioguide": "V000128",
       "name": "Sen. Van Hollen, Chris [D-MD]",
-      "count": 31
+      "count": 33
     },
     {
-      "bioguide": "W000817",
-      "name": "Sen. Warren, Elizabeth [D-MA]",
-      "count": 31
+      "bioguide": "W000779",
+      "name": "Sen. Wyden, Ron [D-OR]",
+      "count": 32
     },
     {
       "bioguide": "W000800",
       "name": "Sen. Welch, Peter [D-VT]",
-      "count": 30
+      "count": 32
+    },
+    {
+      "bioguide": "W000817",
+      "name": "Sen. Warren, Elizabeth [D-MA]",
+      "count": 32
     },
     {
       "bioguide": "M001176",
       "name": "Sen. Merkley, Jeff [D-OR]",
+      "count": 31
+    },
+    {
+      "bioguide": "D000563",
+      "name": "Sen. Durbin, Richard J. [D-IL]",
       "count": 29
     },
     {
       "bioguide": "F000479",
       "name": "Sen. Fetterman, John [D-PA]",
-      "count": 27
-    },
-    {
-      "bioguide": "L000570",
-      "name": "Sen. Lujan, Ben Ray [D-NM]",
-      "count": 27
+      "count": 28
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "H001042",
       "name": "Sen. Hirono, Mazie K. [D-HI]",
-      "count": 10
-    },
-    {
-      "bioguide": "M001176",
-      "name": "Sen. Merkley, Jeff [D-OR]",
-      "count": 10
-    },
-    {
-      "bioguide": "V000128",
-      "name": "Sen. Van Hollen, Chris [D-MD]",
-      "count": 10
+      "count": 13
     },
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 9
+      "count": 12
+    },
+    {
+      "bioguide": "M001176",
+      "name": "Sen. Merkley, Jeff [D-OR]",
+      "count": 12
+    },
+    {
+      "bioguide": "V000128",
+      "name": "Sen. Van Hollen, Chris [D-MD]",
+      "count": 12
     },
     {
       "bioguide": "P000145",
       "name": "Sen. Padilla, Alex [D-CA]",
-      "count": 9
+      "count": 11
     },
     {
       "bioguide": "B001288",
       "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 9
-    },
-    {
-      "bioguide": "W000779",
-      "name": "Sen. Wyden, Ron [D-OR]",
-      "count": 8
-    },
-    {
-      "bioguide": "W000800",
-      "name": "Sen. Welch, Peter [D-VT]",
-      "count": 8
+      "count": 11
     },
     {
       "bioguide": "D000563",
       "name": "Sen. Durbin, Richard J. [D-IL]",
-      "count": 8
+      "count": 10
     },
     {
-      "bioguide": "K000367",
-      "name": "Sen. Klobuchar, Amy [D-MN]",
-      "count": 7
+      "bioguide": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
+      "count": 10
+    },
+    {
+      "bioguide": "W000779",
+      "name": "Sen. Wyden, Ron [D-OR]",
+      "count": 9
+    },
+    {
+      "bioguide": "F000479",
+      "name": "Sen. Fetterman, John [D-PA]",
+      "count": 8
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2982",
+      "title": "Federal Employees Civil Relief Act",
+      "introducedDate": "2025-10-07",
+      "latestAction": {
+        "date": "2025-10-07",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2982?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S000148",
+          "name": "Sen. Schumer, Charles E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Sen. Durbin, Richard J. [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "V000128",
+          "name": "Sen. Van Hollen, Chris [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001230",
+          "name": "Sen. Baldwin, Tammy [D-WI]",
+          "party": "D",
+          "state": "WI",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-07",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-27",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 19
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -968,7 +1140,7 @@
         "date": "2025-08-01",
         "text": "Read twice and referred to the Committee on Foreign Relations."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2671?format=json",
       "updateDate": null,
@@ -1101,9 +1273,17 @@
           "state": "MD",
           "date": "2025-08-01",
           "original": true
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
         }
       ],
-      "cosponsors_total": 16
+      "cosponsors_total": 17
     },
     {
       "congress": 119,
@@ -1115,7 +1295,7 @@
         "date": "2025-08-01",
         "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2652?format=json",
       "updateDate": null,
@@ -1158,7 +1338,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
       },
-      "policy_area": null,
+      "policy_area": "Labor and Employment",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2488?format=json",
       "updateDate": null,
@@ -1179,9 +1359,17 @@
           "state": "WI",
           "date": "2025-07-28",
           "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-04",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1193,7 +1381,7 @@
         "date": "2025-07-21",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Housing and Community Development",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2363?format=json",
       "updateDate": null,
@@ -1669,8 +1857,8 @@
       "title": "TAME Extreme Weather and Wildfires Act",
       "introducedDate": "2025-04-09",
       "latestAction": {
-        "date": "2025-04-30",
-        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        "date": "2025-10-21",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 199."
       },
       "policy_area": "Science, Technology, Communications",
       "subjects": [
@@ -2233,9 +2421,25 @@
           "state": "OH",
           "date": "2025-05-01",
           "original": false
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001305",
+          "name": "Sen. Budd, Ted [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 63
+      "cosponsors_total": 65
     },
     {
       "congress": 119,
@@ -2616,8 +2820,8 @@
       "title": "Improving Flood and Agricultural Forecasts Act of 2025",
       "introducedDate": "2025-02-18",
       "latestAction": {
-        "date": "2025-03-12",
-        "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably."
+        "date": "2025-10-21",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 194."
       },
       "policy_area": "Science, Technology, Communications",
       "subjects": [
@@ -2802,11 +3006,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 99,
-    "total_hr_sr_bipartisan": 43,
-    "total_hr_sr_became_public_law": 1,
-    "passed_rate_percentile_party": 51,
-    "bipartisan_rate_percentile_party": 56
+    "total_hr_sr": 95,
+    "total_hr_sr_bipartisan": 40,
+    "total_hr_sr_became_public_law": 0,
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 55
   },
   "district": {
     "year": 2023,

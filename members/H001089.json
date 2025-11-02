@@ -93,7 +93,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 19
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -121,6 +121,7 @@
       "dim2": -0.646
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-01",
@@ -969,7 +970,17 @@
     {
       "bioguide": "S001217",
       "name": "Sen. Scott, Rick [R-FL]",
-      "count": 13
+      "count": 12
+    },
+    {
+      "bioguide": "B001277",
+      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "count": 11
+    },
+    {
+      "bioguide": "K000377",
+      "name": "Sen. Kelly, Mark [D-AZ]",
+      "count": 9
     },
     {
       "bioguide": "S001227",
@@ -982,8 +993,8 @@
       "count": 9
     },
     {
-      "bioguide": "B001277",
-      "name": "Sen. Blumenthal, Richard [D-CT]",
+      "bioguide": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
       "count": 8
     },
     {
@@ -1002,74 +1013,490 @@
       "count": 8
     },
     {
-      "bioguide": "W000800",
-      "name": "Sen. Welch, Peter [D-VT]",
-      "count": 7
-    },
-    {
-      "bioguide": "K000377",
-      "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 7
-    },
-    {
-      "bioguide": "C001098",
-      "name": "Sen. Cruz, Ted [R-TX]",
+      "bioguide": "G000574",
+      "name": "Sen. Gallego, Ruben [D-AZ]",
       "count": 7
     }
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "W000800",
-      "name": "Sen. Welch, Peter [D-VT]",
-      "count": 5
-    },
-    {
-      "bioguide": "M001242",
-      "name": "Sen. Moreno, Bernie [R-OH]",
-      "count": 5
-    },
-    {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 4
-    },
-    {
-      "bioguide": "B001288",
-      "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 4
-    },
-    {
-      "bioguide": "K000377",
-      "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 4
+      "count": 7
     },
     {
       "bioguide": "G000574",
       "name": "Sen. Gallego, Ruben [D-AZ]",
+      "count": 7
+    },
+    {
+      "bioguide": "K000377",
+      "name": "Sen. Kelly, Mark [D-AZ]",
+      "count": 6
+    },
+    {
+      "bioguide": "M001242",
+      "name": "Sen. Moreno, Bernie [R-OH]",
+      "count": 6
+    },
+    {
+      "bioguide": "W000800",
+      "name": "Sen. Welch, Peter [D-VT]",
+      "count": 6
+    },
+    {
+      "bioguide": "B001288",
+      "name": "Sen. Booker, Cory A. [D-NJ]",
+      "count": 5
+    },
+    {
+      "bioguide": "B001319",
+      "name": "Sen. Britt, Katie Boyd [R-AL]",
       "count": 4
     },
     {
-      "bioguide": "S001227",
-      "name": "Sen. Schmitt, Eric [R-MO]",
+      "bioguide": "L000575",
+      "name": "Sen. Lankford, James [R-OK]",
       "count": 4
-    },
-    {
-      "bioguide": "P000595",
-      "name": "Sen. Peters, Gary C. [D-MI]",
-      "count": 4
-    },
-    {
-      "bioguide": "G000386",
-      "name": "Sen. Grassley, Chuck [R-IA]",
-      "count": 3
     },
     {
       "bioguide": "K000367",
       "name": "Sen. Klobuchar, Amy [D-MN]",
-      "count": 3
+      "count": 4
+    },
+    {
+      "bioguide": "H001076",
+      "name": "Sen. Hassan, Margaret Wood [D-NH]",
+      "count": 4
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3062",
+      "title": "A bill to require artificial intelligence chatbots to implement age verification measures and make certain disclosures, and for other purposes.",
+      "introducedDate": "2025-10-28",
+      "latestAction": {
+        "date": "2025-10-28",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3062?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "W000805",
+          "name": "Sen. Warner, Mark R. [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "M001169",
+          "name": "Sen. Murphy, Christopher [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-28",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 6
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3058",
+      "title": "Support Our Farmers and Ranchers Act of 2025",
+      "introducedDate": "2025-10-27",
+      "latestAction": {
+        "date": "2025-10-27",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3058?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3025",
+      "title": "Fund Farm Programs Act of 2025",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Read twice and referred to the Committee on Appropriations."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3025?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-22",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3024",
+      "title": "Keep SNAP Funded Act of 2025",
+      "introducedDate": "2025-10-21",
+      "latestAction": {
+        "date": "2025-10-21",
+        "text": "Read twice and referred to the Committee on Appropriations."
+      },
+      "policy_area": "Agriculture and Food",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3024?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-22",
+          "original": false
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "M001242",
+          "name": "Sen. Moreno, Bernie [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "C001056",
+          "name": "Sen. Cornyn, John [R-TX]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "H001104",
+          "name": "Sen. Husted, Jon [R-OH]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-27",
+          "original": false
+        },
+        {
+          "bioguide": "S001198",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "M001198",
+          "name": "Sen. Marshall, Roger [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "L000571",
+          "name": "Sen. Lummis, Cynthia M. [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "L000570",
+          "name": "Sen. Luj\u00e1n, Ben Ray [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "H001076",
+          "name": "Sen. Hassan, Margaret Wood [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Sen. Murray, Patty [D-WA]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "S000148",
+          "name": "Sen. Schumer, Charles E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "W000817",
+          "name": "Sen. Warren, Elizabeth [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "H001046",
+          "name": "Sen. Heinrich, Martin [D-NM]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-10-29",
+          "original": false
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-29",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 29
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3011",
+      "title": "Prohibiting Abortion & Transgender Procedures on the Exchanges Act",
+      "introducedDate": "2025-10-15",
+      "latestAction": {
+        "date": "2025-10-15",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3011?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2938",
+      "title": "Artificial Intelligence Risk Evaluation Act of 2025",
+      "introducedDate": "2025-09-29",
+      "latestAction": {
+        "date": "2025-09-29",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2938?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2736",
+      "title": "In God We Trust Act",
+      "introducedDate": "2025-09-09",
+      "latestAction": {
+        "date": "2025-09-09",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2736?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1186,9 +1613,17 @@
           "state": "GA",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "O000174",
+          "name": "Sen. Ossoff, Jon [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -1200,7 +1635,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
+      "policy_area": "Taxation",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2475?format=json",
       "updateDate": null,
@@ -1218,7 +1653,7 @@
         "date": "2025-07-21",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2367?format=json",
       "updateDate": null,
@@ -1253,7 +1688,7 @@
         "date": "2025-07-15",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2279?format=json",
       "updateDate": null,
@@ -1500,9 +1935,33 @@
           "state": "CT",
           "date": "2025-06-26",
           "original": false
+        },
+        {
+          "bioguide": "K000393",
+          "name": "Sen. Kennedy, John [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-29",
+          "original": false
         }
       ],
-      "cosponsors_total": 8
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -1527,9 +1986,17 @@
           "state": "NH",
           "date": "2025-05-15",
           "original": true
+        },
+        {
+          "bioguide": "S001208",
+          "name": "Sen. Slotkin, Elissa [D-MI]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-20",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1825,9 +2292,41 @@
           "state": "AZ",
           "date": "2025-05-21",
           "original": false
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-29",
+          "original": false
+        },
+        {
+          "bioguide": "K000384",
+          "name": "Sen. Kaine, Tim [D-VA]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-16",
+          "original": false
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Sen. Blunt Rochester, Lisa [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-10-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 10
     },
     {
       "congress": 119,
@@ -2182,8 +2681,8 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 128,
-    "total_hr_sr_bipartisan": 26,
+    "total_hr_sr": 132,
+    "total_hr_sr_bipartisan": 28,
     "total_hr_sr_became_public_law": 1,
     "passed_rate_percentile_party": 42,
     "bipartisan_rate_percentile_party": 20

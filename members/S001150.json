@@ -97,7 +97,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 48
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -170,6 +170,7 @@
       "dim2": 0.108
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-01",
@@ -991,7 +992,7 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 80
+      "count": 79
     },
     {
       "bioguide": "C001072",
@@ -1001,32 +1002,32 @@
     {
       "bioguide": "L000551",
       "name": "Rep. Lee, Barbara [D-CA-13]",
-      "count": 41
+      "count": 40
     },
     {
       "bioguide": "C001080",
       "name": "Rep. Chu, Judy [D-CA-27]",
-      "count": 39
-    },
-    {
-      "bioguide": "L000582",
-      "name": "Rep. Lieu, Ted [D-CA-33]",
-      "count": 37
+      "count": 38
     },
     {
       "bioguide": "M000312",
       "name": "Rep. McGovern, James P. [D-MA-2]",
-      "count": 36
+      "count": 35
     },
     {
-      "bioguide": "C001068",
-      "name": "Rep. Cohen, Steve [D-TN-9]",
+      "bioguide": "L000582",
+      "name": "Rep. Lieu, Ted [D-CA-33]",
       "count": 35
     },
     {
       "bioguide": "G000551",
       "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-3]",
-      "count": 35
+      "count": 34
+    },
+    {
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
+      "count": 33
     },
     {
       "bioguide": "T000468",
@@ -1034,8 +1035,8 @@
       "count": 33
     },
     {
-      "bioguide": "K000389",
-      "name": "Rep. Khanna, Ro [D-CA-17]",
+      "bioguide": "Q000023",
+      "name": "Rep. Quigley, Mike [D-IL-5]",
       "count": 33
     }
   ],
@@ -1043,55 +1044,181 @@
     {
       "bioguide": "P000145",
       "name": "Sen. Padilla, Alex [D-CA]",
+      "count": 10
+    },
+    {
+      "bioguide": "K000394",
+      "name": "Rep. Kim, Andy [D-NJ-3]",
       "count": 6
     },
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 4
-    },
-    {
-      "bioguide": "K000394",
-      "name": "Rep. Kim, Andy [D-NJ-3]",
-      "count": 4
+      "count": 6
     },
     {
       "bioguide": "H001042",
       "name": "Sen. Hirono, Mazie K. [D-HI]",
+      "count": 5
+    },
+    {
+      "bioguide": "S000033",
+      "name": "Sen. Sanders, Bernard [I-VT]",
+      "count": 4
+    },
+    {
+      "bioguide": "M001176",
+      "name": "Sen. Merkley, Jeff [D-OR]",
+      "count": 4
+    },
+    {
+      "bioguide": "G000574",
+      "name": "Rep. Gallego, Ruben [D-AZ-7]",
       "count": 4
     },
     {
       "bioguide": "B001288",
       "name": "Sen. Booker, Cory A. [D-NJ]",
+      "count": 4
+    },
+    {
+      "bioguide": "W000779",
+      "name": "Sen. Wyden, Ron [D-OR]",
       "count": 3
     },
     {
-      "bioguide": "B001303",
-      "name": "Rep. Blunt Rochester, Lisa [D-DE-At Large]",
+      "bioguide": "V000128",
+      "name": "Sen. Van Hollen, Chris [D-MD]",
       "count": 3
-    },
-    {
-      "bioguide": "S001208",
-      "name": "Rep. Slotkin, Elissa [D-MI-8]",
-      "count": 3
-    },
-    {
-      "bioguide": "D000563",
-      "name": "Sen. Durbin, Richard J. [D-IL]",
-      "count": 3
-    },
-    {
-      "bioguide": "B001267",
-      "name": "Sen. Bennet, Michael F. [D-CO]",
-      "count": 2
-    },
-    {
-      "bioguide": "K000377",
-      "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2838",
+      "title": "Protecting Our Democracy Act",
+      "introducedDate": "2025-09-17",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2838?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "K000367",
+          "name": "Sen. Klobuchar, Amy [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "K000394",
+          "name": "Sen. Kim, Andy [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Sen. Alsobrooks, Angela D. [D-MD]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "S000033",
+          "name": "Sen. Sanders, Bernard [I-VT]",
+          "party": "I",
+          "state": "VT",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "H001042",
+          "name": "Sen. Hirono, Mazie K. [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-17",
+          "original": true
+        },
+        {
+          "bioguide": "M001176",
+          "name": "Sen. Merkley, Jeff [D-OR]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 9
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2731",
+      "title": "Empowering Striking Workers Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Labor and Employment",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2731?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "G000574",
+          "name": "Sen. Gallego, Ruben [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1102,7 +1229,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2569?format=json",
       "updateDate": null,
@@ -1207,7 +1334,7 @@
         "date": "2025-07-17",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2349?format=json",
       "updateDate": null,
@@ -1234,7 +1361,7 @@
         "date": "2025-07-09",
         "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2219?format=json",
       "updateDate": null,
@@ -1805,7 +1932,7 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 122,
+    "total_hr_sr": 123,
     "total_hr_sr_bipartisan": 14,
     "total_hr_sr_became_public_law": 0,
     "passed_rate_percentile_party": 19,

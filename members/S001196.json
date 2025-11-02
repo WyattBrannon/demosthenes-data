@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 2
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -99,6 +99,7 @@
       "dim2": 0.719
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -841,69 +842,304 @@
       "count": 18
     },
     {
-      "bioguide": "B001298",
-      "name": "Rep. Bacon, Don [R-NE-2]",
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
       "count": 17
     },
     {
-      "bioguide": "G000583",
-      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "bioguide": "B001298",
+      "name": "Rep. Bacon, Don [R-NE-2]",
       "count": 17
     }
   ],
   "cosponsors_top_latest": [
+    {
+      "bioguide": "D000530",
+      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "count": 2
+    },
+    {
+      "bioguide": "J000307",
+      "name": "Rep. James, John [R-MI-10]",
+      "count": 2
+    },
+    {
+      "bioguide": "M001236",
+      "name": "Rep. Moore, Tim [R-NC-14]",
+      "count": 2
+    },
+    {
+      "bioguide": "N000026",
+      "name": "Rep. Nehls, Troy E. [R-TX-22]",
+      "count": 2
+    },
     {
       "bioguide": "T000469",
       "name": "Rep. Tonko, Paul [D-NY-20]",
       "count": 2
     },
     {
-      "bioguide": "D000530",
-      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "bioguide": "C001087",
+      "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
       "count": 1
     },
     {
-      "bioguide": "K000399",
-      "name": "Rep. Kiggans, Jennifer A [R-VA-2]",
+      "bioguide": "T000463",
+      "name": "Rep. Turner, Michael R. [R-OH-10]",
       "count": 1
     },
     {
-      "bioguide": "T000478",
-      "name": "Rep. Tenney, Claudia [R-NY-22]",
+      "bioguide": "L000599",
+      "name": "Rep. Lawler, Michael [R-NY-17]",
       "count": 1
     },
     {
-      "bioguide": "H001098",
-      "name": "Rep. Hamadeh, Abraham J. [R-AZ-8]",
+      "bioguide": "M001240",
+      "name": "Rep. McDowell, Addison P. [R-NC-6]",
       "count": 1
     },
     {
-      "bioguide": "M001218",
-      "name": "Rep. McCormick, Richard [R-GA-6]",
-      "count": 1
-    },
-    {
-      "bioguide": "C001103",
-      "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
-      "count": 1
-    },
-    {
-      "bioguide": "B001295",
-      "name": "Rep. Bost, Mike [R-IL-12]",
-      "count": 1
-    },
-    {
-      "bioguide": "F000459",
-      "name": "Rep. Fleischmann, Charles J. \"Chuck\" [R-TN-3]",
-      "count": 1
-    },
-    {
-      "bioguide": "M001239",
-      "name": "Rep. McGuire, John J. [R-VA-5]",
+      "bioguide": "N000190",
+      "name": "Rep. Norman, Ralph [R-SC-5]",
       "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5760",
+      "title": "PASS Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the Committee on Financial Services, and in addition to the Committees on Foreign Affairs, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5760?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "C001087",
+          "name": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5759",
+      "title": "INFANT Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5759?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000463",
+          "name": "Rep. Turner, Michael R. [R-OH-10]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-14",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5659",
+      "title": "Consistent Egg Labels Act of 2025",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5659?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "D000530",
+          "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5411",
+      "title": "Sovereign Enforcement Integrity Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5411?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "L000599",
+          "name": "Rep. Lawler, Michael [R-NY-17]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-17",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5213",
+      "title": "Keep Violent Criminals Off Our Streets Act",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-08",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5213?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5214",
+      "title": "District of Columbia Cash Bail Reform Act of 2025",
+      "introducedDate": "2025-09-08",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Placed on the Union Calendar, Calendar No. 269."
+      },
+      "policy_area": "Crime and Law Enforcement",
+      "subjects": [
+        "Correctional facilities and imprisonment",
+        "Crimes against property",
+        "Criminal procedure and sentencing",
+        "District of Columbia",
+        "Violent crime"
+      ],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5214?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "J000307",
+          "name": "Rep. James, John [R-MI-10]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "M001236",
+          "name": "Rep. Moore, Tim [R-NC-14]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-08",
+          "original": true
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Rep. Nehls, Troy E. [R-TX-22]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 3
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5121",
+      "title": "Fairness in Higher Education Accreditation Act",
+      "introducedDate": "2025-09-03",
+      "latestAction": {
+        "date": "2025-09-03",
+        "text": "Referred to the House Committee on Education and Workforce."
+      },
+      "policy_area": "Education",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5121?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-03",
+          "original": true
+        },
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-03",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -914,7 +1150,7 @@
         "date": "2025-08-05",
         "text": "Referred to the Committee on Financial Services, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4901?format=json",
       "updateDate": null,
@@ -935,9 +1171,41 @@
           "state": "VA",
           "date": "2025-08-05",
           "original": true
+        },
+        {
+          "bioguide": "J000305",
+          "name": "Rep. Jacobs, Sara [D-CA-51]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000582",
+          "name": "Rep. Lieu, Ted [D-CA-36]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-04",
+          "original": false
+        },
+        {
+          "bioguide": "H001090",
+          "name": "Rep. Harder, Josh [D-CA-9]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -949,7 +1217,7 @@
         "date": "2025-07-22",
         "text": "Referred to the Committee on Financial Services, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4617?format=json",
       "updateDate": null,
@@ -967,7 +1235,7 @@
         "date": "2025-07-22",
         "text": "Referred to the House Committee on Financial Services."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4616?format=json",
       "updateDate": null,
@@ -1061,8 +1329,8 @@
       "title": "Ernest Peltz Accrued Veterans Benefits Act",
       "introducedDate": "2025-04-30",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Ordered to be Reported (Amended) by Voice Vote."
+        "date": "2025-10-08",
+        "text": "Placed on the Union Calendar, Calendar No. 291."
       },
       "policy_area": "Armed Forces and National Security",
       "subjects": [
@@ -1080,9 +1348,17 @@
           "state": "CA",
           "date": "2025-04-30",
           "original": true
+        },
+        {
+          "bioguide": "L000590",
+          "name": "Rep. Lee, Susie [D-NV-3]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1107,9 +1383,17 @@
           "state": "HI",
           "date": "2025-04-24",
           "original": true
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1167,8 +1451,8 @@
       "title": "To authorize, ratify, and confirm the Agreement of Settlement and Compromise to Resolve the Akwesasne Mohawk Land Claim in the State of New York, and for other purposes.",
       "introducedDate": "2025-04-14",
       "latestAction": {
-        "date": "2025-06-11",
-        "text": "Subcommittee Hearings Held"
+        "date": "2025-10-31",
+        "text": "Placed on the Union Calendar, Calendar No. 307."
       },
       "policy_area": "Native Americans",
       "subjects": [
@@ -1247,11 +1531,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 152,
-    "total_hr_sr_bipartisan": 69,
+    "total_hr_sr": 159,
+    "total_hr_sr_bipartisan": 70,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 49,
-    "bipartisan_rate_percentile_party": 59
+    "passed_rate_percentile_party": 48,
+    "bipartisan_rate_percentile_party": 57
   },
   "district": {
     "year": 2023,

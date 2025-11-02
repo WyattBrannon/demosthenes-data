@@ -125,7 +125,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 48
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -198,6 +198,7 @@
       "dim2": 0.379
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-03-14",
@@ -899,7 +900,7 @@
     {
       "bioguide": "C001095",
       "name": "Sen. Cotton, Tom [R-AR]",
-      "count": 31
+      "count": 32
     },
     {
       "bioguide": "T000464",
@@ -909,7 +910,17 @@
     {
       "bioguide": "C001035",
       "name": "Sen. Collins, Susan M. [R-ME]",
+      "count": 23
+    },
+    {
+      "bioguide": "H001079",
+      "name": "Sen. Hyde-Smith, Cindy [R-MS]",
       "count": 22
+    },
+    {
+      "bioguide": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
+      "count": 21
     },
     {
       "bioguide": "M001183",
@@ -917,89 +928,181 @@
       "count": 21
     },
     {
-      "bioguide": "B000944",
-      "name": "Sen. Brown, Sherrod [D-OH]",
-      "count": 20
-    },
-    {
-      "bioguide": "H001079",
-      "name": "Sen. Hyde-Smith, Cindy [R-MS]",
-      "count": 20
-    },
-    {
-      "bioguide": "W000437",
-      "name": "Sen. Wicker, Roger F. [R-MS]",
+      "bioguide": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
       "count": 20
     },
     {
       "bioguide": "D000563",
       "name": "Sen. Durbin, Richard J. [D-IL]",
-      "count": 19
+      "count": 20
     },
     {
-      "bioguide": "C001096",
-      "name": "Sen. Cramer, Kevin [R-ND]",
-      "count": 19
+      "bioguide": "F000463",
+      "name": "Sen. Fischer, Deb [R-NE]",
+      "count": 20
     },
     {
-      "bioguide": "B001310",
-      "name": "Sen. Braun, Mike [R-IN]",
-      "count": 19
+      "bioguide": "M000934",
+      "name": "Sen. Moran, Jerry [R-KS]",
+      "count": 20
     }
   ],
   "cosponsors_top_latest": [
     {
-      "bioguide": "W000790",
-      "name": "Sen. Warnock, Raphael G. [D-GA]",
-      "count": 2
-    },
-    {
-      "bioguide": "K000367",
-      "name": "Sen. Klobuchar, Amy [D-MN]",
-      "count": 2
+      "bioguide": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
+      "count": 4
     },
     {
       "bioguide": "K000377",
       "name": "Sen. Kelly, Mark [D-AZ]",
+      "count": 3
+    },
+    {
+      "bioguide": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
+      "count": 3
+    },
+    {
+      "bioguide": "W000790",
+      "name": "Sen. Warnock, Raphael G. [D-GA]",
+      "count": 3
+    },
+    {
+      "bioguide": "H001079",
+      "name": "Sen. Hyde-Smith, Cindy [R-MS]",
       "count": 2
-    },
-    {
-      "bioguide": "B001288",
-      "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 2
-    },
-    {
-      "bioguide": "H001076",
-      "name": "Sen. Hassan, Margaret Wood [D-NH]",
-      "count": 1
-    },
-    {
-      "bioguide": "C001056",
-      "name": "Sen. Cornyn, John [R-TX]",
-      "count": 1
     },
     {
       "bioguide": "C001035",
       "name": "Sen. Collins, Susan M. [R-ME]",
-      "count": 1
+      "count": 2
     },
     {
-      "bioguide": "S000148",
-      "name": "Sen. Schumer, Charles E. [D-NY]",
-      "count": 1
+      "bioguide": "C001095",
+      "name": "Sen. Cotton, Tom [R-AR]",
+      "count": 2
     },
     {
-      "bioguide": "G000555",
-      "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
-      "count": 1
+      "bioguide": "C001096",
+      "name": "Sen. Cramer, Kevin [R-ND]",
+      "count": 2
     },
     {
-      "bioguide": "R000608",
-      "name": "Sen. Rosen, Jacky [D-NV]",
-      "count": 1
+      "bioguide": "D000618",
+      "name": "Sen. Daines, Steve [R-MT]",
+      "count": 2
+    },
+    {
+      "bioguide": "D000563",
+      "name": "Sen. Durbin, Richard J. [D-IL]",
+      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3015",
+      "title": "AWRC Act of 2025",
+      "introducedDate": "2025-10-16",
+      "latestAction": {
+        "date": "2025-10-16",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3015?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-10-16",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-16",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-16",
+          "original": true
+        },
+        {
+          "bioguide": "C001113",
+          "name": "Sen. Cortez Masto, Catherine [D-NV]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-10-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2896",
+      "title": "STARS Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2896?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "D000618",
+          "name": "Sen. Daines, Steve [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "H000273",
+          "name": "Sen. Hickenlooper, John W. [D-CO]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 4
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1031,9 +1134,41 @@
           "state": "TX",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "M001198",
+          "name": "Sen. Marshall, Roger [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000618",
+          "name": "Sen. Ricketts, Pete [R-NE]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001232",
+          "name": "Sen. Sheehy, Tim [R-MT]",
+          "party": "R",
+          "state": "MT",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001095",
+          "name": "Sen. Cotton, Tom [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
@@ -1045,7 +1180,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2439?format=json",
       "updateDate": null,
@@ -1154,9 +1289,17 @@
           "state": "NJ",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "T000278",
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 13
+      "cosponsors_total": 14
     },
     {
       "congress": 119,
@@ -1216,8 +1359,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/1371?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "M000355",
+          "name": "Sen. McConnell, Mitch [R-KY]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-09",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1294,8 +1446,8 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 87,
-    "total_hr_sr_bipartisan": 62,
+    "total_hr_sr": 89,
+    "total_hr_sr_bipartisan": 64,
     "total_hr_sr_became_public_law": 5,
     "passed_rate_percentile_party": 92,
     "bipartisan_rate_percentile_party": 93

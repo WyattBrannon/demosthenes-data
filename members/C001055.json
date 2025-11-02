@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 71
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,6 +95,7 @@
       "dim2": -0.455
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-26",
@@ -803,12 +804,12 @@
     {
       "bioguide": "M001219",
       "name": "Del. Moylan, James C. [R-GU-At Large]",
-      "count": 20
+      "count": 21
     },
     {
       "bioguide": "T000487",
       "name": "Rep. Tokuda, Jill N. [D-HI-2]",
-      "count": 20
+      "count": 21
     },
     {
       "bioguide": "F000466",
@@ -833,7 +834,7 @@
     {
       "bioguide": "T000468",
       "name": "Rep. Titus, Dina [D-NV-1]",
-      "count": 14
+      "count": 15
     },
     {
       "bioguide": "S001177",
@@ -846,8 +847,8 @@
       "count": 12
     },
     {
-      "bioguide": "G000551",
-      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-7]",
+      "bioguide": "V000130",
+      "name": "Rep. Vargas, Juan [D-CA-51]",
       "count": 11
     }
   ],
@@ -855,12 +856,17 @@
     {
       "bioguide": "M001219",
       "name": "Del. Moylan, James C. [R-GU-At Large]",
-      "count": 9
+      "count": 10
     },
     {
       "bioguide": "T000487",
       "name": "Rep. Tokuda, Jill N. [D-HI-2]",
-      "count": 7
+      "count": 8
+    },
+    {
+      "bioguide": "K000404",
+      "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+      "count": 4
     },
     {
       "bioguide": "R000600",
@@ -873,9 +879,19 @@
       "count": 4
     },
     {
+      "bioguide": "N000193",
+      "name": "Rep. Nunn, Zachary [R-IA-3]",
+      "count": 4
+    },
+    {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
       "count": 4
+    },
+    {
+      "bioguide": "T000468",
+      "name": "Rep. Titus, Dina [D-NV-1]",
+      "count": 3
     },
     {
       "bioguide": "H001068",
@@ -883,24 +899,9 @@
       "count": 3
     },
     {
-      "bioguide": "K000404",
-      "name": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
-      "count": 3
-    },
-    {
       "bioguide": "T000481",
       "name": "Rep. Tlaib, Rashida [D-MI-12]",
       "count": 3
-    },
-    {
-      "bioguide": "T000486",
-      "name": "Rep. Torres, Ritchie [D-NY-15]",
-      "count": 3
-    },
-    {
-      "bioguide": "W000809",
-      "name": "Rep. Womack, Steve [R-AR-3]",
-      "count": 2
     }
   ],
   "bills": [
@@ -911,10 +912,10 @@
       "title": "Merchant Marine Allies Partnership Act",
       "introducedDate": "2025-08-01",
       "latestAction": {
-        "date": "2025-08-01",
-        "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-08-02",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Foreign Trade and International Finance",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4839?format=json",
       "updateDate": null,
@@ -1202,9 +1203,17 @@
           "state": "MO",
           "date": "2025-07-17",
           "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 23
+      "cosponsors_total": 24
     },
     {
       "congress": 119,
@@ -1269,9 +1278,25 @@
           "state": "NY",
           "date": "2025-07-10",
           "original": false
+        },
+        {
+          "bioguide": "C001072",
+          "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
+          "party": "D",
+          "state": "IN",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "N000193",
+          "name": "Rep. Nunn, Zachary [R-IA-3]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -1473,9 +1498,17 @@
           "state": "IN",
           "date": "2025-07-10",
           "original": false
+        },
+        {
+          "bioguide": "S000250",
+          "name": "Rep. Sessions, Pete [R-TX-17]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-23",
+          "original": false
         }
       ],
-      "cosponsors_total": 12
+      "cosponsors_total": 13
     },
     {
       "congress": 119,
@@ -2012,7 +2045,7 @@
     "total_hr_sr": 111,
     "total_hr_sr_bipartisan": 47,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 68,
+    "passed_rate_percentile_party": 67,
     "bipartisan_rate_percentile_party": 56
   },
   "district": {

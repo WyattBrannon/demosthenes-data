@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 35
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -106,6 +106,7 @@
       "dim2": -0.042
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-26",
@@ -916,7 +917,12 @@
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 27
+      "count": 28
+    },
+    {
+      "bioguide": "M001188",
+      "name": "Rep. Meng, Grace [D-NY-6]",
+      "count": 24
     },
     {
       "bioguide": "F000466",
@@ -924,9 +930,9 @@
       "count": 23
     },
     {
-      "bioguide": "M001188",
-      "name": "Rep. Meng, Grace [D-NY-6]",
-      "count": 22
+      "bioguide": "T000469",
+      "name": "Rep. Tonko, Paul [D-NY-20]",
+      "count": 16
     },
     {
       "bioguide": "S001201",
@@ -934,34 +940,29 @@
       "count": 16
     },
     {
-      "bioguide": "T000469",
-      "name": "Rep. Tonko, Paul [D-NY-20]",
-      "count": 15
-    },
-    {
       "bioguide": "E000297",
       "name": "Rep. Espaillat, Adriano [D-NY-13]",
-      "count": 14
+      "count": 15
     },
     {
       "bioguide": "C001072",
       "name": "Rep. Carson, Andre [D-IN-7]",
+      "count": 15
+    },
+    {
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
       "count": 14
     },
     {
       "bioguide": "S001145",
       "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
-      "count": 13
+      "count": 14
     },
     {
       "bioguide": "D000624",
       "name": "Rep. Dingell, Debbie [D-MI-12]",
-      "count": 12
-    },
-    {
-      "bioguide": "C001068",
-      "name": "Rep. Cohen, Steve [D-TN-9]",
-      "count": 12
+      "count": 13
     }
   ],
   "cosponsors_top_latest": [
@@ -976,6 +977,11 @@
       "count": 4
     },
     {
+      "bioguide": "M001188",
+      "name": "Rep. Meng, Grace [D-NY-6]",
+      "count": 4
+    },
+    {
       "bioguide": "L000599",
       "name": "Rep. Lawler, Michael [R-NY-17]",
       "count": 4
@@ -986,37 +992,75 @@
       "count": 4
     },
     {
-      "bioguide": "T000478",
-      "name": "Rep. Tenney, Claudia [R-NY-22]",
-      "count": 3
-    },
-    {
-      "bioguide": "N000147",
-      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 3
-    },
-    {
-      "bioguide": "T000469",
-      "name": "Rep. Tonko, Paul [D-NY-20]",
-      "count": 3
+      "bioguide": "C001068",
+      "name": "Rep. Cohen, Steve [D-TN-9]",
+      "count": 4
     },
     {
       "bioguide": "K000402",
       "name": "Rep. Kennedy, Timothy M. [D-NY-26]",
+      "count": 4
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "count": 4
+    },
+    {
+      "bioguide": "T000469",
+      "name": "Rep. Tonko, Paul [D-NY-20]",
+      "count": 4
+    },
+    {
+      "bioguide": "S001185",
+      "name": "Rep. Sewell, Terri A. [D-AL-7]",
       "count": 3
-    },
-    {
-      "bioguide": "K000376",
-      "name": "Rep. Kelly, Mike [R-PA-16]",
-      "count": 2
-    },
-    {
-      "bioguide": "R000579",
-      "name": "Rep. Ryan, Patrick [D-NY-18]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5407",
+      "title": "Climate Resilient Elections Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on House Administration."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5407?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "T000474",
+          "name": "Rep. Torres, Norma J. [D-CA-35]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-16",
+          "original": true
+        },
+        {
+          "bioguide": "J000310",
+          "name": "Rep. Johnson, Julie [D-TX-32]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -1027,7 +1071,7 @@
         "date": "2025-07-23",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4708?format=json",
       "updateDate": null,
@@ -1288,9 +1332,57 @@
           "state": "NJ",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "S001230",
+          "name": "Rep. Subramanyam, Suhas [D-VA-10]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-08",
+          "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000597",
+          "name": "Rep. Garbarino, Andrew R. [R-NY-2]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "A000380",
+          "name": "Rep. Amo, Gabe [D-RI-1]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 32
+      "cosponsors_total": 38
     },
     {
       "congress": 119,
@@ -1664,9 +1756,65 @@
           "state": "NY",
           "date": "2025-07-23",
           "original": false
+        },
+        {
+          "bioguide": "D000399",
+          "name": "Rep. Doggett, Lloyd [D-TX-37]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Rep. Meng, Grace [D-NY-6]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 38
+      "cosponsors_total": 45
     },
     {
       "congress": 119,
@@ -1734,9 +1882,25 @@
           "state": "IN",
           "date": "2025-07-07",
           "original": false
+        },
+        {
+          "bioguide": "M000317",
+          "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-10-14",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -2230,9 +2394,17 @@
           "state": "NY",
           "date": "2025-03-03",
           "original": false
+        },
+        {
+          "bioguide": "S001196",
+          "name": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "party": "R",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 23
+      "cosponsors_total": 24
     },
     {
       "congress": 119,
@@ -2266,11 +2438,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 81,
+    "total_hr_sr": 82,
     "total_hr_sr_bipartisan": 44,
     "total_hr_sr_became_public_law": 1,
     "passed_rate_percentile_party": 57,
-    "bipartisan_rate_percentile_party": 74
+    "bipartisan_rate_percentile_party": 73
   },
   "district": {
     "year": 2023,

@@ -93,7 +93,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 43
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -211,6 +211,7 @@
       "dim2": -0.383
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-02",
@@ -1240,32 +1241,27 @@
     {
       "bioguide": "D000622",
       "name": "Sen. Duckworth, Tammy [D-IL]",
-      "count": 43
+      "count": 40
     },
     {
       "bioguide": "W000800",
       "name": "Sen. Welch, Peter [D-VT]",
-      "count": 36
+      "count": 34
     },
     {
       "bioguide": "B001288",
       "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 31
+      "count": 30
     },
     {
       "bioguide": "H001042",
       "name": "Sen. Hirono, Mazie K. [D-HI]",
-      "count": 29
+      "count": 28
     },
     {
       "bioguide": "K000367",
       "name": "Sen. Klobuchar, Amy [D-MN]",
-      "count": 29
-    },
-    {
-      "bioguide": "M001176",
-      "name": "Sen. Merkley, Jeff [D-OR]",
-      "count": 28
+      "count": 27
     },
     {
       "bioguide": "W000779",
@@ -1273,45 +1269,60 @@
       "count": 26
     },
     {
+      "bioguide": "M001176",
+      "name": "Sen. Merkley, Jeff [D-OR]",
+      "count": 25
+    },
+    {
       "bioguide": "P000145",
       "name": "Sen. Padilla, Alex [D-CA]",
-      "count": 25
+      "count": 24
     },
     {
       "bioguide": "R000122",
       "name": "Sen. Reed, Jack [D-RI]",
-      "count": 23
+      "count": 22
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "B001277",
       "name": "Sen. Blumenthal, Richard [D-CT]",
-      "count": 22
+      "count": 24
     },
     {
       "bioguide": "D000622",
       "name": "Sen. Duckworth, Tammy [D-IL]",
-      "count": 18
+      "count": 19
     },
     {
       "bioguide": "W000800",
       "name": "Sen. Welch, Peter [D-VT]",
-      "count": 17
+      "count": 18
     },
     {
       "bioguide": "B001288",
       "name": "Sen. Booker, Cory A. [D-NJ]",
-      "count": 15
-    },
-    {
-      "bioguide": "S001150",
-      "name": "Sen. Schiff, Adam B. [D-CA]",
-      "count": 13
+      "count": 16
     },
     {
       "bioguide": "P000145",
       "name": "Sen. Padilla, Alex [D-CA]",
+      "count": 14
+    },
+    {
+      "bioguide": "S001150",
+      "name": "Sen. Schiff, Adam B. [D-CA]",
+      "count": 14
+    },
+    {
+      "bioguide": "K000367",
+      "name": "Sen. Klobuchar, Amy [D-MN]",
+      "count": 13
+    },
+    {
+      "bioguide": "C001088",
+      "name": "Sen. Coons, Christopher A. [D-DE]",
       "count": 13
     },
     {
@@ -1320,22 +1331,235 @@
       "count": 13
     },
     {
-      "bioguide": "C001088",
-      "name": "Sen. Coons, Christopher A. [D-DE]",
-      "count": 12
-    },
-    {
-      "bioguide": "K000367",
-      "name": "Sen. Klobuchar, Amy [D-MN]",
-      "count": 12
-    },
-    {
-      "bioguide": "W000779",
-      "name": "Sen. Wyden, Ron [D-OR]",
+      "bioguide": "S001181",
+      "name": "Sen. Shaheen, Jeanne [D-NH]",
       "count": 11
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2937",
+      "title": "AI LEAD Act",
+      "introducedDate": "2025-09-29",
+      "latestAction": {
+        "date": "2025-09-29",
+        "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S6836-6838)"
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2937?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001089",
+          "name": "Sen. Hawley, Josh [R-MO]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2915",
+      "title": "SPUR Housing Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (text: CR S6792-6793)"
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2915?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2889",
+      "title": "Protecting Student Athletes from Concussions Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S6734)"
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2889?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2781",
+      "title": "Protecting Consumers from Unreasonable Credit Rates Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-11",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (text: CR S6577)"
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2781?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001277",
+          "name": "Sen. Blumenthal, Richard [D-CT]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sen. Whitehouse, Sheldon [D-RI]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-11",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 2
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2759",
+      "title": "Healthcare Workforce Resilience Act",
+      "introducedDate": "2025-09-10",
+      "latestAction": {
+        "date": "2025-09-10",
+        "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S6539: 2)"
+      },
+      "policy_area": "Immigration",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2759?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "W000800",
+          "name": "Sen. Welch, Peter [D-VT]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "C001035",
+          "name": "Sen. Collins, Susan M. [R-ME]",
+          "party": "R",
+          "state": "ME",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "M001198",
+          "name": "Sen. Marshall, Roger [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Sen. Kelly, Mark [D-AZ]",
+          "party": "D",
+          "state": "AZ",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Sen. Young, Todd [R-IN]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-09-10",
+          "original": true
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Sen. Booker, Cory A. [D-NJ]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-03",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2712",
+      "title": "America's Clean Future Fund Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Finance. (text: CR S6321-6329)"
+      },
+      "policy_area": "Taxation",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2712?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1346,7 +1570,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S5000: 1)"
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2620?format=json",
       "updateDate": null,
@@ -1370,16 +1594,25 @@
       "title": "Shawnee National Forest Conservation Act of 2025",
       "introducedDate": "2025-07-30",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry. (text: CR S4907-4908: 3)"
+        "date": "2025-10-27",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 217."
       },
-      "policy_area": null,
+      "policy_area": "Public Lands and Natural Resources",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2548?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "D000622",
+          "name": "Sen. Duckworth, Tammy [D-IL]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1438,9 +1671,9 @@
       "introducedDate": "2025-07-29",
       "latestAction": {
         "date": "2025-07-29",
-        "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S4821-4828: 2)"
+        "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S4821)"
       },
-      "policy_area": null,
+      "policy_area": "Government Operations and Politics",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2523?format=json",
       "updateDate": null,
@@ -1827,7 +2060,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S4776: 3)"
       },
-      "policy_area": null,
+      "policy_area": "Education",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2485?format=json",
       "updateDate": null,
@@ -1878,7 +2111,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2457?format=json",
       "updateDate": null,
@@ -1894,9 +2127,9 @@
       "introducedDate": "2025-07-22",
       "latestAction": {
         "date": "2025-07-22",
-        "text": "Read twice and referred to the Committee on Finance. (text: CR S4529-4531: 2)"
+        "text": "Read twice and referred to the Committee on Finance. (text: CR S4529)"
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2374?format=json",
       "updateDate": null,
@@ -2360,9 +2593,17 @@
           "state": "VT",
           "date": "2025-06-23",
           "original": false
+        },
+        {
+          "bioguide": "M000133",
+          "name": "Sen. Markey, Edward J. [D-MA]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -3494,9 +3735,17 @@
           "state": "VT",
           "date": "2025-02-25",
           "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 3
+      "cosponsors_total": 4
     },
     {
       "congress": 119,
@@ -3896,9 +4145,17 @@
           "state": "MS",
           "date": "2025-05-08",
           "original": false
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Sen. Schiff, Adam B. [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-27",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -4432,10 +4689,10 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 128,
-    "total_hr_sr_bipartisan": 49,
+    "total_hr_sr": 124,
+    "total_hr_sr_bipartisan": 48,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 61,
+    "passed_rate_percentile_party": 62,
     "bipartisan_rate_percentile_party": 50
   },
   "district": {

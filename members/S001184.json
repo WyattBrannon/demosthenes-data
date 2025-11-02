@@ -109,7 +109,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 44
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -157,6 +157,7 @@
       "dim2": 0.378
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-03-14",
@@ -812,51 +813,51 @@
     {
       "bioguide": "C001096",
       "name": "Sen. Cramer, Kevin [R-ND]",
-      "count": 53
+      "count": 56
     },
     {
       "bioguide": "L000575",
       "name": "Sen. Lankford, James [R-OK]",
-      "count": 45
-    },
-    {
-      "bioguide": "B001243",
-      "name": "Sen. Blackburn, Marsha [R-TN]",
-      "count": 44
+      "count": 48
     },
     {
       "bioguide": "H001079",
       "name": "Sen. Hyde-Smith, Cindy [R-MS]",
-      "count": 42
+      "count": 46
+    },
+    {
+      "bioguide": "B001243",
+      "name": "Sen. Blackburn, Marsha [R-TN]",
+      "count": 46
     },
     {
       "bioguide": "T000476",
       "name": "Sen. Tillis, Thomas [R-NC]",
-      "count": 42
+      "count": 45
     },
     {
       "bioguide": "S001217",
       "name": "Sen. Scott, Rick [R-FL]",
-      "count": 38
-    },
-    {
-      "bioguide": "C001056",
-      "name": "Sen. Cornyn, John [R-TX]",
-      "count": 38
+      "count": 40
     },
     {
       "bioguide": "C001075",
       "name": "Sen. Cassidy, Bill [R-LA]",
-      "count": 38
+      "count": 40
     },
     {
       "bioguide": "H000601",
       "name": "Sen. Hagerty, Bill [R-TN]",
-      "count": 38
+      "count": 39
     },
     {
       "bioguide": "R000595",
       "name": "Sen. Rubio, Marco [R-FL]",
+      "count": 39
+    },
+    {
+      "bioguide": "C000880",
+      "name": "Sen. Crapo, Mike [R-ID]",
       "count": 38
     }
   ],
@@ -864,7 +865,17 @@
     {
       "bioguide": "C001096",
       "name": "Sen. Cramer, Kevin [R-ND]",
-      "count": 12
+      "count": 14
+    },
+    {
+      "bioguide": "B001319",
+      "name": "Sen. Britt, Katie Boyd [R-AL]",
+      "count": 11
+    },
+    {
+      "bioguide": "T000476",
+      "name": "Sen. Tillis, Thomas [R-NC]",
+      "count": 11
     },
     {
       "bioguide": "M001242",
@@ -872,13 +883,18 @@
       "count": 11
     },
     {
-      "bioguide": "B001319",
-      "name": "Sen. Britt, Katie Boyd [R-AL]",
+      "bioguide": "C000880",
+      "name": "Sen. Crapo, Mike [R-ID]",
       "count": 10
     },
     {
-      "bioguide": "C000880",
-      "name": "Sen. Crapo, Mike [R-ID]",
+      "bioguide": "L000575",
+      "name": "Sen. Lankford, James [R-OK]",
+      "count": 9
+    },
+    {
+      "bioguide": "C001075",
+      "name": "Sen. Cassidy, Bill [R-LA]",
       "count": 9
     },
     {
@@ -887,32 +903,349 @@
       "count": 9
     },
     {
-      "bioguide": "T000476",
-      "name": "Sen. Tillis, Thomas [R-NC]",
-      "count": 9
-    },
-    {
       "bioguide": "R000618",
       "name": "Sen. Ricketts, Pete [R-NE]",
       "count": 8
     },
     {
-      "bioguide": "C001075",
-      "name": "Sen. Cassidy, Bill [R-LA]",
-      "count": 8
-    },
-    {
-      "bioguide": "L000575",
-      "name": "Sen. Lankford, James [R-OK]",
-      "count": 7
-    },
-    {
       "bioguide": "R000605",
       "name": "Sen. Rounds, Mike [R-SD]",
-      "count": 7
+      "count": 8
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3073",
+      "title": "Pay Our Capitol Police Act",
+      "introducedDate": "2025-10-29",
+      "latestAction": {
+        "date": "2025-10-29",
+        "text": "Read twice and referred to the Committee on Appropriations."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3073?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "G000359",
+          "name": "Sen. Graham, Lindsey [R-SC]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "S001198",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "L000575",
+          "name": "Sen. Lankford, James [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "M000934",
+          "name": "Sen. Moran, Jerry [R-KS]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-29",
+          "original": true
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-10-29",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2984",
+      "title": "Employee Rights Act",
+      "introducedDate": "2025-10-08",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2984?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000278",
+          "name": "Sen. Tuberville, Tommy [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "C000880",
+          "name": "Sen. Crapo, Mike [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "R000584",
+          "name": "Sen. Risch, James E. [R-ID]",
+          "party": "R",
+          "state": "ID",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "H001061",
+          "name": "Sen. Hoeven, John [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001319",
+          "name": "Sen. Britt, Katie Boyd [R-AL]",
+          "party": "R",
+          "state": "AL",
+          "date": "2025-10-08",
+          "original": true
+        },
+        {
+          "bioguide": "B001236",
+          "name": "Sen. Boozman, John [R-AR]",
+          "party": "R",
+          "state": "AR",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "M001190",
+          "name": "Sen. Mullin, Markwayne [R-OK]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-21",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 10
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2814",
+      "title": "Transit Crime Reporting Act of 2025",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2814?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-16",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2709",
+      "title": "Telehealth Modernization Act",
+      "introducedDate": "2025-09-04",
+      "latestAction": {
+        "date": "2025-09-04",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "policy_area": "Health",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2709?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "S001194",
+          "name": "Sen. Schatz, Brian [D-HI]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "H001079",
+          "name": "Sen. Hyde-Smith, Cindy [R-MS]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "G000555",
+          "name": "Sen. Gillibrand, Kirsten E. [D-NY]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "T000476",
+          "name": "Sen. Tillis, Thomas [R-NC]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "K000383",
+          "name": "Sen. King, Angus S., Jr. [I-ME]",
+          "party": "I",
+          "state": "ME",
+          "date": "2025-09-04",
+          "original": true
+        },
+        {
+          "bioguide": "S001198",
+          "name": "Sen. Sullivan, Dan [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "S001203",
+          "name": "Sen. Smith, Tina [D-MN]",
+          "party": "D",
+          "state": "MN",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001088",
+          "name": "Sen. Coons, Christopher A. [D-DE]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "W000790",
+          "name": "Sen. Warnock, Raphael G. [D-GA]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 11
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -923,8 +1256,41 @@
         "date": "2025-08-01",
         "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 143."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Housing and Community Development",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Advanced technology and technological innovations",
+        "Advisory bodies",
+        "Building construction",
+        "Computers and information technology",
+        "Congressional oversight",
+        "Consumer credit",
+        "Cooperative and condominium housing",
+        "Department of Housing and Urban Development",
+        "Disaster relief and insurance",
+        "Executive agency funding and structure",
+        "Federal Housing Finance Agency",
+        "Government information and archives",
+        "Government lending and loan guarantees",
+        "Government studies and investigations",
+        "Health care costs and insurance",
+        "Health care coverage and access",
+        "Homelessness and emergency shelter",
+        "Housing and community development funding",
+        "Housing finance and home ownership",
+        "Housing industry and standards",
+        "Housing supply and affordability",
+        "Intergovernmental relations",
+        "Landlord and tenant",
+        "Licensing and registrations",
+        "Low- and moderate-income housing",
+        "Performance measurement",
+        "Public housing",
+        "Regional and metropolitan planning",
+        "Residential rehabilitation and home repair",
+        "Rural conditions and development",
+        "Veterans' loans, housing, homeless programs"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2651?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1310,9 +1676,17 @@
           "state": "AK",
           "date": "2025-07-28",
           "original": false
+        },
+        {
+          "bioguide": "R000605",
+          "name": "Sen. Rounds, Mike [R-SD]",
+          "party": "R",
+          "state": "SD",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 45
+      "cosponsors_total": 46
     },
     {
       "congress": 119,
@@ -1325,7 +1699,12 @@
         "text": "Read twice and referred to the Committee on Finance."
       },
       "policy_area": "Health",
-      "subjects": [],
+      "subjects": [
+        "Congressional oversight",
+        "Government studies and investigations",
+        "Hospital care",
+        "Medicare"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2237?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1399,7 +1778,7 @@
         "date": "2025-07-23",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2419?format=json",
       "updateDate": null,
@@ -1458,7 +1837,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Small Business and Entrepreneurship."
       },
-      "policy_area": null,
+      "policy_area": "Commerce",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2486?format=json",
       "updateDate": null,
@@ -1541,7 +1920,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2464?format=json",
       "updateDate": null,
@@ -1680,11 +2059,15 @@
       "title": "Improving Care in Rural America Reauthorization Act of 2025",
       "introducedDate": "2025-07-16",
       "latestAction": {
-        "date": "2025-07-30",
-        "text": "Committee on Health, Education, Labor, and Pensions. Ordered to be reported without amendment favorably."
+        "date": "2025-09-08",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 153."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Health",
+      "subjects": [
+        "Health care coverage and access",
+        "Health programs administration and funding",
+        "Rural conditions and development"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2301?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1742,24 +2125,6 @@
         }
       ],
       "cosponsors_total": 1
-    },
-    {
-      "congress": 119,
-      "billType": "s",
-      "number": "2118",
-      "title": "Value Over Cost Act of 2025",
-      "introducedDate": "2025-06-18",
-      "latestAction": {
-        "date": "2025-06-18",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "policy_area": null,
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2118?format=json",
-      "updateDate": null,
-      "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -1867,6 +2232,24 @@
         }
       ],
       "cosponsors_total": 11
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2118",
+      "title": "Value Over Cost Act of 2025",
+      "introducedDate": "2025-06-18",
+      "latestAction": {
+        "date": "2025-06-18",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "policy_area": "Government Operations and Politics",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2118?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
     },
     {
       "congress": 119,
@@ -2100,9 +2483,17 @@
           "state": "DE",
           "date": "2025-05-14",
           "original": true
+        },
+        {
+          "bioguide": "C001114",
+          "name": "Sen. Curtis, John R. [R-UT]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-08",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -2979,11 +3370,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 125,
-    "total_hr_sr_bipartisan": 61,
+    "total_hr_sr": 129,
+    "total_hr_sr_bipartisan": 62,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 53,
-    "bipartisan_rate_percentile_party": 68
+    "passed_rate_percentile_party": 52,
+    "bipartisan_rate_percentile_party": 66
   },
   "district": {
     "year": 2023,

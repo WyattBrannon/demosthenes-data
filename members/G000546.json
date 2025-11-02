@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 17
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -130,6 +130,7 @@
       "dim2": 0.402
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-18",
@@ -905,16 +906,16 @@
     {
       "bioguide": "L000560",
       "name": "Rep. Larsen, Rick [D-WA-2]",
-      "count": 20
+      "count": 21
+    },
+    {
+      "bioguide": "G000558",
+      "name": "Rep. Guthrie, Brett [R-KY-2]",
+      "count": 19
     },
     {
       "bioguide": "W000804",
       "name": "Rep. Wittman, Robert J. [R-VA-1]",
-      "count": 19
-    },
-    {
-      "bioguide": "M000312",
-      "name": "Rep. McGovern, James P. [D-MA-3]",
       "count": 19
     }
   ],
@@ -922,21 +923,31 @@
     {
       "bioguide": "L000560",
       "name": "Rep. Larsen, Rick [D-WA-2]",
+      "count": 4
+    },
+    {
+      "bioguide": "W000806",
+      "name": "Rep. Webster, Daniel [R-FL-10]",
       "count": 3
     },
     {
       "bioguide": "A000379",
       "name": "Rep. Alford, Mark [R-MO-4]",
-      "count": 2
+      "count": 3
     },
     {
-      "bioguide": "W000806",
-      "name": "Rep. Webster, Daniel [R-FL-10]",
-      "count": 2
+      "bioguide": "M000871",
+      "name": "Rep. Mann, Tracey [R-KS-1]",
+      "count": 3
     },
     {
       "bioguide": "E000235",
       "name": "Rep. Ezell, Mike [R-MS-4]",
+      "count": 2
+    },
+    {
+      "bioguide": "B001301",
+      "name": "Rep. Bergman, Jack [R-MI-1]",
       "count": 2
     },
     {
@@ -945,32 +956,73 @@
       "count": 2
     },
     {
-      "bioguide": "M000871",
-      "name": "Rep. Mann, Tracey [R-KS-1]",
+      "bioguide": "S001228",
+      "name": "Rep. Schmidt, Derek [R-KS-2]",
       "count": 2
     },
     {
-      "bioguide": "F000450",
-      "name": "Rep. Foxx, Virginia [R-NC-5]",
+      "bioguide": "T000468",
+      "name": "Rep. Titus, Dina [D-NV-3]",
       "count": 1
     },
     {
-      "bioguide": "W000812",
-      "name": "Rep. Wagner, Ann [R-MO-2]",
-      "count": 1
-    },
-    {
-      "bioguide": "H001096",
-      "name": "Rep. Hageman, Harriet M. [R-WY-At Large]",
-      "count": 1
-    },
-    {
-      "bioguide": "O000177",
-      "name": "Rep. Onder, Robert F. [R-MO-3]",
+      "bioguide": "V000133",
+      "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
       "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5301",
+      "title": "PIPES Act of 2025",
+      "introducedDate": "2025-09-11",
+      "latestAction": {
+        "date": "2025-09-17",
+        "text": "Ordered to be Reported (Amended) by Voice Vote."
+      },
+      "policy_area": "Transportation and Public Works",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5301?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "L000560",
+          "name": "Rep. Larsen, Rick [D-WA-2]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "W000806",
+          "name": "Rep. Webster, Daniel [R-FL-11]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-11",
+          "original": true
+        },
+        {
+          "bioguide": "V000133",
+          "name": "Rep. Van Drew, Jefferson [R-NJ-2]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-16",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 4
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -981,7 +1033,7 @@
         "date": "2025-08-08",
         "text": "Referred to the House Committee on Natural Resources."
       },
-      "policy_area": null,
+      "policy_area": "Transportation and Public Works",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4924?format=json",
       "updateDate": null,
@@ -1026,22 +1078,49 @@
           "state": "MO",
           "date": "2025-08-08",
           "original": true
+        },
+        {
+          "bioguide": "M001240",
+          "name": "Rep. McDowell, Addison P. [R-NC-6]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 5
+      "cosponsors_total": 6
     },
     {
       "congress": 119,
       "billType": "hr",
       "number": "4669",
-      "title": "To authorize and improve the Federal Emergency Management Agency and reform Federal disaster mitigation, preparedness, response, and recovery, and for other purposes.",
+      "title": "FEMA Act of 2025",
       "introducedDate": "2025-07-23",
       "latestAction": {
-        "date": "2025-07-23",
-        "text": "Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+        "date": "2025-09-03",
+        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 3."
       },
-      "policy_area": null,
-      "subjects": [],
+      "policy_area": "Emergency Management",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Census and government statistics",
+        "Computers and information technology",
+        "Congressional oversight",
+        "Disaster relief and insurance",
+        "Emergency communications systems",
+        "Emergency medical services and trauma care",
+        "Emergency planning and evacuation",
+        "Executive agency funding and structure",
+        "Government information and archives",
+        "Government studies and investigations",
+        "Homelessness and emergency shelter",
+        "Intergovernmental relations",
+        "Internet, web applications, social media",
+        "Natural disasters",
+        "Residential rehabilitation and home repair",
+        "State and local finance",
+        "State and local government operations"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4669?format=json",
       "updateDate": null,
       "bipartisan": true,
@@ -1117,9 +1196,193 @@
           "state": "CA",
           "date": "2025-08-12",
           "original": false
+        },
+        {
+          "bioguide": "C001103",
+          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+          "party": "R",
+          "state": "GA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "F000484",
+          "name": "Rep. Fine, Randy [R-FL-6]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "C001053",
+          "name": "Rep. Cole, Tom [R-OK-4]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001217",
+          "name": "Rep. Moskowitz, Jared [D-FL-23]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "R000622",
+          "name": "Rep. Riley, Josh [D-NY-19]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "F000466",
+          "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "M001208",
+          "name": "Rep. McBath, Lucy [D-GA-6]",
+          "party": "D",
+          "state": "GA",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "B001257",
+          "name": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-10",
+          "original": false
+        },
+        {
+          "bioguide": "G000558",
+          "name": "Rep. Guthrie, Brett [R-KY-2]",
+          "party": "R",
+          "state": "KY",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Rep. Gillen, Laura [D-NY-4]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-17",
+          "original": false
+        },
+        {
+          "bioguide": "C000059",
+          "name": "Rep. Calvert, Ken [R-CA-41]",
+          "party": "R",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "A000379",
+          "name": "Rep. Alford, Mark [R-MO-4]",
+          "party": "R",
+          "state": "MO",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "D000230",
+          "name": "Rep. Davis, Donald G. [D-NC-1]",
+          "party": "D",
+          "state": "NC",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "V000136",
+          "name": "Rep. Vasquez, Gabe [D-NM-2]",
+          "party": "D",
+          "state": "NM",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M000871",
+          "name": "Rep. Mann, Tracey [R-KS-1]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "H001058",
+          "name": "Rep. Huizenga, Bill [R-MI-4]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "B001324",
+          "name": "Rep. Bell, Wesley [D-MO-1]",
+          "party": "D",
+          "state": "MO",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001326",
+          "name": "Rep. Bynum, Janelle S. [D-OR-5]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "W000798",
+          "name": "Rep. Walberg, Tim [R-MI-5]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "H001101",
+          "name": "Rep. Harrigan, Pat [R-NC-10]",
+          "party": "R",
+          "state": "NC",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 9
+      "cosponsors_total": 32
     },
     {
       "congress": 119,
@@ -1283,9 +1546,17 @@
           "state": "CA",
           "date": "2025-07-22",
           "original": false
+        },
+        {
+          "bioguide": "B001301",
+          "name": "Rep. Bergman, Jack [R-MI-1]",
+          "party": "R",
+          "state": "MI",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 2
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1302,8 +1573,25 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3004?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "N000190",
+          "name": "Rep. Norman, Ralph [R-SC-5]",
+          "party": "R",
+          "state": "SC",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-08",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1319,7 +1607,7 @@
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2432?format=json",
       "updateDate": null,
-      "bipartisan": false,
+      "bipartisan": true,
       "cosponsors": [
         {
           "bioguide": "M000871",
@@ -1328,9 +1616,25 @@
           "state": "KS",
           "date": "2025-03-27",
           "original": true
+        },
+        {
+          "bioguide": "S001228",
+          "name": "Rep. Schmidt, Derek [R-KS-2]",
+          "party": "R",
+          "state": "KS",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "D000629",
+          "name": "Rep. Davids, Sharice [D-KS-3]",
+          "party": "D",
+          "state": "KS",
+          "date": "2025-10-24",
+          "original": false
         }
       ],
-      "cosponsors_total": 1
+      "cosponsors_total": 3
     },
     {
       "congress": 119,
@@ -1441,8 +1745,8 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 186,
-    "total_hr_sr_bipartisan": 75,
+    "total_hr_sr": 187,
+    "total_hr_sr_bipartisan": 77,
     "total_hr_sr_became_public_law": 11,
     "passed_rate_percentile_party": 93,
     "bipartisan_rate_percentile_party": 53

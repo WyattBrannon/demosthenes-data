@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 62
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -92,6 +92,7 @@
       "dim2": 0.531
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -699,6 +700,11 @@
       "count": 3
     },
     {
+      "bioguide": "M001222",
+      "name": "Rep. Miller, Max L. [R-OH-7]",
+      "count": 2
+    },
+    {
       "bioguide": "Z000018",
       "name": "Rep. Zinke, Ryan K. [R-MT-1]",
       "count": 2
@@ -722,14 +728,52 @@
       "bioguide": "D000634",
       "name": "Rep. Downing, Troy [R-MT-2]",
       "count": 2
-    },
-    {
-      "bioguide": "H001093",
-      "name": "Rep. Houchin, Erin [R-IN-9]",
-      "count": 2
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5456",
+      "title": "NWR Modernization Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5456?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "T000468",
+          "name": "Rep. Titus, Dina [D-NV-1]",
+          "party": "D",
+          "state": "NV",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 3
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -788,8 +832,8 @@
       "title": "Stop Illegal Entry Act of 2025",
       "introducedDate": "2025-05-19",
       "latestAction": {
-        "date": "2025-07-15",
-        "text": "Placed on the Union Calendar, Calendar No. 163."
+        "date": "2025-09-15",
+        "text": "Received in the Senate."
       },
       "policy_area": "Immigration",
       "subjects": [
@@ -857,7 +901,7 @@
         "date": "2025-07-14",
         "text": "Referred to the House Committee on the Judiciary."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4364?format=json",
       "updateDate": null,
@@ -1012,9 +1056,49 @@
           "state": "FL",
           "date": "2025-07-22",
           "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "F000474",
+          "name": "Rep. Flood, Mike [R-NE-1]",
+          "party": "R",
+          "state": "NE",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Rep. Miller, Max L. [R-OH-7]",
+          "party": "R",
+          "state": "OH",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "B001307",
+          "name": "Rep. Baird, James R. [R-IN-4]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 11
     },
     {
       "congress": 119,
@@ -1109,8 +1193,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/1555?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "F000482",
+          "name": "Rep. Fedorchak, Julie [R-ND-At Large]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-11",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1858,11 +1951,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 65,
-    "total_hr_sr_bipartisan": 29,
+    "total_hr_sr": 66,
+    "total_hr_sr_bipartisan": 30,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
-    "bipartisan_rate_percentile_party": 58
+    "passed_rate_percentile_party": 19,
+    "bipartisan_rate_percentile_party": 59
   },
   "district": {
     "year": 2023,

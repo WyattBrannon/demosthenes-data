@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 6
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,6 +102,7 @@
       "dim2": 0.296
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-07-17",
@@ -978,6 +979,11 @@
       "count": 4
     },
     {
+      "bioguide": "G000599",
+      "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+      "count": 4
+    },
+    {
       "bioguide": "M001229",
       "name": "Rep. McIver, LaMonica [D-NJ-10]",
       "count": 4
@@ -1006,14 +1012,27 @@
       "bioguide": "B001296",
       "name": "Rep. Boyle, Brendan F. [D-PA-2]",
       "count": 3
-    },
-    {
-      "bioguide": "C001091",
-      "name": "Rep. Castro, Joaquin [D-TX-20]",
-      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5378",
+      "title": "Tribal Healthcare Careers Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "policy_area": "Native Americans",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5378?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -2093,9 +2112,25 @@
           "state": "NJ",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "M001238",
+          "name": "Rep. McBride, Sarah [D-DE-At Large]",
+          "party": "D",
+          "state": "DE",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "C001131",
+          "name": "Rep. Casar, Greg [D-TX-35]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-17",
+          "original": false
         }
       ],
-      "cosponsors_total": 133
+      "cosponsors_total": 135
     },
     {
       "congress": 119,
@@ -2107,7 +2142,7 @@
         "date": "2025-07-25",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Armed Forces and National Security",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4759?format=json",
       "updateDate": null,
@@ -2125,7 +2160,7 @@
         "date": "2025-07-23",
         "text": "Referred to the Committee on Ways and Means, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": "Taxation",
+      "policy_area": "Foreign Trade and International Finance",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4666?format=json",
       "updateDate": null,
@@ -2178,9 +2213,17 @@
           "state": "NY",
           "date": "2025-08-22",
           "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 6
+      "cosponsors_total": 7
     },
     {
       "congress": 119,
@@ -2683,17 +2726,41 @@
           "state": "MN",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "B001285",
+          "name": "Rep. Brownley, Julia [D-CA-26]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-21",
+          "original": false
         }
       ],
-      "cosponsors_total": 51
+      "cosponsors_total": 54
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 63,
+    "total_hr_sr": 64,
     "total_hr_sr_bipartisan": 9,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 86,
-    "bipartisan_rate_percentile_party": 9
+    "passed_rate_percentile_party": 85,
+    "bipartisan_rate_percentile_party": 8
   },
   "district": {
     "year": 2023,

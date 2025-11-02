@@ -85,7 +85,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 1
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -103,6 +103,7 @@
       "dim2": -0.65
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [],
   "missed_votes": [
     {
@@ -610,6 +611,11 @@
       "count": 9
     },
     {
+      "bioguide": "T000487",
+      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+      "count": 7
+    },
+    {
       "bioguide": "D000230",
       "name": "Rep. Davis, Donald G. [D-NC-1]",
       "count": 6
@@ -617,11 +623,6 @@
     {
       "bioguide": "M001196",
       "name": "Rep. Moulton, Seth [D-MA-6]",
-      "count": 6
-    },
-    {
-      "bioguide": "T000487",
-      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
       "count": 6
     },
     {
@@ -662,6 +663,11 @@
       "count": 3
     },
     {
+      "bioguide": "T000487",
+      "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+      "count": 3
+    },
+    {
       "bioguide": "D000230",
       "name": "Rep. Davis, Donald G. [D-NC-1]",
       "count": 3
@@ -685,11 +691,6 @@
       "bioguide": "G000559",
       "name": "Rep. Garamendi, John [D-CA-8]",
       "count": 2
-    },
-    {
-      "bioguide": "C001072",
-      "name": "Rep. Carson, Andr\u00e9 [D-IN-7]",
-      "count": 2
     }
   ],
   "bills": [
@@ -703,7 +704,7 @@
         "date": "2025-08-12",
         "text": "Referred to the House Committee on Foreign Affairs."
       },
-      "policy_area": null,
+      "policy_area": "International Affairs",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4955?format=json",
       "updateDate": null,
@@ -740,9 +741,41 @@
           "state": "VA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "B001287",
+          "name": "Rep. Bera, Ami [D-CA-6]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "T000487",
+          "name": "Rep. Tokuda, Jill N. [D-HI-2]",
+          "party": "D",
+          "state": "HI",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Rep. Dunn, Neal P. [R-FL-2]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Rep. McCaul, Michael T. [R-TX-10]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 8
     },
     {
       "congress": 119,
@@ -751,10 +784,10 @@
       "title": "Noncontiguous Disaster Shipping Act",
       "introducedDate": "2025-07-29",
       "latestAction": {
-        "date": "2025-07-29",
-        "text": "Referred to the House Committee on Transportation and Infrastructure."
+        "date": "2025-07-30",
+        "text": "Referred to the Subcommittee on Coast Guard and Maritime Transportation."
       },
-      "policy_area": null,
+      "policy_area": "Emergency Management",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4813?format=json",
       "updateDate": null,
@@ -805,7 +838,7 @@
         "date": "2025-07-29",
         "text": "Referred to the House Committee on Ways and Means."
       },
-      "policy_area": null,
+      "policy_area": "Social Welfare",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4814?format=json",
       "updateDate": null,
@@ -869,8 +902,17 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3646?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "S000168",
+          "name": "Rep. Salazar, Maria Elvira [R-FL-27]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-30",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 1
     },
     {
       "congress": 119,
@@ -1146,9 +1188,17 @@
           "state": "VA",
           "date": "2025-07-29",
           "original": false
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Rep. Kean, Thomas H. [R-NJ-7]",
+          "party": "R",
+          "state": "NJ",
+          "date": "2025-09-30",
+          "original": false
         }
       ],
-      "cosponsors_total": 29
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
@@ -1211,7 +1261,12 @@
         "text": "Referred to the House Committee on Education and Workforce."
       },
       "policy_area": "Labor and Employment",
-      "subjects": [],
+      "subjects": [
+        "Employee benefits and pensions",
+        "Guam",
+        "Military personnel and dependents",
+        "U.S. territories and protectorates"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/876?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -1310,7 +1365,7 @@
     "total_hr_sr": 36,
     "total_hr_sr_bipartisan": 16,
     "total_hr_sr_became_public_law": 0,
-    "passed_rate_percentile_party": 20,
+    "passed_rate_percentile_party": 19,
     "bipartisan_rate_percentile_party": 58
   },
   "profileText": "a Delegate from Guam; born on July 18, 1962; graduated from John F. Kennedy High School, Tumon, Guam, 1981; B.S., University of Guam, Mangilao, Guam; United States Army; parole officer; business owner; member of the Guam territorial senate, 2019-2023; elected as a Republican to the One Hundred Eighteenth and to the succeeding Congress (January 3, 2023-present).",

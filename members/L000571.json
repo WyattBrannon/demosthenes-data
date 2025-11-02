@@ -93,7 +93,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 30
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -136,6 +136,7 @@
       "dim2": -0.037
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-08-01",
@@ -1163,22 +1164,27 @@
     {
       "bioguide": "B001261",
       "name": "Sen. Barrasso, John [R-WY]",
-      "count": 42
-    },
-    {
-      "bioguide": "C000880",
-      "name": "Sen. Crapo, Mike [R-ID]",
-      "count": 25
+      "count": 47
     },
     {
       "bioguide": "C001096",
       "name": "Rep. Cramer, Kevin [R-ND-At Large]",
-      "count": 25
+      "count": 27
+    },
+    {
+      "bioguide": "C000880",
+      "name": "Sen. Crapo, Mike [R-ID]",
+      "count": 26
     },
     {
       "bioguide": "R000584",
       "name": "Sen. Risch, James E. [R-ID]",
-      "count": 21
+      "count": 22
+    },
+    {
+      "bioguide": "S001198",
+      "name": "Sen. Sullivan, Dan [R-AK]",
+      "count": 18
     },
     {
       "bioguide": "R000618",
@@ -1196,74 +1202,200 @@
       "count": 17
     },
     {
-      "bioguide": "S001198",
-      "name": "Sen. Sullivan, Dan [R-AK]",
-      "count": 16
-    },
-    {
       "bioguide": "C001047",
       "name": "Rep. Capito, Shelley Moore [R-WV-2]",
-      "count": 12
+      "count": 15
     },
     {
-      "bioguide": "B001236",
-      "name": "Sen. Boozman, John [R-AR]",
-      "count": 12
+      "bioguide": "B001243",
+      "name": "Rep. Blackburn, Marsha [R-TN-7]",
+      "count": 14
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "B001261",
       "name": "Sen. Barrasso, John [R-WY]",
-      "count": 15
+      "count": 20
     },
     {
       "bioguide": "S001232",
       "name": "Sen. Sheehy, Tim [R-MT]",
-      "count": 7
+      "count": 8
     },
     {
       "bioguide": "C000880",
       "name": "Sen. Crapo, Mike [R-ID]",
-      "count": 5
+      "count": 6
     },
     {
       "bioguide": "R000584",
       "name": "Sen. Risch, James E. [R-ID]",
-      "count": 5
+      "count": 6
     },
     {
-      "bioguide": "R000618",
-      "name": "Sen. Ricketts, Pete [R-NE]",
-      "count": 3
+      "bioguide": "C001047",
+      "name": "Rep. Capito, Shelley Moore [R-WV-2]",
+      "count": 4
     },
     {
-      "bioguide": "S001217",
-      "name": "Sen. Scott, Rick [R-FL]",
-      "count": 3
+      "bioguide": "B001243",
+      "name": "Rep. Blackburn, Marsha [R-TN-7]",
+      "count": 4
     },
     {
-      "bioguide": "K000377",
-      "name": "Sen. Kelly, Mark [D-AZ]",
-      "count": 3
+      "bioguide": "J000312",
+      "name": "Sen. Justice, James C. [R-WV]",
+      "count": 4
     },
     {
       "bioguide": "C001096",
       "name": "Rep. Cramer, Kevin [R-ND-At Large]",
-      "count": 2
+      "count": 4
     },
     {
-      "bioguide": "D000618",
-      "name": "Rep. Daines, Steve [R-MT-At Large]",
-      "count": 2
+      "bioguide": "S001217",
+      "name": "Sen. Scott, Rick [R-FL]",
+      "count": 4
     },
     {
-      "bioguide": "M001198",
-      "name": "Sen. Marshall, Roger [R-KS]",
-      "count": 2
+      "bioguide": "S001198",
+      "name": "Sen. Sullivan, Dan [R-AK]",
+      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3045",
+      "title": "COAL Act of 2025",
+      "introducedDate": "2025-10-23",
+      "latestAction": {
+        "date": "2025-10-23",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3045?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-23",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "3007",
+      "title": "Diesel Truck Liberation Act of 2025",
+      "introducedDate": "2025-10-14",
+      "latestAction": {
+        "date": "2025-10-14",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/3007?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2991",
+      "title": "Connor\u2019s Law",
+      "introducedDate": "2025-10-08",
+      "latestAction": {
+        "date": "2025-10-08",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2991?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "B001261",
+          "name": "Sen. Barrasso, John [R-WY]",
+          "party": "R",
+          "state": "WY",
+          "date": "2025-10-08",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
+    {
+      "congress": 119,
+      "billType": "s",
+      "number": "2952",
+      "title": "$2.50 for America\u2019s 250th Act",
+      "introducedDate": "2025-09-30",
+      "latestAction": {
+        "date": "2025-09-30",
+        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      },
+      "policy_area": "Finance and Financial Sector",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2952?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "C001047",
+          "name": "Sen. Capito, Shelley Moore [R-WV]",
+          "party": "R",
+          "state": "WV",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "C001096",
+          "name": "Sen. Cramer, Kevin [R-ND]",
+          "party": "R",
+          "state": "ND",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "S001181",
+          "name": "Sen. Shaheen, Jeanne [D-NH]",
+          "party": "D",
+          "state": "NH",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "P000145",
+          "name": "Sen. Padilla, Alex [D-CA]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": true
+        },
+        {
+          "bioguide": "M001153",
+          "name": "Sen. Murkowski, Lisa [R-AK]",
+          "party": "R",
+          "state": "AK",
+          "date": "2025-09-30",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 5
+    },
     {
       "congress": 119,
       "billType": "s",
@@ -1274,7 +1406,7 @@
         "date": "2025-07-31",
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
-      "policy_area": null,
+      "policy_area": "Environmental Protection",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2579?format=json",
       "updateDate": null,
@@ -1311,9 +1443,17 @@
           "state": "ID",
           "date": "2025-07-31",
           "original": true
+        },
+        {
+          "bioguide": "S001217",
+          "name": "Sen. Scott, Rick [R-FL]",
+          "party": "R",
+          "state": "FL",
+          "date": "2025-09-03",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -1325,7 +1465,7 @@
         "date": "2025-07-28",
         "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Finance and Financial Sector",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2471?format=json",
       "updateDate": null,
@@ -1340,8 +1480,8 @@
       "title": "Congressional Award Program Reauthorization Act",
       "introducedDate": "2025-01-28",
       "latestAction": {
-        "date": "2025-01-28",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+        "date": "2025-10-24",
+        "text": "Held at the desk."
       },
       "policy_area": "Congress",
       "subjects": [
@@ -1389,7 +1529,7 @@
         "date": "2025-07-24",
         "text": "Read twice and referred to the Committee on Finance."
       },
-      "policy_area": null,
+      "policy_area": "Education",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2428?format=json",
       "updateDate": null,
@@ -1480,8 +1620,25 @@
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2207?format=json",
       "updateDate": null,
       "bipartisan": false,
-      "cosponsors": [],
-      "cosponsors_total": null
+      "cosponsors": [
+        {
+          "bioguide": "B001243",
+          "name": "Sen. Blackburn, Marsha [R-TN]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-09-02",
+          "original": false
+        },
+        {
+          "bioguide": "C001075",
+          "name": "Sen. Cassidy, Bill [R-LA]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-02",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 2
     },
     {
       "congress": 119,
@@ -1493,7 +1650,7 @@
         "date": "2025-06-26",
         "text": "Read twice and referred to the Committee on Appropriations."
       },
-      "policy_area": null,
+      "policy_area": "Economics and Public Finance",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/2187?format=json",
       "updateDate": null,
@@ -2045,7 +2202,12 @@
         "text": "Read twice and referred to the Committee on Environment and Public Works."
       },
       "policy_area": "Public Lands and Natural Resources",
-      "subjects": [],
+      "subjects": [
+        "Endangered and threatened species",
+        "Environmental assessment, monitoring, research",
+        "Fires",
+        "Forests, forestry, trees"
+      ],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/s/395?format=json",
       "updateDate": null,
       "bipartisan": false,
@@ -2250,11 +2412,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 127,
-    "total_hr_sr_bipartisan": 52,
+    "total_hr_sr": 131,
+    "total_hr_sr_bipartisan": 53,
     "total_hr_sr_became_public_law": 2,
-    "passed_rate_percentile_party": 52,
-    "bipartisan_rate_percentile_party": 54
+    "passed_rate_percentile_party": 51,
+    "bipartisan_rate_percentile_party": 51
   },
   "district": {
     "year": 2023,

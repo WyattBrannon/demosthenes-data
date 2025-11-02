@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 46
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -109,6 +109,7 @@
       "dim2": 0.144
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-03-27",
@@ -898,6 +899,16 @@
       "count": 2
     },
     {
+      "bioguide": "V000134",
+      "name": "Rep. Van Duyne, Beth [R-TX-24]",
+      "count": 2
+    },
+    {
+      "bioguide": "L000560",
+      "name": "Rep. Larsen, Rick [D-WA-2]",
+      "count": 1
+    },
+    {
       "bioguide": "F000471",
       "name": "Rep. Fitzgerald, Scott [R-WI-5]",
       "count": 1
@@ -931,19 +942,45 @@
       "bioguide": "G000600",
       "name": "Rep. Perez, Marie Gluesenkamp [D-WA-3]",
       "count": 1
-    },
-    {
-      "bioguide": "M000317",
-      "name": "Rep. Malliotakis, Nicole [R-NY-11]",
-      "count": 1
-    },
-    {
-      "bioguide": "M001205",
-      "name": "Rep. Miller, Carol D. [R-WV-3]",
-      "count": 1
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5530",
+      "title": "Postal Contracting Financial Accountability Act",
+      "introducedDate": "2025-09-19",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the House Committee on Oversight and Government Reform."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5530?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5410",
+      "title": "Critical Mineral Brine Extraction Research and Development Act",
+      "introducedDate": "2025-09-16",
+      "latestAction": {
+        "date": "2025-09-16",
+        "text": "Referred to the House Committee on Science, Space, and Technology."
+      },
+      "policy_area": "Energy",
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5410?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [],
+      "cosponsors_total": null
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -954,7 +991,7 @@
         "date": "2025-08-15",
         "text": "Referred to the House Committee on Foreign Affairs."
       },
-      "policy_area": null,
+      "policy_area": "Crime and Law Enforcement",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4988?format=json",
       "updateDate": null,
@@ -972,7 +1009,7 @@
         "date": "2025-07-25",
         "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Law",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4770?format=json",
       "updateDate": null,
@@ -1139,9 +1176,209 @@
           "state": "AZ",
           "date": "2025-08-15",
           "original": false
+        },
+        {
+          "bioguide": "Y000067",
+          "name": "Rep. Yakym, Rudy [R-IN-2]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "G000603",
+          "name": "Rep. Gill, Brandon [R-TX-26]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "M001239",
+          "name": "Rep. McGuire, John J. [R-VA-5]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-09-16",
+          "original": false
+        },
+        {
+          "bioguide": "V000138",
+          "name": "Rep. Vindman, Eugene Simon [D-VA-7]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Rep. Stutzman, Marlin A. [R-IN-3]",
+          "party": "R",
+          "state": "IN",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "M001230",
+          "name": "Rep. Mackenzie, Ryan [R-PA-7]",
+          "party": "R",
+          "state": "PA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "E000235",
+          "name": "Rep. Ezell, Mike [R-MS-4]",
+          "party": "R",
+          "state": "MS",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Rep. Thompson, Bennie G. [D-MS-2]",
+          "party": "D",
+          "state": "MS",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "V000131",
+          "name": "Rep. Veasey, Marc A. [D-TX-33]",
+          "party": "D",
+          "state": "TX",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "C001110",
+          "name": "Rep. Correa, J. Luis [D-CA-46]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Rep. Stevens, Haley M. [D-MI-11]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "H001091",
+          "name": "Rep. Hinson, Ashley [R-IA-2]",
+          "party": "R",
+          "state": "IA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "M001228",
+          "name": "Rep. Maloy, Celeste [R-UT-2]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001118",
+          "name": "Rep. Cline, Ben [R-VA-6]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "K000403",
+          "name": "Rep. Kennedy, Mike [R-UT-3]",
+          "party": "R",
+          "state": "UT",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-10-24",
+          "original": false
+        },
+        {
+          "bioguide": "H001082",
+          "name": "Rep. Hern, Kevin [R-OK-1]",
+          "party": "R",
+          "state": "OK",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "W000804",
+          "name": "Rep. Wittman, Robert J. [R-VA-1]",
+          "party": "R",
+          "state": "VA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Rep. Boyle, Brendan F. [D-PA-2]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "K000392",
+          "name": "Rep. Kustoff, David [R-TN-8]",
+          "party": "R",
+          "state": "TN",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "T000488",
+          "name": "Rep. Thanedar, Shri [D-MI-13]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-10-31",
+          "original": false
         }
       ],
-      "cosponsors_total": 18
+      "cosponsors_total": 43
     },
     {
       "congress": 119,
@@ -1180,7 +1417,7 @@
         "date": "2025-06-12",
         "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/3996?format=json",
       "updateDate": null,
@@ -1210,7 +1447,7 @@
       "congress": 119,
       "billType": "hr",
       "number": "3466",
-      "title": "To amend the Immigration and Nationality Act to establish a skills-based immigration points system, to focus family-sponsored immigration on spouses and minor children, to eliminate the Diversity Visa Program, to set a limit on the number of refugees admitted annually to the United States, and for other purposes.",
+      "title": "SMART Act",
       "introducedDate": "2025-05-15",
       "latestAction": {
         "date": "2025-06-03",
@@ -1289,9 +1526,17 @@
           "state": "CA",
           "date": "2025-07-15",
           "original": false
+        },
+        {
+          "bioguide": "V000134",
+          "name": "Rep. Van Duyne, Beth [R-TX-24]",
+          "party": "R",
+          "state": "TX",
+          "date": "2025-09-09",
+          "original": false
         }
       ],
-      "cosponsors_total": 4
+      "cosponsors_total": 5
     },
     {
       "congress": 119,
@@ -1461,7 +1706,7 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 132,
+    "total_hr_sr": 134,
     "total_hr_sr_bipartisan": 37,
     "total_hr_sr_became_public_law": 2,
     "passed_rate_percentile_party": 51,

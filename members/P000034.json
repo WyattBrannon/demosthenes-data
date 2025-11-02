@@ -49,7 +49,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 93
   },
-  "generated_at": "2025-10-28",
+  "generated_at": "2025-11-02",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -152,6 +152,7 @@
       "dim2": 0.709
     }
   ],
+  "lobbying_contributions": [],
   "maverick_votes": [
     {
       "date": "2025-06-12",
@@ -852,7 +853,7 @@
     {
       "bioguide": "S001145",
       "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
-      "count": 49
+      "count": 50
     },
     {
       "bioguide": "N000147",
@@ -861,22 +862,22 @@
     },
     {
       "bioguide": "P000096",
-      "name": "Rep. Pascrell, Bill, Jr. [D-NJ-9]",
-      "count": 40
-    },
-    {
-      "bioguide": "G000551",
-      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-3]",
-      "count": 31
-    },
-    {
-      "bioguide": "M000312",
-      "name": "Rep. McGovern, James P. [D-MA-2]",
-      "count": 30
+      "name": "Rep. Pascrell, Bill, Jr. [D-NJ-8]",
+      "count": 39
     },
     {
       "bioguide": "M001163",
-      "name": "Rep. Matsui, Doris O. [D-CA-6]",
+      "name": "Rep. Matsui, Doris O. [D-CA-5]",
+      "count": 29
+    },
+    {
+      "bioguide": "M000312",
+      "name": "Rep. McGovern, James P. [D-MA-3]",
+      "count": 29
+    },
+    {
+      "bioguide": "G000551",
+      "name": "Rep. Grijalva, Ra\u00fal M. [D-AZ-7]",
       "count": 29
     },
     {
@@ -887,72 +888,614 @@
     {
       "bioguide": "W000822",
       "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
-      "count": 28
-    },
-    {
-      "bioguide": "R000515",
-      "name": "Rep. Rush, Bobby L. [D-IL-1]",
-      "count": 28
+      "count": 27
     },
     {
       "bioguide": "D000197",
       "name": "Rep. DeGette, Diana [D-CO-1]",
-      "count": 27
+      "count": 26
+    },
+    {
+      "bioguide": "R000515",
+      "name": "Rep. Rush, Bobby L. [D-IL-1]",
+      "count": 26
     }
   ],
   "cosponsors_top_latest": [
     {
       "bioguide": "M001226",
       "name": "Rep. Menendez, Robert [D-NJ-8]",
-      "count": 5
-    },
-    {
-      "bioguide": "S001207",
-      "name": "Rep. Sherrill, Mikie [D-NJ-11]",
-      "count": 3
-    },
-    {
-      "bioguide": "W000822",
-      "name": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
-      "count": 3
-    },
-    {
-      "bioguide": "K000398",
-      "name": "Rep. Kean, Thomas H. [R-NJ-7]",
-      "count": 3
-    },
-    {
-      "bioguide": "M001229",
-      "name": "Rep. McIver, LaMonica [D-NJ-10]",
-      "count": 3
-    },
-    {
-      "bioguide": "P000621",
-      "name": "Rep. Pou, Nellie [D-NJ-9]",
-      "count": 3
-    },
-    {
-      "bioguide": "G000583",
-      "name": "Rep. Gottheimer, Josh [D-NJ-5]",
-      "count": 3
+      "count": 7
     },
     {
       "bioguide": "C001066",
       "name": "Rep. Castor, Kathy [D-FL-14]",
-      "count": 2
+      "count": 3
     },
     {
       "bioguide": "N000002",
-      "name": "Rep. Nadler, Jerrold [D-NY-10]",
-      "count": 2
+      "name": "Rep. Nadler, Jerrold [D-NY-8]",
+      "count": 3
     },
     {
       "bioguide": "N000147",
       "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
-      "count": 2
+      "count": 3
+    },
+    {
+      "bioguide": "L000557",
+      "name": "Rep. Larson, John B. [D-CT-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "M001223",
+      "name": "Rep. Magaziner, Seth [D-RI-2]",
+      "count": 3
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rep. Tlaib, Rashida [D-MI-13]",
+      "count": 3
+    },
+    {
+      "bioguide": "L000593",
+      "name": "Rep. Levin, Mike [D-CA-49]",
+      "count": 3
+    },
+    {
+      "bioguide": "B001278",
+      "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "count": 3
+    },
+    {
+      "bioguide": "D000530",
+      "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "count": 3
     }
   ],
   "bills": [
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5448",
+      "title": "Protecting Free Vaccines Act",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-18",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5448?format=json",
+      "updateDate": null,
+      "bipartisan": false,
+      "cosponsors": [
+        {
+          "bioguide": "N000015",
+          "name": "Rep. Neal, Richard E. [D-MA-1]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "S000185",
+          "name": "Rep. Scott, Robert C. \"Bobby\" [D-VA-3]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-18",
+          "original": true
+        },
+        {
+          "bioguide": "L000601",
+          "name": "Rep. Landsman, Greg [D-OH-1]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "M001225",
+          "name": "Rep. Mullin, Kevin [D-CA-15]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "M001163",
+          "name": "Rep. Matsui, Doris O. [D-CA-7]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "A000148",
+          "name": "Rep. Auchincloss, Jake [D-MA-4]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "C001066",
+          "name": "Rep. Castor, Kathy [D-FL-14]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-19",
+          "original": false
+        },
+        {
+          "bioguide": "C001125",
+          "name": "Rep. Carter, Troy A. [D-LA-2]",
+          "party": "D",
+          "state": "LA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "N000002",
+          "name": "Rep. Nadler, Jerrold [D-NY-12]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001216",
+          "name": "Rep. Schrier, Kim [D-WA-8]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "B001281",
+          "name": "Rep. Beatty, Joyce [D-OH-3]",
+          "party": "D",
+          "state": "OH",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Rep. Quigley, Mike [D-IL-5]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "N000147",
+          "name": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+          "party": "D",
+          "state": "DC",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001205",
+          "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "T000469",
+          "name": "Rep. Tonko, Paul [D-NY-20]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000624",
+          "name": "Rep. Dingell, Debbie [D-MI-6]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001227",
+          "name": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "I000058",
+          "name": "Rep. Ivey, Glenn [D-MD-4]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001226",
+          "name": "Rep. Menendez, Robert [D-NJ-8]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001200",
+          "name": "Rep. Soto, Darren [D-FL-9]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Rep. Torres, Ritchie [D-NY-15]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Rep. Barrag\u00e1n, Nanette Diaz [D-CA-44]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "D000617",
+          "name": "Rep. DelBene, Suzan K. [D-WA-1]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "A000380",
+          "name": "Rep. Amo, Gabe [D-RI-1]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "B001278",
+          "name": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "K000375",
+          "name": "Rep. Keating, William R. [D-MA-9]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Rep. Hayes, Jahana [D-CT-5]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "O000172",
+          "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "T000482",
+          "name": "Rep. Trahan, Lori [D-MA-3]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "D000530",
+          "name": "Rep. Deluzio, Christopher R. [D-PA-17]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "F000483",
+          "name": "Rep. Friedman, Laura [D-CA-30]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-08",
+          "original": false
+        },
+        {
+          "bioguide": "D000635",
+          "name": "Rep. Dexter, Maxine [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "C001136",
+          "name": "Rep. Conaway, Herbert C. [D-NJ-3]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Rep. Kelly, Robin L. [D-IL-2]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-28",
+          "original": false
+        }
+      ],
+      "cosponsors_total": 62
+    },
+    {
+      "congress": 119,
+      "billType": "hr",
+      "number": "5484",
+      "title": "National Flood Insurance Program Reauthorization and Reform Act of 2025",
+      "introducedDate": "2025-09-18",
+      "latestAction": {
+        "date": "2025-09-19",
+        "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+      },
+      "policy_area": null,
+      "subjects": [],
+      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/5484?format=json",
+      "updateDate": null,
+      "bipartisan": true,
+      "cosponsors": [
+        {
+          "bioguide": "H001077",
+          "name": "Rep. Higgins, Clay [R-LA-3]",
+          "party": "R",
+          "state": "LA",
+          "date": "2025-09-18",
+          "original": true
+        }
+      ],
+      "cosponsors_total": 1
+    },
     {
       "congress": 119,
       "billType": "hr",
@@ -963,7 +1506,7 @@
         "date": "2025-08-12",
         "text": "Referred to the House Committee on Energy and Commerce."
       },
-      "policy_area": null,
+      "policy_area": "Health",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4958?format=json",
       "updateDate": null,
@@ -981,7 +1524,7 @@
         "date": "2025-08-05",
         "text": "Referred to the House Committee on Agriculture."
       },
-      "policy_area": null,
+      "policy_area": "Agriculture and Food",
       "subjects": [],
       "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/4898?format=json",
       "updateDate": null,
@@ -1301,9 +1844,265 @@
           "state": "PA",
           "date": "2025-08-26",
           "original": false
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Rep. Budzinski, Nikki [D-IL-13]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-03",
+          "original": false
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Rep. Cohen, Steve [D-TN-9]",
+          "party": "D",
+          "state": "TN",
+          "date": "2025-09-09",
+          "original": false
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Rep. Kelly, Robin L. [D-IL-2]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-18",
+          "original": false
+        },
+        {
+          "bioguide": "W000830",
+          "name": "Rep. Whitesides, George [D-CA-27]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "E000301",
+          "name": "Rep. Elfreth, Sarah [D-MD-3]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "L000557",
+          "name": "Rep. Larson, John B. [D-CT-1]",
+          "party": "D",
+          "state": "CT",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001205",
+          "name": "Rep. Scanlon, Mary Gay [D-PA-5]",
+          "party": "D",
+          "state": "PA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "W000797",
+          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001223",
+          "name": "Rep. Magaziner, Seth [D-RI-2]",
+          "party": "D",
+          "state": "RI",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "T000460",
+          "name": "Rep. Thompson, Mike [D-CA-4]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "S001185",
+          "name": "Rep. Sewell, Terri A. [D-AL-7]",
+          "party": "D",
+          "state": "AL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Rep. Clarke, Yvette D. [D-NY-9]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Rep. Moulton, Seth [D-MA-6]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Rep. Davis, Danny K. [D-IL-7]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-09-23",
+          "original": false
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Rep. Torres, Ritchie [D-NY-15]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "T000481",
+          "name": "Rep. Tlaib, Rashida [D-MI-12]",
+          "party": "D",
+          "state": "MI",
+          "date": "2025-09-26",
+          "original": false
+        },
+        {
+          "bioguide": "K000375",
+          "name": "Rep. Keating, William R. [D-MA-9]",
+          "party": "D",
+          "state": "MA",
+          "date": "2025-09-30",
+          "original": false
+        },
+        {
+          "bioguide": "F000462",
+          "name": "Rep. Frankel, Lois [D-FL-22]",
+          "party": "D",
+          "state": "FL",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "L000593",
+          "name": "Rep. Levin, Mike [D-CA-49]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-03",
+          "original": false
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Rep. Schakowsky, Janice D. [D-IL-9]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "P000608",
+          "name": "Rep. Peters, Scott H. [D-CA-50]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-06",
+          "original": false
+        },
+        {
+          "bioguide": "D000635",
+          "name": "Rep. Dexter, Maxine [D-OR-3]",
+          "party": "D",
+          "state": "OR",
+          "date": "2025-10-14",
+          "original": false
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Rep. Pettersen, Brittany [D-CO-7]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Rep. Vel\u00e1zquez, Nydia M. [D-NY-7]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "K000400",
+          "name": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000559",
+          "name": "Rep. Garamendi, John [D-CA-8]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "B001318",
+          "name": "Rep. Balint, Becca [D-VT-At Large]",
+          "party": "D",
+          "state": "VT",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Rep. Goldman, Daniel S. [D-NY-10]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000606",
+          "name": "Rep. Raskin, Jamie [D-MD-8]",
+          "party": "D",
+          "state": "MD",
+          "date": "2025-10-17",
+          "original": false
+        },
+        {
+          "bioguide": "R000621",
+          "name": "Rep. Randall, Emily [D-WA-6]",
+          "party": "D",
+          "state": "WA",
+          "date": "2025-10-21",
+          "original": false
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Rep. Jackson, Jonathan L. [D-IL-1]",
+          "party": "D",
+          "state": "IL",
+          "date": "2025-10-28",
+          "original": false
+        },
+        {
+          "bioguide": "S001231",
+          "name": "Rep. Simon, Lateefah [D-CA-12]",
+          "party": "D",
+          "state": "CA",
+          "date": "2025-10-28",
+          "original": false
         }
       ],
-      "cosponsors_total": 36
+      "cosponsors_total": 68
     },
     {
       "congress": 119,
@@ -1528,9 +2327,41 @@
           "state": "NJ",
           "date": "2025-06-12",
           "original": false
+        },
+        {
+          "bioguide": "N000191",
+          "name": "Rep. Neguse, Joe [D-CO-2]",
+          "party": "D",
+          "state": "CO",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "N000188",
+          "name": "Rep. Norcross, Donald [D-NJ-1]",
+          "party": "D",
+          "state": "NJ",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "O000172",
+          "name": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+          "party": "D",
+          "state": "NY",
+          "date": "2025-09-15",
+          "original": false
+        },
+        {
+          "bioguide": "B001292",
+          "name": "Rep. Beyer, Donald S. [D-VA-8]",
+          "party": "D",
+          "state": "VA",
+          "date": "2025-09-15",
+          "original": false
         }
       ],
-      "cosponsors_total": 26
+      "cosponsors_total": 30
     },
     {
       "congress": 119,
@@ -1878,11 +2709,11 @@
     }
   ],
   "work_statistics": {
-    "total_hr_sr": 192,
-    "total_hr_sr_bipartisan": 63,
+    "total_hr_sr": 194,
+    "total_hr_sr_bipartisan": 64,
     "total_hr_sr_became_public_law": 6,
-    "passed_rate_percentile_party": 85,
-    "bipartisan_rate_percentile_party": 38
+    "passed_rate_percentile_party": 84,
+    "bipartisan_rate_percentile_party": 39
   },
   "district": {
     "year": 2023,
