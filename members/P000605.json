@@ -51,10 +51,6 @@
         "role": null
       },
       {
-        "name": "HLIG04",
-        "role": null
-      },
-      {
         "name": "HLIG11",
         "role": null
       }
@@ -73,31 +69,31 @@
     "dw_nominate_dim1": 0.684,
     "dw_nominate_dim2": -0.485,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8372,
-    "party_unity_bp_pct": 0.2372,
-    "maverick_votes": 35,
-    "bipartisan_votes": 51,
-    "maverick_bipartisan": 3,
-    "total_votes": 215,
-    "missed_votes": 2,
-    "maverick_votes_all": 1567,
-    "bipartisan_votes_all": 463,
-    "maverick_bipartisan_all": 33,
-    "total_votes_all": 7008,
-    "missed_votes_all": 123,
+    "party_unity_pct": 0.852,
+    "party_unity_bp_pct": 0.2166,
+    "maverick_votes": 41,
+    "bipartisan_votes": 60,
+    "maverick_bipartisan": 4,
+    "total_votes": 277,
+    "missed_votes": 4,
+    "maverick_votes_all": 1573,
+    "bipartisan_votes_all": 472,
+    "maverick_bipartisan_all": 34,
+    "total_votes_all": 7070,
+    "missed_votes_all": 125,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 99.055,
-    "pubp_median_party": 33.81,
+    "pu_median_party": 97.11999999999999,
+    "pubp_median_party": 30.94,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 81,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 94,
-    "party_unity_percentile_party": 2,
+    "party_unity_percentile_party": 3,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 71
+    "reliability_percentile_party": 60
   },
-  "generated_at": "2025-11-02",
+  "generated_at": "2025-11-03",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -136,8 +132,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.908,
-      "dim2": -0.418
+      "dim1": 0.932,
+      "dim2": -0.363
     }
   ],
   "lobbying_contributions": [
@@ -184,6 +180,132 @@
   ],
   "lobbying_sum": 52250.0,
   "maverick_votes": [
+    {
+      "date": "2025-09-15",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "TRAVEL Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 371,
+      "nay": 21,
+      "present": 0,
+      "bill": {
+        "code": "HR3400",
+        "type": null,
+        "number": "HR3400",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 60,
+      "nay": 372,
+      "present": 0,
+      "bill": {
+        "code": "HR3838",
+        "type": null,
+        "number": "HR3838",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 60,
+      "nay": 370,
+      "present": 0,
+      "bill": {
+        "code": "HR3838",
+        "type": null,
+        "number": "HR3838",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 76,
+      "nay": 351,
+      "present": 0,
+      "bill": {
+        "code": "HR4553",
+        "type": null,
+        "number": "HR4553",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 214,
+      "nay": 213,
+      "present": 0,
+      "bill": {
+        "code": "HR4553",
+        "type": null,
+        "number": "HR4553",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 77,
+      "nay": 347,
+      "present": 0,
+      "bill": {
+        "code": "HR4553",
+        "type": null,
+        "number": "HR4553",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-23",
       "chamber": "house",
@@ -267,135 +389,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 63,
-      "nay": 365,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 355,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Failed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 196,
-      "nay": 223,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-09-10",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Agreed to",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 261,
+      "nay": 167,
+      "present": 0,
+      "bill": {
+        "code": "HR3838",
+        "type": null,
+        "number": "HR3838",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Agreed to",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 219,
+      "nay": 209,
+      "present": 0,
+      "bill": {
+        "code": "HR3838",
+        "type": null,
+        "number": "HR3838",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-17",
       "chamber": "house",
@@ -440,6 +478,206 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-09-19",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Continuing Appropriations and Extensions Act, 2026",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 217,
+      "nay": 212,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 280
+    },
+    {
+      "date": "2025-09-18",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Promoting Cross-border Energy Infrastructure Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 224,
+      "nay": 203,
+      "present": 0,
+      "bill": {
+        "code": "HR3062",
+        "type": null,
+        "number": "HR3062",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 276
+    },
+    {
+      "date": "2025-09-17",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Passed",
+      "vote_desc": "Censuring Representative Ilhan Omar of Minnesota and removing her from the Committee on Education and Workforce and the Committee on the Budget",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 214,
+      "nay": 213,
+      "present": 0,
+      "bill": {
+        "code": "HRES713",
+        "type": null,
+        "number": "HRES713",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 275
+    },
+    {
+      "date": "2025-09-17",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "District of Columbia Policing Protection Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 245,
+      "nay": 182,
+      "present": 0,
+      "bill": {
+        "code": "HR5143",
+        "type": null,
+        "number": "HR5143",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 274
+    },
+    {
+      "date": "2025-09-17",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "District of Columbia Judicial Nominations Reform Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 218,
+      "nay": 211,
+      "present": 0,
+      "bill": {
+        "code": "HR5125",
+        "type": null,
+        "number": "HR5125",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 273
+    },
+    {
+      "date": "2025-09-16",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To lower the age at which a minor may be tried as an adult for certain criminal offenses in the District of Columbia to 14 years of age",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 225,
+      "nay": 203,
+      "present": 0,
+      "bill": {
+        "code": "HR5140",
+        "type": null,
+        "number": "HR5140",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 270
+    },
+    {
+      "date": "2025-09-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 231,
+      "nay": 196,
+      "present": 0,
+      "bill": {
+        "code": "HR3838",
+        "type": null,
+        "number": "HR3838",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 261
+    },
+    {
+      "date": "2025-09-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Energy and Water Development and Related Agencies Appropriations Act, 2026",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 214,
+      "nay": 213,
+      "present": 0,
+      "bill": {
+        "code": "HR4553",
+        "type": null,
+        "number": "HR4553",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 238
+    },
     {
       "date": "2025-07-18",
       "chamber": "house",
@@ -489,206 +727,6 @@
         "title": ""
       },
       "rollnumber": 200
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 199
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "CLARITY Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 294,
-      "nay": 134,
-      "present": 0,
-      "bill": {
-        "code": "HR3633",
-        "type": null,
-        "number": "HR3633",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 198
-    },
-    {
-      "date": "2025-05-22",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "One Big Beautiful Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 215,
-      "nay": 214,
-      "present": 0,
-      "bill": {
-        "code": "HR1",
-        "type": null,
-        "number": "HR1",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 144
-    },
-    {
-      "date": "2025-05-22",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for congressional disapproval of the rule submitted by the Environmental Protection Agency relating to \u201cReview of Final Rule Reclassification of Major Sources as Area Sources Under Section 112 of the Clean Air Act\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 216,
-      "nay": 212,
-      "present": 0,
-      "bill": {
-        "code": "SJRES31",
-        "type": null,
-        "number": "SJRES31",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 142
-    },
-    {
-      "date": "2025-05-20",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for congressional disapproval of the rule submitted by the Office of the Comptroller of the Currency of the Department of the Treasury relating to the review of applications under the Bank Merger Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 220,
-      "nay": 207,
-      "present": 0,
-      "bill": {
-        "code": "SJRES13",
-        "type": null,
-        "number": "SJRES13",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 136
-    },
-    {
-      "date": "2025-04-10",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "SAVE Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 220,
-      "nay": 208,
-      "present": 0,
-      "bill": {
-        "code": "HR22",
-        "type": null,
-        "number": "HR22",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 101
-    },
-    {
-      "date": "2025-04-09",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "No Rogue Rulings Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 213,
-      "present": 0,
-      "bill": {
-        "code": "HR1526",
-        "type": null,
-        "number": "HR1526",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 97
-    },
-    {
-      "date": "2025-04-09",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \u201cOverdraft Lending: Very Large Financial Institutions\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 217,
-      "nay": 211,
-      "present": 0,
-      "bill": {
-        "code": "SJRES18",
-        "type": null,
-        "number": "SJRES18",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 95
     }
   ],
   "fec": {
@@ -2116,44 +2154,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.016516960979550674
-    },
-    {
-      "name": "John Karl Fetterman",
-      "distance": 0.016600301202086668
-    },
-    {
-      "name": "Josh Chad Brecheen",
-      "distance": 0.018780042598460715
+      "name": "Andy Biggs",
+      "distance": 0.016175598906995672
     },
     {
       "name": "Eli Crane",
-      "distance": 0.02284731931759174
+      "distance": 0.017999999999999988
     },
     {
-      "name": "Keith Alan Self",
-      "distance": 0.024729739181802927
+      "name": "Josh Chad Brecheen",
+      "distance": 0.019335201059208038
     },
     {
-      "name": "Ralph Norman",
-      "distance": 0.02593067681338069
+      "name": "Eric Wayne Burlison",
+      "distance": 0.020300246303924477
     },
     {
-      "name": "Andy Biggs",
-      "distance": 0.02610076627227643
-    },
-    {
-      "name": "Paul A. Gosar",
-      "distance": 0.03363108680967646
+      "name": "Jeanne Shaheen",
+      "distance": 0.025031580054003813
     },
     {
       "name": "Marjorie Taylor Greene",
-      "distance": 0.03376581111124083
+      "distance": 0.025397047072445247
     },
     {
-      "name": "Margaret Wood Hassan",
-      "distance": 0.036121600186038244
+      "name": "Keith Alan Self",
+      "distance": 0.026223081436017395
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.028044607324760308
+    },
+    {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.02916659047609097
+    },
+    {
+      "name": "John Karl Fetterman",
+      "distance": 0.031007418467199076
     }
   ]
 }
