@@ -81,17 +81,17 @@
     "dw_nominate_dim1": 0.629,
     "dw_nominate_dim2": 0.021,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9982,
-    "party_unity_bp_pct": 0.0634,
-    "maverick_votes": 1,
+    "party_unity_pct": 0.9966,
+    "party_unity_bp_pct": 0.0619,
+    "maverick_votes": 2,
     "bipartisan_votes": 36,
     "maverick_bipartisan": 1,
-    "total_votes": 568,
+    "total_votes": 582,
     "missed_votes": 19,
-    "maverick_votes_all": 988,
+    "maverick_votes_all": 989,
     "bipartisan_votes_all": 265,
     "maverick_bipartisan_all": 35,
-    "total_votes_all": 6067,
+    "total_votes_all": 6081,
     "missed_votes_all": 240,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
@@ -101,11 +101,11 @@
     "dim1_percentile_party": 69,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 98,
+    "party_unity_percentile_party": 97,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 31
+    "reliability_percentile_party": 37
   },
-  "generated_at": "2025-11-03",
+  "generated_at": "2025-11-10",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -149,8 +149,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.502,
-      "dim2": 0.458
+      "dim1": 0.506,
+      "dim2": 0.408
     }
   ],
   "lobbying_contributions": [
@@ -197,6 +197,27 @@
   ],
   "lobbying_sum": 3438510.91,
   "maverick_votes": [
+    {
+      "date": "2025-10-29",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Rejected",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the United States Fish and Wildlife Service relating to \"Record of Decision for the Barred Owl Management Strategy; Washington, Oregon, and California\".",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 25,
+      "nay": 72,
+      "present": 0,
+      "bill": {
+        "code": "SJRES69",
+        "type": null,
+        "number": "SJRES69",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-03-14",
       "chamber": "senate",
@@ -433,6 +454,156 @@
   ],
   "key_votes": [
     {
+      "date": "2025-10-30",
+      "chamber": "senate",
+      "question": "On the Joint Resolution",
+      "vote_result": "Joint Resolution Passed",
+      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
+      "vote_question": "On the Joint Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 51,
+      "nay": 47,
+      "present": 0,
+      "bill": {
+        "code": "SJRES88",
+        "type": null,
+        "number": "SJRES88",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 600
+    },
+    {
+      "date": "2025-10-29",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 51,
+      "nay": 47,
+      "present": 0,
+      "bill": {
+        "code": "PN4662",
+        "type": null,
+        "number": "PN4662",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 596
+    },
+    {
+      "date": "2025-10-28",
+      "chamber": "senate",
+      "question": "On the Joint Resolution",
+      "vote_result": "Joint Resolution Passed",
+      "vote_desc": "A joint resolution terminating the national emergency declared to impose duties on articles imported from Brazil.",
+      "vote_question": "On the Joint Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "SJRES81",
+        "type": null,
+        "number": "SJRES81",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 594
+    },
+    {
+      "date": "2025-10-28",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Jordan Emery Pratt, of Florida, to be United States District Judge for the Middle District of Florida",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 47,
+      "present": 0,
+      "bill": {
+        "code": "PN3466",
+        "type": null,
+        "number": "PN3466",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 592
+    },
+    {
+      "date": "2025-10-27",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Bill Lewis, of Alabama, to be United States District Judge for the Middle District of Alabama",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 58,
+      "nay": 40,
+      "present": 0,
+      "bill": {
+        "code": "PN4663",
+        "type": null,
+        "number": "PN4663",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 589
+    },
+    {
+      "date": "2025-10-27",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Rebecca L. Taibleson, of Wisconsin, to be United States Circuit Judge for the Seventh Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN5205",
+        "type": null,
+        "number": "PN5205",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 588
+    },
+    {
       "date": "2025-10-21",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -531,156 +702,6 @@
         "title": ""
       },
       "rollnumber": 554
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Miles City Field Office Record of Decision and Approved Resource Management Plan Amendment\".",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "HJRES104",
-        "type": null,
-        "number": "HJRES104",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 549
-    },
-    {
-      "date": "2025-10-07",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Paul Atkins, of Virginia, to be a Member of the Securities and Exchange Commission for a term expiring June 5, 2031; and James Baehr, of Louisiana, to be General Counsel, Department of Veterans Affairs; and Patrick David Davis, of Maryland, to be an Assistant Attorney General; and Leah Campos, of Virginia, to be Ambassador to the Dominican Republic; and Brandon Judd, of Idaho, to be Ambassador to the Republic of Chile; and Joseph Popolo, of Texas, to be Ambassador to the Kingdom of the Netherlands; and Catherine Jereza, of Maryland, to be an Assistant Secretary of Energy (Electricity); and Ned Mamula, of Pennsylvania, to be Director of the United States Geological Survey; and David Fink, of New Hampshire, to be Administrator of the Federal Railroad Administration; and Pierre Gentin, of New York, to be General Counsel of the Department of Commerce; and David Fogel, of Connecticut, to be Assistant Secretary of Commerce and Director General of the United States and Foreign Commercial Service; and Devon Westhill, of Florida, to be an Assistant Secretary of Agriculture; and Kirsten Baesler, of North Dakota, to be Assistant Secretary for Elementary and Secondary Education, Department of Education; and Wayne Palmer, of Virginia, to be Assistant Secretary of Labor for Mine Safety and Health; and Julie Hocker, of Virginia, to be an Assistant Secretary of Labor; and Marco Rajkovich, Jr., of Virginia, to be a Member of the Federal Mine Safety and Health Review Commission for a term of six years expiring August 30, 2030; and John Busterud, of California, to be Assistant Administrator, Office of Solid Waste, Environmental Protection Agency; and Stanley Woodward, Jr., of the District of Columbia, to be Associate Attorney General; and Janet Dhillon, of Virginia, to be Director of the Pension Benefit Guaranty Corporation for a term of five years; and David Keeling, of Kentucky, to be an Assistant Secretary of Labor; and Kimberly Richey, of Texas, to be Assistant Secretary for Civil Rights, Department of Education; and Jonathan Berry, of Maryland, to be Solicitor for the Department of Labor; and Andrew Rogers, of Virginia, to be Administrator of the Wage and Hour Division, Department of Labor; and Marc Andersen, of Virginia, to be an Assistant Secretary of the Army; and James Woodruff II, of Florida, to be a Member of the Merit Systems Protection Board for the term of seven years expiring March 1, 2032; and Kevin Rhodes, of Florida, to be Administrator for Federal Procurement Policy; and Usha-Maria Turner, of Oklahoma, to be an Assistant Administrator of the Environmental Protection Agency; and John Dever, of Illinois, to be General Counsel of the Office of the Director of National Intelligence; and Joseph Barloon, of Maryland, to be a Deputy United States Trade Representative (Geneva Office), with the rank of Ambassador; and Brian Morrissey, Jr., of Virginia, to be General Counsel for the Department of the Treasury; and Craig Trainor, of Virginia, to be an Assistant Secretary of Housing and Urban Development; and Francis Brooke, of Virginia, to be an Assistant Secretary of the Treasury; and David Peters, of Virginia, to be an Assistant Secretary of Commerce; and Mary Riley, of the District of Columbia, to be Assistant Secretary for Legislation and Congressional Affairs, Department of Education; and Brian Christine, of Alabama, to be an Assistant Secretary of Health and Human Services; and Jonathan Snare, of Virginia, to be a Member of the Occupational Safety and Health Review Commission for a term expiring April 27, 2029; and David Brian Castillo, of Washington, to be Chief Financial Officer, Department of Labor; and David Barker, of Iowa, to be Assistant Secretary for Postsecondary Education, Department of Education; and Brittany Panuccio, of Florida, to be a Member of the Equal Employment Opportunity Commission for a term expiring July 1, 2029; and Michael Boren, of Idaho, to be Under Secretary of Agriculture for Natural Resources and Environment; and Audrey Robertson, of Colorado, to be an Assistant Secretary of Energy (Energy Efficiency and Renewable Energy); and Lanny Erdos, of Ohio, to be Director of the Office of Surface Mining Reclamation and Enforcement; and Taylor Jordan, of the District of Columbia, to be an Assistant Secretary of Commerce; and Derek Barrs, of Florida, to be Administrator of the Federal Motor Carrier Safety Administration; and Michael Rutherford, of Florida, to be an Assistant Secretary of Transportation; and Gregory Zerzan, of Texas, to be General Counsel of the Department of Transportation; and Christopher Fox, of Virginia, to be Inspector General of the Intelligence Community, Office of the Director of National Intelligence; and Alex Adams, of Idaho, to be Assistant Secretary for Family Support, Department of Health and Human Services; and Jonathan McKernan, of Tennessee, to be an Under Secretary of the Treasury; and Macon Hughes, of Texas, to be an Assistant Secretary of Defense; and Philip Weinberg, of Virginia, to be an Assistant Secretary of the Air Force; and Timothy John Walsh, of Colorado, to be an Assistant Secretary of Energy (Environmental Management); and Gustav Chiarello III, of Virginia, to be an Assistant Secretary of Health and Human Services; and Michael Stuart, of West Virginia, to be General Counsel of the Department of Health and Human Services; and William Kirkland, of Georgia, to be an Assistant Secretary of the Interior; and Laura Swett, of Virginia, to be a Member of the Federal Energy Regulatory Commission for a term expiring June 30, 2030; and David LaCerte, of Louisiana, to be a Member of the Federal Energy Regulatory Commission for the remainder of the term expiring June 30, 2026; and Arch Capito, of West Virginia, to be United States Attorney for the Southern District of West Virginia for the term of four years; and David Dunavant, of Tennessee, to be United States Attorney for the Western District of Tennessee for the term of four years; and Matthew Harvey, of West Virginia, to be United States Attorney for the Northern District of West Virginia for the term of four years; and John Heekin, of Florida, to be United States Attorney for the Northern District of Florida for the term of four years; and Leif Olson, of Iowa, to be United States Attorney for the Northern District of Iowa for the term of four years; and Adam Sleeper, of the Virgin Islands, to be United States Attorney for the District of the Virgin Islands for the term of four years; and David Toepfer, of Ohio, to be United States Attorney for the Northern District of Ohio for the term of four years; and Kurt Alme, of Montana, to be United States Attorney for the District of Montana, for the term of four years; and Nicholas Chase, of North Dakota, to be United States Attorney for the District of North Dakota for the term of four years; and Bart McKay Davis, of Idaho, to be United States Attorney for the District of Idaho for the term of four years; and David Metcalf, of Pennsylvania, to be United States Attorney for the Eastern District of Pennsylvania for the term of four years; and Lesley Murphy, of Nebraska, to be United States Attorney for the District of Nebraska for the term of four years; and Ronald A. Parsons, Jr., of South Dakota, to be United States Attorney for the District of South Dakota for the term of four years; and Kurt Wall, of Louisiana, to be United States Attorney for the Middle District of Louisiana for the term of four years; and David Charles Waterman, of Iowa, to be United States Attorney for the Southern District of Iowa for the term of four years; and Daniel Rosen, of Florida, to be United States Attorney for the District of Minnesota for the term of four years; and Somers Farkas, of New York, to be Ambassador to the Republic of Malta; and Nicole McGraw, of Florida, to be Ambassador to the Republic of Croatia; and Leandro Rizzuto, of Florida, to be Permanent Representative of the United States of America to the Organization of American States, with the rank of Ambassador; and Herschel Walker, of Georgia, to be Ambassador to the Commonwealth of The Bahamas; and Stacey Feinberg, of California, to be Ambassador to the Grand Duchy of Luxembourg; and Kenneth Howery, of Texas, to be Ambassador to the Kingdom of Denmark; and Richard Buchan III, of Florida, to be Ambassador to the Kingdom of Morocco; and Bill Bazzi, of Michigan, to be Ambassador to the Republic of Tunisia; and Lynda Blanchard, of Alabama, to be U.S. Representative to the United Nations Agencies for Food and Agriculture, with the rank of Ambassador; and Howard Brodie, of Florida, to be Ambassador to the Republic of Finland; and Arthur Fisher, of North Carolina, to be Ambassador to the Republic of Austria; and Melinda Hildebrand, of Texas, to be Ambassador to the Republic of Costa Rica; and Michel Issa, of Florida, to be Ambassador to the Lebanese Republic; and Nicholas Merrick, of Texas, to be Ambassador to the Czech Republic; and Roman Pipko, of Florida, to be Ambassador to the Republic of Estonia; and Thomas Rose, of Florida, to be Ambassador to the Republic of Poland; and William White, of New York, to be Ambassador to the Kingdom of Belgium; and John Giordano, of Pennsylvania, to be Ambassador to the Republic of Namibia; and Anjani Sinha, of Florida, to be Ambassador to the Republic of Singapore; and Sean O'Neill, of Virginia, to be Ambassador to the Kingdom of Thailand; and Julie Stufft, of Ohio, to be Ambassador to the Republic of Kazakhstan; and Dan Negrea, of Connecticut, to be Representative of the United States of America on the Economic and Social Council of the United Nations, with the rank of Ambassador, and to serve concurrently and without additional compensation as an Alternate Representative of the United States of America to the Sessions of the General Assembly of the United Nations; and Sergio Gor, of Florida, to be Ambassador to the Republic of India; and Stephanie Hallett, of Florida, to be Ambassador to the Kingdom of Bahrain; and James Holtsnider, of Iowa, to be Ambassador to the Hashemite Kingdom of Jordan; and Jacob Helberg, of Florida, to be an Under Secretary of State (Economic Growth, Energy, and the Environment); and Benjamin Black, of New York, to be Chief Executive Officer of the United States International Development Finance Corporation; and Thomas DiNanno, of Florida, to be Under Secretary of State for Arms Control and International Security; and Paul Kapur, of California, to be Assistant Secretary of State for South Asian Affairs; and Sarah Rogers, of New York, to be Under Secretary of State for Public Diplomacy; and Michael DeSombre, of Illinois, to be an Assistant Secretary of State (East Asian and Pacific Affairs); and Riley Barnes, of Texas, to be Assistant Secretary of State for Democracy, Human Rights, and Labor; and Todd Wilcox, of Florida, to be an Assistant Secretary of State (Diplomatic Security); and Neil Jacobs, of North Carolina, to be Under Secretary of Commerce for Oceans and Atmosphere",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN229",
-        "type": null,
-        "number": "PN229",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 547
-    },
-    {
-      "date": "2025-09-30",
-      "chamber": "senate",
-      "question": "On Passage of the Bill",
-      "vote_result": "Bill Defeated",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On Passage of the Bill",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 55,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 535
-    },
-    {
-      "date": "2025-09-30",
-      "chamber": "senate",
-      "question": "On Passage of the Bill",
-      "vote_result": "Bill Defeated",
-      "vote_desc": "A bill making continuing appropriations for the fiscal year ending September 30, 2026, and for other purposes.",
-      "vote_question": "On Passage of the Bill",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 53,
-      "present": 0,
-      "bill": {
-        "code": "S2882",
-        "type": null,
-        "number": "S2882",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 534
-    },
-    {
-      "date": "2025-09-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Michael G. Waltz, of Florida, to be Representative of the United States of America to the Sessions of the General Assembly of the United Nations during his tenure of service as Representative of the United States of America to the United Nations",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 54,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN342",
-        "type": null,
-        "number": "PN342",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 532
-    },
-    {
-      "date": "2025-09-18",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Peter Lamelas, of Florida, to be Ambassador to the Argentine Republic; and Christine Toretti, of Pennsylvania, to be Ambassador to the Kingdom of Sweden; and Kimberly Guilfoyle, of Florida, to be Ambassador to Greece; and Callista Gingrich, of Florida, to be Ambassador to the Swiss Confederation, and to serve concurrently and without additional compensation as Ambassador to the Principality of Liechtenstein; and Bryan Switzer, of Virginia, to be a Deputy United States Trade Representative (Asia, Textiles, Investment, Services, and Intellectual Property), with the rank of Ambassador; and Katherine Scarlett, of Ohio, to be a Member of the Council on Environmental Quality; and Edward Aloysius O'Connell, of the District of Columbia, to be an Associate Judge of the Superior Court of the District of Columbia for the term of fifteen years; and Jason Evans, of Texas, to be an Under Secretary of State (Management); and Jonathan Morrison, of California, to be Administrator of the National Highway Traffic Safety Administration; and Paul Roberti, of Rhode Island, to be Administrator of the Pipeline and Hazardous Materials Safety Administration, Department of Transportation; and Richard Fordyce, of Missouri, to be Under Secretary of Agriculture for Farm Production and Conservation; and Jovan Jovanovic, of Pennsylvania, to be President of the Export-Import Bank of the United States for a term expiring January 20, 2029; and Benjamin DeMarzo, of Virginia, to be an Assistant Secretary of Housing and Urban Development; and Scott Hutchins, of Indiana, to be Under Secretary of Agriculture for Research, Education, and Economics; and Dudley Hoskins, of the District of Columbia, to be Under Secretary of Agriculture for Marketing and Regulatory Programs; and Jennifer Locetta, of Florida, to be Alternate Representative of the United States of America for Special Political Affairs in the United Nations, with the rank of Ambassador, and to serve concurrently and without additional compensation as an Alternate Representative of the United States of America to the Sessions of the General Assembly of the United Nations; and Jeffrey Bartos, of Pennsylvania, to be Representative of the United States of America to the United Nations for U.N. Management and Reform, with the Rank of Ambassador, and to serve concurrently and without additional compensation as an Alternate Representative of the United States of America to the Sessions of the General Assembly of the United Nations; and Peter Thomson, of Louisiana, to be Inspector General, Central Intelligence Agency; and George Wesley Street, of Virginia, to be Director of the National Counterintelligence and Security Center; and Brent Ingraham, of Virginia, to be an Assistant Secretary of the Army; and Jules Hurst III, of Virginia, to be an Assistant Secretary of the Army; and William Gillis, of Virginia, to be an Assistant Secretary of the Army; and Michael Dodd, of Indiana, to be an Assistant Secretary of Defense; and Daniel Aronowitz, of Virginia, to be an Assistant Secretary of Labor; and John Squires, of Florida, to be Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office; and Donald Bergin III, of Virginia, to be an Assistant Secretary of Veterans Affairs (Congressional and Legislative Affairs); and Sean McMaster, of Virginia, to be Administrator of the Federal Highway Administration; and Robert Gleason, of Pennsylvania, to be Director of the Amtrak Board of Directors for a term of five years; and Jonathan Brightbill, of Virginia, to be General Counsel of the Department of Energy; and Tina Pierce, of Idaho, to be Chief Financial Officer, Department of Energy; and Conner Prochaska, of Texas, to be Director of the Advanced Research Projects Agency-Energy, Department of Energy; and Richard Anderson, of Virginia, to be an Assistant Secretary of the Air Force; and Matthew Napoli, of Virginia, to be Deputy Administrator for Defense Nuclear Nonproliferation, National Nuclear Security Administration; and Kyle Haustveit, of Oklahoma, to be an Assistant Secretary of Energy (Fossil Energy); and William L. Doffermyre, of Texas, to be Solicitor of the Department of the Interior; and Katherine Sutton, of Illinois, to be an Assistant Secretary of Defense; and Michael Obadal, of Virginia, to be Under Secretary of the Army; and Sean O'Keefe, of Virginia, to be a Deputy Under Secretary of Defense; and Michael Cadenazzi, of Rhode Island, to be an Assistant Secretary of Defense; and Scott Pappano, of Pennsylvania, to be Principal Deputy Administrator, National Nuclear Security Administration; and Justin Overbaugh, of Florida, to be a Deputy Under Secretary of Defense; and Andrea Travnicek, of North Dakota, to be an Assistant Secretary of the Interior; and Theodore J. Garrish, of Maryland, to be an Assistant Secretary of Energy (Nuclear Energy); and Leslie Beyer, of Texas, to be an Assistant Secretary of the Interior; and Tristan Abbey, of Florida, to be Administrator of the Energy Information Administration; and Brandon Williams, of New York, to be Under Secretary for Nuclear Security; and Dario Gil, of New York, to be Under Secretary for Science, Department of Energy; and Jessica Kramer, of Wisconsin, to be an Assistant Administrator of the Environmental Protection Agency",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN2528",
-        "type": null,
-        "number": "PN2528",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 526
     }
   ],
   "fec": {
@@ -3511,44 +3532,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "John Cornyn",
-      "distance": 0.0014035668847618176
-    },
-    {
-      "name": "Katie Elizabeth Britt",
-      "distance": 0.0020808652046684227
-    },
-    {
-      "name": "Marsha W. Blackburn",
-      "distance": 0.0023430749027720152
-    },
-    {
       "name": "Jim Conley Justice",
-      "distance": 0.0024041630560342076
-    },
-    {
-      "name": "James Lankford",
-      "distance": 0.003306055050963277
-    },
-    {
-      "name": "Tommy Hawley Tuberville",
-      "distance": 0.003512833614050008
+      "distance": 0.00020000000000000573
     },
     {
       "name": "James E. Risch",
-      "distance": 0.003517101079013754
+      "distance": 0.0018788294228056289
+    },
+    {
+      "name": "Katie Elizabeth Britt",
+      "distance": 0.00202484567313169
+    },
+    {
+      "name": "Marsha W. Blackburn",
+      "distance": 0.0023600847442411988
+    },
+    {
+      "name": "James Lankford",
+      "distance": 0.003301514803843916
+    },
+    {
+      "name": "Tommy Hawley Tuberville",
+      "distance": 0.0035128336140501175
+    },
+    {
+      "name": "John Cornyn",
+      "distance": 0.003535533905932706
+    },
+    {
+      "name": "Eric Stephen Schmitt",
+      "distance": 0.0035468295701937135
     },
     {
       "name": "Roger Marshall",
-      "distance": 0.0036769552621700083
+      "distance": 0.0035846896657870577
     },
     {
       "name": "Michael D. Crapo",
-      "distance": 0.003758989225842472
-    },
-    {
-      "name": "Tim Patrick Sheehy",
-      "distance": 0.0038013155617496086
+      "distance": 0.003757658845611207
     }
   ]
 }
