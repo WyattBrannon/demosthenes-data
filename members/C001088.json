@@ -97,17 +97,17 @@
     "dw_nominate_dim1": -0.236,
     "dw_nominate_dim2": -0.219,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9358,
-    "party_unity_bp_pct": 0.1146,
-    "maverick_votes": 37,
-    "bipartisan_votes": 66,
-    "maverick_bipartisan": 32,
-    "total_votes": 576,
+    "party_unity_pct": 0.9333,
+    "party_unity_bp_pct": 0.1162,
+    "maverick_votes": 39,
+    "bipartisan_votes": 68,
+    "maverick_bipartisan": 34,
+    "total_votes": 585,
     "missed_votes": 25,
-    "maverick_votes_all": 889,
-    "bipartisan_votes_all": 388,
-    "maverick_bipartisan_all": 39,
-    "total_votes_all": 5110,
+    "maverick_votes_all": 891,
+    "bipartisan_votes_all": 390,
+    "maverick_bipartisan_all": 41,
+    "total_votes_all": 5119,
     "missed_votes_all": 146,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
@@ -117,11 +117,11 @@
     "dim1_percentile_party": 10,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 74,
-    "party_unity_percentile_party": 17,
+    "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 25
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -170,8 +170,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.259,
-      "dim2": -0.204
+      "dim1": -0.255,
+      "dim2": -0.206
     }
   ],
   "lobbying_contributions": [
@@ -218,6 +218,48 @@
   ],
   "lobbying_sum": 626598.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-21",
       "chamber": "senate",
@@ -382,48 +424,6 @@
         "code": "PN227",
         "type": null,
         "number": "PN227",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-11",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Qatar of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 39,
-      "nay": 56,
-      "present": 0,
-      "bill": {
-        "code": "SJRES53",
-        "type": null,
-        "number": "SJRES53",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-11",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of the United Arab Emirates of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 39,
-      "nay": 56,
-      "present": 0,
-      "bill": {
-        "code": "SJRES54",
-        "type": null,
-        "number": "SJRES54",
         "congress": 119,
         "title": ""
       }
@@ -643,6 +643,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
+    {
       "date": "2025-10-30",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -816,81 +891,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -2951,44 +2951,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "John F. Reed",
-      "distance": 0.0033015148038438324
+      "name": "Martin Heinrich",
+      "distance": 0.0018788294228056098
     },
     {
-      "name": "Martin Heinrich",
-      "distance": 0.005770615218501375
+      "name": "John F. Reed",
+      "distance": 0.007517978451684965
     },
     {
       "name": "Gary C. Peters",
-      "distance": 0.009873196037758
+      "distance": 0.00780064099930252
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.010754068997360935
+      "distance": 0.008276472678623454
     },
     {
       "name": "Amy Jean Klobuchar",
-      "distance": 0.011768602295939842
-    },
-    {
-      "name": "Kirsten E. Gillibrand",
-      "distance": 0.01417356694696155
-    },
-    {
-      "name": "Joshua Hawley",
-      "distance": 0.015380832227158579
+      "distance": 0.012980754985747169
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.017532826355154494
+      "distance": 0.01360036764208968
+    },
+    {
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.018720042734993968
+    },
+    {
+      "name": "Joshua Hawley",
+      "distance": 0.0199649693212887
     },
     {
       "name": "Richard J. Durbin",
-      "distance": 0.018350476833041734
+      "distance": 0.02044749373395184
     },
     {
       "name": "Andy Kim",
-      "distance": 0.019573451407454923
+      "distance": 0.022418073066166954
     }
   ]
 }

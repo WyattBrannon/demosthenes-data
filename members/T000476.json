@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NC",
     "district": null,
-    "tenure_years": 10.8,
+    "tenure_years": 10.9,
     "committees": [
       {
         "name": "Senate Committee on Banking, Housing, and Urban Affairs",
@@ -81,18 +81,18 @@
     "dw_nominate_dim1": 0.388,
     "dw_nominate_dim2": -0.108,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.983,
-    "party_unity_bp_pct": 0.0849,
+    "party_unity_pct": 0.9832,
+    "party_unity_bp_pct": 0.084,
     "maverick_votes": 9,
     "bipartisan_votes": 45,
     "maverick_bipartisan": 8,
-    "total_votes": 530,
-    "missed_votes": 71,
+    "total_votes": 536,
+    "missed_votes": 74,
     "maverick_votes_all": 487,
     "bipartisan_votes_all": 640,
     "maverick_bipartisan_all": 316,
-    "total_votes_all": 3783,
-    "missed_votes_all": 279,
+    "total_votes_all": 3789,
+    "missed_votes_all": 282,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
     "pu_median_party": 97.11999999999999,
@@ -105,7 +105,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 2
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -139,8 +139,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.394,
-      "dim2": -0.12
+      "dim1": 0.395,
+      "dim2": -0.114
     }
   ],
   "lobbying_contributions": [
@@ -379,6 +379,69 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Rejected",
+      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 54,
+      "nay": 44,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-03",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Eric Chunyee Tung, of California, to be United States Circuit Judge for the Ninth Circuit",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4003",
+        "type": null,
+        "number": "PN4003",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-10-29",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -524,72 +587,84 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-10-14",
-      "chamber": "senate",
-      "question": "On Cloture on the Motion to Proceed",
-      "vote_result": "Cloture on the Motion to Proceed Rejected",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On Cloture on the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 49,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-09",
-      "chamber": "senate",
-      "question": "On the Motion to Proceed",
-      "vote_result": "Motion to Proceed Agreed to",
-      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
-      "vote_question": "On the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 50,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "HJRES106",
-        "type": null,
-        "number": "HJRES106",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-09",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Rejected",
-      "vote_desc": "To require Presidential appointment and Senate confirmation of the Inspector General of the Board of Governors of the Federal Reserve System and the Bureau of Consumer Financial Protection.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 53,
-      "nay": 43,
-      "present": 0,
-      "bill": {
-        "code": "S2296",
-        "type": null,
-        "number": "S2296",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
     {
       "date": "2025-10-30",
       "chamber": "senate",
@@ -764,81 +839,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -3946,43 +3946,43 @@
   "vote_record_similar": [
     {
       "name": "John Thune",
-      "distance": 0.001303840481040498
+      "distance": 0.001334166406412604
     },
     {
       "name": "Maria Cantwell",
-      "distance": 0.009381364506296518
+      "distance": 0.009374433316206309
     },
     {
       "name": "Dan Sullivan",
-      "distance": 0.010822661410207775
+      "distance": 0.010373041983911903
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.012403628501370039
+      "distance": 0.01212023102090055
     },
     {
       "name": "Mike Rounds",
-      "distance": 0.012814444974324914
+      "distance": 0.012897286536322324
     },
     {
       "name": "Jerry Moran",
-      "distance": 0.013296992141082162
+      "distance": 0.013384319183283132
     },
     {
       "name": "Tammy Baldwin",
-      "distance": 0.01502331521336085
+      "distance": 0.01500733154161659
     },
     {
       "name": "Charles E. Grassley",
-      "distance": 0.015976545308670487
+      "distance": 0.016006561154726557
     },
     {
       "name": "John Boozman",
-      "distance": 0.016900000000000012
+      "distance": 0.016972919607421724
     },
     {
       "name": "Mitch McConnell",
-      "distance": 0.017613914953808485
+      "distance": 0.017301156030739662
     }
   ]
 }

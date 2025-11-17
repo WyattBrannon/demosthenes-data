@@ -62,17 +62,17 @@
     "dw_nominate_dim2": 0.195,
     "dim1_percentile_chamber": null,
     "party_unity_pct": 0.9983,
-    "party_unity_bp_pct": 0.0694,
+    "party_unity_bp_pct": 0.0684,
     "maverick_votes": 1,
     "bipartisan_votes": 41,
     "maverick_bipartisan": 1,
-    "total_votes": 591,
-    "missed_votes": 10,
+    "total_votes": 599,
+    "missed_votes": 11,
     "maverick_votes_all": 479,
     "bipartisan_votes_all": 315,
     "maverick_bipartisan_all": 29,
-    "total_votes_all": 5168,
-    "missed_votes_all": 96,
+    "total_votes_all": 5176,
+    "missed_votes_all": 97,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
     "pu_median_party": 97.11999999999999,
@@ -83,9 +83,9 @@
     "dim2_percentile_party": 75,
     "party_unity_percentile_party": 99,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 55
+    "reliability_percentile_party": 51
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -125,7 +125,7 @@
     {
       "congress": 119,
       "dim1": 0.515,
-      "dim2": 0.26
+      "dim2": 0.262
     }
   ],
   "lobbying_contributions": [
@@ -195,6 +195,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-03",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Eric Chunyee Tung, of California, to be United States Circuit Judge for the Ninth Circuit",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4003",
+        "type": null,
+        "number": "PN4003",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -383,30 +404,84 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-05-07",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Comptroller of the Currency of the Department of the Treasury relating to the review of applications under the Bank Merger Act.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 52,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES13",
-        "type": null,
-        "number": "SJRES13",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
     {
       "date": "2025-10-30",
       "chamber": "senate",
@@ -581,81 +656,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -3423,7 +3423,7 @@
     },
     {
       "name": "John Hoeven",
-      "distance": 0.002780287754891528
+      "distance": 0.0027202941017470564
     },
     {
       "name": "Tim Patrick Sheehy",
@@ -3431,23 +3431,23 @@
     },
     {
       "name": "Kevin Cramer",
-      "distance": 0.0035510561809128896
+      "distance": 0.0034525353003263736
     },
     {
       "name": "Markwayne Mullin",
-      "distance": 0.003601388621073758
+      "distance": 0.0035057096285915686
     },
     {
       "name": "Cindy Hyde-Smith",
-      "distance": 0.0038013155617496086
+      "distance": 0.0037121422386540933
     },
     {
       "name": "Shelley Moore Capito",
-      "distance": 0.0038013155617496086
+      "distance": 0.0037121422386540933
     },
     {
       "name": "Lindsey O. Graham",
-      "distance": 0.00393954312071838
+      "distance": 0.0038078865529319063
     },
     {
       "name": "Dave Harold McCormick",
@@ -3455,7 +3455,7 @@
     },
     {
       "name": "John Cornyn",
-      "distance": 0.004400000000000001
+      "distance": 0.004301162633521312
     }
   ]
 }

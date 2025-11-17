@@ -73,17 +73,17 @@
     "dw_nominate_dim1": -0.356,
     "dw_nominate_dim2": 0.324,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9041,
-    "party_unity_bp_pct": 0.1558,
-    "maverick_votes": 56,
-    "bipartisan_votes": 91,
-    "maverick_bipartisan": 55,
-    "total_votes": 584,
+    "party_unity_pct": 0.9022,
+    "party_unity_bp_pct": 0.1568,
+    "maverick_votes": 58,
+    "bipartisan_votes": 93,
+    "maverick_bipartisan": 57,
+    "total_votes": 593,
     "missed_votes": 17,
-    "maverick_votes_all": 742,
-    "bipartisan_votes_all": 432,
-    "maverick_bipartisan_all": 74,
-    "total_votes_all": 3514,
+    "maverick_votes_all": 744,
+    "bipartisan_votes_all": 434,
+    "maverick_bipartisan_all": 76,
+    "total_votes_all": 3523,
     "missed_votes_all": 46,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
@@ -93,11 +93,11 @@
     "dim1_percentile_party": 43,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 86,
-    "party_unity_percentile_party": 7,
+    "party_unity_percentile_party": 6,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 38
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -126,8 +126,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.347,
-      "dim2": 0.547
+      "dim1": -0.348,
+      "dim2": 0.556
     }
   ],
   "lobbying_contributions": [
@@ -174,6 +174,48 @@
   ],
   "lobbying_sum": 420848.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-09",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Agreed to",
+      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 60,
+      "nay": 40,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Rejected",
+      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 44,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-28",
       "chamber": "senate",
@@ -333,48 +375,6 @@
       "member_position": "Yea",
       "yea": 54,
       "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On Cloture on the Motion to Proceed",
-      "vote_result": "Cloture on the Motion to Proceed Rejected",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On Cloture on the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 54,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-06",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Rejected",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 52,
-      "nay": 42,
       "present": 0,
       "bill": {
         "code": "HR5371",
@@ -599,6 +599,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
+    {
       "date": "2025-10-30",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -772,81 +847,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -4163,43 +4163,43 @@
   "vote_record_similar": [
     {
       "name": "Elissa Slotkin",
-      "distance": 0.0013038404810405628
-    },
-    {
-      "name": "Ruben Gallego",
-      "distance": 0.005762811813689528
+      "distance": 0.003546829570193665
     },
     {
       "name": "Mark Kelly",
-      "distance": 0.008805112151472009
+      "distance": 0.00638200595424357
     },
     {
-      "name": "Timothy Kaine",
-      "distance": 0.01867243958351449
+      "name": "Ruben Gallego",
+      "distance": 0.010846658471621556
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.019058856209122323
+      "distance": 0.01654841382126999
+    },
+    {
+      "name": "Timothy Kaine",
+      "distance": 0.020793268141396155
     },
     {
       "name": "Mark R. Warner",
-      "distance": 0.029231831964486924
-    },
-    {
-      "name": "Rand Paul",
-      "distance": 0.03476118525021835
+      "distance": 0.024020824298928583
     },
     {
       "name": "Susan M. Collins",
-      "distance": 0.03620386719675129
+      "distance": 0.030971277015970806
+    },
+    {
+      "name": "Rand Paul",
+      "distance": 0.037278680234149944
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.037106468438804566
+      "distance": 0.041260634992690066
     },
     {
       "name": "Angus S. King",
-      "distance": 0.03746465000503809
+      "distance": 0.041618385360318824
     }
   ]
 }

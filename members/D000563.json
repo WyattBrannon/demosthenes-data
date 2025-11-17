@@ -69,17 +69,17 @@
     "dw_nominate_dim1": -0.345,
     "dw_nominate_dim2": -0.306,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9473,
-    "party_unity_bp_pct": 0.1003,
-    "maverick_votes": 31,
-    "bipartisan_votes": 59,
-    "maverick_bipartisan": 25,
-    "total_votes": 588,
+    "party_unity_pct": 0.9464,
+    "party_unity_bp_pct": 0.1005,
+    "maverick_votes": 32,
+    "bipartisan_votes": 60,
+    "maverick_bipartisan": 26,
+    "total_votes": 597,
     "missed_votes": 13,
-    "maverick_votes_all": 4181,
-    "bipartisan_votes_all": 362,
-    "maverick_bipartisan_all": 27,
-    "total_votes_all": 16387,
+    "maverick_votes_all": 4182,
+    "bipartisan_votes_all": 363,
+    "maverick_bipartisan_all": 28,
+    "total_votes_all": 16396,
     "missed_votes_all": 338,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
@@ -91,9 +91,9 @@
     "dim2_percentile_party": 82,
     "party_unity_percentile_party": 23,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 43
+    "reliability_percentile_party": 46
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -207,7 +207,7 @@
     },
     {
       "congress": 119,
-      "dim1": -0.277,
+      "dim1": -0.278,
       "dim2": -0.429
     }
   ],
@@ -255,6 +255,27 @@
   ],
   "lobbying_sum": 102971.85,
   "maverick_votes": [
+    {
+      "date": "2025-11-09",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Agreed to",
+      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 60,
+      "nay": 40,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-27",
       "chamber": "senate",
@@ -440,27 +461,6 @@
         "code": "PN2640",
         "type": null,
         "number": "PN2640",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Marcus Molinaro, of New York, to be Federal Transit Administrator",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 71,
-      "nay": 23,
-      "present": 0,
-      "bill": {
-        "code": "PN2218",
-        "type": null,
-        "number": "PN2218",
         "congress": 119,
         "title": ""
       }
@@ -680,6 +680,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
+    {
       "date": "2025-10-30",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -853,81 +928,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -4835,43 +4835,43 @@
   "vote_record_similar": [
     {
       "name": "Joshua Hawley",
-      "distance": 0.003041381265149136
-    },
-    {
-      "name": "Jon Ossoff",
-      "distance": 0.00613269924258473
+      "distance": 0.0009486832980505015
     },
     {
       "name": "Kirsten E. Gillibrand",
-      "distance": 0.006303173803727769
+      "distance": 0.004884669896727921
     },
     {
-      "name": "Michael F. Bennet",
-      "distance": 0.014516542288024315
-    },
-    {
-      "name": "Andy Kim",
-      "distance": 0.014993998799519759
+      "name": "Jon Ossoff",
+      "distance": 0.006041522986797241
     },
     {
       "name": "John F. Reed",
-      "distance": 0.015841717078650334
+      "distance": 0.013155227098001812
+    },
+    {
+      "name": "Andy Kim",
+      "distance": 0.013918692467326084
+    },
+    {
+      "name": "Michael F. Bennet",
+      "distance": 0.01549322432549144
     },
     {
       "name": "Adam B. Schiff",
-      "distance": 0.017582377541163246
+      "distance": 0.016368567438844534
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.01799222054111163
+      "distance": 0.017768792868397106
+    },
+    {
+      "name": "Amy Jean Klobuchar",
+      "distance": 0.02042449509779861
     },
     {
       "name": "Christopher Andrew Coons",
-      "distance": 0.018350476833041734
-    },
-    {
-      "name": "Angela Deneece Alsobrooks",
-      "distance": 0.018885444130334876
+      "distance": 0.02044749373395184
     }
   ]
 }

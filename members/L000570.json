@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NM",
     "district": null,
-    "tenure_years": 16.8,
+    "tenure_years": 16.9,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -81,17 +81,17 @@
     "dw_nominate_dim1": -0.378,
     "dw_nominate_dim2": 0.026,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9547,
-    "party_unity_bp_pct": 0.0839,
-    "maverick_votes": 27,
-    "bipartisan_votes": 50,
-    "maverick_bipartisan": 19,
-    "total_votes": 596,
+    "party_unity_pct": 0.9537,
+    "party_unity_bp_pct": 0.0843,
+    "maverick_votes": 28,
+    "bipartisan_votes": 51,
+    "maverick_bipartisan": 20,
+    "total_votes": 605,
     "missed_votes": 5,
-    "maverick_votes_all": 3409,
-    "bipartisan_votes_all": 356,
-    "maverick_bipartisan_all": 24,
-    "total_votes_all": 9993,
+    "maverick_votes_all": 3410,
+    "bipartisan_votes_all": 357,
+    "maverick_bipartisan_all": 25,
+    "total_votes_all": 10002,
     "missed_votes_all": 180,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
@@ -105,7 +105,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 70
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -154,12 +154,33 @@
     },
     {
       "congress": 119,
-      "dim1": -0.499,
-      "dim2": 0.3
+      "dim1": -0.506,
+      "dim2": 0.334
     }
   ],
   "lobbying_contributions": [],
   "maverick_votes": [
+    {
+      "date": "2025-11-07",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Rejected",
+      "vote_desc": "A bill to appropriate funds for pay and allowances of excepted Federal employees for periods of work performed during a lapse in appropriations, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 53,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "S3012",
+        "type": null,
+        "number": "S3012",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-08-02",
       "chamber": "senate",
@@ -348,27 +369,6 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-05-13",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Troy Meink, of Virginia, to be Secretary of the Air Force",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 72,
-      "nay": 26,
-      "present": 0,
-      "bill": {
-        "code": "PN1230",
-        "type": null,
-        "number": "PN1230",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
@@ -479,6 +479,81 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
     {
       "date": "2025-10-30",
       "chamber": "senate",
@@ -653,81 +728,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -3465,43 +3465,43 @@
   "vote_record_similar": [
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.001140175425099133
+      "distance": 0.0031304951684996835
     },
     {
       "name": "Mitch McConnell",
-      "distance": 0.010834205093129856
+      "distance": 0.012200409829181958
     },
     {
       "name": "Jon Ossoff",
-      "distance": 0.014016062214473792
+      "distance": 0.013817742217887848
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.015915401345866234
+      "distance": 0.017428711943227447
     },
     {
       "name": "Richard J. Durbin",
-      "distance": 0.01799222054111163
-    },
-    {
-      "name": "Tammy Baldwin",
-      "distance": 0.019188798815975964
-    },
-    {
-      "name": "Maria Cantwell",
-      "distance": 0.0206712360539954
-    },
-    {
-      "name": "Dan Sullivan",
-      "distance": 0.020821623375712053
-    },
-    {
-      "name": "Cory Anthony Booker",
-      "distance": 0.02089425758432204
+      "distance": 0.017768792868397106
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.021029740844813096
+      "distance": 0.01847728335010318
+    },
+    {
+      "name": "Cory Anthony Booker",
+      "distance": 0.020056171120131604
+    },
+    {
+      "name": "Michael F. Bennet",
+      "distance": 0.020761743664731054
+    },
+    {
+      "name": "Tammy Baldwin",
+      "distance": 0.02113575170179663
+    },
+    {
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.02139275578320847
     }
   ]
 }

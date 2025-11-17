@@ -69,17 +69,17 @@
     "dw_nominate_dim1": -0.229,
     "dw_nominate_dim2": 0.039,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8752,
-    "party_unity_bp_pct": 0.1906,
-    "maverick_votes": 74,
-    "bipartisan_votes": 113,
-    "maverick_bipartisan": 74,
-    "total_votes": 593,
+    "party_unity_pct": 0.8721,
+    "party_unity_bp_pct": 0.1927,
+    "maverick_votes": 77,
+    "bipartisan_votes": 116,
+    "maverick_bipartisan": 77,
+    "total_votes": 602,
     "missed_votes": 8,
-    "maverick_votes_all": 694,
-    "bipartisan_votes_all": 468,
-    "maverick_bipartisan_all": 100,
-    "total_votes_all": 3533,
+    "maverick_votes_all": 697,
+    "bipartisan_votes_all": 471,
+    "maverick_bipartisan_all": 103,
+    "total_votes_all": 3542,
     "missed_votes_all": 27,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
@@ -93,7 +93,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 61
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -122,8 +122,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.21,
-      "dim2": 0.031
+      "dim1": -0.209,
+      "dim2": 0.029
     }
   ],
   "lobbying_contributions": [
@@ -170,6 +170,69 @@
   ],
   "lobbying_sum": 504148.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-09",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Agreed to",
+      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 60,
+      "nay": 40,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-27",
       "chamber": "senate",
@@ -313,69 +376,6 @@
         "code": "PN242",
         "type": null,
         "number": "PN242",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Marcus Molinaro, of New York, to be Federal Transit Administrator",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 71,
-      "nay": 23,
-      "present": 0,
-      "bill": {
-        "code": "PN2218",
-        "type": null,
-        "number": "PN2218",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-31",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Gadyaces Serralta, of Florida, to be Director of the United States Marshals Service",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 59,
-      "nay": 39,
-      "present": 0,
-      "bill": {
-        "code": "PN2642",
-        "type": null,
-        "number": "PN2642",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-30",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed export of certain defense articles to Israel.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 27,
-      "nay": 70,
-      "present": 0,
-      "bill": {
-        "code": "SJRES41",
-        "type": null,
-        "number": "SJRES41",
         "congress": 119,
         "title": ""
       }
@@ -553,6 +553,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
+    {
       "date": "2025-10-30",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -726,81 +801,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -2165,44 +2165,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Jeanne Shaheen",
-      "distance": 0.005777542730261703
-    },
-    {
       "name": "Angus S. King",
-      "distance": 0.007780102827083981
+      "distance": 0.005269724850502179
     },
     {
-      "name": "Susan M. Collins",
-      "distance": 0.00977394495585071
+      "name": "Jeanne Shaheen",
+      "distance": 0.005818075283115524
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.010288342918079684
+      "distance": 0.006519202405202599
     },
     {
       "name": "Paul A. Gosar",
-      "distance": 0.014057738082636191
+      "distance": 0.012894960255851868
     },
     {
       "name": "Ralph Norman",
-      "distance": 0.015418495387034348
-    },
-    {
-      "name": "Mark R. Warner",
-      "distance": 0.017215400082484303
+      "distance": 0.014214429288578564
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.018203571078225265
+      "distance": 0.014509651959988545
     },
     {
-      "name": "Lauren Opal Boebert",
-      "distance": 0.020953758612716727
+      "name": "Susan M. Collins",
+      "distance": 0.01622467256988566
     },
     {
       "name": "Eric Wayne Burlison",
-      "distance": 0.023987079855622265
+      "distance": 0.020518284528683185
+    },
+    {
+      "name": "Eli Crane",
+      "distance": 0.020948030933717856
+    },
+    {
+      "name": "Lauren Opal Boebert",
+      "distance": 0.021803669415949224
     }
   ]
 }

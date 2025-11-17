@@ -4,7 +4,7 @@
     "party": "D",
     "state": "AZ",
     "district": null,
-    "tenure_years": 10.8,
+    "tenure_years": 10.9,
     "committees": [
       {
         "name": "Senate Committee on Banking, Housing, and Urban Affairs",
@@ -65,17 +65,17 @@
     "dw_nominate_dim1": -0.359,
     "dw_nominate_dim2": 0.142,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9077,
-    "party_unity_bp_pct": 0.1513,
+    "party_unity_pct": 0.9093,
+    "party_unity_bp_pct": 0.1486,
     "maverick_votes": 47,
     "bipartisan_votes": 77,
     "maverick_bipartisan": 47,
-    "total_votes": 509,
+    "total_votes": 518,
     "missed_votes": 92,
     "maverick_votes_all": 1770,
     "bipartisan_votes_all": 846,
     "maverick_bipartisan_all": 116,
-    "total_votes_all": 5927,
+    "total_votes_all": 5936,
     "missed_votes_all": 386,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
@@ -87,9 +87,9 @@
     "dim2_percentile_party": 69,
     "party_unity_percentile_party": 8,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 3
+    "reliability_percentile_party": 4
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -123,8 +123,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.303,
-      "dim2": 0.298
+      "dim1": -0.305,
+      "dim2": 0.292
     }
   ],
   "lobbying_contributions": [
@@ -596,6 +596,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
+    {
       "date": "2025-10-30",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -769,81 +844,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -2023,44 +2023,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Catherine Cortez Masto",
-      "distance": 0.005762811813689528
-    },
-    {
       "name": "Elissa Slotkin",
-      "distance": 0.00706045324324154
+      "distance": 0.007360027173862846
     },
     {
       "name": "Timothy Kaine",
-      "distance": 0.01298345100502945
+      "distance": 0.010042410069301115
+    },
+    {
+      "name": "Catherine Cortez Masto",
+      "distance": 0.010846658471621556
     },
     {
       "name": "Mark Kelly",
-      "distance": 0.013703284277865652
+      "distance": 0.01382461572702835
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.024747727168368396
+      "distance": 0.027167995877502606
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.03146966793596657
-    },
-    {
-      "name": "Mark R. Warner",
-      "distance": 0.03490515721207965
+      "distance": 0.030565503431155865
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.035581596366661264
+      "distance": 0.03225306187015426
     },
     {
-      "name": "Rand Paul",
-      "distance": 0.0365520177281637
+      "name": "Mark R. Warner",
+      "distance": 0.034757013680694664
     },
     {
       "name": "Gary C. Peters",
-      "distance": 0.039775620673975734
+      "distance": 0.03871911672546261
+    },
+    {
+      "name": "Martin Heinrich",
+      "distance": 0.03946555460144963
     }
   ]
 }

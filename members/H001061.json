@@ -4,7 +4,7 @@
     "party": "R",
     "state": "ND",
     "district": null,
-    "tenure_years": 14.8,
+    "tenure_years": 14.9,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -81,17 +81,17 @@
     "dw_nominate_dim1": 0.399,
     "dw_nominate_dim2": 0.452,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9966,
-    "party_unity_bp_pct": 0.0672,
+    "party_unity_pct": 0.9967,
+    "party_unity_bp_pct": 0.0662,
     "maverick_votes": 2,
     "bipartisan_votes": 40,
     "maverick_bipartisan": 1,
-    "total_votes": 595,
+    "total_votes": 604,
     "missed_votes": 6,
     "maverick_votes_all": 806,
     "bipartisan_votes_all": 386,
     "maverick_bipartisan_all": 65,
-    "total_votes_all": 5105,
+    "total_votes_all": 5114,
     "missed_votes_all": 100,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
@@ -101,11 +101,11 @@
     "dim1_percentile_party": 22,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 93,
-    "party_unity_percentile_party": 97,
+    "party_unity_percentile_party": 98,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 73
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -150,7 +150,7 @@
     {
       "congress": 119,
       "dim1": 0.506,
-      "dim2": 0.409
+      "dim2": 0.41
     }
   ],
   "lobbying_contributions": [
@@ -370,6 +370,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
+    {
       "date": "2025-10-30",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -543,81 +618,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -1476,11 +1476,7 @@
   "vote_record_similar": [
     {
       "name": "Tim Patrick Sheehy",
-      "distance": 0.0002999999999999947
-    },
-    {
-      "name": "Dave Harold McCormick",
-      "distance": 0.0017262676501632402
+      "distance": 0.00031622776601682943
     },
     {
       "name": "Cindy Hyde-Smith",
@@ -1489,6 +1485,10 @@
     {
       "name": "Shelley Moore Capito",
       "distance": 0.0017720045146669685
+    },
+    {
+      "name": "Dave Harold McCormick",
+      "distance": 0.0018248287590894884
     },
     {
       "name": "Steve Daines",
@@ -1500,19 +1500,19 @@
     },
     {
       "name": "Michael D. Crapo",
-      "distance": 0.002483948469674873
+      "distance": 0.0024758836806280105
     },
     {
       "name": "John Cornyn",
-      "distance": 0.002780287754891517
+      "distance": 0.002701851217221204
     },
     {
       "name": "Tom Cotton",
-      "distance": 0.002780287754891528
+      "distance": 0.0027202941017470564
     },
     {
       "name": "Markwayne Mullin",
-      "distance": 0.002831960451701271
+      "distance": 0.0027586228448267546
     }
   ]
 }

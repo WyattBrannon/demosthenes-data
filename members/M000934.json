@@ -4,7 +4,7 @@
     "party": "R",
     "state": "KS",
     "district": null,
-    "tenure_years": 28.8,
+    "tenure_years": 28.9,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -89,18 +89,18 @@
     "dw_nominate_dim1": 0.414,
     "dw_nominate_dim2": 0.221,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9895,
-    "party_unity_bp_pct": 0.0733,
+    "party_unity_pct": 0.9897,
+    "party_unity_bp_pct": 0.0723,
     "maverick_votes": 6,
     "bipartisan_votes": 42,
     "maverick_bipartisan": 4,
-    "total_votes": 573,
-    "missed_votes": 28,
+    "total_votes": 581,
+    "missed_votes": 29,
     "maverick_votes_all": 3270,
     "bipartisan_votes_all": 475,
     "maverick_bipartisan_all": 147,
-    "total_votes_all": 13866,
-    "missed_votes_all": 644,
+    "total_votes_all": 13874,
+    "missed_votes_all": 645,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
     "pu_median_party": 97.11999999999999,
@@ -113,7 +113,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 16
   },
-  "generated_at": "2025-11-10",
+  "generated_at": "2025-11-17",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -192,8 +192,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.401,
-      "dim2": 0.19
+      "dim1": 0.402,
+      "dim2": 0.195
     }
   ],
   "lobbying_contributions": [
@@ -368,6 +368,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-07",
+      "chamber": "senate",
+      "question": "On Cloture on the Motion to Proceed",
+      "vote_result": "Cloture on the Motion to Proceed Rejected",
+      "vote_desc": "A bill to appropriate funds for pay and allowances of excepted Federal employees for periods of work performed during a lapse in appropriations, and for other purposes.",
+      "vote_question": "On Cloture on the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 53,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "S3012",
+        "type": null,
+        "number": "S3012",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-23",
       "chamber": "senate",
@@ -556,30 +577,84 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "John Hurley, of California, to be Under Secretary for Terrorism and Financial Crimes",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 46,
-      "nay": 36,
-      "present": 0,
-      "bill": {
-        "code": "PN243",
-        "type": null,
-        "number": "PN243",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-06",
+      "chamber": "senate",
+      "question": "On the Motion to Discharge",
+      "vote_result": "Motion to Discharge Rejected",
+      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress.",
+      "vote_question": "On the Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 49,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES90",
+        "type": null,
+        "number": "SJRES90",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 608
+    },
+    {
+      "date": "2025-11-05",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 43,
+      "present": 0,
+      "bill": {
+        "code": "PN2537",
+        "type": null,
+        "number": "PN2537",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 607
+    },
+    {
+      "date": "2025-11-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 52,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4001",
+        "type": null,
+        "number": "PN4001",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 604
+    },
     {
       "date": "2025-10-30",
       "chamber": "senate",
@@ -754,81 +829,6 @@
         "title": ""
       },
       "rollnumber": 580
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 66,
-      "nay": 32,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 577
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution to direct the removal of United States Armed Forces from hostilities that have not been authorized by Congress.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 48,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES83",
-        "type": null,
-        "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 555
-    },
-    {
-      "date": "2025-10-08",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared with respect to energy.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES71",
-        "type": null,
-        "number": "SJRES71",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 554
     }
   ],
   "fec": {
@@ -3661,39 +3661,39 @@
   "vote_record_similar": [
     {
       "name": "Charles E. Grassley",
-      "distance": 0.0028425340807103697
+      "distance": 0.0027658633371878657
     },
     {
       "name": "Mike Rounds",
-      "distance": 0.0029698484809834867
+      "distance": 0.0028284271247461927
     },
     {
       "name": "Deb Fischer",
-      "distance": 0.0047801673610867795
+      "distance": 0.004763402145525766
     },
     {
       "name": "John Boozman",
-      "distance": 0.0054147945482723135
+      "distance": 0.005323532661682438
     },
     {
       "name": "Lindsey O. Graham",
-      "distance": 0.005685947590331788
+      "distance": 0.005636488268416774
     },
     {
       "name": "Markwayne Mullin",
-      "distance": 0.006560487786742678
+      "distance": 0.0065436992595931534
     },
     {
       "name": "Roger F. Wicker",
-      "distance": 0.006657326790837267
+      "distance": 0.006603786792439601
     },
     {
       "name": "Kevin Cramer",
-      "distance": 0.006952697318307459
+      "distance": 0.006876772498781667
     },
     {
       "name": "Todd C. Young",
-      "distance": 0.00727186358507909
+      "distance": 0.007220110802473838
     },
     {
       "name": "Ted Budd",
