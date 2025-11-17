@@ -1,8 +1,8 @@
 {
   "bioguide": "A000055",
   "header": {
-    "name":"Robert B. Aderholt",
-    "image_link":"c1a4435f7e88dcbf979e4e10489c26f4.jpg"
+    "name": "Robert B. Aderholt",
+    "image_link": "c1a4435f7e88dcbf979e4e10489c26f4.jpg",
     "state": "AL",
     "district": "04",
     "party": "R",
@@ -26,7 +26,7 @@
         "name": "HSAP07",
         "role": "Chair"
       }
-    ],
+    ]
   },
   "behavior": {
     "dw_nominate_dim1": 0.405,
@@ -49,7 +49,7 @@
     "maverick_votes_median": 46,
     "missed_votes": 519,
     "missed_votes_percentile": 34,
-    "missed_votes_median": 50.00,
+    "missed_votes_median": 50.0,
     "similar_legislators": [
       {
         "bioguide": "H001061",
@@ -69,7 +69,7 @@
     ],
     "efficacy": 50,
     "efficacy_percentile": 50,
-    "efficacy_median": 50.00,
+    "efficacy_median": 50.0,
     "by_congress": [
       {
         "congress": 118,
@@ -131,13 +131,19 @@
   },
   "voting_record": {
     "maverick_subjects": [
-      "Law", "Taxation", "Transportation and Public Works"
+      "Law",
+      "Taxation",
+      "Transportation and Public Works"
     ],
     "missed_subjects": [
-      "Law", "Taxation", "Transportation and Public Works"
+      "Law",
+      "Taxation",
+      "Transportation and Public Works"
     ],
     "decisive_subjects": [
-      "Law", "Taxation", "Transportation and Public Works"
+      "Law",
+      "Taxation",
+      "Transportation and Public Works"
     ],
     "major_votes": [
       {
@@ -344,7 +350,9 @@
     "bipartisan_bills_percentile": 99,
     "bipartisan_bills_median": 0.50,
     "favorite_subjects": [
-      "Law", "Taxation", "Transportation and Public Works"
+      "Law",
+      "Taxation",
+      "Transportation and Public Works"
     ],
     "major_cosponsors": [
       {
@@ -362,7 +370,7 @@
         "name": "Jeff Stephen Hurd",
         "distance": 4
       }
-    ]
+    ],
     "by_congress": [
       {
         "congress": 118,
@@ -371,7 +379,9 @@
         "total_bills": 40,
         "bipartisan_bills": 40,
         "favorite_subjects": [
-          "Law", "Taxation", "Transportation and Public Works"
+          "Law",
+          "Taxation",
+          "Transportation and Public Works"
         ],
         "major_cosponsors": [
           {
@@ -398,7 +408,9 @@
         "total_bills": 40,
         "bipartisan_bills": 40,
         "favorite_subjects": [
-          "Law", "Taxation", "Transportation and Public Works"
+          "Law",
+          "Taxation",
+          "Transportation and Public Works"
         ],
         "major_cosponsors": [
           {
@@ -420,163 +432,159 @@
       }
     ],
     "recent_bills": [
-    {
-      "congress": 119,
-      "billType": "hr",
-      "number": "2098",
-      "title": "Deliver for Democracy Act",
-      "introducedDate": "2025-03-14",
-      "latestAction": {
-        "date": "2025-03-14",
-        "text": "Referred to the House Committee on Oversight and Government Reform."
-      },
-      "policy_area": "Government Operations and Politics",
-      "subjects": [],
-      "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2098?format=json",
-      "updateDate": null,
-      "bipartisan": true,
-      "cosponsors": [
-        {
-          "bioguide": "C001061",
-          "name": "Rep. Cleaver, Emanuel [D-MO-5]",
-          "party": "D",
-          "state": "MO",
+      {
+        "congress": 119,
+        "billType": "hr",
+        "number": "2098",
+        "title": "Deliver for Democracy Act",
+        "introducedDate": "2025-03-14",
+        "latestAction": {
           "date": "2025-03-14",
-          "original": true
+          "text": "Referred to the House Committee on Oversight and Government Reform."
         },
-        {
-          "bioguide": "J000288",
-          "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
-          "party": "D",
-          "state": "GA",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "D000230",
-          "name": "Rep. Davis, Donald G. [D-NC-1]",
-          "party": "D",
-          "state": "NC",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "C001127",
-          "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
-          "party": "D",
-          "state": "FL",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "T000478",
-          "name": "Rep. Tenney, Claudia [R-NY-24]",
-          "party": "R",
-          "state": "NY",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "C001119",
-          "name": "Rep. Craig, Angie [D-MN-2]",
-          "party": "D",
-          "state": "MN",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "W000795",
-          "name": "Rep. Wilson, Joe [R-SC-2]",
-          "party": "R",
-          "state": "SC",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "C001103",
-          "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
-          "party": "R",
-          "state": "GA",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "C001053",
-          "name": "Rep. Cole, Tom [R-OK-4]",
-          "party": "R",
-          "state": "OK",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "C001059",
-          "name": "Rep. Costa, Jim [D-CA-21]",
-          "party": "D",
-          "state": "CA",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "F000477",
-          "name": "Rep. Foushee, Valerie P. [D-NC-4]",
-          "party": "D",
-          "state": "NC",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "L000599",
-          "name": "Rep. Lawler, Michael [R-NY-17]",
-          "party": "R",
-          "state": "NY",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "W000797",
-          "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
-          "party": "D",
-          "state": "FL",
-          "date": "2025-03-14",
-          "original": true
-        },
-        {
-          "bioguide": "G000591",
-          "name": "Rep. Guest, Michael [R-MS-3]",
-          "party": "R",
-          "state": "MS",
-          "date": "2025-03-18",
-          "original": false
-        },
-        {
-          "bioguide": "V000135",
-          "name": "Rep. Van Orden, Derrick [R-WI-3]",
-          "party": "R",
-          "state": "WI",
-          "date": "2025-03-18",
-          "original": false
-        },
-        {
-          "bioguide": "M001232",
-          "name": "Rep. McClain Delaney, April [D-MD-6]",
-          "party": "D",
-          "state": "MD",
-          "date": "2025-03-24",
-          "original": false
-        }
-      ],
-      "cosponsors_total": 16
-    }
+        "policy_area": "Government Operations and Politics",
+        "subjects": [],
+        "congressdotgovUrl": "https://api.congress.gov/v3/bill/119/hr/2098?format=json",
+        "updateDate": null,
+        "bipartisan": true,
+        "cosponsors": [
+          {
+            "bioguide": "C001061",
+            "name": "Rep. Cleaver, Emanuel [D-MO-5]",
+            "party": "D",
+            "state": "MO",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "J000288",
+            "name": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+            "party": "D",
+            "state": "GA",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "D000230",
+            "name": "Rep. Davis, Donald G. [D-NC-1]",
+            "party": "D",
+            "state": "NC",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "C001127",
+            "name": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+            "party": "D",
+            "state": "FL",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "T000478",
+            "name": "Rep. Tenney, Claudia [R-NY-24]",
+            "party": "R",
+            "state": "NY",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "C001119",
+            "name": "Rep. Craig, Angie [D-MN-2]",
+            "party": "D",
+            "state": "MN",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "W000795",
+            "name": "Rep. Wilson, Joe [R-SC-2]",
+            "party": "R",
+            "state": "SC",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "C001103",
+            "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+            "party": "R",
+            "state": "GA",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "C001053",
+            "name": "Rep. Cole, Tom [R-OK-4]",
+            "party": "R",
+            "state": "OK",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "C001059",
+            "name": "Rep. Costa, Jim [D-CA-21]",
+            "party": "D",
+            "state": "CA",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "F000477",
+            "name": "Rep. Foushee, Valerie P. [D-NC-4]",
+            "party": "D",
+            "state": "NC",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "L000599",
+            "name": "Rep. Lawler, Michael [R-NY-17]",
+            "party": "R",
+            "state": "NY",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "W000797",
+            "name": "Rep. Wasserman Schultz, Debbie [D-FL-25]",
+            "party": "D",
+            "state": "FL",
+            "date": "2025-03-14",
+            "original": true
+          },
+          {
+            "bioguide": "G000591",
+            "name": "Rep. Guest, Michael [R-MS-3]",
+            "party": "R",
+            "state": "MS",
+            "date": "2025-03-18",
+            "original": false
+          },
+          {
+            "bioguide": "V000135",
+            "name": "Rep. Van Orden, Derrick [R-WI-3]",
+            "party": "R",
+            "state": "WI",
+            "date": "2025-03-18",
+            "original": false
+          },
+          {
+            "bioguide": "M001232",
+            "name": "Rep. McClain Delaney, April [D-MD-6]",
+            "party": "D",
+            "state": "MD",
+            "date": "2025-03-24",
+            "original": false
+          }
+        ],
+        "cosponsors_total": 16
+      }
     ]
   },
   "patrons": {
     "campaign_finance": {
-      "fec_ids": [
-        "H6AL04098"
-      ],
-      "fec_committees": [
-        "C00313247"
-      ],
+      "fec_ids": ["H6AL04098"],
+      "fec_committees": ["C00313247"],
       "small_dollar_individual_receipts": 5000,
       "large_dollar_individual_receipts": 5000,
       "committee_receipts": 5000,
@@ -647,15 +655,14 @@
           "amount_usd": 11500.0
         }
       ]
-    }
-    "personal_finance": {
-    }
+    },
+    "personal_finance": {}
   },
   "biography": {
     "profile_text": "a Representative from Alabama; born in Haleyville, Winston County, Ala., July 22, 1965; B.A., Birmingham Southern College, Birmingham, Ala., 1987; J.D., Samford University, Birmingham, Ala., 1990; lawyer, private practice; Haleyville, Ala., municipal judge, 1992-1995; staff, Alabama Governor Fob James, 1995-1996; elected as a Republican to the One Hundred Fifth and to the fourteen succeeding Congresses (January 3, 1997-present)."
   },
   "district": {
-    "two_party_margin_house": 40.00,
+    "two_party_margin_house": 40.0,
     "fit_score": 50,
     "race": {
       "white": 82.8,
@@ -697,7 +704,7 @@
       "urban": 50,
       "suburban": 25,
       "rural": 25
-    }
+    },
     "commute": {
       "drive_alone": 83.7,
       "carpool": 10.1,
@@ -715,7 +722,7 @@
     "contact_form": "",
     "address": "272 Cannon House Office Building Washington DC 20515-0104",
     "office": "272 Cannon House Office Building",
-    "phone": "202-225-4876"
+    "phone": "202-225-4876",
     "social": {
       "twitter": "Robert_Aderholt",
       "facebook": "RobertAderholt",
@@ -746,6 +753,7 @@
         "zip": "35501",
         "latitude": 33.83438,
         "longitude": -87.274935,
+        "fax": null,
         "phone": "205-221-2310"
       },
       {
