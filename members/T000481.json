@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.29,
     "dw_nominate_dim2": -0.957,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9333,
-    "party_unity_bp_pct": 0.263,
-    "maverick_votes": 18,
-    "bipartisan_votes": 71,
+    "party_unity_pct": 0.9352,
+    "party_unity_bp_pct": 0.2594,
+    "maverick_votes": 19,
+    "bipartisan_votes": 76,
     "maverick_bipartisan": 1,
-    "total_votes": 270,
+    "total_votes": 293,
     "missed_votes": 11,
-    "maverick_votes_all": 226,
-    "bipartisan_votes_all": 735,
+    "maverick_votes_all": 227,
+    "bipartisan_votes_all": 740,
     "maverick_bipartisan_all": 22,
-    "total_votes_all": 3406,
+    "total_votes_all": 3429,
     "missed_votes_all": 58,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 24,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 100,
-    "party_unity_percentile_party": 14,
+    "party_unity_percentile_party": 18,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 27
+    "reliability_percentile_party": 28
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,6 +113,27 @@
   ],
   "lobbying_sum": 5877.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Passed",
+      "vote_desc": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 310,
+      "nay": 103,
+      "present": 0,
+      "bill": {
+        "code": "HRES893",
+        "type": null,
+        "number": "HRES893",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -298,27 +319,6 @@
         "code": "S331",
         "type": null,
         "number": "S331",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-19",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Strengthening the Quad Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 334,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "HR1263",
-        "type": null,
-        "number": "HR1263",
         "congress": 119,
         "title": ""
       }
@@ -538,6 +538,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -736,56 +786,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3057,44 +3057,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Robert F. Onder",
-      "distance": 0.003807886552931934
-    },
-    {
       "name": "Diana Harshbarger",
-      "distance": 0.006648308055437862
+      "distance": 0.006029925372672533
     },
     {
-      "name": "Russ Fulcher",
-      "distance": 0.008028075734570497
-    },
-    {
-      "name": "Randall Adam Fine",
-      "distance": 0.010454664030948042
+      "name": "Robert F. Onder",
+      "distance": 0.008697700845625798
     },
     {
       "name": "Aaron Paul Bean",
-      "distance": 0.010499523798725374
+      "distance": 0.009745255255764248
     },
     {
-      "name": "Thomas P. Tiffany",
-      "distance": 0.01177837000607474
-    },
-    {
-      "name": "Byron Lowell Donalds",
-      "distance": 0.012374570699624301
-    },
-    {
-      "name": "Tom McClintock",
-      "distance": 0.012416923934694912
-    },
-    {
-      "name": "Harriet Maxine Hageman",
-      "distance": 0.013282319074619488
+      "name": "Randall Adam Fine",
+      "distance": 0.010376897416858278
     },
     {
       "name": "Mike Steven Kennedy",
-      "distance": 0.015415900881881637
+      "distance": 0.01043886967061086
+    },
+    {
+      "name": "Russ Fulcher",
+      "distance": 0.010705606008068847
+    },
+    {
+      "name": "Tom McClintock",
+      "distance": 0.011610770861575009
+    },
+    {
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.012300406497347973
+    },
+    {
+      "name": "Mike Allen Collins",
+      "distance": 0.013372359552449989
+    },
+    {
+      "name": "Thomas P. Tiffany",
+      "distance": 0.013509256086106317
     }
   ]
 }

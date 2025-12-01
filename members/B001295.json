@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.398,
     "dw_nominate_dim2": -0.035,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9784,
-    "party_unity_bp_pct": 0.3022,
+    "party_unity_pct": 0.9799,
+    "party_unity_bp_pct": 0.302,
     "maverick_votes": 6,
-    "bipartisan_votes": 84,
+    "bipartisan_votes": 90,
     "maverick_bipartisan": 0,
-    "total_votes": 278,
-    "missed_votes": 3,
+    "total_votes": 298,
+    "missed_votes": 6,
     "maverick_votes_all": 797,
-    "bipartisan_votes_all": 856,
+    "bipartisan_votes_all": 862,
     "maverick_bipartisan_all": 61,
-    "total_votes_all": 5782,
-    "missed_votes_all": 211,
+    "total_votes_all": 5802,
+    "missed_votes_all": 214,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 21,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 48,
-    "party_unity_percentile_party": 63,
+    "party_unity_percentile_party": 62,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 70
+    "reliability_percentile_party": 51
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -107,8 +107,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.55,
-      "dim2": -0.072
+      "dim1": 0.549,
+      "dim2": -0.068
     }
   ],
   "lobbying_contributions": [
@@ -284,6 +284,69 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-11-21",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES58",
+        "type": null,
+        "number": "HCONRES58",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "REFINER Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 230,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR3109",
+        "type": null,
+        "number": "HR3109",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Unlocking our Domestic LNG Potential Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 217,
+      "nay": 188,
+      "present": 0,
+      "bill": {
+        "code": "HR1949",
+        "type": null,
+        "number": "HR1949",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-04-09",
       "chamber": "house",
       "question": "On Motion to Suspend the Rules and Pass",
@@ -348,6 +411,56 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -547,56 +660,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3568,44 +3631,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Nydia M. Vel\u00e1zquez",
-      "distance": 0.002102379604162859
-    },
-    {
-      "name": "M\u00f3nica De La Cruz",
-      "distance": 0.0022803508501983024
-    },
-    {
-      "name": "Gwen Moore",
-      "distance": 0.003130495168499634
-    },
-    {
-      "name": "Kevin Mullin",
-      "distance": 0.00323882694814042
-    },
-    {
-      "name": "Randy K. Weber",
-      "distance": 0.0038327535793473955
-    },
-    {
-      "name": "Maxine Elizabeth Dexter",
-      "distance": 0.004360045871318314
-    },
-    {
-      "name": "Scott L. Fitzgerald",
-      "distance": 0.004386342439892252
-    },
-    {
-      "name": "Jodey C. Arrington",
-      "distance": 0.004554119014694357
+      "name": "James P. McGovern",
+      "distance": 0.0029732137494637247
     },
     {
       "name": "Maxwell Alejandro Frost",
-      "distance": 0.00490407993409565
+      "distance": 0.0031780497164141277
     },
     {
       "name": "Carol D. Miller",
-      "distance": 0.005140038910358548
+      "distance": 0.00317804971641414
+    },
+    {
+      "name": "Joe G. Wilson",
+      "distance": 0.003498571136907195
+    },
+    {
+      "name": "Brian Babin",
+      "distance": 0.00360555127546398
+    },
+    {
+      "name": "M\u00f3nica De La Cruz",
+      "distance": 0.0037161808352124005
+    },
+    {
+      "name": "Scott L. Fitzgerald",
+      "distance": 0.0037336309405188338
+    },
+    {
+      "name": "Randy K. Weber",
+      "distance": 0.003773592452822626
+    },
+    {
+      "name": "Jodey C. Arrington",
+      "distance": 0.003945883931389785
+    },
+    {
+      "name": "Nydia M. Vel\u00e1zquez",
+      "distance": 0.004188078318274324
     }
   ]
 }

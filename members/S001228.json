@@ -65,31 +65,31 @@
     "dw_nominate_dim1": 0.896,
     "dw_nominate_dim2": 0.444,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9495,
-    "party_unity_bp_pct": 0.2888,
+    "party_unity_pct": 0.9533,
+    "party_unity_bp_pct": 0.2867,
     "maverick_votes": 14,
-    "bipartisan_votes": 80,
+    "bipartisan_votes": 86,
     "maverick_bipartisan": 1,
-    "total_votes": 277,
+    "total_votes": 300,
     "missed_votes": 4,
     "maverick_votes_all": 14,
-    "bipartisan_votes_all": 80,
+    "bipartisan_votes_all": 86,
     "maverick_bipartisan_all": 1,
-    "total_votes_all": 277,
+    "total_votes_all": 300,
     "missed_votes_all": 4,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 98,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 92,
-    "party_unity_percentile_party": 24,
+    "party_unity_percentile_party": 25,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 60
+    "reliability_percentile_party": 62
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,8 +98,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.822,
-      "dim2": 0.249
+      "dim1": 0.815,
+      "dim2": 0.248
     }
   ],
   "lobbying_contributions": [
@@ -445,6 +445,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -643,56 +693,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1221,7 +1221,7 @@
   "vote_record_similar": [
     {
       "name": "James Comer",
-      "distance": 0.0025059928172283057
+      "distance": 0.0024166091947188965
     },
     {
       "name": "Morgan Joe Luttrell",
@@ -1229,35 +1229,35 @@
     },
     {
       "name": "Jim Jordan",
-      "distance": 0.0032557641192199303
-    },
-    {
-      "name": "Mikie Sherrill",
-      "distance": 0.004294182110716801
+      "distance": 0.0038327535793473855
     },
     {
       "name": "Tony Wied",
-      "distance": 0.005161395160225563
+      "distance": 0.004801041553663115
     },
     {
       "name": "Ilhan Omar",
-      "distance": 0.005393514624064693
+      "distance": 0.0048662100242385506
     },
     {
-      "name": "Abraham Jamal Hamadeh",
-      "distance": 0.008095060222135474
+      "name": "Brittany Louise Pettersen",
+      "distance": 0.00640312423743283
+    },
+    {
+      "name": "Glenn Grothman",
+      "distance": 0.006844705983459032
+    },
+    {
+      "name": "Mikie Sherrill",
+      "distance": 0.008980534505250857
     },
     {
       "name": "John Joyce",
-      "distance": 0.010012492197250356
+      "distance": 0.009231467922275423
     },
     {
       "name": "Kevin R. Hern",
-      "distance": 0.011030865786510122
-    },
-    {
-      "name": "Ronny Lynn Jackson",
-      "distance": 0.011317685275708981
+      "distance": 0.00935360892917806
     }
   ]
 }

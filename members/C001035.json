@@ -85,22 +85,22 @@
     "dw_nominate_dim1": 0.122,
     "dw_nominate_dim2": -0.508,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8803,
-    "party_unity_bp_pct": 0.1787,
-    "maverick_votes": 73,
-    "bipartisan_votes": 109,
-    "maverick_bipartisan": 71,
-    "total_votes": 610,
+    "party_unity_pct": 0.8812,
+    "party_unity_bp_pct": 0.1782,
+    "maverick_votes": 74,
+    "bipartisan_votes": 111,
+    "maverick_bipartisan": 72,
+    "total_votes": 623,
     "missed_votes": 0,
-    "maverick_votes_all": 2155,
-    "bipartisan_votes_all": 1252,
-    "maverick_bipartisan_all": 885,
-    "total_votes_all": 9804,
+    "maverick_votes_all": 2156,
+    "bipartisan_votes_all": 1254,
+    "maverick_bipartisan_all": 886,
+    "total_votes_all": 9817,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 0,
     "dim2_direction_party": "left",
@@ -109,7 +109,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -188,7 +188,7 @@
     },
     {
       "congress": 119,
-      "dim1": 0.19,
+      "dim1": 0.189,
       "dim2": -0.4
     }
   ],
@@ -236,6 +236,27 @@
   ],
   "lobbying_sum": 1097816.25,
   "maverick_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Rejected",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Extension of Deadlines in Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review Final Rule\".",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 46,
+      "nay": 51,
+      "present": 0,
+      "bill": {
+        "code": "SJRES76",
+        "type": null,
+        "number": "SJRES76",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-30",
       "chamber": "senate",
@@ -424,31 +445,135 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "senate",
-      "question": "On the Motion to Table",
-      "vote_result": "Motion to Table Agreed to",
-      "vote_desc": "In the nature of a substitute.",
-      "vote_question": "On the Motion to Table",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "HR4",
-        "type": null,
-        "number": "HR4",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [],
   "key_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Ho Nieh, of Alabama, to be a Member of the Nuclear Regulatory Commission for the remainder of the term expiring June 30, 2029",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 66,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN4456",
+        "type": null,
+        "number": "PN4456",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 620
+    },
+    {
+      "date": "2025-11-10",
+      "chamber": "senate",
+      "question": "On Passage of the Bill",
+      "vote_result": "Bill Passed",
+      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
+      "vote_question": "On Passage of the Bill",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 40,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 618
+    },
+    {
+      "date": "2025-11-10",
+      "chamber": "senate",
+      "question": "On the Motion to Table",
+      "vote_result": "Motion to Table Agreed to",
+      "vote_desc": "To strike a provision modifying the definition of hemp for purposes of the Agricultural Marketing Act of 1946.",
+      "vote_question": "On the Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 76,
+      "nay": 24,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 614
+    },
+    {
+      "date": "2025-11-10",
+      "chamber": "senate",
+      "question": "On the Motion to Table",
+      "vote_result": "Motion to Table Failed",
+      "vote_desc": "To improve the bill.",
+      "vote_question": "On the Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 47,
+      "nay": 53,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 613
+    },
+    {
+      "date": "2025-11-10",
+      "chamber": "senate",
+      "question": "On the Motion to Table",
+      "vote_result": "Motion to Table Failed",
+      "vote_desc": "To improve the bill.",
+      "vote_question": "On the Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 47,
+      "nay": 53,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 612
+    },
     {
       "date": "2025-11-06",
       "chamber": "senate",
@@ -573,131 +698,6 @@
         "title": ""
       },
       "rollnumber": 596
-    },
-    {
-      "date": "2025-10-28",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose duties on articles imported from Brazil.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 48,
-      "present": 0,
-      "bill": {
-        "code": "SJRES81",
-        "type": null,
-        "number": "SJRES81",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 594
-    },
-    {
-      "date": "2025-10-28",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Jordan Emery Pratt, of Florida, to be United States District Judge for the Middle District of Florida",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN3466",
-        "type": null,
-        "number": "PN3466",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 592
-    },
-    {
-      "date": "2025-10-27",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Bill Lewis, of Alabama, to be United States District Judge for the Middle District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 58,
-      "nay": 40,
-      "present": 0,
-      "bill": {
-        "code": "PN4663",
-        "type": null,
-        "number": "PN4663",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 589
-    },
-    {
-      "date": "2025-10-27",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Rebecca L. Taibleson, of Wisconsin, to be United States Circuit Judge for the Seventh Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN5205",
-        "type": null,
-        "number": "PN5205",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 588
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Anne-Leigh Gaylord Moe, of Florida, to be United States District Judge for the Middle District of Florida",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 53,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN3465",
-        "type": null,
-        "number": "PN3465",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 580
     }
   ],
   "fec": {
@@ -1902,43 +1902,43 @@
   "vote_record_similar": [
     {
       "name": "Mark R. Warner",
-      "distance": 0.007468600939935182
-    },
-    {
-      "name": "Angus S. King",
-      "distance": 0.010965856099730638
-    },
-    {
-      "name": "Margaret Wood Hassan",
-      "distance": 0.01622467256988566
+      "distance": 0.005154609587543952
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.016281584689458256
-    },
-    {
-      "name": "Ralph Norman",
-      "distance": 0.018851259904844528
+      "distance": 0.007910120100226056
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.019958456854175837
+      "distance": 0.017059015211904786
     },
     {
-      "name": "Jeanne Shaheen",
-      "distance": 0.022019309707617975
+      "name": "Ralph Norman",
+      "distance": 0.017584083712266566
     },
     {
-      "name": "Paul A. Gosar",
-      "distance": 0.025973832986296026
+      "name": "Catherine Cortez Masto",
+      "distance": 0.02093036072312184
     },
     {
       "name": "Lauren Opal Boebert",
-      "distance": 0.02884024965217882
+      "distance": 0.022748406537601736
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.023925300416086738
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.024364728605096347
+    },
+    {
+      "name": "Margaret Wood Hassan",
+      "distance": 0.024865437860612842
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.029228239769100002
+      "distance": 0.026181863951980182
     }
   ]
 }

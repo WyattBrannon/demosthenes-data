@@ -71,8 +71,8 @@
     "missed_votes_all": 581,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 9,
     "dim2_direction_party": "right",
@@ -81,7 +81,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 0
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -326,6 +326,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -524,56 +574,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "eligible": false,
-      "recorded": false,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "eligible": false,
-      "recorded": false,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -958,7 +958,7 @@
   "vote_record_similar": [
     {
       "name": "Mike Johnson",
-      "distance": 0.0237
+      "distance": 0.01999999999999999
     },
     {
       "name": "Eleanor Holmes Norton",
@@ -966,35 +966,35 @@
     },
     {
       "name": "Delia Catalina Ramirez",
-      "distance": 0.039363561830708375
-    },
-    {
-      "name": "Gregorio Eduardo Casar",
-      "distance": 0.04393005804685442
-    },
-    {
-      "name": "Danny K. Davis",
-      "distance": 0.04465344331627742
-    },
-    {
-      "name": "Frederica S. Wilson",
-      "distance": 0.04626402490056394
+      "distance": 0.03638914673360728
     },
     {
       "name": "Barry Loudermilk",
-      "distance": 0.04724669300596603
+      "distance": 0.04058189251378008
     },
     {
-      "name": "Lance Gooden",
-      "distance": 0.04819813274391444
+      "name": "Gregorio Eduardo Casar",
+      "distance": 0.041326988760373044
+    },
+    {
+      "name": "Danny K. Davis",
+      "distance": 0.04200773738253467
     },
     {
       "name": "Doug LaMalfa",
-      "distance": 0.04901632381156299
+      "distance": 0.046841114418852185
     },
     {
-      "name": "Grace Meng",
-      "distance": 0.04974384384021806
+      "name": "Jared Huffman",
+      "distance": 0.04737193261837643
+    },
+    {
+      "name": "William R. Timmons",
+      "distance": 0.04740137128818113
+    },
+    {
+      "name": "Steve Joseph Scalise",
+      "distance": 0.04767242389474232
     }
   ]
 }

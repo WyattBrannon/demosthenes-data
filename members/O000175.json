@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.798,
     "dw_nominate_dim2": -0.351,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9125,
-    "party_unity_bp_pct": 0.2357,
-    "maverick_votes": 23,
-    "bipartisan_votes": 62,
+    "party_unity_pct": 0.9161,
+    "party_unity_bp_pct": 0.2343,
+    "maverick_votes": 24,
+    "bipartisan_votes": 67,
     "maverick_bipartisan": 1,
-    "total_votes": 263,
+    "total_votes": 286,
     "missed_votes": 18,
-    "maverick_votes_all": 182,
-    "bipartisan_votes_all": 256,
+    "maverick_votes_all": 183,
+    "bipartisan_votes_all": 261,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 1450,
+    "total_votes_all": 1473,
     "missed_votes_all": 66,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 91,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 86,
     "party_unity_percentile_party": 10,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 9
+    "reliability_percentile_party": 13
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,8 +91,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.761,
-      "dim2": -0.312
+      "dim1": 0.767,
+      "dim2": -0.293
     }
   ],
   "lobbying_contributions": [
@@ -123,6 +123,27 @@
   ],
   "lobbying_sum": 7000.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Enhancing Stakeholder Support and Outreach for Preparedness Grants Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 380,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HR4058",
+        "type": null,
+        "number": "HR4058",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -303,27 +324,6 @@
       "member_position": "Yea",
       "yea": 76,
       "nay": 353,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 355,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -548,6 +548,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -746,56 +796,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3010,43 +3010,43 @@
   "vote_record_similar": [
     {
       "name": "Mary E. Miller",
-      "distance": 0.0026419689627245517
+      "distance": 0.0026248809496812893
     },
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.006476109943476858
-    },
-    {
-      "name": "Brandon Gene Gill",
-      "distance": 0.010870602559196028
+      "distance": 0.006016643582596541
     },
     {
       "name": "Clay Higgins",
-      "distance": 0.011086027241532443
+      "distance": 0.00930859817588021
+    },
+    {
+      "name": "Brandon Gene Gill",
+      "distance": 0.01016710381573831
     },
     {
       "name": "John J. McGuire",
-      "distance": 0.013389921583041498
-    },
-    {
-      "name": "Mike Allen Collins",
-      "distance": 0.01758550539506898
-    },
-    {
-      "name": "W. Gregory Steube",
-      "distance": 0.018248287590894675
-    },
-    {
-      "name": "Michael Cloud",
-      "distance": 0.021077238908357967
+      "distance": 0.016681127060243835
     },
     {
       "name": "Pat Harrigan",
-      "distance": 0.021137644144984556
+      "distance": 0.018170580618131097
+    },
+    {
+      "name": "Thomas P. Tiffany",
+      "distance": 0.019150979087242486
     },
     {
       "name": "Mark Everette Harris",
-      "distance": 0.02125111761766896
+      "distance": 0.019646882704388517
+    },
+    {
+      "name": "W. Gregory Steube",
+      "distance": 0.02010895322984268
+    },
+    {
+      "name": "Mike Allen Collins",
+      "distance": 0.020318464508914065
     }
   ]
 }

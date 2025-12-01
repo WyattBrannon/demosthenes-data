@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.345,
     "dw_nominate_dim2": -0.008,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.975,
-    "party_unity_bp_pct": 0.3357,
+    "party_unity_pct": 0.9767,
+    "party_unity_bp_pct": 0.3333,
     "maverick_votes": 7,
-    "bipartisan_votes": 94,
+    "bipartisan_votes": 100,
     "maverick_bipartisan": 4,
-    "total_votes": 280,
-    "missed_votes": 1,
+    "total_votes": 300,
+    "missed_votes": 4,
     "maverick_votes_all": 790,
-    "bipartisan_votes_all": 891,
+    "bipartisan_votes_all": 897,
     "maverick_bipartisan_all": 28,
-    "total_votes_all": 4652,
-    "missed_votes_all": 19,
+    "total_votes_all": 4672,
+    "missed_votes_all": 22,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 38,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 44,
-    "party_unity_percentile_party": 53,
+    "party_unity_percentile_party": 60,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 83
+    "reliability_percentile_party": 60
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,8 +94,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.502,
-      "dim2": 0.233
+      "dim1": -0.489,
+      "dim2": 0.178
     }
   ],
   "lobbying_contributions": [
@@ -292,6 +292,69 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-11-21",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES58",
+        "type": null,
+        "number": "HCONRES58",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "REFINER Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 230,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR3109",
+        "type": null,
+        "number": "HR3109",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Unlocking our Domestic LNG Potential Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 217,
+      "nay": 188,
+      "present": 0,
+      "bill": {
+        "code": "HR1949",
+        "type": null,
+        "number": "HR1949",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-03-04",
       "chamber": "house",
       "question": "On Agreeing to the Resolution",
@@ -314,6 +377,56 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -513,56 +626,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -2125,44 +2188,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Wesley Jonell-Cleavon Bell",
-      "distance": 0.0012165525060596194
+      "name": "Ted Lieu",
+      "distance": 0.0010999999999999899
     },
     {
-      "name": "Richard Hudson",
-      "distance": 0.0012999999999999594
-    },
-    {
-      "name": "Seth Moulton",
-      "distance": 0.002402082429892931
-    },
-    {
-      "name": "Troy Anthony Carter",
-      "distance": 0.0031016124838541556
-    },
-    {
-      "name": "Troy Balderson",
-      "distance": 0.0035999999999999366
-    },
-    {
-      "name": "William R. Keating",
-      "distance": 0.003748332962798282
-    },
-    {
-      "name": "Donald W. Norcross",
-      "distance": 0.004707440918375975
-    },
-    {
-      "name": "Robert Jacobsen Menendez",
-      "distance": 0.005860034129593399
-    },
-    {
-      "name": "Elise M. Stefanik",
-      "distance": 0.005981638571495281
+      "name": "Pete Aguilar",
+      "distance": 0.0010999999999999899
     },
     {
       "name": "Bill Huizenga",
-      "distance": 0.006378871373526852
+      "distance": 0.002404163056034295
+    },
+    {
+      "name": "Rick Larsen",
+      "distance": 0.0027313000567494796
+    },
+    {
+      "name": "Wesley Jonell-Cleavon Bell",
+      "distance": 0.0032999999999999696
+    },
+    {
+      "name": "David Kustoff",
+      "distance": 0.003400000000000014
+    },
+    {
+      "name": "Sheila Cherfilus-McCormick",
+      "distance": 0.0034132096331752136
+    },
+    {
+      "name": "Gabe Amo",
+      "distance": 0.003764306044943679
+    },
+    {
+      "name": "Elise M. Stefanik",
+      "distance": 0.0039000000000000146
+    },
+    {
+      "name": "Nicholas A. Langworthy",
+      "distance": 0.004188078318274447
     }
   ]
 }

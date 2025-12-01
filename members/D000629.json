@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.269,
     "dw_nominate_dim2": 0.244,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9466,
-    "party_unity_bp_pct": 0.3843,
-    "maverick_votes": 15,
-    "bipartisan_votes": 108,
-    "maverick_bipartisan": 15,
-    "total_votes": 281,
-    "missed_votes": 0,
-    "maverick_votes_all": 120,
-    "bipartisan_votes_all": 960,
-    "maverick_bipartisan_all": 88,
-    "total_votes_all": 3453,
-    "missed_votes_all": 11,
+    "party_unity_pct": 0.9472,
+    "party_unity_bp_pct": 0.3795,
+    "maverick_votes": 16,
+    "bipartisan_votes": 115,
+    "maverick_bipartisan": 16,
+    "total_votes": 303,
+    "missed_votes": 1,
+    "maverick_votes_all": 121,
+    "bipartisan_votes_all": 967,
+    "maverick_bipartisan_all": 89,
+    "total_votes_all": 3475,
+    "missed_votes_all": 12,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 20,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 78,
-    "party_unity_percentile_party": 23,
+    "party_unity_percentile_party": 24,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 94
+    "reliability_percentile_party": 84
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -93,8 +93,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.199,
-      "dim2": -0.06
+      "dim1": -0.195,
+      "dim2": -0.093
     }
   ],
   "lobbying_contributions": [
@@ -141,6 +141,27 @@
   ],
   "lobbying_sum": 254197.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 236,
+      "nay": 183,
+      "present": 0,
+      "bill": {
+        "code": "HRES878",
+        "type": null,
+        "number": "HRES878",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "house",
@@ -329,31 +350,82 @@
         "congress": 119,
         "title": ""
       }
-    },
+    }
+  ],
+  "missed_votes": [
     {
-      "date": "2025-02-06",
+      "date": "2025-11-21",
       "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
       "dtl_desc": "",
       "result": "",
-      "member_position": "Nay",
-      "yea": 182,
-      "nay": 226,
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
       "present": 0,
       "bill": {
-        "code": "HR27",
+        "code": "HCONRES58",
         "type": null,
-        "number": "HR27",
+        "number": "HCONRES58",
         "congress": 119,
         "title": ""
       }
     }
   ],
-  "missed_votes": [],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -553,56 +625,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1973,43 +1995,43 @@
   "vote_record_similar": [
     {
       "name": "April Lynn McClain Delaney",
-      "distance": 0.0016278820596099892
+      "distance": 0.0009486832980505322
     },
     {
       "name": "Don Bacon",
-      "distance": 0.003298484500494102
-    },
-    {
-      "name": "Angie Craig",
-      "distance": 0.004242640687119274
-    },
-    {
-      "name": "Kim Schrier",
-      "distance": 0.004801041553663148
-    },
-    {
-      "name": "Greg Stanton",
-      "distance": 0.0062585940913275255
-    },
-    {
-      "name": "Nicolas Joseph LaLota",
-      "distance": 0.006592419889539821
+      "distance": 0.0036891733491393373
     },
     {
       "name": "Michael Vincent Lawler",
-      "distance": 0.0066128662469462016
+      "distance": 0.005787054518492043
     },
     {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.00724982758415679
+      "name": "J. Luis Correa",
+      "distance": 0.006264183905346342
     },
     {
-      "name": "David G. Valadao",
-      "distance": 0.008324061508662654
+      "name": "Frank John Mrvan",
+      "distance": 0.00834505841801005
     },
     {
-      "name": "Sanford D. Bishop",
-      "distance": 0.008876936408468851
+      "name": "Greg Stanton",
+      "distance": 0.008820430828480007
+    },
+    {
+      "name": "Nicole (Nikki) Jai Budzinski",
+      "distance": 0.009924716620639642
+    },
+    {
+      "name": "Angie Craig",
+      "distance": 0.010331021246711375
+    },
+    {
+      "name": "Emilia Strong Sykes",
+      "distance": 0.010435516278555696
+    },
+    {
+      "name": "Marc A. Veasey",
+      "distance": 0.010963576058932611
     }
   ]
 }

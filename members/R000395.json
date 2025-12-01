@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.333,
     "dw_nominate_dim2": 0.152,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9712,
-    "party_unity_bp_pct": 0.3633,
+    "party_unity_pct": 0.9734,
+    "party_unity_bp_pct": 0.3555,
     "maverick_votes": 8,
-    "bipartisan_votes": 101,
+    "bipartisan_votes": 107,
     "maverick_bipartisan": 8,
-    "total_votes": 278,
+    "total_votes": 301,
     "missed_votes": 3,
     "maverick_votes_all": 5681,
-    "bipartisan_votes_all": 1034,
+    "bipartisan_votes_all": 1040,
     "maverick_bipartisan_all": 194,
-    "total_votes_all": 25212,
+    "total_votes_all": 25235,
     "missed_votes_all": 632,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 10,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 71,
-    "party_unity_percentile_party": 51,
+    "party_unity_percentile_party": 52,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 70
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -180,8 +180,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.376,
-      "dim2": 0.695
+      "dim1": 0.377,
+      "dim2": 0.697
     }
   ],
   "lobbying_contributions": [
@@ -464,6 +464,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -662,56 +712,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1121,43 +1121,43 @@
   "vote_record_similar": [
     {
       "name": "Glenn Thompson",
-      "distance": 0.0013038404810405608
+      "distance": 0.0012041594578792076
     },
     {
       "name": "Mike Carey",
-      "distance": 0.0013038404810405608
-    },
-    {
-      "name": "Frank D. Lucas",
-      "distance": 0.0013038404810405608
-    },
-    {
-      "name": "Carlos A. Gimenez",
-      "distance": 0.003041381265149147
-    },
-    {
-      "name": "Ken S. Calvert",
-      "distance": 0.0034481879299133045
-    },
-    {
-      "name": "Darrell E. Issa",
-      "distance": 0.003599999999999992
-    },
-    {
-      "name": "Mike Flood",
-      "distance": 0.003599999999999992
-    },
-    {
-      "name": "Charles J. Fleischmann",
-      "distance": 0.00391152144312161
+      "distance": 0.0012041594578792076
     },
     {
       "name": "Steve Womack",
-      "distance": 0.00391152144312161
+      "distance": 0.0016031219541881882
     },
     {
-      "name": "Nellie Avila Pou",
-      "distance": 0.00391152144312161
+      "name": "Frank D. Lucas",
+      "distance": 0.0024083189157584795
+    },
+    {
+      "name": "Carlos A. Gimenez",
+      "distance": 0.003114482300479458
+    },
+    {
+      "name": "Ken S. Calvert",
+      "distance": 0.00322800247831379
+    },
+    {
+      "name": "Darrell E. Issa",
+      "distance": 0.0032999999999999696
+    },
+    {
+      "name": "Mike Flood",
+      "distance": 0.0032999999999999696
+    },
+    {
+      "name": "Charles J. Fleischmann",
+      "distance": 0.0035128336140500594
+    },
+    {
+      "name": "Tom Cole",
+      "distance": 0.003640054944640316
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "FL",
     "district": "01",
-    "tenure_years": 0.6,
+    "tenure_years": 0.7,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.805,
     "dw_nominate_dim2": 0.262,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9227,
-    "party_unity_bp_pct": 0.2887,
+    "party_unity_pct": 0.9306,
+    "party_unity_bp_pct": 0.2824,
     "maverick_votes": 15,
-    "bipartisan_votes": 56,
+    "bipartisan_votes": 61,
     "maverick_bipartisan": 6,
-    "total_votes": 194,
-    "missed_votes": 0,
+    "total_votes": 216,
+    "missed_votes": 1,
     "maverick_votes_all": 15,
-    "bipartisan_votes_all": 56,
+    "bipartisan_votes_all": 61,
     "maverick_bipartisan_all": 6,
-    "total_votes_all": 194,
-    "missed_votes_all": 0,
+    "total_votes_all": 216,
+    "missed_votes_all": 1,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 93,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 81,
-    "party_unity_percentile_party": 14,
+    "party_unity_percentile_party": 16,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 83
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,8 +86,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.825,
-      "dim2": 0.566
+      "dim1": 0.821,
+      "dim2": 0.571
     }
   ],
   "lobbying_contributions": [
@@ -345,8 +345,80 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-11-17",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Strengthening Cyber Resilience Against State-Sponsored Threats Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 402,
+      "nay": 8,
+      "present": 0,
+      "bill": {
+        "code": "HR2659",
+        "type": null,
+        "number": "HR2659",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -546,56 +618,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1071,44 +1093,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Anna Paulina Luna",
-      "distance": 0.0110276924150069
-    },
-    {
       "name": "Russell William Fry",
-      "distance": 0.011697008164483777
+      "distance": 0.00621288982680365
     },
     {
       "name": "Victoria Spartz",
-      "distance": 0.012043255373859706
+      "distance": 0.00622012861603362
     },
     {
       "name": "Cory Mills",
-      "distance": 0.012854960132182468
+      "distance": 0.009013878188659981
     },
     {
-      "name": "Jeff George Crank",
-      "distance": 0.014733974345029916
-    },
-    {
-      "name": "Tom McClintock",
-      "distance": 0.015604166110369407
-    },
-    {
-      "name": "Riley M. Moore",
-      "distance": 0.016124515496597113
+      "name": "Anna Paulina Luna",
+      "distance": 0.009704638066409251
     },
     {
       "name": "Byron Lowell Donalds",
-      "distance": 0.017095028517086497
+      "distance": 0.009712878049270447
+    },
+    {
+      "name": "Jeff George Crank",
+      "distance": 0.009867117106835174
+    },
+    {
+      "name": "Tom McClintock",
+      "distance": 0.013064838307457166
     },
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.019431160541769035
+      "distance": 0.013124404748406699
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.019431160541769035
+      "distance": 0.013124404748406699
+    },
+    {
+      "name": "Russ Fulcher",
+      "distance": 0.013819189556555011
     }
   ]
 }

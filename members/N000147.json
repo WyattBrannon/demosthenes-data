@@ -67,17 +67,17 @@
     "missed_votes_all": 133,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 84,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 44,
+    "party_unity_percentile_party": 47,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 2
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -329,6 +329,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": false,
+      "recorded": false,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -527,56 +577,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "eligible": false,
-      "recorded": false,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "eligible": false,
-      "recorded": false,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3814,11 +3814,15 @@
   "vote_record_similar": [
     {
       "name": "Delia Catalina Ramirez",
-      "distance": 0.025750339803583183
+      "distance": 0.024959567303941787
     },
     {
       "name": "Mike Johnson",
-      "distance": 0.03074670714076548
+      "distance": 0.029873901653449938
+    },
+    {
+      "name": "Randall Adam Fine",
+      "distance": 0.03254120464887555
     },
     {
       "name": "Aumua Amata Coleman Radewagen",
@@ -3826,31 +3830,27 @@
     },
     {
       "name": "Mike Steven Kennedy",
-      "distance": 0.03586321234914686
-    },
-    {
-      "name": "Randall Adam Fine",
-      "distance": 0.0364444783197675
+      "distance": 0.03410630440255879
     },
     {
       "name": "Troy E. Nehls",
-      "distance": 0.03809002494092125
+      "distance": 0.03573373755990272
     },
     {
       "name": "Diana Harshbarger",
-      "distance": 0.042159933586285434
+      "distance": 0.03922562937672261
     },
     {
       "name": "Robert F. Onder",
-      "distance": 0.045079485356423525
+      "distance": 0.04200809445809225
     },
     {
       "name": "Rashida Tlaib",
-      "distance": 0.04646052087525494
+      "distance": 0.042824875948448464
     },
     {
-      "name": "Clay Higgins",
-      "distance": 0.047942986974113394
+      "name": "Aaron Paul Bean",
+      "distance": 0.0466154480832267
     }
   ]
 }

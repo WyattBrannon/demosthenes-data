@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.416,
     "dw_nominate_dim2": -0.262,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9927,
-    "party_unity_bp_pct": 0.3114,
+    "party_unity_pct": 0.9932,
+    "party_unity_bp_pct": 0.3074,
     "maverick_votes": 2,
-    "bipartisan_votes": 85,
+    "bipartisan_votes": 91,
     "maverick_bipartisan": 0,
-    "total_votes": 273,
+    "total_votes": 296,
     "missed_votes": 8,
     "maverick_votes_all": 3570,
-    "bipartisan_votes_all": 854,
+    "bipartisan_votes_all": 860,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 10369,
+    "total_votes_all": 10392,
     "missed_votes_all": 70,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 61,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 92,
+    "party_unity_percentile_party": 95,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 35
+    "reliability_percentile_party": 37
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -114,8 +114,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.639,
-      "dim2": 0.107
+      "dim1": -0.526,
+      "dim2": -0.134
     }
   ],
   "lobbying_contributions": [
@@ -377,6 +377,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -575,56 +625,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3293,44 +3293,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Nanette Diaz Barrag\u00e1n",
-      "distance": 0.0005385164807134426
-    },
-    {
       "name": "Earl L. Carter",
-      "distance": 0.0009055385138137523
-    },
-    {
-      "name": "Lloyd A. Doggett",
-      "distance": 0.0012999999999999678
-    },
-    {
-      "name": "Suzanne Bonamici",
-      "distance": 0.0015033296378372915
+      "distance": 0.0007999999999999674
     },
     {
       "name": "Mary Gay Scanlon",
-      "distance": 0.0023000000000000242
-    },
-    {
-      "name": "Becca A. Balint",
-      "distance": 0.0036055512754640355
-    },
-    {
-      "name": "Mark Pocan",
-      "distance": 0.00361386219991859
+      "distance": 0.0020024984394500797
     },
     {
       "name": "John Garamendi",
-      "distance": 0.004252058325093861
+      "distance": 0.0030594117081556714
+    },
+    {
+      "name": "Becca A. Balint",
+      "distance": 0.003214031735997617
+    },
+    {
+      "name": "Mark Pocan",
+      "distance": 0.0032756678708318284
+    },
+    {
+      "name": "Lloyd A. Doggett",
+      "distance": 0.0034481879299133045
+    },
+    {
+      "name": "Suzanne Bonamici",
+      "distance": 0.0036715119501371588
+    },
+    {
+      "name": "Mark DeSaulnier",
+      "distance": 0.003996248240537577
     },
     {
       "name": "John R. Carter",
-      "distance": 0.004801041553663093
+      "distance": 0.004500000000000004
     },
     {
-      "name": "Janice D. Schakowsky",
-      "distance": 0.005162363799656143
+      "name": "Nanette Diaz Barrag\u00e1n",
+      "distance": 0.0053150729063672925
     }
   ]
 }

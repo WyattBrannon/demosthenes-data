@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.348,
     "dw_nominate_dim2": 0.636,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9715,
-    "party_unity_bp_pct": 0.3594,
+    "party_unity_pct": 0.9718,
+    "party_unity_bp_pct": 0.3556,
     "maverick_votes": 8,
     "bipartisan_votes": 101,
     "maverick_bipartisan": 8,
-    "total_votes": 281,
-    "missed_votes": 0,
+    "total_votes": 284,
+    "missed_votes": 20,
     "maverick_votes_all": 1078,
     "bipartisan_votes_all": 1079,
     "maverick_bipartisan_all": 206,
-    "total_votes_all": 8797,
-    "missed_votes_all": 0,
+    "total_votes_all": 8800,
+    "missed_votes_all": 20,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 13,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 97,
-    "party_unity_percentile_party": 53,
+    "party_unity_percentile_party": 46,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 8
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -322,8 +322,269 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-11-21",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES58",
+        "type": null,
+        "number": "HCONRES58",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "REFINER Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 230,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR3109",
+        "type": null,
+        "number": "HR3109",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Unlocking our Domestic LNG Potential Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 217,
+      "nay": 188,
+      "present": 0,
+      "bill": {
+        "code": "HR1949",
+        "type": null,
+        "number": "HR1949",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "District of Columbia Cash Bail Reform Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 237,
+      "nay": 179,
+      "present": 0,
+      "bill": {
+        "code": "HR5214",
+        "type": null,
+        "number": "HR5214",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLEAN DC Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 233,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR5107",
+        "type": null,
+        "number": "HR5107",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Enhancing Stakeholder Support and Outreach for Preparedness Grants Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 380,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HR4058",
+        "type": null,
+        "number": "HR4058",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "To repeal certain provisions relating to notification to Senate offices regarding legal process on disclosure of Senate data, and for other purposes",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 426,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR6019",
+        "type": null,
+        "number": "HR6019",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Passed",
+      "vote_desc": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 310,
+      "nay": 103,
+      "present": 0,
+      "bill": {
+        "code": "HRES893",
+        "type": null,
+        "number": "HRES893",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Ordering the Previous Question",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the joint resolutions S.J. Res. 80, H.J. Res. 130, and H.J. Res. 131; providing for consideration of the concurrent resolution H. Con. Res. 58; providing for consideration of the bills H.R. 1949, H.R. 3109, H.R. 5107, and H.R. 5214; and for other purposes",
+      "vote_question": "On Ordering the Previous Question",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 217,
+      "nay": 211,
+      "present": 0,
+      "bill": {
+        "code": "HRES879",
+        "type": null,
+        "number": "HRES879",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -523,56 +784,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1746,44 +1957,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Charles J. Fleischmann",
-      "distance": 0.0
+      "name": "Harold Rogers",
+      "distance": 0.0016031219541881882
     },
     {
-      "name": "Nellie Avila Pou",
-      "distance": 0.0
-    },
-    {
-      "name": "Darrell E. Issa",
-      "distance": 0.00042426406871199957
-    },
-    {
-      "name": "Mike Flood",
-      "distance": 0.00042426406871199957
-    },
-    {
-      "name": "J. French Hill",
-      "distance": 0.002039607805437129
+      "name": "Ken S. Calvert",
+      "distance": 0.0016999999999999368
     },
     {
       "name": "Glenn Thompson",
-      "distance": 0.002607680962081049
+      "distance": 0.0021400934559033117
     },
     {
       "name": "Mike Carey",
-      "distance": 0.002607680962081049
+      "distance": 0.0021400934559033117
+    },
+    {
+      "name": "Tom Cole",
+      "distance": 0.002195449840010049
+    },
+    {
+      "name": "Mark E. Amodei",
+      "distance": 0.002596150997149392
     },
     {
       "name": "Frank D. Lucas",
-      "distance": 0.002607680962081049
+      "distance": 0.002692582403567203
     },
     {
-      "name": "Carlos A. Gimenez",
-      "distance": 0.0034655446902326636
+      "name": "Cliff Stewart Bentz",
+      "distance": 0.002915475947422624
     },
     {
-      "name": "Timothy Kennedy",
-      "distance": 0.0035000000000000586
+      "name": "Young Oak Kim",
+      "distance": 0.0029206163733020802
+    },
+    {
+      "name": "Darrell E. Issa",
+      "distance": 0.0037576588456112196
     }
   ]
 }

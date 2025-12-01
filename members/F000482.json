@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.64,
     "dw_nominate_dim2": 0.32,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9817,
-    "party_unity_bp_pct": 0.326,
+    "party_unity_pct": 0.9831,
+    "party_unity_bp_pct": 0.322,
     "maverick_votes": 5,
-    "bipartisan_votes": 89,
+    "bipartisan_votes": 95,
     "maverick_bipartisan": 1,
-    "total_votes": 273,
-    "missed_votes": 8,
+    "total_votes": 295,
+    "missed_votes": 9,
     "maverick_votes_all": 5,
-    "bipartisan_votes_all": 89,
+    "bipartisan_votes_all": 95,
     "maverick_bipartisan_all": 1,
-    "total_votes_all": 273,
-    "missed_votes_all": 8,
+    "total_votes_all": 295,
+    "missed_votes_all": 9,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 71,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 85,
-    "party_unity_percentile_party": 68,
+    "party_unity_percentile_party": 69,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 40
+    "reliability_percentile_party": 37
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -70,8 +70,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.613,
-      "dim2": 0.14
+      "dim1": 0.611,
+      "dim2": 0.142
     }
   ],
   "lobbying_contributions": [
@@ -225,6 +225,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 236,
+      "nay": 183,
+      "present": 0,
+      "bill": {
+        "code": "HRES878",
+        "type": null,
+        "number": "HRES878",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-03",
       "chamber": "house",
@@ -395,6 +416,56 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -594,56 +665,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1440,44 +1461,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Marilyn Strickland",
-      "distance": 0.0
-    },
-    {
-      "name": "Adriano Espaillat",
-      "distance": 0.0014866068747318437
-    },
-    {
-      "name": "Doris O. Matsui",
-      "distance": 0.0022561028345357177
+      "name": "Laura Syril Friedman",
+      "distance": 0.0013152946437965554
     },
     {
       "name": "Steve Cohen",
-      "distance": 0.0023769728648009238
-    },
-    {
-      "name": "Austin Scott",
-      "distance": 0.003423448553724747
+      "distance": 0.0014866068747318437
     },
     {
       "name": "Steny H. Hoyer",
-      "distance": 0.003551056180912951
+      "distance": 0.0020615528128088184
     },
     {
-      "name": "Henry C. Johnson",
-      "distance": 0.0037000000000000366
+      "name": "Jason Crow",
+      "distance": 0.002517935662402846
     },
     {
-      "name": "James E. Clyburn",
-      "distance": 0.0037215588131856553
+      "name": "Doris O. Matsui",
+      "distance": 0.0029427877939124554
     },
     {
       "name": "Christopher H. Smith",
-      "distance": 0.003733630940518938
+      "distance": 0.0032015621187164046
     },
     {
-      "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.004438468204234399
+      "name": "Lori Trahan",
+      "distance": 0.003201562118716422
+    },
+    {
+      "name": "Gregory W. Meeks",
+      "distance": 0.0033615472627943235
+    },
+    {
+      "name": "Trent Kelly",
+      "distance": 0.00361386219991859
+    },
+    {
+      "name": "Kathy Castor",
+      "distance": 0.0039051248379533307
     }
   ]
 }

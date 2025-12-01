@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.338,
     "dw_nominate_dim2": -0.083,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9496,
-    "party_unity_bp_pct": 0.3705,
+    "party_unity_pct": 0.9535,
+    "party_unity_bp_pct": 0.3621,
     "maverick_votes": 14,
-    "bipartisan_votes": 103,
+    "bipartisan_votes": 109,
     "maverick_bipartisan": 13,
-    "total_votes": 278,
+    "total_votes": 301,
     "missed_votes": 3,
     "maverick_votes_all": 185,
-    "bipartisan_votes_all": 1002,
+    "bipartisan_votes_all": 1008,
     "maverick_bipartisan_all": 160,
-    "total_votes_all": 2473,
+    "total_votes_all": 2496,
     "missed_votes_all": 39,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 11,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 53,
-    "party_unity_percentile_party": 24,
+    "party_unity_percentile_party": 26,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 70
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -80,8 +80,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.286,
-      "dim2": -0.096
+      "dim1": 0.29,
+      "dim2": -0.085
     }
   ],
   "lobbying_contributions": [
@@ -406,6 +406,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -604,56 +654,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -6440,44 +6440,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Shomari Coleman Figures",
-      "distance": 0.0027166155414412017
+      "name": "Darren Soto",
+      "distance": 0.0028160255680657656
     },
     {
       "name": "Michael R. Turner",
-      "distance": 0.0031622776601683855
-    },
-    {
-      "name": "Darren Soto",
-      "distance": 0.00411946598480919
+      "distance": 0.0038470768123342928
     },
     {
       "name": "Janelle S. Bynum",
-      "distance": 0.004517742799230607
+      "distance": 0.004210700654285494
     },
     {
-      "name": "Emilia Strong Sykes",
-      "distance": 0.004517742799230607
-    },
-    {
-      "name": "Marc A. Veasey",
-      "distance": 0.005521775076911401
-    },
-    {
-      "name": "Frank John Mrvan",
-      "distance": 0.005604462507680822
+      "name": "Julie Elizabeth Johnson",
+      "distance": 0.004666904755831171
     },
     {
       "name": "David P. Joyce",
-      "distance": 0.005727128425310508
+      "distance": 0.004846648326421118
     },
     {
-      "name": "Mike Levin",
-      "distance": 0.006020797289396153
+      "name": "Herbert Clark Hoover Conaway",
+      "distance": 0.005161395160225563
+    },
+    {
+      "name": "Bradley Scott Schneider",
+      "distance": 0.005977457653551426
     },
     {
       "name": "Ryan Edward Mackenzie",
-      "distance": 0.007244998274671929
+      "distance": 0.006797793759742932
+    },
+    {
+      "name": "Shomari Coleman Figures",
+      "distance": 0.006879680225126789
+    },
+    {
+      "name": "Nicolas Joseph LaLota",
+      "distance": 0.00701783442380911
     }
   ]
 }

@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.579,
     "dw_nominate_dim2": -0.028,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9431,
-    "party_unity_bp_pct": 0.2811,
+    "party_unity_pct": 0.9474,
+    "party_unity_bp_pct": 0.2796,
     "maverick_votes": 16,
-    "bipartisan_votes": 79,
+    "bipartisan_votes": 85,
     "maverick_bipartisan": 1,
-    "total_votes": 281,
+    "total_votes": 304,
     "missed_votes": 0,
     "maverick_votes_all": 789,
-    "bipartisan_votes_all": 753,
+    "bipartisan_votes_all": 759,
     "maverick_bipartisan_all": 25,
-    "total_votes_all": 3414,
+    "total_votes_all": 3437,
     "missed_votes_all": 50,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 60,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
-    "party_unity_percentile_party": 20,
+    "party_unity_percentile_party": 21,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -85,8 +85,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.683,
-      "dim2": -0.079
+      "dim1": 0.68,
+      "dim2": -0.072
     }
   ],
   "lobbying_contributions": [
@@ -347,6 +347,56 @@
   "missed_votes": [],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -545,56 +595,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1963,44 +1963,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Mikie Sherrill",
+      "distance": 0.0008062257748298695
+    },
+    {
       "name": "Ronny Lynn Jackson",
-      "distance": 0.00254950975679641
+      "distance": 0.0025059928172283543
     },
     {
       "name": "Abraham Jamal Hamadeh",
-      "distance": 0.002745906043549122
+      "distance": 0.0029832867780352807
+    },
+    {
+      "name": "Jim Jordan",
+      "distance": 0.00692603782836911
     },
     {
       "name": "Brad Knott",
-      "distance": 0.00322800247831379
-    },
-    {
-      "name": "Rich Dean McCormick",
-      "distance": 0.004548626166217686
-    },
-    {
-      "name": "Katherine Cammack",
-      "distance": 0.004548626166217686
-    },
-    {
-      "name": "Mikie Sherrill",
-      "distance": 0.006264982043070791
+      "distance": 0.007516648189186474
     },
     {
       "name": "Cory Mills",
-      "distance": 0.00895600357302301
+      "distance": 0.00813203541556481
+    },
+    {
+      "name": "Rich Dean McCormick",
+      "distance": 0.008872992730753296
+    },
+    {
+      "name": "Katherine Cammack",
+      "distance": 0.008872992730753296
     },
     {
       "name": "Derek Larkin Schmidt",
-      "distance": 0.010012492197250356
-    },
-    {
-      "name": "Victoria Spartz",
-      "distance": 0.010616967551989652
+      "distance": 0.009231467922275423
     },
     {
       "name": "Morgan Joe Luttrell",
-      "distance": 0.011140017953306814
+      "distance": 0.010381233067415417
     }
   ]
 }

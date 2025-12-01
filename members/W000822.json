@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.597,
     "dw_nominate_dim2": -0.222,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9858,
-    "party_unity_bp_pct": 0.3167,
-    "maverick_votes": 4,
-    "bipartisan_votes": 89,
+    "party_unity_pct": 0.9834,
+    "party_unity_bp_pct": 0.3123,
+    "maverick_votes": 5,
+    "bipartisan_votes": 94,
     "maverick_bipartisan": 0,
-    "total_votes": 281,
-    "missed_votes": 0,
-    "maverick_votes_all": 1812,
-    "bipartisan_votes_all": 795,
+    "total_votes": 301,
+    "missed_votes": 3,
+    "maverick_votes_all": 1813,
+    "bipartisan_votes_all": 800,
     "maverick_bipartisan_all": 4,
-    "total_votes_all": 5811,
-    "missed_votes_all": 182,
+    "total_votes_all": 5831,
+    "missed_votes_all": 185,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 95,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 74,
-    "party_unity_percentile_party": 77,
+    "party_unity_percentile_party": 74,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 94
+    "reliability_percentile_party": 68
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,8 +95,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.659,
-      "dim2": -0.039
+      "dim1": -0.682,
+      "dim2": 0.009
     }
   ],
   "lobbying_contributions": [
@@ -143,6 +143,27 @@
   ],
   "lobbying_sum": 71000.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Passed",
+      "vote_desc": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 310,
+      "nay": 103,
+      "present": 0,
+      "bill": {
+        "code": "HRES893",
+        "type": null,
+        "number": "HRES893",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -228,8 +249,122 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-11-12",
+      "chamber": "house",
+      "question": "On Ordering the Previous Question",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+      "vote_question": "On Ordering the Previous Question",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 216,
+      "nay": 213,
+      "present": 0,
+      "bill": {
+        "code": "HRES873",
+        "type": null,
+        "number": "HRES873",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-12",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 209,
+      "present": 0,
+      "bill": {
+        "code": "HRES873",
+        "type": null,
+        "number": "HRES873",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-12",
+      "chamber": "house",
+      "question": "On Motion to Concur in the Senate Amendment",
+      "vote_result": "Passed",
+      "vote_desc": "Continuing Appropriations and Extensions Act, 2026",
+      "vote_question": "On Motion to Concur in the Senate Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 222,
+      "nay": 209,
+      "present": 0,
+      "bill": {
+        "code": "HR5371",
+        "type": null,
+        "number": "HR5371",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -429,56 +564,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -4898,44 +4983,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Nikema Natassha Williams",
+      "name": "Virginia Foxx",
       "distance": 0.0
     },
     {
-      "name": "Robin L. Kelly",
-      "distance": 0.00028284271247458785
-    },
-    {
-      "name": "Julia Letlow",
-      "distance": 0.0007071067811865874
-    },
-    {
-      "name": "Jasmine Felicia Crockett",
-      "distance": 0.0008944271909999167
-    },
-    {
-      "name": "Veronica Escobar",
-      "distance": 0.0010198039027185535
+      "name": "Nikema Natassha Williams",
+      "distance": 0.0021023796041629095
     },
     {
       "name": "LaMonica McIver",
-      "distance": 0.001204159457879263
+      "distance": 0.0021023796041629095
     },
     {
-      "name": "Joaquin Castro",
-      "distance": 0.0019924858845171
+      "name": "Teresa Leger Fernandez",
+      "distance": 0.0022135943621178675
     },
     {
-      "name": "Mark DeSaulnier",
-      "distance": 0.003157530680769389
+      "name": "C. Scott Franklin",
+      "distance": 0.002302172886644296
     },
     {
-      "name": "Rick W. Allen",
-      "distance": 0.003544009029333831
+      "name": "Jasmine Felicia Crockett",
+      "distance": 0.0025079872407969
     },
     {
-      "name": "Janice D. Schakowsky",
-      "distance": 0.003623534186398661
+      "name": "Emily Elissa Randall",
+      "distance": 0.002823118842698579
+    },
+    {
+      "name": "John W. Rose",
+      "distance": 0.0030149626863362777
+    },
+    {
+      "name": "Julia Letlow",
+      "distance": 0.0030265491900843154
+    },
+    {
+      "name": "Dwight Evans",
+      "distance": 0.0030805843601498235
     }
   ]
 }

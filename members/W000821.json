@@ -41,31 +41,31 @@
     "dw_nominate_dim1": 0.546,
     "dw_nominate_dim2": 0.254,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.968,
-    "party_unity_bp_pct": 0.3559,
+    "party_unity_pct": 0.9703,
+    "party_unity_bp_pct": 0.3498,
     "maverick_votes": 9,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 106,
     "maverick_bipartisan": 8,
-    "total_votes": 281,
-    "missed_votes": 0,
+    "total_votes": 303,
+    "missed_votes": 1,
     "maverick_votes_all": 915,
-    "bipartisan_votes_all": 862,
+    "bipartisan_votes_all": 868,
     "maverick_bipartisan_all": 45,
-    "total_votes_all": 5942,
-    "missed_votes_all": 51,
+    "total_votes_all": 5964,
+    "missed_votes_all": 52,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 54,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 80,
     "party_unity_percentile_party": 44,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 86
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -99,8 +99,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.377,
-      "dim2": 0.156
+      "dim1": 0.379,
+      "dim2": 0.162
     }
   ],
   "lobbying_contributions": [
@@ -337,8 +337,80 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLEAN DC Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 233,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR5107",
+        "type": null,
+        "number": "HR5107",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -538,56 +610,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1890,44 +1912,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ed Case",
-      "distance": 0.0011401754250991195
+      "name": "Mark Allen Alford",
+      "distance": 0.0007211102550928416
     },
     {
       "name": "Michael K. Simpson",
-      "distance": 0.0013038404810405096
-    },
-    {
-      "name": "James A. Himes",
-      "distance": 0.0015811388300841734
-    },
-    {
-      "name": "Mark Allen Alford",
-      "distance": 0.001969771560359252
-    },
-    {
-      "name": "Jake Daniel Auchincloss",
-      "distance": 0.002080865204668452
+      "distance": 0.001000000000000012
     },
     {
       "name": "Joe Courtney",
-      "distance": 0.0025179356624028325
+      "distance": 0.0012041594578792167
     },
     {
-      "name": "Joseph D. Morelle",
-      "distance": 0.0031953090617340904
+      "name": "Ami Bera",
+      "distance": 0.001931320791582831
     },
     {
       "name": "J. French Hill",
-      "distance": 0.003443835071544506
+      "distance": 0.0032202484376208412
     },
     {
       "name": "Cleo Fields",
-      "distance": 0.0034785054261852904
+      "distance": 0.0032572994949804585
+    },
+    {
+      "name": "Cliff Stewart Bentz",
+      "distance": 0.003300000000000025
     },
     {
       "name": "Timothy Kennedy",
-      "distance": 0.003500000000000003
+      "distance": 0.0033837848631378094
+    },
+    {
+      "name": "Young Oak Kim",
+      "distance": 0.003512833614050069
+    },
+    {
+      "name": "Ed Case",
+      "distance": 0.003605551275464048
     }
   ]
 }

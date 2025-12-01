@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": "05",
-    "tenure_years": 16.6,
+    "tenure_years": 16.7,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.326,
     "dw_nominate_dim2": -0.231,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.985,
-    "party_unity_bp_pct": 0.3421,
+    "party_unity_pct": 0.9861,
+    "party_unity_bp_pct": 0.3368,
     "maverick_votes": 4,
-    "bipartisan_votes": 91,
+    "bipartisan_votes": 97,
     "maverick_bipartisan": 3,
-    "total_votes": 266,
-    "missed_votes": 15,
+    "total_votes": 288,
+    "missed_votes": 16,
     "maverick_votes_all": 3449,
-    "bipartisan_votes_all": 859,
+    "bipartisan_votes_all": 865,
     "maverick_bipartisan_all": 20,
-    "total_votes_all": 9984,
-    "missed_votes_all": 268,
+    "total_votes_all": 10006,
+    "missed_votes_all": 269,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 33,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 71,
+    "party_unity_percentile_party": 79,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 18
+    "reliability_percentile_party": 17
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -122,8 +122,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.293,
-      "dim2": -0.384
+      "dim1": -0.314,
+      "dim2": -0.355
     }
   ],
   "lobbying_contributions": [
@@ -256,6 +256,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-21",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES58",
+        "type": null,
+        "number": "HCONRES58",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-08",
       "chamber": "house",
@@ -444,30 +465,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 120,
-      "nay": 306,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -667,56 +717,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -2069,44 +2069,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Michael James Baumgartner",
-      "distance": 0.0007211102550928416
+      "name": "Bill Foster",
+      "distance": 0.0007280109889280784
     },
     {
-      "name": "Daniel Meuser",
-      "distance": 0.0011401754250991195
+      "name": "Kelly Louise Morrison",
+      "distance": 0.001140175425099168
     },
     {
-      "name": "Gus M. Bilirakis",
-      "distance": 0.002607680962081049
+      "name": "Dan Crenshaw",
+      "distance": 0.0013341664064126487
     },
     {
       "name": "Bryan Steil",
-      "distance": 0.0028442925306656026
-    },
-    {
-      "name": "Ashley Hinson",
-      "distance": 0.003008321791298269
-    },
-    {
-      "name": "Johnny Anthony Olszewski",
-      "distance": 0.003201562118716422
-    },
-    {
-      "name": "Salud O. Carbajal",
-      "distance": 0.003312099032335846
+      "distance": 0.0028178005607210122
     },
     {
       "name": "Max Leonard Miller",
-      "distance": 0.0035227829907617195
+      "distance": 0.0028460498941514736
     },
     {
       "name": "David Scott",
-      "distance": 0.0035227829907617195
+      "distance": 0.0028460498941514736
+    },
+    {
+      "name": "Johnny Anthony Olszewski",
+      "distance": 0.00317804971641414
     },
     {
       "name": "Robert J. Wittman",
-      "distance": 0.003966106403010352
+      "distance": 0.0032310988842806972
+    },
+    {
+      "name": "Gus M. Bilirakis",
+      "distance": 0.003512833614050069
+    },
+    {
+      "name": "Andrea Rose Salinas",
+      "distance": 0.0036124783736376414
     }
   ]
 }

@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.594,
     "dw_nominate_dim2": 0.057,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9736,
-    "party_unity_bp_pct": 0.3283,
+    "party_unity_pct": 0.9757,
+    "party_unity_bp_pct": 0.3229,
     "maverick_votes": 7,
-    "bipartisan_votes": 87,
+    "bipartisan_votes": 93,
     "maverick_bipartisan": 4,
-    "total_votes": 265,
+    "total_votes": 288,
     "missed_votes": 16,
     "maverick_votes_all": 1076,
-    "bipartisan_votes_all": 702,
+    "bipartisan_votes_all": 708,
     "maverick_bipartisan_all": 13,
-    "total_votes_all": 6849,
+    "total_votes_all": 6872,
     "missed_votes_all": 346,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 64,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 64,
-    "party_unity_percentile_party": 54,
+    "party_unity_percentile_party": 55,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 13
+    "reliability_percentile_party": 15
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -100,8 +100,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.486,
-      "dim2": 0.08
+      "dim1": 0.487,
+      "dim2": 0.085
     }
   ],
   "lobbying_contributions": [
@@ -510,6 +510,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -708,56 +758,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3320,44 +3320,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Ro Khanna",
+      "distance": 0.0011313708498985084
+    },
+    {
       "name": "Zoe Lofgren",
-      "distance": 0.0009219544457293076
+      "distance": 0.0015652475842498294
     },
     {
-      "name": "Bennie G. Thompson",
-      "distance": 0.0013453624047073797
+      "name": "James E. Clyburn",
+      "distance": 0.0019416487838947462
     },
     {
-      "name": "Jahana Hayes",
-      "distance": 0.003405877273185303
-    },
-    {
-      "name": "Robert Jacobsen Menendez",
-      "distance": 0.0034205262752974364
-    },
-    {
-      "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.003984971769034273
+      "name": "Marilyn Strickland",
+      "distance": 0.002118962010041722
     },
     {
       "name": "Vern Buchanan",
-      "distance": 0.0040311288741492635
-    },
-    {
-      "name": "Christopher H. Smith",
-      "distance": 0.004707440918375867
+      "distance": 0.003052867504494719
     },
     {
       "name": "David Schweikert",
-      "distance": 0.004785394445602144
+      "distance": 0.003080584360149883
     },
     {
-      "name": "Ro Khanna",
-      "distance": 0.004904079934095624
+      "name": "Troy Anthony Carter",
+      "distance": 0.003765634076752534
     },
     {
-      "name": "Jimmy Gomez",
-      "distance": 0.005360037313302934
+      "name": "Yassamin Ansari",
+      "distance": 0.004237924020083407
+    },
+    {
+      "name": "Christopher H. Smith",
+      "distance": 0.004275511665286376
+    },
+    {
+      "name": "Sydney Kai Kamlager-Dove",
+      "distance": 0.004601086828130929
     }
   ]
 }

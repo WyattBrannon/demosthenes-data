@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.492,
     "dw_nominate_dim2": 0.197,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9847,
-    "party_unity_bp_pct": 0.341,
-    "maverick_votes": 4,
-    "bipartisan_votes": 89,
+    "party_unity_pct": 0.9823,
+    "party_unity_bp_pct": 0.3322,
+    "maverick_votes": 5,
+    "bipartisan_votes": 94,
     "maverick_bipartisan": 3,
-    "total_votes": 261,
-    "missed_votes": 20,
-    "maverick_votes_all": 718,
-    "bipartisan_votes_all": 891,
+    "total_votes": 283,
+    "missed_votes": 21,
+    "maverick_votes_all": 719,
+    "bipartisan_votes_all": 896,
     "maverick_bipartisan_all": 68,
-    "total_votes_all": 3340,
-    "missed_votes_all": 124,
+    "total_votes_all": 3362,
+    "missed_votes_all": 125,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 44,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 73,
+    "party_unity_percentile_party": 66,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 7
+    "reliability_percentile_party": 8
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -93,8 +93,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.61,
-      "dim2": 0.792
+      "dim1": 0.656,
+      "dim2": 0.755
     }
   ],
   "lobbying_contributions": [
@@ -141,6 +141,27 @@
   ],
   "lobbying_sum": 330500.0,
   "maverick_votes": [
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Enhancing Stakeholder Support and Outreach for Preparedness Grants Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 380,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HR4058",
+        "type": null,
+        "number": "HR4058",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -227,6 +248,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-12",
+      "chamber": "house",
+      "question": "On Ordering the Previous Question",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
+      "vote_question": "On Ordering the Previous Question",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 216,
+      "nay": 213,
+      "present": 0,
+      "bill": {
+        "code": "HRES873",
+        "type": null,
+        "number": "HRES873",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "house",
@@ -415,30 +457,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-06-24",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bills H.R. 3944, H.R. 275, H.R. 875, and providing for consideration of the resolution H.Res. 516",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 217,
-      "nay": 206,
-      "present": 0,
-      "bill": {
-        "code": "HRES530",
-        "type": null,
-        "number": "HRES530",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -638,56 +709,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1639,44 +1660,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mike Quigley",
-      "distance": 0.0011401754250991195
-    },
-    {
       "name": "Michael James Baumgartner",
-      "distance": 0.001140175425099134
-    },
-    {
-      "name": "Gus M. Bilirakis",
-      "distance": 0.0015811388300841734
-    },
-    {
-      "name": "Bryan Steil",
-      "distance": 0.002570992026436542
-    },
-    {
-      "name": "Salud O. Carbajal",
-      "distance": 0.0026476404589747915
-    },
-    {
-      "name": "Gabe Amo",
-      "distance": 0.003101612483854174
+      "distance": 0.001100000000000101
     },
     {
       "name": "Ashley Hinson",
-      "distance": 0.0032202484376209362
+      "distance": 0.00162788205961003
+    },
+    {
+      "name": "Gabe Amo",
+      "distance": 0.0020000000000000018
+    },
+    {
+      "name": "Elise M. Stefanik",
+      "distance": 0.002024845673131589
+    },
+    {
+      "name": "Andrea Rose Salinas",
+      "distance": 0.0024596747752497956
     },
     {
       "name": "Rick Larsen",
-      "distance": 0.003911521443121601
+      "distance": 0.0030999999999999917
     },
     {
-      "name": "Ted Lieu",
-      "distance": 0.003962322551231824
+      "name": "Robert J. Wittman",
+      "distance": 0.0034928498393146153
     },
     {
-      "name": "Pete Aguilar",
-      "distance": 0.003962322551231824
+      "name": "Pete A. Sessions",
+      "distance": 0.0035468295701936406
+    },
+    {
+      "name": "Bryan Steil",
+      "distance": 0.003546829570193692
+    },
+    {
+      "name": "Gus M. Bilirakis",
+      "distance": 0.0042449970553583224
     }
   ]
 }

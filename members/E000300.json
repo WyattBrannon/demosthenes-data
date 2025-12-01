@@ -49,22 +49,22 @@
     "dw_nominate_dim1": 0.373,
     "dw_nominate_dim2": 0.531,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9786,
-    "party_unity_bp_pct": 0.3523,
+    "party_unity_pct": 0.9803,
+    "party_unity_bp_pct": 0.3454,
     "maverick_votes": 6,
-    "bipartisan_votes": 99,
+    "bipartisan_votes": 105,
     "maverick_bipartisan": 6,
-    "total_votes": 281,
+    "total_votes": 304,
     "missed_votes": 0,
     "maverick_votes_all": 6,
-    "bipartisan_votes_all": 99,
+    "bipartisan_votes_all": 105,
     "maverick_bipartisan_all": 6,
-    "total_votes_all": 281,
+    "total_votes_all": 304,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 16,
     "dim2_direction_party": "right",
@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.394,
-      "dim2": 0.112
+      "dim1": 0.396,
+      "dim2": 0.118
     }
   ],
   "lobbying_contributions": [
@@ -259,6 +259,56 @@
   ],
   "missed_votes": [],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -458,56 +508,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1296,44 +1296,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Sarah Elizabeth McBride",
-      "distance": 0.0013000000000000234
-    },
-    {
       "name": "Stephanie I. Bice",
-      "distance": 0.003405877273185293
+      "distance": 0.003206243908376259
     },
     {
-      "name": "Haley M. Stevens",
-      "distance": 0.003805259518088114
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.003640054944640209
     },
     {
       "name": "Valerie Anne Hoyle",
-      "distance": 0.004257933771208732
+      "distance": 0.003981205847478775
     },
     {
       "name": "Tim Walberg",
-      "distance": 0.004429446918070029
+      "distance": 0.004167733196834882
     },
     {
-      "name": "Sarah Kelly Elfreth",
-      "distance": 0.005020956084253234
+      "name": "Chris Raphael Deluzio",
+      "distance": 0.004666904755831171
     },
     {
       "name": "John R. Moolenaar",
-      "distance": 0.005020956084253312
+      "distance": 0.00466690475583121
+    },
+    {
+      "name": "Joyce Beatty",
+      "distance": 0.0048507731342539665
+    },
+    {
+      "name": "Laurel Frances Lee",
+      "distance": 0.004904079934095694
     },
     {
       "name": "Mike Kelly",
-      "distance": 0.005300943312279445
-    },
-    {
-      "name": "George Stephen Latimer",
-      "distance": 0.005374011537017797
+      "distance": 0.005047771785649583
     },
     {
       "name": "Lisa C. McClain",
-      "distance": 0.005437830449729058
+      "distance": 0.005186520991955928
     }
   ]
 }

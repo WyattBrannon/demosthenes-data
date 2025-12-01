@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.675,
     "dw_nominate_dim2": 0.108,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9568,
-    "party_unity_bp_pct": 0.3165,
+    "party_unity_pct": 0.9601,
+    "party_unity_bp_pct": 0.3123,
     "maverick_votes": 12,
-    "bipartisan_votes": 88,
+    "bipartisan_votes": 94,
     "maverick_bipartisan": 4,
-    "total_votes": 278,
+    "total_votes": 301,
     "missed_votes": 3,
     "maverick_votes_all": 1091,
-    "bipartisan_votes_all": 755,
+    "bipartisan_votes_all": 761,
     "maverick_bipartisan_all": 14,
-    "total_votes_all": 5913,
+    "total_votes_all": 5936,
     "missed_votes_all": 80,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 78,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 30,
+    "party_unity_percentile_party": 31,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 70
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -107,8 +107,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.506,
-      "dim2": -0.128
+      "dim1": 0.507,
+      "dim2": -0.122
     }
   ],
   "lobbying_contributions": [
@@ -433,6 +433,56 @@
   ],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -631,56 +681,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1764,43 +1764,43 @@
   "vote_record_similar": [
     {
       "name": "Ron Estes",
-      "distance": 0.004477722635447625
+      "distance": 0.004167733196835006
     },
     {
       "name": "Brian Timothy Jack",
-      "distance": 0.005590169943749448
-    },
-    {
-      "name": "Nicholas Joseph Begich",
-      "distance": 0.007960527620704514
-    },
-    {
-      "name": "Addison Parker McDowell",
-      "distance": 0.008049844718999201
-    },
-    {
-      "name": "Pete Stauber",
-      "distance": 0.00960468635614927
-    },
-    {
-      "name": "John Edwards James",
-      "distance": 0.010748023074035556
+      "distance": 0.005093132631298766
     },
     {
       "name": "Michael Guest",
-      "distance": 0.010911461863563494
+      "distance": 0.006811754546370537
     },
     {
-      "name": "Nancy Ruth Mace",
-      "distance": 0.012293087488503444
+      "name": "Addison Parker McDowell",
+      "distance": 0.007379024325749238
+    },
+    {
+      "name": "John Edwards James",
+      "distance": 0.00740945342113709
+    },
+    {
+      "name": "Pete Stauber",
+      "distance": 0.008802272433866129
+    },
+    {
+      "name": "Brad J. Sherman",
+      "distance": 0.009126883367283707
+    },
+    {
+      "name": "Ryan Zinke",
+      "distance": 0.010543718509140874
     },
     {
       "name": "Lateefah Aaliyah Simon",
-      "distance": 0.012700393694685206
+      "distance": 0.01184060809249263
     },
     {
       "name": "Derrick Francis Van Orden",
-      "distance": 0.012703542812932192
+      "distance": 0.011964113005150082
     }
   ]
 }

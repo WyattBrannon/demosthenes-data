@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.292,
     "dw_nominate_dim2": 0.201,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9621,
-    "party_unity_bp_pct": 0.3447,
+    "party_unity_pct": 0.9649,
+    "party_unity_bp_pct": 0.3404,
     "maverick_votes": 10,
-    "bipartisan_votes": 91,
+    "bipartisan_votes": 97,
     "maverick_bipartisan": 9,
-    "total_votes": 264,
-    "missed_votes": 17,
+    "total_votes": 285,
+    "missed_votes": 19,
     "maverick_votes_all": 162,
-    "bipartisan_votes_all": 580,
+    "bipartisan_votes_all": 586,
     "maverick_bipartisan_all": 152,
-    "total_votes_all": 1464,
-    "missed_votes_all": 52,
+    "total_votes_all": 1485,
+    "missed_votes_all": 54,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 7,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 35,
+    "party_unity_percentile_party": 36,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 11
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,8 +91,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.315,
-      "dim2": 0.241
+      "dim1": 0.317,
+      "dim2": 0.249
     }
   ],
   "lobbying_contributions": [
@@ -352,6 +352,48 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-11-21",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES58",
+        "type": null,
+        "number": "HCONRES58",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "District of Columbia Cash Bail Reform Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 237,
+      "nay": 179,
+      "present": 0,
+      "bill": {
+        "code": "HR5214",
+        "type": null,
+        "number": "HR5214",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-09-17",
       "chamber": "house",
       "question": "On Passage",
@@ -518,51 +560,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-05-19",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Strengthening the Quad Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 334,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "HR1263",
-        "type": null,
-        "number": "HR1263",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-15",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Federal Law Enforcement Officer Service Weapon Purchase Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 234,
-      "nay": 182,
-      "present": 0,
-      "bill": {
-        "code": "HR2255",
-        "type": null,
-        "number": "HR2255",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -762,56 +812,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3273,44 +3273,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Chrissy Houlahan",
-      "distance": 0.0023769728648009238
-    },
-    {
       "name": "Mariannette Jane Miller-Meeks",
-      "distance": 0.0050803543183522105
+      "distance": 0.0033241540277189367
     },
     {
-      "name": "H. Morgan Griffith",
-      "distance": 0.005314132102234581
-    },
-    {
-      "name": "Michael A. Rulli",
-      "distance": 0.006264982043070819
+      "name": "Chrissy Houlahan",
+      "distance": 0.004186884283091643
     },
     {
       "name": "Vince Fong",
-      "distance": 0.006300793600809362
-    },
-    {
-      "name": "Dan Sachs Goldman",
-      "distance": 0.006767569726275514
-    },
-    {
-      "name": "Clarence Owens",
-      "distance": 0.006811754546370641
-    },
-    {
-      "name": "Shri Thanedar",
-      "distance": 0.006830812543175229
+      "distance": 0.004272001872658819
     },
     {
       "name": "Celeste Maloy",
-      "distance": 0.0069921384425653205
+      "distance": 0.004438468204234436
     },
     {
-      "name": "Jonathan Luther Jackson",
-      "distance": 0.007200694410957971
+      "name": "Raul Ruiz",
+      "distance": 0.004809365862564444
+    },
+    {
+      "name": "Seth Michael Magaziner",
+      "distance": 0.005015974481593826
+    },
+    {
+      "name": "Brendan F. Boyle",
+      "distance": 0.005215361924162145
+    },
+    {
+      "name": "Clarence Owens",
+      "distance": 0.005255473337388384
+    },
+    {
+      "name": "James R. Baird",
+      "distance": 0.0058668560575490525
+    },
+    {
+      "name": "H. Morgan Griffith",
+      "distance": 0.00588982172905083
     }
   ]
 }

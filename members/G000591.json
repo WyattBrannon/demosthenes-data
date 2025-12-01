@@ -49,22 +49,22 @@
     "dw_nominate_dim1": 0.53,
     "dw_nominate_dim2": 0.114,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9573,
-    "party_unity_bp_pct": 0.3274,
+    "party_unity_pct": 0.9605,
+    "party_unity_bp_pct": 0.3191,
     "maverick_votes": 12,
-    "bipartisan_votes": 92,
+    "bipartisan_votes": 97,
     "maverick_bipartisan": 6,
-    "total_votes": 281,
+    "total_votes": 304,
     "missed_votes": 0,
     "maverick_votes_all": 734,
-    "bipartisan_votes_all": 782,
+    "bipartisan_votes_all": 787,
     "maverick_bipartisan_all": 39,
-    "total_votes_all": 3332,
+    "total_votes_all": 3355,
     "missed_votes_all": 132,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 50,
     "dim2_direction_party": "right",
@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.46,
-      "dim2": -0.098
+      "dim1": 0.461,
+      "dim2": -0.091
     }
   ],
   "lobbying_contributions": [
@@ -359,6 +359,56 @@
   "missed_votes": [],
   "key_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
+    {
       "date": "2025-09-19",
       "chamber": "house",
       "question": "On Passage",
@@ -557,56 +607,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1162,43 +1162,43 @@
   "vote_record_similar": [
     {
       "name": "Pete Stauber",
-      "distance": 0.0015264337522474067
-    },
-    {
-      "name": "Mike Ezell",
-      "distance": 0.005390732788777418
-    },
-    {
-      "name": "Addison Parker McDowell",
-      "distance": 0.005522680508593649
-    },
-    {
-      "name": "Jason T. Smith",
-      "distance": 0.0066910387833279805
-    },
-    {
-      "name": "John Edwards James",
-      "distance": 0.00782943165242536
+      "distance": 0.0020880613017821245
     },
     {
       "name": "Brian Timothy Jack",
-      "distance": 0.007960527620704564
-    },
-    {
-      "name": "Michael T. McCaul",
-      "distance": 0.009154780172128636
-    },
-    {
-      "name": "Eric Swalwell",
-      "distance": 0.009794896630388619
+      "distance": 0.004666904755831171
     },
     {
       "name": "Ryan Zinke",
-      "distance": 0.009968951800465208
+      "distance": 0.00597745765355132
     },
     {
       "name": "Gary J. Palmer",
-      "distance": 0.010911461863563494
+      "distance": 0.006811754546370537
+    },
+    {
+      "name": "Mike Ezell",
+      "distance": 0.007479304780526085
+    },
+    {
+      "name": "John Edwards James",
+      "distance": 0.0076850504227362944
+    },
+    {
+      "name": "Addison Parker McDowell",
+      "distance": 0.007826237921249271
+    },
+    {
+      "name": "Ron Estes",
+      "distance": 0.00945780101292051
+    },
+    {
+      "name": "Jason T. Smith",
+      "distance": 0.009481033698917033
+    },
+    {
+      "name": "Robert Jacobsen Menendez",
+      "distance": 0.010435516278555679
     }
   ]
 }

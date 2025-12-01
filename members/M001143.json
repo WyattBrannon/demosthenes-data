@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.419,
     "dw_nominate_dim2": -0.185,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9964,
-    "party_unity_bp_pct": 0.3165,
+    "party_unity_pct": 0.9967,
+    "party_unity_bp_pct": 0.3123,
     "maverick_votes": 1,
-    "bipartisan_votes": 88,
+    "bipartisan_votes": 94,
     "maverick_bipartisan": 0,
-    "total_votes": 278,
+    "total_votes": 301,
     "missed_votes": 3,
     "maverick_votes_all": 4976,
-    "bipartisan_votes_all": 856,
+    "bipartisan_votes_all": 862,
     "maverick_bipartisan_all": 13,
-    "total_votes_all": 15419,
+    "total_votes_all": 15442,
     "missed_votes_all": 306,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.44,
-    "pubp_median_party": 32.71,
+    "pu_median_party": 97.27000000000001,
+    "pubp_median_party": 32.004999999999995,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 62,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 68,
     "party_unity_percentile_party": 99,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 66
+    "reliability_percentile_party": 68
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -126,8 +126,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.5,
-      "dim2": -0.118
+      "dim1": -0.408,
+      "dim2": -0.317
     }
   ],
   "lobbying_contributions": [
@@ -262,6 +262,56 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -461,56 +511,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1247,44 +1247,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Debbie Dingell",
-      "distance": 0.0008062257748298763
+      "name": "Madeleine Dean",
+      "distance": 0.0008062257748298212
     },
     {
-      "name": "Madeleine Dean",
-      "distance": 0.0010000000000000009
+      "name": "Debbie Dingell",
+      "distance": 0.0017029386365926189
     },
     {
       "name": "John R. Carter",
-      "distance": 0.0038118237105091
+      "distance": 0.003522782990761767
     },
     {
-      "name": "Donald S. Beyer",
-      "distance": 0.004272001872658695
-    },
-    {
-      "name": "Valerie Jean Foushee",
-      "distance": 0.005091168824543092
-    },
-    {
-      "name": "Suzanne Bonamici",
-      "distance": 0.005091168824543092
+      "name": "John Garamendi",
+      "distance": 0.004328972164382705
     },
     {
       "name": "Jill Naomi Tokuda",
-      "distance": 0.005166236541235739
+      "distance": 0.004810405388322335
     },
     {
-      "name": "Lloyd A. Doggett",
-      "distance": 0.0053037722424704135
+      "name": "Donald S. Beyer",
+      "distance": 0.005315072906367366
     },
     {
       "name": "Earl L. Carter",
-      "distance": 0.005663920903402448
+      "distance": 0.005390732788777496
     },
     {
-      "name": "Andr\u00e9 Carson",
-      "distance": 0.005981638571495212
+      "name": "Paul Tonko",
+      "distance": 0.006021627686929885
+    },
+    {
+      "name": "Robert C. Scott",
+      "distance": 0.006500000000000035
+    },
+    {
+      "name": "Nathaniel Quentin Moran",
+      "distance": 0.006500000000000035
     }
   ]
 }

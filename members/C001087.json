@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.46,
     "dw_nominate_dim2": 0.31,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9926,
-    "party_unity_bp_pct": 0.3382,
+    "party_unity_pct": 0.9932,
+    "party_unity_bp_pct": 0.3288,
     "maverick_votes": 2,
-    "bipartisan_votes": 92,
+    "bipartisan_votes": 96,
     "maverick_bipartisan": 2,
-    "total_votes": 272,
-    "missed_votes": 9,
+    "total_votes": 292,
+    "missed_votes": 12,
     "maverick_votes_all": 1020,
-    "bipartisan_votes_all": 879,
+    "bipartisan_votes_all": 883,
     "maverick_bipartisan_all": 69,
-    "total_votes_all": 8484,
-    "missed_votes_all": 313,
+    "total_votes_all": 8504,
+    "missed_votes_all": 316,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 36,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 84,
     "party_unity_percentile_party": 87,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 34
+    "reliability_percentile_party": 23
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -114,7 +114,7 @@
     {
       "congress": 119,
       "dim1": 0.52,
-      "dim2": 0.282
+      "dim2": 0.285
     }
   ],
   "lobbying_contributions": [
@@ -205,6 +205,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-17",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 15,
+      "present": 0,
+      "bill": {
+        "code": "HR1608",
+        "type": null,
+        "number": "HR1608",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-17",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Strengthening Cyber Resilience Against State-Sponsored Threats Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 402,
+      "nay": 8,
+      "present": 0,
+      "bill": {
+        "code": "HR2659",
+        "type": null,
+        "number": "HR2659",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-17",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Failed",
+      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 206,
+      "nay": 211,
+      "present": 0,
+      "bill": {
+        "code": "HRES878",
+        "type": null,
+        "number": "HRES878",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -351,51 +414,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-02-12",
-      "chamber": "house",
-      "question": "On Motion to Recommit",
-      "vote_result": "Failed",
-      "vote_desc": "Midnight Rules Relief Act",
-      "vote_question": "On Motion to Recommit",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 205,
-      "nay": 213,
-      "present": 0,
-      "bill": {
-        "code": "HR77",
-        "type": null,
-        "number": "HR77",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-12",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Midnight Rules Relief Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 212,
-      "nay": 208,
-      "present": 0,
-      "bill": {
-        "code": "HR77",
-        "type": null,
-        "number": "HR77",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -595,56 +666,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -1305,44 +1326,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "John H. Rutherford",
-      "distance": 0.000500000000000067
-    },
-    {
-      "name": "Richard E. Neal",
-      "distance": 0.002308679276123071
-    },
-    {
-      "name": "Bill Foster",
-      "distance": 0.0025179356624028325
-    },
-    {
-      "name": "Rosa L. DeLauro",
-      "distance": 0.003401470270339059
-    },
-    {
-      "name": "Suzan K. DelBene",
-      "distance": 0.0037000000000000487
-    },
-    {
-      "name": "Kelly Louise Morrison",
-      "distance": 0.004104875150354829
-    },
-    {
-      "name": "Neal P. Dunn",
-      "distance": 0.004188078318274354
-    },
-    {
-      "name": "Lloyd Smucker",
-      "distance": 0.004243819034784645
-    },
-    {
-      "name": "Deborah Koff Ross",
-      "distance": 0.00473814309619292
+      "name": "John B. Larson",
+      "distance": 0.00240208242989282
     },
     {
       "name": "Morgan McGarvey",
-      "distance": 0.004957822102496256
+      "distance": 0.003101612483854158
+    },
+    {
+      "name": "Claudia Tenney",
+      "distance": 0.0032015621187164063
+    },
+    {
+      "name": "Sean Casten",
+      "distance": 0.003206243908376259
+    },
+    {
+      "name": "Neal P. Dunn",
+      "distance": 0.0033241540277189167
+    },
+    {
+      "name": "Lloyd Smucker",
+      "distance": 0.003511409973215871
+    },
+    {
+      "name": "Deborah Koff Ross",
+      "distance": 0.004601086828130941
+    },
+    {
+      "name": "Gregory Francis Murphy",
+      "distance": 0.004808326112068543
+    },
+    {
+      "name": "David Rouzer",
+      "distance": 0.0053009433122794
+    },
+    {
+      "name": "Rosa L. DeLauro",
+      "distance": 0.006500769185257954
     }
   ]
 }

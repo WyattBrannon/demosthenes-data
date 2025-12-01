@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.341,
     "dw_nominate_dim2": 0.234,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9852,
-    "party_unity_bp_pct": 0.3469,
+    "party_unity_pct": 0.9863,
+    "party_unity_bp_pct": 0.3425,
     "maverick_votes": 4,
-    "bipartisan_votes": 94,
+    "bipartisan_votes": 100,
     "maverick_bipartisan": 3,
-    "total_votes": 271,
-    "missed_votes": 10,
+    "total_votes": 292,
+    "missed_votes": 12,
     "maverick_votes_all": 163,
-    "bipartisan_votes_all": 996,
+    "bipartisan_votes_all": 1002,
     "maverick_bipartisan_all": 151,
-    "total_votes_all": 2414,
-    "missed_votes_all": 98,
+    "total_votes_all": 2435,
+    "missed_votes_all": 100,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 12,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 78,
-    "party_unity_percentile_party": 74,
+    "party_unity_percentile_party": 75,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 29
+    "reliability_percentile_party": 23
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -93,7 +93,7 @@
     {
       "congress": 119,
       "dim1": 0.558,
-      "dim2": 0.411
+      "dim2": 0.412
     }
   ],
   "lobbying_contributions": [
@@ -226,6 +226,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 236,
+      "nay": 183,
+      "present": 0,
+      "bill": {
+        "code": "HRES878",
+        "type": null,
+        "number": "HRES878",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-17",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Failed",
+      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 206,
+      "nay": 211,
+      "present": 0,
+      "bill": {
+        "code": "HRES878",
+        "type": null,
+        "number": "HRES878",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-10",
       "chamber": "house",
@@ -393,51 +435,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-03-05",
-      "chamber": "house",
-      "question": "On Motion to Table",
-      "vote_result": "Failed",
-      "vote_desc": "Censuring Representative Al Green of Texas",
-      "vote_question": "On Motion to Table",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 209,
-      "nay": 211,
-      "present": 0,
-      "bill": {
-        "code": "HRES189",
-        "type": null,
-        "number": "HRES189",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-25",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Rural Small Business Resilience Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 415,
-      "nay": 8,
-      "present": 0,
-      "bill": {
-        "code": "HR804",
-        "type": null,
-        "number": "HR804",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -637,56 +687,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -2453,44 +2453,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Dan Crenshaw",
-      "distance": 0.0008485281374238028
-    },
-    {
       "name": "Jack Bergman",
       "distance": 0.0012000000000000344
     },
     {
-      "name": "Joyce Beatty",
-      "distance": 0.0016278820596099483
-    },
-    {
       "name": "Johnny Anthony Olszewski",
-      "distance": 0.00180277563773199
-    },
-    {
-      "name": "Debbie Wasserman Schultz",
-      "distance": 0.0034058772731852377
-    },
-    {
-      "name": "Sarah Kelly Elfreth",
-      "distance": 0.00355105618091295
+      "distance": 0.002647640458974802
     },
     {
       "name": "Mike Kelly",
-      "distance": 0.003668787265568775
+      "distance": 0.0034539832078340996
+    },
+    {
+      "name": "Dan Crenshaw",
+      "distance": 0.004428317965096914
+    },
+    {
+      "name": "Kelly Louise Morrison",
+      "distance": 0.004825971404805494
+    },
+    {
+      "name": "Laurel Frances Lee",
+      "distance": 0.004939635614091338
+    },
+    {
+      "name": "Joyce Beatty",
+      "distance": 0.005126402247190448
     },
     {
       "name": "Max Leonard Miller",
-      "distance": 0.0041773197148410575
+      "distance": 0.0056080299571239535
     },
     {
       "name": "David Scott",
-      "distance": 0.0041773197148410575
+      "distance": 0.0056080299571239535
     },
     {
-      "name": "Robert J. Wittman",
-      "distance": 0.004360045871318281
+      "name": "Mike Quigley",
+      "distance": 0.005703507692639717
     }
   ]
 }

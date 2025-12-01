@@ -45,22 +45,22 @@
     "dw_nominate_dim1": 0.486,
     "dw_nominate_dim2": 0.299,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9887,
-    "party_unity_bp_pct": 0.3019,
+    "party_unity_pct": 0.9895,
+    "party_unity_bp_pct": 0.3007,
     "maverick_votes": 3,
-    "bipartisan_votes": 80,
+    "bipartisan_votes": 86,
     "maverick_bipartisan": 0,
-    "total_votes": 265,
-    "missed_votes": 16,
+    "total_votes": 286,
+    "missed_votes": 18,
     "maverick_votes_all": 974,
-    "bipartisan_votes_all": 880,
+    "bipartisan_votes_all": 886,
     "maverick_bipartisan_all": 64,
-    "total_votes_all": 7045,
-    "missed_votes_all": 150,
+    "total_votes_all": 7066,
+    "missed_votes_all": 152,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 43,
     "dim2_direction_party": "right",
@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 13
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,8 +108,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.603,
-      "dim2": 0.199
+      "dim1": 0.602,
+      "dim2": 0.203
     }
   ],
   "lobbying_contributions": [
@@ -221,6 +221,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-21",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Denouncing the horrors of socialism",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 285,
+      "nay": 98,
+      "present": 0,
+      "bill": {
+        "code": "HCONRES58",
+        "type": null,
+        "number": "HCONRES58",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "District of Columbia Cash Bail Reform Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 237,
+      "nay": 179,
+      "present": 0,
+      "bill": {
+        "code": "HR5214",
+        "type": null,
+        "number": "HR5214",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-15",
       "chamber": "house",
@@ -388,51 +430,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-04-01",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providng for consideration of the joint resolutions S.J.Res. 18 and S.J.Res 28; providing for consideration of the bills H.R. 1526 and H.R. 22; and for other purposes",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 215,
-      "nay": 213,
-      "present": 0,
-      "bill": {
-        "code": "HRES282",
-        "type": null,
-        "number": "HRES282",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-01",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Failed",
-      "vote_desc": "Providng for consideration of the joint resolutions S.J.Res. 18 and S.J.Res 28; providing for consideration of the bills H.R. 1526 and H.R. 22; and for other purposes",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 206,
-      "nay": 222,
-      "present": 0,
-      "bill": {
-        "code": "HRES282",
-        "type": null,
-        "number": "HRES282",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -632,56 +682,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -4022,44 +4022,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Kweisi Mfume",
-      "distance": 0.0019104973174542904
+      "name": "Nancy Pelosi",
+      "distance": 0.00128062484748655
+    },
+    {
+      "name": "Nanette Diaz Barrag\u00e1n",
+      "distance": 0.0027073972741361555
     },
     {
       "name": "Robert Julio Garcia",
-      "distance": 0.003006659275674583
-    },
-    {
-      "name": "Nancy Pelosi",
-      "distance": 0.003733630940518886
-    },
-    {
-      "name": "Jared Huffman",
-      "distance": 0.0038600518131237885
+      "distance": 0.003901281840626249
     },
     {
       "name": "Chellie Pingree",
-      "distance": 0.0040792156108742355
+      "distance": 0.004114608122288216
     },
     {
-      "name": "Barry Loudermilk",
-      "distance": 0.006000833275471004
+      "name": "Kweisi Mfume",
+      "distance": 0.004640043103248117
     },
     {
-      "name": "Grace Meng",
-      "distance": 0.0061619802012015485
+      "name": "Suzanne Bonamici",
+      "distance": 0.004925444142409855
     },
     {
-      "name": "James P. McGovern",
-      "distance": 0.006382005954243547
+      "name": "Lloyd A. Doggett",
+      "distance": 0.005714017850864641
     },
     {
-      "name": "Doug LaMalfa",
-      "distance": 0.00658027355054487
+      "name": "Mark Pocan",
+      "distance": 0.0060207972893960935
     },
     {
-      "name": "Maxine Elizabeth Dexter",
-      "distance": 0.00717843994193728
+      "name": "Mary Gay Scanlon",
+      "distance": 0.006044005294504562
+    },
+    {
+      "name": "Carol D. Miller",
+      "distance": 0.006800735254367781
     }
   ]
 }

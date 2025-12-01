@@ -25,31 +25,31 @@
     "dw_nominate_dim1": 0.323,
     "dw_nominate_dim2": 0.412,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9675,
-    "party_unity_bp_pct": 0.361,
+    "party_unity_pct": 0.9699,
+    "party_unity_bp_pct": 0.3545,
     "maverick_votes": 9,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 106,
     "maverick_bipartisan": 9,
-    "total_votes": 277,
-    "missed_votes": 4,
+    "total_votes": 299,
+    "missed_votes": 5,
     "maverick_votes_all": 2795,
-    "bipartisan_votes_all": 1077,
+    "bipartisan_votes_all": 1083,
     "maverick_bipartisan_all": 225,
-    "total_votes_all": 14420,
-    "missed_votes_all": 317,
+    "total_votes_all": 14442,
+    "missed_votes_all": 318,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 9,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 92,
     "party_unity_percentile_party": 42,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 60
+    "reliability_percentile_party": 55
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,8 +113,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.325,
-      "dim2": 0.307
+      "dim1": 0.327,
+      "dim2": 0.313
     }
   ],
   "lobbying_contributions": [
@@ -353,6 +353,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 236,
+      "nay": 183,
+      "present": 0,
+      "bill": {
+        "code": "HRES878",
+        "type": null,
+        "number": "HRES878",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-07-22",
       "chamber": "house",
       "question": "On Motion to Suspend the Rules and Pass, as Amended",
@@ -438,6 +459,56 @@
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -637,56 +708,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -2362,44 +2383,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Young Oak Kim",
-      "distance": 0.0
+      "name": "Mark E. Amodei",
+      "distance": 0.0007211102550927492
     },
     {
-      "name": "Scott H. Peters",
-      "distance": 0.0
+      "name": "Young Oak Kim",
+      "distance": 0.0012041594578792076
     },
     {
       "name": "Cliff Stewart Bentz",
-      "distance": 0.0004999999999999449
-    },
-    {
-      "name": "Timothy Kennedy",
-      "distance": 0.0016763054614239953
-    },
-    {
-      "name": "Mark E. Amodei",
-      "distance": 0.0021540659228538117
-    },
-    {
-      "name": "Joe Courtney",
-      "distance": 0.002607680962081049
-    },
-    {
-      "name": "Mark Allen Alford",
-      "distance": 0.003313608305156155
+      "distance": 0.0014560219778560804
     },
     {
       "name": "Ken S. Calvert",
-      "distance": 0.003324154027718952
+      "distance": 0.0019416487838947861
+    },
+    {
+      "name": "Steve Womack",
+      "distance": 0.002195449840010049
     },
     {
       "name": "James A. Himes",
-      "distance": 0.003599999999999992
+      "distance": 0.003417601498126987
     },
     {
-      "name": "Darrell E. Issa",
-      "distance": 0.003921734310225434
+      "name": "Joe Courtney",
+      "distance": 0.0035128336140500594
+    },
+    {
+      "name": "Glenn Thompson",
+      "distance": 0.0036055512754640355
+    },
+    {
+      "name": "Mike Carey",
+      "distance": 0.0036055512754640355
+    },
+    {
+      "name": "Harold Rogers",
+      "distance": 0.003640054944640316
     }
   ]
 }

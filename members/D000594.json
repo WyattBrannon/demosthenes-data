@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.468,
     "dw_nominate_dim2": 0.133,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9766,
-    "party_unity_bp_pct": 0.3008,
+    "party_unity_pct": 0.9784,
+    "party_unity_bp_pct": 0.2986,
     "maverick_votes": 6,
-    "bipartisan_votes": 77,
+    "bipartisan_votes": 83,
     "maverick_bipartisan": 2,
-    "total_votes": 256,
-    "missed_votes": 25,
+    "total_votes": 278,
+    "missed_votes": 26,
     "maverick_votes_all": 56,
-    "bipartisan_votes_all": 445,
+    "bipartisan_votes_all": 451,
     "maverick_bipartisan_all": 40,
-    "total_votes_all": 1437,
-    "missed_votes_all": 79,
+    "total_votes_all": 1459,
+    "missed_votes_all": 80,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.11999999999999,
-    "pubp_median_party": 30.94,
+    "pu_median_party": 97.33000000000001,
+    "pubp_median_party": 30.380000000000003,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 40,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 68,
     "party_unity_percentile_party": 61,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 5
+    "reliability_percentile_party": 6
   },
-  "generated_at": "2025-11-24",
+  "generated_at": "2025-12-01",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -83,8 +83,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.568,
-      "dim2": 0.136
+      "dim1": 0.567,
+      "dim2": 0.138
     }
   ],
   "lobbying_contributions": [
@@ -259,6 +259,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \u201cNational Petroleum Reserve in Alaska Integrated Activity Plan Record of Decision",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 216,
+      "nay": 209,
+      "present": 0,
+      "bill": {
+        "code": "SJRES80",
+        "type": null,
+        "number": "SJRES80",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -447,30 +468,59 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-05-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Salem Maritime National Historical Park Redesignation and Boundary Study Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 382,
-      "nay": 31,
-      "present": 0,
-      "bill": {
-        "code": "HR2215",
-        "type": null,
-        "number": "HR2215",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Refer",
+      "vote_result": "Failed",
+      "vote_desc": "Censuring and condemning Delegate Stacey Plaskett and removing her from the House Permanent Select Committee on Intelligence for conduct that reflects discreditably on the House of Representatives for colluding with convicted felony sex offender Jeffrey Epstein during a congressional hearing",
+      "vote_question": "On Motion to Refer",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 213,
+      "nay": 214,
+      "present": 0,
+      "bill": {
+        "code": "HRES888",
+        "type": null,
+        "number": "HRES888",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 292
+    },
+    {
+      "date": "2025-11-18",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Epstein Files Transparency Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 427,
+      "nay": 1,
+      "present": 0,
+      "bill": {
+        "code": "HR4405",
+        "type": null,
+        "number": "HR4405",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 288
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -670,56 +720,6 @@
         "title": ""
       },
       "rollnumber": 238
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Department of Defense Appropriations Act, 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 221,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 211
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Anti-CBDC Surveillance State Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 219,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR1919",
-        "type": null,
-        "number": "HR1919",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 200
     }
   ],
   "fec": {
@@ -3045,44 +3045,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Kevin Mullin",
-      "distance": 0.0016643316977093872
-    },
-    {
-      "name": "Mike Bost",
-      "distance": 0.0022803508501983024
-    },
-    {
       "name": "Randy K. Weber",
-      "distance": 0.003061045573002812
-    },
-    {
-      "name": "Jodey C. Arrington",
-      "distance": 0.0038288379438153777
-    },
-    {
-      "name": "Scott L. Fitzgerald",
-      "distance": 0.0038832975677894925
+      "distance": 0.002202271554554559
     },
     {
       "name": "Nydia M. Vel\u00e1zquez",
-      "distance": 0.0038910152916687133
+      "distance": 0.002282542442102689
     },
     {
-      "name": "Daniel Webster",
-      "distance": 0.004332435804486873
+      "name": "Maxine Waters",
+      "distance": 0.0025317977802344913
     },
     {
-      "name": "Pramila Jayapal",
-      "distance": 0.00441021541424001
+      "name": "Scott L. Fitzgerald",
+      "distance": 0.002900000000000035
+    },
+    {
+      "name": "Maxwell Alejandro Frost",
+      "distance": 0.0031384709652950973
+    },
+    {
+      "name": "Grace Meng",
+      "distance": 0.003206243908376259
+    },
+    {
+      "name": "Jodey C. Arrington",
+      "distance": 0.0036878177829172184
+    },
+    {
+      "name": "Mike Bost",
+      "distance": 0.0037161808352124005
     },
     {
       "name": "Gwen Moore",
-      "distance": 0.0045999999999999375
+      "distance": 0.0041999999999999815
     },
     {
-      "name": "Maxine Elizabeth Dexter",
-      "distance": 0.00543415126767739
+      "name": "Daniel Webster",
+      "distance": 0.004876474136094618
     }
   ]
 }
