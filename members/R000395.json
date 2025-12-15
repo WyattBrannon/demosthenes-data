@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.333,
     "dw_nominate_dim2": 0.152,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9734,
-    "party_unity_bp_pct": 0.3555,
+    "party_unity_pct": 0.9738,
+    "party_unity_bp_pct": 0.3508,
     "maverick_votes": 8,
     "bipartisan_votes": 107,
     "maverick_bipartisan": 8,
-    "total_votes": 301,
-    "missed_votes": 3,
+    "total_votes": 305,
+    "missed_votes": 6,
     "maverick_votes_all": 5681,
     "bipartisan_votes_all": 1040,
     "maverick_bipartisan_all": 194,
-    "total_votes_all": 25235,
-    "missed_votes_all": 632,
+    "total_votes_all": 25239,
+    "missed_votes_all": 635,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 10,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 71,
-    "party_unity_percentile_party": 52,
+    "party_unity_percentile_party": 49,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 71
+    "reliability_percentile_party": 52
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -398,6 +398,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-02",
+      "chamber": "house",
+      "question": "On Ordering the Previous Question",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bills (H.R. 4312) SCORE Act; (H.R. 1005) CLASS Act; (H.R. 1049) Transparency in Reporting of Adversarial Contributions to Education Act; (H.R. 1069) PROTECT Our Kids Act; (H.R. 2965) Small Business Regulatory Reduction Act; and (H.R. 4305) DUMP Red Tape Act",
+      "vote_question": "On Ordering the Previous Question",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 210,
+      "nay": 205,
+      "present": 0,
+      "bill": {
+        "code": "HRES916",
+        "type": null,
+        "number": "HRES916",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Social Security Child Protection Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 386,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR5348",
+        "type": null,
+        "number": "HR5348",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "No New Burma Funds Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 385,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR4423",
+        "type": null,
+        "number": "HR4423",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-18",
       "chamber": "house",
@@ -1120,44 +1183,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Glenn Thompson",
-      "distance": 0.0012041594578792076
-    },
-    {
-      "name": "Mike Carey",
-      "distance": 0.0012041594578792076
-    },
-    {
-      "name": "Steve Womack",
-      "distance": 0.0016031219541881882
-    },
-    {
-      "name": "Frank D. Lucas",
-      "distance": 0.0024083189157584795
-    },
-    {
-      "name": "Carlos A. Gimenez",
-      "distance": 0.003114482300479458
-    },
-    {
-      "name": "Ken S. Calvert",
-      "distance": 0.00322800247831379
-    },
-    {
       "name": "Darrell E. Issa",
-      "distance": 0.0032999999999999696
+      "distance": 0.00028284271247458785
     },
     {
       "name": "Mike Flood",
-      "distance": 0.0032999999999999696
+      "distance": 0.00028284271247458785
     },
     {
       "name": "Charles J. Fleischmann",
-      "distance": 0.0035128336140500594
+      "distance": 0.0005830951894845896
     },
     {
-      "name": "Tom Cole",
-      "distance": 0.003640054944640316
+      "name": "George Stephen Latimer",
+      "distance": 0.0010049875621120888
+    },
+    {
+      "name": "J. French Hill",
+      "distance": 0.001104536101718715
+    },
+    {
+      "name": "Glenn Thompson",
+      "distance": 0.002022374841615665
+    },
+    {
+      "name": "Mike Carey",
+      "distance": 0.002022374841615665
+    },
+    {
+      "name": "Cliff Stewart Bentz",
+      "distance": 0.0029120439557122372
+    },
+    {
+      "name": "Young Oak Kim",
+      "distance": 0.0032572994949804585
+    },
+    {
+      "name": "Cleo Fields",
+      "distance": 0.003405877273185293
     }
   ]
 }

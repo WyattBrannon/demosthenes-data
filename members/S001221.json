@@ -53,22 +53,22 @@
     "dw_nominate_dim1": -0.249,
     "dw_nominate_dim2": 0.219,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9249,
-    "party_unity_bp_pct": 0.372,
-    "maverick_votes": 22,
-    "bipartisan_votes": 109,
-    "maverick_bipartisan": 21,
-    "total_votes": 293,
+    "party_unity_pct": 0.9233,
+    "party_unity_bp_pct": 0.3733,
+    "maverick_votes": 23,
+    "bipartisan_votes": 112,
+    "maverick_bipartisan": 22,
+    "total_votes": 300,
     "missed_votes": 11,
-    "maverick_votes_all": 89,
-    "bipartisan_votes_all": 535,
-    "maverick_bipartisan_all": 86,
-    "total_votes_all": 1519,
+    "maverick_votes_all": 90,
+    "bipartisan_votes_all": 538,
+    "maverick_bipartisan_all": 87,
+    "total_votes_all": 1526,
     "missed_votes_all": 20,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 16,
     "dim2_direction_party": "right",
@@ -77,7 +77,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 28
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,7 +91,7 @@
     },
     {
       "congress": 119,
-      "dim1": -0.276,
+      "dim1": -0.275,
       "dim2": 0.317
     }
   ],
@@ -139,6 +139,27 @@
   ],
   "lobbying_sum": 170477.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLASS Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 242,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR1005",
+        "type": null,
+        "number": "HR1005",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -324,27 +345,6 @@
         "code": "HR2096",
         "type": null,
         "number": "HR2096",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-10",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "To prohibit individuals who are not citizens of the United States from voting in elections in the District of Columbia and to repeal the Local Resident Voting Rights Amendment Act of 2022",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 266,
-      "nay": 148,
-      "present": 0,
-      "bill": {
-        "code": "HR884",
-        "type": null,
-        "number": "HR884",
         "congress": 119,
         "title": ""
       }
@@ -2431,43 +2431,43 @@
   "vote_record_similar": [
     {
       "name": "Steven A. Horsford",
-      "distance": 0.008542833253669387
-    },
-    {
-      "name": "Josh Gottheimer",
-      "distance": 0.012139604606411223
+      "distance": 0.010001999800039966
     },
     {
       "name": "Sanford D. Bishop",
-      "distance": 0.012398790263570042
-    },
-    {
-      "name": "Angie Craig",
-      "distance": 0.013743725841270168
-    },
-    {
-      "name": "Marc A. Veasey",
-      "distance": 0.01553898323572037
-    },
-    {
-      "name": "Greg Stanton",
-      "distance": 0.01574357011608227
-    },
-    {
-      "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.015840454538932857
+      "distance": 0.011031772296417308
     },
     {
       "name": "Frank John Mrvan",
-      "distance": 0.016388410539158436
+      "distance": 0.01350037036528994
     },
     {
-      "name": "Dave Kunnghee Min",
-      "distance": 0.016781537474260217
+      "name": "Angie Craig",
+      "distance": 0.01485698488927013
+    },
+    {
+      "name": "Greg Stanton",
+      "distance": 0.015435025105259756
+    },
+    {
+      "name": "Nicole (Nikki) Jai Budzinski",
+      "distance": 0.015499999999999958
     },
     {
       "name": "John W. Mannion",
-      "distance": 0.017786792853125576
+      "distance": 0.016829735589129133
+    },
+    {
+      "name": "Dave Kunnghee Min",
+      "distance": 0.017930142219179386
+    },
+    {
+      "name": "Derek Truyen Tran",
+      "distance": 0.018419554826325176
+    },
+    {
+      "name": "Emilia Strong Sykes",
+      "distance": 0.018741664813991265
     }
   ]
 }

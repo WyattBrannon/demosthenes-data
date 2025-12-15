@@ -33,22 +33,22 @@
     "dw_nominate_dim1": 0.448,
     "dw_nominate_dim2": 0.164,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9896,
-    "party_unity_bp_pct": 0.3125,
+    "party_unity_pct": 0.9898,
+    "party_unity_bp_pct": 0.3129,
     "maverick_votes": 3,
-    "bipartisan_votes": 90,
+    "bipartisan_votes": 92,
     "maverick_bipartisan": 2,
-    "total_votes": 288,
-    "missed_votes": 16,
+    "total_votes": 294,
+    "missed_votes": 17,
     "maverick_votes_all": 3112,
-    "bipartisan_votes_all": 901,
+    "bipartisan_votes_all": 903,
     "maverick_bipartisan_all": 69,
-    "total_votes_all": 15037,
-    "missed_votes_all": 713,
+    "total_votes_all": 15043,
+    "missed_votes_all": 714,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 33,
     "dim2_direction_party": "right",
@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -239,6 +239,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-17",
       "chamber": "house",
@@ -424,27 +445,6 @@
         "code": "HR3351",
         "type": null,
         "number": "HR3351",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-27",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Condemning the violent June 2025 riots in Los Angeles, California",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 215,
-      "nay": 195,
-      "present": 0,
-      "bill": {
-        "code": "HRES516",
-        "type": null,
-        "number": "HRES516",
         "congress": 119,
         "title": ""
       }
@@ -1932,44 +1932,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Valerie Jean Foushee",
-      "distance": 0.0004472135954999087
+      "name": "Guy Reschenthaler",
+      "distance": 0.0004472135954999335
     },
     {
       "name": "Rick W. Allen",
-      "distance": 0.0008944271909999167
+      "distance": 0.0004472135954999335
     },
     {
       "name": "Juan Vargas",
-      "distance": 0.001513274595042154
+      "distance": 0.00044721359549995833
     },
     {
       "name": "Andr\u00e9 Carson",
-      "distance": 0.0017262676501631808
+      "distance": 0.0006708203932499127
     },
     {
-      "name": "Mark DeSaulnier",
-      "distance": 0.003006659275674583
+      "name": "Maria Elvira Salazar",
+      "distance": 0.001341640786499875
+    },
+    {
+      "name": "Valerie Jean Foushee",
+      "distance": 0.0019416487838947634
     },
     {
       "name": "Veronica Escobar",
-      "distance": 0.003008321791298284
+      "distance": 0.002807133769523667
+    },
+    {
+      "name": "Lauren Underwood",
+      "distance": 0.0032388269481403017
     },
     {
       "name": "Julia Letlow",
-      "distance": 0.0032557641192199204
+      "distance": 0.0033999999999999976
     },
     {
-      "name": "John R. Carter",
-      "distance": 0.0036496575181788676
-    },
-    {
-      "name": "Joaquin Castro",
-      "distance": 0.0038078865529320304
-    },
-    {
-      "name": "Emily Elissa Randall",
-      "distance": 0.0038275318418009804
+      "name": "Luz Maria Rivas",
+      "distance": 0.0034409301068170717
     }
   ]
 }

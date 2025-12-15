@@ -53,22 +53,22 @@
     "dw_nominate_dim1": 0.609,
     "dw_nominate_dim2": -0.247,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9549,
-    "party_unity_bp_pct": 0.2674,
+    "party_unity_pct": 0.9558,
+    "party_unity_bp_pct": 0.2687,
     "maverick_votes": 13,
-    "bipartisan_votes": 77,
+    "bipartisan_votes": 79,
     "maverick_bipartisan": 0,
-    "total_votes": 288,
-    "missed_votes": 16,
+    "total_votes": 294,
+    "missed_votes": 17,
     "maverick_votes_all": 223,
-    "bipartisan_votes_all": 612,
+    "bipartisan_votes_all": 614,
     "maverick_bipartisan_all": 13,
-    "total_votes_all": 2377,
-    "missed_votes_all": 158,
+    "total_votes_all": 2383,
+    "missed_votes_all": 159,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 67,
     "dim2_direction_party": "left",
@@ -77,7 +77,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,8 +96,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.586,
-      "dim2": -0.271
+      "dim1": 0.587,
+      "dim2": -0.269
     }
   ],
   "lobbying_contributions": [
@@ -357,6 +357,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-09-09",
       "chamber": "house",
       "question": "On Ordering the Previous Question",
@@ -541,27 +562,6 @@
         "code": "HR1286",
         "type": null,
         "number": "HR1286",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Prioritizing Veterans\u2019 Survivors Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 424,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "HR1228",
-        "type": null,
-        "number": "HR1228",
         "congress": 119,
         "title": ""
       }
@@ -3442,43 +3442,43 @@
   "vote_record_similar": [
     {
       "name": "Ronny Lynn Jackson",
-      "distance": 0.011819052415485715
+      "distance": 0.010733592129385223
     },
     {
       "name": "Abraham Jamal Hamadeh",
-      "distance": 0.012398790263570042
-    },
-    {
-      "name": "Delia Catalina Ramirez",
-      "distance": 0.012682271089990177
-    },
-    {
-      "name": "Mike Steven Kennedy",
-      "distance": 0.012872451204024813
+      "distance": 0.011386395390991831
     },
     {
       "name": "Brad Knott",
-      "distance": 0.01301422298871501
+      "distance": 0.012224974437601082
     },
     {
-      "name": "Robert F. Onder",
-      "distance": 0.013633048081775363
+      "name": "Delia Catalina Ramirez",
+      "distance": 0.013059862173851624
     },
     {
       "name": "John Joyce",
-      "distance": 0.014320963654726555
+      "distance": 0.013146862743635836
+    },
+    {
+      "name": "Mike Steven Kennedy",
+      "distance": 0.013159027319676789
     },
     {
       "name": "Mikie Sherrill",
-      "distance": 0.015126797413861252
+      "distance": 0.014560219778561053
     },
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.015707959765672904
+      "distance": 0.01494857852773971
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.015707959765672904
+      "distance": 0.01494857852773971
+    },
+    {
+      "name": "Robert F. Onder",
+      "distance": 0.015454772725601593
     }
   ]
 }

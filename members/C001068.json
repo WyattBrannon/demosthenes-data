@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.39,
     "dw_nominate_dim2": -0.294,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9826,
-    "party_unity_bp_pct": 0.3206,
-    "maverick_votes": 5,
-    "bipartisan_votes": 92,
-    "maverick_bipartisan": 4,
-    "total_votes": 287,
+    "party_unity_pct": 0.9796,
+    "party_unity_bp_pct": 0.3231,
+    "maverick_votes": 6,
+    "bipartisan_votes": 95,
+    "maverick_bipartisan": 5,
+    "total_votes": 294,
     "missed_votes": 17,
-    "maverick_votes_all": 3659,
-    "bipartisan_votes_all": 858,
-    "maverick_bipartisan_all": 26,
-    "total_votes_all": 12024,
+    "maverick_votes_all": 3660,
+    "bipartisan_votes_all": 861,
+    "maverick_bipartisan_all": 27,
+    "total_votes_all": 12031,
     "missed_votes_all": 308,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 51,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 82,
-    "party_unity_percentile_party": 69,
+    "party_unity_percentile_party": 64,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -127,8 +127,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.319,
-      "dim2": -0.281
+      "dim1": -0.324,
+      "dim2": -0.3
     }
   ],
   "lobbying_contributions": [
@@ -175,6 +175,27 @@
   ],
   "lobbying_sum": 132521.85,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-24",
       "chamber": "house",
@@ -2921,44 +2942,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Julie Ann Fedorchak",
-      "distance": 0.0014866068747318437
+      "name": "Yassamin Ansari",
+      "distance": 0.0006708203932498879
     },
     {
-      "name": "Doris O. Matsui",
-      "distance": 0.0018027756377319963
+      "name": "Kathy Castor",
+      "distance": 0.0011180339887498958
     },
     {
-      "name": "Adriano Espaillat",
-      "distance": 0.002745906043549264
-    },
-    {
-      "name": "Laura Syril Friedman",
-      "distance": 0.0027892651361962322
-    },
-    {
-      "name": "Austin Scott",
-      "distance": 0.0028160255680657323
-    },
-    {
-      "name": "Lizzie Fletcher",
-      "distance": 0.0029832867780352546
-    },
-    {
-      "name": "Henry C. Johnson",
-      "distance": 0.0030413812651491033
+      "name": "Vern Buchanan",
+      "distance": 0.0012206555615733587
     },
     {
       "name": "Christopher H. Smith",
-      "distance": 0.003088689042296132
+      "distance": 0.001931320791582791
     },
     {
-      "name": "Steny H. Hoyer",
-      "distance": 0.003400000000000014
+      "name": "Frank J. Pallone",
+      "distance": 0.002024845673131636
     },
     {
-      "name": "Gregory W. Meeks",
-      "distance": 0.0036013886210737576
+      "name": "James E. Clyburn",
+      "distance": 0.002353720459188042
+    },
+    {
+      "name": "Zoe Lofgren",
+      "distance": 0.002716615541441263
+    },
+    {
+      "name": "Ro Khanna",
+      "distance": 0.0031622776601684314
+    },
+    {
+      "name": "Lori Trahan",
+      "distance": 0.003352610922848024
+    },
+    {
+      "name": "Marilyn Strickland",
+      "distance": 0.003383784863137754
     }
   ]
 }

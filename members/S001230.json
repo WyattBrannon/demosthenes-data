@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.29,
     "dw_nominate_dim2": 0.139,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9636,
-    "party_unity_bp_pct": 0.3543,
-    "maverick_votes": 11,
-    "bipartisan_votes": 107,
-    "maverick_bipartisan": 11,
-    "total_votes": 302,
+    "party_unity_pct": 0.9612,
+    "party_unity_bp_pct": 0.356,
+    "maverick_votes": 12,
+    "bipartisan_votes": 110,
+    "maverick_bipartisan": 12,
+    "total_votes": 309,
     "missed_votes": 2,
-    "maverick_votes_all": 11,
-    "bipartisan_votes_all": 107,
-    "maverick_bipartisan_all": 11,
-    "total_votes_all": 302,
+    "maverick_votes_all": 12,
+    "bipartisan_votes_all": 110,
+    "maverick_bipartisan_all": 12,
+    "total_votes_all": 309,
     "missed_votes_all": 2,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 24,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 69,
-    "party_unity_percentile_party": 37,
+    "party_unity_percentile_party": 36,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 76
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.301,
-      "dim2": 0.117
+      "dim1": -0.311,
+      "dim2": 0.114
     }
   ],
   "lobbying_contributions": [
@@ -130,6 +130,27 @@
   ],
   "lobbying_sum": 71550.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-17",
       "chamber": "house",
@@ -315,27 +336,6 @@
         "code": "HR30",
         "type": null,
         "number": "HR30",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-09",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Illegitimate Court Counteraction Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 243,
-      "nay": 140,
-      "present": 0,
-      "bill": {
-        "code": "HR23",
-        "type": null,
-        "number": "HR23",
         "congress": 119,
         "title": ""
       }
@@ -2248,44 +2248,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Ed Case",
+      "distance": 0.0
+    },
+    {
       "name": "Jake Daniel Auchincloss",
-      "distance": 0.0012529964086141529
-    },
-    {
-      "name": "James A. Himes",
-      "distance": 0.0032572994949804585
-    },
-    {
-      "name": "Nellie Avila Pou",
-      "distance": 0.004188078318274354
+      "distance": 0.0019235384061670323
     },
     {
       "name": "Andrew R. Garbarino",
-      "distance": 0.004554119014694271
+      "distance": 0.002012461179749738
     },
     {
-      "name": "Stephen F. Lynch",
-      "distance": 0.004638965401897327
+      "name": "Haley M. Stevens",
+      "distance": 0.0021095023109728977
     },
     {
-      "name": "Ed Case",
-      "distance": 0.00466690475583121
+      "name": "James A. Himes",
+      "distance": 0.0031622776601682766
     },
     {
-      "name": "Dan Newhouse",
-      "distance": 0.0051662365412357926
+      "name": "Herbert Clark Hoover Conaway",
+      "distance": 0.0037054014627298194
+    },
+    {
+      "name": "Nellie Avila Pou",
+      "distance": 0.004104875150354706
     },
     {
       "name": "Scott H. Peters",
-      "distance": 0.005707889277132116
+      "distance": 0.005608029957123979
     },
     {
-      "name": "Mark E. Amodei",
-      "distance": 0.005731491952362877
+      "name": "Bradley Scott Schneider",
+      "distance": 0.006198386886924707
     },
     {
-      "name": "Tom Cole",
-      "distance": 0.006303173803727741
+      "name": "Timothy Kennedy",
+      "distance": 0.0064660652641308665
     }
   ]
 }

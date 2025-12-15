@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.259,
     "dw_nominate_dim2": 0.222,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9622,
-    "party_unity_bp_pct": 0.3436,
-    "maverick_votes": 11,
-    "bipartisan_votes": 100,
-    "maverick_bipartisan": 11,
-    "total_votes": 291,
+    "party_unity_pct": 0.9597,
+    "party_unity_bp_pct": 0.3456,
+    "maverick_votes": 12,
+    "bipartisan_votes": 103,
+    "maverick_bipartisan": 12,
+    "total_votes": 298,
     "missed_votes": 13,
-    "maverick_votes_all": 120,
-    "bipartisan_votes_all": 937,
-    "maverick_bipartisan_all": 88,
-    "total_votes_all": 3439,
+    "maverick_votes_all": 121,
+    "bipartisan_votes_all": 940,
+    "maverick_bipartisan_all": 89,
+    "total_votes_all": 3446,
     "missed_votes_all": 48,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 17,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 77,
-    "party_unity_percentile_party": 35,
+    "party_unity_percentile_party": 33,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 23
+    "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -93,8 +93,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.243,
-      "dim2": -0.13
+      "dim1": -0.241,
+      "dim2": -0.127
     }
   ],
   "lobbying_contributions": [
@@ -141,6 +141,27 @@
   ],
   "lobbying_sum": 195000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -326,27 +347,6 @@
         "code": "HR27",
         "type": null,
         "number": "HR27",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-23",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Fix Our Forests Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 279,
-      "nay": 141,
-      "present": 0,
-      "bill": {
-        "code": "HR471",
-        "type": null,
-        "number": "HR471",
         "congress": 119,
         "title": ""
       }
@@ -2929,44 +2929,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Brendan F. Boyle",
-      "distance": 0.0012041594578792167
-    },
-    {
-      "name": "Celeste Maloy",
-      "distance": 0.00134536240470726
+      "name": "Ritchie John Torres",
+      "distance": 0.0011401754250991243
     },
     {
       "name": "Joseph D. Morelle",
-      "distance": 0.003324154027718897
+      "distance": 0.0038013155617496693
     },
     {
-      "name": "Zachary (Zach) Martin Nunn",
-      "distance": 0.004186884283091643
+      "name": "Brendan F. Boyle",
+      "distance": 0.0039661064030103825
     },
     {
       "name": "Jennifer Ann Kiggans",
-      "distance": 0.004440720662234854
-    },
-    {
-      "name": "Ritchie John Torres",
-      "distance": 0.005162363799656107
-    },
-    {
-      "name": "Mike John Haridopolos",
-      "distance": 0.005578530272392614
+      "distance": 0.004099999999999994
     },
     {
       "name": "Dan Newhouse",
-      "distance": 0.005700877125495673
+      "distance": 0.004134005321718822
     },
     {
-      "name": "Michael A. Rulli",
-      "distance": 0.006072890580275624
+      "name": "Seth Michael Magaziner",
+      "distance": 0.004429446918070029
     },
     {
-      "name": "Mariannette Jane Miller-Meeks",
-      "distance": 0.006135144660071108
+      "name": "Celeste Maloy",
+      "distance": 0.005060632371551964
+    },
+    {
+      "name": "Terri A. Sewell",
+      "distance": 0.005968249324550719
+    },
+    {
+      "name": "Dina Titus",
+      "distance": 0.006762396025078651
+    },
+    {
+      "name": "Timothy Kennedy",
+      "distance": 0.006929646455628148
     }
   ]
 }

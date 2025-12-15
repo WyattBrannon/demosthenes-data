@@ -25,31 +25,31 @@
     "dw_nominate_dim1": -0.266,
     "dw_nominate_dim2": 0.581,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9369,
-    "party_unity_bp_pct": 0.3787,
+    "party_unity_pct": 0.9381,
+    "party_unity_bp_pct": 0.3746,
     "maverick_votes": 19,
-    "bipartisan_votes": 114,
+    "bipartisan_votes": 115,
     "maverick_bipartisan": 18,
-    "total_votes": 301,
-    "missed_votes": 3,
+    "total_votes": 307,
+    "missed_votes": 4,
     "maverick_votes_all": 207,
-    "bipartisan_votes_all": 1029,
+    "bipartisan_votes_all": 1030,
     "maverick_bipartisan_all": 169,
-    "total_votes_all": 3447,
-    "missed_votes_all": 40,
+    "total_votes_all": 3453,
+    "missed_votes_all": 41,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 19,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 97,
-    "party_unity_percentile_party": 20,
+    "party_unity_percentile_party": 22,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 61
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -73,7 +73,7 @@
     },
     {
       "congress": 119,
-      "dim1": -0.27,
+      "dim1": -0.269,
       "dim2": 0.189
     }
   ],
@@ -333,6 +333,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Social Security Child Protection Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 386,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR5348",
+        "type": null,
+        "number": "HR5348",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-09",
       "chamber": "house",
@@ -1329,44 +1350,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Greg Stanton",
-      "distance": 0.002051828452868369
-    },
-    {
-      "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.002961418578992192
-    },
-    {
       "name": "Sanford D. Bishop",
-      "distance": 0.0046043457732884594
+      "distance": 0.003920459156782547
     },
     {
       "name": "Frank John Mrvan",
-      "distance": 0.006594694837519076
+      "distance": 0.004441846462902625
     },
     {
-      "name": "Steven A. Horsford",
-      "distance": 0.006699999999999928
-    },
-    {
-      "name": "Derek Truyen Tran",
-      "distance": 0.007410802925459583
-    },
-    {
-      "name": "Dave Kunnghee Min",
-      "distance": 0.007947955712005426
+      "name": "Emilia Strong Sykes",
+      "distance": 0.005234500931320892
     },
     {
       "name": "Marc A. Veasey",
-      "distance": 0.0085492689745966
+      "distance": 0.006741661516273222
     },
     {
-      "name": "John W. Mannion",
-      "distance": 0.00923579991121509
+      "name": "Greg Stanton",
+      "distance": 0.006888396039717804
+    },
+    {
+      "name": "Nicole (Nikki) Jai Budzinski",
+      "distance": 0.008352245207128467
     },
     {
       "name": "April Lynn McClain Delaney",
-      "distance": 0.009413288479591041
+      "distance": 0.008421995013059567
+    },
+    {
+      "name": "Sharice Davids",
+      "distance": 0.00929569792968769
+    },
+    {
+      "name": "Darren Soto",
+      "distance": 0.010762899237658963
+    },
+    {
+      "name": "John W. Mannion",
+      "distance": 0.010866922287382032
     }
   ]
 }

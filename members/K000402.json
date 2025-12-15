@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.358,
     "dw_nominate_dim2": 0.26,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9671,
-    "party_unity_bp_pct": 0.3487,
-    "maverick_votes": 10,
-    "bipartisan_votes": 106,
-    "maverick_bipartisan": 9,
-    "total_votes": 304,
+    "party_unity_pct": 0.9646,
+    "party_unity_bp_pct": 0.3505,
+    "maverick_votes": 11,
+    "bipartisan_votes": 109,
+    "maverick_bipartisan": 10,
+    "total_votes": 311,
     "missed_votes": 0,
-    "maverick_votes_all": 21,
-    "bipartisan_votes_all": 218,
-    "maverick_bipartisan_all": 19,
-    "total_votes_all": 644,
+    "maverick_votes_all": 22,
+    "bipartisan_votes_all": 221,
+    "maverick_bipartisan_all": 20,
+    "total_votes_all": 651,
     "missed_votes_all": 0,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 44,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 81,
-    "party_unity_percentile_party": 41,
+    "party_unity_percentile_party": 40,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -83,8 +83,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.368,
-      "dim2": 0.252
+      "dim1": -0.379,
+      "dim2": 0.254
     }
   ],
   "lobbying_contributions": [
@@ -131,6 +131,27 @@
   ],
   "lobbying_sum": 669262.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -316,27 +337,6 @@
         "code": "HR27",
         "type": null,
         "number": "HR27",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-16",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Preventing Violence Against Women by Illegal Aliens Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 274,
-      "nay": 145,
-      "present": 0,
-      "bill": {
-        "code": "HR30",
-        "type": null,
-        "number": "HR30",
         "congress": 119,
         "title": ""
       }
@@ -2238,44 +2238,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Randy L. Feenstra",
-      "distance": 0.0003162277660168031
-    },
-    {
-      "name": "Haley M. Stevens",
-      "distance": 0.0003162277660168031
-    },
-    {
-      "name": "Ed Case",
-      "distance": 0.002308679276123006
-    },
-    {
-      "name": "Michael K. Simpson",
-      "distance": 0.00245153013442632
-    },
-    {
       "name": "Ami Bera",
-      "distance": 0.0025961509971494986
+      "distance": 0.002499999999999953
     },
     {
-      "name": "Mark Allen Alford",
-      "distance": 0.003001666203960768
+      "name": "Seth Michael Magaziner",
+      "distance": 0.0029732137494636723
+    },
+    {
+      "name": "Dan Newhouse",
+      "distance": 0.0030413812651491237
     },
     {
       "name": "Nellie Avila Pou",
-      "distance": 0.0032999999999999696
-    },
-    {
-      "name": "Bruce Westerman",
-      "distance": 0.0033837848631378094
+      "distance": 0.003200000000000036
     },
     {
       "name": "Joe Courtney",
-      "distance": 0.0038600518131237313
+      "distance": 0.003780211634287177
     },
     {
       "name": "Jennifer Ann Kiggans",
-      "distance": 0.004356604182158369
+      "distance": 0.004100000000000006
+    },
+    {
+      "name": "Randy L. Feenstra",
+      "distance": 0.004244997055358228
+    },
+    {
+      "name": "James A. Himes",
+      "distance": 0.0045177427992306165
+    },
+    {
+      "name": "Haley M. Stevens",
+      "distance": 0.0049517673612560235
+    },
+    {
+      "name": "Joseph D. Morelle",
+      "distance": 0.005119570294468084
     }
   ]
 }

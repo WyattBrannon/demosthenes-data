@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.498,
     "dw_nominate_dim2": -0.276,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.99,
-    "party_unity_bp_pct": 0.3123,
+    "party_unity_pct": 0.9902,
+    "party_unity_bp_pct": 0.3148,
     "maverick_votes": 3,
-    "bipartisan_votes": 94,
+    "bipartisan_votes": 96,
     "maverick_bipartisan": 0,
-    "total_votes": 301,
-    "missed_votes": 3,
+    "total_votes": 305,
+    "missed_votes": 6,
     "maverick_votes_all": 28,
-    "bipartisan_votes_all": 417,
+    "bipartisan_votes_all": 419,
     "maverick_bipartisan_all": 3,
-    "total_votes_all": 1495,
-    "missed_votes_all": 44,
+    "total_votes_all": 1499,
+    "missed_votes_all": 47,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 85,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 80,
     "party_unity_percentile_party": 91,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 49
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -83,8 +83,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.463,
-      "dim2": -0.25
+      "dim1": -0.466,
+      "dim2": -0.257
     }
   ],
   "lobbying_contributions": [
@@ -196,6 +196,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLASS Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 242,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR1005",
+        "type": null,
+        "number": "HR1005",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-09",
       "chamber": "house",
@@ -1059,44 +1122,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Sam B. Graves",
-      "distance": 0.0004472135954999087
+      "name": "Maria Elvira Salazar",
+      "distance": 0.0012206555615733904
     },
     {
-      "name": "Rick W. Allen",
-      "distance": 0.0010000000000000009
-    },
-    {
-      "name": "Juan Vargas",
-      "distance": 0.001711724276862346
+      "name": "Lauren Underwood",
+      "distance": 0.0013038404810404968
     },
     {
       "name": "Andr\u00e9 Carson",
-      "distance": 0.0019026297590440016
+      "distance": 0.0013038404810405521
     },
     {
-      "name": "Mark DeSaulnier",
-      "distance": 0.002807133769523663
+      "name": "Juan Vargas",
+      "distance": 0.001513274595042154
     },
     {
-      "name": "John R. Carter",
-      "distance": 0.003224903099319402
+      "name": "Melanie Ann Stansbury",
+      "distance": 0.0019104973174542351
     },
     {
-      "name": "Veronica Escobar",
-      "distance": 0.0034481879299133045
+      "name": "Sam B. Graves",
+      "distance": 0.0019416487838947634
     },
     {
-      "name": "Julia Letlow",
-      "distance": 0.003622154055254905
+      "name": "Guy Reschenthaler",
+      "distance": 0.0021000000000000463
     },
     {
-      "name": "Joaquin Castro",
-      "distance": 0.004071854614300514
+      "name": "Rick W. Allen",
+      "distance": 0.0021000000000000463
     },
     {
-      "name": "Emily Elissa Randall",
-      "distance": 0.004148493702538323
+      "name": "Sara Jacobs",
+      "distance": 0.003114482300479476
+    },
+    {
+      "name": "Jefferson Scott Shreve",
+      "distance": 0.0031999999999999806
     }
   ]
 }

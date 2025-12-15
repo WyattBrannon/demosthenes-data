@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.346,
     "dw_nominate_dim2": -0.04,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9631,
-    "party_unity_bp_pct": 0.3322,
+    "party_unity_pct": 0.9638,
+    "party_unity_bp_pct": 0.3289,
     "maverick_votes": 11,
-    "bipartisan_votes": 99,
+    "bipartisan_votes": 100,
     "maverick_bipartisan": 8,
-    "total_votes": 298,
-    "missed_votes": 6,
+    "total_votes": 304,
+    "missed_votes": 7,
     "maverick_votes_all": 40,
-    "bipartisan_votes_all": 480,
+    "bipartisan_votes_all": 481,
     "maverick_bipartisan_all": 31,
-    "total_votes_all": 1532,
-    "missed_votes_all": 7,
+    "total_votes_all": 1538,
+    "missed_votes_all": 8,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 39,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 48,
-    "party_unity_percentile_party": 37,
+    "party_unity_percentile_party": 39,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 47
+    "reliability_percentile_party": 44
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -75,8 +75,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.37,
-      "dim2": 0.058
+      "dim1": -0.379,
+      "dim2": 0.053
     }
   ],
   "lobbying_contributions": [
@@ -327,6 +327,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Social Security Child Protection Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 386,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR5348",
+        "type": null,
+        "number": "HR5348",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-14",
       "chamber": "house",
@@ -1793,44 +1814,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Dan Sachs Goldman",
-      "distance": 0.004401136216933148
+      "name": "Eric Swalwell",
+      "distance": 0.003721558813185711
     },
     {
       "name": "Michael T. McCaul",
-      "distance": 0.005032891812864678
-    },
-    {
-      "name": "H. Morgan Griffith",
-      "distance": 0.005162363799656096
-    },
-    {
-      "name": "Eric Swalwell",
-      "distance": 0.005269724850502225
+      "distance": 0.0038483762809788436
     },
     {
       "name": "Jason T. Smith",
-      "distance": 0.00644980619863888
+      "distance": 0.004596737973824485
     },
     {
-      "name": "David J. Taylor",
-      "distance": 0.008011242100947957
+      "name": "Dan Sachs Goldman",
+      "distance": 0.004965883607174104
     },
     {
-      "name": "Zachary (Zach) Martin Nunn",
-      "distance": 0.008395236744726134
-    },
-    {
-      "name": "Gilbert Ray Cisneros",
-      "distance": 0.008438009243891684
-    },
-    {
-      "name": "Juan Guadaloupe Ciscomani",
-      "distance": 0.008782368700982706
+      "name": "H. Morgan Griffith",
+      "distance": 0.007057619995437531
     },
     {
       "name": "Mike Ezell",
-      "distance": 0.009124143795447306
+      "distance": 0.007323933369440247
+    },
+    {
+      "name": "David J. Taylor",
+      "distance": 0.007355270219373292
+    },
+    {
+      "name": "Juan Guadaloupe Ciscomani",
+      "distance": 0.008757282683572612
+    },
+    {
+      "name": "Pete Stauber",
+      "distance": 0.00910823802938861
+    },
+    {
+      "name": "Donald W. Norcross",
+      "distance": 0.009518928511129775
     }
   ]
 }

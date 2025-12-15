@@ -29,31 +29,31 @@
     "dw_nominate_dim1": -0.241,
     "dw_nominate_dim2": -0.21,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9667,
-    "party_unity_bp_pct": 0.3533,
-    "maverick_votes": 10,
-    "bipartisan_votes": 106,
-    "maverick_bipartisan": 10,
-    "total_votes": 300,
+    "party_unity_pct": 0.9642,
+    "party_unity_bp_pct": 0.355,
+    "maverick_votes": 11,
+    "bipartisan_votes": 109,
+    "maverick_bipartisan": 11,
+    "total_votes": 307,
     "missed_votes": 4,
-    "maverick_votes_all": 3398,
-    "bipartisan_votes_all": 917,
-    "maverick_bipartisan_all": 62,
-    "total_votes_all": 10318,
+    "maverick_votes_all": 3399,
+    "bipartisan_votes_all": 920,
+    "maverick_bipartisan_all": 63,
+    "total_votes_all": 10325,
     "missed_votes_all": 149,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 13,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 40,
+    "party_unity_percentile_party": 39,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 60
+    "reliability_percentile_party": 61
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,8 +102,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.212,
-      "dim2": -0.382
+      "dim1": -0.211,
+      "dim2": -0.37
     }
   ],
   "lobbying_contributions": [
@@ -150,6 +150,27 @@
   ],
   "lobbying_sum": 2518337.9,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -335,27 +356,6 @@
         "code": "HR471",
         "type": null,
         "number": "HR471",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-16",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Preventing Violence Against Women by Illegal Aliens Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 274,
-      "nay": 145,
-      "present": 0,
-      "bill": {
-        "code": "HR30",
-        "type": null,
-        "number": "HR30",
         "congress": 119,
         "title": ""
       }
@@ -1174,44 +1174,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Jake Daniel Auchincloss",
+      "distance": 0.0013038404810405393
+    },
+    {
       "name": "Nellie Avila Pou",
-      "distance": 0.0013601470508735538
+      "distance": 0.0013601470508735334
     },
     {
-      "name": "Ed Case",
-      "distance": 0.0023086792761230616
-    },
-    {
-      "name": "Mark E. Amodei",
-      "distance": 0.0030528675044947844
+      "name": "Andrew R. Garbarino",
+      "distance": 0.0022472205054244227
     },
     {
       "name": "Suhas Subramanyam",
-      "distance": 0.0032572994949804585
+      "distance": 0.0031622776601682766
     },
     {
-      "name": "Young Oak Kim",
-      "distance": 0.0032999999999999696
+      "name": "Ed Case",
+      "distance": 0.0031622776601682766
     },
     {
-      "name": "Tom Cole",
-      "distance": 0.003417601498126987
-    },
-    {
-      "name": "Cliff Stewart Bentz",
-      "distance": 0.0036055512754640355
+      "name": "Haley M. Stevens",
+      "distance": 0.0033837848631377045
     },
     {
       "name": "Joe Courtney",
-      "distance": 0.004188078318274354
+      "distance": 0.0040496913462633646
     },
     {
-      "name": "Mark Allen Alford",
-      "distance": 0.004313930922024594
+      "name": "Timothy Kennedy",
+      "distance": 0.0045177427992306165
     },
     {
-      "name": "Jake Daniel Auchincloss",
-      "distance": 0.004494441010848825
+      "name": "Ami Bera",
+      "distance": 0.005905929224093357
+    },
+    {
+      "name": "Mark E. Amodei",
+      "distance": 0.0060440052945046506
     }
   ]
 }

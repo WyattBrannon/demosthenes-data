@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.245,
     "dw_nominate_dim2": 0.272,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9309,
-    "party_unity_bp_pct": 0.3947,
-    "maverick_votes": 21,
-    "bipartisan_votes": 120,
-    "maverick_bipartisan": 21,
-    "total_votes": 304,
-    "missed_votes": 0,
-    "maverick_votes_all": 92,
-    "bipartisan_votes_all": 534,
-    "maverick_bipartisan_all": 89,
-    "total_votes_all": 1479,
-    "missed_votes_all": 60,
+    "party_unity_pct": 0.9256,
+    "party_unity_bp_pct": 0.3948,
+    "maverick_votes": 23,
+    "bipartisan_votes": 122,
+    "maverick_bipartisan": 23,
+    "total_votes": 309,
+    "missed_votes": 2,
+    "maverick_votes_all": 94,
+    "bipartisan_votes_all": 536,
+    "maverick_bipartisan_all": 91,
+    "total_votes_all": 1484,
+    "missed_votes_all": 62,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 13,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 82,
     "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 76
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -84,7 +84,7 @@
     {
       "congress": 119,
       "dim1": -0.202,
-      "dim2": 0.043
+      "dim2": 0.044
     }
   ],
   "lobbying_contributions": [
@@ -131,6 +131,48 @@
   ],
   "lobbying_sum": 176177.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLASS Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 242,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR1005",
+        "type": null,
+        "number": "HR1005",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -298,51 +340,52 @@
         "congress": 119,
         "title": ""
       }
-    },
+    }
+  ],
+  "missed_votes": [
     {
-      "date": "2025-06-26",
+      "date": "2025-12-01",
       "chamber": "house",
-      "question": "On Passage",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
       "vote_result": "Passed",
-      "vote_desc": "Jeremy and Angel Seay and Sergeant Brandon Mendoza Protect Our Communities from DUIs Act",
-      "vote_question": "On Passage",
+      "vote_desc": "Social Security Child Protection Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
       "dtl_desc": "",
       "result": "",
-      "member_position": "Yea",
-      "yea": 246,
-      "nay": 160,
+      "member_position": "Not Voting",
+      "yea": 386,
+      "nay": 0,
       "present": 0,
       "bill": {
-        "code": "HR875",
+        "code": "HR5348",
         "type": null,
-        "number": "HR875",
+        "number": "HR5348",
         "congress": 119,
         "title": ""
       }
     },
     {
-      "date": "2025-06-10",
+      "date": "2025-12-01",
       "chamber": "house",
-      "question": "On Passage",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
       "vote_result": "Passed",
-      "vote_desc": "Protecting Our Nation\u2019s Capital Emergency Act",
-      "vote_question": "On Passage",
+      "vote_desc": "No New Burma Funds Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
       "dtl_desc": "",
       "result": "",
-      "member_position": "Yea",
-      "yea": 235,
-      "nay": 178,
+      "member_position": "Not Voting",
+      "yea": 385,
+      "nay": 0,
       "present": 0,
       "bill": {
-        "code": "HR2096",
+        "code": "HR4423",
         "type": null,
-        "number": "HR2096",
+        "number": "HR4423",
         "congress": 119,
         "title": ""
       }
     }
   ],
-  "missed_votes": [],
   "key_votes": [
     {
       "date": "2025-11-18",
@@ -1558,44 +1601,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Maggie Vivian Goodlander",
-      "distance": 0.0032999999999999696
-    },
-    {
       "name": "Jimmy Panetta",
-      "distance": 0.0046669047558312495
+      "distance": 0.003765634076752588
     },
     {
-      "name": "Kim Schrier",
-      "distance": 0.004940647730814261
-    },
-    {
-      "name": "John W. Mannion",
-      "distance": 0.007854934754662172
+      "name": "Maggie Vivian Goodlander",
+      "distance": 0.004801041553663148
     },
     {
       "name": "Dave Kunnghee Min",
-      "distance": 0.009141662868428291
+      "distance": 0.005640035460881475
+    },
+    {
+      "name": "Kim Schrier",
+      "distance": 0.007155417527999383
     },
     {
       "name": "Josh Paul Riley",
-      "distance": 0.010042410069301025
+      "distance": 0.01126454615153224
+    },
+    {
+      "name": "Steven A. Horsford",
+      "distance": 0.011703845521878684
     },
     {
       "name": "Derek Truyen Tran",
-      "distance": 0.010720074626605958
+      "distance": 0.012541929676090524
     },
     {
-      "name": "Sanford D. Bishop",
-      "distance": 0.013579396157414401
+      "name": "Josh Harder",
+      "distance": 0.013241223508422457
+    },
+    {
+      "name": "John W. Mannion",
+      "distance": 0.013717871555019042
     },
     {
       "name": "Gabriel (Gabe) Vasquez",
-      "distance": 0.014500344823486052
-    },
-    {
-      "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.014668674105044419
+      "distance": 0.014340502083260475
     }
   ]
 }

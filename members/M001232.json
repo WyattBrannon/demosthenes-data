@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.279,
     "dw_nominate_dim2": 0.265,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9463,
-    "party_unity_bp_pct": 0.3792,
-    "maverick_votes": 16,
-    "bipartisan_votes": 113,
-    "maverick_bipartisan": 16,
-    "total_votes": 298,
+    "party_unity_pct": 0.9443,
+    "party_unity_bp_pct": 0.3803,
+    "maverick_votes": 17,
+    "bipartisan_votes": 116,
+    "maverick_bipartisan": 17,
+    "total_votes": 305,
     "missed_votes": 6,
-    "maverick_votes_all": 16,
-    "bipartisan_votes_all": 113,
-    "maverick_bipartisan_all": 16,
-    "total_votes_all": 298,
+    "maverick_votes_all": 17,
+    "bipartisan_votes_all": 116,
+    "maverick_bipartisan_all": 17,
+    "total_votes_all": 305,
     "missed_votes_all": 6,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 21,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 82,
     "party_unity_percentile_party": 23,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 47
+    "reliability_percentile_party": 49
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -74,7 +74,7 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.288,
+      "dim1": -0.287,
       "dim2": 0.242
     }
   ],
@@ -122,6 +122,27 @@
   ],
   "lobbying_sum": 41050.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -307,27 +328,6 @@
         "code": "HJRES25",
         "type": null,
         "number": "HJRES25",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-13",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Agent Raul Gonzalez Officer Safety Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 264,
-      "nay": 155,
-      "present": 0,
-      "bill": {
-        "code": "HR35",
-        "type": null,
-        "number": "HR35",
         "congress": 119,
         "title": ""
       }
@@ -1926,43 +1926,43 @@
   "vote_record_similar": [
     {
       "name": "Sharice Davids",
-      "distance": 0.0009486832980505322
-    },
-    {
-      "name": "Don Bacon",
-      "distance": 0.004346262762420141
-    },
-    {
-      "name": "Michael Vincent Lawler",
-      "distance": 0.0067268120235368
+      "distance": 0.0009486832980505147
     },
     {
       "name": "J. Luis Correa",
-      "distance": 0.007061161377563909
-    },
-    {
-      "name": "Frank John Mrvan",
-      "distance": 0.00750066663703967
+      "distance": 0.006746851117373143
     },
     {
       "name": "Greg Stanton",
-      "distance": 0.007951100552753707
-    },
-    {
-      "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.009121403400793137
+      "distance": 0.007863841300535022
     },
     {
       "name": "Angie Craig",
-      "distance": 0.009413288479591041
+      "distance": 0.008421995013059567
+    },
+    {
+      "name": "Don Bacon",
+      "distance": 0.008709190547921197
+    },
+    {
+      "name": "Frank John Mrvan",
+      "distance": 0.008709764635166735
+    },
+    {
+      "name": "Nicole (Nikki) Jai Budzinski",
+      "distance": 0.00890224690738247
     },
     {
       "name": "Emilia Strong Sykes",
-      "distance": 0.0098954535014824
+      "distance": 0.00960468635614932
     },
     {
-      "name": "Marc A. Veasey",
-      "distance": 0.010183319694480763
+      "name": "Michael Vincent Lawler",
+      "distance": 0.009806120537704953
+    },
+    {
+      "name": "John W. Mannion",
+      "distance": 0.010199999999999994
     }
   ]
 }

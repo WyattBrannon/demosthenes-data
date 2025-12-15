@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.337,
     "dw_nominate_dim2": 0.041,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9702,
-    "party_unity_bp_pct": 0.351,
-    "maverick_votes": 9,
-    "bipartisan_votes": 106,
-    "maverick_bipartisan": 9,
-    "total_votes": 302,
+    "party_unity_pct": 0.9676,
+    "party_unity_bp_pct": 0.3528,
+    "maverick_votes": 10,
+    "bipartisan_votes": 109,
+    "maverick_bipartisan": 10,
+    "total_votes": 309,
     "missed_votes": 2,
-    "maverick_votes_all": 3491,
-    "bipartisan_votes_all": 929,
-    "maverick_bipartisan_all": 60,
-    "total_votes_all": 12203,
+    "maverick_votes_all": 3492,
+    "bipartisan_votes_all": 932,
+    "maverick_bipartisan_all": 61,
+    "total_votes_all": 12210,
     "missed_votes_all": 129,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 36,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 62,
-    "party_unity_percentile_party": 46,
+    "party_unity_percentile_party": 43,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 76
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -123,8 +123,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.273,
-      "dim2": -0.04
+      "dim1": -0.278,
+      "dim2": -0.057
     }
   ],
   "lobbying_contributions": [
@@ -171,6 +171,27 @@
   ],
   "lobbying_sum": 88466.5,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-21",
       "chamber": "house",
@@ -1967,44 +1988,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mark Allen Alford",
-      "distance": 0.0009433981132056036
+      "name": "Mark E. Amodei",
+      "distance": 0.0024515301344262114
     },
     {
-      "name": "Bruce Westerman",
-      "distance": 0.0012041594578792167
-    },
-    {
-      "name": "Michael K. Simpson",
-      "distance": 0.001931320791582739
-    },
-    {
-      "name": "Cliff Stewart Bentz",
-      "distance": 0.0021023796041629147
-    },
-    {
-      "name": "Young Oak Kim",
-      "distance": 0.0023086792761230616
-    },
-    {
-      "name": "J. French Hill",
-      "distance": 0.0030066592756745865
+      "name": "Tom Cole",
+      "distance": 0.003001666203960729
     },
     {
       "name": "Ami Bera",
-      "distance": 0.0030594117081556606
+      "distance": 0.0030594117081556823
     },
     {
       "name": "Nellie Avila Pou",
+      "distance": 0.003132091952673171
+    },
+    {
+      "name": "Young Oak Kim",
       "distance": 0.0032572994949804585
     },
     {
-      "name": "Ed Case",
-      "distance": 0.0032999999999999696
+      "name": "Cliff Stewart Bentz",
+      "distance": 0.003605551275463943
     },
     {
-      "name": "Darrell E. Issa",
-      "distance": 0.0034176014981271105
+      "name": "Timothy Kennedy",
+      "distance": 0.003780211634287177
+    },
+    {
+      "name": "Ken S. Calvert",
+      "distance": 0.003944616584663169
+    },
+    {
+      "name": "James A. Himes",
+      "distance": 0.0040496913462633646
+    },
+    {
+      "name": "Mark Allen Alford",
+      "distance": 0.004964876634922571
     }
   ]
 }

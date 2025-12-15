@@ -85,31 +85,31 @@
     "dw_nominate_dim1": 0.551,
     "dw_nominate_dim2": 0.384,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9951,
-    "party_unity_bp_pct": 0.0621,
+    "party_unity_pct": 0.9952,
+    "party_unity_bp_pct": 0.0614,
     "maverick_votes": 3,
     "bipartisan_votes": 38,
     "maverick_bipartisan": 0,
-    "total_votes": 612,
-    "missed_votes": 11,
+    "total_votes": 619,
+    "missed_votes": 12,
     "maverick_votes_all": 1580,
     "bipartisan_votes_all": 363,
     "maverick_bipartisan_all": 70,
-    "total_votes_all": 5719,
-    "missed_votes_all": 204,
+    "total_votes_all": 5726,
+    "missed_votes_all": 205,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 55,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 90,
     "party_unity_percentile_party": 94,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 54
+    "reliability_percentile_party": 55
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -271,6 +271,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 50,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-22",
       "chamber": "senate",
@@ -459,30 +480,84 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-04-10",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters\".",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 53,
-      "nay": 44,
-      "present": 0,
-      "bill": {
-        "code": "HJRES20",
-        "type": null,
-        "number": "HJRES20",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Matthew E. Orso, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5203",
+        "type": null,
+        "number": "PN5203",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 629
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 627
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 625
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -657,81 +732,6 @@
         "title": ""
       },
       "rollnumber": 607
-    },
-    {
-      "date": "2025-11-04",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN4001",
-        "type": null,
-        "number": "PN4001",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 604
-    },
-    {
-      "date": "2025-10-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES88",
-        "type": null,
-        "number": "SJRES88",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 600
-    },
-    {
-      "date": "2025-10-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN4662",
-        "type": null,
-        "number": "PN4662",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 596
     }
   ],
   "fec": {
@@ -3898,43 +3898,43 @@
   "vote_record_similar": [
     {
       "name": "Katie Elizabeth Britt",
-      "distance": 0.0002999999999999947
+      "distance": 0.00022360679774997296
     },
     {
       "name": "Marsha W. Blackburn",
-      "distance": 0.0005385164807134426
+      "distance": 0.0005385164807134362
     },
     {
       "name": "Jim Conley Justice",
-      "distance": 0.001627882059610016
+      "distance": 0.0015524174696260585
     },
     {
       "name": "Tim Scott",
-      "distance": 0.0017464249196573398
-    },
-    {
-      "name": "James Lankford",
-      "distance": 0.0017492855684535463
+      "distance": 0.001700000000000051
     },
     {
       "name": "Tommy Hawley Tuberville",
-      "distance": 0.0018439088914586016
+      "distance": 0.0018681541692269635
+    },
+    {
+      "name": "James Lankford",
+      "distance": 0.0018867962264112659
+    },
+    {
+      "name": "Michael D. Crapo",
+      "distance": 0.0024999999999999953
     },
     {
       "name": "Eric Stephen Schmitt",
       "distance": 0.0025612496949731
     },
     {
-      "name": "Michael D. Crapo",
-      "distance": 0.002599999999999991
-    },
-    {
       "name": "Roger Marshall",
-      "distance": 0.0026400757564887813
+      "distance": 0.0027202941017470507
     },
     {
       "name": "Steve Daines",
-      "distance": 0.0031999999999999945
+      "distance": 0.0029999999999999957
     }
   ]
 }

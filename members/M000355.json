@@ -77,31 +77,31 @@
     "dw_nominate_dim1": 0.403,
     "dw_nominate_dim2": 0.019,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9667,
-    "party_unity_bp_pct": 0.0841,
+    "party_unity_pct": 0.9671,
+    "party_unity_bp_pct": 0.0832,
     "maverick_votes": 19,
     "bipartisan_votes": 48,
     "maverick_bipartisan": 18,
-    "total_votes": 571,
-    "missed_votes": 52,
+    "total_votes": 577,
+    "missed_votes": 54,
     "maverick_votes_all": 3610,
     "bipartisan_votes_all": 566,
     "maverick_bipartisan_all": 221,
-    "total_votes_all": 13990,
-    "missed_votes_all": 197,
+    "total_votes_all": 13996,
+    "missed_votes_all": 199,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 22,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 38,
+    "party_unity_percentile_party": 37,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 6
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -471,6 +471,48 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 63,
+      "nay": 34,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 50,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-10-14",
       "chamber": "senate",
       "question": "On Cloture on the Motion to Proceed",
@@ -637,51 +679,84 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Jeanine Pirro, of New York, to be United States Attorney for the District of Columbia for the term of four years",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 51,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN34515",
-        "type": null,
-        "number": "PN34515",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Jeanine Pirro, of New York, to be United States Attorney for the District of Columbia for the term of four years",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 50,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN34515",
-        "type": null,
-        "number": "PN34515",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Matthew E. Orso, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5203",
+        "type": null,
+        "number": "PN5203",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 629
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 627
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 625
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -856,81 +931,6 @@
         "title": ""
       },
       "rollnumber": 607
-    },
-    {
-      "date": "2025-11-04",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN4001",
-        "type": null,
-        "number": "PN4001",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 604
-    },
-    {
-      "date": "2025-10-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES88",
-        "type": null,
-        "number": "SJRES88",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 600
-    },
-    {
-      "date": "2025-10-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN4662",
-        "type": null,
-        "number": "PN4662",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 596
     }
   ],
   "fec": {
@@ -1645,44 +1645,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Sheldon Whitehouse",
-      "distance": 0.0029410882339705683
-    },
-    {
       "name": "Dan Sullivan",
-      "distance": 0.01004041831797856
+      "distance": 0.009879271228182844
     },
     {
       "name": "Maria Cantwell",
-      "distance": 0.010617438485811903
+      "distance": 0.010581587782558908
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.011035397591387493
+      "distance": 0.010866922287381972
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.01200000000000001
+      "distance": 0.011800423721205868
+    },
+    {
+      "name": "Sheldon Whitehouse",
+      "distance": 0.012264175471673563
     },
     {
       "name": "Tammy Baldwin",
-      "distance": 0.01259364919314491
+      "distance": 0.012559060474414498
     },
     {
       "name": "John Thune",
-      "distance": 0.015608010763707153
+      "distance": 0.015415900881881748
     },
     {
       "name": "Thom Tillis",
-      "distance": 0.01690118339052035
+      "distance": 0.01670748335327621
     },
     {
       "name": "Michael F. Bennet",
-      "distance": 0.018183783984638633
+      "distance": 0.017773013250431097
     },
     {
       "name": "Tammy Duckworth",
-      "distance": 0.018601075237738258
+      "distance": 0.018380696395947586
     }
   ]
 }

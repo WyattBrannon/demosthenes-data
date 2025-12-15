@@ -49,22 +49,22 @@
     "dw_nominate_dim1": 0.434,
     "dw_nominate_dim2": 0.274,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9858,
-    "party_unity_bp_pct": 0.3381,
+    "party_unity_pct": 0.9861,
+    "party_unity_bp_pct": 0.3345,
     "maverick_votes": 4,
-    "bipartisan_votes": 95,
+    "bipartisan_votes": 96,
     "maverick_bipartisan": 3,
-    "total_votes": 281,
-    "missed_votes": 23,
+    "total_votes": 287,
+    "missed_votes": 24,
     "maverick_votes_all": 715,
-    "bipartisan_votes_all": 888,
+    "bipartisan_votes_all": 889,
     "maverick_bipartisan_all": 101,
-    "total_votes_all": 3289,
-    "missed_votes_all": 198,
+    "total_votes_all": 3295,
+    "missed_votes_all": 199,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 30,
     "dim2_direction_party": "right",
@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 7
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.458,
-      "dim2": 0.129
+      "dim1": 0.459,
+      "dim2": 0.13
     }
   ],
   "lobbying_contributions": [
@@ -231,6 +231,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "No New Burma Funds Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 385,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR4423",
+        "type": null,
+        "number": "HR4423",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -411,27 +432,6 @@
       "member_position": "Not Voting",
       "yea": 124,
       "nay": 303,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 127,
-      "nay": 299,
       "present": 0,
       "bill": {
         "code": "HR4553",
@@ -2144,44 +2144,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Kelly Louise Morrison",
-      "distance": 0.0010770329614269059
-    },
-    {
-      "name": "Mike Quigley",
-      "distance": 0.0013341664064126487
-    },
-    {
-      "name": "Bill Foster",
-      "distance": 0.0018027756377319963
-    },
-    {
-      "name": "Johnny Anthony Olszewski",
-      "distance": 0.002059126028197373
-    },
-    {
-      "name": "Max Leonard Miller",
-      "distance": 0.002433105012119248
-    },
-    {
-      "name": "David Scott",
-      "distance": 0.002433105012119248
-    },
-    {
-      "name": "Jack Bergman",
-      "distance": 0.0032388269481403017
-    },
-    {
       "name": "Bryan Steil",
-      "distance": 0.0034058772731852603
+      "distance": 0.002202271554554506
+    },
+    {
+      "name": "Ernest Anthony Gonzales",
+      "distance": 0.0022360679774997816
+    },
+    {
+      "name": "Kelly Louise Morrison",
+      "distance": 0.0023259406699225934
+    },
+    {
+      "name": "Gus M. Bilirakis",
+      "distance": 0.0023769728648009776
+    },
+    {
+      "name": "Andrea Rose Salinas",
+      "distance": 0.0025942243542145574
     },
     {
       "name": "Robert J. Wittman",
-      "distance": 0.0036796738985948475
+      "distance": 0.0027018512172211854
     },
     {
-      "name": "Mike Kelly",
-      "distance": 0.00411096095821891
+      "name": "Ashley Hinson",
+      "distance": 0.00311126983722082
+    },
+    {
+      "name": "Max Leonard Miller",
+      "distance": 0.003114482300479458
+    },
+    {
+      "name": "David Scott",
+      "distance": 0.003114482300479458
+    },
+    {
+      "name": "Michael James Baumgartner",
+      "distance": 0.004022437072223756
     }
   ]
 }

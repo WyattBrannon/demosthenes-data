@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.446,
     "dw_nominate_dim2": 0.36,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9764,
-    "party_unity_bp_pct": 0.3209,
+    "party_unity_pct": 0.9768,
+    "party_unity_bp_pct": 0.3212,
     "maverick_votes": 7,
-    "bipartisan_votes": 95,
+    "bipartisan_votes": 97,
     "maverick_bipartisan": 5,
-    "total_votes": 296,
-    "missed_votes": 8,
+    "total_votes": 302,
+    "missed_votes": 9,
     "maverick_votes_all": 49,
-    "bipartisan_votes_all": 878,
+    "bipartisan_votes_all": 880,
     "maverick_bipartisan_all": 40,
-    "total_votes_all": 2480,
-    "missed_votes_all": 55,
+    "total_votes_all": 2486,
+    "missed_votes_all": 56,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 70,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 90,
     "party_unity_percentile_party": 57,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 37
+    "reliability_percentile_party": 34
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.428,
-      "dim2": 0.143
+      "dim1": -0.42,
+      "dim2": 0.159
     }
   ],
   "lobbying_contributions": [
@@ -285,6 +285,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-23",
       "chamber": "house",
@@ -3275,44 +3296,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "David Schweikert",
-      "distance": 0.0010000000000000009
-    },
-    {
       "name": "Ro Khanna",
-      "distance": 0.0012041594578792076
+      "distance": 0.00022360679774995434
     },
     {
-      "name": "Vern Buchanan",
-      "distance": 0.0019416487838946547
-    },
-    {
-      "name": "Roger Williams",
-      "distance": 0.002118962010041722
-    },
-    {
-      "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.0026683328128252683
+      "name": "David Schweikert",
+      "distance": 0.0021095023109728873
     },
     {
       "name": "Zoe Lofgren",
-      "distance": 0.0033999999999999586
+      "distance": 0.002202271554554559
     },
     {
       "name": "James E. Clyburn",
-      "distance": 0.003622154055254954
+      "distance": 0.0024515301344262544
+    },
+    {
+      "name": "Vern Buchanan",
+      "distance": 0.0031622776601683855
+    },
+    {
+      "name": "Steve Cohen",
+      "distance": 0.003383784863137754
     },
     {
       "name": "Christopher H. Smith",
-      "distance": 0.003699999999999944
+      "distance": 0.0035014282800022666
     },
     {
-      "name": "Bennie G. Thompson",
-      "distance": 0.0038275318418010294
+      "name": "Sydney Kai Kamlager-Dove",
+      "distance": 0.003622154055254954
     },
     {
-      "name": "Adriano Espaillat",
-      "distance": 0.004295346318982828
+      "name": "Yassamin Ansari",
+      "distance": 0.004049691346263302
+    },
+    {
+      "name": "Roger Williams",
+      "distance": 0.004177319714841082
     }
   ]
 }

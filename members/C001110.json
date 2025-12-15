@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.286,
     "dw_nominate_dim2": 0.154,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9532,
-    "party_unity_bp_pct": 0.3777,
-    "maverick_votes": 13,
-    "bipartisan_votes": 105,
-    "maverick_bipartisan": 13,
-    "total_votes": 278,
+    "party_unity_pct": 0.9509,
+    "party_unity_bp_pct": 0.3789,
+    "maverick_votes": 14,
+    "bipartisan_votes": 108,
+    "maverick_bipartisan": 14,
+    "total_votes": 285,
     "missed_votes": 26,
-    "maverick_votes_all": 803,
-    "bipartisan_votes_all": 906,
-    "maverick_bipartisan_all": 56,
-    "total_votes_all": 4600,
+    "maverick_votes_all": 804,
+    "bipartisan_votes_all": 909,
+    "maverick_bipartisan_all": 57,
+    "total_votes_all": 4607,
     "missed_votes_all": 94,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 22,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 29,
+    "party_unity_percentile_party": 27,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 8
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,8 +98,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.435,
-      "dim2": 0.663
+      "dim1": -0.431,
+      "dim2": 0.658
     }
   ],
   "lobbying_contributions": [
@@ -146,6 +146,27 @@
   ],
   "lobbying_sum": 229827.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -331,27 +352,6 @@
         "code": "S1582",
         "type": null,
         "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-01",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Congressional disapproval, of the rule submitted by the EPA relating to \u201cCalifornia State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 246,
-      "nay": 164,
-      "present": 0,
-      "bill": {
-        "code": "HJRES88",
-        "type": null,
-        "number": "HJRES88",
         "congress": 119,
         "title": ""
       }
@@ -2019,43 +2019,43 @@
   "vote_record_similar": [
     {
       "name": "Michael Vincent Lawler",
-      "distance": 0.0028160255680657774
+      "distance": 0.0030594117081556714
     },
     {
       "name": "Don Bacon",
-      "distance": 0.002906888370749739
+      "distance": 0.003551056180912951
     },
     {
       "name": "Sharice Davids",
-      "distance": 0.006264183905346342
-    },
-    {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.006657326790837256
+      "distance": 0.005948108943185145
     },
     {
       "name": "April Lynn McClain Delaney",
-      "distance": 0.007061161377563909
+      "distance": 0.006746851117373143
     },
     {
       "name": "Mike Levin",
-      "distance": 0.00812219182240852
+      "distance": 0.00793095202355936
     },
     {
-      "name": "David G. Valadao",
-      "distance": 0.008458132181516165
-    },
-    {
-      "name": "Nicolas Joseph LaLota",
-      "distance": 0.008602325267042625
-    },
-    {
-      "name": "Shomari Coleman Figures",
-      "distance": 0.010373041983911951
+      "name": "Jay Phillip Obernolte",
+      "distance": 0.011182575731914396
     },
     {
       "name": "Janelle S. Bynum",
-      "distance": 0.011415778554264231
+      "distance": 0.011221853679316968
+    },
+    {
+      "name": "Emilia Strong Sykes",
+      "distance": 0.01197539143410354
+    },
+    {
+      "name": "Nicolas Joseph LaLota",
+      "distance": 0.012129715577869071
+    },
+    {
+      "name": "David G. Valadao",
+      "distance": 0.012762444906835096
     }
   ]
 }

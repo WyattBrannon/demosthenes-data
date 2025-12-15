@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.276,
     "dw_nominate_dim2": 0.259,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9384,
-    "party_unity_bp_pct": 0.3801,
-    "maverick_votes": 18,
-    "bipartisan_votes": 111,
-    "maverick_bipartisan": 18,
-    "total_votes": 292,
+    "party_unity_pct": 0.9365,
+    "party_unity_bp_pct": 0.3813,
+    "maverick_votes": 19,
+    "bipartisan_votes": 114,
+    "maverick_bipartisan": 19,
+    "total_votes": 299,
     "missed_votes": 12,
-    "maverick_votes_all": 124,
-    "bipartisan_votes_all": 977,
-    "maverick_bipartisan_all": 106,
-    "total_votes_all": 3454,
+    "maverick_votes_all": 125,
+    "bipartisan_votes_all": 980,
+    "maverick_bipartisan_all": 107,
+    "total_votes_all": 3461,
     "missed_votes_all": 33,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 20,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 80,
     "party_unity_percentile_party": 21,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 25
+    "reliability_percentile_party": 26
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,7 +97,7 @@
     },
     {
       "congress": 119,
-      "dim1": -0.261,
+      "dim1": -0.26,
       "dim2": 0.23
     }
   ],
@@ -145,6 +145,27 @@
   ],
   "lobbying_sum": 186348.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -330,27 +351,6 @@
         "code": "HRES488",
         "type": null,
         "number": "HRES488",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-07",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 266,
-      "nay": 153,
-      "present": 0,
-      "bill": {
-        "code": "HR881",
-        "type": null,
-        "number": "HR881",
         "congress": 119,
         "title": ""
       }
@@ -1714,43 +1714,43 @@
   "vote_record_similar": [
     {
       "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.0017492855684535975
-    },
-    {
-      "name": "Angie Craig",
-      "distance": 0.002051828452868369
-    },
-    {
-      "name": "Sanford D. Bishop",
-      "distance": 0.005434151267677378
-    },
-    {
-      "name": "Derek Truyen Tran",
-      "distance": 0.006100000000000003
+      "distance": 0.0015264337522474067
     },
     {
       "name": "Frank John Mrvan",
-      "distance": 0.006985699678629218
-    },
-    {
-      "name": "Dave Kunnghee Min",
-      "distance": 0.00744043009509529
-    },
-    {
-      "name": "April Lynn McClain Delaney",
-      "distance": 0.007951100552753707
-    },
-    {
-      "name": "Steven A. Horsford",
-      "distance": 0.008318653737234156
+      "distance": 0.002983286778035227
     },
     {
       "name": "John W. Mannion",
-      "distance": 0.008628441342444235
+      "distance": 0.003984971769034273
+    },
+    {
+      "name": "Derek Truyen Tran",
+      "distance": 0.005885575587824892
+    },
+    {
+      "name": "Sanford D. Bishop",
+      "distance": 0.0067067130548428494
+    },
+    {
+      "name": "Angie Craig",
+      "distance": 0.006888396039717804
+    },
+    {
+      "name": "April Lynn McClain Delaney",
+      "distance": 0.007863841300535022
     },
     {
       "name": "Sharice Davids",
-      "distance": 0.008820430828480007
+      "distance": 0.008728115489611757
+    },
+    {
+      "name": "Kim Schrier",
+      "distance": 0.01124010676105882
+    },
+    {
+      "name": "Steven A. Horsford",
+      "distance": 0.011343720729989777
     }
   ]
 }

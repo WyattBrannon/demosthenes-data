@@ -97,31 +97,31 @@
     "dw_nominate_dim1": -0.248,
     "dw_nominate_dim2": -0.184,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9376,
-    "party_unity_bp_pct": 0.1199,
-    "maverick_votes": 38,
-    "bipartisan_votes": 73,
-    "maverick_bipartisan": 35,
-    "total_votes": 609,
+    "party_unity_pct": 0.9352,
+    "party_unity_bp_pct": 0.1216,
+    "maverick_votes": 40,
+    "bipartisan_votes": 75,
+    "maverick_bipartisan": 37,
+    "total_votes": 617,
     "missed_votes": 14,
-    "maverick_votes_all": 2701,
-    "bipartisan_votes_all": 411,
-    "maverick_bipartisan_all": 45,
-    "total_votes_all": 8386,
+    "maverick_votes_all": 2703,
+    "bipartisan_votes_all": 413,
+    "maverick_bipartisan_all": 47,
+    "total_votes_all": 8394,
     "missed_votes_all": 149,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 15,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 68,
-    "party_unity_percentile_party": 21,
+    "party_unity_percentile_party": 18,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 45
+    "reliability_percentile_party": 46
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -170,8 +170,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.267,
-      "dim2": -0.204
+      "dim1": -0.262,
+      "dim2": -0.214
     }
   ],
   "lobbying_contributions": [
@@ -218,6 +218,48 @@
   ],
   "lobbying_sum": 554952.13,
   "maverick_votes": [
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 61,
+      "nay": 36,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -382,48 +424,6 @@
         "code": "PN2642",
         "type": null,
         "number": "PN2642",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Luke Pettit, of the District of Columbia, to be an Assistant Secretary of the Treasury",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 69,
-      "nay": 30,
-      "present": 0,
-      "bill": {
-        "code": "PN2539",
-        "type": null,
-        "number": "PN2539",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Luke Pettit, of the District of Columbia, to be an Assistant Secretary of the Treasury",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 60,
-      "nay": 28,
-      "present": 0,
-      "bill": {
-        "code": "PN2539",
-        "type": null,
-        "number": "PN2539",
         "congress": 119,
         "title": ""
       }
@@ -643,6 +643,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Matthew E. Orso, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5203",
+        "type": null,
+        "number": "PN5203",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 629
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 627
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 625
+    },
+    {
       "date": "2025-11-19",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -816,81 +891,6 @@
         "title": ""
       },
       "rollnumber": 607
-    },
-    {
-      "date": "2025-11-04",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN4001",
-        "type": null,
-        "number": "PN4001",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 604
-    },
-    {
-      "date": "2025-10-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES88",
-        "type": null,
-        "number": "SJRES88",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 600
-    },
-    {
-      "date": "2025-10-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN4662",
-        "type": null,
-        "number": "PN4662",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 596
     }
   ],
   "fec": {
@@ -3809,44 +3809,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Amy Jean Klobuchar",
-      "distance": 0.004428317965096909
-    },
-    {
       "name": "Martin Heinrich",
-      "distance": 0.0054147945482723135
-    },
-    {
-      "name": "Christopher Andrew Coons",
-      "distance": 0.006315061361538763
-    },
-    {
-      "name": "John F. Reed",
-      "distance": 0.008127115109311536
+      "distance": 0.0034828149534535825
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.00835284382710461
+      "distance": 0.003956008088970505
+    },
+    {
+      "name": "Christopher Andrew Coons",
+      "distance": 0.0049578221024962656
+    },
+    {
+      "name": "Amy Jean Klobuchar",
+      "distance": 0.005503635162326755
     },
     {
       "name": "Richard J. Durbin",
-      "distance": 0.011822859214251016
+      "distance": 0.007424957912338618
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.012070211265756687
+      "distance": 0.008121576201698788
+    },
+    {
+      "name": "John F. Reed",
+      "distance": 0.009254188241007419
     },
     {
       "name": "Kirsten E. Gillibrand",
-      "distance": 0.019480503073586185
+      "distance": 0.023754157530840734
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.021476731594914523
+      "distance": 0.025622255950637905
     },
     {
       "name": "Jon Ossoff",
-      "distance": 0.02294275484766379
+      "distance": 0.02717682836535565
     }
   ]
 }

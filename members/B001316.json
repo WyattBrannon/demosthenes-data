@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.733,
     "dw_nominate_dim2": -0.518,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8532,
-    "party_unity_bp_pct": 0.1911,
+    "party_unity_pct": 0.8562,
+    "party_unity_bp_pct": 0.194,
     "maverick_votes": 43,
-    "bipartisan_votes": 56,
+    "bipartisan_votes": 58,
     "maverick_bipartisan": 3,
-    "total_votes": 293,
-    "missed_votes": 11,
+    "total_votes": 299,
+    "missed_votes": 12,
     "maverick_votes_all": 222,
-    "bipartisan_votes_all": 244,
+    "bipartisan_votes_all": 246,
     "maverick_bipartisan_all": 12,
-    "total_votes_all": 1496,
-    "missed_votes_all": 43,
+    "total_votes_all": 1502,
+    "missed_votes_all": 44,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 87,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
     "party_unity_percentile_party": 2,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 27
+    "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,8 +91,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.92,
-      "dim2": -0.392
+      "dim1": 0.914,
+      "dim2": -0.405
     }
   ],
   "lobbying_contributions": [
@@ -352,6 +352,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-09-09",
       "chamber": "house",
       "question": "On Agreeing to the Resolution",
@@ -536,27 +557,6 @@
         "code": "HR530",
         "type": null,
         "number": "HR530",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "MEGOBARI Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 349,
-      "nay": 42,
-      "present": 0,
-      "bill": {
-        "code": "HR36",
-        "type": null,
-        "number": "HR36",
         "congress": 119,
         "title": ""
       }
@@ -1139,43 +1139,43 @@
   "vote_record_similar": [
     {
       "name": "Eli Crane",
-      "distance": 0.002202271554554531
+      "distance": 0.0014866068747318548
     },
     {
       "name": "Andy Biggs",
-      "distance": 0.007076722405181639
-    },
-    {
-      "name": "Ralph Norman",
-      "distance": 0.013430189872075587
+      "distance": 0.006171709649683736
     },
     {
       "name": "Angus S. King",
-      "distance": 0.014446106741956474
+      "distance": 0.008949860334105782
     },
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.015347312468311898
-    },
-    {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.015463505424062244
-    },
-    {
-      "name": "Josh Chad Brecheen",
-      "distance": 0.016169724796668686
+      "distance": 0.009915644204992483
     },
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.016650825805346728
+      "distance": 0.014220056258679144
+    },
+    {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.015654072952429987
+    },
+    {
+      "name": "Josh Chad Brecheen",
+      "distance": 0.015915401345866248
+    },
+    {
+      "name": "Ralph Norman",
+      "distance": 0.016914490828872177
     },
     {
       "name": "Scott Perry",
-      "distance": 0.022474207438750768
+      "distance": 0.024999999999999994
     },
     {
       "name": "Chip Roy",
-      "distance": 0.025401771591761022
+      "distance": 0.026532432983049265
     }
   ],
   "work_statistics": {

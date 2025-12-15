@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.396,
     "dw_nominate_dim2": -0.024,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9728,
-    "party_unity_bp_pct": 0.3401,
+    "party_unity_pct": 0.9733,
+    "party_unity_bp_pct": 0.34,
     "maverick_votes": 8,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 102,
     "maverick_bipartisan": 7,
-    "total_votes": 294,
-    "missed_votes": 10,
+    "total_votes": 300,
+    "missed_votes": 11,
     "maverick_votes_all": 2343,
-    "bipartisan_votes_all": 873,
+    "bipartisan_votes_all": 875,
     "maverick_bipartisan_all": 37,
-    "total_votes_all": 6943,
-    "missed_votes_all": 275,
+    "total_votes_all": 6949,
+    "missed_votes_all": 276,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 53,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
     "party_unity_percentile_party": 50,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 31
+    "reliability_percentile_party": 28
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,8 +96,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.451,
-      "dim2": 0.297
+      "dim1": -0.438,
+      "dim2": 0.292
     }
   ],
   "lobbying_contributions": [
@@ -315,6 +315,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-11-19",
       "chamber": "house",
       "question": "On Motion to Refer",
@@ -499,27 +520,6 @@
         "code": "HJRES20",
         "type": null,
         "number": "HJRES20",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-11",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bill (H.R. 77) the Midnight Rules Relief Act",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 210,
-      "nay": 184,
-      "present": 0,
-      "bill": {
-        "code": "HRES122",
-        "type": null,
-        "number": "HRES122",
         "congress": 119,
         "title": ""
       }
@@ -2513,44 +2513,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Robert B. Aderholt",
-      "distance": 0.001104536101718715
-    },
-    {
-      "name": "Seth Moulton",
-      "distance": 0.0012041594578792536
-    },
-    {
-      "name": "Dale Strong",
-      "distance": 0.0012649110640673704
-    },
-    {
-      "name": "Donald W. Norcross",
-      "distance": 0.0022090722034374855
-    },
-    {
-      "name": "Jonathan Luther Jackson",
-      "distance": 0.0023259406699225934
-    },
-    {
-      "name": "Raul Ruiz",
-      "distance": 0.0030999999999999917
-    },
-    {
       "name": "Ann Wagner",
-      "distance": 0.003313608305156145
-    },
-    {
-      "name": "Mike Rogers",
-      "distance": 0.003400000000000014
+      "distance": 0.002137755832643178
     },
     {
       "name": "Debbie Wasserman Schultz",
-      "distance": 0.0036000000000000476
+      "distance": 0.002137755832643178
+    },
+    {
+      "name": "Seth Moulton",
+      "distance": 0.0021840329667842124
+    },
+    {
+      "name": "Mike Rogers",
+      "distance": 0.0022022715545545034
+    },
+    {
+      "name": "Robert B. Aderholt",
+      "distance": 0.0023086792761230616
+    },
+    {
+      "name": "Dale Strong",
+      "distance": 0.002353720459187976
     },
     {
       "name": "Clarence Owens",
-      "distance": 0.003720215047547645
+      "distance": 0.0029732137494637247
+    },
+    {
+      "name": "Mike Michael Thompson",
+      "distance": 0.0031048349392519847
+    },
+    {
+      "name": "Raul Ruiz",
+      "distance": 0.003138470965295069
+    },
+    {
+      "name": "Norma J. Torres",
+      "distance": 0.003157530680769368
     }
   ]
 }

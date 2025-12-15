@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.647,
     "dw_nominate_dim2": -0.27,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9301,
-    "party_unity_bp_pct": 0.2727,
-    "maverick_votes": 20,
-    "bipartisan_votes": 78,
-    "maverick_bipartisan": 2,
-    "total_votes": 286,
+    "party_unity_pct": 0.9283,
+    "party_unity_bp_pct": 0.2765,
+    "maverick_votes": 21,
+    "bipartisan_votes": 81,
+    "maverick_bipartisan": 3,
+    "total_votes": 293,
     "missed_votes": 18,
-    "maverick_votes_all": 254,
-    "bipartisan_votes_all": 617,
-    "maverick_bipartisan_all": 14,
-    "total_votes_all": 2397,
+    "maverick_votes_all": 255,
+    "bipartisan_votes_all": 620,
+    "maverick_bipartisan_all": 15,
+    "total_votes_all": 2404,
     "missed_votes_all": 138,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 79,
-    "party_unity_percentile_party": 15,
+    "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 13
+    "reliability_percentile_party": 14
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.569,
-      "dim2": -0.439
+      "dim1": 0.55,
+      "dim2": -0.481
     }
   ],
   "lobbying_contributions": [
@@ -136,6 +136,27 @@
   ],
   "lobbying_sum": 69800.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-02",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bills (H.R. 4312) SCORE Act; (H.R. 1005) CLASS Act; (H.R. 1049) Transparency in Reporting of Adversarial Contributions to Education Act; (H.R. 1069) PROTECT Our Kids Act; (H.R. 2965) Small Business Regulatory Reduction Act; and (H.R. 4305) DUMP Red Tape Act",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 210,
+      "nay": 209,
+      "present": 0,
+      "bill": {
+        "code": "HRES916",
+        "type": null,
+        "number": "HRES916",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -316,27 +337,6 @@
       "member_position": "Yea",
       "yea": 30,
       "nay": 400,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -2318,43 +2318,43 @@
   "vote_record_similar": [
     {
       "name": "Jeff George Crank",
-      "distance": 0.0025179356624028945
-    },
-    {
-      "name": "Tom McClintock",
-      "distance": 0.003395585369269959
-    },
-    {
-      "name": "Anna Paulina Luna",
-      "distance": 0.0039293765408777255
+      "distance": 0.005544366510251654
     },
     {
       "name": "Russell William Fry",
-      "distance": 0.005954829972383775
+      "distance": 0.007256031973468673
     },
     {
-      "name": "Victoria Spartz",
-      "distance": 0.006303173803727744
-    },
-    {
-      "name": "Russ Fulcher",
-      "distance": 0.007130918594402764
+      "name": "Tom McClintock",
+      "distance": 0.0072801098892805215
     },
     {
       "name": "Jimmy Theo Patronis",
-      "distance": 0.009712878049270447
+      "distance": 0.0074404300950952455
+    },
+    {
+      "name": "Anna Paulina Luna",
+      "distance": 0.007532595834106603
+    },
+    {
+      "name": "Victoria Spartz",
+      "distance": 0.008285529554590953
+    },
+    {
+      "name": "Russ Fulcher",
+      "distance": 0.011543396380615249
     },
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.010568348972285074
+      "distance": 0.013793114224133672
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.010568348972285074
+      "distance": 0.013793114224133672
     },
     {
-      "name": "Brad Knott",
-      "distance": 0.013213629327327133
+      "name": "Cory Mills",
+      "distance": 0.013839797686382476
     }
   ]
 }

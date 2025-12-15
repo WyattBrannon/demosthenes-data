@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.441,
     "dw_nominate_dim2": -0.133,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9662,
-    "party_unity_bp_pct": 0.3209,
+    "party_unity_pct": 0.9668,
+    "party_unity_bp_pct": 0.3156,
     "maverick_votes": 10,
     "bipartisan_votes": 95,
     "maverick_bipartisan": 6,
-    "total_votes": 296,
-    "missed_votes": 8,
+    "total_votes": 301,
+    "missed_votes": 10,
     "maverick_votes_all": 194,
     "bipartisan_votes_all": 427,
     "maverick_bipartisan_all": 42,
-    "total_votes_all": 2807,
-    "missed_votes_all": 161,
+    "total_votes_all": 2812,
+    "missed_votes_all": 163,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 31,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 62,
     "party_unity_percentile_party": 36,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 41
+    "reliability_percentile_party": 33
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.428,
-      "dim2": -0.07
+      "dim1": 0.429,
+      "dim2": -0.068
     }
   ],
   "lobbying_contributions": [
@@ -357,6 +357,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Social Security Child Protection Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 386,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR5348",
+        "type": null,
+        "number": "HR5348",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "No New Burma Funds Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 385,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR4423",
+        "type": null,
+        "number": "HR4423",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-08",
       "chamber": "house",
@@ -1117,44 +1159,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Robert Jacobsen Menendez",
-      "distance": 0.004459820624195639
+      "name": "John Edwards James",
+      "distance": 0.0017029386365926091
     },
     {
       "name": "Brian Timothy Jack",
-      "distance": 0.005636488268416757
-    },
-    {
-      "name": "Jason T. Smith",
-      "distance": 0.005700877125495675
+      "distance": 0.002256102834535676
     },
     {
       "name": "Jimmy Gomez",
-      "distance": 0.005852349955359846
-    },
-    {
-      "name": "John Edwards James",
-      "distance": 0.005953990258641698
-    },
-    {
-      "name": "Michael Guest",
-      "distance": 0.00597745765355132
-    },
-    {
-      "name": "Pete Stauber",
-      "distance": 0.006303173803727741
-    },
-    {
-      "name": "Bennie G. Thompson",
-      "distance": 0.007308214556237405
-    },
-    {
-      "name": "Michael T. McCaul",
-      "distance": 0.0075026661927610865
+      "distance": 0.0051662365412358064
     },
     {
       "name": "Derrick Francis Van Orden",
-      "distance": 0.007566372975210848
+      "distance": 0.005544366510251702
+    },
+    {
+      "name": "Brad J. Sherman",
+      "distance": 0.005547071299343455
+    },
+    {
+      "name": "Michael Guest",
+      "distance": 0.006037383539249413
+    },
+    {
+      "name": "Ron Estes",
+      "distance": 0.0063324560795950295
+    },
+    {
+      "name": "Brian J. Mast",
+      "distance": 0.006774215821776018
+    },
+    {
+      "name": "Gary J. Palmer",
+      "distance": 0.006989277502002652
+    },
+    {
+      "name": "Jahana Hayes",
+      "distance": 0.007236711960552249
     }
   ]
 }

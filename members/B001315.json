@@ -45,22 +45,22 @@
     "dw_nominate_dim1": -0.337,
     "dw_nominate_dim2": 0.52,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9375,
-    "party_unity_bp_pct": 0.3816,
-    "maverick_votes": 19,
-    "bipartisan_votes": 116,
-    "maverick_bipartisan": 18,
-    "total_votes": 304,
+    "party_unity_pct": 0.9357,
+    "party_unity_bp_pct": 0.3826,
+    "maverick_votes": 20,
+    "bipartisan_votes": 119,
+    "maverick_bipartisan": 19,
+    "total_votes": 311,
     "missed_votes": 0,
-    "maverick_votes_all": 89,
-    "bipartisan_votes_all": 539,
-    "maverick_bipartisan_all": 85,
-    "total_votes_all": 1534,
+    "maverick_votes_all": 90,
+    "bipartisan_votes_all": 542,
+    "maverick_bipartisan_all": 86,
+    "total_votes_all": 1541,
     "missed_votes_all": 5,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 36,
     "dim2_direction_party": "right",
@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -83,8 +83,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.328,
-      "dim2": 0.379
+      "dim1": -0.327,
+      "dim2": 0.377
     }
   ],
   "lobbying_contributions": [
@@ -131,6 +131,27 @@
   ],
   "lobbying_sum": 360553.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -316,27 +337,6 @@
         "code": "HRES488",
         "type": null,
         "number": "HRES488",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-14",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "LEOSA Reform Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 229,
-      "nay": 193,
-      "present": 0,
-      "bill": {
-        "code": "HR2243",
-        "type": null,
-        "number": "HR2243",
         "congress": 119,
         "title": ""
       }
@@ -1699,43 +1699,43 @@
   "vote_record_similar": [
     {
       "name": "Greg Stanton",
-      "distance": 0.0017492855684535975
+      "distance": 0.0015264337522474067
     },
     {
-      "name": "Angie Craig",
-      "distance": 0.002961418578992192
+      "name": "John W. Mannion",
+      "distance": 0.002531797780234428
     },
     {
-      "name": "Sanford D. Bishop",
-      "distance": 0.00441021541423995
+      "name": "Frank John Mrvan",
+      "distance": 0.004201190307519982
     },
     {
       "name": "Derek Truyen Tran",
       "distance": 0.004504442251822087
     },
     {
-      "name": "Dave Kunnghee Min",
-      "distance": 0.005700877125495661
+      "name": "Sanford D. Bishop",
+      "distance": 0.00774661216274571
     },
     {
-      "name": "John W. Mannion",
-      "distance": 0.006879680225126789
-    },
-    {
-      "name": "Steven A. Horsford",
-      "distance": 0.007854934754662172
-    },
-    {
-      "name": "Frank John Mrvan",
-      "distance": 0.008723531395025788
+      "name": "Angie Craig",
+      "distance": 0.008352245207128467
     },
     {
       "name": "April Lynn McClain Delaney",
-      "distance": 0.009121403400793137
+      "distance": 0.00890224690738247
+    },
+    {
+      "name": "Sharice Davids",
+      "distance": 0.009708243919473862
     },
     {
       "name": "Kim Schrier",
-      "distance": 0.009823441352194262
+      "distance": 0.009730878685915245
+    },
+    {
+      "name": "Dave Kunnghee Min",
+      "distance": 0.010206860437960284
     }
   ]
 }

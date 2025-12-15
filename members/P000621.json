@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.345,
     "dw_nominate_dim2": 0.129,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9671,
-    "party_unity_bp_pct": 0.352,
-    "maverick_votes": 10,
-    "bipartisan_votes": 107,
-    "maverick_bipartisan": 9,
-    "total_votes": 304,
+    "party_unity_pct": 0.9646,
+    "party_unity_bp_pct": 0.3537,
+    "maverick_votes": 11,
+    "bipartisan_votes": 110,
+    "maverick_bipartisan": 10,
+    "total_votes": 311,
     "missed_votes": 0,
-    "maverick_votes_all": 10,
-    "bipartisan_votes_all": 107,
-    "maverick_bipartisan_all": 9,
-    "total_votes_all": 304,
+    "maverick_votes_all": 11,
+    "bipartisan_votes_all": 110,
+    "maverick_bipartisan_all": 10,
+    "total_votes_all": 311,
     "missed_votes_all": 0,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 38,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 41,
+    "party_unity_percentile_party": 40,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.328,
-      "dim2": 0.101
+      "dim1": -0.325,
+      "dim2": 0.103
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 233200.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -311,27 +332,6 @@
         "code": "HJRES25",
         "type": null,
         "number": "HJRES25",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "HALT Fentanyl Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 312,
-      "nay": 108,
-      "present": 0,
-      "bill": {
-        "code": "HR27",
-        "type": null,
-        "number": "HR27",
         "congress": 119,
         "title": ""
       }
@@ -1091,44 +1091,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ed Case",
-      "distance": 0.0010198039027185535
-    },
-    {
       "name": "James A. Himes",
-      "distance": 0.0013601470508735538
+      "distance": 0.0013601470508735334
     },
     {
-      "name": "Mark Allen Alford",
-      "distance": 0.0031622776601683998
-    },
-    {
-      "name": "Young Oak Kim",
-      "distance": 0.003178049716414163
-    },
-    {
-      "name": "Randy L. Feenstra",
-      "distance": 0.003214031735997617
-    },
-    {
-      "name": "Haley M. Stevens",
-      "distance": 0.003214031735997617
+      "name": "Jake Daniel Auchincloss",
+      "distance": 0.0025000000000000356
     },
     {
       "name": "Joe Courtney",
-      "distance": 0.0032572994949804585
+      "distance": 0.003132091952673171
     },
     {
       "name": "Timothy Kennedy",
-      "distance": 0.0032999999999999696
+      "distance": 0.003200000000000036
     },
     {
-      "name": "Cliff Stewart Bentz",
-      "distance": 0.0033837848631378276
+      "name": "Andrew R. Garbarino",
+      "distance": 0.0035777087639996667
+    },
+    {
+      "name": "Haley M. Stevens",
+      "distance": 0.0036055512754640355
+    },
+    {
+      "name": "Suhas Subramanyam",
+      "distance": 0.004104875150354706
+    },
+    {
+      "name": "Ed Case",
+      "distance": 0.004104875150354706
+    },
+    {
+      "name": "Ami Bera",
+      "distance": 0.004579301256742115
     },
     {
       "name": "Mark E. Amodei",
-      "distance": 0.003640054944640325
+      "distance": 0.005414794548272314
     }
   ]
 }

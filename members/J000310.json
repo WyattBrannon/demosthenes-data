@@ -57,31 +57,31 @@
     "dw_nominate_dim1": -0.398,
     "dw_nominate_dim2": 0.475,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9502,
-    "party_unity_bp_pct": 0.3588,
-    "maverick_votes": 15,
-    "bipartisan_votes": 108,
-    "maverick_bipartisan": 14,
-    "total_votes": 301,
+    "party_unity_pct": 0.9481,
+    "party_unity_bp_pct": 0.3604,
+    "maverick_votes": 16,
+    "bipartisan_votes": 111,
+    "maverick_bipartisan": 15,
+    "total_votes": 308,
     "missed_votes": 3,
-    "maverick_votes_all": 15,
-    "bipartisan_votes_all": 108,
-    "maverick_bipartisan_all": 14,
-    "total_votes_all": 301,
+    "maverick_votes_all": 16,
+    "bipartisan_votes_all": 111,
+    "maverick_bipartisan_all": 15,
+    "total_votes_all": 308,
     "missed_votes_all": 3,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 54,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 95,
-    "party_unity_percentile_party": 26,
+    "party_unity_percentile_party": 25,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 68
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -90,8 +90,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.449,
-      "dim2": 0.631
+      "dim1": -0.444,
+      "dim2": 0.623
     }
   ],
   "lobbying_contributions": [
@@ -138,6 +138,27 @@
   ],
   "lobbying_sum": 3215836.72,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -323,27 +344,6 @@
         "code": "HJRES88",
         "type": null,
         "number": "HJRES88",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Pandemic Unemployment Fraud Enforcement Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 295,
-      "nay": 127,
-      "present": 0,
-      "bill": {
-        "code": "HR1156",
-        "type": null,
-        "number": "HR1156",
         "congress": 119,
         "title": ""
       }
@@ -1691,44 +1691,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Darren Soto",
-      "distance": 0.0030413812651491033
-    },
-    {
-      "name": "Nicole Malliotakis",
-      "distance": 0.004666904755831171
-    },
-    {
       "name": "David P. Joyce",
-      "distance": 0.005239274758971908
-    },
-    {
-      "name": "Lucy McBath",
-      "distance": 0.005346026561849495
-    },
-    {
-      "name": "Herbert Clark Hoover Conaway",
-      "distance": 0.006363961030678902
-    },
-    {
-      "name": "Michael R. Turner",
-      "distance": 0.006865857557508721
+      "distance": 0.002701851217221239
     },
     {
       "name": "Ryan Edward Mackenzie",
-      "distance": 0.006894200461257258
+      "distance": 0.0029427877939124363
     },
     {
-      "name": "Janelle S. Bynum",
-      "distance": 0.008319254774317207
+      "name": "Stephen F. Lynch",
+      "distance": 0.005215361924162103
+    },
+    {
+      "name": "Michael R. Turner",
+      "distance": 0.005768882040742301
     },
     {
       "name": "Shomari Coleman Figures",
-      "distance": 0.009108786966440702
+      "distance": 0.006306346010170974
     },
     {
-      "name": "Dina Titus",
-      "distance": 0.009436630754670848
+      "name": "Nicole Malliotakis",
+      "distance": 0.006399999999999961
+    },
+    {
+      "name": "Darren Soto",
+      "distance": 0.006802940540677974
+    },
+    {
+      "name": "Janelle S. Bynum",
+      "distance": 0.008095677859203641
+    },
+    {
+      "name": "Lucy McBath",
+      "distance": 0.008793179174792241
+    },
+    {
+      "name": "Nicolas Joseph LaLota",
+      "distance": 0.009068627239003658
     }
   ]
 }

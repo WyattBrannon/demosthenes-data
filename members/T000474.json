@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.369,
     "dw_nominate_dim2": 0.069,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9766,
-    "party_unity_bp_pct": 0.3411,
-    "maverick_votes": 7,
-    "bipartisan_votes": 102,
-    "maverick_bipartisan": 6,
-    "total_votes": 299,
+    "party_unity_pct": 0.9739,
+    "party_unity_bp_pct": 0.3431,
+    "maverick_votes": 8,
+    "bipartisan_votes": 105,
+    "maverick_bipartisan": 7,
+    "total_votes": 306,
     "missed_votes": 5,
-    "maverick_votes_all": 1660,
-    "bipartisan_votes_all": 893,
-    "maverick_bipartisan_all": 36,
-    "total_votes_all": 5925,
+    "maverick_votes_all": 1661,
+    "bipartisan_votes_all": 896,
+    "maverick_bipartisan_all": 37,
+    "total_votes_all": 5932,
     "missed_votes_all": 91,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 46,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 64,
-    "party_unity_percentile_party": 59,
+    "party_unity_percentile_party": 52,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 52
+    "reliability_percentile_party": 53
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -147,6 +147,27 @@
   ],
   "lobbying_sum": 960337.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "house",
@@ -2554,44 +2575,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Mike Michael Thompson",
+      "distance": 0.00022360679774995434
+    },
+    {
+      "name": "Ann Wagner",
+      "distance": 0.0010198039027185535
+    },
+    {
       "name": "Debbie Wasserman Schultz",
       "distance": 0.0010198039027185535
     },
     {
-      "name": "Chris Raphael Deluzio",
-      "distance": 0.0010770329614268853
+      "name": "Mike Rogers",
+      "distance": 0.0010295630140986836
     },
     {
-      "name": "Jefferson Van Drew",
-      "distance": 0.001104536101718715
+      "name": "Brett Guthrie",
+      "distance": 0.0021999999999999797
+    },
+    {
+      "name": "Jake Ellzey",
+      "distance": 0.0021999999999999797
+    },
+    {
+      "name": "Jeff Stephen Hurd",
+      "distance": 0.0021999999999999797
     },
     {
       "name": "Lisa C. McClain",
-      "distance": 0.0015231546211728108
-    },
-    {
-      "name": "Tim Walberg",
-      "distance": 0.0022022715545545034
-    },
-    {
-      "name": "Sarah Elizabeth McBride",
-      "distance": 0.003306055050963276
-    },
-    {
-      "name": "Adrian Smith",
-      "distance": 0.0033060550509633317
+      "distance": 0.0025179356624028875
     },
     {
       "name": "Valerie Anne Hoyle",
-      "distance": 0.003505709628591623
-    },
-    {
-      "name": "Stephanie I. Bice",
-      "distance": 0.003668787265568775
+      "distance": 0.003001666203960729
     },
     {
       "name": "Lois Frankel",
-      "distance": 0.0039293765408777255
+      "distance": 0.003157530680769368
     }
   ]
 }

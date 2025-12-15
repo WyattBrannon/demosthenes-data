@@ -85,31 +85,31 @@
     "dw_nominate_dim1": 0.122,
     "dw_nominate_dim2": -0.508,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8812,
-    "party_unity_bp_pct": 0.1782,
-    "maverick_votes": 74,
-    "bipartisan_votes": 111,
-    "maverick_bipartisan": 72,
-    "total_votes": 623,
+    "party_unity_pct": 0.8811,
+    "party_unity_bp_pct": 0.1775,
+    "maverick_votes": 75,
+    "bipartisan_votes": 112,
+    "maverick_bipartisan": 73,
+    "total_votes": 631,
     "missed_votes": 0,
-    "maverick_votes_all": 2156,
-    "bipartisan_votes_all": 1254,
-    "maverick_bipartisan_all": 886,
-    "total_votes_all": 9817,
+    "maverick_votes_all": 2157,
+    "bipartisan_votes_all": 1255,
+    "maverick_bipartisan_all": 887,
+    "total_votes_all": 9825,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 0,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
-    "party_unity_percentile_party": 6,
+    "party_unity_percentile_party": 5,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -236,6 +236,27 @@
   ],
   "lobbying_sum": 1097816.25,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 49,
+      "nay": 47,
+      "present": 0,
+      "bill": {
+        "code": "SJRES91",
+        "type": null,
+        "number": "SJRES91",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -424,31 +445,85 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-24",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Emil J. Bove III, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 50,
-      "nay": 48,
-      "present": 0,
-      "bill": {
-        "code": "PN3462",
-        "type": null,
-        "number": "PN3462",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [],
   "key_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Matthew E. Orso, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5203",
+        "type": null,
+        "number": "PN5203",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 629
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 627
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 625
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -623,81 +698,6 @@
         "title": ""
       },
       "rollnumber": 607
-    },
-    {
-      "date": "2025-11-04",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN4001",
-        "type": null,
-        "number": "PN4001",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 604
-    },
-    {
-      "date": "2025-10-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES88",
-        "type": null,
-        "number": "SJRES88",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 600
-    },
-    {
-      "date": "2025-10-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN4662",
-        "type": null,
-        "number": "PN4662",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 596
     }
   ],
   "fec": {
@@ -1901,44 +1901,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mark R. Warner",
-      "distance": 0.005154609587543952
+      "name": "Jacky Rosen",
+      "distance": 0.005437830449729058
     },
     {
-      "name": "Jacky Rosen",
-      "distance": 0.007910120100226056
+      "name": "Mark R. Warner",
+      "distance": 0.007289718787443005
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.017059015211904786
+      "distance": 0.01451654228802441
     },
     {
       "name": "Ralph Norman",
-      "distance": 0.017584083712266566
+      "distance": 0.014601369798755178
     },
     {
       "name": "Catherine Cortez Masto",
-      "distance": 0.02093036072312184
+      "distance": 0.023051681066681422
     },
     {
       "name": "Lauren Opal Boebert",
-      "distance": 0.022748406537601736
+      "distance": 0.026299239532731743
     },
     {
       "name": "Paul A. Gosar",
-      "distance": 0.023925300416086738
+      "distance": 0.02656106172576691
     },
     {
-      "name": "Angus S. King",
-      "distance": 0.024364728605096347
-    },
-    {
-      "name": "Margaret Wood Hassan",
-      "distance": 0.024865437860612842
+      "name": "Mark Kelly",
+      "distance": 0.026580067720004014
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.026181863951980182
+      "distance": 0.027029613389761984
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.028580412873154937
     }
   ]
 }

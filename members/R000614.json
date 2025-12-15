@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.8,
     "dw_nominate_dim2": -0.6,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8305,
-    "party_unity_bp_pct": 0.1797,
-    "maverick_votes": 50,
-    "bipartisan_votes": 53,
-    "maverick_bipartisan": 4,
-    "total_votes": 295,
+    "party_unity_pct": 0.8311,
+    "party_unity_bp_pct": 0.1854,
+    "maverick_votes": 51,
+    "bipartisan_votes": 56,
+    "maverick_bipartisan": 5,
+    "total_votes": 302,
     "missed_votes": 9,
-    "maverick_votes_all": 1343,
-    "bipartisan_votes_all": 352,
-    "maverick_bipartisan_all": 62,
-    "total_votes_all": 3405,
+    "maverick_votes_all": 1344,
+    "bipartisan_votes_all": 355,
+    "maverick_bipartisan_all": 63,
+    "total_votes_all": 3412,
     "missed_votes_all": 82,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 92,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
     "party_unity_percentile_party": 1,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 37
+    "reliability_percentile_party": 38
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -93,8 +93,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.879,
-      "dim2": -0.477
+      "dim1": 0.81,
+      "dim2": -0.586
     }
   ],
   "lobbying_contributions": [
@@ -141,6 +141,27 @@
   ],
   "lobbying_sum": 1147380.39,
   "maverick_votes": [
+    {
+      "date": "2025-12-02",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bills (H.R. 4312) SCORE Act; (H.R. 1005) CLASS Act; (H.R. 1049) Transparency in Reporting of Adversarial Contributions to Education Act; (H.R. 1069) PROTECT Our Kids Act; (H.R. 2965) Small Business Regulatory Reduction Act; and (H.R. 4305) DUMP Red Tape Act",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 210,
+      "nay": 209,
+      "present": 0,
+      "bill": {
+        "code": "HRES916",
+        "type": null,
+        "number": "HRES916",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -326,27 +347,6 @@
         "code": "HR3357",
         "type": null,
         "number": "HR3357",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Coast Guard Authorization Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 399,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR4275",
-        "type": null,
-        "number": "HR4275",
         "congress": 119,
         "title": ""
       }
@@ -6011,43 +6011,43 @@
   "vote_record_similar": [
     {
       "name": "Andy Biggs",
-      "distance": 0.023847222060441303
+      "distance": 0.023977489443225773
     },
     {
       "name": "Eric Wayne Burlison",
-      "distance": 0.025401771591761022
+      "distance": 0.026532432983049265
     },
     {
       "name": "Eli Crane",
-      "distance": 0.02654806960967213
-    },
-    {
-      "name": "Ralph Norman",
-      "distance": 0.034370045097439156
-    },
-    {
-      "name": "Rand Paul",
-      "distance": 0.03932759845197768
-    },
-    {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.0393904810836324
+      "distance": 0.02748381341808307
     },
     {
       "name": "Angus S. King",
-      "distance": 0.039846957223858344
+      "distance": 0.03504982168285598
     },
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.04074469290594789
+      "distance": 0.03587882383802464
     },
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.041314646313383795
+      "distance": 0.03599805550304072
+    },
+    {
+      "name": "Ralph Norman",
+      "distance": 0.03608171281965428
+    },
+    {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.039241304769337126
+    },
+    {
+      "name": "Scott Perry",
+      "distance": 0.041940076299406034
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.04150337335687307
+      "distance": 0.04224133047147076
     }
   ]
 }

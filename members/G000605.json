@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.247,
     "dw_nominate_dim2": 0.844,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8281,
-    "party_unity_bp_pct": 0.4982,
-    "maverick_votes": 49,
-    "bipartisan_votes": 142,
-    "maverick_bipartisan": 48,
-    "total_votes": 285,
+    "party_unity_pct": 0.8219,
+    "party_unity_bp_pct": 0.5034,
+    "maverick_votes": 52,
+    "bipartisan_votes": 147,
+    "maverick_bipartisan": 51,
+    "total_votes": 292,
     "missed_votes": 19,
-    "maverick_votes_all": 49,
-    "bipartisan_votes_all": 142,
-    "maverick_bipartisan_all": 48,
-    "total_votes_all": 285,
+    "maverick_votes_all": 52,
+    "bipartisan_votes_all": 147,
+    "maverick_bipartisan_all": 51,
+    "total_votes_all": 292,
     "missed_votes_all": 19,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 14,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 99,
     "party_unity_percentile_party": 2,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 13
+    "reliability_percentile_party": 14
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.244,
-      "dim2": 0.854
+      "dim1": -0.245,
+      "dim2": 0.853
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,69 @@
   ],
   "lobbying_sum": 341700.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLASS Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 242,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR1005",
+        "type": null,
+        "number": "HR1005",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -269,69 +332,6 @@
         "code": "HRES878",
         "type": null,
         "number": "HRES878",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-12",
-      "chamber": "house",
-      "question": "On Motion to Concur in the Senate Amendment",
-      "vote_result": "Passed",
-      "vote_desc": "Continuing Appropriations and Extensions Act, 2026",
-      "vote_question": "On Motion to Concur in the Senate Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 222,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-11",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Stop Illegal Entry Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 226,
-      "nay": 197,
-      "present": 0,
-      "bill": {
-        "code": "HR3486",
-        "type": null,
-        "number": "HR3486",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-10",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Agreed to",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 221,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HR3838",
-        "type": null,
-        "number": "HR3838",
         "congress": 119,
         "title": ""
       }
@@ -1615,43 +1615,43 @@
   "vote_record_similar": [
     {
       "name": "Vicente Gonzalez",
-      "distance": 0.027598550686584976
+      "distance": 0.028524375540929868
     },
     {
       "name": "Donald Gene Davis",
-      "distance": 0.03032886413962774
+      "distance": 0.029124731758421334
     },
     {
       "name": "Jared Forrest Golden",
-      "distance": 0.040485058972415944
+      "distance": 0.03906430595825295
     },
     {
       "name": "Laura Anne Gillen",
-      "distance": 0.04728234342754176
+      "distance": 0.048633321909982666
     },
     {
       "name": "Marie Gluesenkamp Perez",
-      "distance": 0.05352018310880482
+      "distance": 0.05188024672262073
     },
     {
       "name": "Thomas R. Suozzi",
-      "distance": 0.05886263670614837
-    },
-    {
-      "name": "Brian K. Fitzpatrick",
-      "distance": 0.07549364211640608
+      "distance": 0.06229711068741469
     },
     {
       "name": "Henry Cuellar",
-      "distance": 0.07652326443637907
+      "distance": 0.07425638019725982
+    },
+    {
+      "name": "Brian K. Fitzpatrick",
+      "distance": 0.08807366235146578
     },
     {
       "name": "Susie Lee",
-      "distance": 0.09676409458058292
+      "distance": 0.09965099096346205
     },
     {
       "name": "Kristen Lee McDonald Rivet",
-      "distance": 0.10401658521601255
+      "distance": 0.10217754156369198
     }
   ]
 }

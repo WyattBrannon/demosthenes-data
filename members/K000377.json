@@ -65,31 +65,31 @@
     "dw_nominate_dim1": -0.257,
     "dw_nominate_dim2": 0.293,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9027,
-    "party_unity_bp_pct": 0.1621,
-    "maverick_votes": 57,
-    "bipartisan_votes": 95,
-    "maverick_bipartisan": 56,
-    "total_votes": 586,
+    "party_unity_pct": 0.9024,
+    "party_unity_bp_pct": 0.1616,
+    "maverick_votes": 58,
+    "bipartisan_votes": 96,
+    "maverick_bipartisan": 57,
+    "total_votes": 594,
     "missed_votes": 37,
-    "maverick_votes_all": 105,
-    "bipartisan_votes_all": 439,
-    "maverick_bipartisan_all": 85,
-    "total_votes_all": 2226,
+    "maverick_votes_all": 106,
+    "bipartisan_votes_all": 440,
+    "maverick_bipartisan_all": 86,
+    "total_votes_all": 2234,
     "missed_votes_all": 82,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.27000000000001,
-    "pubp_median_party": 32.004999999999995,
+    "pu_median_party": 97.325,
+    "pubp_median_party": 31.93,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 17,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 84,
-    "party_unity_percentile_party": 7,
+    "party_unity_percentile_party": 8,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 14
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,8 +113,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.295,
-      "dim2": 0.283
+      "dim1": -0.299,
+      "dim2": 0.295
     }
   ],
   "lobbying_contributions": [
@@ -161,6 +161,27 @@
   ],
   "lobbying_sum": 1294703.75,
   "maverick_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 63,
+      "nay": 34,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -346,27 +367,6 @@
         "code": "PN343",
         "type": null,
         "number": "PN343",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Sean Cairncross, of Minnesota, to be National Cyber Director",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 59,
-      "nay": 35,
-      "present": 0,
-      "bill": {
-        "code": "PN242",
-        "type": null,
-        "number": "PN242",
         "congress": 119,
         "title": ""
       }
@@ -586,6 +586,81 @@
   ],
   "key_votes": [
     {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Matthew E. Orso, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5203",
+        "type": null,
+        "number": "PN5203",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 629
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 627
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 625
+    },
+    {
       "date": "2025-11-19",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -759,81 +834,6 @@
         "title": ""
       },
       "rollnumber": 607
-    },
-    {
-      "date": "2025-11-04",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN4001",
-        "type": null,
-        "number": "PN4001",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 604
-    },
-    {
-      "date": "2025-10-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES88",
-        "type": null,
-        "number": "SJRES88",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 600
-    },
-    {
-      "date": "2025-10-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN4662",
-        "type": null,
-        "number": "PN4662",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 596
     }
   ],
   "fec": {
@@ -2032,43 +2032,43 @@
   "vote_record_similar": [
     {
       "name": "Catherine Cortez Masto",
-      "distance": 0.006824954212300551
-    },
-    {
-      "name": "Elissa Slotkin",
-      "distance": 0.010245974819410829
+      "distance": 0.005015974481593784
     },
     {
       "name": "Timothy Kaine",
-      "distance": 0.015981551864571876
+      "distance": 0.008000000000000007
     },
     {
       "name": "Ruben Gallego",
-      "distance": 0.016001249951175682
+      "distance": 0.010829589096544712
     },
     {
-      "name": "Jacky Rosen",
-      "distance": 0.02077137453323682
+      "name": "Elissa Slotkin",
+      "distance": 0.01225887433657758
     },
     {
       "name": "Mark R. Warner",
-      "distance": 0.022835279722394405
+      "distance": 0.020306649157357325
+    },
+    {
+      "name": "Jacky Rosen",
+      "distance": 0.025146172671004993
     },
     {
       "name": "Susan M. Collins",
-      "distance": 0.026860007446015324
-    },
-    {
-      "name": "Lauren Opal Boebert",
-      "distance": 0.04076039744654115
-    },
-    {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.04386992135848883
+      "distance": 0.026580067720004014
     },
     {
       "name": "Ralph Norman",
-      "distance": 0.04394564824871734
+      "distance": 0.040407177580226994
+    },
+    {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.041058129523883595
+    },
+    {
+      "name": "Lauren Opal Boebert",
+      "distance": 0.042240383520986184
     }
   ]
 }

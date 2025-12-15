@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.514,
     "dw_nominate_dim2": -0.176,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9735,
-    "party_unity_bp_pct": 0.3146,
+    "party_unity_pct": 0.9739,
+    "party_unity_bp_pct": 0.317,
     "maverick_votes": 8,
-    "bipartisan_votes": 95,
+    "bipartisan_votes": 97,
     "maverick_bipartisan": 3,
-    "total_votes": 302,
-    "missed_votes": 2,
+    "total_votes": 306,
+    "missed_votes": 5,
     "maverick_votes_all": 8,
-    "bipartisan_votes_all": 95,
+    "bipartisan_votes_all": 97,
     "maverick_bipartisan_all": 3,
-    "total_votes_all": 302,
-    "missed_votes_all": 2,
+    "total_votes_all": 306,
+    "missed_votes_all": 5,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 47,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 53,
+    "party_unity_percentile_party": 51,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 79
+    "reliability_percentile_party": 57
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.527,
-      "dim2": -0.128
+      "dim1": 0.528,
+      "dim2": -0.126
     }
   ],
   "lobbying_contributions": [
@@ -300,6 +300,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLASS Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 242,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR1005",
+        "type": null,
+        "number": "HR1005",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-03-31",
       "chamber": "house",
@@ -1706,44 +1769,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Brian J. Mast",
-      "distance": 0.0009219544457293437
-    },
-    {
-      "name": "Derrick Francis Van Orden",
-      "distance": 0.0021470910553584004
-    },
-    {
       "name": "Jahana Hayes",
-      "distance": 0.003114482300479487
-    },
-    {
-      "name": "Brad Finstad",
-      "distance": 0.0039051248379533307
-    },
-    {
-      "name": "Jimmy Gomez",
-      "distance": 0.003920459156782567
+      "distance": 0.0
     },
     {
       "name": "Bennie G. Thompson",
-      "distance": 0.004210700654285447
+      "distance": 0.0010049875621120888
+    },
+    {
+      "name": "Jimmy Gomez",
+      "distance": 0.002102379604162854
+    },
+    {
+      "name": "Brian J. Mast",
+      "distance": 0.0024331050121192935
     },
     {
       "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.004356604182158407
+      "distance": 0.002570992026436542
     },
     {
-      "name": "Brad J. Sherman",
-      "distance": 0.0052430906915674
+      "name": "Derrick Francis Van Orden",
+      "distance": 0.0026400757564887705
     },
     {
-      "name": "Michelle Louise Helene Fischbach",
-      "distance": 0.005600892785976173
+      "name": "David Schweikert",
+      "distance": 0.003744329045369799
     },
     {
-      "name": "Erin Suzanne Houchin",
-      "distance": 0.005608029957123963
+      "name": "Marilyn Strickland",
+      "distance": 0.00510392006206993
+    },
+    {
+      "name": "Robert Jacobsen Menendez",
+      "distance": 0.0053000000000000165
+    },
+    {
+      "name": "Ro Khanna",
+      "distance": 0.0053009433122794
     }
   ]
 }

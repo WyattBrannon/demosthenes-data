@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.723,
     "dw_nominate_dim2": -0.109,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9664,
-    "party_unity_bp_pct": 0.2919,
+    "party_unity_pct": 0.967,
+    "party_unity_bp_pct": 0.2871,
     "maverick_votes": 10,
     "bipartisan_votes": 87,
     "maverick_bipartisan": 0,
-    "total_votes": 298,
-    "missed_votes": 6,
+    "total_votes": 303,
+    "missed_votes": 8,
     "maverick_votes_all": 575,
     "bipartisan_votes_all": 87,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 4348,
-    "missed_votes_all": 176,
+    "total_votes_all": 4353,
+    "missed_votes_all": 178,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 86,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 58,
     "party_unity_percentile_party": 37,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 51
+    "reliability_percentile_party": 43
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,7 +91,7 @@
     {
       "congress": 119,
       "dim1": 0.615,
-      "dim2": -0.091
+      "dim2": -0.09
     }
   ],
   "lobbying_contributions": [
@@ -350,6 +350,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Social Security Child Protection Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 386,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR5348",
+        "type": null,
+        "number": "HR5348",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "No New Burma Funds Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 385,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR4423",
+        "type": null,
+        "number": "HR4423",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-18",
       "chamber": "house",
@@ -1519,44 +1561,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Craig A. Goldman",
-      "distance": 0.0011401754250991
+      "name": "Troy Bryan Downing",
+      "distance": 0.0024999999999999467
     },
     {
-      "name": "Jes\u00fas G. Garc\u00eda",
-      "distance": 0.0034928498393145832
+      "name": "Ayanna Pressley",
+      "distance": 0.003300000000000025
     },
     {
       "name": "Summer Lynn Lee",
-      "distance": 0.0035383612025908697
-    },
-    {
-      "name": "Lance Gooden",
-      "distance": 0.004808326112068504
-    },
-    {
-      "name": "Troy Bryan Downing",
-      "distance": 0.005507267925205738
-    },
-    {
-      "name": "Tracey Robert Mann",
-      "distance": 0.005799999999999989
+      "distance": 0.0033241540277188803
     },
     {
       "name": "William R. Timmons",
-      "distance": 0.0063245553203367085
-    },
-    {
-      "name": "Beth Ann Van Duyne",
-      "distance": 0.006420280367709813
+      "distance": 0.00373363094051893
     },
     {
       "name": "Kevin R. Hern",
-      "distance": 0.007271863585079136
+      "distance": 0.0037696153649941088
     },
     {
-      "name": "Kevin Mullin",
-      "distance": 0.007589466384404099
+      "name": "Jes\u00fas G. Garc\u00eda",
+      "distance": 0.0046669047558312495
+    },
+    {
+      "name": "Craig A. Goldman",
+      "distance": 0.00555787729263611
+    },
+    {
+      "name": "Brittany Louise Pettersen",
+      "distance": 0.0073348483283568865
+    },
+    {
+      "name": "Lance Gooden",
+      "distance": 0.00873212459828647
+    },
+    {
+      "name": "Gregorio Eduardo Casar",
+      "distance": 0.008832326986700664
     }
   ]
 }

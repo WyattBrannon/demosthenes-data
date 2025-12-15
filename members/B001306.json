@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.46,
     "dw_nominate_dim2": 0.194,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9736,
-    "party_unity_bp_pct": 0.33,
+    "party_unity_pct": 0.9739,
+    "party_unity_bp_pct": 0.3322,
     "maverick_votes": 8,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 102,
     "maverick_bipartisan": 5,
-    "total_votes": 303,
-    "missed_votes": 1,
+    "total_votes": 307,
+    "missed_votes": 4,
     "maverick_votes_all": 693,
-    "bipartisan_votes_all": 922,
+    "bipartisan_votes_all": 924,
     "maverick_bipartisan_all": 63,
-    "total_votes_all": 3588,
-    "missed_votes_all": 15,
+    "total_votes_all": 3592,
+    "missed_votes_all": 18,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 36,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 54,
+    "party_unity_percentile_party": 51,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 86
+    "reliability_percentile_party": 64
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -308,6 +308,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Small Business Regulatory Reduction Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 223,
+      "nay": 190,
+      "present": 0,
+      "bill": {
+        "code": "HR2965",
+        "type": null,
+        "number": "HR2965",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "DUMP Red Tape Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 269,
+      "nay": 146,
+      "present": 0,
+      "bill": {
+        "code": "HR4305",
+        "type": null,
+        "number": "HR4305",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "CLASS Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 242,
+      "nay": 176,
+      "present": 0,
+      "bill": {
+        "code": "HR1005",
+        "type": null,
+        "number": "HR1005",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-02-24",
       "chamber": "house",
@@ -2265,44 +2328,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Juan Guadaloupe Ciscomani",
-      "distance": 0.0020591260281974215
-    },
-    {
       "name": "William R. Keating",
-      "distance": 0.0024166091947188965
+      "distance": 0.0013038404810405393
     },
     {
-      "name": "Wesley Jonell-Cleavon Bell",
-      "distance": 0.0030999999999999917
-    },
-    {
-      "name": "Richard Hudson",
-      "distance": 0.003101612483854174
-    },
-    {
-      "name": "David J. Taylor",
-      "distance": 0.0033837848631377045
-    },
-    {
-      "name": "Ted Lieu",
-      "distance": 0.003801315561749624
-    },
-    {
-      "name": "Pete Aguilar",
-      "distance": 0.003801315561749624
-    },
-    {
-      "name": "Troy Anthony Carter",
-      "distance": 0.0044045431091090746
-    },
-    {
-      "name": "Raja Krishnamoorthi",
-      "distance": 0.00452769256906868
+      "name": "Donald W. Norcross",
+      "distance": 0.0019313207915827794
     },
     {
       "name": "Nicholas A. Langworthy",
-      "distance": 0.005614267539047278
+      "distance": 0.0022022715545545034
+    },
+    {
+      "name": "Juan Guadaloupe Ciscomani",
+      "distance": 0.002692582403567203
+    },
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.0032999999999999696
+    },
+    {
+      "name": "Bill Huizenga",
+      "distance": 0.0034828149534536145
+    },
+    {
+      "name": "Ted Lieu",
+      "distance": 0.003544009029333831
+    },
+    {
+      "name": "Pete Aguilar",
+      "distance": 0.003544009029333831
+    },
+    {
+      "name": "Gilbert Ray Cisneros",
+      "distance": 0.004393176527297787
+    },
+    {
+      "name": "Sheila Cherfilus-McCormick",
+      "distance": 0.004527692569068721
     }
   ]
 }

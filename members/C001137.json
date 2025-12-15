@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.745,
     "dw_nominate_dim2": -0.138,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9276,
-    "party_unity_bp_pct": 0.273,
+    "party_unity_pct": 0.929,
+    "party_unity_bp_pct": 0.271,
     "maverick_votes": 22,
-    "bipartisan_votes": 83,
+    "bipartisan_votes": 84,
     "maverick_bipartisan": 3,
-    "total_votes": 304,
-    "missed_votes": 0,
+    "total_votes": 310,
+    "missed_votes": 1,
     "maverick_votes_all": 22,
-    "bipartisan_votes_all": 83,
+    "bipartisan_votes_all": 84,
     "maverick_bipartisan_all": 3,
-    "total_votes_all": 304,
-    "missed_votes_all": 0,
+    "total_votes_all": 310,
+    "missed_votes_all": 1,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 88,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 64,
     "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 86
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.625,
-      "dim2": -0.317
+      "dim1": 0.626,
+      "dim2": -0.315
     }
   ],
   "lobbying_contributions": [
@@ -341,7 +341,29 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-12-01",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "No New Burma Funds Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 385,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR4423",
+        "type": null,
+        "number": "HR4423",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
     {
       "date": "2025-11-18",
@@ -1129,44 +1151,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Tom McClintock",
+      "distance": 0.0023021728866442
+    },
+    {
       "name": "Anna Paulina Luna",
-      "distance": 0.0014764823060233014
+      "distance": 0.002441311123146781
     },
     {
       "name": "Byron Lowell Donalds",
-      "distance": 0.0025179356624028945
-    },
-    {
-      "name": "Tom McClintock",
-      "distance": 0.003981205847478935
-    },
-    {
-      "name": "Russell William Fry",
-      "distance": 0.007655063683601905
+      "distance": 0.005544366510251654
     },
     {
       "name": "Victoria Spartz",
-      "distance": 0.008015609770940709
+      "distance": 0.006649060083951658
     },
     {
       "name": "Russ Fulcher",
-      "distance": 0.009581753492967764
+      "distance": 0.009119758768739446
+    },
+    {
+      "name": "Russell William Fry",
+      "distance": 0.009121951545584907
     },
     {
       "name": "Jimmy Theo Patronis",
-      "distance": 0.009867117106835174
+      "distance": 0.012080562900792265
     },
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.013031116606031895
+      "distance": 0.013290974381135403
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.013031116606031895
+      "distance": 0.013290974381135403
     },
     {
-      "name": "Cory Mills",
-      "distance": 0.014940214188558329
+      "name": "Rashida Tlaib",
+      "distance": 0.01342721117730704
     }
   ]
 }

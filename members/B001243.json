@@ -81,31 +81,31 @@
     "dw_nominate_dim1": 0.632,
     "dw_nominate_dim2": 0.14,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9949,
-    "party_unity_bp_pct": 0.0626,
+    "party_unity_pct": 0.995,
+    "party_unity_bp_pct": 0.0619,
     "maverick_votes": 3,
     "bipartisan_votes": 37,
     "maverick_bipartisan": 0,
-    "total_votes": 591,
-    "missed_votes": 32,
+    "total_votes": 598,
+    "missed_votes": 33,
     "maverick_votes_all": 2916,
     "bipartisan_votes_all": 249,
     "maverick_bipartisan_all": 16,
-    "total_votes_all": 13688,
-    "missed_votes_all": 568,
+    "total_votes_all": 13695,
+    "missed_votes_all": 569,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.33000000000001,
-    "pubp_median_party": 30.380000000000003,
+    "pu_median_party": 97.39,
+    "pubp_median_party": 30.23,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 69,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 69,
-    "party_unity_percentile_party": 91,
+    "party_unity_percentile_party": 92,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 17
+    "reliability_percentile_party": 16
   },
-  "generated_at": "2025-12-08",
+  "generated_at": "2025-12-15",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -282,6 +282,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 49,
+      "nay": 47,
+      "present": 0,
+      "bill": {
+        "code": "SJRES91",
+        "type": null,
+        "number": "SJRES91",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-23",
       "chamber": "senate",
@@ -470,30 +491,84 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-06-11",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of the United Arab Emirates of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 39,
-      "nay": 56,
-      "present": 0,
-      "bill": {
-        "code": "SJRES54",
-        "type": null,
-        "number": "SJRES54",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "key_votes": [
+    {
+      "date": "2025-12-03",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Matthew E. Orso, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 57,
+      "nay": 41,
+      "present": 0,
+      "bill": {
+        "code": "PN5203",
+        "type": null,
+        "number": "PN5203",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 629
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Lindsey Ann Freeman, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 60,
+      "nay": 39,
+      "present": 0,
+      "bill": {
+        "code": "PN5202",
+        "type": null,
+        "number": "PN5202",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 627
+    },
+    {
+      "date": "2025-12-02",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "David A. Bragdon, of North Carolina, to be United States District Judge for the Middle District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "eligible": true,
+      "recorded": true,
+      "maverick_vote": false,
+      "yea": 53,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "PN5201",
+        "type": null,
+        "number": "PN5201",
+        "congress": 119,
+        "title": ""
+      },
+      "rollnumber": 625
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -668,81 +743,6 @@
         "title": ""
       },
       "rollnumber": 607
-    },
-    {
-      "date": "2025-11-04",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Joshua D. Dunlap, of Maine, to be United States Circuit Judge for the First Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 52,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN4001",
-        "type": null,
-        "number": "PN4001",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 604
-    },
-    {
-      "date": "2025-10-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Passed",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "SJRES88",
-        "type": null,
-        "number": "SJRES88",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 600
-    },
-    {
-      "date": "2025-10-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Edmund G. LaCour, Jr., of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "eligible": true,
-      "recorded": true,
-      "maverick_vote": false,
-      "yea": 51,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN4662",
-        "type": null,
-        "number": "PN4662",
-        "congress": 119,
-        "title": ""
-      },
-      "rollnumber": 596
     }
   ],
   "fec": {
@@ -5300,43 +5300,43 @@
   "vote_record_similar": [
     {
       "name": "Katie Elizabeth Britt",
-      "distance": 0.00028284271247460747
+      "distance": 0.00031622776601682943
     },
     {
       "name": "James E. Risch",
-      "distance": 0.0005385164807134426
+      "distance": 0.0005385164807134362
     },
     {
       "name": "Tommy Hawley Tuberville",
-      "distance": 0.0018357559750686243
-    },
-    {
-      "name": "James Lankford",
-      "distance": 0.001910497317454262
+      "distance": 0.0018867962264113565
     },
     {
       "name": "Jim Conley Justice",
-      "distance": 0.0019697715603592438
+      "distance": 0.0019235384061671644
     },
     {
       "name": "Michael D. Crapo",
-      "distance": 0.0021095023109728873
+      "distance": 0.0020099751242241776
+    },
+    {
+      "name": "James Lankford",
+      "distance": 0.0020518284528682857
     },
     {
       "name": "Tim Scott",
-      "distance": 0.0021633307652784133
+      "distance": 0.0021400934559032947
     },
     {
       "name": "Steve Daines",
-      "distance": 0.0027073972741361693
+      "distance": 0.002507987240796891
     },
     {
       "name": "Eric Stephen Schmitt",
-      "distance": 0.0028653097563788614
+      "distance": 0.0028653097563788553
     },
     {
       "name": "Roger Marshall",
-      "distance": 0.002952964612046664
+      "distance": 0.0030413812651490847
     }
   ]
 }
