@@ -4,7 +4,7 @@
     "party": "R",
     "state": "PA",
     "district": "11",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "Joint Economic Committee",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.453,
     "dw_nominate_dim2": 0.136,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9901,
-    "party_unity_bp_pct": 0.33,
+    "party_unity_pct": 0.9906,
+    "party_unity_bp_pct": 0.3219,
     "maverick_votes": 3,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 103,
     "maverick_bipartisan": 2,
-    "total_votes": 303,
-    "missed_votes": 8,
+    "total_votes": 320,
+    "missed_votes": 13,
     "maverick_votes_all": 735,
-    "bipartisan_votes_all": 908,
+    "bipartisan_votes_all": 911,
     "maverick_bipartisan_all": 69,
-    "total_votes_all": 4600,
-    "missed_votes_all": 101,
+    "total_votes_all": 4617,
+    "missed_votes_all": 106,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 35,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 69,
-    "party_unity_percentile_party": 81,
+    "party_unity_percentile_party": 82,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 43
+    "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,8 +98,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.55,
-      "dim2": 0.311
+      "dim1": 0.552,
+      "dim2": 0.323
     }
   ],
   "lobbying_contributions": [
@@ -212,6 +212,111 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Ordering the Previous Question",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bills H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, H.R. 3668, and S. 1071; and for other purposes",
+      "vote_question": "On Ordering the Previous Question",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 216,
+      "nay": 210,
+      "present": 0,
+      "bill": {
+        "code": "HRES936",
+        "type": null,
+        "number": "HRES936",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bills H.R. 3898, H.R. 3383, H.R. 3638, H.R. 3628, H.R. 3668, and S. 1071; and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 215,
+      "nay": 211,
+      "present": 0,
+      "bill": {
+        "code": "HRES936",
+        "type": null,
+        "number": "HRES936",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Motion to Commit",
+      "vote_result": "Failed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Motion to Commit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 209,
+      "nay": 216,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Motion to Discharge",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 222,
+      "nay": 200,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-12-02",
       "chamber": "house",
       "question": "On Ordering the Previous Question",
@@ -312,69 +417,6 @@
         "code": "HRES481",
         "type": null,
         "number": "HRES481",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-10",
-      "chamber": "house",
-      "question": "On Motion to Recommit",
-      "vote_result": "Failed",
-      "vote_desc": "SAVE Act",
-      "vote_question": "On Motion to Recommit",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 211,
-      "nay": 215,
-      "present": 0,
-      "bill": {
-        "code": "HR22",
-        "type": null,
-        "number": "HR22",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-09",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Disappoving the rule submitted by the Bureau of Consumer Financial Protection relating to \u201cDefining Larger Participants of a Market for General-Use Digital Consumer Payment Applications\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 219,
-      "nay": 211,
-      "present": 0,
-      "bill": {
-        "code": "SJRES28",
-        "type": null,
-        "number": "SJRES28",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 182,
-      "nay": 226,
-      "present": 0,
-      "bill": {
-        "code": "HR27",
-        "type": null,
-        "number": "HR27",
         "congress": 119,
         "title": ""
       }
@@ -3730,44 +3772,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Deborah Koff Ross",
-      "distance": 0.0012369316876852695
-    },
-    {
-      "name": "Morgan McGarvey",
-      "distance": 0.002022374841615665
-    },
-    {
-      "name": "Claudia Tenney",
-      "distance": 0.0021095023109728873
+      "name": "Sean Casten",
+      "distance": 0.0027892651361963137
     },
     {
       "name": "Blake David Moore",
-      "distance": 0.003162277660168382
+      "distance": 0.003190611226708812
     },
     {
-      "name": "Suzan K. DelBene",
-      "distance": 0.0032999999999999696
+      "name": "Deborah Koff Ross",
+      "distance": 0.003538361202590832
     },
     {
-      "name": "Rosa L. DeLauro",
-      "distance": 0.003744329045369799
-    },
-    {
-      "name": "Eric A. Crawford",
-      "distance": 0.0038832975677895237
+      "name": "Claudia Tenney",
+      "distance": 0.003712142238654151
     },
     {
       "name": "Gus M. Bilirakis",
-      "distance": 0.004049691346263272
+      "distance": 0.003744329045369799
     },
     {
-      "name": "John H. Rutherford",
-      "distance": 0.00519711458407454
+      "name": "Dan Crenshaw",
+      "distance": 0.004560701700396571
     },
     {
-      "name": "Katherine M. Clark",
-      "distance": 0.006003332407921488
+      "name": "Rosa L. DeLauro",
+      "distance": 0.004580392996239566
+    },
+    {
+      "name": "Ernest Anthony Gonzales",
+      "distance": 0.005140038910358548
+    },
+    {
+      "name": "Eric A. Crawford",
+      "distance": 0.0052009614495783195
+    },
+    {
+      "name": "Ashley Hinson",
+      "distance": 0.0057140178508646965
     }
   ]
 }

@@ -73,31 +73,31 @@
     "dw_nominate_dim1": 0.733,
     "dw_nominate_dim2": 0.177,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9904,
-    "party_unity_bp_pct": 0.0514,
+    "party_unity_pct": 0.9905,
+    "party_unity_bp_pct": 0.0505,
     "maverick_votes": 6,
     "bipartisan_votes": 32,
     "maverick_bipartisan": 0,
-    "total_votes": 622,
-    "missed_votes": 1,
+    "total_votes": 634,
+    "missed_votes": 4,
     "maverick_votes_all": 6,
     "bipartisan_votes_all": 31,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 622,
-    "missed_votes_all": 1,
+    "total_votes_all": 634,
+    "missed_votes_all": 4,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 87,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 74,
-    "party_unity_percentile_party": 84,
+    "party_unity_percentile_party": 81,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 90
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -107,7 +107,7 @@
     {
       "congress": 119,
       "dim1": 0.739,
-      "dim2": 0.215
+      "dim2": 0.213
     }
   ],
   "lobbying_contributions": [
@@ -282,6 +282,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-03",
       "chamber": "senate",
@@ -1533,43 +1596,43 @@
   "vote_record_similar": [
     {
       "name": "Ted Cruz",
-      "distance": 0.002863564212655254
+      "distance": 0.0032649655434629633
     },
     {
       "name": "Ron Johnson",
-      "distance": 0.0035777087639996354
+      "distance": 0.0046486557196677965
     },
     {
       "name": "Bill Francis Hagerty",
-      "distance": 0.0041048751503547564
+      "distance": 0.005200961449578336
     },
     {
       "name": "Rick Scott",
-      "distance": 0.005371219600798249
-    },
-    {
-      "name": "Bernie Moreno",
-      "distance": 0.0059481089431852275
-    },
-    {
-      "name": "Jim Banks",
-      "distance": 0.006596969000988264
-    },
-    {
-      "name": "Jon Allen Husted",
-      "distance": 0.006788225099390874
+      "distance": 0.005889821729050932
     },
     {
       "name": "Cynthia M. Lummis",
-      "distance": 0.006888396039717727
+      "distance": 0.0069289248805280606
+    },
+    {
+      "name": "Bernie Moreno",
+      "distance": 0.007034202158027561
+    },
+    {
+      "name": "Jon Allen Husted",
+      "distance": 0.007605918747922511
+    },
+    {
+      "name": "Jim Banks",
+      "distance": 0.007787810988974994
+    },
+    {
+      "name": "John Neely Kennedy",
+      "distance": 0.009296235797353692
     },
     {
       "name": "Roger Marshall",
-      "distance": 0.008430895563343232
-    },
-    {
-      "name": "Eric Stephen Schmitt",
-      "distance": 0.00861626369141524
+      "distance": 0.009492101980067417
     }
   ]
 }

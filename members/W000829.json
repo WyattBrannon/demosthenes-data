@@ -65,22 +65,22 @@
     "dw_nominate_dim1": 0.456,
     "dw_nominate_dim2": -0.38,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9582,
-    "party_unity_bp_pct": 0.2894,
-    "maverick_votes": 13,
-    "bipartisan_votes": 90,
+    "party_unity_pct": 0.958,
+    "party_unity_bp_pct": 0.2793,
+    "maverick_votes": 14,
+    "bipartisan_votes": 93,
     "maverick_bipartisan": 1,
-    "total_votes": 311,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 15,
-    "bipartisan_votes_all": 118,
+    "maverick_votes_all": 16,
+    "bipartisan_votes_all": 121,
     "maverick_bipartisan_all": 2,
-    "total_votes_all": 371,
+    "total_votes_all": 393,
     "missed_votes_all": 1,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 35,
     "dim2_direction_party": "left",
@@ -89,7 +89,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -103,8 +103,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.53,
-      "dim2": -0.307
+      "dim1": 0.549,
+      "dim2": -0.276
     }
   ],
   "lobbying_contributions": [
@@ -151,6 +151,27 @@
   ],
   "lobbying_sum": 134500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -336,27 +357,6 @@
         "code": "HR4016",
         "type": null,
         "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Promoting Opportunities for Non-Traditional Capital Formation Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 321,
-      "nay": 87,
-      "present": 0,
-      "bill": {
-        "code": "HR3422",
-        "type": null,
-        "number": "HR3422",
         "congress": 119,
         "title": ""
       }
@@ -933,44 +933,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Derek Larkin Schmidt",
+      "distance": 0.0006708203932498879
+    },
+    {
       "name": "James Comer",
-      "distance": 0.0024758836806279905
+      "distance": 0.0018601075237738673
     },
     {
       "name": "Glenn Grothman",
-      "distance": 0.0035440090293338837
-    },
-    {
-      "name": "Morgan Joe Luttrell",
-      "distance": 0.003956008088970503
+      "distance": 0.003036445290137812
     },
     {
       "name": "Brittany Louise Pettersen",
-      "distance": 0.0040311288741492314
+      "distance": 0.0031575306807693788
     },
     {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.004720169488482381
+      "name": "Morgan Joe Luttrell",
+      "distance": 0.004016217125604602
     },
     {
       "name": "Ilhan Omar",
-      "distance": 0.005015974481593826
+      "distance": 0.004588027898781754
+    },
+    {
+      "name": "Jim Jordan",
+      "distance": 0.004588027898781754
     },
     {
       "name": "Summer Lynn Lee",
-      "distance": 0.006399999999999961
+      "distance": 0.006000000000000005
     },
     {
       "name": "Kevin R. Hern",
-      "distance": 0.00646374504447689
+      "distance": 0.007930952023559357
     },
     {
       "name": "Troy Bryan Downing",
-      "distance": 0.0067067130548428494
-    },
-    {
-      "name": "Nancy Ruth Mace",
-      "distance": 0.007000714249274869
+      "distance": 0.008935882720806063
     }
   ]
 }

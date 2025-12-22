@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CO",
     "district": "07",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -33,22 +33,22 @@
     "dw_nominate_dim1": -0.365,
     "dw_nominate_dim2": 0.341,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9598,
-    "party_unity_bp_pct": 0.2857,
-    "maverick_votes": 9,
-    "bipartisan_votes": 64,
-    "maverick_bipartisan": 7,
-    "total_votes": 224,
-    "missed_votes": 87,
-    "maverick_votes_all": 50,
-    "bipartisan_votes_all": 464,
-    "maverick_bipartisan_all": 46,
-    "total_votes_all": 1451,
-    "missed_votes_all": 95,
+    "party_unity_pct": 0.9549,
+    "party_unity_bp_pct": 0.2787,
+    "maverick_votes": 11,
+    "bipartisan_votes": 68,
+    "maverick_bipartisan": 8,
+    "total_votes": 244,
+    "missed_votes": 89,
+    "maverick_votes_all": 52,
+    "bipartisan_votes_all": 468,
+    "maverick_bipartisan_all": 47,
+    "total_votes_all": 1471,
+    "missed_votes_all": 97,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 45,
     "dim2_direction_party": "right",
@@ -57,7 +57,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 1
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -71,8 +71,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.445,
-      "dim2": 0.456
+      "dim1": -0.371,
+      "dim2": 0.174
     }
   ],
   "lobbying_contributions": [
@@ -119,6 +119,48 @@
   ],
   "lobbying_sum": 313100.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -286,30 +328,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-03-11",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \u201cGross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 292,
-      "nay": 132,
-      "present": 0,
-      "bill": {
-        "code": "HJRES25",
-        "type": null,
-        "number": "HJRES25",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -474,48 +537,6 @@
         "code": "HR3424",
         "type": null,
         "number": "HR3424",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-08",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "POST Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 402,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "HR3425",
-        "type": null,
-        "number": "HR3425",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Improving Access to Small Business Information Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 387,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR3351",
-        "type": null,
-        "number": "HR3351",
         "congress": 119,
         "title": ""
       }
@@ -2001,44 +2022,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Morgan Joe Luttrell",
-      "distance": 0.0030000000000000027
+      "name": "Ilhan Omar",
+      "distance": 0.0025059928172283057
     },
     {
-      "name": "Kevin R. Hern",
-      "distance": 0.0037000000000000366
-    },
-    {
-      "name": "James Comer",
-      "distance": 0.003807886552931934
-    },
-    {
-      "name": "Tony Wied",
-      "distance": 0.0040311288741492314
-    },
-    {
-      "name": "Troy Bryan Downing",
-      "distance": 0.004904079934095731
+      "name": "Jim Jordan",
+      "distance": 0.0025059928172283057
     },
     {
       "name": "Derek Larkin Schmidt",
-      "distance": 0.005474486277268361
+      "distance": 0.002657066051117343
     },
     {
-      "name": "Summer Lynn Lee",
-      "distance": 0.006060528029800713
+      "name": "Tony Wied",
+      "distance": 0.0031575306807693788
     },
     {
-      "name": "Marlin A. Stutzman",
-      "distance": 0.0073348483283568865
-    },
-    {
-      "name": "Ayanna Pressley",
-      "distance": 0.007446475676452574
+      "name": "Morgan Joe Luttrell",
+      "distance": 0.0036715119501371588
     },
     {
       "name": "Glenn Grothman",
-      "distance": 0.007561084578286345
+      "distance": 0.004134005321718869
+    },
+    {
+      "name": "James Comer",
+      "distance": 0.00490407993409573
+    },
+    {
+      "name": "Mikie Sherrill",
+      "distance": 0.008060397012554671
+    },
+    {
+      "name": "Abraham Jamal Hamadeh",
+      "distance": 0.008915716460273924
+    },
+    {
+      "name": "Summer Lynn Lee",
+      "distance": 0.009119758768739442
     }
   ]
 }

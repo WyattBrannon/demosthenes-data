@@ -4,7 +4,7 @@
     "party": "R",
     "state": "FL",
     "district": "17",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Ways and Means",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.693,
     "dw_nominate_dim2": -0.341,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8984,
-    "party_unity_bp_pct": 0.2361,
-    "maverick_votes": 31,
-    "bipartisan_votes": 72,
+    "party_unity_pct": 0.9021,
+    "party_unity_bp_pct": 0.2294,
+    "maverick_votes": 32,
+    "bipartisan_votes": 75,
     "maverick_bipartisan": 3,
-    "total_votes": 305,
+    "total_votes": 327,
     "missed_votes": 6,
-    "maverick_votes_all": 1005,
-    "bipartisan_votes_all": 542,
+    "maverick_votes_all": 1006,
+    "bipartisan_votes_all": 545,
     "maverick_bipartisan_all": 19,
-    "total_votes_all": 3292,
+    "total_votes_all": 3314,
     "missed_votes_all": 202,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 82,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 85,
     "party_unity_percentile_party": 8,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 52
+    "reliability_percentile_party": 54
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.72,
-      "dim2": -0.493
+      "dim1": 0.703,
+      "dim2": -0.504
     }
   ],
   "lobbying_contributions": [
@@ -145,6 +145,27 @@
   ],
   "lobbying_sum": 147000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -325,27 +346,6 @@
       "member_position": "Yea",
       "yea": 63,
       "nay": 365,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -5609,43 +5609,43 @@
   "vote_record_similar": [
     {
       "name": "Michael Cloud",
-      "distance": 0.0031064449134017634
+      "distance": 0.0028844410203711663
     },
     {
       "name": "Andrew S. Clyde",
-      "distance": 0.006609841147864297
+      "distance": 0.006072890580275598
     },
     {
       "name": "Andy Harris",
-      "distance": 0.010989540481749
+      "distance": 0.007523961722390682
     },
     {
       "name": "Brandon Gene Gill",
-      "distance": 0.013755726080436494
-    },
-    {
-      "name": "Pat Harrigan",
-      "distance": 0.016836270370839294
+      "distance": 0.014698639392814537
     },
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.01870855419320265
+      "distance": 0.01747226373427328
     },
     {
       "name": "Andrew Ogles",
-      "distance": 0.019990497742677655
+      "distance": 0.018911372240004175
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.020000000000000018
     },
     {
       "name": "Mary E. Miller",
-      "distance": 0.021345959805077853
+      "distance": 0.020030227157973042
     },
     {
-      "name": "Tim Burchett",
-      "distance": 0.02340341855370704
+      "name": "Clay Higgins",
+      "distance": 0.024865236777477037
     },
     {
-      "name": "Keith Alan Self",
-      "distance": 0.02498259394058187
+      "name": "John J. McGuire",
+      "distance": 0.025885324027332582
     }
   ]
 }

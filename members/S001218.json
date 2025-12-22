@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.45,
     "dw_nominate_dim2": -0.195,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.99,
-    "party_unity_bp_pct": 0.3167,
-    "maverick_votes": 3,
-    "bipartisan_votes": 95,
+    "party_unity_pct": 0.9876,
+    "party_unity_bp_pct": 0.3043,
+    "maverick_votes": 4,
+    "bipartisan_votes": 98,
     "maverick_bipartisan": 1,
-    "total_votes": 300,
+    "total_votes": 322,
     "missed_votes": 11,
-    "maverick_votes_all": 33,
-    "bipartisan_votes_all": 819,
+    "maverick_votes_all": 34,
+    "bipartisan_votes_all": 822,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 2338,
+    "total_votes_all": 2360,
     "missed_votes_all": 49,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 72,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 69,
-    "party_unity_percentile_party": 89,
+    "party_unity_percentile_party": 87,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 28
+    "reliability_percentile_party": 31
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -84,8 +84,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.384,
-      "dim2": -0.44
+      "dim1": -0.385,
+      "dim2": -0.466
     }
   ],
   "lobbying_contributions": [
@@ -132,6 +132,27 @@
   ],
   "lobbying_sum": 74526.76,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-24",
       "chamber": "house",
@@ -2466,44 +2487,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Lauren Underwood",
-      "distance": 0.0006708203932499127
-    },
-    {
-      "name": "Jefferson Scott Shreve",
-      "distance": 0.0013152946437966103
-    },
-    {
-      "name": "Alma S. Adams",
-      "distance": 0.001649242250247098
-    },
-    {
       "name": "Valerie Jean Foushee",
-      "distance": 0.0019104973174542351
+      "distance": 0.001513274595042154
     },
     {
-      "name": "Julia Brownley",
-      "distance": 0.0024020824298928755
+      "name": "Julia Letlow",
+      "distance": 0.0018027756377320178
     },
     {
       "name": "Jamie Raskin",
-      "distance": 0.002507987240796891
+      "distance": 0.0027073972741361555
     },
     {
-      "name": "Linda T. S\u00e1nchez",
-      "distance": 0.0027166155414412568
+      "name": "Sara Jacobs",
+      "distance": 0.002785677655436868
     },
     {
-      "name": "Maria Elvira Salazar",
-      "distance": 0.002720294101747087
+      "name": "Andr\u00e9 Carson",
+      "distance": 0.0028017851452244043
     },
     {
       "name": "Judy M. Chu",
+      "distance": 0.0028160255680657695
+    },
+    {
+      "name": "Sam B. Graves",
       "distance": 0.002942787793912446
     },
     {
-      "name": "Diana L. DeGette",
-      "distance": 0.002942787793912446
+      "name": "Luz Maria Rivas",
+      "distance": 0.0030870698080866584
+    },
+    {
+      "name": "Virginia Foxx",
+      "distance": 0.0030870698080866584
+    },
+    {
+      "name": "Shontel M. Brown",
+      "distance": 0.0032802438933713833
     }
   ]
 }

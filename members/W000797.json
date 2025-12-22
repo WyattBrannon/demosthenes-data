@@ -4,7 +4,7 @@
     "party": "D",
     "state": "FL",
     "district": "25",
-    "tenure_years": 20.9,
+    "tenure_years": 21.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.415,
     "dw_nominate_dim2": 0.102,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9737,
-    "party_unity_bp_pct": 0.3421,
-    "maverick_votes": 8,
-    "bipartisan_votes": 104,
-    "maverick_bipartisan": 7,
-    "total_votes": 304,
+    "party_unity_pct": 0.9693,
+    "party_unity_bp_pct": 0.3374,
+    "maverick_votes": 10,
+    "bipartisan_votes": 110,
+    "maverick_bipartisan": 9,
+    "total_votes": 326,
     "missed_votes": 7,
-    "maverick_votes_all": 3870,
-    "bipartisan_votes_all": 918,
-    "maverick_bipartisan_all": 48,
-    "total_votes_all": 12943,
+    "maverick_votes_all": 3872,
+    "bipartisan_votes_all": 924,
+    "maverick_bipartisan_all": 50,
+    "total_votes_all": 12965,
     "missed_votes_all": 606,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 60,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 51,
+    "party_unity_percentile_party": 46,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 44
+    "reliability_percentile_party": 47
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -120,8 +120,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.393,
-      "dim2": 0.188
+      "dim1": -0.374,
+      "dim2": 0.195
     }
   ],
   "lobbying_contributions": [
@@ -168,6 +168,48 @@
   ],
   "lobbying_sum": 179877.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -2207,44 +2249,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ann Wagner",
-      "distance": 0.0
+      "name": "Jefferson Van Drew",
+      "distance": 0.00029999999999996696
     },
     {
-      "name": "Mike Rogers",
-      "distance": 0.0003162277660168031
+      "name": "Randy L. Feenstra",
+      "distance": 0.0010770329614268853
+    },
+    {
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.0021587033144922687
+    },
+    {
+      "name": "Timothy Kennedy",
+      "distance": 0.0029832867780353292
+    },
+    {
+      "name": "Mark Allen Alford",
+      "distance": 0.0030999999999999917
+    },
+    {
+      "name": "Bruce Westerman",
+      "distance": 0.0036013886210737576
+    },
+    {
+      "name": "Jennifer Ann Kiggans",
+      "distance": 0.0036891733491394305
+    },
+    {
+      "name": "Dan Newhouse",
+      "distance": 0.00398497176903429
     },
     {
       "name": "Mike Michael Thompson",
-      "distance": 0.0009848857801796034
+      "distance": 0.0040816663263916605
     },
     {
-      "name": "Norma J. Torres",
-      "distance": 0.0010198039027185535
-    },
-    {
-      "name": "Lois Frankel",
-      "distance": 0.002137755832643178
-    },
-    {
-      "name": "Lisa C. McClain",
-      "distance": 0.0029966648127543578
-    },
-    {
-      "name": "James R. Baird",
-      "distance": 0.003001666203960729
-    },
-    {
-      "name": "Brett Guthrie",
-      "distance": 0.003206243908376259
-    },
-    {
-      "name": "Jake Ellzey",
-      "distance": 0.003206243908376259
-    },
-    {
-      "name": "Jeff Stephen Hurd",
-      "distance": 0.003206243908376259
+      "name": "Young Oak Kim",
+      "distance": 0.004459820624195531
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "OH",
     "district": "09",
-    "tenure_years": 42.9,
+    "tenure_years": 43.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.343,
     "dw_nominate_dim2": 0.132,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9055,
-    "party_unity_bp_pct": 0.4169,
-    "maverick_votes": 29,
-    "bipartisan_votes": 128,
-    "maverick_bipartisan": 29,
-    "total_votes": 307,
+    "party_unity_pct": 0.9088,
+    "party_unity_bp_pct": 0.4043,
+    "maverick_votes": 30,
+    "bipartisan_votes": 133,
+    "maverick_bipartisan": 30,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 6969,
-    "bipartisan_votes_all": 963,
-    "maverick_bipartisan_all": 104,
-    "total_votes_all": 23875,
+    "maverick_votes_all": 6970,
+    "bipartisan_votes_all": 968,
+    "maverick_bipartisan_all": 105,
+    "total_votes_all": 23897,
     "missed_votes_all": 1186,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 37,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 68,
-    "party_unity_percentile_party": 10,
+    "party_unity_percentile_party": 11,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 61
+    "reliability_percentile_party": 64
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -179,8 +179,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.154,
-      "dim2": 0.043
+      "dim1": -0.16,
+      "dim2": 0.026
     }
   ],
   "lobbying_contributions": [
@@ -227,6 +227,27 @@
   ],
   "lobbying_sum": 179285.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -412,27 +433,6 @@
         "code": "HR3838",
         "type": null,
         "number": "HR3838",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-26",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Jeremy and Angel Seay and Sergeant Brandon Mendoza Protect Our Communities from DUIs Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 246,
-      "nay": 160,
-      "present": 0,
-      "bill": {
-        "code": "HR875",
-        "type": null,
-        "number": "HR875",
         "congress": 119,
         "title": ""
       }
@@ -1542,44 +1542,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Greg John Landsman",
-      "distance": 0.00543783044972901
-    },
-    {
-      "name": "Jared Evan Moskowitz",
-      "distance": 0.0072897187874430055
-    },
-    {
       "name": "Patrick Ryan",
-      "distance": 0.008411896337925303
-    },
-    {
-      "name": "George Thomas Whitesides",
-      "distance": 0.008823831367382287
-    },
-    {
-      "name": "Eugene Simon Vindman",
-      "distance": 0.009263368717696565
-    },
-    {
-      "name": "Chris Pappas",
-      "distance": 0.00934772699644145
-    },
-    {
-      "name": "Jim Costa",
-      "distance": 0.010107917688624098
-    },
-    {
-      "name": "Josh Harder",
-      "distance": 0.017360011520733534
-    },
-    {
-      "name": "Kristen Lee McDonald Rivet",
-      "distance": 0.018181309083781592
+      "distance": 0.002435159132377178
     },
     {
       "name": "Josh Paul Riley",
-      "distance": 0.01903076456687961
+      "distance": 0.003324154027718997
+    },
+    {
+      "name": "Chris Pappas",
+      "distance": 0.004518849411078
+    },
+    {
+      "name": "Greg John Landsman",
+      "distance": 0.0059439044406854515
+    },
+    {
+      "name": "Maggie Vivian Goodlander",
+      "distance": 0.006389053137985322
+    },
+    {
+      "name": "Gabriel (Gabe) Vasquez",
+      "distance": 0.008653900854528012
+    },
+    {
+      "name": "George Thomas Whitesides",
+      "distance": 0.012677539193392439
+    },
+    {
+      "name": "Jimmy Panetta",
+      "distance": 0.012822636234409842
+    },
+    {
+      "name": "Josh Harder",
+      "distance": 0.016140012391568894
+    },
+    {
+      "name": "Eric Sorensen",
+      "distance": 0.019350710581268027
     }
   ]
 }

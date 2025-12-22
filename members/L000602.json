@@ -4,7 +4,7 @@
     "party": "D",
     "state": "PA",
     "district": "12",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.414,
     "dw_nominate_dim2": -0.91,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9646,
-    "party_unity_bp_pct": 0.2894,
-    "maverick_votes": 11,
-    "bipartisan_votes": 90,
+    "party_unity_pct": 0.964,
+    "party_unity_bp_pct": 0.2793,
+    "maverick_votes": 12,
+    "bipartisan_votes": 93,
     "maverick_bipartisan": 0,
-    "total_votes": 311,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 103,
-    "bipartisan_votes_all": 380,
+    "maverick_votes_all": 104,
+    "bipartisan_votes_all": 383,
     "maverick_bipartisan_all": 9,
-    "total_votes_all": 1546,
+    "total_votes_all": 1568,
     "missed_votes_all": 0,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 59,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 98,
-    "party_unity_percentile_party": 40,
+    "party_unity_percentile_party": 41,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -79,8 +79,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.585,
-      "dim2": -0.782
+      "dim1": -0.582,
+      "dim2": -0.783
     }
   ],
   "lobbying_contributions": [
@@ -127,6 +127,27 @@
   ],
   "lobbying_sum": 752774.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -312,27 +333,6 @@
         "code": "HR2240",
         "type": null,
         "number": "HR2240",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "MEGOBARI Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 349,
-      "nay": 42,
-      "present": 0,
-      "bill": {
-        "code": "HR36",
-        "type": null,
-        "number": "HR36",
         "congress": 119,
         "title": ""
       }
@@ -1894,44 +1894,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Troy Bryan Downing",
-      "distance": 0.002302172886644236
-    },
-    {
-      "name": "Marlin A. Stutzman",
-      "distance": 0.0033241540277188803
-    },
-    {
       "name": "Kevin R. Hern",
-      "distance": 0.0038600518131237356
+      "distance": 0.002024845673131663
     },
     {
-      "name": "Craig A. Goldman",
-      "distance": 0.004525483399593916
+      "name": "Troy Bryan Downing",
+      "distance": 0.003008321791298284
+    },
+    {
+      "name": "James Comer",
+      "distance": 0.004632493928760135
     },
     {
       "name": "Jes\u00fas G. Garc\u00eda",
-      "distance": 0.005787054518492153
+      "distance": 0.005246903848937949
     },
     {
-      "name": "Brittany Louise Pettersen",
-      "distance": 0.006060528029800713
+      "name": "Marlin A. Stutzman",
+      "distance": 0.005246903848937949
     },
     {
       "name": "Ayanna Pressley",
-      "distance": 0.006092618484691104
+      "distance": 0.005923681287847951
     },
     {
       "name": "Tony Wied",
-      "distance": 0.006399999999999961
+      "distance": 0.006000000000000005
     },
     {
-      "name": "William R. Timmons",
-      "distance": 0.006711929677819916
+      "name": "Derek Larkin Schmidt",
+      "distance": 0.006606814663663512
     },
     {
       "name": "Glenn Grothman",
-      "distance": 0.008143709228600905
+      "distance": 0.007484650960465713
+    },
+    {
+      "name": "Morgan Joe Luttrell",
+      "distance": 0.008229823813423917
     }
   ]
 }

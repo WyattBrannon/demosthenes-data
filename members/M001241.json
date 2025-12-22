@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "47",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "Joint Economic Committee",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.234,
     "dw_nominate_dim2": 0.114,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.929,
-    "party_unity_bp_pct": 0.3903,
-    "maverick_votes": 22,
-    "bipartisan_votes": 121,
-    "maverick_bipartisan": 21,
-    "total_votes": 310,
+    "party_unity_pct": 0.9307,
+    "party_unity_bp_pct": 0.3795,
+    "maverick_votes": 23,
+    "bipartisan_votes": 126,
+    "maverick_bipartisan": 22,
+    "total_votes": 332,
     "missed_votes": 1,
-    "maverick_votes_all": 22,
-    "bipartisan_votes_all": 121,
-    "maverick_bipartisan_all": 21,
-    "total_votes_all": 310,
+    "maverick_votes_all": 23,
+    "bipartisan_votes_all": 126,
+    "maverick_bipartisan_all": 22,
+    "total_votes_all": 332,
     "missed_votes_all": 1,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 9,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 15,
+    "party_unity_percentile_party": 17,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 85
+    "reliability_percentile_party": 87
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.218,
-      "dim2": 0.053
+      "dim1": -0.225,
+      "dim2": 0.062
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 681290.62,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -311,27 +332,6 @@
         "code": "S1582",
         "type": null,
         "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-26",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Special Interest Alien Reporting Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 231,
-      "nay": 182,
-      "present": 0,
-      "bill": {
-        "code": "HR275",
-        "type": null,
-        "number": "HR275",
         "congress": 119,
         "title": ""
       }
@@ -2040,44 +2040,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Kim Schrier",
-      "distance": 0.0032695565448543746
-    },
-    {
-      "name": "Jimmy Panetta",
-      "distance": 0.005208646657242203
-    },
-    {
-      "name": "Eric Sorensen",
-      "distance": 0.005640035460881475
-    },
-    {
-      "name": "Derek Truyen Tran",
-      "distance": 0.007244998274671929
-    },
-    {
-      "name": "Steven A. Horsford",
-      "distance": 0.008095060222135474
-    },
-    {
-      "name": "John W. Mannion",
-      "distance": 0.008168843247363698
-    },
-    {
-      "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.010206860437960284
-    },
-    {
-      "name": "Maggie Vivian Goodlander",
-      "distance": 0.010440306508910622
+      "name": "Sharice Davids",
+      "distance": 0.0
     },
     {
       "name": "Greg Stanton",
-      "distance": 0.011715374513859957
+      "distance": 0.0024738633753705525
     },
     {
       "name": "Frank John Mrvan",
-      "distance": 0.013705838172107463
+      "distance": 0.003661966684720108
+    },
+    {
+      "name": "Derek Truyen Tran",
+      "distance": 0.006708203932499375
+    },
+    {
+      "name": "Nicole (Nikki) Jai Budzinski",
+      "distance": 0.0071028163428319
+    },
+    {
+      "name": "Steven A. Horsford",
+      "distance": 0.007186793443532309
+    },
+    {
+      "name": "John W. Mannion",
+      "distance": 0.0076694197955256265
+    },
+    {
+      "name": "Kim Schrier",
+      "distance": 0.0119364986491014
+    },
+    {
+      "name": "Marc A. Veasey",
+      "distance": 0.012928263611173791
+    },
+    {
+      "name": "Eric Sorensen",
+      "distance": 0.0137360838669542
     }
   ]
 }

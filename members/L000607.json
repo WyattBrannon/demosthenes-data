@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "16",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.379,
     "dw_nominate_dim2": -0.101,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9837,
-    "party_unity_bp_pct": 0.3268,
-    "maverick_votes": 5,
-    "bipartisan_votes": 100,
-    "maverick_bipartisan": 4,
-    "total_votes": 306,
+    "party_unity_pct": 0.9787,
+    "party_unity_bp_pct": 0.3171,
+    "maverick_votes": 7,
+    "bipartisan_votes": 104,
+    "maverick_bipartisan": 5,
+    "total_votes": 328,
     "missed_votes": 5,
-    "maverick_votes_all": 5,
-    "bipartisan_votes_all": 100,
-    "maverick_bipartisan_all": 4,
-    "total_votes_all": 306,
+    "maverick_votes_all": 7,
+    "bipartisan_votes_all": 104,
+    "maverick_bipartisan_all": 5,
+    "total_votes_all": 328,
     "missed_votes_all": 5,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 49,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 56,
-    "party_unity_percentile_party": 73,
+    "party_unity_percentile_party": 68,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 53
+    "reliability_percentile_party": 56
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -70,8 +70,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.349,
-      "dim2": -0.197
+      "dim1": -0.334,
+      "dim2": -0.256
     }
   ],
   "lobbying_contributions": [
@@ -118,6 +118,48 @@
   ],
   "lobbying_sum": 194050.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-17",
       "chamber": "house",
@@ -2550,44 +2592,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Pete A. Sessions",
-      "distance": 0.0012165525060596743
+      "name": "James E. Clyburn",
+      "distance": 0.0
+    },
+    {
+      "name": "Troy Anthony Carter",
+      "distance": 0.00028284271247458785
+    },
+    {
+      "name": "Gabe Amo",
+      "distance": 0.0012369316876853235
+    },
+    {
+      "name": "Roger Williams",
+      "distance": 0.002059126028197373
     },
     {
       "name": "Lori Trahan",
-      "distance": 0.0028460498941515265
-    },
-    {
-      "name": "Jason Crow",
-      "distance": 0.0032015621187164046
-    },
-    {
-      "name": "Rosa L. DeLauro",
-      "distance": 0.003478505426185203
-    },
-    {
-      "name": "Frank J. Pallone",
-      "distance": 0.0036055512754639926
+      "distance": 0.0021095023109728925
     },
     {
       "name": "Steny H. Hoyer",
-      "distance": 0.003765634076752534
+      "distance": 0.0023769728648009095
     },
     {
-      "name": "Katherine M. Clark",
-      "distance": 0.003944616584663169
+      "name": "Frank J. Pallone",
+      "distance": 0.002906888370749739
     },
     {
-      "name": "Tom Emmer",
-      "distance": 0.003944616584663169
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.0030999999999999917
     },
     {
-      "name": "Hakeem S. Jeffries",
-      "distance": 0.003944616584663169
+      "name": "Jason Crow",
+      "distance": 0.0031064449134018037
     },
     {
-      "name": "Blake David Moore",
-      "distance": 0.004049691346263302
+      "name": "Richard Hudson",
+      "distance": 0.003306055050963276
     }
   ]
 }

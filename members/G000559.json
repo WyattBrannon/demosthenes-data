@@ -53,31 +53,31 @@
     "dw_nominate_dim1": -0.314,
     "dw_nominate_dim2": -0.098,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9962,
-    "party_unity_bp_pct": 0.308,
-    "maverick_votes": 1,
-    "bipartisan_votes": 81,
+    "party_unity_pct": 0.9929,
+    "party_unity_bp_pct": 0.2968,
+    "maverick_votes": 2,
+    "bipartisan_votes": 84,
     "maverick_bipartisan": 0,
-    "total_votes": 263,
-    "missed_votes": 48,
-    "maverick_votes_all": 3304,
-    "bipartisan_votes_all": 844,
+    "total_votes": 283,
+    "missed_votes": 50,
+    "maverick_votes_all": 3305,
+    "bipartisan_votes_all": 847,
     "maverick_bipartisan_all": 25,
-    "total_votes_all": 9136,
-    "missed_votes_all": 483,
+    "total_votes_all": 9156,
+    "missed_votes_all": 485,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 30,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 54,
-    "party_unity_percentile_party": 98,
+    "party_unity_percentile_party": 96,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 3
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -126,8 +126,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.392,
-      "dim2": -0.426
+      "dim1": -0.39,
+      "dim2": -0.461
     }
   ],
   "lobbying_contributions": [
@@ -175,6 +175,27 @@
   "lobbying_sum": 56750.0,
   "maverick_votes": [
     {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-06-24",
       "chamber": "house",
       "question": "On Motion to Table",
@@ -197,6 +218,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -361,48 +424,6 @@
         "code": "HCONRES58",
         "type": null,
         "number": "HCONRES58",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-20",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "REFINER Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 230,
-      "nay": 176,
-      "present": 0,
-      "bill": {
-        "code": "HR3109",
-        "type": null,
-        "number": "HR3109",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-20",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Unlocking our Domestic LNG Potential Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 217,
-      "nay": 188,
-      "present": 0,
-      "bill": {
-        "code": "HR1949",
-        "type": null,
-        "number": "HR1949",
         "congress": 119,
         "title": ""
       }
@@ -3148,43 +3169,43 @@
   "vote_record_similar": [
     {
       "name": "Paul Tonko",
-      "distance": 0.003008321791298284
-    },
-    {
-      "name": "Earl L. Carter",
-      "distance": 0.0034132096331752266
-    },
-    {
-      "name": "Betty Louise McCollum",
-      "distance": 0.003748332962798251
+      "distance": 0.0025238858928247915
     },
     {
       "name": "Mary Gay Scanlon",
-      "distance": 0.004177319714841095
+      "distance": 0.002846049894151579
+    },
+    {
+      "name": "Betty Louise McCollum",
+      "distance": 0.003352610922848024
     },
     {
       "name": "John R. Carter",
-      "distance": 0.004327817001676515
+      "distance": 0.0034058772731852603
     },
     {
-      "name": "Madeleine Dean",
-      "distance": 0.004527692569068718
-    },
-    {
-      "name": "Debbie Dingell",
-      "distance": 0.005323532661682498
+      "name": "Earl L. Carter",
+      "distance": 0.004177319714841082
     },
     {
       "name": "Becca A. Balint",
-      "distance": 0.006053098380168631
-    },
-    {
-      "name": "Mark Pocan",
-      "distance": 0.006264183905346326
+      "distance": 0.005217278984298224
     },
     {
       "name": "Mark DeSaulnier",
-      "distance": 0.006280127387243016
+      "distance": 0.005315072906367297
+    },
+    {
+      "name": "Mark Pocan",
+      "distance": 0.005478138369920929
+    },
+    {
+      "name": "Lloyd A. Doggett",
+      "distance": 0.005685947590331793
+    },
+    {
+      "name": "Suzanne Bonamici",
+      "distance": 0.005780138406647381
     }
   ]
 }

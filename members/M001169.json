@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CT",
     "district": null,
-    "tenure_years": 18.9,
+    "tenure_years": 19.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": -0.284,
     "dw_nominate_dim2": -0.248,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9577,
-    "party_unity_bp_pct": 0.0244,
-    "maverick_votes": 26,
+    "party_unity_pct": 0.9569,
+    "party_unity_bp_pct": 0.024,
+    "maverick_votes": 27,
     "bipartisan_votes": 15,
     "maverick_bipartisan": 1,
-    "total_votes": 614,
-    "missed_votes": 17,
-    "maverick_votes_all": 1992,
+    "total_votes": 626,
+    "missed_votes": 20,
+    "maverick_votes_all": 1993,
     "bipartisan_votes_all": 327,
     "maverick_bipartisan_all": 5,
-    "total_votes_all": 9667,
-    "missed_votes_all": 196,
+    "total_votes_all": 9679,
+    "missed_votes_all": 199,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 21,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 76,
-    "party_unity_percentile_party": 32,
+    "party_unity_percentile_party": 35,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 35
+    "reliability_percentile_party": 32
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -151,8 +151,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.512,
-      "dim2": -0.587
+      "dim1": -0.514,
+      "dim2": -0.583
     }
   ],
   "lobbying_contributions": [
@@ -199,6 +199,27 @@
   ],
   "lobbying_sum": 350060.78,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -387,30 +408,72 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-08-01",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Agreed to",
-      "vote_desc": "To improve the bill.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 81,
-      "nay": 15,
-      "present": 0,
-      "bill": {
-        "code": "HR3944",
-        "type": null,
-        "number": "HR3944",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Joint Resolution",
+      "vote_result": "Joint Resolution Passed",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+      "vote_question": "On the Joint Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 49,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HJRES131",
+        "type": null,
+        "number": "HJRES131",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-08-02",
       "chamber": "senate",
@@ -554,69 +617,6 @@
         "code": "PN556",
         "type": null,
         "number": "PN556",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-09",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "William Briggs, of Texas, to be Deputy Administrator of the Small Business Administration",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 51,
-      "nay": 44,
-      "present": 0,
-      "bill": {
-        "code": "PN133",
-        "type": null,
-        "number": "PN133",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-09",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Scott Kupor, of California, to be Director of the Office of Personnel Management for a term of four years",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 49,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN1224",
-        "type": null,
-        "number": "PN1224",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-09",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "William Briggs, of Texas, to be Deputy Administrator of the Small Business Administration",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 49,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN133",
-        "type": null,
-        "number": "PN133",
         "congress": 119,
         "title": ""
       }
@@ -1568,43 +1568,43 @@
   "vote_record_similar": [
     {
       "name": "Jeff Merkley",
-      "distance": 0.003687817782917125
+      "distance": 0.0036069377593743253
     },
     {
       "name": "Elizabeth Warren",
-      "distance": 0.004310452412450432
+      "distance": 0.004031128874149278
     },
     {
       "name": "Bernard Sanders",
-      "distance": 0.006744627491566852
+      "distance": 0.006484597134749374
     },
     {
       "name": "Edward J. Markey",
-      "distance": 0.008006247560499235
+      "distance": 0.007702596964660623
     },
     {
       "name": "Chris Van Hollen",
-      "distance": 0.010499999999999971
+      "distance": 0.01032279032045121
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.01935820239588378
+      "distance": 0.021786234185833957
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.025491174943497584
-    },
-    {
-      "name": "Tina Flint Smith",
-      "distance": 0.026660270066148992
+      "distance": 0.02482136176763877
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.026721714016881493
+      "distance": 0.025998846128241937
+    },
+    {
+      "name": "Tina Flint Smith",
+      "distance": 0.026100000000000022
     },
     {
       "name": "Patty Murray",
-      "distance": 0.02879600666759191
+      "distance": 0.02812561110447202
     }
   ]
 }

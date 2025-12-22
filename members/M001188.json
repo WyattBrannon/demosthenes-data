@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NY",
     "district": "06",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.37,
     "dw_nominate_dim2": -0.206,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.979,
-    "party_unity_bp_pct": 0.2902,
-    "maverick_votes": 6,
-    "bipartisan_votes": 83,
+    "party_unity_pct": 0.9773,
+    "party_unity_bp_pct": 0.2792,
+    "maverick_votes": 7,
+    "bipartisan_votes": 86,
     "maverick_bipartisan": 5,
-    "total_votes": 286,
+    "total_votes": 308,
     "missed_votes": 25,
-    "maverick_votes_all": 2388,
-    "bipartisan_votes_all": 813,
+    "maverick_votes_all": 2389,
+    "bipartisan_votes_all": 816,
     "maverick_bipartisan_all": 19,
-    "total_votes_all": 6936,
+    "total_votes_all": 6958,
     "missed_votes_all": 284,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 47,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 71,
     "party_unity_percentile_party": 64,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 9
+    "reliability_percentile_party": 11
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,8 +96,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.418,
-      "dim2": 0.165
+      "dim1": -0.392,
+      "dim2": -0.005
     }
   ],
   "lobbying_contributions": [
@@ -144,6 +144,27 @@
   ],
   "lobbying_sum": 433496.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -3499,43 +3520,43 @@
   "vote_record_similar": [
     {
       "name": "Pramila Jayapal",
-      "distance": 0.0019416487838947634
+      "distance": 0.002039607805437107
     },
     {
-      "name": "Daniel Webster",
-      "distance": 0.0036999999999999963
+      "name": "William R. Timmons",
+      "distance": 0.0050328918128645875
     },
     {
       "name": "Jared Huffman",
-      "distance": 0.005522680508593612
-    },
-    {
-      "name": "Frederica S. Wilson",
-      "distance": 0.005632051136131555
-    },
-    {
-      "name": "Steve Joseph Scalise",
-      "distance": 0.005941380311005153
-    },
-    {
-      "name": "Kevin Mullin",
-      "distance": 0.006107372593840905
+      "distance": 0.005374011537017758
     },
     {
       "name": "Doug LaMalfa",
-      "distance": 0.007543208866258421
+      "distance": 0.006992138442565374
+    },
+    {
+      "name": "Kweisi Mfume",
+      "distance": 0.007655063683601905
     },
     {
       "name": "Maxine Elizabeth Dexter",
-      "distance": 0.007780102827083981
-    },
-    {
-      "name": "M\u00f3nica De La Cruz",
-      "distance": 0.008000624975587851
+      "distance": 0.007905694150420988
     },
     {
       "name": "Jes\u00fas G. Garc\u00eda",
-      "distance": 0.008702298546935676
+      "distance": 0.008139410298049852
+    },
+    {
+      "name": "Marlin A. Stutzman",
+      "distance": 0.008139410298049852
+    },
+    {
+      "name": "Daniel Webster",
+      "distance": 0.008163332652783474
+    },
+    {
+      "name": "Frederica S. Wilson",
+      "distance": 0.008386298349093083
     }
   ]
 }

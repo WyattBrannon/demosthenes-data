@@ -4,7 +4,7 @@
     "party": "R",
     "state": "AL",
     "district": "01",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Agriculture",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.645,
     "dw_nominate_dim2": -0.249,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9167,
-    "party_unity_bp_pct": 0.2633,
-    "maverick_votes": 25,
-    "bipartisan_votes": 79,
-    "maverick_bipartisan": 3,
-    "total_votes": 300,
+    "party_unity_pct": 0.9193,
+    "party_unity_bp_pct": 0.2609,
+    "maverick_votes": 26,
+    "bipartisan_votes": 84,
+    "maverick_bipartisan": 4,
+    "total_votes": 322,
     "missed_votes": 11,
-    "maverick_votes_all": 251,
-    "bipartisan_votes_all": 652,
-    "maverick_bipartisan_all": 13,
-    "total_votes_all": 2509,
+    "maverick_votes_all": 252,
+    "bipartisan_votes_all": 657,
+    "maverick_bipartisan_all": 14,
+    "total_votes_all": 2531,
     "missed_votes_all": 33,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 76,
     "party_unity_percentile_party": 10,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 28
+    "reliability_percentile_party": 31
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,8 +96,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.739,
-      "dim2": -0.145
+      "dim1": 0.646,
+      "dim2": -0.312
     }
   ],
   "lobbying_contributions": [
@@ -144,6 +144,27 @@
   ],
   "lobbying_sum": 2046919.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-15",
       "chamber": "house",
@@ -329,27 +350,6 @@
         "code": "HR3357",
         "type": null,
         "number": "HR3357",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Great Lakes Mass Marking Program Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 360,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR1917",
-        "type": null,
-        "number": "HR1917",
         "congress": 119,
         "title": ""
       }
@@ -2124,43 +2124,43 @@
   "vote_record_similar": [
     {
       "name": "Warren Davidson",
-      "distance": 0.0046669047558312495
-    },
-    {
-      "name": "Ben Cline",
-      "distance": 0.010346980235798239
-    },
-    {
-      "name": "Mark Everette Harris",
-      "distance": 0.011122050170719402
+      "distance": 0.008839117603018988
     },
     {
       "name": "Anna Paulina Luna",
-      "distance": 0.012300406497348
+      "distance": 0.010282509421342623
     },
     {
-      "name": "Harriet Maxine Hageman",
-      "distance": 0.01245230902282782
-    },
-    {
-      "name": "Mike Allen Collins",
-      "distance": 0.012457929201917989
+      "name": "Ben Cline",
+      "distance": 0.014912075643584974
     },
     {
       "name": "Jeff George Crank",
-      "distance": 0.014511374848717912
+      "distance": 0.014999999999999965
+    },
+    {
+      "name": "Mark Everette Harris",
+      "distance": 0.015730543537970997
+    },
+    {
+      "name": "Byron Lowell Donalds",
+      "distance": 0.015988120589988036
+    },
+    {
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.016240997506310997
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.016349006085998017
     },
     {
       "name": "Tom McClintock",
-      "distance": 0.015575621977950028
+      "distance": 0.01655596569216061
     },
     {
-      "name": "Aaron Paul Bean",
-      "distance": 0.015660459763365855
-    },
-    {
-      "name": "John J. McGuire",
-      "distance": 0.01583824485225558
+      "name": "Victoria Spartz",
+      "distance": 0.01753282635515449
     }
   ]
 }

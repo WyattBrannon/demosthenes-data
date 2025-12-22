@@ -4,7 +4,7 @@
     "party": "R",
     "state": "SC",
     "district": null,
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "Senate Committee on Banking, Housing, and Urban Affairs",
@@ -81,31 +81,31 @@
     "dw_nominate_dim1": 0.629,
     "dw_nominate_dim2": 0.021,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9967,
-    "party_unity_bp_pct": 0.0606,
+    "party_unity_pct": 0.9968,
+    "party_unity_bp_pct": 0.0608,
     "maverick_votes": 2,
-    "bipartisan_votes": 37,
+    "bipartisan_votes": 38,
     "maverick_bipartisan": 1,
-    "total_votes": 611,
-    "missed_votes": 20,
+    "total_votes": 625,
+    "missed_votes": 21,
     "maverick_votes_all": 989,
-    "bipartisan_votes_all": 266,
+    "bipartisan_votes_all": 267,
     "maverick_bipartisan_all": 35,
-    "total_votes_all": 6110,
-    "missed_votes_all": 241,
+    "total_votes_all": 6124,
+    "missed_votes_all": 242,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 69,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 97,
+    "party_unity_percentile_party": 96,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 36
+    "reliability_percentile_party": 34
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -150,7 +150,7 @@
     {
       "congress": 119,
       "dim1": 0.506,
-      "dim2": 0.41
+      "dim2": 0.409
     }
   ],
   "lobbying_contributions": [
@@ -241,6 +241,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-20",
       "chamber": "senate",
@@ -421,27 +442,6 @@
       "member_position": "Not Voting",
       "yea": 76,
       "nay": 19,
-      "present": 0,
-      "bill": {
-        "code": "PN1226",
-        "type": null,
-        "number": "PN1226",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Luke Lindberg, of South Dakota, to be Under Secretary of Agriculture for Trade and Foreign Agricultural Affairs",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 78,
-      "nay": 17,
       "present": 0,
       "bill": {
         "code": "PN1226",
@@ -3533,43 +3533,43 @@
   "vote_record_similar": [
     {
       "name": "Jim Conley Justice",
-      "distance": 0.0003999999999999976
+      "distance": 0.0008000000000000021
     },
     {
       "name": "James E. Risch",
-      "distance": 0.001700000000000051
+      "distance": 0.0016552945357247361
     },
     {
       "name": "Katie Elizabeth Britt",
-      "distance": 0.0018867962264113602
+      "distance": 0.0017492855684536378
     },
     {
       "name": "Marsha W. Blackburn",
-      "distance": 0.0021400934559032947
+      "distance": 0.0020808652046685095
     },
     {
       "name": "James Lankford",
-      "distance": 0.003106444913401805
+      "distance": 0.0030066592756745844
     },
     {
-      "name": "Tommy Hawley Tuberville",
-      "distance": 0.0033136083051562588
+      "name": "Steve Daines",
+      "distance": 0.0032249030993194458
+    },
+    {
+      "name": "Roger Marshall",
+      "distance": 0.0033105890714493717
+    },
+    {
+      "name": "John Cornyn",
+      "distance": 0.003312099032335813
     },
     {
       "name": "Eric Stephen Schmitt",
       "distance": 0.0033241540277189245
     },
     {
-      "name": "Roger Marshall",
-      "distance": 0.0034014702703389814
-    },
-    {
-      "name": "John Cornyn",
-      "distance": 0.0034481879299132984
-    },
-    {
-      "name": "Michael D. Crapo",
-      "distance": 0.003624913792078393
+      "name": "Tommy Hawley Tuberville",
+      "distance": 0.0033734255586865703
     }
   ]
 }

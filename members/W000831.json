@@ -25,31 +25,31 @@
     "dw_nominate_dim1": null,
     "dw_nominate_dim2": null,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9853,
-    "party_unity_bp_pct": 0.2206,
-    "maverick_votes": 1,
-    "bipartisan_votes": 15,
-    "maverick_bipartisan": 1,
-    "total_votes": 68,
-    "missed_votes": 0,
-    "maverick_votes_all": 1,
-    "bipartisan_votes_all": 15,
-    "maverick_bipartisan_all": 1,
-    "total_votes_all": 68,
-    "missed_votes_all": 0,
+    "party_unity_pct": 0.9775,
+    "party_unity_bp_pct": 0.2135,
+    "maverick_votes": 2,
+    "bipartisan_votes": 19,
+    "maverick_bipartisan": 2,
+    "total_votes": 89,
+    "missed_votes": 1,
+    "maverick_votes_all": 2,
+    "bipartisan_votes_all": 19,
+    "maverick_bipartisan_all": 2,
+    "total_votes_all": 89,
+    "missed_votes_all": 1,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "center",
     "dim1_percentile_party": null,
     "dim2_direction_party": "center",
     "dim2_percentile_party": null,
-    "party_unity_percentile_party": 78,
+    "party_unity_percentile_party": 65,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -58,12 +58,33 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.302,
-      "dim2": -0.144
+      "dim1": -0.371,
+      "dim2": 0.09
     }
   ],
   "lobbying_contributions": [],
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -86,7 +107,29 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
     {
       "date": "2025-11-18",

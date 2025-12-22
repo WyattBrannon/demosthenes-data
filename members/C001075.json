@@ -4,7 +4,7 @@
     "party": "R",
     "state": "LA",
     "district": null,
-    "tenure_years": 16.9,
+    "tenure_years": 17.0,
     "committees": [
       {
         "name": "Senate Committee on Energy and Natural Resources",
@@ -73,22 +73,22 @@
     "dw_nominate_dim1": 0.464,
     "dw_nominate_dim2": -0.047,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9882,
-    "party_unity_bp_pct": 0.0609,
+    "party_unity_pct": 0.9884,
+    "party_unity_bp_pct": 0.0612,
     "maverick_votes": 7,
-    "bipartisan_votes": 36,
+    "bipartisan_votes": 37,
     "maverick_bipartisan": 4,
-    "total_votes": 591,
-    "missed_votes": 40,
+    "total_votes": 605,
+    "missed_votes": 41,
     "maverick_votes_all": 1314,
-    "bipartisan_votes_all": 493,
+    "bipartisan_votes_all": 494,
     "maverick_bipartisan_all": 172,
-    "total_votes_all": 8205,
-    "missed_votes_all": 338,
+    "total_votes_all": 8219,
+    "missed_votes_all": 339,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 39,
     "dim2_direction_party": "left",
@@ -97,7 +97,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 11
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -147,7 +147,7 @@
     {
       "congress": 119,
       "dim1": 0.46,
-      "dim2": -0.02
+      "dim2": -0.018
     }
   ],
   "lobbying_contributions": [
@@ -344,6 +344,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-10-27",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -528,27 +549,6 @@
         "code": "PN343",
         "type": null,
         "number": "PN343",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-16",
-      "chamber": "senate",
-      "question": "On the Motion to Proceed",
-      "vote_result": "Motion to Proceed Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Emissions Budget and Allowance Allocations for Indiana Under the Revised Cross-State Air Pollution Rule Update\".",
-      "vote_question": "On the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 47,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "SJRES60",
-        "type": null,
-        "number": "SJRES60",
         "congress": 119,
         "title": ""
       }
@@ -4458,11 +4458,11 @@
   "vote_record_similar": [
     {
       "name": "John R. Curtis",
-      "distance": 0.0017029386365926356
+      "distance": 0.0018027756377319288
     },
     {
       "name": "Ted Budd",
-      "distance": 0.003721558813185687
+      "distance": 0.003605551275463987
     },
     {
       "name": "Joni Ernst",
@@ -4470,31 +4470,31 @@
     },
     {
       "name": "John A. Barrasso",
-      "distance": 0.003820994634908586
+      "distance": 0.0038327535793473855
     },
     {
       "name": "Jim Banks",
-      "distance": 0.004904079934095714
+      "distance": 0.00490407993409571
     },
     {
       "name": "Tommy Hawley Tuberville",
-      "distance": 0.005199999999999982
+      "distance": 0.005108815909778025
     },
     {
       "name": "James Lankford",
-      "distance": 0.0054230987451825705
+      "distance": 0.0054332310828825205
     },
     {
       "name": "Bernie Moreno",
-      "distance": 0.005445181356024806
+      "distance": 0.005515432893255082
     },
     {
       "name": "Eric Stephen Schmitt",
-      "distance": 0.0056044625076808905
+      "distance": 0.005536244214266642
     },
     {
       "name": "Roger Marshall",
-      "distance": 0.005661271941887333
+      "distance": 0.005692099788303149
     }
   ]
 }

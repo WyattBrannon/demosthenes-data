@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MO",
     "district": "01",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Armed Services",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.571,
     "dw_nominate_dim2": 0.688,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9769,
-    "party_unity_bp_pct": 0.3267,
-    "maverick_votes": 7,
-    "bipartisan_votes": 99,
-    "maverick_bipartisan": 5,
-    "total_votes": 303,
+    "party_unity_pct": 0.9723,
+    "party_unity_bp_pct": 0.3231,
+    "maverick_votes": 9,
+    "bipartisan_votes": 105,
+    "maverick_bipartisan": 7,
+    "total_votes": 325,
     "missed_votes": 8,
-    "maverick_votes_all": 7,
-    "bipartisan_votes_all": 99,
-    "maverick_bipartisan_all": 5,
-    "total_votes_all": 303,
+    "maverick_votes_all": 9,
+    "bipartisan_votes_all": 105,
+    "maverick_bipartisan_all": 7,
+    "total_votes_all": 325,
     "missed_votes_all": 8,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 94,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 97,
-    "party_unity_percentile_party": 58,
+    "party_unity_percentile_party": 50,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 39
+    "reliability_percentile_party": 41
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.507,
-      "dim2": 0.466
+      "dim1": -0.52,
+      "dim2": 0.555
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,48 @@
   ],
   "lobbying_sum": 489550.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -1579,44 +1621,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Troy Anthony Carter",
-      "distance": 0.0
+      "name": "Jonathan Luther Jackson",
+      "distance": 0.0011704699910720612
     },
     {
-      "name": "Richard Hudson",
-      "distance": 0.001204159457879263
+      "name": "Christopher H. Smith",
+      "distance": 0.0020099751242241776
     },
     {
-      "name": "Roger Williams",
-      "distance": 0.0016643316977093406
+      "name": "Donald W. Norcross",
+      "distance": 0.0021540659228538117
     },
     {
-      "name": "James E. Clyburn",
-      "distance": 0.0031256999216175427
+      "name": "Nicholas A. Langworthy",
+      "distance": 0.0033837848631377045
     },
     {
-      "name": "Zoe Lofgren",
-      "distance": 0.0032999999999999696
+      "name": "William R. Keating",
+      "distance": 0.0034365680554879386
     },
     {
-      "name": "Vern Buchanan",
-      "distance": 0.0033615472627943517
-    },
-    {
-      "name": "Frank J. Pallone",
-      "distance": 0.004248529157249629
-    },
-    {
-      "name": "Steve Cohen",
-      "distance": 0.004500000000000015
+      "name": "Troy Balderson",
+      "distance": 0.0035171010790137577
     },
     {
       "name": "Ted Lieu",
-      "distance": 0.004517742799230607
+      "distance": 0.003668787265568775
     },
     {
       "name": "Pete Aguilar",
-      "distance": 0.004517742799230607
+      "distance": 0.003668787265568775
+    },
+    {
+      "name": "James R. Baird",
+      "distance": 0.0041048751503547495
+    },
+    {
+      "name": "Rick Larsen",
+      "distance": 0.004632493928760171
     }
   ]
 }

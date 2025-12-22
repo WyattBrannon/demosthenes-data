@@ -4,7 +4,7 @@
     "party": "R",
     "state": "UT",
     "district": "01",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Ways and Means",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": 0.365,
     "dw_nominate_dim2": 0.323,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9871,
-    "party_unity_bp_pct": 0.329,
+    "party_unity_pct": 0.9879,
+    "party_unity_bp_pct": 0.3202,
     "maverick_votes": 4,
-    "bipartisan_votes": 102,
+    "bipartisan_votes": 106,
     "maverick_bipartisan": 3,
-    "total_votes": 310,
-    "missed_votes": 1,
+    "total_votes": 331,
+    "missed_votes": 2,
     "maverick_votes_all": 178,
-    "bipartisan_votes_all": 1020,
+    "bipartisan_votes_all": 1024,
     "maverick_bipartisan_all": 164,
-    "total_votes_all": 2511,
-    "missed_votes_all": 31,
+    "total_votes_all": 2532,
+    "missed_votes_all": 32,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 15,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 85,
     "party_unity_percentile_party": 77,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 86
+    "reliability_percentile_party": 81
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -84,8 +84,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.553,
-      "dim2": 0.426
+      "dim1": 0.555,
+      "dim2": 0.437
     }
   ],
   "lobbying_contributions": [
@@ -218,6 +218,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-23",
       "chamber": "house",
@@ -2803,44 +2824,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Suzan K. DelBene",
-      "distance": 0.0010440306508910464
+      "name": "Sean Casten",
+      "distance": 0.0010000000000000009
     },
     {
       "name": "Rosa L. DeLauro",
-      "distance": 0.001104536101718715
+      "distance": 0.0020000000000000018
     },
     {
       "name": "Lloyd Smucker",
-      "distance": 0.003162277660168382
-    },
-    {
-      "name": "Gus M. Bilirakis",
-      "distance": 0.003224903099319395
-    },
-    {
-      "name": "Pete A. Sessions",
-      "distance": 0.003352610922848024
-    },
-    {
-      "name": "Claudia Tenney",
-      "distance": 0.0033837848631377045
-    },
-    {
-      "name": "Morgan McGarvey",
-      "distance": 0.0034481879299133045
-    },
-    {
-      "name": "Deborah Koff Ross",
-      "distance": 0.003966106403010352
+      "distance": 0.003190611226708812
     },
     {
       "name": "Michael James Baumgartner",
-      "distance": 0.003966106403010352
+      "distance": 0.0032572994949804585
     },
     {
-      "name": "Sam Theodore Liccardo",
-      "distance": 0.004049691346263302
+      "name": "Pete A. Sessions",
+      "distance": 0.0034669871646719314
+    },
+    {
+      "name": "Claudia Tenney",
+      "distance": 0.0036055512754639926
+    },
+    {
+      "name": "Ashley Hinson",
+      "distance": 0.003661966684720108
+    },
+    {
+      "name": "Gus M. Bilirakis",
+      "distance": 0.003820994634908581
+    },
+    {
+      "name": "Morgan McGarvey",
+      "distance": 0.0039012818406261906
+    },
+    {
+      "name": "Deborah Koff Ross",
+      "distance": 0.004101219330881968
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NY",
     "district": "01",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.256,
     "dw_nominate_dim2": 0.1,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9541,
-    "party_unity_bp_pct": 0.3672,
-    "maverick_votes": 14,
-    "bipartisan_votes": 112,
-    "maverick_bipartisan": 14,
-    "total_votes": 305,
+    "party_unity_pct": 0.948,
+    "party_unity_bp_pct": 0.3639,
+    "maverick_votes": 17,
+    "bipartisan_votes": 119,
+    "maverick_bipartisan": 17,
+    "total_votes": 327,
     "missed_votes": 6,
-    "maverick_votes_all": 195,
-    "bipartisan_votes_all": 630,
-    "maverick_bipartisan_all": 185,
-    "total_votes_all": 1519,
+    "maverick_votes_all": 198,
+    "bipartisan_votes_all": 637,
+    "maverick_bipartisan_all": 188,
+    "total_votes_all": 1541,
     "missed_votes_all": 27,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 4,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 25,
+    "party_unity_percentile_party": 22,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 52
+    "reliability_percentile_party": 54
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -87,8 +87,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.244,
-      "dim2": 0.108
+      "dim1": 0.237,
+      "dim2": 0.096
     }
   ],
   "lobbying_contributions": [
@@ -135,6 +135,69 @@
   ],
   "lobbying_sum": 195750.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Motion to Discharge",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 222,
+      "nay": 200,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-18",
       "chamber": "house",
@@ -273,69 +336,6 @@
       "member_position": "Nay",
       "yea": 195,
       "nay": 235,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 143,
-      "nay": 285,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 140,
-      "nay": 286,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 120,
-      "nay": 306,
       "present": 0,
       "bill": {
         "code": "HR4553",
@@ -1049,44 +1049,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Janelle S. Bynum",
-      "distance": 0.00254950975679634
+      "name": "April Lynn McClain Delaney",
+      "distance": 0.0030999999999999917
     },
     {
       "name": "Shomari Coleman Figures",
-      "distance": 0.0033241540277189367
-    },
-    {
-      "name": "David G. Valadao",
-      "distance": 0.00371079506305593
+      "distance": 0.0033837848631377045
     },
     {
       "name": "Michael R. Turner",
-      "distance": 0.003794733192202094
+      "distance": 0.0036400549446402608
     },
     {
       "name": "Mike Levin",
-      "distance": 0.004548626166217609
+      "distance": 0.004548626166217686
     },
     {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.004701063709417266
-    },
-    {
-      "name": "David P. Joyce",
-      "distance": 0.006420280367709789
-    },
-    {
-      "name": "Ryan Edward Mackenzie",
-      "distance": 0.006742403132414997
+      "name": "Emilia Strong Sykes",
+      "distance": 0.005769748694700648
     },
     {
       "name": "Nicole Malliotakis",
-      "distance": 0.006811754546370593
+      "distance": 0.006319810123730016
     },
     {
-      "name": "Stephen F. Lynch",
-      "distance": 0.007244308110509963
+      "name": "Janelle S. Bynum",
+      "distance": 0.006685057965343326
+    },
+    {
+      "name": "David G. Valadao",
+      "distance": 0.006767569726275514
+    },
+    {
+      "name": "J. Luis Correa",
+      "distance": 0.007169379331573973
+    },
+    {
+      "name": "David P. Joyce",
+      "distance": 0.007922752047110916
     }
   ],
   "work_statistics": {

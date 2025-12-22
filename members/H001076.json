@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NH",
     "district": null,
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "Senate Committee on Finance",
@@ -69,31 +69,31 @@
     "dw_nominate_dim1": -0.229,
     "dw_nominate_dim2": 0.039,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8636,
-    "party_unity_bp_pct": 0.2006,
-    "maverick_votes": 85,
-    "bipartisan_votes": 125,
-    "maverick_bipartisan": 85,
-    "total_votes": 623,
+    "party_unity_pct": 0.8652,
+    "party_unity_bp_pct": 0.1991,
+    "maverick_votes": 86,
+    "bipartisan_votes": 127,
+    "maverick_bipartisan": 86,
+    "total_votes": 638,
     "missed_votes": 8,
-    "maverick_votes_all": 705,
-    "bipartisan_votes_all": 480,
-    "maverick_bipartisan_all": 111,
-    "total_votes_all": 3563,
+    "maverick_votes_all": 706,
+    "bipartisan_votes_all": 482,
+    "maverick_bipartisan_all": 112,
+    "total_votes_all": 3578,
     "missed_votes_all": 27,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 8,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 61,
     "party_unity_percentile_party": 4,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 61
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -123,7 +123,7 @@
     {
       "congress": 119,
       "dim1": -0.204,
-      "dim2": 0.033
+      "dim2": 0.036
     }
   ],
   "lobbying_contributions": [
@@ -170,6 +170,27 @@
   ],
   "lobbying_sum": 504148.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -355,27 +376,6 @@
         "code": "HR5371",
         "type": null,
         "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-05",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 57,
-      "nay": 41,
-      "present": 0,
-      "bill": {
-        "code": "PN2537",
-        "type": null,
-        "number": "PN2537",
         "congress": 119,
         "title": ""
       }
@@ -2166,43 +2166,43 @@
   "vote_record_similar": [
     {
       "name": "Angus S. King",
-      "distance": 0.0010295630140987376
-    },
-    {
-      "name": "Josh Chad Brecheen",
-      "distance": 0.006476109943476844
+      "distance": 0.0009219544457292504
     },
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.008523496934944051
+      "distance": 0.007155417527999308
+    },
+    {
+      "name": "Josh Chad Brecheen",
+      "distance": 0.008820430828480039
     },
     {
       "name": "Eli Crane",
-      "distance": 0.00864002314811716
-    },
-    {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.009915644204992483
-    },
-    {
-      "name": "Andy Biggs",
-      "distance": 0.01237618681177688
+      "distance": 0.011810588469674142
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.014981655449248555
+      "distance": 0.012631706139710503
     },
     {
-      "name": "Paul A. Gosar",
-      "distance": 0.019597193676646647
+      "name": "Andy Biggs",
+      "distance": 0.012842507543310943
     },
     {
       "name": "Scott Perry",
-      "distance": 0.019832296891686578
+      "distance": 0.0145
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.01970000000000007
+    },
+    {
+      "name": "Eric Wayne Burlison",
+      "distance": 0.020035218990567587
     },
     {
       "name": "Ralph Norman",
-      "distance": 0.01997448372299018
+      "distance": 0.02137849386650051
     }
   ]
 }

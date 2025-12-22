@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": null,
-    "tenure_years": 24.9,
+    "tenure_years": 25.0,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": -0.353,
     "dw_nominate_dim2": -0.114,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9339,
-    "party_unity_bp_pct": 0.0919,
-    "maverick_votes": 41,
+    "party_unity_pct": 0.9335,
+    "party_unity_bp_pct": 0.0902,
+    "maverick_votes": 42,
     "bipartisan_votes": 57,
     "maverick_bipartisan": 30,
-    "total_votes": 620,
-    "missed_votes": 11,
-    "maverick_votes_all": 4872,
+    "total_votes": 632,
+    "missed_votes": 14,
+    "maverick_votes_all": 4873,
     "bipartisan_votes_all": 474,
     "maverick_bipartisan_all": 31,
-    "total_votes_all": 14689,
-    "missed_votes_all": 218,
+    "total_votes_all": 14701,
+    "missed_votes_all": 221,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 41,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 17,
+    "party_unity_percentile_party": 18,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 51
+    "reliability_percentile_party": 44
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -166,8 +166,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.374,
-      "dim2": -0.053
+      "dim1": -0.376,
+      "dim2": -0.051
     }
   ],
   "lobbying_contributions": [
@@ -214,6 +214,27 @@
   ],
   "lobbying_sum": 66998.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-27",
       "chamber": "senate",
@@ -402,30 +423,72 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-30",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 24,
-      "nay": 73,
-      "present": 0,
-      "bill": {
-        "code": "SJRES34",
-        "type": null,
-        "number": "SJRES34",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Joint Resolution",
+      "vote_result": "Joint Resolution Passed",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+      "vote_question": "On the Joint Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 49,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HJRES131",
+        "type": null,
+        "number": "HJRES131",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "senate",
@@ -569,69 +632,6 @@
         "code": "PN251",
         "type": null,
         "number": "PN251",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Brett Shumate, of Virginia, to be an Assistant Attorney General",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 51,
-      "nay": 41,
-      "present": 0,
-      "bill": {
-        "code": "PN2643",
-        "type": null,
-        "number": "PN2643",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "David Fotouhi, of Virginia, to be Deputy Administrator of the Environmental Protection Agency",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 53,
-      "nay": 43,
-      "present": 0,
-      "bill": {
-        "code": "PN136",
-        "type": null,
-        "number": "PN136",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-13",
-      "chamber": "senate",
-      "question": "On the Motion to Proceed",
-      "vote_result": "Motion to Proceed Agreed to",
-      "vote_desc": "A bill to require the Secretary of Homeland Security to take into custody aliens who have been charged in the United States with theft, and for other purposes.",
-      "vote_question": "On the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 82,
-      "nay": 10,
-      "present": 0,
-      "bill": {
-        "code": "S5",
-        "type": null,
-        "number": "S5",
         "congress": 119,
         "title": ""
       }
@@ -2093,43 +2093,43 @@
   "vote_record_similar": [
     {
       "name": "Andy Kim",
-      "distance": 0.00245153013442632
-    },
-    {
-      "name": "Jon Ossoff",
-      "distance": 0.015784802817900567
+      "distance": 0.0027000000000000357
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.016552945357246898
+      "distance": 0.017046993869888078
     },
     {
-      "name": "Kirsten E. Gillibrand",
-      "distance": 0.019694669329541937
-    },
-    {
-      "name": "John F. Reed",
-      "distance": 0.020502195004437944
+      "name": "Jon Ossoff",
+      "distance": 0.017687566254292863
     },
     {
       "name": "Cory Anthony Booker",
-      "distance": 0.021174749113035567
+      "distance": 0.021323461257497584
     },
     {
-      "name": "Richard J. Durbin",
-      "distance": 0.02307834482799839
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.02146718425877044
+    },
+    {
+      "name": "John F. Reed",
+      "distance": 0.022710790386950428
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.02313871215085238
+      "distance": 0.024001874926763575
+    },
+    {
+      "name": "Richard J. Durbin",
+      "distance": 0.025139013504909054
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.02544680726535261
+      "distance": 0.026130824709526497
     },
     {
-      "name": "Christopher Andrew Coons",
-      "distance": 0.026076809620810604
+      "name": "Martin Heinrich",
+      "distance": 0.027422071402430553
     }
   ]
 }

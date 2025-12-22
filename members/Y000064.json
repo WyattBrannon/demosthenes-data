@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IN",
     "district": null,
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "Senate Committee on Commerce, Science, and Transportation",
@@ -65,31 +65,31 @@
     "dw_nominate_dim1": 0.438,
     "dw_nominate_dim2": -0.023,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9936,
-    "party_unity_bp_pct": 0.0655,
+    "party_unity_pct": 0.9938,
+    "party_unity_bp_pct": 0.0656,
     "maverick_votes": 4,
-    "bipartisan_votes": 41,
+    "bipartisan_votes": 42,
     "maverick_bipartisan": 2,
-    "total_votes": 626,
-    "missed_votes": 5,
+    "total_votes": 640,
+    "missed_votes": 6,
     "maverick_votes_all": 648,
-    "bipartisan_votes_all": 591,
+    "bipartisan_votes_all": 592,
     "maverick_bipartisan_all": 226,
-    "total_votes_all": 7588,
-    "missed_votes_all": 128,
+    "total_votes_all": 7602,
+    "missed_votes_all": 129,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 31,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
-    "party_unity_percentile_party": 90,
+    "party_unity_percentile_party": 89,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 77
+    "reliability_percentile_party": 72
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -267,6 +267,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-08",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Robert P. Chamberlin, of Mississippi, to be United States District Judge for the Northern District of Mississippi",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 52,
+      "nay": 44,
+      "present": 0,
+      "bill": {
+        "code": "PN4661",
+        "type": null,
+        "number": "PN4661",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-09",
       "chamber": "senate",
@@ -2672,43 +2693,43 @@
   "vote_record_similar": [
     {
       "name": "Roger F. Wicker",
-      "distance": 0.0005385164807134838
+      "distance": 0.0004472135954999459
     },
     {
       "name": "Dave Harold McCormick",
-      "distance": 0.0015132745950421026
+      "distance": 0.001403566884761777
     },
     {
       "name": "Cindy Hyde-Smith",
-      "distance": 0.0016763054614239588
+      "distance": 0.0015811388300841383
     },
     {
       "name": "Shelley Moore Capito",
-      "distance": 0.0016763054614239588
-    },
-    {
-      "name": "Steve Daines",
-      "distance": 0.0019416487838947083
-    },
-    {
-      "name": "Michael D. Crapo",
-      "distance": 0.0022627416997969088
+      "distance": 0.0017492855684535426
     },
     {
       "name": "Kevin Cramer",
-      "distance": 0.002267156809750886
+      "distance": 0.002126029162546894
+    },
+    {
+      "name": "Michael D. Crapo",
+      "distance": 0.0021931712199460968
     },
     {
       "name": "Markwayne Mullin",
-      "distance": 0.002469817807045669
+      "distance": 0.002302172886644249
+    },
+    {
+      "name": "Steve Daines",
+      "distance": 0.0024413111231467175
     },
     {
       "name": "Deb Fischer",
-      "distance": 0.0030999999999999917
+      "distance": 0.0029
     },
     {
       "name": "Tim Patrick Sheehy",
-      "distance": 0.0031064449134018055
+      "distance": 0.0030149626863362707
     }
   ]
 }

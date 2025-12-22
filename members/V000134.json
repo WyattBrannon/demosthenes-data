@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "24",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Ways and Means",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.603,
     "dw_nominate_dim2": -0.001,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.971,
-    "party_unity_bp_pct": 0.2968,
-    "maverick_votes": 9,
-    "bipartisan_votes": 92,
+    "party_unity_pct": 0.9699,
+    "party_unity_bp_pct": 0.2861,
+    "maverick_votes": 10,
+    "bipartisan_votes": 95,
     "maverick_bipartisan": 0,
-    "total_votes": 310,
+    "total_votes": 332,
     "missed_votes": 1,
-    "maverick_votes_all": 150,
-    "bipartisan_votes_all": 770,
+    "maverick_votes_all": 151,
+    "bipartisan_votes_all": 773,
     "maverick_bipartisan_all": 18,
-    "total_votes_all": 2527,
+    "total_votes_all": 2549,
     "missed_votes_all": 15,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 65,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 42,
-    "party_unity_percentile_party": 44,
+    "party_unity_percentile_party": 40,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 86
+    "reliability_percentile_party": 88
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,8 +96,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.606,
-      "dim2": -0.067
+      "dim1": 0.61,
+      "dim2": -0.075
     }
   ],
   "lobbying_contributions": [
@@ -144,6 +144,27 @@
   ],
   "lobbying_sum": 350460.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -3583,44 +3604,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Tracey Robert Mann",
-      "distance": 0.0010049875621120888
-    },
-    {
-      "name": "Lance Gooden",
-      "distance": 0.001772004514666953
-    },
-    {
-      "name": "Alexandria Ocasio-Cortez",
-      "distance": 0.0029614185789921805
-    },
-    {
-      "name": "Patrick Edward Fallon",
-      "distance": 0.004101219330881995
+      "name": "Craig A. Goldman",
+      "distance": 0.0008062257748298763
     },
     {
       "name": "Kevin Mullin",
-      "distance": 0.004263801121065653
+      "distance": 0.001746424919657303
     },
     {
-      "name": "Craig A. Goldman",
-      "distance": 0.005280151512977608
+      "name": "Alexandria Ocasio-Cortez",
+      "distance": 0.0027459060435492313
+    },
+    {
+      "name": "Lance Gooden",
+      "distance": 0.002952964612046701
+    },
+    {
+      "name": "Tracey Robert Mann",
+      "distance": 0.003801315561749624
     },
     {
       "name": "Maxine Waters",
-      "distance": 0.005818934610390523
+      "distance": 0.005852349955359815
     },
     {
       "name": "Jes\u00fas G. Garc\u00eda",
-      "distance": 0.006438167441127957
+      "distance": 0.006140032573203499
+    },
+    {
+      "name": "Marlin A. Stutzman",
+      "distance": 0.006140032573203499
     },
     {
       "name": "Nydia M. Vel\u00e1zquez",
-      "distance": 0.006500000000000006
+      "distance": 0.0063134776470658875
     },
     {
       "name": "Randy K. Weber",
-      "distance": 0.006844705983459032
+      "distance": 0.0063976558206893415
     }
   ]
 }

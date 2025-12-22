@@ -4,7 +4,7 @@
     "party": "R",
     "state": "OK",
     "district": "05",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.412,
     "dw_nominate_dim2": 0.326,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9805,
-    "party_unity_bp_pct": 0.3409,
+    "party_unity_pct": 0.9817,
+    "party_unity_bp_pct": 0.3323,
     "maverick_votes": 6,
-    "bipartisan_votes": 105,
+    "bipartisan_votes": 109,
     "maverick_bipartisan": 6,
-    "total_votes": 308,
-    "missed_votes": 3,
+    "total_votes": 328,
+    "missed_votes": 5,
     "maverick_votes_all": 137,
-    "bipartisan_votes_all": 993,
+    "bipartisan_votes_all": 997,
     "maverick_bipartisan_all": 124,
-    "total_votes_all": 2532,
-    "missed_votes_all": 10,
+    "total_votes_all": 2552,
+    "missed_votes_all": 12,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 24,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 86,
-    "party_unity_percentile_party": 63,
+    "party_unity_percentile_party": 64,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 73
+    "reliability_percentile_party": 60
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.427,
-      "dim2": 0.419
+      "dim1": 0.435,
+      "dim2": 0.451
     }
   ],
   "lobbying_contributions": [
@@ -264,6 +264,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-05-19",
       "chamber": "house",
@@ -2223,44 +2265,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Joyce Beatty",
-      "distance": 0.0020518284528682905
-    },
-    {
-      "name": "Laurel Frances Lee",
-      "distance": 0.0022627416997968992
-    },
-    {
-      "name": "Chris Raphael Deluzio",
-      "distance": 0.003001666203960729
-    },
-    {
-      "name": "Gabe Evans",
-      "distance": 0.0032062439083763144
-    },
-    {
-      "name": "Mike Quigley",
-      "distance": 0.0032202484376208465
-    },
-    {
-      "name": "Sarah Kelly Elfreth",
-      "distance": 0.003306055050963276
-    },
-    {
-      "name": "Robert E. Latta",
-      "distance": 0.003306055050963276
-    },
-    {
-      "name": "Salud O. Carbajal",
-      "distance": 0.0033837848631378094
+      "name": "Mike Kelly",
+      "distance": 0.0028000000000000247
     },
     {
       "name": "Tim Walberg",
-      "distance": 0.003478505426185308
+      "distance": 0.003162277660168382
     },
     {
-      "name": "Mike Kelly",
-      "distance": 0.003687817782917098
+      "name": "Lisa C. McClain",
+      "distance": 0.0036000000000000476
+    },
+    {
+      "name": "Mike Quigley",
+      "distance": 0.0043416586692185
+    },
+    {
+      "name": "Joyce Beatty",
+      "distance": 0.004775981574503803
+    },
+    {
+      "name": "Laurel Frances Lee",
+      "distance": 0.004810405388322294
+    },
+    {
+      "name": "John R. Moolenaar",
+      "distance": 0.004825971404805484
+    },
+    {
+      "name": "Gabe Evans",
+      "distance": 0.004825971404805484
+    },
+    {
+      "name": "Sarah Kelly Elfreth",
+      "distance": 0.00500899191454728
+    },
+    {
+      "name": "Robert E. Latta",
+      "distance": 0.00500899191454728
     }
   ]
 }

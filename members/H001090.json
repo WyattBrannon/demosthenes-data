@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "09",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.298,
     "dw_nominate_dim2": 0.47,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9194,
-    "party_unity_bp_pct": 0.4065,
-    "maverick_votes": 25,
-    "bipartisan_votes": 126,
-    "maverick_bipartisan": 25,
-    "total_votes": 310,
+    "party_unity_pct": 0.9217,
+    "party_unity_bp_pct": 0.3946,
+    "maverick_votes": 26,
+    "bipartisan_votes": 131,
+    "maverick_bipartisan": 26,
+    "total_votes": 332,
     "missed_votes": 1,
-    "maverick_votes_all": 150,
-    "bipartisan_votes_all": 989,
-    "maverick_bipartisan_all": 117,
-    "total_votes_all": 3440,
+    "maverick_votes_all": 151,
+    "bipartisan_votes_all": 994,
+    "maverick_bipartisan_all": 118,
+    "total_votes_all": 3462,
     "missed_votes_all": 54,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 27,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 94,
-    "party_unity_percentile_party": 12,
+    "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 85
+    "reliability_percentile_party": 87
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -81,8 +81,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.198,
-      "dim2": 0.124
+      "dim1": -0.221,
+      "dim2": 0.114
     }
   ],
   "lobbying_contributions": [
@@ -129,6 +129,27 @@
   ],
   "lobbying_sum": 105185.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -314,27 +335,6 @@
         "code": "HR3944",
         "type": null,
         "number": "HR3944",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-10",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Protecting Our Nation\u2019s Capital Emergency Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 235,
-      "nay": 178,
-      "present": 0,
-      "bill": {
-        "code": "HR2096",
-        "type": null,
-        "number": "HR2096",
         "congress": 119,
         "title": ""
       }
@@ -2234,44 +2234,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Josh Paul Riley",
-      "distance": 0.00600333240792144
-    },
-    {
-      "name": "Chris Pappas",
-      "distance": 0.008028075734570539
-    },
-    {
-      "name": "Maggie Vivian Goodlander",
-      "distance": 0.008508818954473018
-    },
-    {
-      "name": "Patrick Ryan",
-      "distance": 0.009121951545584945
-    },
-    {
-      "name": "Gabriel (Gabe) Vasquez",
-      "distance": 0.010890362712049524
+      "name": "Jimmy Panetta",
+      "distance": 0.0033286633954185576
     },
     {
       "name": "Eric Sorensen",
-      "distance": 0.013241223508422457
+      "distance": 0.004904079934095706
     },
     {
-      "name": "Jim Costa",
-      "distance": 0.014303146506975289
+      "name": "Kim Schrier",
+      "distance": 0.00564358042380901
     },
     {
-      "name": "Jimmy Panetta",
-      "distance": 0.01479898645178106
+      "name": "Maggie Vivian Goodlander",
+      "distance": 0.010023971268913249
+    },
+    {
+      "name": "Derek Truyen Tran",
+      "distance": 0.0109
+    },
+    {
+      "name": "Greg Stanton",
+      "distance": 0.015931415505221154
     },
     {
       "name": "Marcy Kaptur",
-      "distance": 0.017360011520733534
+      "distance": 0.016140012391568894
     },
     {
-      "name": "George Thomas Whitesides",
-      "distance": 0.017551353224181863
+      "name": "Gabriel (Gabe) Vasquez",
+      "distance": 0.01628895331198416
+    },
+    {
+      "name": "Josh Paul Riley",
+      "distance": 0.0168620876524824
+    },
+    {
+      "name": "Patrick Ryan",
+      "distance": 0.01704142012861605
     }
   ]
 }

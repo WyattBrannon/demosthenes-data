@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "49",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.317,
     "dw_nominate_dim2": 0.162,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9516,
-    "party_unity_bp_pct": 0.371,
-    "maverick_votes": 15,
-    "bipartisan_votes": 115,
-    "maverick_bipartisan": 15,
-    "total_votes": 310,
+    "party_unity_pct": 0.9518,
+    "party_unity_bp_pct": 0.3614,
+    "maverick_votes": 16,
+    "bipartisan_votes": 120,
+    "maverick_bipartisan": 16,
+    "total_votes": 332,
     "missed_votes": 1,
-    "maverick_votes_all": 87,
-    "bipartisan_votes_all": 945,
-    "maverick_bipartisan_all": 67,
-    "total_votes_all": 3492,
+    "maverick_votes_all": 88,
+    "bipartisan_votes_all": 950,
+    "maverick_bipartisan_all": 68,
+    "total_votes_all": 3514,
     "missed_votes_all": 2,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 31,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 28,
+    "party_unity_percentile_party": 29,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 85
+    "reliability_percentile_party": 87
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -81,8 +81,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.281,
-      "dim2": 0.118
+      "dim1": -0.285,
+      "dim2": 0.113
     }
   ],
   "lobbying_contributions": [
@@ -129,6 +129,27 @@
   ],
   "lobbying_sum": 79177.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -314,27 +335,6 @@
         "code": "HJRES25",
         "type": null,
         "number": "HJRES25",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "HALT Fentanyl Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 312,
-      "nay": 108,
-      "present": 0,
-      "bill": {
-        "code": "HR27",
-        "type": null,
-        "number": "HR27",
         "congress": 119,
         "title": ""
       }
@@ -1998,44 +1998,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Janelle S. Bynum",
-      "distance": 0.0032999999999999696
+      "name": "David G. Valadao",
+      "distance": 0.002617250465660529
     },
     {
-      "name": "Don Bacon",
-      "distance": 0.004401136216933092
+      "name": "Janelle S. Bynum",
+      "distance": 0.0030000000000000027
+    },
+    {
+      "name": "Robert P. Bresnahan",
+      "distance": 0.0037483329627982804
     },
     {
       "name": "Nicolas Joseph LaLota",
-      "distance": 0.004548626166217609
+      "distance": 0.004548626166217686
     },
     {
-      "name": "Shomari Coleman Figures",
-      "distance": 0.005035871324805679
-    },
-    {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.006264982043070819
-    },
-    {
-      "name": "David G. Valadao",
-      "distance": 0.0067542579163073135
+      "name": "Nicole Malliotakis",
+      "distance": 0.005032891812864647
     },
     {
       "name": "Michael R. Turner",
-      "distance": 0.007513321502504746
+      "distance": 0.005178802950489616
     },
     {
-      "name": "Michael Vincent Lawler",
-      "distance": 0.007653757247261
+      "name": "Thomas Howard Kean",
+      "distance": 0.0061983868869247135
     },
     {
-      "name": "Darren Soto",
-      "distance": 0.007684399781375237
+      "name": "April Lynn McClain Delaney",
+      "distance": 0.006767569726275462
     },
     {
-      "name": "J. Luis Correa",
-      "distance": 0.00793095202355936
+      "name": "Haley M. Stevens",
+      "distance": 0.006906518659932819
+    },
+    {
+      "name": "David P. Joyce",
+      "distance": 0.006965629906907187
     }
   ]
 }

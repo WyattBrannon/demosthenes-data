@@ -4,7 +4,7 @@
     "party": "D",
     "state": "SC",
     "district": "06",
-    "tenure_years": 32.9,
+    "tenure_years": 33.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.467,
     "dw_nominate_dim2": 0.245,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9773,
-    "party_unity_bp_pct": 0.3236,
+    "party_unity_pct": 0.9787,
+    "party_unity_bp_pct": 0.3171,
     "maverick_votes": 7,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 104,
     "maverick_bipartisan": 3,
-    "total_votes": 309,
-    "missed_votes": 2,
+    "total_votes": 328,
+    "missed_votes": 5,
     "maverick_votes_all": 6690,
-    "bipartisan_votes_all": 858,
+    "bipartisan_votes_all": 862,
     "maverick_bipartisan_all": 16,
-    "total_votes_all": 19818,
-    "missed_votes_all": 729,
+    "total_votes_all": 19837,
+    "missed_votes_all": 732,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 78,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 79,
-    "party_unity_percentile_party": 62,
+    "party_unity_percentile_party": 68,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 76
+    "reliability_percentile_party": 56
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -150,8 +150,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.496,
-      "dim2": 0.213
+      "dim1": -0.509,
+      "dim2": 0.237
     }
   ],
   "lobbying_contributions": [
@@ -347,6 +347,69 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-03-27",
       "chamber": "house",
@@ -2148,44 +2211,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Zoe Lofgren",
-      "distance": 0.0004472135954999087
-    },
-    {
-      "name": "Vern Buchanan",
-      "distance": 0.0013152946437966651
-    },
-    {
-      "name": "Roger Williams",
-      "distance": 0.0021400934559032336
-    },
-    {
-      "name": "Ro Khanna",
-      "distance": 0.00231948270094866
-    },
-    {
-      "name": "Steve Cohen",
-      "distance": 0.002353720459188042
-    },
-    {
-      "name": "Marilyn Strickland",
-      "distance": 0.0024515301344262544
-    },
-    {
-      "name": "Yassamin Ansari",
-      "distance": 0.002906888370749739
-    },
-    {
-      "name": "Wesley Jonell-Cleavon Bell",
-      "distance": 0.0031256999216175427
+      "name": "Sam Theodore Liccardo",
+      "distance": 0.0
     },
     {
       "name": "Troy Anthony Carter",
-      "distance": 0.0031256999216175427
+      "distance": 0.00028284271247458785
     },
     {
-      "name": "Kathy Castor",
-      "distance": 0.0033000000000000806
+      "name": "Gabe Amo",
+      "distance": 0.0012369316876853235
+    },
+    {
+      "name": "Roger Williams",
+      "distance": 0.002059126028197373
+    },
+    {
+      "name": "Lori Trahan",
+      "distance": 0.0021095023109728925
+    },
+    {
+      "name": "Steny H. Hoyer",
+      "distance": 0.0023769728648009095
+    },
+    {
+      "name": "Frank J. Pallone",
+      "distance": 0.002906888370749739
+    },
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.0030999999999999917
+    },
+    {
+      "name": "Jason Crow",
+      "distance": 0.0031064449134018037
+    },
+    {
+      "name": "Richard Hudson",
+      "distance": 0.003306055050963276
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "PA",
     "district": null,
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "Senate Committee on Banking, Housing, and Urban Affairs",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": 0.557,
     "dw_nominate_dim2": 0.606,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9951,
-    "party_unity_bp_pct": 0.0653,
+    "party_unity_pct": 0.9952,
+    "party_unity_bp_pct": 0.0655,
     "maverick_votes": 3,
-    "bipartisan_votes": 40,
+    "bipartisan_votes": 41,
     "maverick_bipartisan": 1,
-    "total_votes": 613,
-    "missed_votes": 18,
+    "total_votes": 626,
+    "missed_votes": 20,
     "maverick_votes_all": 3,
-    "bipartisan_votes_all": 39,
+    "bipartisan_votes_all": 40,
     "maverick_bipartisan_all": 1,
-    "total_votes_all": 613,
-    "missed_votes_all": 18,
+    "total_votes_all": 626,
+    "missed_votes_all": 20,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 56,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 97,
-    "party_unity_percentile_party": 93,
+    "party_unity_percentile_party": 92,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 41
+    "reliability_percentile_party": 34
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -106,8 +106,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.582,
-      "dim2": 0.581
+      "dim1": 0.581,
+      "dim2": 0.577
     }
   ],
   "lobbying_contributions": [
@@ -219,6 +219,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "James D. Maxwell II, of Mississippi, to be United States District Judge for the Northern District of Mississippi",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4665",
+        "type": null,
+        "number": "PN4665",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-08",
       "chamber": "senate",
@@ -383,48 +425,6 @@
         "code": "PN2539",
         "type": null,
         "number": "PN2539",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-18",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Rodney Scott, of Oklahoma, to be Commissioner of U.S. Customs and Border Protection, Department of Homeland Security",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 50,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN1240",
-        "type": null,
-        "number": "PN1240",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-15",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Sean Donahue, of Florida, to be an Assistant Administrator of the Environmental Protection Agency",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 51,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN2511",
-        "type": null,
-        "number": "PN2511",
         "congress": 119,
         "title": ""
       }
@@ -1459,43 +1459,43 @@
   "vote_record_similar": [
     {
       "name": "Cindy Hyde-Smith",
-      "distance": 0.0007071067811865521
+      "distance": 0.0006082762530298234
     },
     {
       "name": "Shelley Moore Capito",
-      "distance": 0.0007071067811865521
-    },
-    {
-      "name": "Steve Daines",
-      "distance": 0.0009055385138137385
-    },
-    {
-      "name": "Michael D. Crapo",
-      "distance": 0.0014035668847618176
+      "distance": 0.0010049875621120888
     },
     {
       "name": "Todd C. Young",
-      "distance": 0.0015132745950421026
+      "distance": 0.001403566884761777
+    },
+    {
+      "name": "Michael D. Crapo",
+      "distance": 0.0015033296378372915
     },
     {
       "name": "Tim Patrick Sheehy",
-      "distance": 0.0016000000000000458
-    },
-    {
-      "name": "John Hoeven",
-      "distance": 0.0017464249196573313
+      "distance": 0.001612451549659756
     },
     {
       "name": "Roger F. Wicker",
-      "distance": 0.0018384776310850582
+      "distance": 0.0016763054614239588
     },
     {
       "name": "Kevin Cramer",
+      "distance": 0.0016999999999999932
+    },
+    {
+      "name": "John Hoeven",
+      "distance": 0.0017117242768624025
+    },
+    {
+      "name": "Steve Daines",
       "distance": 0.001899999999999999
     },
     {
       "name": "Markwayne Mullin",
-      "distance": 0.002308679276123034
+      "distance": 0.0020024984394500797
     }
   ]
 }

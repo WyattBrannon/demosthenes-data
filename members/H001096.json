@@ -4,7 +4,7 @@
     "party": "R",
     "state": "WY",
     "district": null,
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.651,
     "dw_nominate_dim2": -0.376,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9258,
-    "party_unity_bp_pct": 0.2548,
-    "maverick_votes": 23,
-    "bipartisan_votes": 79,
+    "party_unity_pct": 0.9277,
+    "party_unity_bp_pct": 0.247,
+    "maverick_votes": 24,
+    "bipartisan_votes": 82,
     "maverick_bipartisan": 1,
-    "total_votes": 310,
+    "total_votes": 332,
     "missed_votes": 1,
-    "maverick_votes_all": 164,
-    "bipartisan_votes_all": 308,
+    "maverick_votes_all": 165,
+    "bipartisan_votes_all": 311,
     "maverick_bipartisan_all": 9,
-    "total_votes_all": 1521,
+    "total_votes_all": 1543,
     "missed_votes_all": 25,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 74,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 89,
-    "party_unity_percentile_party": 13,
+    "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 86
+    "reliability_percentile_party": 88
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -87,8 +87,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.63,
-      "dim2": -0.383
+      "dim1": 0.649,
+      "dim2": -0.347
     }
   ],
   "lobbying_contributions": [
@@ -135,6 +135,27 @@
   ],
   "lobbying_sum": 52165.08,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -315,27 +336,6 @@
       "member_position": "Yea",
       "yea": 104,
       "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -2399,44 +2399,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mike Allen Collins",
-      "distance": 0.000989949493661136
-    },
-    {
       "name": "Mark Everette Harris",
-      "distance": 0.0031048349392520133
+      "distance": 0.002912043955712123
     },
     {
       "name": "Ben Cline",
-      "distance": 0.0031999999999999806
-    },
-    {
-      "name": "Aaron Paul Bean",
-      "distance": 0.0035902646142033107
+      "distance": 0.0030000000000000027
     },
     {
       "name": "John J. McGuire",
-      "distance": 0.004825971404805482
+      "distance": 0.0053037722424703945
+    },
+    {
+      "name": "Mike Allen Collins",
+      "distance": 0.005510898293381928
+    },
+    {
+      "name": "Aaron Paul Bean",
+      "distance": 0.006578753681359397
     },
     {
       "name": "Thomas P. Tiffany",
-      "distance": 0.007310950690573722
-    },
-    {
-      "name": "Warren Davidson",
-      "distance": 0.007789736837660105
+      "distance": 0.0073061617830431315
     },
     {
       "name": "Diana Harshbarger",
-      "distance": 0.011521284650593508
+      "distance": 0.010829589096544738
     },
     {
       "name": "Rashida Tlaib",
-      "distance": 0.01207683733433552
+      "distance": 0.011317685275709007
     },
     {
-      "name": "Barry Moore",
-      "distance": 0.01245230902282782
+      "name": "Anna Paulina Luna",
+      "distance": 0.012727922061357859
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.013693794214898896
     }
   ]
 }

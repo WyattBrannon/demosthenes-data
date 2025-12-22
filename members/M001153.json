@@ -4,7 +4,7 @@
     "party": "R",
     "state": "AK",
     "district": null,
-    "tenure_years": 22.9,
+    "tenure_years": 23.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -77,31 +77,31 @@
     "dw_nominate_dim1": 0.204,
     "dw_nominate_dim2": -0.304,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8703,
-    "party_unity_bp_pct": 0.1872,
-    "maverick_votes": 79,
-    "bipartisan_votes": 114,
-    "maverick_bipartisan": 77,
-    "total_votes": 609,
+    "party_unity_pct": 0.8702,
+    "party_unity_bp_pct": 0.1875,
+    "maverick_votes": 81,
+    "bipartisan_votes": 117,
+    "maverick_bipartisan": 79,
+    "total_votes": 624,
     "missed_votes": 22,
-    "maverick_votes_all": 1855,
-    "bipartisan_votes_all": 1111,
-    "maverick_bipartisan_all": 765,
-    "total_votes_all": 7522,
+    "maverick_votes_all": 1857,
+    "bipartisan_votes_all": 1114,
+    "maverick_bipartisan_all": 767,
+    "total_votes_all": 7537,
     "missed_votes_all": 386,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 2,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 82,
-    "party_unity_percentile_party": 4,
+    "party_unity_percentile_party": 3,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 30
+    "reliability_percentile_party": 29
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -165,7 +165,7 @@
     },
     {
       "congress": 119,
-      "dim1": 0.166,
+      "dim1": 0.167,
       "dim2": -0.2
     }
   ],
@@ -213,6 +213,48 @@
   ],
   "lobbying_sum": 303580.53,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "A bill to amend the Internal Revenue Code of 1986 to extend the enhancement of the health care premium tax credit.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 51,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "S3385",
+        "type": null,
+        "number": "S3385",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Secretary of the Department of Health and Human Services relating to \"Policy on Adhering to the Text of the Administrative Procedure Act\".",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 50,
+      "nay": 49,
+      "present": 0,
+      "bill": {
+        "code": "SJRES82",
+        "type": null,
+        "number": "SJRES82",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-06",
       "chamber": "senate",
@@ -377,48 +419,6 @@
         "code": "SJRES83",
         "type": null,
         "number": "SJRES83",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-01",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Hung Cao, of Virginia, to be Under Secretary of the Navy",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 52,
-      "nay": 47,
-      "present": 0,
-      "bill": {
-        "code": "PN2610",
-        "type": null,
-        "number": "PN2610",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-01",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Hung Cao, of Virginia, to be Under Secretary of the Navy",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 52,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN2610",
-        "type": null,
-        "number": "PN2610",
         "congress": 119,
         "title": ""
       }
@@ -2665,44 +2665,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ralph Norman",
-      "distance": 0.007158910531638157
-    },
-    {
-      "name": "Angus S. King",
-      "distance": 0.0144253249530123
-    },
-    {
-      "name": "Susan M. Collins",
-      "distance": 0.01451654228802441
-    },
-    {
       "name": "Josh Chad Brecheen",
-      "distance": 0.014905368160498414
+      "distance": 0.007211102550928002
     },
     {
-      "name": "Margaret Wood Hassan",
-      "distance": 0.014981655449248555
-    },
-    {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.015654072952429987
+      "name": "Ralph Norman",
+      "distance": 0.008829496021857643
     },
     {
       "name": "Eli Crane",
-      "distance": 0.0158808060248842
+      "distance": 0.010040418317978599
     },
     {
-      "name": "Jacky Rosen",
-      "distance": 0.016834488409215247
+      "name": "Susan M. Collins",
+      "distance": 0.012050726119201273
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.012254386969571311
+    },
+    {
+      "name": "Margaret Wood Hassan",
+      "distance": 0.012631706139710503
+    },
+    {
+      "name": "Andy Biggs",
+      "distance": 0.015163442880823528
+    },
+    {
+      "name": "Eric Wayne Burlison",
+      "distance": 0.015352198539622927
     },
     {
       "name": "Paul A. Gosar",
-      "distance": 0.02100000000000002
+      "distance": 0.016961426826773804
     },
     {
-      "name": "Mark R. Warner",
-      "distance": 0.021476731594914526
+      "name": "Jacky Rosen",
+      "distance": 0.018247191564731344
     }
   ]
 }

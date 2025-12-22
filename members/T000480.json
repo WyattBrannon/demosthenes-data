@@ -4,7 +4,7 @@
     "party": "R",
     "state": "SC",
     "district": "04",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.598,
     "dw_nominate_dim2": 0.05,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9707,
-    "party_unity_bp_pct": 0.2866,
+    "party_unity_pct": 0.9726,
+    "party_unity_bp_pct": 0.2774,
     "maverick_votes": 9,
-    "bipartisan_votes": 88,
+    "bipartisan_votes": 91,
     "maverick_bipartisan": 0,
-    "total_votes": 307,
-    "missed_votes": 4,
+    "total_votes": 328,
+    "missed_votes": 5,
     "maverick_votes_all": 679,
-    "bipartisan_votes_all": 774,
+    "bipartisan_votes_all": 777,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 3334,
-    "missed_votes_all": 160,
+    "total_votes_all": 3355,
+    "missed_votes_all": 161,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 64,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 63,
-    "party_unity_percentile_party": 42,
+    "party_unity_percentile_party": 44,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 60
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.578,
-      "dim2": -0.117
+      "dim1": 0.586,
+      "dim2": -0.087
     }
   ],
   "lobbying_contributions": [
@@ -336,6 +336,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-23",
       "chamber": "house",
@@ -1580,44 +1601,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Marlin A. Stutzman",
-      "distance": 0.00373363094051893
-    },
-    {
       "name": "Jes\u00fas G. Garc\u00eda",
-      "distance": 0.003820994634908526
+      "distance": 0.004280186911806623
     },
     {
-      "name": "Ayanna Pressley",
-      "distance": 0.004640043103248117
-    },
-    {
-      "name": "Gregorio Eduardo Casar",
-      "distance": 0.005586591089385381
-    },
-    {
-      "name": "Troy Bryan Downing",
-      "distance": 0.0062201286160335776
-    },
-    {
-      "name": "Craig A. Goldman",
-      "distance": 0.006664082832618465
-    },
-    {
-      "name": "Summer Lynn Lee",
-      "distance": 0.006711929677819916
-    },
-    {
-      "name": "Kevin R. Hern",
-      "distance": 0.00725603197346868
+      "name": "Marlin A. Stutzman",
+      "distance": 0.004280186911806623
     },
     {
       "name": "Pramila Jayapal",
-      "distance": 0.008080841540334782
+      "distance": 0.0043046486500061465
     },
     {
-      "name": "Kevin Mullin",
-      "distance": 0.008319254774317206
+      "name": "Grace Meng",
+      "distance": 0.0050328918128645875
+    },
+    {
+      "name": "Troy Bryan Downing",
+      "distance": 0.006307138812488642
+    },
+    {
+      "name": "Kevin R. Hern",
+      "distance": 0.006806614430096699
+    },
+    {
+      "name": "Gregorio Eduardo Casar",
+      "distance": 0.006899999999999962
+    },
+    {
+      "name": "Ayanna Pressley",
+      "distance": 0.007343023900274387
+    },
+    {
+      "name": "Craig A. Goldman",
+      "distance": 0.008316850365372731
+    },
+    {
+      "name": "Summer Lynn Lee",
+      "distance": 0.008807383266328368
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "UT",
     "district": null,
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "Senate Committee on Energy and Natural Resources",
@@ -81,31 +81,31 @@
     "dw_nominate_dim1": 0.891,
     "dw_nominate_dim2": -0.454,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9819,
-    "party_unity_bp_pct": 0.0558,
-    "maverick_votes": 11,
+    "party_unity_pct": 0.9808,
+    "party_unity_bp_pct": 0.0545,
+    "maverick_votes": 12,
     "bipartisan_votes": 34,
     "maverick_bipartisan": 2,
-    "total_votes": 609,
+    "total_votes": 624,
     "missed_votes": 22,
-    "maverick_votes_all": 1404,
+    "maverick_votes_all": 1405,
     "bipartisan_votes_all": 219,
     "maverick_bipartisan_all": 41,
-    "total_votes_all": 5069,
+    "total_votes_all": 5084,
     "missed_votes_all": 166,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 97,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 92,
-    "party_unity_percentile_party": 65,
+    "party_unity_percentile_party": 63,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 30
+    "reliability_percentile_party": 29
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -149,8 +149,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.992,
-      "dim2": 0.062
+      "dim1": 0.986,
+      "dim2": 0.052
     }
   ],
   "lobbying_contributions": [
@@ -197,6 +197,27 @@
   ],
   "lobbying_sum": 752774.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -382,27 +403,6 @@
         "code": "HCONRES14",
         "type": null,
         "number": "HCONRES14",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-21",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Rejected",
-      "vote_desc": "To require an adequate amount of deficit reduction as part of reconciliation.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 24,
-      "nay": 76,
-      "present": 0,
-      "bill": {
-        "code": "SCONRES7",
-        "type": null,
-        "number": "SCONRES7",
         "congress": 119,
         "title": ""
       }
@@ -4566,43 +4566,43 @@
   "vote_record_similar": [
     {
       "name": "John Neely Kennedy",
-      "distance": 0.0008544003745317435
+      "distance": 0.002012461179749831
     },
     {
       "name": "Cynthia M. Lummis",
-      "distance": 0.0037121422386541367
+      "distance": 0.003577708763999645
     },
     {
       "name": "Rick Scott",
-      "distance": 0.004204759208325752
+      "distance": 0.005203844732503057
     },
     {
-      "name": "John R. Curtis",
-      "distance": 0.006440496875241832
+      "name": "Lisa Blunt Rochester",
+      "distance": 0.006500000000000041
     },
     {
       "name": "Richard Blumenthal",
-      "distance": 0.006997142273814365
-    },
-    {
-      "name": "Ron Johnson",
-      "distance": 0.007003570517957268
+      "distance": 0.006747592163134919
     },
     {
       "name": "Ted Cruz",
-      "distance": 0.008060397012554673
+      "distance": 0.007746612162745667
     },
     {
-      "name": "Bill Cassidy",
-      "distance": 0.008105553651663756
+      "name": "Ron Johnson",
+      "distance": 0.008209750300709502
     },
     {
-      "name": "Bill Francis Hagerty",
-      "distance": 0.00830541991713842
+      "name": "John R. Curtis",
+      "distance": 0.008402380615040044
     },
     {
       "name": "Charles E. Schumer",
-      "distance": 0.008766413177577212
+      "distance": 0.008421995013059578
+    },
+    {
+      "name": "Bill Francis Hagerty",
+      "distance": 0.009674709297958202
     }
   ]
 }

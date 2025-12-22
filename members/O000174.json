@@ -53,31 +53,31 @@
     "dw_nominate_dim1": -0.454,
     "dw_nominate_dim2": 0.46,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9485,
-    "party_unity_bp_pct": 0.0979,
+    "party_unity_pct": 0.9497,
+    "party_unity_bp_pct": 0.0973,
     "maverick_votes": 30,
-    "bipartisan_votes": 57,
+    "bipartisan_votes": 58,
     "maverick_bipartisan": 26,
-    "total_votes": 582,
-    "missed_votes": 49,
+    "total_votes": 596,
+    "missed_votes": 50,
     "maverick_votes_all": 52,
-    "bipartisan_votes_all": 386,
+    "bipartisan_votes_all": 387,
     "maverick_bipartisan_all": 37,
-    "total_votes_all": 2171,
-    "missed_votes_all": 98,
+    "total_votes_all": 2185,
+    "missed_votes_all": 99,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 76,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 94,
-    "party_unity_percentile_party": 25,
+    "party_unity_percentile_party": 26,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 9
+    "reliability_percentile_party": 10
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -96,8 +96,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.547,
-      "dim2": 0.797
+      "dim1": -0.548,
+      "dim2": 0.796
     }
   ],
   "lobbying_contributions": [
@@ -357,6 +357,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-09-08",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -536,27 +557,6 @@
       "member_position": "Not Voting",
       "yea": 45,
       "nay": 52,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "senate",
-      "question": "On the Motion",
-      "vote_result": "Motion Agreed to",
-      "vote_desc": "In the nature of a substitute.",
-      "vote_question": "On the Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 64,
-      "nay": 33,
       "present": 0,
       "bill": {
         "code": "S1582",
@@ -1826,43 +1826,43 @@
   "vote_record_similar": [
     {
       "name": "Joshua Hawley",
-      "distance": 0.001799999999999996
+      "distance": 0.002334523505985711
     },
     {
       "name": "Kirsten E. Gillibrand",
-      "distance": 0.005440588203494154
-    },
-    {
-      "name": "Sheldon Whitehouse",
-      "distance": 0.012841339493993607
+      "distance": 0.005154609587543965
     },
     {
       "name": "Michael F. Bennet",
-      "distance": 0.012971121771072881
+      "distance": 0.010904127658827204
+    },
+    {
+      "name": "Sheldon Whitehouse",
+      "distance": 0.012525174649480969
     },
     {
       "name": "Andy Kim",
-      "distance": 0.013382451195502257
-    },
-    {
-      "name": "Adam B. Schiff",
-      "distance": 0.015784802817900567
+      "distance": 0.01525319638633158
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.016287418457201885
+      "distance": 0.016022484201895806
+    },
+    {
+      "name": "Adam B. Schiff",
+      "distance": 0.017687566254292863
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.019283671849520775
+      "distance": 0.018927493230747702
     },
     {
       "name": "John F. Reed",
-      "distance": 0.020365166338628303
+      "distance": 0.02199113457737001
     },
     {
-      "name": "Richard J. Durbin",
-      "distance": 0.02369071548096424
+      "name": "Mitch McConnell",
+      "distance": 0.023207757323791534
     }
   ]
 }

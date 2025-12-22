@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CO",
     "district": "06",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Armed Services",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.356,
     "dw_nominate_dim2": 0.199,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9838,
-    "party_unity_bp_pct": 0.3236,
-    "maverick_votes": 5,
-    "bipartisan_votes": 100,
-    "maverick_bipartisan": 3,
-    "total_votes": 309,
+    "party_unity_pct": 0.9789,
+    "party_unity_bp_pct": 0.3202,
+    "maverick_votes": 7,
+    "bipartisan_votes": 106,
+    "maverick_bipartisan": 5,
+    "total_votes": 331,
     "missed_votes": 2,
-    "maverick_votes_all": 58,
-    "bipartisan_votes_all": 881,
-    "maverick_bipartisan_all": 24,
-    "total_votes_all": 3425,
+    "maverick_votes_all": 60,
+    "bipartisan_votes_all": 887,
+    "maverick_bipartisan_all": 26,
+    "total_votes_all": 3447,
     "missed_votes_all": 69,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 43,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 74,
+    "party_unity_percentile_party": 69,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 76
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -93,8 +93,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.386,
-      "dim2": -0.137
+      "dim1": -0.416,
+      "dim2": 0.128
     }
   ],
   "lobbying_contributions": [
@@ -141,6 +141,48 @@
   ],
   "lobbying_sum": 37957.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Passed",
+      "vote_desc": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 237,
+      "nay": 140,
+      "present": 0,
+      "bill": {
+        "code": "HRES939",
+        "type": null,
+        "number": "HRES939",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -2037,44 +2079,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Steny H. Hoyer",
-      "distance": 0.0009433981132056801
+      "name": "Gabe Amo",
+      "distance": 0.0019026297590440016
     },
     {
-      "name": "Laura Syril Friedman",
-      "distance": 0.001104536101718715
-    },
-    {
-      "name": "Lori Trahan",
-      "distance": 0.0011180339887498958
-    },
-    {
-      "name": "Julie Ann Fedorchak",
-      "distance": 0.0024331050121192935
-    },
-    {
-      "name": "Glenn Frederick Ivey",
-      "distance": 0.0031016124838541556
-    },
-    {
-      "name": "Kathy Castor",
-      "distance": 0.0031999999999999806
+      "name": "James E. Clyburn",
+      "distance": 0.0031064449134018037
     },
     {
       "name": "Sam Theodore Liccardo",
-      "distance": 0.0032015621187164046
+      "distance": 0.0031064449134018037
     },
     {
-      "name": "Frank J. Pallone",
-      "distance": 0.0033241540277189167
+      "name": "Troy Anthony Carter",
+      "distance": 0.003324154027718897
     },
     {
-      "name": "Joe Neguse",
-      "distance": 0.0034481879299133045
+      "name": "Lori Trahan",
+      "distance": 0.0034669871646719154
     },
     {
-      "name": "Katherine M. Clark",
-      "distance": 0.0035114099732158517
+      "name": "Elise M. Stefanik",
+      "distance": 0.0037215588131857165
+    },
+    {
+      "name": "Troy Balderson",
+      "distance": 0.003773592452822626
+    },
+    {
+      "name": "Steny H. Hoyer",
+      "distance": 0.004254409477236509
+    },
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.00452769256906868
+    },
+    {
+      "name": "Bill Huizenga",
+      "distance": 0.004866210024238605
     }
   ]
 }

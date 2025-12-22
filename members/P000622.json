@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.805,
     "dw_nominate_dim2": 0.262,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9327,
-    "party_unity_bp_pct": 0.2825,
-    "maverick_votes": 15,
-    "bipartisan_votes": 63,
-    "maverick_bipartisan": 6,
-    "total_votes": 223,
+    "party_unity_pct": 0.9347,
+    "party_unity_bp_pct": 0.2776,
+    "maverick_votes": 16,
+    "bipartisan_votes": 68,
+    "maverick_bipartisan": 7,
+    "total_votes": 245,
     "missed_votes": 1,
-    "maverick_votes_all": 15,
-    "bipartisan_votes_all": 63,
-    "maverick_bipartisan_all": 6,
-    "total_votes_all": 223,
+    "maverick_votes_all": 16,
+    "bipartisan_votes_all": 68,
+    "maverick_bipartisan_all": 7,
+    "total_votes_all": 245,
     "missed_votes_all": 1,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 93,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 81,
-    "party_unity_percentile_party": 16,
+    "party_unity_percentile_party": 15,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 83
+    "reliability_percentile_party": 84
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,8 +86,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.821,
-      "dim2": 0.571
+      "dim1": 0.536,
+      "dim2": -0.057
     }
   ],
   "lobbying_contributions": [
@@ -134,6 +134,27 @@
   ],
   "lobbying_sum": 145100.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -314,27 +335,6 @@
       "member_position": "Yea",
       "yea": 104,
       "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -1093,44 +1093,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Russell William Fry",
-      "distance": 0.005818075283115549
-    },
-    {
       "name": "Byron Lowell Donalds",
-      "distance": 0.0074404300950952455
+      "distance": 0.008005623023850137
     },
     {
       "name": "Cory Mills",
-      "distance": 0.008315046602394936
+      "distance": 0.008999999999999998
     },
     {
-      "name": "Victoria Spartz",
-      "distance": 0.01048093507278812
+      "name": "Russell William Fry",
+      "distance": 0.009708243919473808
+    },
+    {
+      "name": "Riley M. Moore",
+      "distance": 0.011299999999999996
     },
     {
       "name": "Jeff George Crank",
-      "distance": 0.012080562900792265
+      "distance": 0.012539936203984463
     },
     {
-      "name": "Rich Dean McCormick",
-      "distance": 0.012390722335683231
-    },
-    {
-      "name": "Katherine Cammack",
-      "distance": 0.012390722335683231
+      "name": "Mikie Sherrill",
+      "distance": 0.012592855117089187
     },
     {
       "name": "Tom McClintock",
-      "distance": 0.012925942905645202
+      "distance": 0.013829316685939366
     },
     {
-      "name": "Russ Fulcher",
-      "distance": 0.013250283015845389
+      "name": "Rich Dean McCormick",
+      "distance": 0.014610270360263706
     },
     {
-      "name": "Anna Paulina Luna",
-      "distance": 0.014431216164966789
+      "name": "Katherine Cammack",
+      "distance": 0.014610270360263706
+    },
+    {
+      "name": "John Joyce",
+      "distance": 0.015966527487215252
     }
   ]
 }

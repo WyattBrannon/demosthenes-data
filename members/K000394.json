@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NJ",
     "district": null,
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "Senate Committee on Banking, Housing, and Urban Affairs",
@@ -81,31 +81,31 @@
     "dw_nominate_dim1": -0.399,
     "dw_nominate_dim2": 0.241,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9363,
-    "party_unity_bp_pct": 0.0924,
-    "maverick_votes": 40,
+    "party_unity_pct": 0.9362,
+    "party_unity_bp_pct": 0.0902,
+    "maverick_votes": 41,
     "bipartisan_votes": 58,
     "maverick_bipartisan": 29,
-    "total_votes": 628,
+    "total_votes": 643,
     "missed_votes": 3,
-    "maverick_votes_all": 75,
+    "maverick_votes_all": 76,
     "bipartisan_votes_all": 494,
     "maverick_bipartisan_all": 40,
-    "total_votes_all": 2598,
+    "total_votes_all": 2613,
     "missed_votes_all": 114,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 55,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 78,
-    "party_unity_percentile_party": 20,
+    "party_unity_percentile_party": 21,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 81
+    "reliability_percentile_party": 83
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -129,8 +129,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.431,
-      "dim2": 0.213
+      "dim1": -0.433,
+      "dim2": 0.215
     }
   ],
   "lobbying_contributions": [
@@ -177,6 +177,27 @@
   ],
   "lobbying_sum": 946352.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -357,27 +378,6 @@
       "member_position": "Yea",
       "yea": 64,
       "nay": 33,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Agreed to",
-      "vote_desc": "In the nature of a substitute.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 67,
-      "nay": 30,
       "present": 0,
       "bill": {
         "code": "S1582",
@@ -1253,43 +1253,43 @@
   "vote_record_similar": [
     {
       "name": "Adam B. Schiff",
-      "distance": 0.00245153013442632
-    },
-    {
-      "name": "Jon Ossoff",
-      "distance": 0.013382451195502257
+      "distance": 0.0027000000000000357
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.014217243052012572
+      "distance": 0.014800337833982052
+    },
+    {
+      "name": "Jon Ossoff",
+      "distance": 0.01525319638633158
     },
     {
       "name": "Kirsten E. Gillibrand",
-      "distance": 0.017462244987400614
-    },
-    {
-      "name": "John F. Reed",
-      "distance": 0.020109947787102782
-    },
-    {
-      "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.021153959440256113
+      "distance": 0.019287560758167427
     },
     {
       "name": "Cory Anthony Booker",
-      "distance": 0.02142335174523352
+      "distance": 0.021023796041628642
     },
     {
-      "name": "Richard J. Durbin",
-      "distance": 0.02290720410700529
+      "name": "Ben Ray Luj\u00e1n",
+      "distance": 0.021453671014537358
+    },
+    {
+      "name": "John F. Reed",
+      "distance": 0.022787935404507357
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.023581560592971774
+      "distance": 0.023663685258217895
+    },
+    {
+      "name": "Richard J. Durbin",
+      "distance": 0.025432656172724073
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.024329611587528468
+      "distance": 0.025465663156493675
     }
   ]
 }

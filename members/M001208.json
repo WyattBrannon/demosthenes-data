@@ -4,7 +4,7 @@
     "party": "D",
     "state": "GA",
     "district": "06",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.355,
     "dw_nominate_dim2": 0.288,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9507,
-    "party_unity_bp_pct": 0.352,
-    "maverick_votes": 15,
-    "bipartisan_votes": 107,
-    "maverick_bipartisan": 12,
-    "total_votes": 304,
+    "party_unity_pct": 0.9509,
+    "party_unity_bp_pct": 0.3436,
+    "maverick_votes": 16,
+    "bipartisan_votes": 112,
+    "maverick_bipartisan": 13,
+    "total_votes": 326,
     "missed_votes": 7,
-    "maverick_votes_all": 69,
-    "bipartisan_votes_all": 893,
-    "maverick_bipartisan_all": 41,
-    "total_votes_all": 3450,
+    "maverick_votes_all": 70,
+    "bipartisan_votes_all": 898,
+    "maverick_bipartisan_all": 42,
+    "total_votes_all": 3472,
     "missed_votes_all": 44,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 41,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 83,
-    "party_unity_percentile_party": 26,
+    "party_unity_percentile_party": 27,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 44
+    "reliability_percentile_party": 47
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -89,8 +89,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.454,
-      "dim2": 0.574
+      "dim1": -0.459,
+      "dim2": 0.557
     }
   ],
   "lobbying_contributions": [
@@ -137,6 +137,27 @@
   ],
   "lobbying_sum": 238577.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -322,27 +343,6 @@
         "code": "HRES488",
         "type": null,
         "number": "HRES488",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-07",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 266,
-      "nay": 153,
-      "present": 0,
-      "bill": {
-        "code": "HR881",
-        "type": null,
-        "number": "HR881",
         "congress": 119,
         "title": ""
       }
@@ -3826,44 +3826,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Dina Titus",
-      "distance": 0.004304648650006198
+      "name": "Chrissy Houlahan",
+      "distance": 0.00220907220343743
     },
     {
       "name": "Terri A. Sewell",
-      "distance": 0.006313477647065839
+      "distance": 0.004964876634922571
+    },
+    {
+      "name": "Jake Daniel Auchincloss",
+      "distance": 0.006767569726275409
+    },
+    {
+      "name": "Suhas Subramanyam",
+      "distance": 0.0068468971074495
+    },
+    {
+      "name": "Seth Michael Magaziner",
+      "distance": 0.007184705978674432
     },
     {
       "name": "Herbert Clark Hoover Conaway",
-      "distance": 0.007992496481075277
+      "distance": 0.007547184905645346
     },
     {
       "name": "Stephen F. Lynch",
-      "distance": 0.008411896337925258
+      "distance": 0.008184130986243992
     },
     {
-      "name": "Julie Elizabeth Johnson",
-      "distance": 0.008793179174792241
+      "name": "Dina Titus",
+      "distance": 0.008523496934944023
     },
     {
-      "name": "Nicole Malliotakis",
-      "distance": 0.009219544457292915
+      "name": "Zachary (Zach) Martin Nunn",
+      "distance": 0.009761659694949455
     },
     {
-      "name": "David P. Joyce",
-      "distance": 0.010112368664165676
-    },
-    {
-      "name": "Haley M. Stevens",
-      "distance": 0.010473776778220908
-    },
-    {
-      "name": "Chrissy Houlahan",
-      "distance": 0.011043550153822803
-    },
-    {
-      "name": "Ritchie John Torres",
-      "distance": 0.011150784725749164
+      "name": "Ed Case",
+      "distance": 0.01060424443324462
     }
   ]
 }

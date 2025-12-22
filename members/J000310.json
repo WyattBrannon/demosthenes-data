@@ -4,7 +4,7 @@
     "party": "D",
     "state": "TX",
     "district": "32",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "Joint Committee of Congress on the Library",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": -0.398,
     "dw_nominate_dim2": 0.475,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9481,
-    "party_unity_bp_pct": 0.3604,
-    "maverick_votes": 16,
-    "bipartisan_votes": 111,
-    "maverick_bipartisan": 15,
-    "total_votes": 308,
+    "party_unity_pct": 0.9424,
+    "party_unity_bp_pct": 0.3515,
+    "maverick_votes": 19,
+    "bipartisan_votes": 116,
+    "maverick_bipartisan": 17,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 16,
-    "bipartisan_votes_all": 111,
-    "maverick_bipartisan_all": 15,
-    "total_votes_all": 308,
+    "maverick_votes_all": 19,
+    "bipartisan_votes_all": 116,
+    "maverick_bipartisan_all": 17,
+    "total_votes_all": 330,
     "missed_votes_all": 3,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 54,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 95,
-    "party_unity_percentile_party": 25,
+    "party_unity_percentile_party": 24,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -90,8 +90,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.444,
-      "dim2": 0.623
+      "dim1": -0.402,
+      "dim2": 0.474
     }
   ],
   "lobbying_contributions": [
@@ -138,6 +138,69 @@
   ],
   "lobbying_sum": 3215836.72,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -281,69 +344,6 @@
         "code": "HR3633",
         "type": null,
         "number": "HR3633",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-10",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "To prohibit individuals who are not citizens of the United States from voting in elections in the District of Columbia and to repeal the Local Resident Voting Rights Amendment Act of 2022",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 266,
-      "nay": 148,
-      "present": 0,
-      "bill": {
-        "code": "HR884",
-        "type": null,
-        "number": "HR884",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-01",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Congressional disapproval, of the rule submitted by the EPA relating to \u201cCalifornia State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 246,
-      "nay": 164,
-      "present": 0,
-      "bill": {
-        "code": "HJRES88",
-        "type": null,
-        "number": "HJRES88",
         "congress": 119,
         "title": ""
       }
@@ -1691,44 +1691,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "David P. Joyce",
-      "distance": 0.002701851217221239
-    },
-    {
-      "name": "Ryan Edward Mackenzie",
-      "distance": 0.0029427877939124363
-    },
-    {
       "name": "Stephen F. Lynch",
-      "distance": 0.005215361924162103
+      "distance": 0.004837354648979155
     },
     {
-      "name": "Michael R. Turner",
-      "distance": 0.005768882040742301
-    },
-    {
-      "name": "Shomari Coleman Figures",
-      "distance": 0.006306346010170974
+      "name": "David P. Joyce",
+      "distance": 0.006726812023536861
     },
     {
       "name": "Nicole Malliotakis",
-      "distance": 0.006399999999999961
+      "distance": 0.008626702730475872
     },
     {
-      "name": "Darren Soto",
-      "distance": 0.006802940540677974
+      "name": "Haley M. Stevens",
+      "distance": 0.009581753492967764
     },
     {
-      "name": "Janelle S. Bynum",
-      "distance": 0.008095677859203641
+      "name": "Emilia Strong Sykes",
+      "distance": 0.009908077512817528
+    },
+    {
+      "name": "Michael R. Turner",
+      "distance": 0.009974467404327907
+    },
+    {
+      "name": "Jake Daniel Auchincloss",
+      "distance": 0.010804628637764397
     },
     {
       "name": "Lucy McBath",
-      "distance": 0.008793179174792241
+      "distance": 0.011604309544302867
     },
     {
-      "name": "Nicolas Joseph LaLota",
-      "distance": 0.009068627239003658
+      "name": "Janelle S. Bynum",
+      "distance": 0.01166061747936187
+    },
+    {
+      "name": "Angie Craig",
+      "distance": 0.011936498649101446
     }
   ]
 }

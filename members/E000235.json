@@ -4,7 +4,7 @@
     "party": "R",
     "state": "MS",
     "district": "04",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.556,
     "dw_nominate_dim2": 0.148,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9578,
-    "party_unity_bp_pct": 0.3247,
-    "maverick_votes": 13,
-    "bipartisan_votes": 100,
+    "party_unity_pct": 0.9576,
+    "party_unity_bp_pct": 0.3121,
+    "maverick_votes": 14,
+    "bipartisan_votes": 103,
     "maverick_bipartisan": 7,
-    "total_votes": 308,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 70,
-    "bipartisan_votes_all": 439,
+    "maverick_votes_all": 71,
+    "bipartisan_votes_all": 442,
     "maverick_bipartisan_all": 29,
-    "total_votes_all": 1500,
+    "total_votes_all": 1522,
     "missed_votes_all": 46,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 56,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 71,
-    "party_unity_percentile_party": 29,
+    "party_unity_percentile_party": 28,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 73
+    "reliability_percentile_party": 75
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -83,8 +83,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.428,
-      "dim2": -0.123
+      "dim1": 0.45,
+      "dim2": -0.105
     }
   ],
   "lobbying_contributions": [
@@ -131,6 +131,27 @@
   ],
   "lobbying_sum": 86291.02,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -311,27 +332,6 @@
       "member_position": "Yea",
       "yea": 76,
       "nay": 353,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 355,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -1973,44 +1973,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Pete Stauber",
-      "distance": 0.005325410782277753
-    },
-    {
-      "name": "Shri Thanedar",
-      "distance": 0.007323933369440247
+      "name": "Addison Parker McDowell",
+      "distance": 0.006000000000000005
     },
     {
       "name": "Michael Guest",
-      "distance": 0.0073430239002743175
+      "distance": 0.006985699678629145
     },
     {
       "name": "Charles (Chuck) Marion Edwards",
-      "distance": 0.008115417426109344
-    },
-    {
-      "name": "Jason T. Smith",
-      "distance": 0.00935360892917806
-    },
-    {
-      "name": "Michael T. McCaul",
-      "distance": 0.009849365461795047
-    },
-    {
-      "name": "Addison Parker McDowell",
-      "distance": 0.01034069630150694
-    },
-    {
-      "name": "Eric Swalwell",
-      "distance": 0.01073545527679198
+      "distance": 0.006989277502002652
     },
     {
       "name": "H. Morgan Griffith",
-      "distance": 0.011352973178863813
+      "distance": 0.007202777242147626
+    },
+    {
+      "name": "Shri Thanedar",
+      "distance": 0.007338937252763507
+    },
+    {
+      "name": "Derrick Francis Van Orden",
+      "distance": 0.0077820305833374995
+    },
+    {
+      "name": "Pete Stauber",
+      "distance": 0.008653900854527968
+    },
+    {
+      "name": "Gary J. Palmer",
+      "distance": 0.0109
     },
     {
       "name": "Brian Timothy Jack",
-      "distance": 0.011764352935882209
+      "distance": 0.011045361017187215
+    },
+    {
+      "name": "Dan Sachs Goldman",
+      "distance": 0.011268096556206779
     }
   ]
 }

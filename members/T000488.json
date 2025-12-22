@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MI",
     "district": "13",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Agriculture",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.346,
     "dw_nominate_dim2": -0.04,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9638,
-    "party_unity_bp_pct": 0.3289,
-    "maverick_votes": 11,
-    "bipartisan_votes": 100,
-    "maverick_bipartisan": 8,
-    "total_votes": 304,
+    "party_unity_pct": 0.9601,
+    "party_unity_bp_pct": 0.319,
+    "maverick_votes": 13,
+    "bipartisan_votes": 104,
+    "maverick_bipartisan": 9,
+    "total_votes": 326,
     "missed_votes": 7,
-    "maverick_votes_all": 40,
-    "bipartisan_votes_all": 481,
-    "maverick_bipartisan_all": 31,
-    "total_votes_all": 1538,
+    "maverick_votes_all": 42,
+    "bipartisan_votes_all": 485,
+    "maverick_bipartisan_all": 32,
+    "total_votes_all": 1560,
     "missed_votes_all": 8,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 39,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 48,
-    "party_unity_percentile_party": 39,
+    "party_unity_percentile_party": 37,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 44
+    "reliability_percentile_party": 47
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -75,8 +75,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.379,
-      "dim2": 0.053
+      "dim1": -0.36,
+      "dim2": -0.043
     }
   ],
   "lobbying_contributions": [
@@ -115,6 +115,48 @@
   ],
   "lobbying_sum": 17877.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -279,48 +321,6 @@
         "code": "HJRES88",
         "type": null,
         "number": "HJRES88",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Pandemic Unemployment Fraud Enforcement Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 295,
-      "nay": 127,
-      "present": 0,
-      "bill": {
-        "code": "HR1156",
-        "type": null,
-        "number": "HR1156",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \u201cGross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 292,
-      "nay": 132,
-      "present": 0,
-      "bill": {
-        "code": "HJRES25",
-        "type": null,
-        "number": "HJRES25",
         "congress": 119,
         "title": ""
       }
@@ -1814,44 +1814,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Eric Swalwell",
-      "distance": 0.003721558813185711
-    },
-    {
-      "name": "Michael T. McCaul",
-      "distance": 0.0038483762809788436
-    },
-    {
-      "name": "Jason T. Smith",
-      "distance": 0.004596737973824485
-    },
-    {
-      "name": "Dan Sachs Goldman",
-      "distance": 0.004965883607174104
-    },
-    {
       "name": "H. Morgan Griffith",
-      "distance": 0.007057619995437531
-    },
-    {
-      "name": "Mike Ezell",
-      "distance": 0.007323933369440247
-    },
-    {
-      "name": "David J. Taylor",
-      "distance": 0.007355270219373292
-    },
-    {
-      "name": "Juan Guadaloupe Ciscomani",
-      "distance": 0.008757282683572612
+      "distance": 0.002319482700948605
     },
     {
       "name": "Pete Stauber",
-      "distance": 0.00910823802938861
+      "distance": 0.0059033888572580925
     },
     {
-      "name": "Donald W. Norcross",
-      "distance": 0.009518928511129775
+      "name": "Charles (Chuck) Marion Edwards",
+      "distance": 0.006493843238021648
+    },
+    {
+      "name": "Michael A. Rulli",
+      "distance": 0.006599999999999995
+    },
+    {
+      "name": "Dan Sachs Goldman",
+      "distance": 0.007170076708097336
+    },
+    {
+      "name": "Mike Ezell",
+      "distance": 0.007338937252763507
+    },
+    {
+      "name": "Mike John Haridopolos",
+      "distance": 0.009199999999999986
+    },
+    {
+      "name": "Jason T. Smith",
+      "distance": 0.00967677632272245
+    },
+    {
+      "name": "Michael T. McCaul",
+      "distance": 0.009900505037623084
+    },
+    {
+      "name": "Michael Guest",
+      "distance": 0.010454664030948094
     }
   ]
 }

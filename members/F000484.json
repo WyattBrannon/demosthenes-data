@@ -41,31 +41,31 @@
     "dw_nominate_dim1": 0.814,
     "dw_nominate_dim2": 0.198,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9462,
-    "party_unity_bp_pct": 0.2556,
-    "maverick_votes": 12,
-    "bipartisan_votes": 57,
+    "party_unity_pct": 0.9469,
+    "party_unity_bp_pct": 0.2449,
+    "maverick_votes": 13,
+    "bipartisan_votes": 60,
     "maverick_bipartisan": 1,
-    "total_votes": 223,
+    "total_votes": 245,
     "missed_votes": 1,
-    "maverick_votes_all": 12,
-    "bipartisan_votes_all": 57,
+    "maverick_votes_all": 13,
+    "bipartisan_votes_all": 60,
     "maverick_bipartisan_all": 1,
-    "total_votes_all": 223,
+    "total_votes_all": 245,
     "missed_votes_all": 1,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 93,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 19,
+    "party_unity_percentile_party": 21,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 83
+    "reliability_percentile_party": 84
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -74,8 +74,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.84,
-      "dim2": 0.309
+      "dim1": 0.834,
+      "dim2": 0.277
     }
   ],
   "lobbying_contributions": [
@@ -122,6 +122,27 @@
   ],
   "lobbying_sum": 796080.51,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -307,27 +328,6 @@
         "code": "HR1709",
         "type": null,
         "number": "HR1709",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Consumer Safety Technology Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 336,
-      "nay": 36,
-      "present": 0,
-      "bill": {
-        "code": "HR1770",
-        "type": null,
-        "number": "HR1770",
         "congress": 119,
         "title": ""
       }
@@ -1712,43 +1712,43 @@
   "vote_record_similar": [
     {
       "name": "Mike Steven Kennedy",
-      "distance": 0.0035510561809129326
-    },
-    {
-      "name": "Robert F. Onder",
-      "distance": 0.006603029607687699
+      "distance": 0.007513321502504751
     },
     {
       "name": "Diana Harshbarger",
-      "distance": 0.00902551937563708
+      "distance": 0.008499999999999962
+    },
+    {
+      "name": "Robert F. Onder",
+      "distance": 0.010611785900591846
     },
     {
       "name": "Rashida Tlaib",
-      "distance": 0.01046947945219825
-    },
-    {
-      "name": "Troy E. Nehls",
-      "distance": 0.016240997506310962
-    },
-    {
-      "name": "Russ Fulcher",
-      "distance": 0.016871573726241408
+      "distance": 0.011806777714516353
     },
     {
       "name": "Aaron Paul Bean",
-      "distance": 0.016975570682601537
+      "distance": 0.013692698784388719
+    },
+    {
+      "name": "Victoria Spartz",
+      "distance": 0.016337686494727437
+    },
+    {
+      "name": "Russ Fulcher",
+      "distance": 0.018208239892971517
+    },
+    {
+      "name": "Delia Catalina Ramirez",
+      "distance": 0.018585209172888046
+    },
+    {
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.01931450232338384
     },
     {
       "name": "Brad Knott",
-      "distance": 0.01807097119692245
-    },
-    {
-      "name": "Rich Dean McCormick",
-      "distance": 0.019090573590125597
-    },
-    {
-      "name": "Katherine Cammack",
-      "distance": 0.019090573590125597
+      "distance": 0.019565530915362363
     }
   ]
 }

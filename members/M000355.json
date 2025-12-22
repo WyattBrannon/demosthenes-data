@@ -4,7 +4,7 @@
     "party": "R",
     "state": "KY",
     "district": null,
-    "tenure_years": 40.9,
+    "tenure_years": 41.0,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -77,22 +77,22 @@
     "dw_nominate_dim1": 0.403,
     "dw_nominate_dim2": 0.019,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9671,
-    "party_unity_bp_pct": 0.0832,
+    "party_unity_pct": 0.9679,
+    "party_unity_bp_pct": 0.0829,
     "maverick_votes": 19,
-    "bipartisan_votes": 48,
+    "bipartisan_votes": 49,
     "maverick_bipartisan": 18,
-    "total_votes": 577,
-    "missed_votes": 54,
+    "total_votes": 591,
+    "missed_votes": 55,
     "maverick_votes_all": 3610,
-    "bipartisan_votes_all": 566,
+    "bipartisan_votes_all": 567,
     "maverick_bipartisan_all": 221,
-    "total_votes_all": 13996,
-    "missed_votes_all": 199,
+    "total_votes_all": 14010,
+    "missed_votes_all": 200,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 22,
     "dim2_direction_party": "right",
@@ -101,7 +101,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 6
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -210,8 +210,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.321,
-      "dim2": -0.093
+      "dim1": 0.322,
+      "dim2": -0.087
     }
   ],
   "lobbying_contributions": [
@@ -471,6 +471,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-12-03",
       "chamber": "senate",
       "question": "On the Cloture Motion",
@@ -650,27 +671,6 @@
       "member_position": "Not Voting",
       "yea": 49,
       "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN2640",
-        "type": null,
-        "number": "PN2640",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Jason Reding Quinones, of Florida, to be United States Attorney for the Southern District of Florida for the term of four years",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 52,
-      "nay": 44,
       "present": 0,
       "bill": {
         "code": "PN2640",
@@ -1646,43 +1646,43 @@
   "vote_record_similar": [
     {
       "name": "Dan Sullivan",
-      "distance": 0.009879271228182844
+      "distance": 0.009263368717696643
     },
     {
       "name": "Maria Cantwell",
-      "distance": 0.010581587782558908
+      "distance": 0.01004489920307813
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.010866922287381972
+      "distance": 0.010673799698326715
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.011800423721205868
+      "distance": 0.011601724009818485
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.012264175471673563
+      "distance": 0.012041594578792275
     },
     {
       "name": "Tammy Baldwin",
-      "distance": 0.012559060474414498
-    },
-    {
-      "name": "John Thune",
-      "distance": 0.015415900881881748
+      "distance": 0.012336936410632902
     },
     {
       "name": "Thom Tillis",
-      "distance": 0.01670748335327621
+      "distance": 0.01457737973711332
+    },
+    {
+      "name": "John Thune",
+      "distance": 0.01501632445041064
     },
     {
       "name": "Michael F. Bennet",
-      "distance": 0.017773013250431097
+      "distance": 0.016412799883018123
     },
     {
       "name": "Tammy Duckworth",
-      "distance": 0.018380696395947586
+      "distance": 0.018676188047886
     }
   ]
 }

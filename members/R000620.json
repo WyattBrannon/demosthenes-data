@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "29",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.667,
     "dw_nominate_dim2": -0.072,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.987,
-    "party_unity_bp_pct": 0.3149,
-    "maverick_votes": 4,
-    "bipartisan_votes": 97,
+    "party_unity_pct": 0.9848,
+    "party_unity_bp_pct": 0.303,
+    "maverick_votes": 5,
+    "bipartisan_votes": 100,
     "maverick_bipartisan": 0,
-    "total_votes": 308,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 4,
-    "bipartisan_votes_all": 97,
+    "maverick_votes_all": 5,
+    "bipartisan_votes_all": 100,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 308,
+    "total_votes_all": 330,
     "missed_votes_all": 3,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 98,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 52,
-    "party_unity_percentile_party": 83,
+    "party_unity_percentile_party": 82,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.512,
-      "dim2": -0.281
+      "dim1": -0.501,
+      "dim2": -0.338
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 73850.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -1032,44 +1053,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Sara Jacobs",
-      "distance": 0.00022360679774995434
+      "name": "Virginia Foxx",
+      "distance": 0.0
     },
     {
-      "name": "Dwight Evans",
-      "distance": 0.0016124515496596839
+      "name": "Sara Jacobs",
+      "distance": 0.0003605551275464054
+    },
+    {
+      "name": "Teresa Leger Fernandez",
+      "distance": 0.0012649110640673353
+    },
+    {
+      "name": "C. Scott Franklin",
+      "distance": 0.0020999999999999908
     },
     {
       "name": "Veronica Escobar",
-      "distance": 0.0022000000000000353
+      "distance": 0.0020999999999999908
     },
     {
       "name": "Judy M. Chu",
-      "distance": 0.002302172886644236
+      "distance": 0.002102379604162854
     },
     {
-      "name": "Diana L. DeGette",
-      "distance": 0.002302172886644236
+      "name": "Dwight Evans",
+      "distance": 0.0025000000000000356
     },
     {
-      "name": "Maria Elvira Salazar",
-      "distance": 0.0023409399821439137
-    },
-    {
-      "name": "Emanuel Cleaver",
-      "distance": 0.002828427124746153
-    },
-    {
-      "name": "Shontel M. Brown",
-      "distance": 0.0031064449134018037
+      "name": "Julia Letlow",
+      "distance": 0.002942787793912446
     },
     {
       "name": "Valerie Jean Foushee",
-      "distance": 0.0032015621187164046
+      "distance": 0.003006659275674583
     },
     {
-      "name": "Juan Vargas",
-      "distance": 0.0033999999999999976
+      "name": "Melanie Ann Stansbury",
+      "distance": 0.0030870698080866584
     }
   ]
 }

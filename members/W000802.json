@@ -4,7 +4,7 @@
     "party": "D",
     "state": "RI",
     "district": null,
-    "tenure_years": 18.9,
+    "tenure_years": 19.0,
     "committees": [
       {
         "name": "Senate Committee on Environment and Public Works",
@@ -89,31 +89,31 @@
     "dw_nominate_dim1": -0.354,
     "dw_nominate_dim2": -0.109,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9606,
-    "party_unity_bp_pct": 0.0936,
+    "party_unity_pct": 0.9615,
+    "party_unity_bp_pct": 0.0931,
     "maverick_votes": 24,
-    "bipartisan_votes": 57,
+    "bipartisan_votes": 58,
     "maverick_bipartisan": 21,
-    "total_votes": 609,
-    "missed_votes": 22,
+    "total_votes": 623,
+    "missed_votes": 23,
     "maverick_votes_all": 1136,
-    "bipartisan_votes_all": 378,
+    "bipartisan_votes_all": 379,
     "maverick_bipartisan_all": 23,
-    "total_votes_all": 6449,
-    "missed_votes_all": 139,
+    "total_votes_all": 6463,
+    "missed_votes_all": 140,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 41,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 58,
-    "party_unity_percentile_party": 35,
+    "party_unity_percentile_party": 39,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 30
+    "reliability_percentile_party": 29
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -167,8 +167,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.32,
-      "dim2": -0.279
+      "dim1": -0.31,
+      "dim2": -0.303
     }
   ],
   "lobbying_contributions": [
@@ -428,6 +428,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-07-30",
       "chamber": "senate",
       "question": "On the Cloture Motion",
@@ -612,27 +633,6 @@
         "code": "HJRES75",
         "type": null,
         "number": "HJRES75",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-30",
-      "chamber": "senate",
-      "question": "On the Joint Resolution",
-      "vote_result": "Joint Resolution Defeated",
-      "vote_desc": "A joint resolution terminating the national emergency declared to impose global tariffs.",
-      "vote_question": "On the Joint Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 49,
-      "nay": 49,
-      "present": 0,
-      "bill": {
-        "code": "SJRES49",
-        "type": null,
-        "number": "SJRES49",
         "congress": 119,
         "title": ""
       }
@@ -2962,43 +2962,43 @@
   "vote_record_similar": [
     {
       "name": "Michael F. Bennet",
-      "distance": 0.006438167441127955
+      "distance": 0.0045891175622335125
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.011761802582937698
+      "distance": 0.011627553482998904
     },
     {
       "name": "Mitch McConnell",
-      "distance": 0.012264175471673563
+      "distance": 0.012041594578792275
     },
     {
       "name": "Jon Ossoff",
-      "distance": 0.012841339493993607
-    },
-    {
-      "name": "Joshua Hawley",
-      "distance": 0.01355064574107079
-    },
-    {
-      "name": "Angela Deneece Alsobrooks",
-      "distance": 0.013792751719653338
-    },
-    {
-      "name": "Kirsten E. Gillibrand",
-      "distance": 0.01415980225850634
+      "distance": 0.012525174649480969
     },
     {
       "name": "Dan Sullivan",
-      "distance": 0.015781318069160152
+      "distance": 0.013392908571329852
+    },
+    {
+      "name": "Angela Deneece Alsobrooks",
+      "distance": 0.013572398461583717
+    },
+    {
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.013669308687713497
+    },
+    {
+      "name": "Joshua Hawley",
+      "distance": 0.014641379716406482
     },
     {
       "name": "Maria Cantwell",
-      "distance": 0.022203603311174488
+      "distance": 0.02191118435867852
     },
     {
-      "name": "Andy Kim",
-      "distance": 0.024329611587528468
+      "name": "Thom Tillis",
+      "distance": 0.022638462845343568
     }
   ]
 }

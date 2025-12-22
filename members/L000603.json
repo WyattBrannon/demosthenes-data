@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "08",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Armed Services",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": 0.604,
     "dw_nominate_dim2": -0.043,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9568,
-    "party_unity_bp_pct": 0.2857,
-    "maverick_votes": 13,
-    "bipartisan_votes": 86,
+    "party_unity_pct": 0.9567,
+    "party_unity_bp_pct": 0.2755,
+    "maverick_votes": 14,
+    "bipartisan_votes": 89,
     "maverick_bipartisan": 3,
-    "total_votes": 301,
+    "total_votes": 323,
     "missed_votes": 10,
-    "maverick_votes_all": 99,
-    "bipartisan_votes_all": 375,
+    "maverick_votes_all": 100,
+    "bipartisan_votes_all": 378,
     "maverick_bipartisan_all": 17,
-    "total_votes_all": 1510,
+    "total_votes_all": 1532,
     "missed_votes_all": 36,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 65,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 49,
-    "party_unity_percentile_party": 27,
+    "party_unity_percentile_party": 26,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 33
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,8 +95,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.532,
-      "dim2": -0.206
+      "dim1": 0.548,
+      "dim2": -0.186
     }
   ],
   "lobbying_contributions": [
@@ -143,6 +143,27 @@
   ],
   "lobbying_sum": 104141.02,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -328,27 +349,6 @@
         "code": "HR1263",
         "type": null,
         "number": "HR1263",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-29",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Youth Poisoning Protection Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 378,
-      "nay": 42,
-      "present": 0,
-      "bill": {
-        "code": "HR1442",
-        "type": null,
-        "number": "HR1442",
         "congress": 119,
         "title": ""
       }
@@ -2551,44 +2551,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "James Comer",
-      "distance": 0.001923538406167142
-    },
-    {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.002563201123595224
-    },
-    {
       "name": "Brittany Louise Pettersen",
-      "distance": 0.0030000000000000027
+      "distance": 0.0036715119501371588
     },
     {
       "name": "Tony Wied",
-      "distance": 0.003956008088970503
+      "distance": 0.004016217125604602
     },
     {
-      "name": "Jim Jordan",
-      "distance": 0.0061204574992397365
+      "name": "Derek Larkin Schmidt",
+      "distance": 0.004159326868617082
+    },
+    {
+      "name": "James Comer",
+      "distance": 0.005643580423808962
     },
     {
       "name": "Ilhan Omar",
-      "distance": 0.006536818798161662
+      "distance": 0.0061773780845921665
     },
     {
-      "name": "Kevin R. Hern",
-      "distance": 0.006700000000000039
+      "name": "Jim Jordan",
+      "distance": 0.0061773780845921665
     },
     {
       "name": "Glenn Grothman",
-      "distance": 0.007111258679024409
+      "distance": 0.006711929677819915
     },
     {
-      "name": "Troy Bryan Downing",
-      "distance": 0.007826237921249306
+      "name": "Abraham Jamal Hamadeh",
+      "distance": 0.00728628849277873
     },
     {
       "name": "Summer Lynn Lee",
-      "distance": 0.008633075929238681
+      "distance": 0.008229823813423917
+    },
+    {
+      "name": "John Joyce",
+      "distance": 0.009374433316206417
     }
   ]
 }

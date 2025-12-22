@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NJ",
     "district": "12",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.597,
     "dw_nominate_dim2": -0.222,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9838,
-    "party_unity_bp_pct": 0.3117,
-    "maverick_votes": 5,
-    "bipartisan_votes": 96,
+    "party_unity_pct": 0.9818,
+    "party_unity_bp_pct": 0.3,
+    "maverick_votes": 6,
+    "bipartisan_votes": 99,
     "maverick_bipartisan": 0,
-    "total_votes": 308,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 1813,
-    "bipartisan_votes_all": 802,
+    "maverick_votes_all": 1814,
+    "bipartisan_votes_all": 805,
     "maverick_bipartisan_all": 4,
-    "total_votes_all": 5838,
+    "total_votes_all": 5860,
     "missed_votes_all": 185,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 95,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 74,
     "party_unity_percentile_party": 74,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,8 +95,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.682,
-      "dim2": 0.009
+      "dim1": -0.653,
+      "dim2": -0.104
     }
   ],
   "lobbying_contributions": [
@@ -143,6 +143,27 @@
   ],
   "lobbying_sum": 71000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -4983,44 +5004,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Virginia Foxx",
-      "distance": 0.0
-    },
-    {
-      "name": "Jasmine Felicia Crockett",
-      "distance": 0.0007211102550928108
-    },
-    {
-      "name": "John W. Rose",
-      "distance": 0.001772004514666931
+      "name": "Dwight Evans",
+      "distance": 0.00180277563773195
     },
     {
       "name": "Nikema Natassha Williams",
-      "distance": 0.0020024984394500797
+      "distance": 0.0018027756377319625
     },
     {
       "name": "LaMonica McIver",
-      "distance": 0.0020024984394500797
+      "distance": 0.0018027756377319625
     },
     {
-      "name": "Teresa Leger Fernandez",
-      "distance": 0.0022135943621178497
-    },
-    {
-      "name": "C. Scott Franklin",
-      "distance": 0.002302172886644236
-    },
-    {
-      "name": "Dwight Evans",
-      "distance": 0.0030000000000000248
-    },
-    {
-      "name": "Julia Letlow",
-      "distance": 0.003026549190084308
+      "name": "John W. Rose",
+      "distance": 0.0019416487838947634
     },
     {
       "name": "Robin L. Kelly",
-      "distance": 0.0032999999999999696
+      "distance": 0.0030000000000000027
+    },
+    {
+      "name": "C. Scott Franklin",
+      "distance": 0.003132091952673171
+    },
+    {
+      "name": "Veronica Escobar",
+      "distance": 0.003132091952673171
+    },
+    {
+      "name": "Teresa Leger Fernandez",
+      "distance": 0.0031622776601683855
+    },
+    {
+      "name": "Sylvia R. Garcia",
+      "distance": 0.00322800247831379
+    },
+    {
+      "name": "Joaquin Castro",
+      "distance": 0.0033015148038438723
     }
   ]
 }

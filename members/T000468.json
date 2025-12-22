@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NV",
     "district": "01",
-    "tenure_years": 16.9,
+    "tenure_years": 17.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": -0.297,
     "dw_nominate_dim2": -0.164,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9544,
-    "party_unity_bp_pct": 0.3498,
-    "maverick_votes": 12,
-    "bipartisan_votes": 92,
-    "maverick_bipartisan": 10,
-    "total_votes": 263,
-    "missed_votes": 48,
-    "maverick_votes_all": 2344,
-    "bipartisan_votes_all": 876,
-    "maverick_bipartisan_all": 43,
-    "total_votes_all": 8553,
-    "missed_votes_all": 319,
+    "party_unity_pct": 0.9541,
+    "party_unity_bp_pct": 0.3357,
+    "maverick_votes": 13,
+    "bipartisan_votes": 95,
+    "maverick_bipartisan": 11,
+    "total_votes": 283,
+    "missed_votes": 50,
+    "maverick_votes_all": 2345,
+    "bipartisan_votes_all": 879,
+    "maverick_bipartisan_all": 44,
+    "total_votes_all": 8573,
+    "missed_votes_all": 321,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 27,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 30,
+    "party_unity_percentile_party": 32,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 3
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -121,8 +121,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.292,
-      "dim2": -0.004
+      "dim1": -0.297,
+      "dim2": 0.025
     }
   ],
   "lobbying_contributions": [
@@ -169,6 +169,27 @@
   ],
   "lobbying_sum": 154898.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -357,30 +378,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-01-22",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Laken Riley Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 263,
-      "nay": 156,
-      "present": 0,
-      "bill": {
-        "code": "S5",
-        "type": null,
-        "number": "S5",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "house",
@@ -545,48 +587,6 @@
         "code": "HR5125",
         "type": null,
         "number": "HR5125",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "District of Columbia Policing Protection Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 245,
-      "nay": 182,
-      "present": 0,
-      "bill": {
-        "code": "HR5143",
-        "type": null,
-        "number": "HR5143",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-17",
-      "chamber": "house",
-      "question": "On Motion to Table",
-      "vote_result": "Passed",
-      "vote_desc": "Censuring Representative Ilhan Omar of Minnesota and removing her from the Committee on Education and Workforce and the Committee on the Budget",
-      "vote_question": "On Motion to Table",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 214,
-      "nay": 213,
-      "present": 0,
-      "bill": {
-        "code": "HRES713",
-        "type": null,
-        "number": "HRES713",
         "congress": 119,
         "title": ""
       }
@@ -4199,44 +4199,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Terri A. Sewell",
-      "distance": 0.0033541019662497173
-    },
-    {
-      "name": "Lucy McBath",
-      "distance": 0.004304648650006198
-    },
-    {
-      "name": "Chrissy Houlahan",
-      "distance": 0.006762396025078651
-    },
-    {
       "name": "Ritchie John Torres",
-      "distance": 0.006847627326308013
+      "distance": 0.003612478373637724
     },
     {
-      "name": "Herbert Clark Hoover Conaway",
-      "distance": 0.007111258679024421
-    },
-    {
-      "name": "Haley M. Stevens",
-      "distance": 0.007769813382572269
-    },
-    {
-      "name": "Dan Newhouse",
-      "distance": 0.009024411338142704
-    },
-    {
-      "name": "Suhas Subramanyam",
-      "distance": 0.009202173656261883
-    },
-    {
-      "name": "Ed Case",
-      "distance": 0.009202173656261883
+      "name": "Terri A. Sewell",
+      "distance": 0.003820994634908581
     },
     {
       "name": "Seth Michael Magaziner",
-      "distance": 0.009436630754670848
+      "distance": 0.0046615448083227075
+    },
+    {
+      "name": "Zachary (Zach) Martin Nunn",
+      "distance": 0.004884669896727985
+    },
+    {
+      "name": "Brendan F. Boyle",
+      "distance": 0.005882176467941127
+    },
+    {
+      "name": "Chrissy Houlahan",
+      "distance": 0.008161494961096279
+    },
+    {
+      "name": "Lucy McBath",
+      "distance": 0.008523496934944023
+    },
+    {
+      "name": "Joseph D. Morelle",
+      "distance": 0.008884255736976553
+    },
+    {
+      "name": "Suhas Subramanyam",
+      "distance": 0.009415412895885135
+    },
+    {
+      "name": "Mike John Haridopolos",
+      "distance": 0.009604686356149281
     }
   ]
 }

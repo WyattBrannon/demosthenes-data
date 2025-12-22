@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MD",
     "district": "07",
-    "tenure_years": 38.9,
+    "tenure_years": 39.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.44,
     "dw_nominate_dim2": -0.328,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9862,
-    "party_unity_bp_pct": 0.2976,
-    "maverick_votes": 4,
-    "bipartisan_votes": 86,
+    "party_unity_pct": 0.9837,
+    "party_unity_bp_pct": 0.2834,
+    "maverick_votes": 5,
+    "bipartisan_votes": 87,
     "maverick_bipartisan": 2,
-    "total_votes": 289,
-    "missed_votes": 22,
-    "maverick_votes_all": 1137,
-    "bipartisan_votes_all": 838,
+    "total_votes": 307,
+    "missed_votes": 26,
+    "maverick_votes_all": 1138,
+    "bipartisan_votes_all": 839,
     "maverick_bipartisan_all": 13,
-    "total_votes_all": 7056,
-    "missed_votes_all": 344,
+    "total_votes_all": 7074,
+    "missed_votes_all": 348,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 70,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 84,
     "party_unity_percentile_party": 79,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 11
+    "reliability_percentile_party": 9
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -118,8 +118,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.358,
-      "dim2": -0.263
+      "dim1": -0.35,
+      "dim2": -0.356
     }
   ],
   "lobbying_contributions": [
@@ -166,6 +166,27 @@
   ],
   "lobbying_sum": 53500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -252,6 +273,90 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -374,90 +479,6 @@
         "code": "HR3400",
         "type": null,
         "number": "HR3400",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Great Lakes Mass Marking Program Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 360,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR1917",
-        "type": null,
-        "number": "HR1917",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 278,
-      "nay": 121,
-      "present": 0,
-      "bill": {
-        "code": "HR3095",
-        "type": null,
-        "number": "HR3095",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Understanding Cybersecurity of Mobile Networks Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 360,
-      "nay": 10,
-      "present": 0,
-      "bill": {
-        "code": "HR1709",
-        "type": null,
-        "number": "HR1709",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Consumer Safety Technology Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 336,
-      "nay": 36,
-      "present": 0,
-      "bill": {
-        "code": "HR1770",
-        "type": null,
-        "number": "HR1770",
         "congress": 119,
         "title": ""
       }
@@ -2034,44 +2055,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Maxine Elizabeth Dexter",
-      "distance": 0.0027730849247723523
-    },
-    {
-      "name": "Nancy Pelosi",
-      "distance": 0.003106444913401841
-    },
-    {
-      "name": "Gwen Moore",
-      "distance": 0.00317804971641414
-    },
-    {
-      "name": "Garland Barr",
-      "distance": 0.004081666326391756
-    },
-    {
-      "name": "James P. McGovern",
-      "distance": 0.004384062043356622
-    },
-    {
-      "name": "Joe G. Wilson",
-      "distance": 0.004384062043356622
-    },
-    {
-      "name": "Steve Joseph Scalise",
-      "distance": 0.004393176527297746
-    },
-    {
-      "name": "Chellie Pingree",
-      "distance": 0.004501110973970763
+      "name": "Doug LaMalfa",
+      "distance": 0.002220360331117427
     },
     {
       "name": "Jared Huffman",
-      "distance": 0.004827007354458848
+      "distance": 0.002630589287593229
+    },
+    {
+      "name": "Maxine Elizabeth Dexter",
+      "distance": 0.0029832867780352863
+    },
+    {
+      "name": "Daniel Webster",
+      "distance": 0.003560898762952978
+    },
+    {
+      "name": "Steve Joseph Scalise",
+      "distance": 0.004159326868617082
+    },
+    {
+      "name": "Robert Julio Garcia",
+      "distance": 0.0044045431091089965
+    },
+    {
+      "name": "Frederica S. Wilson",
+      "distance": 0.0057245087125446514
+    },
+    {
+      "name": "Nancy Pelosi",
+      "distance": 0.005922837157984361
     },
     {
       "name": "Carol D. Miller",
-      "distance": 0.00547083174663596
+      "distance": 0.006338769596696223
+    },
+    {
+      "name": "James P. McGovern",
+      "distance": 0.006447480127925982
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "44",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on Energy and Commerce",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.502,
     "dw_nominate_dim2": -0.123,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9899,
-    "party_unity_bp_pct": 0.303,
-    "maverick_votes": 3,
-    "bipartisan_votes": 90,
-    "maverick_bipartisan": 0,
-    "total_votes": 297,
+    "party_unity_pct": 0.9843,
+    "party_unity_bp_pct": 0.2947,
+    "maverick_votes": 5,
+    "bipartisan_votes": 94,
+    "maverick_bipartisan": 1,
+    "total_votes": 319,
     "missed_votes": 14,
-    "maverick_votes_all": 842,
-    "bipartisan_votes_all": 834,
-    "maverick_bipartisan_all": 9,
-    "total_votes_all": 4600,
+    "maverick_votes_all": 844,
+    "bipartisan_votes_all": 838,
+    "maverick_bipartisan_all": 10,
+    "total_votes_all": 4622,
     "missed_votes_all": 101,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 86,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 61,
-    "party_unity_percentile_party": 88,
+    "party_unity_percentile_party": 80,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 22
+    "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -90,12 +90,54 @@
     },
     {
       "congress": 119,
-      "dim1": -0.567,
-      "dim2": -0.15
+      "dim1": -0.506,
+      "dim2": -0.186
     }
   ],
   "lobbying_contributions": [],
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -1876,44 +1918,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Suzanne Bonamici",
-      "distance": 0.0022360679774998163
-    },
-    {
-      "name": "Lloyd A. Doggett",
-      "distance": 0.002906888370749739
-    },
-    {
-      "name": "Mark Pocan",
-      "distance": 0.0032140317359976725
-    },
-    {
-      "name": "Chellie Pingree",
-      "distance": 0.003905124837953355
-    },
-    {
-      "name": "Mary Gay Scanlon",
-      "distance": 0.003982461550347935
-    },
-    {
-      "name": "Becca A. Balint",
-      "distance": 0.004210700654285439
+      "name": "Janice D. Schakowsky",
+      "distance": 0.0007615773105864017
     },
     {
       "name": "Emily Elissa Randall",
-      "distance": 0.004560701700396605
+      "distance": 0.000854400374531763
     },
     {
-      "name": "Janice D. Schakowsky",
-      "distance": 0.004981967482832466
+      "name": "Joe G. Wilson",
+      "distance": 0.0022000000000000353
     },
     {
-      "name": "Paul Tonko",
-      "distance": 0.005240229002629536
+      "name": "Robin L. Kelly",
+      "distance": 0.0033970575502925452
+    },
+    {
+      "name": "Joaquin Castro",
+      "distance": 0.0034058772731852443
+    },
+    {
+      "name": "Lloyd A. Doggett",
+      "distance": 0.003405877273185352
+    },
+    {
+      "name": "Mark Pocan",
+      "distance": 0.0035014282800023776
+    },
+    {
+      "name": "Becca A. Balint",
+      "distance": 0.003640054944640316
+    },
+    {
+      "name": "Suzanne Bonamici",
+      "distance": 0.0036878177829172062
     },
     {
       "name": "Mark DeSaulnier",
-      "distance": 0.006000833275471004
+      "distance": 0.004140048308896956
     }
   ]
 }

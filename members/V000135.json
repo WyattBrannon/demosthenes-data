@@ -4,7 +4,7 @@
     "party": "R",
     "state": "WI",
     "district": "03",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Agriculture",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": 0.378,
     "dw_nominate_dim2": -0.017,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9723,
-    "party_unity_bp_pct": 0.3149,
-    "maverick_votes": 8,
-    "bipartisan_votes": 91,
-    "maverick_bipartisan": 5,
-    "total_votes": 289,
+    "party_unity_pct": 0.9646,
+    "party_unity_bp_pct": 0.3087,
+    "maverick_votes": 11,
+    "bipartisan_votes": 96,
+    "maverick_bipartisan": 7,
+    "total_votes": 311,
     "missed_votes": 22,
-    "maverick_votes_all": 118,
-    "bipartisan_votes_all": 492,
-    "maverick_bipartisan_all": 87,
-    "total_votes_all": 1486,
+    "maverick_votes_all": 121,
+    "bipartisan_votes_all": 497,
+    "maverick_bipartisan_all": 89,
+    "total_votes_all": 1508,
     "missed_votes_all": 60,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 18,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
-    "party_unity_percentile_party": 45,
+    "party_unity_percentile_party": 34,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 7
+    "reliability_percentile_party": 9
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,8 +95,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.433,
-      "dim2": -0.033
+      "dim1": 0.394,
+      "dim2": -0.147
     }
   ],
   "lobbying_contributions": [
@@ -143,6 +143,69 @@
   ],
   "lobbying_sum": 132500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -286,27 +349,6 @@
         "code": "HR4553",
         "type": null,
         "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
         "congress": 119,
         "title": ""
       }
@@ -2065,44 +2107,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Brian J. Mast",
-      "distance": 0.0012369316876852832
+      "name": "Michael Guest",
+      "distance": 0.0008485281374239206
     },
     {
-      "name": "Jimmy Gomez",
-      "distance": 0.0020615528128088458
+      "name": "Brian Timothy Jack",
+      "distance": 0.003394112549695368
     },
     {
-      "name": "Jahana Hayes",
-      "distance": 0.0026400757564887705
-    },
-    {
-      "name": "Tom More Barrett",
-      "distance": 0.0026400757564887705
-    },
-    {
-      "name": "Bennie G. Thompson",
-      "distance": 0.003443835071544482
-    },
-    {
-      "name": "John Edwards James",
-      "distance": 0.004440720662234972
-    },
-    {
-      "name": "Brad J. Sherman",
-      "distance": 0.004579301256742173
-    },
-    {
-      "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.0049091750834534134
+      "name": "Robert Jacobsen Menendez",
+      "distance": 0.0054332310828824155
     },
     {
       "name": "Ryan Zinke",
-      "distance": 0.005544366510251702
+      "distance": 0.0054571054598568655
     },
     {
-      "name": "Brad Finstad",
-      "distance": 0.005800862004909219
+      "name": "Gary J. Palmer",
+      "distance": 0.005787054518492098
+    },
+    {
+      "name": "Brad J. Sherman",
+      "distance": 0.006592419889539753
+    },
+    {
+      "name": "Addison Parker McDowell",
+      "distance": 0.007467261881037791
+    },
+    {
+      "name": "Mike Ezell",
+      "distance": 0.0077820305833374995
+    },
+    {
+      "name": "Ron Estes",
+      "distance": 0.007844743462982019
+    },
+    {
+      "name": "Michael T. McCaul",
+      "distance": 0.00788162419809519
     }
   ]
 }

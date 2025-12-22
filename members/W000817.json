@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MA",
     "district": null,
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -85,31 +85,31 @@
     "dw_nominate_dim1": -0.744,
     "dw_nominate_dim2": -0.364,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9534,
-    "party_unity_bp_pct": 0.0241,
-    "maverick_votes": 29,
+    "party_unity_pct": 0.9529,
+    "party_unity_bp_pct": 0.0235,
+    "maverick_votes": 30,
     "bipartisan_votes": 15,
     "maverick_bipartisan": 2,
-    "total_votes": 622,
+    "total_votes": 637,
     "missed_votes": 9,
-    "maverick_votes_all": 1135,
+    "maverick_votes_all": 1136,
     "bipartisan_votes_all": 301,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 4432,
+    "total_votes_all": 4447,
     "missed_votes_all": 317,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 99,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 86,
     "party_unity_percentile_party": 29,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 57
+    "reliability_percentile_party": 59
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -148,8 +148,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.721,
-      "dim2": -0.662
+      "dim1": -0.722,
+      "dim2": -0.66
     }
   ],
   "lobbying_contributions": [
@@ -196,6 +196,27 @@
   ],
   "lobbying_sum": 92000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -381,27 +402,6 @@
         "code": "PN1226",
         "type": null,
         "number": "PN1226",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-01",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Agreed to",
-      "vote_desc": "In the nature of a substitute.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 87,
-      "nay": 9,
-      "present": 0,
-      "bill": {
-        "code": "HR3944",
-        "type": null,
-        "number": "HR3944",
         "congress": 119,
         "title": ""
       }
@@ -2728,43 +2728,43 @@
   "vote_record_similar": [
     {
       "name": "Bernard Sanders",
-      "distance": 0.0026627053911388535
+      "distance": 0.0026076809620810414
     },
     {
       "name": "Christopher S. Murphy",
-      "distance": 0.004310452412450432
+      "distance": 0.004031128874149278
     },
     {
       "name": "Edward J. Markey",
-      "distance": 0.004404543109109064
+      "distance": 0.0042638011210655215
     },
     {
       "name": "Jeff Merkley",
-      "distance": 0.007382411530116635
+      "distance": 0.007201388754955587
     },
     {
       "name": "Chris Van Hollen",
-      "distance": 0.014312581877495002
+      "distance": 0.014000357138301934
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.02129413064672987
+      "distance": 0.023628161164170193
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.027930270317345622
+      "distance": 0.027291940202191552
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.02866653100743096
+      "distance": 0.028040863039500073
     },
     {
       "name": "Tina Flint Smith",
-      "distance": 0.030079394940723106
+      "distance": 0.029439089659838356
     },
     {
       "name": "Alejandro Padilla",
-      "distance": 0.030652895458667524
+      "distance": 0.029954131601500324
     }
   ]
 }

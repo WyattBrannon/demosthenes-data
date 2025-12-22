@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "30",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.385,
     "dw_nominate_dim2": -0.12,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9837,
-    "party_unity_bp_pct": 0.3225,
-    "maverick_votes": 5,
-    "bipartisan_votes": 99,
-    "maverick_bipartisan": 3,
-    "total_votes": 307,
+    "party_unity_pct": 0.9787,
+    "party_unity_bp_pct": 0.3131,
+    "maverick_votes": 7,
+    "bipartisan_votes": 103,
+    "maverick_bipartisan": 4,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 5,
-    "bipartisan_votes_all": 99,
-    "maverick_bipartisan_all": 3,
-    "total_votes_all": 307,
+    "maverick_votes_all": 7,
+    "bipartisan_votes_all": 103,
+    "maverick_bipartisan_all": 4,
+    "total_votes_all": 329,
     "missed_votes_all": 4,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 51,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 60,
-    "party_unity_percentile_party": 73,
+    "party_unity_percentile_party": 68,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 61
+    "reliability_percentile_party": 64
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.419,
-      "dim2": -0.047
+      "dim1": -0.389,
+      "dim2": -0.125
     }
   ],
   "lobbying_contributions": [
@@ -130,6 +130,48 @@
   ],
   "lobbying_sum": 51750.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -2722,44 +2764,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Steny H. Hoyer",
-      "distance": 0.0009219544457293076
-    },
-    {
-      "name": "Jason Crow",
-      "distance": 0.001104536101718715
-    },
-    {
-      "name": "Julie Ann Fedorchak",
-      "distance": 0.0013341664064126487
-    },
-    {
-      "name": "Lori Trahan",
-      "distance": 0.0018357559750685794
-    },
-    {
-      "name": "Kathy Castor",
-      "distance": 0.003289376840679694
-    },
-    {
-      "name": "Glenn Frederick Ivey",
-      "distance": 0.003352610922848024
-    },
-    {
-      "name": "Joe Neguse",
-      "distance": 0.003401470270338948
-    },
-    {
-      "name": "Christopher H. Smith",
-      "distance": 0.0036055512754640663
-    },
-    {
-      "name": "Yassamin Ansari",
-      "distance": 0.00361386219991859
+      "name": "Richard Hudson",
+      "distance": 0.0007280109889280784
     },
     {
       "name": "Frank J. Pallone",
-      "distance": 0.003780211634287143
+      "distance": 0.0011180339887498808
+    },
+    {
+      "name": "Yassamin Ansari",
+      "distance": 0.0014317821063276404
+    },
+    {
+      "name": "Vern Buchanan",
+      "distance": 0.0015524174696259529
+    },
+    {
+      "name": "Roger Williams",
+      "distance": 0.002416609194718947
+    },
+    {
+      "name": "Steve Cohen",
+      "distance": 0.003132091952673171
+    },
+    {
+      "name": "David Schweikert",
+      "distance": 0.003306055050963276
+    },
+    {
+      "name": "Kathy Castor",
+      "distance": 0.0033837848631377045
+    },
+    {
+      "name": "Lizzie Fletcher",
+      "distance": 0.003661966684720108
+    },
+    {
+      "name": "Troy Anthony Carter",
+      "distance": 0.003805259518088114
     }
   ]
 }

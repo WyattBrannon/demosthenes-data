@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.432,
     "dw_nominate_dim2": -0.031,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.977,
-    "party_unity_bp_pct": 0.3355,
-    "maverick_votes": 7,
-    "bipartisan_votes": 102,
-    "maverick_bipartisan": 6,
-    "total_votes": 304,
+    "party_unity_pct": 0.9755,
+    "party_unity_bp_pct": 0.3282,
+    "maverick_votes": 8,
+    "bipartisan_votes": 107,
+    "maverick_bipartisan": 7,
+    "total_votes": 326,
     "missed_votes": 7,
-    "maverick_votes_all": 35,
-    "bipartisan_votes_all": 711,
-    "maverick_bipartisan_all": 19,
-    "total_votes_all": 2042,
+    "maverick_votes_all": 36,
+    "bipartisan_votes_all": 716,
+    "maverick_bipartisan_all": 20,
+    "total_votes_all": 2064,
     "missed_votes_all": 44,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 66,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
-    "party_unity_percentile_party": 60,
+    "party_unity_percentile_party": 58,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 44
+    "reliability_percentile_party": 47
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.427,
-      "dim2": 0.237
+      "dim1": -0.443,
+      "dim2": 0.319
     }
   ],
   "lobbying_contributions": [
@@ -136,6 +136,27 @@
   ],
   "lobbying_sum": 25098.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Passed",
+      "vote_desc": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 237,
+      "nay": 140,
+      "present": 0,
+      "bill": {
+        "code": "HRES939",
+        "type": null,
+        "number": "HRES939",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -1546,44 +1567,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "David Kustoff",
-      "distance": 0.00019999999999997797
-    },
-    {
-      "name": "Adrian Smith",
-      "distance": 0.001104536101718715
-    },
-    {
-      "name": "Bill Huizenga",
-      "distance": 0.00117046999107199
-    },
-    {
-      "name": "Jefferson Van Drew",
-      "distance": 0.003306055050963276
-    },
-    {
-      "name": "Raja Krishnamoorthi",
-      "distance": 0.0033060550509633317
-    },
-    {
-      "name": "Nicholas A. Langworthy",
-      "distance": 0.0033837848631377227
+      "name": "Valerie Anne Hoyle",
+      "distance": 0.0010049875621120888
     },
     {
       "name": "Dale Strong",
-      "distance": 0.0038832975677894925
+      "distance": 0.0010049875621120888
+    },
+    {
+      "name": "Chris Raphael Deluzio",
+      "distance": 0.0010295630140986836
     },
     {
       "name": "Robert B. Aderholt",
-      "distance": 0.004134005321718822
+      "distance": 0.0010440306508910783
     },
     {
-      "name": "Sarah Kelly Elfreth",
-      "distance": 0.0042544094772365565
+      "name": "Rick Larsen",
+      "distance": 0.0013892443989449792
     },
     {
-      "name": "Robert E. Latta",
-      "distance": 0.0042544094772365565
+      "name": "Andrea Rose Salinas",
+      "distance": 0.001923538406167142
+    },
+    {
+      "name": "Lois Frankel",
+      "distance": 0.0030413812651491215
+    },
+    {
+      "name": "Raul Ruiz",
+      "distance": 0.0030999999999999917
+    },
+    {
+      "name": "Ann Wagner",
+      "distance": 0.0030999999999999917
+    },
+    {
+      "name": "Mike Rogers",
+      "distance": 0.003114482300479487
     }
   ]
 }

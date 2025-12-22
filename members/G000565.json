@@ -4,7 +4,7 @@
     "party": "R",
     "state": "AZ",
     "district": "09",
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.703,
     "dw_nominate_dim2": -0.517,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8829,
-    "party_unity_bp_pct": 0.204,
-    "maverick_votes": 35,
-    "bipartisan_votes": 61,
+    "party_unity_pct": 0.8847,
+    "party_unity_bp_pct": 0.1963,
+    "maverick_votes": 37,
+    "bipartisan_votes": 63,
     "maverick_bipartisan": 1,
-    "total_votes": 299,
+    "total_votes": 321,
     "missed_votes": 12,
-    "maverick_votes_all": 1839,
-    "bipartisan_votes_all": 464,
+    "maverick_votes_all": 1841,
+    "bipartisan_votes_all": 466,
     "maverick_bipartisan_all": 40,
-    "total_votes_all": 8296,
+    "total_votes_all": 8318,
     "missed_votes_all": 531,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 83,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
     "party_unity_percentile_party": 6,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 24
+    "reliability_percentile_party": 27
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,8 +113,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.758,
-      "dim2": -0.54
+      "dim1": 0.741,
+      "dim2": -0.586
     }
   ],
   "lobbying_contributions": [
@@ -141,6 +141,48 @@
   ],
   "lobbying_sum": 8000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -305,48 +347,6 @@
         "code": "HR4553",
         "type": null,
         "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Great Lakes Mass Marking Program Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 360,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR1917",
-        "type": null,
-        "number": "HR1917",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Improving Access to Small Business Information Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 387,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR3351",
-        "type": null,
-        "number": "HR3351",
         "congress": 119,
         "title": ""
       }
@@ -2861,43 +2861,43 @@
   "vote_record_similar": [
     {
       "name": "Lauren Opal Boebert",
-      "distance": 0.007736924453553829
+      "distance": 0.003984971769034175
     },
     {
       "name": "Keith Alan Self",
-      "distance": 0.011926860441876587
+      "distance": 0.01112205017071942
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.013138112497615487
-    },
-    {
-      "name": "Margaret Wood Hassan",
-      "distance": 0.019597193676646647
-    },
-    {
-      "name": "Angus S. King",
-      "distance": 0.02026153992173353
-    },
-    {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.02100000000000002
+      "distance": 0.012264175471673584
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.0237655212440207
+      "distance": 0.01690709910067367
     },
     {
-      "name": "Jeanne Shaheen",
-      "distance": 0.02401874268149777
+      "name": "Lisa A. Murkowski",
+      "distance": 0.016961426826773804
     },
     {
       "name": "Susan M. Collins",
-      "distance": 0.02656106172576691
+      "distance": 0.017551353224181904
     },
     {
-      "name": "Eli Crane",
-      "distance": 0.02757535131235865
+      "name": "Margaret Wood Hassan",
+      "distance": 0.01970000000000007
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.020209403751719153
+    },
+    {
+      "name": "Ralph Norman",
+      "distance": 0.021424518664371475
+    },
+    {
+      "name": "Jeanne Shaheen",
+      "distance": 0.024493468517137424
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "AK",
     "district": null,
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": 0.476,
     "dw_nominate_dim2": 0.158,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9755,
-    "party_unity_bp_pct": 0.0884,
-    "maverick_votes": 15,
-    "bipartisan_votes": 54,
-    "maverick_bipartisan": 14,
-    "total_votes": 611,
+    "party_unity_pct": 0.9744,
+    "party_unity_bp_pct": 0.0895,
+    "maverick_votes": 16,
+    "bipartisan_votes": 56,
+    "maverick_bipartisan": 15,
+    "total_votes": 626,
     "missed_votes": 20,
-    "maverick_votes_all": 395,
-    "bipartisan_votes_all": 412,
-    "maverick_bipartisan_all": 130,
-    "total_votes_all": 3923,
+    "maverick_votes_all": 396,
+    "bipartisan_votes_all": 414,
+    "maverick_bipartisan_all": 131,
+    "total_votes_all": 3938,
     "missed_votes_all": 169,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 41,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 54,
+    "party_unity_percentile_party": 48,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 36
+    "reliability_percentile_party": 34
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -131,8 +131,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.303,
-      "dim2": 0.315
+      "dim1": 0.304,
+      "dim2": 0.317
     }
   ],
   "lobbying_contributions": [
@@ -179,6 +179,27 @@
   ],
   "lobbying_sum": 685255.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "A bill to amend the Internal Revenue Code of 1986 to extend the enhancement of the health care premium tax credit.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 51,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "S3385",
+        "type": null,
+        "number": "S3385",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "senate",
@@ -359,27 +380,6 @@
       "member_position": "Yea",
       "yea": 48,
       "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "HCONRES14",
-        "type": null,
-        "number": "HCONRES14",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-04",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Rejected",
-      "vote_desc": "To establish a deficit-neutral reserve fund relating to reversing cuts to the Social Security Administration, which may include cuts ordered by the Department of Government Efficiency or any other cuts to seniors' services.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 49,
-      "nay": 50,
       "present": 0,
       "bill": {
         "code": "HCONRES14",
@@ -3503,44 +3503,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "John Thune",
-      "distance": 0.009154780172128663
-    },
-    {
       "name": "Mitch McConnell",
-      "distance": 0.009879271228182844
+      "distance": 0.009263368717696643
     },
     {
       "name": "Thom Tillis",
-      "distance": 0.010068763578513485
+      "distance": 0.009487360012142475
     },
     {
-      "name": "Maria Cantwell",
-      "distance": 0.0106230880632705
+      "name": "John Thune",
+      "distance": 0.011204463396343406
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.015781318069160152
+      "distance": 0.013392908571329852
     },
     {
-      "name": "Tammy Baldwin",
-      "distance": 0.017487424052730006
+      "name": "Maria Cantwell",
+      "distance": 0.013523682930326332
     },
     {
       "name": "Michael F. Bennet",
-      "distance": 0.01833575741549827
+      "distance": 0.01600156242371354
+    },
+    {
+      "name": "Tammy Baldwin",
+      "distance": 0.01834475401851985
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.020523401277566085
+      "distance": 0.019250974001333052
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.02088372572124045
+      "distance": 0.01933520105920805
     },
     {
-      "name": "Mike Rounds",
-      "distance": 0.02229910312097773
+      "name": "Jerry Moran",
+      "distance": 0.024122396232547035
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "VA",
     "district": null,
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -69,31 +69,31 @@
     "dw_nominate_dim1": -0.243,
     "dw_nominate_dim2": -0.099,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9024,
-    "party_unity_bp_pct": 0.1536,
-    "maverick_votes": 61,
-    "bipartisan_votes": 96,
-    "maverick_bipartisan": 58,
-    "total_votes": 625,
+    "party_unity_pct": 0.9031,
+    "party_unity_bp_pct": 0.1531,
+    "maverick_votes": 62,
+    "bipartisan_votes": 98,
+    "maverick_bipartisan": 59,
+    "total_votes": 640,
     "missed_votes": 6,
-    "maverick_votes_all": 896,
-    "bipartisan_votes_all": 421,
-    "maverick_bipartisan_all": 67,
-    "total_votes_all": 4661,
+    "maverick_votes_all": 897,
+    "bipartisan_votes_all": 423,
+    "maverick_bipartisan_all": 68,
+    "total_votes_all": 4676,
     "missed_votes_all": 88,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 13,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 55,
-    "party_unity_percentile_party": 8,
+    "party_unity_percentile_party": 9,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 71
+    "reliability_percentile_party": 68
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -132,8 +132,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.216,
-      "dim2": -0.223
+      "dim1": -0.213,
+      "dim2": -0.229
     }
   ],
   "lobbying_contributions": [
@@ -180,6 +180,27 @@
   ],
   "lobbying_sum": 2788777.28,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -355,27 +376,6 @@
       "vote_result": "Amendment Agreed to",
       "vote_desc": "In the nature of a substitute.",
       "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 60,
-      "nay": 40,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-10",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On the Cloture Motion",
       "dtl_desc": "",
       "result": "",
       "member_position": "Yea",
@@ -3034,43 +3034,43 @@
   "vote_record_similar": [
     {
       "name": "Ruben Gallego",
-      "distance": 0.0029120439557122108
-    },
-    {
-      "name": "Elissa Slotkin",
-      "distance": 0.006440496875241871
-    },
-    {
-      "name": "Mark Kelly",
-      "distance": 0.008000000000000007
+      "distance": 0.0025961509971494452
     },
     {
       "name": "Catherine Cortez Masto",
-      "distance": 0.009097252332435348
+      "distance": 0.006760177512462204
+    },
+    {
+      "name": "Mark Kelly",
+      "distance": 0.00810061726043145
+    },
+    {
+      "name": "Elissa Slotkin",
+      "distance": 0.00828552955459094
     },
     {
       "name": "Mark R. Warner",
-      "distance": 0.02503517525403011
+      "distance": 0.02220720603768066
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.03157736531124785
+      "distance": 0.03113213773578675
     },
     {
       "name": "Susan M. Collins",
-      "distance": 0.032014059411452335
+      "distance": 0.03561867487709224
+    },
+    {
+      "name": "Ralph Norman",
+      "distance": 0.04025481337678765
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.03938781537480851
+      "distance": 0.04071719538475112
     },
     {
       "name": "Rand Paul",
-      "distance": 0.04160829244273308
-    },
-    {
-      "name": "John Wright Hickenlooper",
-      "distance": 0.042427938908224175
+      "distance": 0.04251799618984884
     }
   ]
 }

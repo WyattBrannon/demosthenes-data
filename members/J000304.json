@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "13",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Agriculture",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": 0.785,
     "dw_nominate_dim2": 0.16,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9498,
-    "party_unity_bp_pct": 0.2776,
-    "maverick_votes": 15,
-    "bipartisan_votes": 83,
+    "party_unity_pct": 0.95,
+    "party_unity_bp_pct": 0.2687,
+    "maverick_votes": 16,
+    "bipartisan_votes": 86,
     "maverick_bipartisan": 1,
-    "total_votes": 299,
-    "missed_votes": 12,
-    "maverick_votes_all": 207,
-    "bipartisan_votes_all": 649,
+    "total_votes": 320,
+    "missed_votes": 13,
+    "maverick_votes_all": 208,
+    "bipartisan_votes_all": 652,
     "maverick_bipartisan_all": 5,
-    "total_votes_all": 2444,
-    "missed_votes_all": 98,
+    "total_votes_all": 2465,
+    "missed_votes_all": 99,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 91,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 22,
+    "party_unity_percentile_party": 23,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -116,8 +116,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.914,
-      "dim2": 0.405
+      "dim1": 0.918,
+      "dim2": 0.396
     }
   ],
   "lobbying_contributions": [
@@ -164,6 +164,27 @@
   ],
   "lobbying_sum": 181487.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -352,30 +373,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-05-19",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Strengthening the Quad Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 334,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "HR1263",
-        "type": null,
-        "number": "HR1263",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "house",
@@ -556,27 +577,6 @@
       "member_position": "Not Voting",
       "yea": 92,
       "nay": 321,
-      "present": 0,
-      "bill": {
-        "code": "HR1048",
-        "type": null,
-        "number": "HR1048",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-27",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 3,
-      "nay": 410,
       "present": 0,
       "bill": {
         "code": "HR1048",
@@ -3247,44 +3247,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Abraham Jamal Hamadeh",
-      "distance": 0.0020248456731316823
-    },
-    {
       "name": "John Joyce",
-      "distance": 0.0024186773244895465
+      "distance": 0.0019416487838947462
     },
     {
-      "name": "Mikie Sherrill",
-      "distance": 0.0038897300677553487
-    },
-    {
-      "name": "Brad Knott",
-      "distance": 0.006560487786742678
+      "name": "Abraham Jamal Hamadeh",
+      "distance": 0.002280350850198336
     },
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.00860058137569783
+      "distance": 0.004242640687119266
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.00860058137569783
+      "distance": 0.004242640687119266
     },
     {
-      "name": "Jim Jordan",
-      "distance": 0.008646964785403024
+      "name": "Brad Knott",
+      "distance": 0.0063702433234531205
     },
     {
       "name": "Cory Mills",
-      "distance": 0.009838699100999083
-    },
-    {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.01010742301479465
+      "distance": 0.00882383136738231
     },
     {
       "name": "Morgan Joe Luttrell",
-      "distance": 0.010705606008068858
+      "distance": 0.009546203433826502
+    },
+    {
+      "name": "Troy E. Nehls",
+      "distance": 0.010733592129385223
+    },
+    {
+      "name": "Brittany Louise Pettersen",
+      "distance": 0.011135977729862804
+    },
+    {
+      "name": "Mikie Sherrill",
+      "distance": 0.011981652640600127
     }
   ]
 }

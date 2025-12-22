@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MD",
     "district": "08",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -25,31 +25,31 @@
     "dw_nominate_dim1": -0.511,
     "dw_nominate_dim2": -0.228,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9902,
-    "party_unity_bp_pct": 0.3192,
-    "maverick_votes": 3,
-    "bipartisan_votes": 98,
+    "party_unity_pct": 0.9878,
+    "party_unity_bp_pct": 0.307,
+    "maverick_votes": 4,
+    "bipartisan_votes": 101,
     "maverick_bipartisan": 1,
-    "total_votes": 307,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 864,
-    "bipartisan_votes_all": 846,
+    "maverick_votes_all": 865,
+    "bipartisan_votes_all": 849,
     "maverick_bipartisan_all": 5,
-    "total_votes_all": 4651,
+    "total_votes_all": 4673,
     "missed_votes_all": 50,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 87,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 91,
+    "party_unity_percentile_party": 89,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 61
+    "reliability_percentile_party": 64
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.43,
-      "dim2": -0.19
+      "dim1": -0.42,
+      "dim2": -0.274
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 159546.66,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -1540,44 +1561,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Julia Brownley",
-      "distance": 0.00014142135623729392
-    },
-    {
-      "name": "Linda T. S\u00e1nchez",
-      "distance": 0.000223606797750004
-    },
-    {
-      "name": "Alma S. Adams",
-      "distance": 0.0009219544457292414
-    },
-    {
       "name": "August Lee Pfluger",
-      "distance": 0.0010999999999999899
+      "distance": 0.0009000000000000119
     },
     {
-      "name": "Jefferson Scott Shreve",
-      "distance": 0.0011999999999999789
-    },
-    {
-      "name": "Melanie Ann Stansbury",
-      "distance": 0.002507987240796891
-    },
-    {
-      "name": "Richard E. Neal",
-      "distance": 0.002668332812825243
-    },
-    {
-      "name": "Lauren Underwood",
-      "distance": 0.0031016124838541556
+      "name": "Emanuel Cleaver",
+      "distance": 0.0014317821063276404
     },
     {
       "name": "Rudy Yakym",
-      "distance": 0.0032280024783137742
+      "distance": 0.0023086792761230616
     },
     {
-      "name": "Adam Smith",
-      "distance": 0.0033241540277189167
+      "name": "Melanie Ann Stansbury",
+      "distance": 0.0027073972741361555
+    },
+    {
+      "name": "Shontel M. Brown",
+      "distance": 0.002886173937932381
+    },
+    {
+      "name": "Maria Elvira Salazar",
+      "distance": 0.003001666203960692
+    },
+    {
+      "name": "Diana L. DeGette",
+      "distance": 0.003132091952673171
+    },
+    {
+      "name": "Austin Scott",
+      "distance": 0.003138470965295048
+    },
+    {
+      "name": "Lauren Underwood",
+      "distance": 0.003206243908376259
+    },
+    {
+      "name": "Judy M. Chu",
+      "distance": 0.0034669871646719618
     }
   ]
 }

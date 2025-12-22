@@ -4,7 +4,7 @@
     "party": "R",
     "state": "VA",
     "district": "05",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Armed Services",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.713,
     "dw_nominate_dim2": -0.332,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9253,
-    "party_unity_bp_pct": 0.25,
-    "maverick_votes": 23,
-    "bipartisan_votes": 77,
-    "maverick_bipartisan": 1,
-    "total_votes": 308,
-    "missed_votes": 3,
-    "maverick_votes_all": 23,
-    "bipartisan_votes_all": 77,
-    "maverick_bipartisan_all": 1,
-    "total_votes_all": 308,
-    "missed_votes_all": 3,
+    "party_unity_pct": 0.924,
+    "party_unity_bp_pct": 0.2432,
+    "maverick_votes": 25,
+    "bipartisan_votes": 80,
+    "maverick_bipartisan": 2,
+    "total_votes": 329,
+    "missed_votes": 4,
+    "maverick_votes_all": 25,
+    "bipartisan_votes_all": 80,
+    "maverick_bipartisan_all": 2,
+    "total_votes_all": 329,
+    "missed_votes_all": 4,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 84,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 85,
-    "party_unity_percentile_party": 13,
+    "party_unity_percentile_party": 11,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 73
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.671,
-      "dim2": -0.339
+      "dim1": 0.668,
+      "dim2": -0.35
     }
   ],
   "lobbying_contributions": [
@@ -130,6 +130,48 @@
   ],
   "lobbying_sum": 120000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 211,
+      "nay": 219,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -297,51 +339,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 355,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-02",
       "chamber": "house",
@@ -1235,44 +1256,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Thomas P. Tiffany",
-      "distance": 0.0025019992006393623
-    },
-    {
       "name": "Mike Allen Collins",
-      "distance": 0.0041048751503547495
+      "distance": 0.00305286750449469
     },
     {
       "name": "Mark Everette Harris",
-      "distance": 0.004716990566028335
-    },
-    {
-      "name": "Harriet Maxine Hageman",
-      "distance": 0.004825971404805482
+      "distance": 0.003132091952673171
     },
     {
       "name": "Ben Cline",
-      "distance": 0.005507267925205787
+      "distance": 0.0038639358172723156
     },
     {
-      "name": "Aaron Paul Bean",
-      "distance": 0.005656854249492385
+      "name": "Thomas P. Tiffany",
+      "distance": 0.0048795491595023145
     },
     {
-      "name": "Warren Davidson",
-      "distance": 0.011317685275708981
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.0053037722424703945
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.010141498903022197
     },
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.01251598977308628
+      "distance": 0.010344563789740004
     },
     {
-      "name": "Diana Harshbarger",
-      "distance": 0.01268108828137397
+      "name": "Aaron Paul Bean",
+      "distance": 0.011576268828944768
     },
     {
       "name": "Mary E. Miller",
-      "distance": 0.013697079980784255
+      "distance": 0.012841339493993598
+    },
+    {
+      "name": "Diana Harshbarger",
+      "distance": 0.014807092894960806
     }
   ]
 }

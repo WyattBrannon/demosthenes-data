@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MN",
     "district": "05",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Education and Workforce",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.296,
     "dw_nominate_dim2": -0.955,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9536,
-    "party_unity_bp_pct": 0.2914,
-    "maverick_votes": 14,
-    "bipartisan_votes": 88,
+    "party_unity_pct": 0.9537,
+    "party_unity_bp_pct": 0.2809,
+    "maverick_votes": 15,
+    "bipartisan_votes": 91,
     "maverick_bipartisan": 2,
-    "total_votes": 302,
+    "total_votes": 324,
     "missed_votes": 9,
-    "maverick_votes_all": 218,
-    "bipartisan_votes_all": 755,
+    "maverick_votes_all": 219,
+    "bipartisan_votes_all": 758,
     "maverick_bipartisan_all": 19,
-    "total_votes_all": 3410,
+    "total_votes_all": 3432,
     "missed_votes_all": 84,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 26,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 99,
-    "party_unity_percentile_party": 30,
+    "party_unity_percentile_party": 31,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 34
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -85,8 +85,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.349,
-      "dim2": -0.892
+      "dim1": -0.352,
+      "dim2": -0.89
     }
   ],
   "lobbying_contributions": [
@@ -133,6 +133,27 @@
   ],
   "lobbying_sum": 371456.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -318,27 +339,6 @@
         "code": "S331",
         "type": null,
         "number": "S331",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "MEGOBARI Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 349,
-      "nay": 42,
-      "present": 0,
-      "bill": {
-        "code": "HR36",
-        "type": null,
-        "number": "HR36",
         "congress": 119,
         "title": ""
       }
@@ -2608,44 +2608,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Nancy Ruth Mace",
-      "distance": 0.0029274562336608968
-    },
-    {
-      "name": "Glenn Grothman",
-      "distance": 0.003862641583165642
-    },
-    {
-      "name": "James Comer",
-      "distance": 0.004780167361086832
-    },
-    {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.0048662100242385506
-    },
-    {
-      "name": "Tony Wied",
-      "distance": 0.005015974481593826
-    },
-    {
       "name": "Jim Jordan",
-      "distance": 0.00595399025864167
-    },
-    {
-      "name": "Morgan Joe Luttrell",
-      "distance": 0.006536818798161662
+      "distance": 0.0
     },
     {
       "name": "Brittany Louise Pettersen",
-      "distance": 0.00842199501305953
+      "distance": 0.0025059928172283057
     },
     {
-      "name": "Nicholas Joseph Begich",
-      "distance": 0.010538500842150187
+      "name": "Glenn Grothman",
+      "distance": 0.0036400549446402287
+    },
+    {
+      "name": "Derek Larkin Schmidt",
+      "distance": 0.003921734310225539
+    },
+    {
+      "name": "Tony Wied",
+      "distance": 0.004588027898781754
+    },
+    {
+      "name": "James Comer",
+      "distance": 0.005821511831131181
+    },
+    {
+      "name": "Morgan Joe Luttrell",
+      "distance": 0.0061773780845921665
+    },
+    {
+      "name": "Mikie Sherrill",
+      "distance": 0.006726812023536893
+    },
+    {
+      "name": "Nancy Ruth Mace",
+      "distance": 0.00953414914924245
     },
     {
       "name": "Summer Lynn Lee",
-      "distance": 0.011180339887498959
+      "distance": 0.010423531071570683
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "WA",
     "district": null,
-    "tenure_years": 32.9,
+    "tenure_years": 33.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -93,31 +93,31 @@
     "dw_nominate_dim1": -0.355,
     "dw_nominate_dim2": -0.316,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9813,
-    "party_unity_bp_pct": 0.0409,
-    "maverick_votes": 11,
+    "party_unity_pct": 0.9801,
+    "party_unity_bp_pct": 0.0399,
+    "maverick_votes": 12,
     "bipartisan_votes": 24,
     "maverick_bipartisan": 0,
-    "total_votes": 587,
+    "total_votes": 602,
     "missed_votes": 44,
-    "maverick_votes_all": 3061,
+    "maverick_votes_all": 3062,
     "bipartisan_votes_all": 345,
     "maverick_bipartisan_all": 2,
-    "total_votes_all": 11172,
+    "total_votes_all": 11187,
     "missed_votes_all": 296,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 41,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 83,
-    "party_unity_percentile_party": 68,
+    "party_unity_percentile_party": 71,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 12
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -206,8 +206,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.472,
-      "dim2": -0.257
+      "dim1": -0.475,
+      "dim2": -0.253
     }
   ],
   "lobbying_contributions": [
@@ -254,6 +254,27 @@
   ],
   "lobbying_sum": 114877.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -439,27 +460,6 @@
         "code": "PN113",
         "type": null,
         "number": "PN113",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-28",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Sean Duffy, of Wisconsin, to be Secretary of Transportation",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 77,
-      "nay": 22,
-      "present": 0,
-      "bill": {
-        "code": "PN116",
-        "type": null,
-        "number": "PN116",
         "congress": 119,
         "title": ""
       }
@@ -2998,43 +2998,43 @@
   "vote_record_similar": [
     {
       "name": "Tina Flint Smith",
-      "distance": 0.004965883607174007
-    },
-    {
-      "name": "Cynthia M. Lummis",
-      "distance": 0.011825819210524079
+      "distance": 0.004785394445602135
     },
     {
       "name": "Lisa Blunt Rochester",
-      "distance": 0.012037026210821304
+      "distance": 0.01231665539016174
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.013730622709840939
+      "distance": 0.013418271125595897
     },
     {
-      "name": "Rick Scott",
-      "distance": 0.013819189556555067
-    },
-    {
-      "name": "Ashley Brooke Moody",
-      "distance": 0.013894603268895446
-    },
-    {
-      "name": "John Neely Kennedy",
-      "distance": 0.014128694207179942
+      "name": "Cynthia M. Lummis",
+      "distance": 0.013572398461583724
     },
     {
       "name": "Mike Lee",
-      "distance": 0.014912075643584972
+      "distance": 0.014616771189288013
     },
     {
-      "name": "Ron Johnson",
-      "distance": 0.015618578680533035
+      "name": "Ashley Brooke Moody",
+      "distance": 0.014849915824677313
     },
     {
       "name": "Ted Cruz",
-      "distance": 0.015784169284444496
+      "distance": 0.015508062419270809
+    },
+    {
+      "name": "Rick Scott",
+      "distance": 0.015561812233798487
+    },
+    {
+      "name": "John Neely Kennedy",
+      "distance": 0.015700318468107592
+    },
+    {
+      "name": "Brian Emanuel Schatz",
+      "distance": 0.016858528998699704
     }
   ]
 }

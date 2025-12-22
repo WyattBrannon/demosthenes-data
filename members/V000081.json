@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NY",
     "district": "07",
-    "tenure_years": 32.9,
+    "tenure_years": 33.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.547,
     "dw_nominate_dim2": -0.367,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.977,
-    "party_unity_bp_pct": 0.2993,
-    "maverick_votes": 7,
-    "bipartisan_votes": 91,
+    "party_unity_pct": 0.9754,
+    "party_unity_bp_pct": 0.2892,
+    "maverick_votes": 8,
+    "bipartisan_votes": 94,
     "maverick_bipartisan": 0,
-    "total_votes": 304,
-    "missed_votes": 7,
-    "maverick_votes_all": 7456,
-    "bipartisan_votes_all": 802,
+    "total_votes": 325,
+    "missed_votes": 8,
+    "maverick_votes_all": 7457,
+    "bipartisan_votes_all": 805,
     "maverick_bipartisan_all": 4,
-    "total_votes_all": 19763,
-    "missed_votes_all": 778,
+    "total_votes_all": 19784,
+    "missed_votes_all": 779,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 93,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 87,
-    "party_unity_percentile_party": 60,
+    "party_unity_percentile_party": 57,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 44
+    "reliability_percentile_party": 41
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -162,12 +162,33 @@
     },
     {
       "congress": 119,
-      "dim1": -0.683,
-      "dim2": -0.28
+      "dim1": -0.662,
+      "dim2": -0.337
     }
   ],
   "lobbying_contributions": [],
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -317,6 +338,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -2344,43 +2386,43 @@
   "vote_record_similar": [
     {
       "name": "Randy K. Weber",
-      "distance": 0.00044721359549995833
+      "distance": 0.0004999999999999894
     },
     {
       "name": "Maxine Waters",
-      "distance": 0.0007810249675906221
-    },
-    {
-      "name": "Scott L. Fitzgerald",
-      "distance": 0.0010049875621120888
+      "distance": 0.0006082762530298645
     },
     {
       "name": "Maxwell Alejandro Frost",
-      "distance": 0.0017262676501631808
+      "distance": 0.000894427190999867
     },
     {
       "name": "Jodey C. Arrington",
-      "distance": 0.0017464249196572678
+      "distance": 0.001456021977856134
     },
     {
-      "name": "M\u00f3nica De La Cruz",
-      "distance": 0.002195449840010021
+      "name": "Tracey Robert Mann",
+      "distance": 0.0025632011235953277
     },
     {
       "name": "Patrick Edward Fallon",
-      "distance": 0.00312569992161755
+      "distance": 0.0026172504656604674
+    },
+    {
+      "name": "Gwen Moore",
+      "distance": 0.002692582403567203
+    },
+    {
+      "name": "Lance Gooden",
+      "distance": 0.0033615472627943517
     },
     {
       "name": "Alexandria Ocasio-Cortez",
-      "distance": 0.003635931792539568
+      "distance": 0.003820994634908572
     },
     {
-      "name": "Mike Bost",
-      "distance": 0.004022437072223711
-    },
-    {
-      "name": "Kevin Mullin",
-      "distance": 0.005859180830116099
+      "name": "Scott L. Fitzgerald",
+      "distance": 0.004384062043356582
     }
   ]
 }

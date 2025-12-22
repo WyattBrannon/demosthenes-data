@@ -4,7 +4,7 @@
     "party": "R",
     "state": "WV",
     "district": "02",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.801,
     "dw_nominate_dim2": 0.167,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.932,
-    "party_unity_bp_pct": 0.301,
+    "party_unity_pct": 0.9362,
+    "party_unity_bp_pct": 0.2888,
     "maverick_votes": 21,
-    "bipartisan_votes": 93,
+    "bipartisan_votes": 95,
     "maverick_bipartisan": 7,
-    "total_votes": 309,
-    "missed_votes": 2,
+    "total_votes": 329,
+    "missed_votes": 4,
     "maverick_votes_all": 21,
-    "bipartisan_votes_all": 93,
+    "bipartisan_votes_all": 95,
     "maverick_bipartisan_all": 7,
-    "total_votes_all": 309,
-    "missed_votes_all": 2,
+    "total_votes_all": 329,
+    "missed_votes_all": 4,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 92,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 73,
-    "party_unity_percentile_party": 15,
+    "party_unity_percentile_party": 16,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 79
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -70,8 +70,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.882,
-      "dim2": 0.471
+      "dim1": 0.88,
+      "dim2": 0.475
     }
   ],
   "lobbying_contributions": [
@@ -330,6 +330,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-15",
       "chamber": "house",
@@ -2477,43 +2519,43 @@
   "vote_record_similar": [
     {
       "name": "Jimmy Theo Patronis",
-      "distance": 0.01851323850653906
-    },
-    {
-      "name": "Cory Mills",
-      "distance": 0.02102379604162861
-    },
-    {
-      "name": "Nancy Ruth Mace",
-      "distance": 0.022233533232484656
-    },
-    {
-      "name": "Nicholas Joseph Begich",
-      "distance": 0.02251799280575421
-    },
-    {
-      "name": "Ilhan Omar",
-      "distance": 0.023637258724310606
-    },
-    {
-      "name": "Jim Jordan",
-      "distance": 0.02384806071780255
-    },
-    {
-      "name": "Russell William Fry",
-      "distance": 0.023858122306669484
-    },
-    {
-      "name": "Byron Lowell Donalds",
-      "distance": 0.024777812655680458
+      "distance": 0.011299999999999996
     },
     {
       "name": "Mikie Sherrill",
-      "distance": 0.025563450471327163
+      "distance": 0.013743725841270206
     },
     {
-      "name": "Addison Parker McDowell",
-      "distance": 0.026447306101000136
+      "name": "Byron Lowell Donalds",
+      "distance": 0.016643316977093252
+    },
+    {
+      "name": "Cory Mills",
+      "distance": 0.01755135322418187
+    },
+    {
+      "name": "Ilhan Omar",
+      "distance": 0.019200520826269243
+    },
+    {
+      "name": "Jim Jordan",
+      "distance": 0.019200520826269243
+    },
+    {
+      "name": "Nancy Ruth Mace",
+      "distance": 0.019649936386665432
+    },
+    {
+      "name": "Russell William Fry",
+      "distance": 0.02070603776679642
+    },
+    {
+      "name": "Brittany Louise Pettersen",
+      "distance": 0.021253235047869717
+    },
+    {
+      "name": "Glenn Grothman",
+      "distance": 0.021917344729688322
     }
   ]
 }

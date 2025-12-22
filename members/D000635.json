@@ -4,7 +4,7 @@
     "party": "D",
     "state": "OR",
     "district": "03",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.487,
     "dw_nominate_dim2": -0.616,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9837,
-    "party_unity_bp_pct": 0.2964,
-    "maverick_votes": 5,
-    "bipartisan_votes": 91,
+    "party_unity_pct": 0.9818,
+    "party_unity_bp_pct": 0.2857,
+    "maverick_votes": 6,
+    "bipartisan_votes": 94,
     "maverick_bipartisan": 0,
-    "total_votes": 307,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 5,
-    "bipartisan_votes_all": 91,
+    "maverick_votes_all": 6,
+    "bipartisan_votes_all": 94,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 307,
+    "total_votes_all": 329,
     "missed_votes_all": 4,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 82,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 96,
-    "party_unity_percentile_party": 73,
+    "party_unity_percentile_party": 74,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 61
+    "reliability_percentile_party": 64
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -79,7 +79,7 @@
     {
       "congress": 119,
       "dim1": -0.47,
-      "dim2": -0.678
+      "dim2": -0.679
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 103650.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-02",
       "chamber": "house",
@@ -1445,44 +1466,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Gwen Moore",
-      "distance": 0.001992485884517153
-    },
-    {
-      "name": "Steve Joseph Scalise",
-      "distance": 0.0021377558326431986
+      "name": "Daniel Webster",
+      "distance": 0.0005830951894845134
     },
     {
       "name": "Jared Huffman",
-      "distance": 0.002570992026436501
+      "distance": 0.0027892651361963137
     },
     {
       "name": "Kweisi Mfume",
-      "distance": 0.0027730849247723523
+      "distance": 0.0029832867780352863
+    },
+    {
+      "name": "Steve Joseph Scalise",
+      "distance": 0.0031622776601683998
     },
     {
       "name": "James P. McGovern",
-      "distance": 0.004341658669218514
+      "distance": 0.0036674241641784485
     },
     {
-      "name": "Joe G. Wilson",
-      "distance": 0.004341658669218514
+      "name": "M\u00f3nica De La Cruz",
+      "distance": 0.004396589587396095
     },
     {
-      "name": "Daniel Webster",
-      "distance": 0.004420407221060103
-    },
-    {
-      "name": "Frederica S. Wilson",
-      "distance": 0.004652956049652735
+      "name": "Carol D. Miller",
+      "distance": 0.0047707441767506535
     },
     {
       "name": "Doug LaMalfa",
-      "distance": 0.005024937810560386
+      "distance": 0.005008991914547272
     },
     {
-      "name": "Nancy Pelosi",
-      "distance": 0.005124451190127576
+      "name": "Gwen Moore",
+      "distance": 0.005954829972383775
+    },
+    {
+      "name": "Chellie Pingree",
+      "distance": 0.006158733636065098
     }
   ]
 }

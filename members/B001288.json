@@ -77,31 +77,31 @@
     "dw_nominate_dim1": -0.555,
     "dw_nominate_dim2": -0.25,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9373,
-    "party_unity_bp_pct": 0.071,
-    "maverick_votes": 38,
+    "party_unity_pct": 0.9372,
+    "party_unity_bp_pct": 0.0692,
+    "maverick_votes": 39,
     "bipartisan_votes": 43,
     "maverick_bipartisan": 22,
-    "total_votes": 606,
+    "total_votes": 621,
     "missed_votes": 25,
-    "maverick_votes_all": 992,
+    "maverick_votes_all": 993,
     "bipartisan_votes_all": 342,
     "maverick_bipartisan_all": 28,
-    "total_votes_all": 4102,
+    "total_votes_all": 4117,
     "missed_votes_all": 422,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 94,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 76,
-    "party_unity_percentile_party": 21,
+    "party_unity_percentile_party": 23,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 25
+    "reliability_percentile_party": 26
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -140,8 +140,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.467,
-      "dim2": -0.089
+      "dim1": -0.469,
+      "dim2": -0.087
     }
   ],
   "lobbying_contributions": [
@@ -188,6 +188,27 @@
   ],
   "lobbying_sum": 78016.04,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -373,27 +394,6 @@
         "code": "HR3944",
         "type": null,
         "number": "HR3944",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-30",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed export of certain defense articles to Israel.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 27,
-      "nay": 70,
-      "present": 0,
-      "bill": {
-        "code": "SJRES41",
-        "type": null,
-        "number": "SJRES41",
         "congress": 119,
         "title": ""
       }
@@ -3563,43 +3563,43 @@
   "vote_record_similar": [
     {
       "name": "Peter Welch",
-      "distance": 0.01866815470259445
-    },
-    {
-      "name": "Adam B. Schiff",
-      "distance": 0.021174749113035567
+      "distance": 0.01822141597132334
     },
     {
       "name": "Andy Kim",
-      "distance": 0.02142335174523352
+      "distance": 0.021023796041628642
+    },
+    {
+      "name": "Adam B. Schiff",
+      "distance": 0.021323461257497584
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.02146741717114566
+      "distance": 0.023129418496797515
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.021688937272259342
+      "distance": 0.023389313799254567
     },
     {
       "name": "Alejandro Padilla",
-      "distance": 0.024209502266672085
+      "distance": 0.0235773196101677
     },
     {
       "name": "Jon Ossoff",
-      "distance": 0.029138462553813648
+      "distance": 0.030754837017939126
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.03080795351853154
+      "distance": 0.03173089976663128
     },
     {
       "name": "Mitch McConnell",
-      "distance": 0.03220062111202199
+      "distance": 0.033618149859859885
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.032459975354272835
+      "distance": 0.03408372045419924
     }
   ]
 }

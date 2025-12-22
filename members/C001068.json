@@ -4,7 +4,7 @@
     "party": "D",
     "state": "TN",
     "district": "09",
-    "tenure_years": 18.9,
+    "tenure_years": 19.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.39,
     "dw_nominate_dim2": -0.294,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9796,
-    "party_unity_bp_pct": 0.3231,
-    "maverick_votes": 6,
-    "bipartisan_votes": 95,
+    "party_unity_pct": 0.9778,
+    "party_unity_bp_pct": 0.3101,
+    "maverick_votes": 7,
+    "bipartisan_votes": 98,
     "maverick_bipartisan": 5,
-    "total_votes": 294,
+    "total_votes": 316,
     "missed_votes": 17,
-    "maverick_votes_all": 3660,
-    "bipartisan_votes_all": 861,
+    "maverick_votes_all": 3661,
+    "bipartisan_votes_all": 864,
     "maverick_bipartisan_all": 27,
-    "total_votes_all": 12031,
+    "total_votes_all": 12053,
     "missed_votes_all": 308,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 51,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 82,
-    "party_unity_percentile_party": 64,
+    "party_unity_percentile_party": 65,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 15
+    "reliability_percentile_party": 17
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -127,8 +127,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.324,
-      "dim2": -0.3
+      "dim1": -0.295,
+      "dim2": -0.382
     }
   ],
   "lobbying_contributions": [
@@ -175,6 +175,27 @@
   ],
   "lobbying_sum": 132521.85,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -2942,44 +2963,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "David Schweikert",
+      "distance": 0.000761577310586409
+    },
+    {
       "name": "Yassamin Ansari",
-      "distance": 0.0006708203932498879
+      "distance": 0.001708800749063513
     },
     {
-      "name": "Kathy Castor",
-      "distance": 0.0011180339887498958
+      "name": "Adriano Espaillat",
+      "distance": 0.002195449840010021
     },
     {
-      "name": "Vern Buchanan",
-      "distance": 0.0012206555615733587
-    },
-    {
-      "name": "Christopher H. Smith",
-      "distance": 0.001931320791582791
-    },
-    {
-      "name": "Frank J. Pallone",
-      "distance": 0.002024845673131636
-    },
-    {
-      "name": "James E. Clyburn",
-      "distance": 0.002353720459188042
-    },
-    {
-      "name": "Zoe Lofgren",
-      "distance": 0.002716615541441263
+      "name": "Bennie G. Thompson",
+      "distance": 0.002594224354214532
     },
     {
       "name": "Ro Khanna",
-      "distance": 0.0031622776601684314
+      "distance": 0.002594224354214532
     },
     {
-      "name": "Lori Trahan",
-      "distance": 0.003352610922848024
+      "name": "Laura Syril Friedman",
+      "distance": 0.003132091952673171
     },
     {
-      "name": "Marilyn Strickland",
-      "distance": 0.003383784863137754
+      "name": "Richard Hudson",
+      "distance": 0.003765634076752588
+    },
+    {
+      "name": "Lizzie Fletcher",
+      "distance": 0.004002499219237917
+    },
+    {
+      "name": "Vern Buchanan",
+      "distance": 0.0041617304093369495
+    },
+    {
+      "name": "Frank J. Pallone",
+      "distance": 0.004244997055358215
     }
   ]
 }

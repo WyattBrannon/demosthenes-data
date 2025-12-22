@@ -4,7 +4,7 @@
     "party": "R",
     "state": "PA",
     "district": "08",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": 0.373,
     "dw_nominate_dim2": 0.531,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9612,
-    "party_unity_bp_pct": 0.3657,
-    "maverick_votes": 12,
-    "bipartisan_votes": 113,
-    "maverick_bipartisan": 12,
-    "total_votes": 309,
-    "missed_votes": 2,
-    "maverick_votes_all": 12,
-    "bipartisan_votes_all": 113,
-    "maverick_bipartisan_all": 12,
-    "total_votes_all": 309,
-    "missed_votes_all": 2,
+    "party_unity_pct": 0.9544,
+    "party_unity_bp_pct": 0.3587,
+    "maverick_votes": 15,
+    "bipartisan_votes": 118,
+    "maverick_bipartisan": 15,
+    "total_votes": 329,
+    "missed_votes": 4,
+    "maverick_votes_all": 15,
+    "bipartisan_votes_all": 118,
+    "maverick_bipartisan_all": 15,
+    "total_votes_all": 329,
+    "missed_votes_all": 4,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 16,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 96,
-    "party_unity_percentile_party": 31,
+    "party_unity_percentile_party": 25,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 79
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,8 +94,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.269,
-      "dim2": 0.051
+      "dim1": 0.259,
+      "dim2": 0.039
     }
   ],
   "lobbying_contributions": [
@@ -142,6 +142,69 @@
   ],
   "lobbying_sum": 264600.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Motion to Discharge",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 222,
+      "nay": 200,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-11",
       "chamber": "house",
@@ -288,72 +351,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 140,
-      "nay": 286,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 120,
-      "nay": 306,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 124,
-      "nay": 303,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-16",
       "chamber": "house",
@@ -1991,44 +2033,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Kevin Patrick Kiley",
-      "distance": 0.003200000000000036
-    },
-    {
-      "name": "Bradley Scott Schneider",
-      "distance": 0.003764306044943817
-    },
-    {
-      "name": "Scott H. Peters",
-      "distance": 0.004110960958218946
+      "name": "Janelle S. Bynum",
+      "distance": 0.002617250465660529
     },
     {
       "name": "David G. Valadao",
-      "distance": 0.004243819034784614
+      "distance": 0.0030000000000000027
     },
     {
       "name": "Thomas Howard Kean",
-      "distance": 0.004525483399593916
+      "distance": 0.0033955853692698916
     },
     {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.005560575509783148
+      "name": "Bradley Scott Schneider",
+      "distance": 0.0035468295701936467
     },
     {
-      "name": "Nicolas Joseph LaLota",
-      "distance": 0.0072567210226107985
+      "name": "Mike Levin",
+      "distance": 0.0037483329627982804
+    },
+    {
+      "name": "Scott H. Peters",
+      "distance": 0.004313930922024594
+    },
+    {
+      "name": "Haley M. Stevens",
+      "distance": 0.005103920062069976
+    },
+    {
+      "name": "Ed Case",
+      "distance": 0.005208646657242203
     },
     {
       "name": "Nicole Malliotakis",
-      "distance": 0.008542833253669465
+      "distance": 0.006001666435249488
     },
     {
-      "name": "Michael R. Turner",
-      "distance": 0.00856154191720169
-    },
-    {
-      "name": "Andrew R. Garbarino",
-      "distance": 0.00898220462915426
+      "name": "Jay Phillip Obernolte",
+      "distance": 0.006296824596572458
     }
   ]
 }

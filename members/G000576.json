@@ -4,7 +4,7 @@
     "party": "R",
     "state": "WI",
     "district": "06",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": 0.598,
     "dw_nominate_dim2": -0.204,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9572,
-    "party_unity_bp_pct": 0.2928,
-    "maverick_votes": 13,
-    "bipartisan_votes": 89,
+    "party_unity_pct": 0.9571,
+    "party_unity_bp_pct": 0.2822,
+    "maverick_votes": 14,
+    "bipartisan_votes": 92,
     "maverick_bipartisan": 1,
-    "total_votes": 304,
+    "total_votes": 326,
     "missed_votes": 7,
-    "maverick_votes_all": 1110,
-    "bipartisan_votes_all": 732,
+    "maverick_votes_all": 1111,
+    "bipartisan_votes_all": 735,
     "maverick_bipartisan_all": 26,
-    "total_votes_all": 5910,
+    "total_votes_all": 5932,
     "missed_votes_all": 113,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 64,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 70,
-    "party_unity_percentile_party": 28,
+    "party_unity_percentile_party": 27,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 47
+    "reliability_percentile_party": 49
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -115,8 +115,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.605,
-      "dim2": -0.227
+      "dim1": 0.617,
+      "dim2": -0.21
     }
   ],
   "lobbying_contributions": [
@@ -163,6 +163,27 @@
   ],
   "lobbying_sum": 57000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -348,27 +369,6 @@
         "code": "HR3422",
         "type": null,
         "number": "HR3422",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "MEGOBARI Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 349,
-      "nay": 42,
-      "present": 0,
-      "bill": {
-        "code": "HR36",
-        "type": null,
-        "number": "HR36",
         "congress": 119,
         "title": ""
       }
@@ -3519,44 +3519,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Tony Wied",
-      "distance": 0.0035440090293338837
-    },
-    {
-      "name": "Ilhan Omar",
-      "distance": 0.003862641583165642
-    },
-    {
-      "name": "Nancy Ruth Mace",
-      "distance": 0.004272001872658769
+      "name": "Derek Larkin Schmidt",
+      "distance": 0.0026172504656604804
     },
     {
       "name": "James Comer",
-      "distance": 0.005246903848937949
+      "distance": 0.0030000000000000695
     },
     {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.006802940540677974
+      "name": "Tony Wied",
+      "distance": 0.003036445290137812
     },
     {
-      "name": "Morgan Joe Luttrell",
-      "distance": 0.007111258679024409
-    },
-    {
-      "name": "Brittany Louise Pettersen",
-      "distance": 0.007561084578286345
-    },
-    {
-      "name": "Summer Lynn Lee",
-      "distance": 0.008143709228600905
-    },
-    {
-      "name": "Troy Bryan Downing",
-      "distance": 0.009261749294814636
+      "name": "Ilhan Omar",
+      "distance": 0.0036400549446402287
     },
     {
       "name": "Jim Jordan",
-      "distance": 0.009263368717696643
+      "distance": 0.0036400549446402287
+    },
+    {
+      "name": "Brittany Louise Pettersen",
+      "distance": 0.004134005321718869
+    },
+    {
+      "name": "Morgan Joe Luttrell",
+      "distance": 0.006711929677819915
+    },
+    {
+      "name": "Summer Lynn Lee",
+      "distance": 0.007484650960465713
+    },
+    {
+      "name": "Nancy Ruth Mace",
+      "distance": 0.008104936767180854
+    },
+    {
+      "name": "Kevin R. Hern",
+      "distance": 0.009507891459203796
     }
   ]
 }

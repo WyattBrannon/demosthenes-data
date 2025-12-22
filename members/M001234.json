@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MN",
     "district": "03",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Veterans' Affairs",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.273,
     "dw_nominate_dim2": -0.452,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9871,
-    "party_unity_bp_pct": 0.3366,
-    "maverick_votes": 4,
-    "bipartisan_votes": 104,
-    "maverick_bipartisan": 4,
-    "total_votes": 309,
+    "party_unity_pct": 0.9819,
+    "party_unity_bp_pct": 0.3263,
+    "maverick_votes": 6,
+    "bipartisan_votes": 108,
+    "maverick_bipartisan": 5,
+    "total_votes": 331,
     "missed_votes": 2,
-    "maverick_votes_all": 4,
-    "bipartisan_votes_all": 104,
-    "maverick_bipartisan_all": 4,
-    "total_votes_all": 309,
+    "maverick_votes_all": 6,
+    "bipartisan_votes_all": 108,
+    "maverick_bipartisan_all": 5,
+    "total_votes_all": 331,
     "missed_votes_all": 2,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 20,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 92,
-    "party_unity_percentile_party": 85,
+    "party_unity_percentile_party": 75,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 76
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.276,
-      "dim2": -0.392
+      "dim1": -0.275,
+      "dim2": -0.404
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,48 @@
   ],
   "lobbying_sum": 45885.5,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -1431,44 +1473,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ernest Anthony Gonzales",
-      "distance": 0.000608276253029755
+      "name": "Sarah Kelly Elfreth",
+      "distance": 0.0010049875621120888
     },
     {
-      "name": "Johnny Anthony Olszewski",
-      "distance": 0.0020999999999999908
+      "name": "Robert E. Latta",
+      "distance": 0.0010049875621120888
     },
     {
-      "name": "Dan Crenshaw",
-      "distance": 0.0023259406699225934
+      "name": "Joyce Beatty",
+      "distance": 0.0020518284528682905
     },
     {
-      "name": "Max Leonard Miller",
-      "distance": 0.0032999999999999696
-    },
-    {
-      "name": "David Scott",
-      "distance": 0.0032999999999999696
+      "name": "Laurel Frances Lee",
+      "distance": 0.0021213203435596836
     },
     {
       "name": "Jack Bergman",
-      "distance": 0.003423448553724747
+      "distance": 0.0026076809620811043
     },
     {
-      "name": "Bill Foster",
-      "distance": 0.0038275318418009062
+      "name": "David Scott",
+      "distance": 0.0030000000000000027
     },
     {
-      "name": "Bryan Steil",
-      "distance": 0.0038832975677895237
+      "name": "David Kustoff",
+      "distance": 0.0033837848631377045
+    },
+    {
+      "name": "Max Leonard Miller",
+      "distance": 0.003383784863137754
+    },
+    {
+      "name": "Adrian Smith",
+      "distance": 0.003401470270338948
     },
     {
       "name": "Robert J. Wittman",
-      "distance": 0.004304648650006131
-    },
-    {
-      "name": "Gus M. Bilirakis",
-      "distance": 0.004418144406874915
+      "distance": 0.0034828149534536145
     }
   ]
 }

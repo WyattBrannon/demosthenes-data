@@ -69,31 +69,31 @@
     "dw_nominate_dim1": -0.517,
     "dw_nominate_dim2": -0.469,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9506,
-    "party_unity_bp_pct": 0.0207,
-    "maverick_votes": 31,
+    "party_unity_pct": 0.9502,
+    "party_unity_bp_pct": 0.0202,
+    "maverick_votes": 32,
     "bipartisan_votes": 13,
     "maverick_bipartisan": 2,
-    "total_votes": 627,
+    "total_votes": 642,
     "missed_votes": 4,
-    "maverick_votes_all": 7023,
+    "maverick_votes_all": 7024,
     "bipartisan_votes_all": 293,
     "maverick_bipartisan_all": 12,
-    "total_votes_all": 22466,
+    "total_votes_all": 22481,
     "missed_votes_all": 1112,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 89,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 93,
     "party_unity_percentile_party": 26,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 80
+    "reliability_percentile_party": 74
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -213,7 +213,7 @@
     {
       "congress": 119,
       "dim1": -0.777,
-      "dim2": -0.63
+      "dim2": -0.629
     }
   ],
   "lobbying_contributions": [
@@ -260,6 +260,27 @@
   ],
   "lobbying_sum": 7947777.14,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -445,27 +466,6 @@
         "code": "PN1226",
         "type": null,
         "number": "PN1226",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-01",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Agreed to",
-      "vote_desc": "In the nature of a substitute.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 87,
-      "nay": 9,
-      "present": 0,
-      "bill": {
-        "code": "HR3944",
-        "type": null,
-        "number": "HR3944",
         "congress": 119,
         "title": ""
       }
@@ -6289,43 +6289,43 @@
   "vote_record_similar": [
     {
       "name": "Bernard Sanders",
-      "distance": 0.00199248588451714
+      "distance": 0.0019646882704388384
     },
     {
       "name": "Elizabeth Warren",
-      "distance": 0.004404543109109064
+      "distance": 0.0042638011210655215
     },
     {
       "name": "Christopher S. Murphy",
-      "distance": 0.008006247560499235
+      "distance": 0.007702596964660623
     },
     {
       "name": "Jeff Merkley",
-      "distance": 0.011510864433221298
+      "distance": 0.011207140580897508
     },
     {
       "name": "Chris Van Hollen",
-      "distance": 0.018445866745696683
+      "distance": 0.01800138883530935
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.025625768281165754
+      "distance": 0.027772108310317366
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.0323187252223846
+      "distance": 0.031540608744917986
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.032977113275725056
+      "distance": 0.032218783341398834
     },
     {
       "name": "Alejandro Padilla",
-      "distance": 0.03430976537372415
+      "distance": 0.0335035818980598
     },
     {
       "name": "Tina Flint Smith",
-      "distance": 0.034405377486666236
+      "distance": 0.03362439590535416
     }
   ]
 }

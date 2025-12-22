@@ -4,7 +4,7 @@
     "party": "R",
     "state": "MI",
     "district": "01",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on Armed Services",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.432,
     "dw_nominate_dim2": 0.083,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9867,
-    "party_unity_bp_pct": 0.34,
-    "maverick_votes": 4,
-    "bipartisan_votes": 102,
+    "party_unity_pct": 0.9845,
+    "party_unity_bp_pct": 0.3261,
+    "maverick_votes": 5,
+    "bipartisan_votes": 105,
     "maverick_bipartisan": 4,
-    "total_votes": 300,
+    "total_votes": 322,
     "missed_votes": 11,
-    "maverick_votes_all": 770,
-    "bipartisan_votes_all": 928,
+    "maverick_votes_all": 771,
+    "bipartisan_votes_all": 931,
     "maverick_bipartisan_all": 81,
-    "total_votes_all": 4636,
+    "total_votes_all": 4658,
     "missed_votes_all": 65,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 29,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 75,
+    "party_unity_percentile_party": 70,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 28
+    "reliability_percentile_party": 31
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,8 +102,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.508,
-      "dim2": 0.612
+      "dim1": 0.49,
+      "dim2": 0.341
     }
   ],
   "lobbying_contributions": [
@@ -150,6 +150,27 @@
   ],
   "lobbying_sum": 248500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -2631,44 +2652,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Johnny Anthony Olszewski",
-      "distance": 0.0013601470508735538
+      "name": "Bryan Steil",
+      "distance": 0.0018681541692269486
     },
     {
-      "name": "Bill Foster",
-      "distance": 0.0030870698080866584
-    },
-    {
-      "name": "Ernest Anthony Gonzales",
-      "distance": 0.0033060550509633317
-    },
-    {
-      "name": "Kelly Louise Morrison",
-      "distance": 0.003423448553724747
-    },
-    {
-      "name": "Mike Quigley",
-      "distance": 0.003736308338453927
-    },
-    {
-      "name": "Max Leonard Miller",
-      "distance": 0.004468780594300886
-    },
-    {
-      "name": "David Scott",
-      "distance": 0.004468780594300886
+      "name": "Robert J. Wittman",
+      "distance": 0.0020024984394500797
     },
     {
       "name": "Laurel Frances Lee",
-      "distance": 0.0046529560496527895
-    },
-    {
-      "name": "Mike Kelly",
-      "distance": 0.004738143096192882
+      "distance": 0.002024845673131636
     },
     {
       "name": "Joyce Beatty",
-      "distance": 0.0048373546489791615
+      "distance": 0.002080865204668516
+    },
+    {
+      "name": "Max Leonard Miller",
+      "distance": 0.0021095023109728873
+    },
+    {
+      "name": "Kelly Louise Morrison",
+      "distance": 0.0026076809620811043
+    },
+    {
+      "name": "Sarah Kelly Elfreth",
+      "distance": 0.0027730849247724525
+    },
+    {
+      "name": "Robert E. Latta",
+      "distance": 0.0027730849247724525
+    },
+    {
+      "name": "Dan Crenshaw",
+      "distance": 0.00286530975637884
+    },
+    {
+      "name": "Ernest Anthony Gonzales",
+      "distance": 0.003001666203960729
     }
   ]
 }

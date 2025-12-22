@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.472,
     "dw_nominate_dim2": -0.022,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9838,
-    "party_unity_bp_pct": 0.3084,
-    "maverick_votes": 5,
-    "bipartisan_votes": 95,
+    "party_unity_pct": 0.9818,
+    "party_unity_bp_pct": 0.297,
+    "maverick_votes": 6,
+    "bipartisan_votes": 98,
     "maverick_bipartisan": 1,
-    "total_votes": 308,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 2345,
-    "bipartisan_votes_all": 842,
+    "maverick_votes_all": 2346,
+    "bipartisan_votes_all": 845,
     "maverick_bipartisan_all": 5,
-    "total_votes_all": 6897,
+    "total_votes_all": 6919,
     "missed_votes_all": 232,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 79,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
     "party_unity_percentile_party": 74,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -100,8 +100,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.513,
-      "dim2": -0.154
+      "dim1": -0.494,
+      "dim2": -0.261
     }
   ],
   "lobbying_contributions": [
@@ -148,6 +148,27 @@
   ],
   "lobbying_sum": 1294703.75,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -2728,44 +2749,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "C. Scott Franklin",
-      "distance": 0.0010049875621120888
+      "name": "John W. Rose",
+      "distance": 0.001170469991071938
     },
     {
       "name": "Nikema Natassha Williams",
-      "distance": 0.0013038404810404968
+      "distance": 0.001204159457879263
     },
     {
       "name": "LaMonica McIver",
-      "distance": 0.0013038404810404968
-    },
-    {
-      "name": "John W. Rose",
-      "distance": 0.0016763054614240284
-    },
-    {
-      "name": "Jerrold L. Nadler",
-      "distance": 0.0020880613017821245
-    },
-    {
-      "name": "Bonnie Watson Coleman",
-      "distance": 0.0032999999999999696
-    },
-    {
-      "name": "Virginia Foxx",
-      "distance": 0.0032999999999999696
+      "distance": 0.001204159457879263
     },
     {
       "name": "Joaquin Castro",
-      "distance": 0.003312099032335846
+      "distance": 0.0029154759474226796
     },
     {
-      "name": "Teresa Leger Fernandez",
-      "distance": 0.003342154993413668
+      "name": "Bonnie Watson Coleman",
+      "distance": 0.0030000000000000027
     },
     {
       "name": "Janice D. Schakowsky",
-      "distance": 0.0033541019662496874
+      "distance": 0.0032249030993194367
+    },
+    {
+      "name": "Al Green",
+      "distance": 0.0033615472627943023
+    },
+    {
+      "name": "Nanette Diaz Barrag\u00e1n",
+      "distance": 0.0033970575502925452
+    },
+    {
+      "name": "Brian Babin",
+      "distance": 0.003736308338453927
+    },
+    {
+      "name": "Emily Elissa Randall",
+      "distance": 0.003801315561749624
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "WA",
     "district": "10",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.446,
     "dw_nominate_dim2": 0.36,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9768,
-    "party_unity_bp_pct": 0.3212,
-    "maverick_votes": 7,
-    "bipartisan_votes": 97,
-    "maverick_bipartisan": 5,
-    "total_votes": 302,
+    "party_unity_pct": 0.9722,
+    "party_unity_bp_pct": 0.3179,
+    "maverick_votes": 9,
+    "bipartisan_votes": 103,
+    "maverick_bipartisan": 7,
+    "total_votes": 324,
     "missed_votes": 9,
-    "maverick_votes_all": 49,
-    "bipartisan_votes_all": 880,
-    "maverick_bipartisan_all": 40,
-    "total_votes_all": 2486,
+    "maverick_votes_all": 51,
+    "bipartisan_votes_all": 886,
+    "maverick_bipartisan_all": 42,
+    "total_votes_all": 2508,
     "missed_votes_all": 56,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 70,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 90,
-    "party_unity_percentile_party": 57,
+    "party_unity_percentile_party": 50,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 34
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.42,
-      "dim2": 0.159
+      "dim1": -0.427,
+      "dim2": 0.234
     }
   ],
   "lobbying_contributions": [
@@ -136,6 +136,48 @@
   ],
   "lobbying_sum": 319877.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -3296,44 +3338,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ro Khanna",
-      "distance": 0.00022360679774995434
+      "name": "David J. Taylor",
+      "distance": 0.0008944271909999415
     },
     {
-      "name": "David Schweikert",
-      "distance": 0.0021095023109728873
-    },
-    {
-      "name": "Zoe Lofgren",
-      "distance": 0.002202271554554559
-    },
-    {
-      "name": "James E. Clyburn",
-      "distance": 0.0024515301344262544
-    },
-    {
-      "name": "Vern Buchanan",
-      "distance": 0.0031622776601683855
-    },
-    {
-      "name": "Steve Cohen",
-      "distance": 0.003383784863137754
+      "name": "William R. Keating",
+      "distance": 0.001843908891458537
     },
     {
       "name": "Christopher H. Smith",
-      "distance": 0.0035014282800022666
+      "distance": 0.0032140317359976274
     },
     {
-      "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.003622154055254954
+      "name": "Donald W. Norcross",
+      "distance": 0.0032756678708318046
     },
     {
-      "name": "Yassamin Ansari",
-      "distance": 0.004049691346263302
+      "name": "Jason T. Smith",
+      "distance": 0.003466987164671869
     },
     {
-      "name": "Roger Williams",
-      "distance": 0.004177319714841082
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.003492849839314669
+    },
+    {
+      "name": "Juan Guadaloupe Ciscomani",
+      "distance": 0.0035000000000000807
+    },
+    {
+      "name": "Zoe Lofgren",
+      "distance": 0.004101219330881971
+    },
+    {
+      "name": "Michael T. McCaul",
+      "distance": 0.004103656905736657
+    },
+    {
+      "name": "Jonathan Luther Jackson",
+      "distance": 0.004903060268852477
     }
   ]
 }

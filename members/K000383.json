@@ -4,7 +4,7 @@
     "party": "I",
     "state": "ME",
     "district": null,
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": -0.169,
     "dw_nominate_dim2": -0.207,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8631,
-    "party_unity_bp_pct": 0.1997,
-    "maverick_votes": 85,
-    "bipartisan_votes": 124,
-    "maverick_bipartisan": 84,
-    "total_votes": 621,
-    "missed_votes": 10,
-    "maverick_votes_all": 863,
-    "bipartisan_votes_all": 470,
-    "maverick_bipartisan_all": 105,
-    "total_votes_all": 4702,
-    "missed_votes_all": 47,
+    "party_unity_pct": 0.8646,
+    "party_unity_bp_pct": 0.1984,
+    "maverick_votes": 86,
+    "bipartisan_votes": 126,
+    "maverick_bipartisan": 85,
+    "total_votes": 635,
+    "missed_votes": 11,
+    "maverick_votes_all": 864,
+    "bipartisan_votes_all": 472,
+    "maverick_bipartisan_all": 106,
+    "total_votes_all": 4716,
+    "missed_votes_all": 48,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 2,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 72,
     "party_unity_percentile_party": 4,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 56
+    "reliability_percentile_party": 53
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -124,8 +124,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.171,
-      "dim2": -0.196
+      "dim1": -0.172,
+      "dim2": -0.192
     }
   ],
   "lobbying_contributions": [
@@ -173,6 +173,27 @@
   "lobbying_sum": 111069.0,
   "maverick_votes": [],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-17",
       "chamber": "senate",
@@ -358,27 +379,6 @@
         "code": "PN1111",
         "type": null,
         "number": "PN1111",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-25",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Scott Bessent, of South Carolina, to be Secretary of the Treasury",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 67,
-      "nay": 23,
-      "present": 0,
-      "bill": {
-        "code": "PN111",
-        "type": null,
-        "number": "PN111",
         "congress": 119,
         "title": ""
       }
@@ -1647,43 +1647,43 @@
   "vote_record_similar": [
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.0010295630140987376
-    },
-    {
-      "name": "Josh Chad Brecheen",
-      "distance": 0.007211102550928009
-    },
-    {
-      "name": "Eli Crane",
-      "distance": 0.007710382610480461
-    },
-    {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.008949860334105782
+      "distance": 0.0009219544457292504
     },
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.009080198235721527
+      "distance": 0.007561084578286383
+    },
+    {
+      "name": "Josh Chad Brecheen",
+      "distance": 0.008989438247187644
+    },
+    {
+      "name": "Eli Crane",
+      "distance": 0.010925200226998142
     },
     {
       "name": "Andy Biggs",
-      "distance": 0.011723907198540879
+      "distance": 0.011933147112141025
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.0144253249530123
-    },
-    {
-      "name": "Ralph Norman",
-      "distance": 0.019180198122021565
-    },
-    {
-      "name": "Paul A. Gosar",
-      "distance": 0.02026153992173353
+      "distance": 0.012254386969571311
     },
     {
       "name": "Scott Perry",
-      "distance": 0.020496341136895645
+      "distance": 0.015107613974417022
+    },
+    {
+      "name": "Eric Wayne Burlison",
+      "distance": 0.019141577782408666
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.020209403751719153
+    },
+    {
+      "name": "Ralph Norman",
+      "distance": 0.02092868844433398
     }
   ]
 }

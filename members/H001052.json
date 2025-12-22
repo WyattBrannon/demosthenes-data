@@ -4,7 +4,7 @@
     "party": "R",
     "state": "MD",
     "district": "01",
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": 0.673,
     "dw_nominate_dim2": -0.373,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9013,
-    "party_unity_bp_pct": 0.2467,
-    "maverick_votes": 30,
-    "bipartisan_votes": 75,
+    "party_unity_pct": 0.9015,
+    "party_unity_bp_pct": 0.2369,
+    "maverick_votes": 32,
+    "bipartisan_votes": 77,
     "maverick_bipartisan": 3,
-    "total_votes": 304,
-    "missed_votes": 7,
-    "maverick_votes_all": 1765,
-    "bipartisan_votes_all": 545,
+    "total_votes": 325,
+    "missed_votes": 8,
+    "maverick_votes_all": 1767,
+    "bipartisan_votes_all": 547,
     "maverick_bipartisan_all": 23,
-    "total_votes_all": 8679,
-    "missed_votes_all": 148,
+    "total_votes_all": 8700,
+    "missed_votes_all": 149,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 77,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 89,
     "party_unity_percentile_party": 8,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 47
+    "reliability_percentile_party": 44
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -101,8 +101,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.857,
-      "dim2": -0.093
+      "dim1": 0.79,
+      "dim2": -0.242
     }
   ],
   "lobbying_contributions": [
@@ -149,6 +149,48 @@
   ],
   "lobbying_sum": 154077.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -316,51 +358,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 63,
-      "nay": 365,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "house",
@@ -1350,44 +1371,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Pat Harrigan",
-      "distance": 0.00737902432574935
-    },
-    {
       "name": "Michael Cloud",
-      "distance": 0.01046231331972042
+      "distance": 0.006168468205316418
     },
     {
       "name": "W. Gregory Steube",
-      "distance": 0.010989540481749
-    },
-    {
-      "name": "Sheri Lynn Biggs",
-      "distance": 0.01607046981267194
+      "distance": 0.007523961722390682
     },
     {
       "name": "Andrew S. Clyde",
-      "distance": 0.017596022277776308
+      "distance": 0.013354025610279475
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.015199013125857926
+    },
+    {
+      "name": "Sheri Lynn Biggs",
+      "distance": 0.01760823670899511
     },
     {
       "name": "Brandon Gene Gill",
-      "distance": 0.019678668654154446
+      "distance": 0.018461310896033374
+    },
+    {
+      "name": "Warren Davidson",
+      "distance": 0.021191743675309044
     },
     {
       "name": "Mary E. Miller",
-      "distance": 0.020571825392998046
+      "distance": 0.021571277199090518
     },
     {
-      "name": "Barry Moore",
-      "distance": 0.02264332131115041
+      "name": "Andrew Ogles",
+      "distance": 0.02286591349585672
     },
     {
-      "name": "Mark Everette Harris",
-      "distance": 0.022705505940189892
-    },
-    {
-      "name": "Ben Cline",
-      "distance": 0.022788154817799527
+      "name": "John J. McGuire",
+      "distance": 0.02336535897434498
     }
   ]
 }

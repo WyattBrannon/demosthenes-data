@@ -4,7 +4,7 @@
     "party": "R",
     "state": "GA",
     "district": "10",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.675,
     "dw_nominate_dim2": -0.264,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9251,
-    "party_unity_bp_pct": 0.2541,
-    "maverick_votes": 23,
-    "bipartisan_votes": 78,
+    "party_unity_pct": 0.9266,
+    "party_unity_bp_pct": 0.2416,
+    "maverick_votes": 24,
+    "bipartisan_votes": 79,
     "maverick_bipartisan": 1,
-    "total_votes": 307,
-    "missed_votes": 4,
-    "maverick_votes_all": 152,
-    "bipartisan_votes_all": 326,
+    "total_votes": 327,
+    "missed_votes": 6,
+    "maverick_votes_all": 153,
+    "bipartisan_votes_all": 327,
     "maverick_bipartisan_all": 9,
-    "total_votes_all": 1533,
-    "missed_votes_all": 13,
+    "total_votes_all": 1553,
+    "missed_votes_all": 15,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 78,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 78,
     "party_unity_percentile_party": 12,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 54
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,8 +91,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.707,
-      "dim2": -0.24
+      "dim1": 0.715,
+      "dim2": -0.227
     }
   ],
   "lobbying_contributions": [
@@ -139,6 +139,27 @@
   ],
   "lobbying_sum": 1097816.25,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -327,30 +348,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 355,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -2236,44 +2278,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Harriet Maxine Hageman",
-      "distance": 0.000989949493661136
-    },
-    {
-      "name": "Mark Everette Harris",
-      "distance": 0.002302172886644347
-    },
-    {
-      "name": "Ben Cline",
-      "distance": 0.0025961509971494986
+      "name": "Thomas P. Tiffany",
+      "distance": 0.002061552812808851
     },
     {
       "name": "John J. McGuire",
-      "distance": 0.0041048751503547495
+      "distance": 0.00305286750449469
+    },
+    {
+      "name": "Mark Everette Harris",
+      "distance": 0.004904079934095658
+    },
+    {
+      "name": "Harriet Maxine Hageman",
+      "distance": 0.005510898293381928
+    },
+    {
+      "name": "Ben Cline",
+      "distance": 0.0057245087125446775
     },
     {
       "name": "Aaron Paul Bean",
-      "distance": 0.004201190307519982
+      "distance": 0.010538026380684361
     },
     {
-      "name": "Thomas P. Tiffany",
-      "distance": 0.006606814663663565
+      "name": "Sheri Lynn Biggs",
+      "distance": 0.010679419459876983
     },
     {
-      "name": "Warren Davidson",
-      "distance": 0.0077987178433381035
+      "name": "Mary E. Miller",
+      "distance": 0.011977478866606257
     },
     {
       "name": "Diana Harshbarger",
-      "distance": 0.012199999999999989
+      "distance": 0.012758134659894465
     },
     {
-      "name": "Barry Moore",
-      "distance": 0.012457929201917989
-    },
-    {
-      "name": "Rashida Tlaib",
-      "distance": 0.013014222988715034
+      "name": "Pat Harrigan",
+      "distance": 0.013064838307457114
     }
   ]
 }

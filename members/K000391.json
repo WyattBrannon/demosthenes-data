@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": "08",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.345,
     "dw_nominate_dim2": -0.008,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9772,
-    "party_unity_bp_pct": 0.3322,
-    "maverick_votes": 7,
-    "bipartisan_votes": 102,
+    "party_unity_pct": 0.9756,
+    "party_unity_bp_pct": 0.3171,
+    "maverick_votes": 8,
+    "bipartisan_votes": 104,
     "maverick_bipartisan": 4,
-    "total_votes": 307,
-    "missed_votes": 4,
-    "maverick_votes_all": 790,
-    "bipartisan_votes_all": 899,
+    "total_votes": 328,
+    "missed_votes": 5,
+    "maverick_votes_all": 791,
+    "bipartisan_votes_all": 901,
     "maverick_bipartisan_all": 28,
-    "total_votes_all": 4679,
-    "missed_votes_all": 22,
+    "total_votes_all": 4700,
+    "missed_votes_all": 23,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 38,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 44,
-    "party_unity_percentile_party": 61,
+    "party_unity_percentile_party": 59,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 61
+    "reliability_percentile_party": 56
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,8 +94,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.489,
-      "dim2": 0.178
+      "dim1": -0.461,
+      "dim2": 0.006
     }
   ],
   "lobbying_contributions": [
@@ -142,6 +142,27 @@
   ],
   "lobbying_sum": 367601.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -291,6 +312,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -2188,44 +2230,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ted Lieu",
-      "distance": 0.0010049875621120888
+      "name": "Juan Guadaloupe Ciscomani",
+      "distance": 0.0023853720883752964
     },
     {
-      "name": "Pete Aguilar",
-      "distance": 0.0010049875621120888
+      "name": "Roger Williams",
+      "distance": 0.0027658633371878383
     },
     {
-      "name": "Bill Huizenga",
-      "distance": 0.002280350850198239
+      "name": "David J. Taylor",
+      "distance": 0.0028635642126553272
     },
     {
-      "name": "Rick Larsen",
-      "distance": 0.0027313000567495815
+      "name": "Troy Anthony Carter",
+      "distance": 0.002906888370749739
     },
     {
-      "name": "Troy Balderson",
-      "distance": 0.0032999999999999696
+      "name": "James E. Clyburn",
+      "distance": 0.0030999999999999917
     },
     {
-      "name": "David Kustoff",
-      "distance": 0.003300000000000025
+      "name": "Sam Theodore Liccardo",
+      "distance": 0.0030999999999999917
     },
     {
-      "name": "Sheila Cherfilus-McCormick",
-      "distance": 0.0033060550509633317
+      "name": "Marilyn Strickland",
+      "distance": 0.003492849839314669
     },
     {
       "name": "Gabe Amo",
-      "distance": 0.003640054944640316
+      "distance": 0.0036055512754639618
     },
     {
-      "name": "Elise M. Stefanik",
-      "distance": 0.003901281840626246
+      "name": "Frank J. Pallone",
+      "distance": 0.004393176527297746
     },
     {
-      "name": "Nicholas A. Langworthy",
-      "distance": 0.004049691346263272
+      "name": "Richard Hudson",
+      "distance": 0.004393176527297746
     }
   ]
 }

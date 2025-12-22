@@ -4,7 +4,7 @@
     "party": "R",
     "state": "CO",
     "district": "08",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Homeland Security",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.373,
     "dw_nominate_dim2": 0.531,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9807,
-    "party_unity_bp_pct": 0.3441,
-    "maverick_votes": 6,
-    "bipartisan_votes": 107,
-    "maverick_bipartisan": 6,
-    "total_votes": 311,
+    "party_unity_pct": 0.979,
+    "party_unity_bp_pct": 0.3363,
+    "maverick_votes": 7,
+    "bipartisan_votes": 112,
+    "maverick_bipartisan": 7,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 6,
-    "bipartisan_votes_all": 107,
-    "maverick_bipartisan_all": 6,
-    "total_votes_all": 311,
+    "maverick_votes_all": 7,
+    "bipartisan_votes_all": 112,
+    "maverick_bipartisan_all": 7,
+    "total_votes_all": 333,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 16,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 96,
-    "party_unity_percentile_party": 64,
+    "party_unity_percentile_party": 62,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -82,8 +82,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.396,
-      "dim2": 0.12
+      "dim1": 0.371,
+      "dim2": 0.072
     }
   ],
   "lobbying_contributions": [
@@ -130,6 +130,27 @@
   ],
   "lobbying_sum": 365200.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -1296,44 +1317,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mike Kelly",
-      "distance": 0.002720294101747034
+      "name": "John R. Moolenaar",
+      "distance": 0.0
     },
     {
-      "name": "Stephanie I. Bice",
-      "distance": 0.0032062439083763144
+      "name": "Mike Quigley",
+      "distance": 0.002195449840010021
     },
     {
-      "name": "Valerie Anne Hoyle",
-      "distance": 0.003905124837953355
+      "name": "Cleo Fields",
+      "distance": 0.0032015621187164046
     },
     {
-      "name": "Tim Walberg",
-      "distance": 0.004081666326391756
+      "name": "Brett Guthrie",
+      "distance": 0.0038587562763149224
+    },
+    {
+      "name": "Jake Ellzey",
+      "distance": 0.0038587562763149224
+    },
+    {
+      "name": "Jeff Stephen Hurd",
+      "distance": 0.0038587562763149224
+    },
+    {
+      "name": "J. French Hill",
+      "distance": 0.003996248240537577
     },
     {
       "name": "Lisa C. McClain",
-      "distance": 0.004356604182158369
+      "distance": 0.004100000000000006
     },
     {
-      "name": "John R. Moolenaar",
-      "distance": 0.0045254833995938765
+      "name": "Charles J. Fleischmann",
+      "distance": 0.004242640687119289
     },
     {
-      "name": "Chris Raphael Deluzio",
-      "distance": 0.004596737973824486
-    },
-    {
-      "name": "Joyce Beatty",
-      "distance": 0.0048507731342539925
-    },
-    {
-      "name": "Laurel Frances Lee",
-      "distance": 0.005000000000000013
-    },
-    {
-      "name": "Salud O. Carbajal",
-      "distance": 0.005481788029466362
+      "name": "Mike Flood",
+      "distance": 0.0044553338819890735
     }
   ]
 }

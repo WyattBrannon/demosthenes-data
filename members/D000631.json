@@ -4,7 +4,7 @@
     "party": "D",
     "state": "PA",
     "district": "04",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.451,
     "dw_nominate_dim2": -0.069,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9967,
-    "party_unity_bp_pct": 0.3125,
-    "maverick_votes": 1,
-    "bipartisan_votes": 95,
-    "maverick_bipartisan": 0,
-    "total_votes": 304,
+    "party_unity_pct": 0.9939,
+    "party_unity_bp_pct": 0.3067,
+    "maverick_votes": 2,
+    "bipartisan_votes": 100,
+    "maverick_bipartisan": 1,
+    "total_votes": 326,
     "missed_votes": 7,
-    "maverick_votes_all": 42,
-    "bipartisan_votes_all": 867,
-    "maverick_bipartisan_all": 7,
-    "total_votes_all": 3464,
+    "maverick_votes_all": 43,
+    "bipartisan_votes_all": 872,
+    "maverick_bipartisan_all": 8,
+    "total_votes_all": 3486,
     "missed_votes_all": 30,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 52,
-    "party_unity_percentile_party": 99,
+    "party_unity_percentile_party": 98,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 44
+    "reliability_percentile_party": 47
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -89,8 +89,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.412,
-      "dim2": -0.315
+      "dim1": -0.437,
+      "dim2": -0.109
     }
   ],
   "lobbying_contributions": [
@@ -137,6 +137,27 @@
   ],
   "lobbying_sum": 263704.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-12",
       "chamber": "house",
@@ -1487,44 +1508,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Debbie Dingell",
-      "distance": 0.0008000000000000229
-    },
-    {
-      "name": "Betty Louise McCollum",
-      "distance": 0.0008062257748298763
-    },
-    {
-      "name": "John R. Carter",
-      "distance": 0.0035114099732159562
+      "name": "Mark Takano",
+      "distance": 0.00030000000000002247
     },
     {
       "name": "Jill Naomi Tokuda",
-      "distance": 0.0040459856648287695
-    },
-    {
-      "name": "Earl L. Carter",
-      "distance": 0.004341658669218524
-    },
-    {
-      "name": "John Garamendi",
-      "distance": 0.004527692569068718
-    },
-    {
-      "name": "Donald S. Beyer",
-      "distance": 0.0045276925690687616
+      "distance": 0.00041231056256172067
     },
     {
       "name": "Dusty Johnson",
-      "distance": 0.0054203320931471306
+      "distance": 0.0010049875621120888
     },
     {
       "name": "Robert C. Scott",
-      "distance": 0.005685947590331774
+      "distance": 0.0015033296378372915
     },
     {
       "name": "Nathaniel Quentin Moran",
-      "distance": 0.005685947590331774
+      "distance": 0.0015033296378372915
+    },
+    {
+      "name": "Jennifer McClellan",
+      "distance": 0.0026019223662515838
+    },
+    {
+      "name": "Lauren Underwood",
+      "distance": 0.002942787793912446
+    },
+    {
+      "name": "Jefferson Scott Shreve",
+      "distance": 0.003801315561749656
+    },
+    {
+      "name": "Debbie Dingell",
+      "distance": 0.0038418745424596847
+    },
+    {
+      "name": "Alma S. Adams",
+      "distance": 0.003894868418830131
     }
   ]
 }

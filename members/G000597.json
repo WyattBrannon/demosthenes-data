@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NY",
     "district": "02",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Homeland Security",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.245,
     "dw_nominate_dim2": 0.239,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.963,
-    "party_unity_bp_pct": 0.3569,
-    "maverick_votes": 11,
-    "bipartisan_votes": 106,
-    "maverick_bipartisan": 11,
-    "total_votes": 297,
-    "missed_votes": 14,
-    "maverick_votes_all": 272,
-    "bipartisan_votes_all": 1121,
-    "maverick_bipartisan_all": 269,
-    "total_votes_all": 2436,
-    "missed_votes_all": 106,
+    "party_unity_pct": 0.9591,
+    "party_unity_bp_pct": 0.3522,
+    "maverick_votes": 13,
+    "bipartisan_votes": 112,
+    "maverick_bipartisan": 13,
+    "total_votes": 318,
+    "missed_votes": 15,
+    "maverick_votes_all": 274,
+    "bipartisan_votes_all": 1127,
+    "maverick_bipartisan_all": 271,
+    "total_votes_all": 2457,
+    "missed_votes_all": 107,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 2,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 78,
-    "party_unity_percentile_party": 33,
+    "party_unity_percentile_party": 31,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 21
+    "reliability_percentile_party": 20
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.267,
-      "dim2": 0.372
+      "dim1": 0.252,
+      "dim2": 0.272
     }
   ],
   "lobbying_contributions": [
@@ -136,6 +136,48 @@
   ],
   "lobbying_sum": 515000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -303,51 +345,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 124,
-      "nay": 303,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 127,
-      "nay": 299,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Motion to Discharge",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 222,
+      "nay": 200,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-18",
       "chamber": "house",
@@ -533,27 +554,6 @@
         "code": "HR1263",
         "type": null,
         "number": "HR1263",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-19",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Simplifying Forms for Veterans Claims Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 386,
-      "nay": 1,
-      "present": 0,
-      "bill": {
-        "code": "HR1286",
-        "type": null,
-        "number": "HR1286",
         "congress": 119,
         "title": ""
       }
@@ -4780,44 +4780,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Jake Daniel Auchincloss",
-      "distance": 0.0012041594578792076
-    },
-    {
-      "name": "Suhas Subramanyam",
-      "distance": 0.002012461179749738
-    },
-    {
-      "name": "Ed Case",
-      "distance": 0.002012461179749738
-    },
-    {
       "name": "James A. Himes",
-      "distance": 0.0022472205054244227
-    },
-    {
-      "name": "Nellie Avila Pou",
-      "distance": 0.0035777087639996667
-    },
-    {
-      "name": "Haley M. Stevens",
-      "distance": 0.0036055512754639926
+      "distance": 0.0012083045973595493
     },
     {
       "name": "Scott H. Peters",
-      "distance": 0.00514781507049348
+      "distance": 0.003801315561749621
     },
     {
-      "name": "Herbert Clark Hoover Conaway",
-      "distance": 0.005544366510251592
+      "name": "Bradley Scott Schneider",
+      "distance": 0.0044944410108487985
     },
     {
-      "name": "Thomas Howard Kean",
-      "distance": 0.0057723478758647355
+      "name": "Ed Case",
+      "distance": 0.004588027898781737
     },
     {
       "name": "Kevin Patrick Kiley",
-      "distance": 0.005882176467941065
+      "distance": 0.004904079934095749
+    },
+    {
+      "name": "Herbert Clark Hoover Conaway",
+      "distance": 0.004939635614091349
+    },
+    {
+      "name": "Jay Phillip Obernolte",
+      "distance": 0.005604462507680799
+    },
+    {
+      "name": "Jake Daniel Auchincloss",
+      "distance": 0.0063906181234682
+    },
+    {
+      "name": "Joe Courtney",
+      "distance": 0.006648308055437918
+    },
+    {
+      "name": "Thomas Howard Kean",
+      "distance": 0.007433034373659218
     }
   ]
 }

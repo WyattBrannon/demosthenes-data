@@ -4,7 +4,7 @@
     "party": "R",
     "state": "FL",
     "district": "19",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.647,
     "dw_nominate_dim2": -0.27,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9283,
-    "party_unity_bp_pct": 0.2765,
-    "maverick_votes": 21,
-    "bipartisan_votes": 81,
+    "party_unity_pct": 0.9272,
+    "party_unity_bp_pct": 0.2748,
+    "maverick_votes": 22,
+    "bipartisan_votes": 83,
     "maverick_bipartisan": 3,
-    "total_votes": 293,
-    "missed_votes": 18,
-    "maverick_votes_all": 255,
-    "bipartisan_votes_all": 620,
+    "total_votes": 302,
+    "missed_votes": 31,
+    "maverick_votes_all": 256,
+    "bipartisan_votes_all": 622,
     "maverick_bipartisan_all": 15,
-    "total_votes_all": 2404,
-    "missed_votes_all": 138,
+    "total_votes_all": 2413,
+    "missed_votes_all": 151,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 79,
-    "party_unity_percentile_party": 14,
+    "party_unity_percentile_party": 13,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 14
+    "reliability_percentile_party": 5
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.55,
-      "dim2": -0.481
+      "dim1": 0.546,
+      "dim2": -0.498
     }
   ],
   "lobbying_contributions": [
@@ -136,6 +136,27 @@
   ],
   "lobbying_sum": 69800.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-02",
       "chamber": "house",
@@ -324,9 +345,116 @@
         "congress": 119,
         "title": ""
       }
+    }
+  ],
+  "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
     },
     {
-      "date": "2025-07-18",
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Passed",
+      "vote_desc": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 237,
+      "nay": 140,
+      "present": 0,
+      "bill": {
+        "code": "HRES939",
+        "type": null,
+        "number": "HRES939",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "State Planning for Reliability and Affordability Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 218,
+      "nay": 207,
+      "present": 0,
+      "bill": {
+        "code": "HR3628",
+        "type": null,
+        "number": "HR3628",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
       "chamber": "house",
       "question": "On Agreeing to the Amendment",
       "vote_result": "Failed",
@@ -334,226 +462,98 @@
       "vote_question": "On Agreeing to the Amendment",
       "dtl_desc": "",
       "result": "",
-      "member_position": "Yea",
-      "yea": 30,
-      "nay": 400,
+      "member_position": "Not Voting",
+      "yea": 54,
+      "nay": 374,
       "present": 0,
       "bill": {
-        "code": "HR4016",
+        "code": "HR3383",
         "type": null,
-        "number": "HR4016",
+        "number": "HR3383",
         "congress": 119,
         "title": ""
       }
-    }
-  ],
-  "missed_votes": [
+    },
     {
-      "date": "2025-11-20",
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 211,
+      "nay": 219,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 214,
+      "nay": 215,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
       "chamber": "house",
       "question": "On Passage",
       "vote_result": "Passed",
-      "vote_desc": "REFINER Act",
+      "vote_desc": "Increasing Investor Opportunities Act",
       "vote_question": "On Passage",
       "dtl_desc": "",
       "result": "",
       "member_position": "Not Voting",
-      "yea": 230,
-      "nay": 176,
+      "yea": 302,
+      "nay": 123,
       "present": 0,
       "bill": {
-        "code": "HR3109",
+        "code": "HR3383",
         "type": null,
-        "number": "HR3109",
+        "number": "HR3383",
         "congress": 119,
         "title": ""
       }
     },
     {
-      "date": "2025-11-20",
+      "date": "2025-12-11",
       "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Unlocking our Domestic LNG Potential Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 217,
-      "nay": 188,
-      "present": 0,
-      "bill": {
-        "code": "HR1949",
-        "type": null,
-        "number": "HR1949",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bill (H.R. 3838) Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for FY 2026, and providing for consideration of the bill (H.R. 3486) Stop Illegal Entry Act, and for other purposes",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 213,
-      "nay": 207,
-      "present": 0,
-      "bill": {
-        "code": "HRES682",
-        "type": null,
-        "number": "HRES682",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bill (H.R. 3838) Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for FY 2026, and providing for consideration of the bill (H.R. 3486) Stop Illegal Entry Act, and for other purposes",
-      "vote_question": "On Agreeing to the Resolution",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "PERMIT Act",
+      "vote_question": "On Motion to Recommit",
       "dtl_desc": "",
       "result": "",
       "member_position": "Not Voting",
       "yea": 210,
-      "nay": 207,
+      "nay": 216,
       "present": 0,
       "bill": {
-        "code": "HRES682",
+        "code": "HR3898",
         "type": null,
-        "number": "HRES682",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "To direct the United States Postal Service to designate single, unique ZIP Codes for certain communities, and for other purposes",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 278,
-      "nay": 121,
-      "present": 0,
-      "bill": {
-        "code": "HR3095",
-        "type": null,
-        "number": "HR3095",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Improving Access to Small Business Information Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 387,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR3351",
-        "type": null,
-        "number": "HR3351",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Failed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 196,
-      "nay": 223,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Understanding Cybersecurity of Mobile Networks Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 360,
-      "nay": 10,
-      "present": 0,
-      "bill": {
-        "code": "HR1709",
-        "type": null,
-        "number": "HR1709",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Consumer Safety Technology Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 336,
-      "nay": 36,
-      "present": 0,
-      "bill": {
-        "code": "HR1770",
-        "type": null,
-        "number": "HR1770",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Jocelyn Nungaray National Wildlife Refuge Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 372,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "S1596",
-        "type": null,
-        "number": "S1596",
+        "number": "HR3898",
         "congress": 119,
         "title": ""
       }
@@ -2317,44 +2317,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Jeff George Crank",
-      "distance": 0.005544366510251654
+      "name": "Jimmy Theo Patronis",
+      "distance": 0.008005623023850137
     },
     {
       "name": "Russell William Fry",
-      "distance": 0.007256031973468673
+      "distance": 0.01162497311824844
+    },
+    {
+      "name": "Jeff George Crank",
+      "distance": 0.011676472069936154
     },
     {
       "name": "Tom McClintock",
-      "distance": 0.0072801098892805215
-    },
-    {
-      "name": "Jimmy Theo Patronis",
-      "distance": 0.0074404300950952455
-    },
-    {
-      "name": "Anna Paulina Luna",
-      "distance": 0.007532595834106603
-    },
-    {
-      "name": "Victoria Spartz",
-      "distance": 0.008285529554590953
-    },
-    {
-      "name": "Russ Fulcher",
-      "distance": 0.011543396380615249
-    },
-    {
-      "name": "Rich Dean McCormick",
-      "distance": 0.013793114224133672
-    },
-    {
-      "name": "Katherine Cammack",
-      "distance": 0.013793114224133672
+      "distance": 0.013840520221436751
     },
     {
       "name": "Cory Mills",
-      "distance": 0.013839797686382476
+      "distance": 0.014928161306738283
+    },
+    {
+      "name": "Anna Paulina Luna",
+      "distance": 0.015373028328862195
+    },
+    {
+      "name": "Barry Moore",
+      "distance": 0.015988120589988036
+    },
+    {
+      "name": "Riley M. Moore",
+      "distance": 0.016643316977093252
+    },
+    {
+      "name": "Russ Fulcher",
+      "distance": 0.0179877736254379
+    },
+    {
+      "name": "Victoria Spartz",
+      "distance": 0.01964128305381293
     }
   ]
 }

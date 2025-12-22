@@ -4,7 +4,7 @@
     "party": "R",
     "state": "ME",
     "district": null,
-    "tenure_years": 28.9,
+    "tenure_years": 29.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -85,31 +85,31 @@
     "dw_nominate_dim1": 0.122,
     "dw_nominate_dim2": -0.508,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8811,
-    "party_unity_bp_pct": 0.1775,
-    "maverick_votes": 75,
-    "bipartisan_votes": 112,
-    "maverick_bipartisan": 73,
-    "total_votes": 631,
+    "party_unity_pct": 0.8793,
+    "party_unity_bp_pct": 0.1796,
+    "maverick_votes": 78,
+    "bipartisan_votes": 116,
+    "maverick_bipartisan": 76,
+    "total_votes": 646,
     "missed_votes": 0,
-    "maverick_votes_all": 2157,
-    "bipartisan_votes_all": 1255,
-    "maverick_bipartisan_all": 887,
-    "total_votes_all": 9825,
+    "maverick_votes_all": 2160,
+    "bipartisan_votes_all": 1259,
+    "maverick_bipartisan_all": 890,
+    "total_votes_all": 9840,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 0,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
-    "party_unity_percentile_party": 5,
+    "party_unity_percentile_party": 6,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -188,8 +188,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.189,
-      "dim2": -0.4
+      "dim1": 0.187,
+      "dim2": -0.406
     }
   ],
   "lobbying_contributions": [
@@ -236,6 +236,69 @@
   ],
   "lobbying_sum": 1097816.25,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "A bill to amend the Internal Revenue Code of 1986 to extend the enhancement of the health care premium tax credit.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 51,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "S3385",
+        "type": null,
+        "number": "S3385",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of the Secretary of the Department of Health and Human Services relating to \"Policy on Adhering to the Text of the Administrative Procedure Act\".",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 50,
+      "nay": 49,
+      "present": 0,
+      "bill": {
+        "code": "SJRES82",
+        "type": null,
+        "number": "SJRES82",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Joint Resolution",
+      "vote_result": "Joint Resolution Passed",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+      "vote_question": "On the Joint Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 49,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HJRES131",
+        "type": null,
+        "number": "HJRES131",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -379,69 +442,6 @@
         "code": "S2296",
         "type": null,
         "number": "S2296",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "chamber": "senate",
-      "question": "On Cloture on the Motion to Proceed",
-      "vote_result": "Cloture on the Motion to Proceed Rejected",
-      "vote_desc": "A bill to provide for automatic continuing appropriations.",
-      "vote_question": "On Cloture on the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 37,
-      "nay": 61,
-      "present": 0,
-      "bill": {
-        "code": "S2806",
-        "type": null,
-        "number": "S2806",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-16",
-      "chamber": "senate",
-      "question": "On the Motion to Proceed",
-      "vote_result": "Motion to Proceed Rejected",
-      "vote_desc": "A concurrent resolution setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035.",
-      "vote_question": "On the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 36,
-      "nay": 62,
-      "present": 0,
-      "bill": {
-        "code": "SCONRES22",
-        "type": null,
-        "number": "SCONRES22",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-29",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Emil J. Bove III, of Pennsylvania, to be United States Circuit Judge for the Third Circuit",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 50,
-      "nay": 49,
-      "present": 0,
-      "bill": {
-        "code": "PN3462",
-        "type": null,
-        "number": "PN3462",
         "congress": 119,
         "title": ""
       }
@@ -1901,44 +1901,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Jacky Rosen",
-      "distance": 0.005437830449729058
+      "name": "Ralph Norman",
+      "distance": 0.007134423592694783
     },
     {
-      "name": "Mark R. Warner",
-      "distance": 0.007289718787443005
+      "name": "Jacky Rosen",
+      "distance": 0.0073006848993776765
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.01451654228802441
+      "distance": 0.012050726119201273
     },
     {
-      "name": "Ralph Norman",
-      "distance": 0.014601369798755178
-    },
-    {
-      "name": "Catherine Cortez Masto",
-      "distance": 0.023051681066681422
-    },
-    {
-      "name": "Lauren Opal Boebert",
-      "distance": 0.026299239532731743
-    },
-    {
-      "name": "Paul A. Gosar",
-      "distance": 0.02656106172576691
-    },
-    {
-      "name": "Mark Kelly",
-      "distance": 0.026580067720004014
+      "name": "Mark R. Warner",
+      "distance": 0.013566502865514031
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.027029613389761984
+      "distance": 0.01615487542508449
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.017551353224181904
+    },
+    {
+      "name": "Lauren Opal Boebert",
+      "distance": 0.02012585401914661
+    },
+    {
+      "name": "Eli Crane",
+      "distance": 0.021029740844813096
+    },
+    {
+      "name": "Eric Wayne Burlison",
+      "distance": 0.023155344955322957
     },
     {
       "name": "Angus S. King",
-      "distance": 0.028580412873154937
+      "distance": 0.02386482767589151
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": null,
-    "tenure_years": 42.9,
+    "tenure_years": 43.0,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -69,31 +69,31 @@
     "dw_nominate_dim1": -0.345,
     "dw_nominate_dim2": -0.306,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.932,
-    "party_unity_bp_pct": 0.1149,
-    "maverick_votes": 42,
-    "bipartisan_votes": 71,
-    "maverick_bipartisan": 36,
-    "total_votes": 618,
+    "party_unity_pct": 0.9321,
+    "party_unity_bp_pct": 0.1153,
+    "maverick_votes": 43,
+    "bipartisan_votes": 73,
+    "maverick_bipartisan": 37,
+    "total_votes": 633,
     "missed_votes": 13,
-    "maverick_votes_all": 4192,
-    "bipartisan_votes_all": 374,
-    "maverick_bipartisan_all": 38,
-    "total_votes_all": 16417,
+    "maverick_votes_all": 4193,
+    "bipartisan_votes_all": 376,
+    "maverick_bipartisan_all": 39,
+    "total_votes_all": 16432,
     "missed_votes_all": 338,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 38,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 82,
-    "party_unity_percentile_party": 16,
+    "party_unity_percentile_party": 18,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 47
+    "reliability_percentile_party": 49
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -207,8 +207,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.262,
-      "dim2": -0.425
+      "dim1": -0.256,
+      "dim2": -0.432
     }
   ],
   "lobbying_contributions": [
@@ -255,6 +255,27 @@
   ],
   "lobbying_sum": 102971.85,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -430,27 +451,6 @@
       "vote_result": "Cloture Motion Agreed to",
       "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
       "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 60,
-      "nay": 40,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-10",
-      "chamber": "senate",
-      "question": "On Passage of the Bill",
-      "vote_result": "Bill Passed",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On Passage of the Bill",
       "dtl_desc": "",
       "result": "",
       "member_position": "Yea",
@@ -4835,43 +4835,43 @@
   "vote_record_similar": [
     {
       "name": "Christopher Andrew Coons",
-      "distance": 0.003001666203960733
+      "distance": 0.0030066592756745904
     },
     {
       "name": "John F. Reed",
-      "distance": 0.003330165161069331
+      "distance": 0.0031890437438203884
     },
     {
       "name": "Martin Heinrich",
-      "distance": 0.004123105625617665
+      "distance": 0.0033970575502925643
     },
     {
       "name": "Gary C. Peters",
-      "distance": 0.007424957912338618
+      "distance": 0.006794115100585173
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.00941541289588514
+      "distance": 0.0070661163307718464
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.010707940978544855
+      "distance": 0.009377632963600124
     },
     {
       "name": "Amy Jean Klobuchar",
-      "distance": 0.011104053313992996
-    },
-    {
-      "name": "Kirsten E. Gillibrand",
-      "distance": 0.021606711920141766
+      "distance": 0.010807404868885009
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.02243412579085708
+      "distance": 0.02284053414436712
     },
     {
-      "name": "Andy Kim",
-      "distance": 0.02290720410700529
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.023243278598338916
+    },
+    {
+      "name": "Adam B. Schiff",
+      "distance": 0.025139013504909054
     }
   ]
 }

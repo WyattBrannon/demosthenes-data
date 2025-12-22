@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MD",
     "district": "04",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.451,
     "dw_nominate_dim2": -0.059,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9869,
-    "party_unity_bp_pct": 0.3235,
+    "party_unity_pct": 0.9878,
+    "party_unity_bp_pct": 0.315,
     "maverick_votes": 4,
-    "bipartisan_votes": 99,
+    "bipartisan_votes": 103,
     "maverick_bipartisan": 2,
-    "total_votes": 306,
-    "missed_votes": 5,
+    "total_votes": 327,
+    "missed_votes": 6,
     "maverick_votes_all": 23,
-    "bipartisan_votes_all": 452,
+    "bipartisan_votes_all": 456,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 1528,
-    "missed_votes_all": 18,
+    "total_votes_all": 1549,
+    "missed_votes_all": 19,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 51,
-    "party_unity_percentile_party": 82,
+    "party_unity_percentile_party": 89,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 53
+    "reliability_percentile_party": 51
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -75,8 +75,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.347,
-      "dim2": -0.445
+      "dim1": -0.391,
+      "dim2": -0.251
     }
   ],
   "lobbying_contributions": [
@@ -209,6 +209,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-16",
       "chamber": "house",
@@ -3062,44 +3083,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Joe Neguse",
-      "distance": 0.0009219544457292956
-    },
-    {
       "name": "Katherine M. Clark",
-      "distance": 0.0013152946437965554
+      "distance": 0.0003605551275464054
     },
     {
       "name": "Tom Emmer",
-      "distance": 0.0013152946437965554
+      "distance": 0.0003605551275464054
     },
     {
       "name": "Hakeem S. Jeffries",
-      "distance": 0.0013152946437965554
+      "distance": 0.0003605551275464054
     },
     {
-      "name": "Jason Crow",
-      "distance": 0.0031016124838541556
-    },
-    {
-      "name": "Richard E. Neal",
-      "distance": 0.003190611226708812
-    },
-    {
-      "name": "Trent Kelly",
-      "distance": 0.003200000000000036
-    },
-    {
-      "name": "Laura Syril Friedman",
-      "distance": 0.003352610922848024
+      "name": "Morgan McGarvey",
+      "distance": 0.0013152946437966103
     },
     {
       "name": "David Rouzer",
-      "distance": 0.003401470270338948
+      "distance": 0.0031064449134018037
+    },
+    {
+      "name": "Rosa L. DeLauro",
+      "distance": 0.0032015621187164046
+    },
+    {
+      "name": "Adam Smith",
+      "distance": 0.0032310988842806972
+    },
+    {
+      "name": "Linda T. S\u00e1nchez",
+      "distance": 0.003395585369269905
     },
     {
       "name": "Gregory W. Meeks",
-      "distance": 0.003622154055254954
+      "distance": 0.0038078865529320087
+    },
+    {
+      "name": "Trent Kelly",
+      "distance": 0.0040000000000000036
     }
   ]
 }

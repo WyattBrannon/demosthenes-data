@@ -4,7 +4,7 @@
     "party": "D",
     "state": "PA",
     "district": "02",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on Ways and Means",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.382,
     "dw_nominate_dim2": 0.153,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.963,
-    "party_unity_bp_pct": 0.3434,
-    "maverick_votes": 11,
-    "bipartisan_votes": 102,
-    "maverick_bipartisan": 9,
-    "total_votes": 297,
-    "missed_votes": 14,
-    "maverick_votes_all": 1673,
-    "bipartisan_votes_all": 891,
-    "maverick_bipartisan_all": 48,
-    "total_votes_all": 5824,
-    "missed_votes_all": 199,
+    "party_unity_pct": 0.9589,
+    "party_unity_bp_pct": 0.3323,
+    "maverick_votes": 13,
+    "bipartisan_votes": 105,
+    "maverick_bipartisan": 10,
+    "total_votes": 316,
+    "missed_votes": 17,
+    "maverick_votes_all": 1675,
+    "bipartisan_votes_all": 894,
+    "maverick_bipartisan_all": 49,
+    "total_votes_all": 5843,
+    "missed_votes_all": 202,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 50,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 71,
     "party_unity_percentile_party": 37,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 22
+    "reliability_percentile_party": 17
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,8 +95,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.332,
-      "dim2": 0.14
+      "dim1": -0.301,
+      "dim2": -0.052
     }
   ],
   "lobbying_contributions": [
@@ -143,6 +143,48 @@
   ],
   "lobbying_sum": 414646.79,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -310,51 +352,72 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-01-22",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Laken Riley Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 263,
-      "nay": 156,
-      "present": 0,
-      "bill": {
-        "code": "S5",
-        "type": null,
-        "number": "S5",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-16",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Preventing Violence Against Women by Illegal Aliens Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 274,
-      "nay": 145,
-      "present": 0,
-      "bill": {
-        "code": "HR30",
-        "type": null,
-        "number": "HR30",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-17",
       "chamber": "house",
@@ -498,69 +561,6 @@
         "code": "HR3394",
         "type": null,
         "number": "HR3394",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Promoting Opportunities for Non-Traditional Capital Formation Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 321,
-      "nay": 87,
-      "present": 0,
-      "bill": {
-        "code": "HR3422",
-        "type": null,
-        "number": "HR3422",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "American Cargo for American Ships Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 373,
-      "nay": 14,
-      "present": 0,
-      "bill": {
-        "code": "HR2035",
-        "type": null,
-        "number": "HR2035",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Agree",
-      "vote_result": "Passed",
-      "vote_desc": "Denouncing the antisemitic terrorist attack in Boulder, Colorado",
-      "vote_question": "On Motion to Suspend the Rules and Agree",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 280,
-      "nay": 113,
-      "present": 0,
-      "bill": {
-        "code": "HRES488",
-        "type": null,
-        "number": "HRES488",
         "congress": 119,
         "title": ""
       }
@@ -3085,44 +3085,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Celeste Maloy",
-      "distance": 0.0011401754250991195
-    },
-    {
-      "name": "Joseph D. Morelle",
-      "distance": 0.0021587033144922943
-    },
-    {
-      "name": "Jennifer Ann Kiggans",
-      "distance": 0.00317804971641414
-    },
-    {
-      "name": "Chrissy Houlahan",
-      "distance": 0.0039661064030103825
-    },
-    {
       "name": "Ritchie John Torres",
-      "distance": 0.004045985664828734
+      "distance": 0.0023259406699225934
     },
     {
-      "name": "Seth Michael Magaziner",
-      "distance": 0.004341658669218514
-    },
-    {
-      "name": "Dan Newhouse",
-      "distance": 0.004404543109109062
+      "name": "Mike John Haridopolos",
+      "distance": 0.004272001872658753
     },
     {
       "name": "Zachary (Zach) Martin Nunn",
-      "distance": 0.005215361924162098
+      "distance": 0.005308483775994824
     },
     {
-      "name": "Randy L. Feenstra",
-      "distance": 0.006020797289396195
+      "name": "Dina Titus",
+      "distance": 0.005882176467941127
+    },
+    {
+      "name": "Joseph D. Morelle",
+      "distance": 0.006500000000000039
+    },
+    {
+      "name": "Michael A. Rulli",
+      "distance": 0.006806614430096634
+    },
+    {
+      "name": "Seth Michael Magaziner",
+      "distance": 0.007500000000000035
+    },
+    {
+      "name": "Celeste Maloy",
+      "distance": 0.007600000000000051
+    },
+    {
+      "name": "Jennifer Ann Kiggans",
+      "distance": 0.007930952023559312
     },
     {
       "name": "Mariannette Jane Miller-Meeks",
-      "distance": 0.006576473218982973
+      "distance": 0.00880000000000003
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "MO",
     "district": null,
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "Senate Committee on Health, Education, Labor, and Pensions",
@@ -69,31 +69,31 @@
     "dw_nominate_dim1": 0.832,
     "dw_nominate_dim2": -0.372,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9485,
-    "party_unity_bp_pct": 0.0997,
-    "maverick_votes": 31,
-    "bipartisan_votes": 60,
-    "maverick_bipartisan": 26,
-    "total_votes": 602,
-    "missed_votes": 29,
-    "maverick_votes_all": 331,
-    "bipartisan_votes_all": 234,
-    "maverick_bipartisan_all": 64,
-    "total_votes_all": 2891,
-    "missed_votes_all": 100,
+    "party_unity_pct": 0.9481,
+    "party_unity_bp_pct": 0.099,
+    "maverick_votes": 32,
+    "bipartisan_votes": 61,
+    "maverick_bipartisan": 27,
+    "total_votes": 616,
+    "missed_votes": 30,
+    "maverick_votes_all": 332,
+    "bipartisan_votes_all": 235,
+    "maverick_bipartisan_all": 65,
+    "total_votes_all": 2905,
+    "missed_votes_all": 101,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 95,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 88,
-    "party_unity_percentile_party": 21,
+    "party_unity_percentile_party": 22,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 19
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -117,7 +117,7 @@
     },
     {
       "congress": 119,
-      "dim1": 0.507,
+      "dim1": 0.513,
       "dim2": -0.613
     }
   ],
@@ -165,6 +165,27 @@
   ],
   "lobbying_sum": 715683.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "A bill to amend the Internal Revenue Code of 1986 to extend the enhancement of the health care premium tax credit.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 51,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "S3385",
+        "type": null,
+        "number": "S3385",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -353,30 +374,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "senate",
-      "question": "On the Amendment",
-      "vote_result": "Amendment Agreed to",
-      "vote_desc": "In the nature of a substitute.",
-      "vote_question": "On the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 67,
-      "nay": 30,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-18",
       "chamber": "senate",
@@ -562,27 +583,6 @@
         "code": "PN133",
         "type": null,
         "number": "PN133",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-08",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Preston Griffith, of Virginia, to be Under Secretary of Energy",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 47,
-      "nay": 41,
-      "present": 0,
-      "bill": {
-        "code": "PN1220",
-        "type": null,
-        "number": "PN1220",
         "congress": 119,
         "title": ""
       }
@@ -2827,43 +2827,43 @@
   "vote_record_similar": [
     {
       "name": "Jon Ossoff",
-      "distance": 0.001799999999999996
+      "distance": 0.002334523505985711
     },
     {
       "name": "Kirsten E. Gillibrand",
-      "distance": 0.0037576588456111597
+      "distance": 0.004525483399593887
     },
     {
       "name": "Michael F. Bennet",
-      "distance": 0.01280351514233497
+      "distance": 0.012578155667664433
     },
     {
       "name": "Sheldon Whitehouse",
-      "distance": 0.01355064574107079
+      "distance": 0.014641379716406482
     },
     {
       "name": "Andy Kim",
-      "distance": 0.014217243052012572
+      "distance": 0.014800337833982052
     },
     {
       "name": "Adam B. Schiff",
-      "distance": 0.016552945357246898
+      "distance": 0.017046993869888078
     },
     {
       "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.01793878479719294
+      "distance": 0.01824636950190366
     },
     {
       "name": "John F. Reed",
-      "distance": 0.019125375813301017
+      "distance": 0.019657568516986034
     },
     {
       "name": "Angela Deneece Alsobrooks",
-      "distance": 0.020930838492521024
+      "distance": 0.021153250341259592
     },
     {
       "name": "Richard J. Durbin",
-      "distance": 0.02243412579085708
+      "distance": 0.02284053414436712
     }
   ]
 }

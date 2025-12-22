@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": null,
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": -0.343,
     "dw_nominate_dim2": 0.061,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9724,
-    "party_unity_bp_pct": 0.0656,
-    "maverick_votes": 16,
+    "party_unity_pct": 0.9711,
+    "party_unity_bp_pct": 0.0645,
+    "maverick_votes": 17,
     "bipartisan_votes": 38,
     "maverick_bipartisan": 9,
-    "total_votes": 579,
-    "missed_votes": 52,
-    "maverick_votes_all": 2092,
+    "total_votes": 589,
+    "missed_votes": 57,
+    "maverick_votes_all": 2093,
     "bipartisan_votes_all": 365,
     "maverick_bipartisan_all": 11,
-    "total_votes_all": 5696,
-    "missed_votes_all": 418,
+    "total_votes_all": 5706,
+    "missed_votes_all": 423,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 37,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 64,
     "party_unity_percentile_party": 48,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 9
+    "reliability_percentile_party": 7
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -136,8 +136,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.4,
-      "dim2": -0.162
+      "dim1": -0.403,
+      "dim2": -0.156
     }
   ],
   "lobbying_contributions": [
@@ -184,6 +184,27 @@
   ],
   "lobbying_sum": 231668.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -372,30 +393,114 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-03-25",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Michael Kratsios, of South Carolina, to be Director of the Office of Science and Technology Policy",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 74,
-      "nay": 25,
-      "present": 0,
-      "bill": {
-        "code": "PN138",
-        "type": null,
-        "number": "PN138",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Robert P. Chamberlin, of Mississippi, to be United States District Judge for the Northern District of Mississippi",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4661",
+        "type": null,
+        "number": "PN4661",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "William J. Crain, of Louisiana, to be United States District Judge for the Eastern District of Louisiana",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN6151",
+        "type": null,
+        "number": "PN6151",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "William J. Crain, of Louisiana, to be United States District Judge for the Eastern District of Louisiana",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 49,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN6151",
+        "type": null,
+        "number": "PN6151",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "James D. Maxwell II, of Mississippi, to be United States District Judge for the Northern District of Mississippi",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 49,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4665",
+        "type": null,
+        "number": "PN4665",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "James D. Maxwell II, of Mississippi, to be United States District Judge for the Northern District of Mississippi",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 46,
+      "present": 0,
+      "bill": {
+        "code": "PN4665",
+        "type": null,
+        "number": "PN4665",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-02",
       "chamber": "senate",
@@ -497,111 +602,6 @@
         "code": "PN4002",
         "type": null,
         "number": "PN4002",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-21",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Anne-Leigh Gaylord Moe, of Florida, to be United States District Judge for the Middle District of Florida",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 53,
-      "nay": 46,
-      "present": 0,
-      "bill": {
-        "code": "PN3465",
-        "type": null,
-        "number": "PN3465",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-20",
-      "chamber": "senate",
-      "question": "On Cloture on the Motion to Proceed",
-      "vote_result": "Cloture on the Motion to Proceed Rejected",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On Cloture on the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 50,
-      "nay": 43,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-16",
-      "chamber": "senate",
-      "question": "On Cloture on the Motion to Proceed",
-      "vote_result": "Cloture on the Motion to Proceed Rejected",
-      "vote_desc": "A bill making continuing appropriations and extensions for fiscal year 2026, and for other purposes.",
-      "vote_question": "On Cloture on the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 51,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-16",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Harold D. Mooty III, of Alabama, to be United States District Judge for the Northern District of Alabama",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 62,
-      "nay": 34,
-      "present": 0,
-      "bill": {
-        "code": "PN4666",
-        "type": null,
-        "number": "PN4666",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-10-16",
-      "chamber": "senate",
-      "question": "On Cloture on the Motion to Proceed",
-      "vote_result": "Cloture on the Motion to Proceed Rejected",
-      "vote_desc": "A bill making appropriations for the Department of Defense for the fiscal year ending September 30, 2026, and for other purposes.",
-      "vote_question": "On Cloture on the Motion to Proceed",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 50,
-      "nay": 44,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
         "congress": 119,
         "title": ""
       }
@@ -3181,43 +3181,43 @@
   "vote_record_similar": [
     {
       "name": "Charles E. Schumer",
-      "distance": 0.005515432893255074
+      "distance": 0.0055172456896534945
     },
     {
       "name": "Tammy Baldwin",
-      "distance": 0.005885575587824864
+      "distance": 0.006873136110975834
     },
     {
       "name": "Richard Blumenthal",
-      "distance": 0.007119691004531003
+      "distance": 0.00722495674727543
     },
     {
       "name": "Maria Cantwell",
-      "distance": 0.012778106275970594
-    },
-    {
-      "name": "Mike Lee",
-      "distance": 0.013648809471891649
-    },
-    {
-      "name": "John Neely Kennedy",
-      "distance": 0.01443606594609482
+      "distance": 0.012209013064126022
     },
     {
       "name": "Lisa Blunt Rochester",
-      "distance": 0.014863714206079182
+      "distance": 0.013917614738165442
     },
     {
-      "name": "John R. Curtis",
-      "distance": 0.01587734234687903
+      "name": "Mike Lee",
+      "distance": 0.013931618714277278
     },
     {
-      "name": "Bill Cassidy",
-      "distance": 0.016484234892769446
+      "name": "John Neely Kennedy",
+      "distance": 0.014664924138910558
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.01702997357602178
+      "distance": 0.016918924315688616
+    },
+    {
+      "name": "John R. Curtis",
+      "distance": 0.016992056967889527
+    },
+    {
+      "name": "Cynthia M. Lummis",
+      "distance": 0.017348486965727026
     }
   ]
 }

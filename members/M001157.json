@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "10",
-    "tenure_years": 20.9,
+    "tenure_years": 21.0,
     "committees": [
       {
         "name": "House Committee on Homeland Security",
@@ -37,22 +37,22 @@
     "dw_nominate_dim1": 0.411,
     "dw_nominate_dim2": 0.172,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9673,
-    "party_unity_bp_pct": 0.3273,
+    "party_unity_pct": 0.9692,
+    "party_unity_bp_pct": 0.3151,
     "maverick_votes": 9,
-    "bipartisan_votes": 90,
+    "bipartisan_votes": 92,
     "maverick_bipartisan": 9,
-    "total_votes": 275,
-    "missed_votes": 36,
+    "total_votes": 292,
+    "missed_votes": 41,
     "maverick_votes_all": 2899,
-    "bipartisan_votes_all": 977,
+    "bipartisan_votes_all": 979,
     "maverick_bipartisan_all": 149,
-    "total_votes_all": 13210,
-    "missed_votes_all": 339,
+    "total_votes_all": 13227,
+    "missed_votes_all": 344,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 24,
     "dim2_direction_party": "right",
@@ -61,7 +61,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 3
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -120,8 +120,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.313,
-      "dim2": 0.498
+      "dim1": 0.328,
+      "dim2": 0.575
     }
   ],
   "lobbying_contributions": [
@@ -360,6 +360,111 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "State Planning for Reliability and Affordability Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 218,
+      "nay": 207,
+      "present": 0,
+      "bill": {
+        "code": "HR3628",
+        "type": null,
+        "number": "HR3628",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 214,
+      "nay": 215,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-11-21",
       "chamber": "house",
       "question": "On Agreeing to the Resolution",
@@ -460,111 +565,6 @@
         "code": "HRES873",
         "type": null,
         "number": "HRES873",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-12",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the Senate amendment to the bill (H.R. 5371) making continuing appropriations and extensions for fiscal year 2026, and for other purposes",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 213,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HRES873",
-        "type": null,
-        "number": "HRES873",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-12",
-      "chamber": "house",
-      "question": "On Motion to Concur in the Senate Amendment",
-      "vote_result": "Passed",
-      "vote_desc": "Continuing Appropriations and Extensions Act, 2026",
-      "vote_question": "On Motion to Concur in the Senate Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 222,
-      "nay": 209,
-      "present": 0,
-      "bill": {
-        "code": "HR5371",
-        "type": null,
-        "number": "HR5371",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-10",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Agreed to",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 221,
-      "nay": 207,
-      "present": 0,
-      "bill": {
-        "code": "HR3838",
-        "type": null,
-        "number": "HR3838",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 211,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Failed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 196,
-      "nay": 223,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
         "congress": 119,
         "title": ""
       }
@@ -3344,43 +3344,43 @@
   "vote_record_similar": [
     {
       "name": "Jason T. Smith",
-      "distance": 0.0016124515496597114
+      "distance": 0.0009055385138137645
     },
     {
-      "name": "Eric Swalwell",
-      "distance": 0.0020099751242241776
+      "name": "Zoe Lofgren",
+      "distance": 0.0033615472627944046
     },
     {
       "name": "Dan Sachs Goldman",
-      "distance": 0.0038327535793473955
+      "distance": 0.0035227829907617195
     },
     {
-      "name": "Shri Thanedar",
-      "distance": 0.0038483762809788436
+      "name": "Marilyn Strickland",
+      "distance": 0.004103656905736657
     },
     {
       "name": "David J. Taylor",
-      "distance": 0.0038639358172722535
+      "distance": 0.004967896939349731
     },
     {
       "name": "Juan Guadaloupe Ciscomani",
-      "distance": 0.005813776741499459
-    },
-    {
-      "name": "Donald W. Norcross",
-      "distance": 0.006664833081180591
-    },
-    {
-      "name": "Robert Jacobsen Menendez",
-      "distance": 0.006933974329343816
+      "distance": 0.0051000000000001044
     },
     {
       "name": "William R. Keating",
-      "distance": 0.0070178344238090344
+      "distance": 0.00528393792544918
     },
     {
-      "name": "Troy Balderson",
-      "distance": 0.008220097323024792
+      "name": "Robert Jacobsen Menendez",
+      "distance": 0.005854912467321754
+    },
+    {
+      "name": "Donald W. Norcross",
+      "distance": 0.006425729530566971
+    },
+    {
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.006705221845696154
     }
   ]
 }

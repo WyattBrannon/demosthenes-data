@@ -4,7 +4,7 @@
     "party": "R",
     "state": "PA",
     "district": "13",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Energy and Commerce",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.579,
     "dw_nominate_dim2": -0.028,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9486,
-    "party_unity_bp_pct": 0.2797,
-    "maverick_votes": 16,
-    "bipartisan_votes": 87,
+    "party_unity_pct": 0.9489,
+    "party_unity_bp_pct": 0.2703,
+    "maverick_votes": 17,
+    "bipartisan_votes": 90,
     "maverick_bipartisan": 1,
-    "total_votes": 311,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 789,
-    "bipartisan_votes_all": 761,
+    "maverick_votes_all": 790,
+    "bipartisan_votes_all": 764,
     "maverick_bipartisan_all": 25,
-    "total_votes_all": 3444,
+    "total_votes_all": 3466,
     "missed_votes_all": 50,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 60,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 46,
-    "party_unity_percentile_party": 21,
+    "party_unity_percentile_party": 23,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -85,8 +85,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.68,
-      "dim2": -0.071
+      "dim1": 0.681,
+      "dim2": -0.08
     }
   ],
   "lobbying_contributions": [
@@ -133,6 +133,27 @@
   ],
   "lobbying_sum": 1546427.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -318,27 +339,6 @@
         "code": "HR4016",
         "type": null,
         "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Promoting Opportunities for Non-Traditional Capital Formation Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 321,
-      "nay": 87,
-      "present": 0,
-      "bill": {
-        "code": "HR3422",
-        "type": null,
-        "number": "HR3422",
         "congress": 119,
         "title": ""
       }
@@ -1963,44 +1963,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mikie Sherrill",
-      "distance": 0.0017088007490635455
-    },
-    {
       "name": "Ronny Lynn Jackson",
-      "distance": 0.0024186773244895465
+      "distance": 0.0019416487838947462
     },
     {
       "name": "Abraham Jamal Hamadeh",
-      "distance": 0.0028861739379323946
-    },
-    {
-      "name": "Jim Jordan",
-      "distance": 0.006830812543175229
-    },
-    {
-      "name": "Brad Knott",
-      "distance": 0.007294518489934751
-    },
-    {
-      "name": "Cory Mills",
-      "distance": 0.007940403012442166
+      "distance": 0.0025079872407969507
     },
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.008668333173107768
+      "distance": 0.003801315561749624
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.008668333173107768
+      "distance": 0.003801315561749624
     },
     {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.009013878188660004
+      "name": "Brad Knott",
+      "distance": 0.0069115844782509225
+    },
+    {
+      "name": "Cory Mills",
+      "distance": 0.007253275122315445
     },
     {
       "name": "Morgan Joe Luttrell",
-      "distance": 0.010160708636704421
+      "distance": 0.009374433316206417
+    },
+    {
+      "name": "Mikie Sherrill",
+      "distance": 0.010178899744078445
+    },
+    {
+      "name": "Brittany Louise Pettersen",
+      "distance": 0.010322790320451171
+    },
+    {
+      "name": "Ilhan Omar",
+      "distance": 0.011636150566231095
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MN",
     "district": "04",
-    "tenure_years": 24.9,
+    "tenure_years": 25.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.419,
     "dw_nominate_dim2": -0.185,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9968,
-    "party_unity_bp_pct": 0.3117,
-    "maverick_votes": 1,
-    "bipartisan_votes": 96,
+    "party_unity_pct": 0.9939,
+    "party_unity_bp_pct": 0.3,
+    "maverick_votes": 2,
+    "bipartisan_votes": 99,
     "maverick_bipartisan": 0,
-    "total_votes": 308,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 4976,
-    "bipartisan_votes_all": 864,
+    "maverick_votes_all": 4977,
+    "bipartisan_votes_all": 867,
     "maverick_bipartisan_all": 13,
-    "total_votes_all": 15449,
+    "total_votes_all": 15471,
     "missed_votes_all": 306,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 62,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 68,
-    "party_unity_percentile_party": 99,
+    "party_unity_percentile_party": 98,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 68
+    "reliability_percentile_party": 71
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -126,8 +126,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.413,
-      "dim2": -0.322
+      "dim1": -0.408,
+      "dim2": -0.373
     }
   ],
   "lobbying_contributions": [
@@ -174,6 +174,27 @@
   ],
   "lobbying_sum": 178027.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-12",
       "chamber": "house",
@@ -1247,44 +1268,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Madeleine Dean",
-      "distance": 0.0008062257748298763
-    },
-    {
-      "name": "Debbie Dingell",
-      "distance": 0.0016031219541881847
+      "name": "Earl L. Carter",
+      "distance": 0.0009219544457292956
     },
     {
       "name": "John R. Carter",
-      "distance": 0.003423448553724802
+      "distance": 0.0032557641192199204
     },
     {
       "name": "John Garamendi",
-      "distance": 0.003748332962798251
+      "distance": 0.003352610922848024
     },
     {
-      "name": "Earl L. Carter",
-      "distance": 0.003982461550348006
+      "name": "Guy Reschenthaler",
+      "distance": 0.0050000000000000044
     },
     {
-      "name": "Jill Naomi Tokuda",
-      "distance": 0.0046690470119714975
+      "name": "Rick W. Allen",
+      "distance": 0.0050000000000000044
     },
     {
-      "name": "Donald S. Beyer",
-      "distance": 0.005173973328110668
+      "name": "Sam B. Graves",
+      "distance": 0.005099019513592777
+    },
+    {
+      "name": "Debbie Dingell",
+      "distance": 0.005243090691567354
     },
     {
       "name": "Paul Tonko",
-      "distance": 0.005882176467941113
+      "distance": 0.005547071299343455
     },
     {
-      "name": "Dusty Johnson",
-      "distance": 0.006129437168288861
+      "name": "Mary Gay Scanlon",
+      "distance": 0.005900847396772788
     },
     {
-      "name": "Robert C. Scott",
-      "distance": 0.006414047084329819
+      "name": "Jill Naomi Tokuda",
+      "distance": 0.0063007936008093735
     }
   ]
 }

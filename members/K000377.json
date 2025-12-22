@@ -4,7 +4,7 @@
     "party": "D",
     "state": "AZ",
     "district": null,
-    "tenure_years": 5.0,
+    "tenure_years": 5.1,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -65,31 +65,31 @@
     "dw_nominate_dim1": -0.257,
     "dw_nominate_dim2": 0.293,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9024,
-    "party_unity_bp_pct": 0.1616,
-    "maverick_votes": 58,
-    "bipartisan_votes": 96,
-    "maverick_bipartisan": 57,
-    "total_votes": 594,
-    "missed_votes": 37,
-    "maverick_votes_all": 106,
-    "bipartisan_votes_all": 440,
-    "maverick_bipartisan_all": 86,
-    "total_votes_all": 2234,
-    "missed_votes_all": 82,
+    "party_unity_pct": 0.903,
+    "party_unity_bp_pct": 0.1612,
+    "maverick_votes": 59,
+    "bipartisan_votes": 98,
+    "maverick_bipartisan": 58,
+    "total_votes": 608,
+    "missed_votes": 38,
+    "maverick_votes_all": 107,
+    "bipartisan_votes_all": 442,
+    "maverick_bipartisan_all": 87,
+    "total_votes_all": 2248,
+    "missed_votes_all": 83,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 17,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 84,
-    "party_unity_percentile_party": 8,
+    "party_unity_percentile_party": 9,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 14
+    "reliability_percentile_party": 15
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,8 +113,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.299,
-      "dim2": 0.295
+      "dim1": -0.297,
+      "dim2": 0.292
     }
   ],
   "lobbying_contributions": [
@@ -161,6 +161,27 @@
   ],
   "lobbying_sum": 1294703.75,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -349,30 +370,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-09-19",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Michael G. Waltz, of Florida, to be the Representative of the United States of America to the United Nations, with the Rank of Ambassador, and the Representative of the United States of America in the Security Council of the United Nations",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 47,
-      "nay": 43,
-      "present": 0,
-      "bill": {
-        "code": "PN343",
-        "type": null,
-        "number": "PN343",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-20",
       "chamber": "senate",
@@ -558,27 +579,6 @@
         "code": "PN2625",
         "type": null,
         "number": "PN2625",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-31",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Andrea Lucas, of Virginia, to be a Member of the Equal Employment Opportunity Commission for a term expiring July 1, 2030",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 52,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN5528",
-        "type": null,
-        "number": "PN5528",
         "congress": 119,
         "title": ""
       }
@@ -2032,43 +2032,43 @@
   "vote_record_similar": [
     {
       "name": "Catherine Cortez Masto",
-      "distance": 0.005015974481593784
+      "distance": 0.003883297567789508
     },
     {
       "name": "Timothy Kaine",
-      "distance": 0.008000000000000007
+      "distance": 0.00810061726043145
     },
     {
       "name": "Ruben Gallego",
-      "distance": 0.010829589096544712
+      "distance": 0.01063014581273465
     },
     {
       "name": "Elissa Slotkin",
-      "distance": 0.01225887433657758
+      "distance": 0.014217243052012581
     },
     {
       "name": "Mark R. Warner",
-      "distance": 0.020306649157357325
+      "distance": 0.017495713760804412
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.025146172671004993
+      "distance": 0.024573359558676514
     },
     {
       "name": "Susan M. Collins",
-      "distance": 0.026580067720004014
+      "distance": 0.03000416637735504
     },
     {
       "name": "Ralph Norman",
-      "distance": 0.040407177580226994
-    },
-    {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.041058129523883595
+      "distance": 0.03552365409132347
     },
     {
       "name": "Lauren Opal Boebert",
-      "distance": 0.042240383520986184
+      "distance": 0.03908887309708483
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.03958408771210976
     }
   ]
 }

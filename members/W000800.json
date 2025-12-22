@@ -4,7 +4,7 @@
     "party": "D",
     "state": "VT",
     "district": null,
-    "tenure_years": 18.9,
+    "tenure_years": 19.0,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": -0.407,
     "dw_nominate_dim2": -0.383,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9536,
-    "party_unity_bp_pct": 0.0619,
-    "maverick_votes": 27,
+    "party_unity_pct": 0.9531,
+    "party_unity_bp_pct": 0.0603,
+    "maverick_votes": 28,
     "bipartisan_votes": 36,
     "maverick_bipartisan": 16,
-    "total_votes": 582,
+    "total_votes": 597,
     "missed_votes": 49,
-    "maverick_votes_all": 3675,
+    "maverick_votes_all": 3676,
     "bipartisan_votes_all": 561,
     "maverick_bipartisan_all": 20,
-    "total_votes_all": 11812,
+    "total_votes_all": 11827,
     "missed_votes_all": 302,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 59,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 89,
     "party_unity_percentile_party": 30,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 9
+    "reliability_percentile_party": 10
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -151,8 +151,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.344,
-      "dim2": -0.551
+      "dim1": -0.348,
+      "dim2": -0.548
     }
   ],
   "lobbying_contributions": [
@@ -199,6 +199,27 @@
   ],
   "lobbying_sum": 67506.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "senate",
@@ -384,27 +405,6 @@
         "code": "S2296",
         "type": null,
         "number": "S2296",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Kyle Christopher Dudek, of Florida, to be United States District Judge for the Middle District of Florida",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 53,
-      "nay": 44,
-      "present": 0,
-      "bill": {
-        "code": "PN3463",
-        "type": null,
-        "number": "PN3463",
         "congress": 119,
         "title": ""
       }
@@ -2764,43 +2764,43 @@
   "vote_record_similar": [
     {
       "name": "Alejandro Padilla",
-      "distance": 0.007375635565834318
+      "distance": 0.00708307842678592
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.01761050822662427
-    },
-    {
-      "name": "Cory Anthony Booker",
-      "distance": 0.01866815470259445
-    },
-    {
-      "name": "Angela Deneece Alsobrooks",
-      "distance": 0.018741664813991313
-    },
-    {
-      "name": "Tammy Duckworth",
-      "distance": 0.019160636732634996
-    },
-    {
-      "name": "Tammy Baldwin",
-      "distance": 0.020176471445721166
-    },
-    {
-      "name": "Charles E. Schumer",
-      "distance": 0.020946837470129022
-    },
-    {
-      "name": "Ben Ray Luj\u00e1n",
-      "distance": 0.02126805115660577
-    },
-    {
-      "name": "Ron Wyden",
-      "distance": 0.021362116000059512
+      "distance": 0.01718982257034672
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.021378493866500523
+      "distance": 0.018062391868188473
+    },
+    {
+      "name": "Cory Anthony Booker",
+      "distance": 0.01822141597132334
+    },
+    {
+      "name": "Tammy Duckworth",
+      "distance": 0.018483506160899252
+    },
+    {
+      "name": "Angela Deneece Alsobrooks",
+      "distance": 0.02030492551082128
+    },
+    {
+      "name": "Ron Wyden",
+      "distance": 0.020728000385951368
+    },
+    {
+      "name": "Tammy Baldwin",
+      "distance": 0.021954498400100164
+    },
+    {
+      "name": "Charles E. Schumer",
+      "distance": 0.022003636063160126
+    },
+    {
+      "name": "Ben Ray Luj\u00e1n",
+      "distance": 0.02262741699796953
     }
   ]
 }

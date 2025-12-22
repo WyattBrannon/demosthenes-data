@@ -4,7 +4,7 @@
     "party": "R",
     "state": "KY",
     "district": null,
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "Senate Committee on Foreign Relations",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": 0.891,
     "dw_nominate_dim2": -0.454,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8609,
-    "party_unity_bp_pct": 0.1506,
-    "maverick_votes": 85,
-    "bipartisan_votes": 92,
-    "maverick_bipartisan": 68,
-    "total_votes": 611,
-    "missed_votes": 20,
-    "maverick_votes_all": 1494,
-    "bipartisan_votes_all": 260,
-    "maverick_bipartisan_all": 118,
-    "total_votes_all": 4973,
-    "missed_votes_all": 262,
+    "party_unity_pct": 0.8608,
+    "party_unity_bp_pct": 0.1488,
+    "maverick_votes": 87,
+    "bipartisan_votes": 93,
+    "maverick_bipartisan": 69,
+    "total_votes": 625,
+    "missed_votes": 21,
+    "maverick_votes_all": 1496,
+    "bipartisan_votes_all": 261,
+    "maverick_bipartisan_all": 119,
+    "total_votes_all": 4987,
+    "missed_votes_all": 263,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 97,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 92,
     "party_unity_percentile_party": 3,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 36
+    "reliability_percentile_party": 34
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -141,7 +141,7 @@
     },
     {
       "congress": 119,
-      "dim1": 0.497,
+      "dim1": 0.498,
       "dim2": -0.867
     }
   ],
@@ -189,6 +189,48 @@
   ],
   "lobbying_sum": 454487.16,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "A bill to provide a health savings account contribution to certain enrollees, to reduce health care costs, and for other purposes.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 51,
+      "nay": 48,
+      "present": 0,
+      "bill": {
+        "code": "S3386",
+        "type": null,
+        "number": "S3386",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -356,51 +398,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-11-05",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 57,
-      "nay": 41,
-      "present": 0,
-      "bill": {
-        "code": "PN2537",
-        "type": null,
-        "number": "PN2537",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-05",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Caleb Orr, of Texas, to be an Assistant Secretary of State (Economic and Business Affairs)",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 57,
-      "nay": 43,
-      "present": 0,
-      "bill": {
-        "code": "PN2537",
-        "type": null,
-        "number": "PN2537",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 51,
+      "nay": 47,
+      "present": 0,
+      "bill": {
+        "code": "SRES532",
+        "type": null,
+        "number": "SRES532",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -586,27 +607,6 @@
         "code": "PN1224",
         "type": null,
         "number": "PN1224",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-16",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Gary Andres, of Virginia, to be an Assistant Secretary of Health and Human Services",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 44,
-      "nay": 33,
-      "present": 0,
-      "bill": {
-        "code": "PN251",
-        "type": null,
-        "number": "PN251",
         "congress": 119,
         "title": ""
       }
@@ -2629,43 +2629,43 @@
   "vote_record_similar": [
     {
       "name": "Ralph Norman",
-      "distance": 0.030888347317394624
-    },
-    {
-      "name": "Mark R. Warner",
-      "distance": 0.031119286624214225
-    },
-    {
-      "name": "Susan M. Collins",
-      "distance": 0.03364000594530266
-    },
-    {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.037787828728308784
-    },
-    {
-      "name": "Catherine Cortez Masto",
-      "distance": 0.0380080254683139
-    },
-    {
-      "name": "Jacky Rosen",
-      "distance": 0.03876957570054129
-    },
-    {
-      "name": "Timothy Kaine",
-      "distance": 0.04160829244273308
-    },
-    {
-      "name": "Ruben Gallego",
-      "distance": 0.04230047281059634
-    },
-    {
-      "name": "Mark Kelly",
-      "distance": 0.04293308747341609
+      "distance": 0.032186487848163865
     },
     {
       "name": "Eric Wayne Burlison",
-      "distance": 0.04365375127065256
+      "distance": 0.03272491405641887
+    },
+    {
+      "name": "Mark R. Warner",
+      "distance": 0.03286000608642671
+    },
+    {
+      "name": "Susan M. Collins",
+      "distance": 0.03592895768040036
+    },
+    {
+      "name": "Chip Roy",
+      "distance": 0.03938641897913545
+    },
+    {
+      "name": "Eli Crane",
+      "distance": 0.039604545193702226
+    },
+    {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.03982524325098342
+    },
+    {
+      "name": "Jacky Rosen",
+      "distance": 0.040101496231437585
+    },
+    {
+      "name": "Catherine Cortez Masto",
+      "distance": 0.040311784877378014
+    },
+    {
+      "name": "Andy Biggs",
+      "distance": 0.04234571997262534
     }
   ]
 }

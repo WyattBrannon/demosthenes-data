@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NC",
     "district": "07",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": 0.565,
     "dw_nominate_dim2": 0.288,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9903,
-    "party_unity_bp_pct": 0.3236,
+    "party_unity_pct": 0.9909,
+    "party_unity_bp_pct": 0.3152,
     "maverick_votes": 3,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 104,
     "maverick_bipartisan": 1,
-    "total_votes": 309,
-    "missed_votes": 2,
+    "total_votes": 330,
+    "missed_votes": 3,
     "maverick_votes_all": 976,
-    "bipartisan_votes_all": 870,
+    "bipartisan_votes_all": 874,
     "maverick_bipartisan_all": 42,
-    "total_votes_all": 5968,
-    "missed_votes_all": 55,
+    "total_votes_all": 5989,
+    "missed_votes_all": 56,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 58,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 83,
     "party_unity_percentile_party": 83,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 79
+    "reliability_percentile_party": 75
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -119,8 +119,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.574,
-      "dim2": 0.203
+      "dim1": 0.577,
+      "dim2": 0.215
     }
   ],
   "lobbying_contributions": [
@@ -232,6 +232,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Motion to Discharge",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Motion to Discharge",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 222,
+      "nay": 200,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-03",
       "chamber": "house",
@@ -1938,44 +1959,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Richard E. Neal",
-      "distance": 0.001931320791582791
-    },
-    {
-      "name": "August Lee Pfluger",
-      "distance": 0.00330151480384386
-    },
-    {
-      "name": "John B. Larson",
-      "distance": 0.003312099032335846
-    },
-    {
-      "name": "Joe Neguse",
-      "distance": 0.003352610922848024
-    },
-    {
-      "name": "Sean Casten",
-      "distance": 0.0033837848631378094
-    },
-    {
-      "name": "Glenn Frederick Ivey",
-      "distance": 0.003401470270338948
+      "name": "Adam Smith",
+      "distance": 0.0014035668847617762
     },
     {
       "name": "Katherine M. Clark",
-      "distance": 0.003417601498126987
+      "distance": 0.0029017236257093968
     },
     {
       "name": "Tom Emmer",
-      "distance": 0.003417601498126987
+      "distance": 0.0029017236257093968
     },
     {
       "name": "Hakeem S. Jeffries",
-      "distance": 0.003417601498126987
+      "distance": 0.0029017236257093968
     },
     {
-      "name": "Linda T. S\u00e1nchez",
-      "distance": 0.0041999999999999815
+      "name": "Claudia Tenney",
+      "distance": 0.0030000000000000027
+    },
+    {
+      "name": "Morgan McGarvey",
+      "distance": 0.0031016124838541934
+    },
+    {
+      "name": "Glenn Frederick Ivey",
+      "distance": 0.0031064449134018037
+    },
+    {
+      "name": "Richard E. Neal",
+      "distance": 0.0033376638536557054
+    },
+    {
+      "name": "Eric A. Crawford",
+      "distance": 0.003894868418830131
+    },
+    {
+      "name": "John B. Larson",
+      "distance": 0.004031128874149262
     }
   ]
 }

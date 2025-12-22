@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "12",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.94,
     "dw_nominate_dim2": 0.341,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9702,
-    "party_unity_bp_pct": 0.3046,
-    "maverick_votes": 9,
-    "bipartisan_votes": 92,
+    "party_unity_pct": 0.9691,
+    "party_unity_bp_pct": 0.2932,
+    "maverick_votes": 10,
+    "bipartisan_votes": 95,
     "maverick_bipartisan": 2,
-    "total_votes": 302,
+    "total_votes": 324,
     "missed_votes": 9,
-    "maverick_votes_all": 9,
-    "bipartisan_votes_all": 92,
+    "maverick_votes_all": 10,
+    "bipartisan_votes_all": 95,
     "maverick_bipartisan_all": 2,
-    "total_votes_all": 302,
+    "total_votes_all": 324,
     "missed_votes_all": 9,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 100,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 88,
     "party_unity_percentile_party": 45,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 34
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.872,
-      "dim2": 0.033
+      "dim1": -0.85,
+      "dim2": -0.025
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 59550.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -1115,44 +1136,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Michelle Louise Helene Fischbach",
-      "distance": 0.005374011537017797
+      "name": "Kevin Mullin",
+      "distance": 0.005500909015790032
     },
     {
-      "name": "Patrick Edward Fallon",
-      "distance": 0.006140032573203491
-    },
-    {
-      "name": "Brad J. Sherman",
-      "distance": 0.006407027391856554
-    },
-    {
-      "name": "Scott DesJarlais",
-      "distance": 0.007240165743959184
+      "name": "Tracey Robert Mann",
+      "distance": 0.0062625873247404915
     },
     {
       "name": "Jodey C. Arrington",
-      "distance": 0.007343023900274387
+      "distance": 0.006447480127925959
     },
     {
-      "name": "Yvette D. Clarke",
-      "distance": 0.007373601562330323
+      "name": "Lance Gooden",
+      "distance": 0.006637017402418116
     },
     {
-      "name": "Ron Estes",
-      "distance": 0.0076485292703891185
+      "name": "Patrick Edward Fallon",
+      "distance": 0.006746851117373252
+    },
+    {
+      "name": "Maxine Waters",
+      "distance": 0.006906518659932843
     },
     {
       "name": "Beth Ann Van Duyne",
-      "distance": 0.007840918313565039
+      "distance": 0.0071449282711584985
     },
     {
       "name": "Maxwell Alejandro Frost",
-      "distance": 0.00796052762070454
+      "distance": 0.007424957912338679
     },
     {
-      "name": "Scott L. Fitzgerald",
-      "distance": 0.007961155694998074
+      "name": "Nydia M. Vel\u00e1zquez",
+      "distance": 0.007462573282722327
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "distance": 0.007470609078247927
     }
   ]
 }

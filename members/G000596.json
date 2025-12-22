@@ -4,7 +4,7 @@
     "party": "R",
     "state": "GA",
     "district": "14",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Homeland Security",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": 0.8,
     "dw_nominate_dim2": -0.6,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8729,
-    "party_unity_bp_pct": 0.2302,
-    "maverick_votes": 37,
-    "bipartisan_votes": 67,
+    "party_unity_pct": 0.8746,
+    "party_unity_bp_pct": 0.2219,
+    "maverick_votes": 39,
+    "bipartisan_votes": 69,
     "maverick_bipartisan": 6,
-    "total_votes": 291,
-    "missed_votes": 20,
-    "maverick_votes_all": 501,
-    "bipartisan_votes_all": 434,
+    "total_votes": 311,
+    "missed_votes": 22,
+    "maverick_votes_all": 503,
+    "bipartisan_votes_all": 436,
     "maverick_bipartisan_all": 49,
-    "total_votes_all": 2431,
-    "missed_votes_all": 111,
+    "total_votes_all": 2451,
+    "missed_votes_all": 113,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 92,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
     "party_unity_percentile_party": 5,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 10
+    "reliability_percentile_party": 9
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -84,12 +84,54 @@
     },
     {
       "congress": 119,
-      "dim1": 0.632,
+      "dim1": 0.637,
       "dim2": -0.631
     }
   ],
   "lobbying_contributions": [],
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -257,51 +299,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 77,
-      "nay": 347,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Great Lakes Mass Marking Program Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 360,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR1917",
-        "type": null,
-        "number": "HR1917",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -466,48 +508,6 @@
         "code": "HR4922",
         "type": null,
         "number": "HR4922",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Enhancing Multi-Class Share Disclosures Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 381,
-      "nay": 31,
-      "present": 0,
-      "bill": {
-        "code": "HR3357",
-        "type": null,
-        "number": "HR3357",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Coast Guard Authorization Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 399,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR4275",
-        "type": null,
-        "number": "HR4275",
         "congress": 119,
         "title": ""
       }
@@ -2101,43 +2101,43 @@
   "vote_record_similar": [
     {
       "name": "Tim Burchett",
-      "distance": 0.0066407830863535935
-    },
-    {
-      "name": "Keith Alan Self",
-      "distance": 0.01792010044614706
+      "distance": 0.001456021977856134
     },
     {
       "name": "Scott Perry",
-      "distance": 0.02010795862339092
+      "distance": 0.014542695761102906
     },
     {
-      "name": "Andrew S. Clyde",
-      "distance": 0.023503404008781332
-    },
-    {
-      "name": "Michael Cloud",
-      "distance": 0.024128199269734196
+      "name": "Keith Alan Self",
+      "distance": 0.01808009955724796
     },
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.026172122573455914
-    },
-    {
-      "name": "W. Gregory Steube",
-      "distance": 0.026173650872585552
-    },
-    {
-      "name": "Paul A. Gosar",
-      "distance": 0.028043537579984453
-    },
-    {
-      "name": "Josh Chad Brecheen",
-      "distance": 0.02825968860408761
+      "distance": 0.02068139260301398
     },
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.031026601489689436
+      "distance": 0.0246617112139446
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.025539185578244264
+    },
+    {
+      "name": "Andrew S. Clyde",
+      "distance": 0.025756164310704287
+    },
+    {
+      "name": "Michael Cloud",
+      "distance": 0.026698689106396237
+    },
+    {
+      "name": "Paul A. Gosar",
+      "distance": 0.027520356102347206
+    },
+    {
+      "name": "Josh Chad Brecheen",
+      "distance": 0.027672368890284748
     }
   ]
 }

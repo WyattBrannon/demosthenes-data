@@ -4,7 +4,7 @@
     "party": "R",
     "state": "OK",
     "district": "02",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Homeland Security",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.858,
     "dw_nominate_dim2": -0.471,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8699,
-    "party_unity_bp_pct": 0.2021,
-    "maverick_votes": 38,
-    "bipartisan_votes": 59,
+    "party_unity_pct": 0.8726,
+    "party_unity_bp_pct": 0.1943,
+    "maverick_votes": 40,
+    "bipartisan_votes": 61,
     "maverick_bipartisan": 1,
-    "total_votes": 292,
+    "total_votes": 314,
     "missed_votes": 19,
-    "maverick_votes_all": 241,
-    "bipartisan_votes_all": 234,
+    "maverick_votes_all": 243,
+    "bipartisan_votes_all": 236,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 1511,
+    "total_votes_all": 1533,
     "missed_votes_all": 35,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 96,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 93,
     "party_unity_percentile_party": 4,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 13
+    "reliability_percentile_party": 14
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -75,8 +75,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.904,
-      "dim2": -0.362
+      "dim1": 0.84,
+      "dim2": -0.482
     }
   ],
   "lobbying_contributions": [
@@ -115,6 +115,48 @@
   ],
   "lobbying_sum": 14500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -279,48 +321,6 @@
         "code": "HR4553",
         "type": null,
         "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Enhancing Multi-Class Share Disclosures Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 381,
-      "nay": 31,
-      "present": 0,
-      "bill": {
-        "code": "HR3357",
-        "type": null,
-        "number": "HR3357",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Coast Guard Authorization Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 399,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR4275",
-        "type": null,
-        "number": "HR4275",
         "congress": 119,
         "title": ""
       }
@@ -2017,44 +2017,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.007211102550928002
+    },
+    {
       "name": "Margaret Wood Hassan",
-      "distance": 0.006476109943476844
+      "distance": 0.008820430828480039
     },
     {
       "name": "Angus S. King",
-      "distance": 0.007211102550928009
-    },
-    {
-      "name": "Jeanne Shaheen",
-      "distance": 0.012170866854912222
+      "distance": 0.008989438247187644
     },
     {
       "name": "Paul A. Gosar",
-      "distance": 0.013138112497615487
+      "distance": 0.012264175471673584
     },
     {
       "name": "Eli Crane",
-      "distance": 0.014803040228277428
+      "distance": 0.013732079230764794
     },
     {
-      "name": "Lisa A. Murkowski",
-      "distance": 0.014905368160498414
+      "name": "Ralph Norman",
+      "distance": 0.01540519392932137
     },
     {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.015915401345866248
+      "name": "Jeanne Shaheen",
+      "distance": 0.015420765220961016
     },
     {
-      "name": "Andy Biggs",
-      "distance": 0.018851259904844528
-    },
-    {
-      "name": "Keith Alan Self",
-      "distance": 0.019516147160748742
+      "name": "Susan M. Collins",
+      "distance": 0.01615487542508449
     },
     {
       "name": "Lauren Opal Boebert",
-      "distance": 0.020499999999999963
+      "distance": 0.016218816233005334
+    },
+    {
+      "name": "Andy Biggs",
+      "distance": 0.017552492700468495
     }
   ]
 }

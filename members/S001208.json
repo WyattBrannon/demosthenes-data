@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MI",
     "district": null,
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
@@ -65,31 +65,31 @@
     "dw_nominate_dim1": -0.346,
     "dw_nominate_dim2": 0.752,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9082,
-    "party_unity_bp_pct": 0.1508,
+    "party_unity_pct": 0.9103,
+    "party_unity_bp_pct": 0.149,
     "maverick_votes": 56,
-    "bipartisan_votes": 92,
+    "bipartisan_votes": 93,
     "maverick_bipartisan": 54,
-    "total_votes": 610,
-    "missed_votes": 21,
+    "total_votes": 624,
+    "missed_votes": 22,
     "maverick_votes_all": 216,
-    "bipartisan_votes_all": 942,
+    "bipartisan_votes_all": 943,
     "maverick_bipartisan_all": 165,
-    "total_votes_all": 3737,
-    "missed_votes_all": 77,
+    "total_votes_all": 3751,
+    "missed_votes_all": 78,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 39,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 98,
-    "party_unity_percentile_party": 10,
+    "party_unity_percentile_party": 12,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 30
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,8 +113,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.371,
-      "dim2": 0.602
+      "dim1": -0.374,
+      "dim2": 0.609
     }
   ],
   "lobbying_contributions": [
@@ -374,6 +374,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-07-30",
       "chamber": "senate",
       "question": "On the Nomination",
@@ -558,27 +579,6 @@
         "code": "PN1503",
         "type": null,
         "number": "PN1503",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Luke Pettit, of the District of Columbia, to be an Assistant Secretary of the Treasury",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 60,
-      "nay": 28,
-      "present": 0,
-      "bill": {
-        "code": "PN2539",
-        "type": null,
-        "number": "PN2539",
         "congress": 119,
         "title": ""
       }
@@ -1292,43 +1292,43 @@
   "vote_record_similar": [
     {
       "name": "Ruben Gallego",
-      "distance": 0.0050000000000000044
+      "distance": 0.006694027188471781
     },
     {
       "name": "Timothy Kaine",
-      "distance": 0.006440496875241871
+      "distance": 0.00828552955459094
     },
     {
       "name": "Mark Kelly",
-      "distance": 0.01225887433657758
+      "distance": 0.014217243052012581
     },
     {
       "name": "Catherine Cortez Masto",
-      "distance": 0.014993331851193087
+      "distance": 0.014499999999999973
     },
     {
       "name": "Mark R. Warner",
-      "distance": 0.03121666221747615
+      "distance": 0.03030659994126693
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.033672540741678525
+      "distance": 0.0331167631268516
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.03627630080369277
+      "distance": 0.035568103688557805
+    },
+    {
+      "name": "Christopher Andrew Coons",
+      "distance": 0.03753731476810771
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.0371807746019364
-    },
-    {
-      "name": "Susan M. Collins",
-      "distance": 0.03804339627320359
+      "distance": 0.038625639153287775
     },
     {
       "name": "Gary C. Peters",
-      "distance": 0.03976983781711966
+      "distance": 0.03899551256234489
     }
   ]
 }

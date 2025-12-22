@@ -4,7 +4,7 @@
     "party": "D",
     "state": "HI",
     "district": null,
-    "tenure_years": 18.9,
+    "tenure_years": 19.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -81,31 +81,31 @@
     "dw_nominate_dim1": -0.515,
     "dw_nominate_dim2": -0.097,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9634,
-    "party_unity_bp_pct": 0.0429,
-    "maverick_votes": 23,
-    "bipartisan_votes": 27,
-    "maverick_bipartisan": 5,
-    "total_votes": 629,
+    "party_unity_pct": 0.9627,
+    "party_unity_bp_pct": 0.045,
+    "maverick_votes": 24,
+    "bipartisan_votes": 29,
+    "maverick_bipartisan": 6,
+    "total_votes": 644,
     "missed_votes": 2,
-    "maverick_votes_all": 2258,
-    "bipartisan_votes_all": 335,
-    "maverick_bipartisan_all": 8,
-    "total_votes_all": 9561,
+    "maverick_votes_all": 2259,
+    "bipartisan_votes_all": 337,
+    "maverick_bipartisan_all": 9,
+    "total_votes_all": 9576,
     "missed_votes_all": 302,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 89,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 54,
-    "party_unity_percentile_party": 38,
+    "party_unity_percentile_party": 40,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 88
+    "reliability_percentile_party": 83
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -159,8 +159,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.535,
-      "dim2": -0.099
+      "dim1": -0.51,
+      "dim2": -0.122
     }
   ],
   "lobbying_contributions": [
@@ -207,6 +207,27 @@
   ],
   "lobbying_sum": 147348.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -392,27 +413,6 @@
         "code": "PN2618",
         "type": null,
         "number": "PN2618",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 15,
-      "nay": 82,
-      "present": 0,
-      "bill": {
-        "code": "SJRES33",
-        "type": null,
-        "number": "SJRES33",
         "congress": 119,
         "title": ""
       }
@@ -3302,44 +3302,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Ron Wyden",
-      "distance": 0.007140028011149477
-    },
-    {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.007392563831310494
+      "distance": 0.0045453272709454155
     },
     {
-      "name": "Chris Van Hollen",
-      "distance": 0.012495199078045919
-    },
-    {
-      "name": "Tina Flint Smith",
-      "distance": 0.01340037312913335
-    },
-    {
-      "name": "Lisa Blunt Rochester",
-      "distance": 0.013763720427268193
+      "name": "Ron Wyden",
+      "distance": 0.005608921464952015
     },
     {
       "name": "Alejandro Padilla",
-      "distance": 0.014369411957348836
+      "distance": 0.011600000000000008
     },
     {
-      "name": "Jeff Merkley",
-      "distance": 0.01604306703844376
+      "name": "Tina Flint Smith",
+      "distance": 0.013439121995130485
+    },
+    {
+      "name": "Lisa Blunt Rochester",
+      "distance": 0.013953135848260023
+    },
+    {
+      "name": "Chris Van Hollen",
+      "distance": 0.015223665787188059
+    },
+    {
+      "name": "Peter Welch",
+      "distance": 0.018062391868188473
     },
     {
       "name": "Patty Murray",
-      "distance": 0.018011385288200267
+      "distance": 0.018132015883513864
     },
     {
-      "name": "Christopher S. Murphy",
-      "distance": 0.01935820239588378
+      "name": "Jeff Merkley",
+      "distance": 0.018693581786270917
     },
     {
-      "name": "Richard Blumenthal",
-      "distance": 0.020700241544484424
+      "name": "Charles E. Schumer",
+      "distance": 0.020006249023742536
     }
   ]
 }

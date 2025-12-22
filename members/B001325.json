@@ -4,7 +4,7 @@
     "party": "R",
     "state": "SC",
     "district": "03",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Science, Space, and Technology",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": 0.765,
     "dw_nominate_dim2": -0.27,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9164,
-    "party_unity_bp_pct": 0.2412,
-    "maverick_votes": 26,
-    "bipartisan_votes": 75,
+    "party_unity_pct": 0.9189,
+    "party_unity_bp_pct": 0.2342,
+    "maverick_votes": 27,
+    "bipartisan_votes": 78,
     "maverick_bipartisan": 0,
-    "total_votes": 311,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 26,
-    "bipartisan_votes_all": 75,
+    "maverick_votes_all": 27,
+    "bipartisan_votes_all": 78,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 311,
+    "total_votes_all": 333,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 89,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 79,
-    "party_unity_percentile_party": 9,
+    "party_unity_percentile_party": 10,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -90,8 +90,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.792,
-      "dim2": -0.242
+      "dim1": 0.799,
+      "dim2": -0.23
     }
   ],
   "lobbying_contributions": [
@@ -138,6 +138,27 @@
   ],
   "lobbying_sum": 81201.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -318,27 +339,6 @@
       "member_position": "Yea",
       "yea": 63,
       "nay": 365,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -1754,43 +1754,43 @@
   "vote_record_similar": [
     {
       "name": "Mary E. Miller",
-      "distance": 0.004957822102496202
-    },
-    {
-      "name": "Thomas P. Tiffany",
-      "distance": 0.01098590005416034
-    },
-    {
-      "name": "Andrew Ogles",
-      "distance": 0.011054863183232988
-    },
-    {
-      "name": "Pat Harrigan",
-      "distance": 0.012234786471369217
-    },
-    {
-      "name": "John J. McGuire",
-      "distance": 0.01251598977308628
+      "distance": 0.004891829923453976
     },
     {
       "name": "Brandon Gene Gill",
-      "distance": 0.013461426373159726
+      "distance": 0.008572630868059119
     },
     {
-      "name": "Mark Everette Harris",
-      "distance": 0.014310835055998642
+      "name": "Thomas P. Tiffany",
+      "distance": 0.010124228365658256
     },
     {
-      "name": "Clay Higgins",
-      "distance": 0.014698639392814532
+      "name": "John J. McGuire",
+      "distance": 0.010344563789740004
     },
     {
-      "name": "Ben Cline",
-      "distance": 0.014946571513226724
+      "name": "Andrew Ogles",
+      "distance": 0.010667708282475666
     },
     {
       "name": "Mike Allen Collins",
-      "distance": 0.015559562975867946
+      "distance": 0.010679419459876983
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.012185236969382278
+    },
+    {
+      "name": "Mark Everette Harris",
+      "distance": 0.01341640786499875
+    },
+    {
+      "name": "Clay Higgins",
+      "distance": 0.013892443989449737
+    },
+    {
+      "name": "Ben Cline",
+      "distance": 0.014052757736472908
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IL",
     "district": "15",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "Joint Committee on Printing",
@@ -65,31 +65,31 @@
     "dw_nominate_dim1": 0.79,
     "dw_nominate_dim2": -0.151,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9197,
-    "party_unity_bp_pct": 0.2375,
-    "maverick_votes": 24,
-    "bipartisan_votes": 71,
+    "party_unity_pct": 0.9221,
+    "party_unity_bp_pct": 0.2305,
+    "maverick_votes": 25,
+    "bipartisan_votes": 74,
     "maverick_bipartisan": 0,
-    "total_votes": 299,
+    "total_votes": 321,
     "missed_votes": 12,
-    "maverick_votes_all": 311,
-    "bipartisan_votes_all": 544,
+    "maverick_votes_all": 312,
+    "bipartisan_votes_all": 547,
     "maverick_bipartisan_all": 16,
-    "total_votes_all": 2422,
+    "total_votes_all": 2444,
     "missed_votes_all": 120,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 91,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 65,
-    "party_unity_percentile_party": 10,
+    "party_unity_percentile_party": 11,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 24
+    "reliability_percentile_party": 27
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,8 +108,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.754,
-      "dim2": -0.223
+      "dim1": 0.76,
+      "dim2": -0.213
     }
   ],
   "lobbying_contributions": [
@@ -156,6 +156,27 @@
   ],
   "lobbying_sum": 2077561.76,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -336,27 +357,6 @@
       "member_position": "Yea",
       "yea": 104,
       "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -3294,43 +3294,43 @@
   "vote_record_similar": [
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.004957822102496202
+      "distance": 0.004891829923453976
     },
     {
       "name": "Andrew Ogles",
-      "distance": 0.007624303246854753
-    },
-    {
-      "name": "Clay Higgins",
-      "distance": 0.009889893831583814
-    },
-    {
-      "name": "Thomas P. Tiffany",
-      "distance": 0.01151043005278259
+      "distance": 0.007184010022264741
     },
     {
       "name": "Brandon Gene Gill",
-      "distance": 0.012539936203984426
+      "distance": 0.0072622310621461555
     },
     {
-      "name": "John J. McGuire",
-      "distance": 0.013697079980784255
+      "name": "Clay Higgins",
+      "distance": 0.00912852671574112
     },
     {
-      "name": "Mark Everette Harris",
-      "distance": 0.016788686666919496
-    },
-    {
-      "name": "Pat Harrigan",
-      "distance": 0.01718982257034663
+      "name": "Thomas P. Tiffany",
+      "distance": 0.010617438485811889
     },
     {
       "name": "Mike Allen Collins",
-      "distance": 0.017456230979223462
+      "distance": 0.011977478866606257
+    },
+    {
+      "name": "John J. McGuire",
+      "distance": 0.012841339493993598
+    },
+    {
+      "name": "Mark Everette Harris",
+      "distance": 0.0159477271107829
     },
     {
       "name": "Ben Cline",
-      "distance": 0.017541379649275064
+      "distance": 0.016703592427977858
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.016911830178901396
     }
   ]
 }

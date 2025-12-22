@@ -4,7 +4,7 @@
     "party": "D",
     "state": "TX",
     "district": "20",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Permanent Select Committee on Intelligence",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.4,
     "dw_nominate_dim2": -0.125,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9867,
-    "party_unity_bp_pct": 0.31,
-    "maverick_votes": 4,
-    "bipartisan_votes": 93,
+    "party_unity_pct": 0.9845,
+    "party_unity_bp_pct": 0.2981,
+    "maverick_votes": 5,
+    "bipartisan_votes": 96,
     "maverick_bipartisan": 1,
-    "total_votes": 300,
+    "total_votes": 322,
     "missed_votes": 11,
-    "maverick_votes_all": 2331,
-    "bipartisan_votes_all": 799,
+    "maverick_votes_all": 2332,
+    "bipartisan_votes_all": 802,
     "maverick_bipartisan_all": 6,
-    "total_votes_all": 6899,
+    "total_votes_all": 6921,
     "missed_votes_all": 326,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 56,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 61,
-    "party_unity_percentile_party": 81,
+    "party_unity_percentile_party": 80,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 28
+    "reliability_percentile_party": 31
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -112,8 +112,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.379,
-      "dim2": -0.615
+      "dim1": -0.383,
+      "dim2": -0.619
     }
   ],
   "lobbying_contributions": [
@@ -160,6 +160,27 @@
   ],
   "lobbying_sum": 168611.2,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-02",
       "chamber": "house",
@@ -1811,44 +1832,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Teresa Leger Fernandez",
-      "distance": 0.0012806248474865848
-    },
-    {
-      "name": "Julia Letlow",
-      "distance": 0.0013038404810405521
-    },
-    {
-      "name": "Veronica Escobar",
-      "distance": 0.0027166155414412017
-    },
-    {
       "name": "Nikema Natassha Williams",
-      "distance": 0.0028160255680657717
+      "distance": 0.002601922366251586
     },
     {
       "name": "LaMonica McIver",
-      "distance": 0.0028160255680657717
-    },
-    {
-      "name": "C. Scott Franklin",
-      "distance": 0.0030594117081556714
+      "distance": 0.002601922366251586
     },
     {
       "name": "Janice D. Schakowsky",
-      "distance": 0.0031016124838541556
+      "distance": 0.002701851217221239
+    },
+    {
+      "name": "C. Scott Franklin",
+      "distance": 0.0028160255680657656
+    },
+    {
+      "name": "Veronica Escobar",
+      "distance": 0.0028160255680657656
     },
     {
       "name": "Robin L. Kelly",
-      "distance": 0.003312099032335846
+      "distance": 0.0029154759474226796
     },
     {
-      "name": "Bonnie Watson Coleman",
-      "distance": 0.0033615472627943235
+      "name": "John W. Rose",
+      "distance": 0.0030999999999999917
     },
     {
-      "name": "Virginia Foxx",
-      "distance": 0.0033615472627943235
+      "name": "Dwight Evans",
+      "distance": 0.0031384709652950904
+    },
+    {
+      "name": "Juan Vargas",
+      "distance": 0.003162277660168382
+    },
+    {
+      "name": "Mark DeSaulnier",
+      "distance": 0.0032280024783137742
     }
   ]
 }

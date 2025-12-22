@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MD",
     "district": null,
-    "tenure_years": 22.9,
+    "tenure_years": 23.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -81,22 +81,22 @@
     "dw_nominate_dim1": -0.397,
     "dw_nominate_dim2": -0.223,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9661,
-    "party_unity_bp_pct": 0.0307,
-    "maverick_votes": 21,
+    "party_unity_pct": 0.9653,
+    "party_unity_bp_pct": 0.03,
+    "maverick_votes": 22,
     "bipartisan_votes": 19,
     "maverick_bipartisan": 0,
-    "total_votes": 619,
+    "total_votes": 634,
     "missed_votes": 12,
-    "maverick_votes_all": 4620,
+    "maverick_votes_all": 4621,
     "bipartisan_votes_all": 318,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 13421,
+    "total_votes_all": 13436,
     "missed_votes_all": 235,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 54,
     "dim2_direction_party": "left",
@@ -105,7 +105,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 50
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -169,8 +169,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.477,
-      "dim2": -0.502
+      "dim1": -0.479,
+      "dim2": -0.498
     }
   ],
   "lobbying_contributions": [
@@ -217,6 +217,27 @@
   ],
   "lobbying_sum": 153234.24,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -402,27 +423,6 @@
         "code": "HCONRES14",
         "type": null,
         "number": "HCONRES14",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 15,
-      "nay": 82,
-      "present": 0,
-      "bill": {
-        "code": "SJRES33",
-        "type": null,
-        "number": "SJRES33",
         "congress": 119,
         "title": ""
       }
@@ -4195,43 +4195,43 @@
   "vote_record_similar": [
     {
       "name": "Jeff Merkley",
-      "distance": 0.006946221994724908
+      "distance": 0.006809552114493302
     },
     {
       "name": "Christopher S. Murphy",
-      "distance": 0.010499999999999971
-    },
-    {
-      "name": "Mazie K. Hirono",
-      "distance": 0.012495199078045919
+      "distance": 0.01032279032045121
     },
     {
       "name": "Elizabeth Warren",
-      "distance": 0.014312581877495002
+      "distance": 0.014000357138301934
+    },
+    {
+      "name": "Mazie K. Hirono",
+      "distance": 0.015223665787188059
     },
     {
       "name": "Tina Flint Smith",
-      "distance": 0.01630276050244255
+      "distance": 0.015945218719101945
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.01677050983124842
+      "distance": 0.01635909532951011
     },
     {
       "name": "Bernard Sanders",
-      "distance": 0.016959363195591912
+      "distance": 0.016600301202086713
     },
     {
       "name": "Patty Murray",
-      "distance": 0.018305190520723887
+      "distance": 0.01780589789929162
     },
     {
       "name": "Edward J. Markey",
-      "distance": 0.018445866745696683
+      "distance": 0.01800138883530935
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.019001052602421794
+      "distance": 0.0185024322725419
     }
   ]
 }

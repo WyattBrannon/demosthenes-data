@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": "04",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.432,
     "dw_nominate_dim2": -0.885,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9703,
-    "party_unity_bp_pct": 0.2904,
-    "maverick_votes": 9,
-    "bipartisan_votes": 88,
+    "party_unity_pct": 0.9692,
+    "party_unity_bp_pct": 0.28,
+    "maverick_votes": 10,
+    "bipartisan_votes": 91,
     "maverick_bipartisan": 1,
-    "total_votes": 303,
+    "total_votes": 325,
     "missed_votes": 8,
-    "maverick_votes_all": 150,
-    "bipartisan_votes_all": 750,
+    "maverick_votes_all": 151,
+    "bipartisan_votes_all": 753,
     "maverick_bipartisan_all": 9,
-    "total_votes_all": 3358,
+    "total_votes_all": 3380,
     "missed_votes_all": 136,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 66,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 98,
     "party_unity_percentile_party": 45,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 39
+    "reliability_percentile_party": 41
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.414,
-      "dim2": -0.91
+      "dim1": -0.417,
+      "dim2": -0.909
     }
   ],
   "lobbying_contributions": [
@@ -145,6 +145,27 @@
   ],
   "lobbying_sum": 50662.71,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -1137,44 +1158,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Craig A. Goldman",
-      "distance": 0.003330165161069409
-    },
-    {
-      "name": "William R. Timmons",
-      "distance": 0.003820994634908526
-    },
-    {
       "name": "Marlin A. Stutzman",
-      "distance": 0.0046669047558312495
-    },
-    {
-      "name": "Lance Gooden",
-      "distance": 0.004704253394535611
-    },
-    {
-      "name": "Kevin Mullin",
-      "distance": 0.005448853090330101
-    },
-    {
-      "name": "Tracey Robert Mann",
-      "distance": 0.005458937625582475
-    },
-    {
-      "name": "Summer Lynn Lee",
-      "distance": 0.005787054518492153
-    },
-    {
-      "name": "Beth Ann Van Duyne",
-      "distance": 0.006438167441127957
+      "distance": 0.0
     },
     {
       "name": "Troy Bryan Downing",
-      "distance": 0.006673080248281157
+      "distance": 0.002302172886644236
+    },
+    {
+      "name": "Kevin R. Hern",
+      "distance": 0.003584689665786961
+    },
+    {
+      "name": "William R. Timmons",
+      "distance": 0.004280186911806623
+    },
+    {
+      "name": "Summer Lynn Lee",
+      "distance": 0.005246903848937949
+    },
+    {
+      "name": "Craig A. Goldman",
+      "distance": 0.005360037313302934
+    },
+    {
+      "name": "Beth Ann Van Duyne",
+      "distance": 0.006140032573203499
     },
     {
       "name": "Ayanna Pressley",
-      "distance": 0.007379024325749338
+      "distance": 0.006887670143089062
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "distance": 0.007424284477308261
+    },
+    {
+      "name": "Kevin Mullin",
+      "distance": 0.007699999999999985
     }
   ]
 }

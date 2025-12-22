@@ -4,7 +4,7 @@
     "party": "D",
     "state": "OR",
     "district": "05",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.265,
     "dw_nominate_dim2": 0.177,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9516,
-    "party_unity_bp_pct": 0.3677,
-    "maverick_votes": 15,
-    "bipartisan_votes": 114,
-    "maverick_bipartisan": 15,
-    "total_votes": 310,
+    "party_unity_pct": 0.9518,
+    "party_unity_bp_pct": 0.3584,
+    "maverick_votes": 16,
+    "bipartisan_votes": 119,
+    "maverick_bipartisan": 16,
+    "total_votes": 332,
     "missed_votes": 1,
-    "maverick_votes_all": 15,
-    "bipartisan_votes_all": 114,
-    "maverick_bipartisan_all": 15,
-    "total_votes_all": 310,
+    "maverick_votes_all": 16,
+    "bipartisan_votes_all": 119,
+    "maverick_bipartisan_all": 16,
+    "total_votes_all": 332,
     "missed_votes_all": 1,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 19,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 74,
-    "party_unity_percentile_party": 28,
+    "party_unity_percentile_party": 29,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 85
+    "reliability_percentile_party": 87
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -66,8 +66,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.279,
-      "dim2": 0.145
+      "dim1": -0.284,
+      "dim2": 0.136
     }
   ],
   "lobbying_contributions": [
@@ -114,6 +114,27 @@
   ],
   "lobbying_sum": 185250.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -299,27 +320,6 @@
         "code": "HJRES25",
         "type": null,
         "number": "HJRES25",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-27",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \u201cEnergy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 221,
-      "nay": 198,
-      "present": 0,
-      "bill": {
-        "code": "HJRES20",
-        "type": null,
-        "number": "HJRES20",
         "congress": 119,
         "title": ""
       }
@@ -1522,44 +1522,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Shomari Coleman Figures",
-      "distance": 0.0018027756377320425
-    },
-    {
-      "name": "Nicolas Joseph LaLota",
-      "distance": 0.00254950975679634
+      "name": "Robert P. Bresnahan",
+      "distance": 0.002617250465660529
     },
     {
       "name": "Mike Levin",
-      "distance": 0.0032999999999999696
+      "distance": 0.0030000000000000027
     },
     {
-      "name": "Michael R. Turner",
-      "distance": 0.00430116263352135
+      "name": "Nicole Malliotakis",
+      "distance": 0.003395585369269905
     },
     {
-      "name": "Ryan Edward Mackenzie",
-      "distance": 0.005325410782277753
-    },
-    {
-      "name": "David P. Joyce",
-      "distance": 0.005772347875864762
+      "name": "Haley M. Stevens",
+      "distance": 0.003911521443121601
     },
     {
       "name": "David G. Valadao",
-      "distance": 0.006113100686231161
+      "distance": 0.00420119030752005
     },
     {
-      "name": "Darren Soto",
-      "distance": 0.0063953107821277735
+      "name": "David P. Joyce",
+      "distance": 0.005011985634456638
     },
     {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.0066483080554378335
+      "name": "Bradley Scott Schneider",
+      "distance": 0.005456189146281516
     },
     {
-      "name": "Don Bacon",
-      "distance": 0.007700649323271367
+      "name": "Michael R. Turner",
+      "distance": 0.005515432893255061
+    },
+    {
+      "name": "Ed Case",
+      "distance": 0.005693856338194724
+    },
+    {
+      "name": "Thomas Howard Kean",
+      "distance": 0.006001666435249477
     }
   ]
 }

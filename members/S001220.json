@@ -4,7 +4,7 @@
     "party": "R",
     "state": "AL",
     "district": "05",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.615,
     "dw_nominate_dim2": 0.359,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9738,
-    "party_unity_bp_pct": 0.3377,
+    "party_unity_pct": 0.9754,
+    "party_unity_bp_pct": 0.3292,
     "maverick_votes": 8,
-    "bipartisan_votes": 103,
+    "bipartisan_votes": 107,
     "maverick_bipartisan": 8,
-    "total_votes": 305,
-    "missed_votes": 6,
+    "total_votes": 325,
+    "missed_votes": 8,
     "maverick_votes_all": 58,
-    "bipartisan_votes_all": 459,
+    "bipartisan_votes_all": 463,
     "maverick_bipartisan_all": 32,
-    "total_votes_all": 1527,
-    "missed_votes_all": 19,
+    "total_votes_all": 1547,
+    "missed_votes_all": 21,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 68,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 90,
-    "party_unity_percentile_party": 49,
+    "party_unity_percentile_party": 50,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 52
+    "reliability_percentile_party": 44
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -87,8 +87,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.377,
-      "dim2": 0.697
+      "dim1": 0.383,
+      "dim2": 0.722
     }
   ],
   "lobbying_contributions": [
@@ -305,6 +305,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-04-28",
       "chamber": "house",
@@ -1778,44 +1820,44 @@
   ],
   "vote_record_similar": [
     {
+      "name": "Valerie Anne Hoyle",
+      "distance": 0.0
+    },
+    {
       "name": "Robert B. Aderholt",
-      "distance": 0.00029999999999996696
-    },
-    {
-      "name": "Seth Moulton",
-      "distance": 0.0011180339887498808
-    },
-    {
-      "name": "Jonathan Luther Jackson",
-      "distance": 0.00158113883008417
-    },
-    {
-      "name": "Lois Frankel",
-      "distance": 0.002353720459187976
-    },
-    {
-      "name": "Adrian Smith",
-      "distance": 0.003289376840679694
-    },
-    {
-      "name": "Nicholas A. Langworthy",
-      "distance": 0.003300000000000025
-    },
-    {
-      "name": "Gilbert Ray Cisneros",
-      "distance": 0.003560898762952978
-    },
-    {
-      "name": "Raul Ruiz",
-      "distance": 0.003573513677041085
-    },
-    {
-      "name": "Jefferson Van Drew",
-      "distance": 0.003573513677041085
+      "distance": 0.000200000000000089
     },
     {
       "name": "Sheila Cherfilus-McCormick",
-      "distance": 0.0038832975677894925
+      "distance": 0.0010049875621120888
+    },
+    {
+      "name": "Chris Raphael Deluzio",
+      "distance": 0.0019924858845171197
+    },
+    {
+      "name": "Lois Frankel",
+      "distance": 0.002039607805437129
+    },
+    {
+      "name": "Ann Wagner",
+      "distance": 0.002102379604162854
+    },
+    {
+      "name": "Mike Rogers",
+      "distance": 0.0021095023109728977
+    },
+    {
+      "name": "Bill Foster",
+      "distance": 0.0021587033144922687
+    },
+    {
+      "name": "Rick Larsen",
+      "distance": 0.002280350850198268
+    },
+    {
+      "name": "Andrea Rose Salinas",
+      "distance": 0.0029274562336608968
     }
   ]
 }

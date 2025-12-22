@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NC",
     "district": "13",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": 0.755,
     "dw_nominate_dim2": -0.051,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9446,
-    "party_unity_bp_pct": 0.2736,
-    "maverick_votes": 17,
-    "bipartisan_votes": 84,
+    "party_unity_pct": 0.9453,
+    "party_unity_bp_pct": 0.2644,
+    "maverick_votes": 18,
+    "bipartisan_votes": 87,
     "maverick_bipartisan": 1,
-    "total_votes": 307,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 17,
-    "bipartisan_votes_all": 84,
+    "maverick_votes_all": 18,
+    "bipartisan_votes_all": 87,
     "maverick_bipartisan_all": 1,
-    "total_votes_all": 307,
+    "total_votes_all": 329,
     "missed_votes_all": 4,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 89,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 50,
     "party_unity_percentile_party": 19,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,8 +94,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.87,
-      "dim2": 0.216
+      "dim1": 0.867,
+      "dim2": 0.199
     }
   ],
   "lobbying_contributions": [
@@ -142,6 +142,27 @@
   ],
   "lobbying_sum": 157391.02,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -327,27 +348,6 @@
         "code": "HR2483",
         "type": null,
         "number": "HR2483",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-05-19",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Strengthening the Quad Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 334,
-      "nay": 51,
-      "present": 0,
-      "bill": {
-        "code": "HR1263",
-        "type": null,
-        "number": "HR1263",
         "congress": 119,
         "title": ""
       }
@@ -1672,43 +1672,43 @@
   "vote_record_similar": [
     {
       "name": "Rich Dean McCormick",
-      "distance": 0.0027658633371878986
+      "distance": 0.0037336309405188676
     },
     {
       "name": "Katherine Cammack",
-      "distance": 0.0027658633371878986
-    },
-    {
-      "name": "Abraham Jamal Hamadeh",
-      "distance": 0.004666904755831171
+      "distance": 0.0037336309405188676
     },
     {
       "name": "Ronny Lynn Jackson",
-      "distance": 0.006560487786742678
-    },
-    {
-      "name": "Mikie Sherrill",
-      "distance": 0.007116881339463204
+      "distance": 0.0063702433234531205
     },
     {
       "name": "Russ Fulcher",
-      "distance": 0.0072449982746719535
+      "distance": 0.006797793759742932
     },
     {
       "name": "John Joyce",
-      "distance": 0.007294518489934751
+      "distance": 0.0069115844782509225
     },
     {
       "name": "Cory Mills",
-      "distance": 0.009138927727036675
+      "distance": 0.008508818954473063
     },
     {
-      "name": "Victoria Spartz",
-      "distance": 0.00917877987534291
+      "name": "Abraham Jamal Hamadeh",
+      "distance": 0.008626702730475872
+    },
+    {
+      "name": "Robert F. Onder",
+      "distance": 0.008967719888578161
     },
     {
       "name": "Russell William Fry",
-      "distance": 0.009861541461657996
+      "distance": 0.009362157870918476
+    },
+    {
+      "name": "Tom McClintock",
+      "distance": 0.00971853898484751
     }
   ]
 }

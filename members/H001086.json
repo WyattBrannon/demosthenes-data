@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TN",
     "district": "01",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Energy and Commerce",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.672,
     "dw_nominate_dim2": -0.094,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9373,
-    "party_unity_bp_pct": 0.2541,
-    "maverick_votes": 19,
-    "bipartisan_votes": 77,
+    "party_unity_pct": 0.9385,
+    "party_unity_bp_pct": 0.2462,
+    "maverick_votes": 20,
+    "bipartisan_votes": 80,
     "maverick_bipartisan": 0,
-    "total_votes": 303,
+    "total_votes": 325,
     "missed_votes": 8,
-    "maverick_votes_all": 238,
-    "bipartisan_votes_all": 661,
+    "maverick_votes_all": 239,
+    "bipartisan_votes_all": 664,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 2525,
+    "total_votes_all": 2547,
     "missed_votes_all": 17,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 77,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 53,
     "party_unity_percentile_party": 17,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 43
+    "reliability_percentile_party": 44
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -80,8 +80,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.648,
-      "dim2": -0.257
+      "dim1": 0.658,
+      "dim2": -0.239
     }
   ],
   "lobbying_contributions": [
@@ -128,6 +128,27 @@
   ],
   "lobbying_sum": 247750.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -308,27 +329,6 @@
       "member_position": "Yea",
       "yea": 30,
       "nay": 400,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -2591,44 +2591,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Rashida Tlaib",
-      "distance": 0.005930430001273116
-    },
-    {
       "name": "Aaron Paul Bean",
-      "distance": 0.008000624975587851
+      "distance": 0.005491812087098435
     },
     {
-      "name": "Robert F. Onder",
-      "distance": 0.008580209787645066
+      "name": "Rashida Tlaib",
+      "distance": 0.006152235366108835
     },
     {
       "name": "Randall Adam Fine",
-      "distance": 0.00902551937563708
-    },
-    {
-      "name": "Mike Steven Kennedy",
-      "distance": 0.010735455276791905
+      "distance": 0.008499999999999962
     },
     {
       "name": "Harriet Maxine Hageman",
-      "distance": 0.011521284650593508
+      "distance": 0.010829589096544738
+    },
+    {
+      "name": "Victoria Spartz",
+      "distance": 0.011475626344561769
+    },
+    {
+      "name": "Robert F. Onder",
+      "distance": 0.012202458768625295
     },
     {
       "name": "Mike Allen Collins",
-      "distance": 0.012199999999999989
-    },
-    {
-      "name": "John J. McGuire",
-      "distance": 0.01268108828137397
+      "distance": 0.012758134659894465
     },
     {
       "name": "Thomas P. Tiffany",
-      "distance": 0.013607718398026925
+      "distance": 0.01286312559217238
+    },
+    {
+      "name": "Mike Steven Kennedy",
+      "distance": 0.012976902558006693
     },
     {
       "name": "Mark Everette Harris",
-      "distance": 0.014500344823486163
+      "distance": 0.013599999999999945
     }
   ]
 }

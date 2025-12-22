@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "18",
-    "tenure_years": 30.9,
+    "tenure_years": 31.0,
     "committees": [
       {
         "name": "House Committee on Science, Space, and Technology",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.397,
     "dw_nominate_dim2": -0.402,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9769,
-    "party_unity_bp_pct": 0.3234,
-    "maverick_votes": 7,
-    "bipartisan_votes": 98,
-    "maverick_bipartisan": 4,
-    "total_votes": 303,
+    "party_unity_pct": 0.9723,
+    "party_unity_bp_pct": 0.3138,
+    "maverick_votes": 9,
+    "bipartisan_votes": 102,
+    "maverick_bipartisan": 5,
+    "total_votes": 325,
     "missed_votes": 8,
-    "maverick_votes_all": 6774,
-    "bipartisan_votes_all": 854,
-    "maverick_bipartisan_all": 27,
-    "total_votes_all": 18752,
+    "maverick_votes_all": 6776,
+    "bipartisan_votes_all": 858,
+    "maverick_bipartisan_all": 28,
+    "total_votes_all": 18774,
     "missed_votes_all": 699,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 54,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 89,
-    "party_unity_percentile_party": 58,
+    "party_unity_percentile_party": 50,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 39
+    "reliability_percentile_party": 41
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -149,8 +149,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.376,
-      "dim2": -0.034
+      "dim1": -0.353,
+      "dim2": -0.144
     }
   ],
   "lobbying_contributions": [
@@ -197,6 +197,48 @@
   ],
   "lobbying_sum": 164077.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-17",
       "chamber": "house",
@@ -3150,44 +3192,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "James E. Clyburn",
-      "distance": 0.0004472135954999087
+      "name": "Juan Guadaloupe Ciscomani",
+      "distance": 0.0023853720883752964
     },
     {
-      "name": "Vern Buchanan",
-      "distance": 0.0017464249196573218
+      "name": "Michael T. McCaul",
+      "distance": 0.0033615472627944046
     },
     {
-      "name": "Roger Williams",
-      "distance": 0.00210237960416283
-    },
-    {
-      "name": "Ro Khanna",
-      "distance": 0.0021023796041629095
+      "name": "Jason T. Smith",
+      "distance": 0.003720215047547645
     },
     {
       "name": "Marilyn Strickland",
-      "distance": 0.002202271554554559
+      "distance": 0.004101219330881971
     },
     {
-      "name": "Steve Cohen",
-      "distance": 0.002716615541441263
+      "name": "David J. Taylor",
+      "distance": 0.004554119014694272
     },
     {
-      "name": "Wesley Jonell-Cleavon Bell",
-      "distance": 0.0032999999999999696
+      "name": "Raja Krishnamoorthi",
+      "distance": 0.004666904755831171
     },
     {
-      "name": "Troy Anthony Carter",
-      "distance": 0.0032999999999999696
+      "name": "Robert Jacobsen Menendez",
+      "distance": 0.0050537115073973505
     },
     {
-      "name": "Yassamin Ansari",
-      "distance": 0.0032999999999999696
+      "name": "Roger Williams",
+      "distance": 0.005604462507680784
     },
     {
-      "name": "Kathy Castor",
-      "distance": 0.0037054014627298164
+      "name": "Bennie G. Thompson",
+      "distance": 0.005852349955359815
+    },
+    {
+      "name": "Ro Khanna",
+      "distance": 0.005852349955359815
     }
   ]
 }

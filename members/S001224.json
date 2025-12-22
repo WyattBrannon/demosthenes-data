@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "03",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Science, Space, and Technology",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": 0.832,
     "dw_nominate_dim2": -0.226,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8837,
-    "party_unity_bp_pct": 0.2159,
-    "maverick_votes": 35,
-    "bipartisan_votes": 65,
+    "party_unity_pct": 0.8854,
+    "party_unity_bp_pct": 0.2074,
+    "maverick_votes": 37,
+    "bipartisan_votes": 67,
     "maverick_bipartisan": 1,
-    "total_votes": 301,
+    "total_votes": 323,
     "missed_votes": 10,
-    "maverick_votes_all": 190,
-    "bipartisan_votes_all": 289,
+    "maverick_votes_all": 192,
+    "bipartisan_votes_all": 291,
     "maverick_bipartisan_all": 11,
-    "total_votes_all": 1527,
+    "total_votes_all": 1549,
     "missed_votes_all": 19,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 95,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 75,
     "party_unity_percentile_party": 6,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 33
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -91,8 +91,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.908,
-      "dim2": -0.155
+      "dim1": 0.803,
+      "dim2": -0.357
     }
   ],
   "lobbying_contributions": [
@@ -139,6 +139,48 @@
   ],
   "lobbying_sum": 35500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -303,48 +345,6 @@
         "code": "HR4275",
         "type": null,
         "number": "HR4275",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Great Lakes Mass Marking Program Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 360,
-      "nay": 57,
-      "present": 0,
-      "bill": {
-        "code": "HR1917",
-        "type": null,
-        "number": "HR1917",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Improving Access to Small Business Information Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 387,
-      "nay": 12,
-      "present": 0,
-      "bill": {
-        "code": "HR3351",
-        "type": null,
-        "number": "HR3351",
         "congress": 119,
         "title": ""
       }
@@ -2028,44 +2028,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Paul A. Gosar",
-      "distance": 0.011926860441876587
+      "name": "Lauren Opal Boebert",
+      "distance": 0.010374005976477928
     },
     {
-      "name": "Lauren Opal Boebert",
-      "distance": 0.015340469353966952
+      "name": "Paul A. Gosar",
+      "distance": 0.01112205017071942
     },
     {
       "name": "Marjorie Taylor Greene",
-      "distance": 0.01792010044614706
-    },
-    {
-      "name": "Andrew S. Clyde",
-      "distance": 0.018828170383762683
+      "distance": 0.01808009955724796
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.019516147160748742
+      "distance": 0.018315294155431903
     },
     {
       "name": "Tim Burchett",
-      "distance": 0.022361797781037192
-    },
-    {
-      "name": "W. Gregory Steube",
-      "distance": 0.02498259394058187
-    },
-    {
-      "name": "Michael Cloud",
-      "distance": 0.025020391683584813
+      "distance": 0.019448650338776716
     },
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.02526064132202507
+      "distance": 0.02183872706913111
+    },
+    {
+      "name": "Andrew S. Clyde",
+      "distance": 0.022010224896624762
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.02266362724719936
+    },
+    {
+      "name": "Scott Perry",
+      "distance": 0.023382899734635094
     },
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.025773047937719822
+      "distance": 0.023477010031092097
     }
   ]
 }

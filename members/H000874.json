@@ -4,7 +4,7 @@
     "party": "D",
     "state": "MD",
     "district": "05",
-    "tenure_years": 44.9,
+    "tenure_years": 45.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": -0.381,
     "dw_nominate_dim2": 0.122,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.983,
-    "party_unity_bp_pct": 0.3231,
-    "maverick_votes": 5,
-    "bipartisan_votes": 95,
-    "maverick_bipartisan": 5,
-    "total_votes": 294,
+    "party_unity_pct": 0.981,
+    "party_unity_bp_pct": 0.3165,
+    "maverick_votes": 6,
+    "bipartisan_votes": 100,
+    "maverick_bipartisan": 6,
+    "total_votes": 316,
     "missed_votes": 17,
-    "maverick_votes_all": 7064,
-    "bipartisan_votes_all": 867,
-    "maverick_bipartisan_all": 32,
-    "total_votes_all": 25089,
+    "maverick_votes_all": 7065,
+    "bipartisan_votes_all": 872,
+    "maverick_bipartisan_all": 33,
+    "total_votes_all": 25111,
     "missed_votes_all": 728,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 49,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 69,
+    "party_unity_percentile_party": 71,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 15
+    "reliability_percentile_party": 17
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -180,8 +180,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.331,
-      "dim2": -0.137
+      "dim1": -0.361,
+      "dim2": -0.004
     }
   ],
   "lobbying_contributions": [
@@ -228,6 +228,27 @@
   ],
   "lobbying_sum": 368505.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -1188,44 +1209,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Laura Syril Friedman",
-      "distance": 0.0009219544457293076
-    },
-    {
-      "name": "Jason Crow",
-      "distance": 0.0009433981132056801
-    },
-    {
       "name": "Lori Trahan",
-      "distance": 0.0010198039027185535
+      "distance": 0.000824621125123549
     },
     {
-      "name": "Julie Ann Fedorchak",
-      "distance": 0.0019416487838947861
-    },
-    {
-      "name": "Kathy Castor",
-      "distance": 0.0024515301344262114
-    },
-    {
-      "name": "Yassamin Ansari",
-      "distance": 0.0028160255680657717
-    },
-    {
-      "name": "Frank J. Pallone",
-      "distance": 0.002860069929214981
-    },
-    {
-      "name": "Christopher H. Smith",
-      "distance": 0.0032449961479176334
-    },
-    {
-      "name": "Steve Cohen",
-      "distance": 0.0033999999999999586
+      "name": "James E. Clyburn",
+      "distance": 0.0023769728648009095
     },
     {
       "name": "Sam Theodore Liccardo",
-      "distance": 0.003765634076752534
+      "distance": 0.0023769728648009095
+    },
+    {
+      "name": "Kathy Castor",
+      "distance": 0.0024698178070457206
+    },
+    {
+      "name": "Troy Anthony Carter",
+      "distance": 0.0025317977802343816
+    },
+    {
+      "name": "Gabe Amo",
+      "distance": 0.0026907248094147594
+    },
+    {
+      "name": "Vern Buchanan",
+      "distance": 0.0031048349392520133
+    },
+    {
+      "name": "Frank J. Pallone",
+      "distance": 0.003114482300479499
+    },
+    {
+      "name": "Daniel Meuser",
+      "distance": 0.0032756678708318505
+    },
+    {
+      "name": "Roger Williams",
+      "distance": 0.0035114099732158517
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "13",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.247,
     "dw_nominate_dim2": 0.844,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8219,
-    "party_unity_bp_pct": 0.5034,
-    "maverick_votes": 52,
-    "bipartisan_votes": 147,
-    "maverick_bipartisan": 51,
-    "total_votes": 292,
+    "party_unity_pct": 0.8089,
+    "party_unity_bp_pct": 0.5064,
+    "maverick_votes": 60,
+    "bipartisan_votes": 159,
+    "maverick_bipartisan": 59,
+    "total_votes": 314,
     "missed_votes": 19,
-    "maverick_votes_all": 52,
-    "bipartisan_votes_all": 147,
-    "maverick_bipartisan_all": 51,
-    "total_votes_all": 292,
+    "maverick_votes_all": 60,
+    "bipartisan_votes_all": 159,
+    "maverick_bipartisan_all": 59,
+    "total_votes_all": 314,
     "missed_votes_all": 19,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 14,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 99,
     "party_unity_percentile_party": 2,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 14
+    "reliability_percentile_party": 15
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.245,
-      "dim2": 0.853
+      "dim1": -0.242,
+      "dim2": 0.864
     }
   ],
   "lobbying_contributions": [
@@ -127,6 +127,174 @@
   "lobbying_sum": 341700.0,
   "maverick_votes": [
     {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Passed",
+      "vote_desc": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 237,
+      "nay": 140,
+      "present": 0,
+      "bill": {
+        "code": "HRES939",
+        "type": null,
+        "number": "HRES939",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "State Planning for Reliability and Affordability Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 218,
+      "nay": 207,
+      "present": 0,
+      "bill": {
+        "code": "HR3628",
+        "type": null,
+        "number": "HR3628",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PERMIT Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 221,
+      "nay": 205,
+      "present": 0,
+      "bill": {
+        "code": "HR3898",
+        "type": null,
+        "number": "HR3898",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-12-03",
       "chamber": "house",
       "question": "On Passage",
@@ -164,174 +332,6 @@
         "code": "HR4305",
         "type": null,
         "number": "HR4305",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-12-03",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "CLASS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 242,
-      "nay": 176,
-      "present": 0,
-      "bill": {
-        "code": "HR1005",
-        "type": null,
-        "number": "HR1005",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-21",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Denouncing the horrors of socialism",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 285,
-      "nay": 98,
-      "present": 0,
-      "bill": {
-        "code": "HCONRES58",
-        "type": null,
-        "number": "HCONRES58",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-20",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "REFINER Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 230,
-      "nay": 176,
-      "present": 0,
-      "bill": {
-        "code": "HR3109",
-        "type": null,
-        "number": "HR3109",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-20",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Unlocking our Domestic LNG Potential Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 217,
-      "nay": 188,
-      "present": 0,
-      "bill": {
-        "code": "HR1949",
-        "type": null,
-        "number": "HR1949",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-19",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "District of Columbia Cash Bail Reform Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 237,
-      "nay": 179,
-      "present": 0,
-      "bill": {
-        "code": "HR5214",
-        "type": null,
-        "number": "HR5214",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-19",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "CLEAN DC Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 233,
-      "nay": 190,
-      "present": 0,
-      "bill": {
-        "code": "HR5107",
-        "type": null,
-        "number": "HR5107",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-19",
-      "chamber": "house",
-      "question": "On Motion to Refer",
-      "vote_result": "Passed",
-      "vote_desc": "Censuring Representative Cory Mills and Removing Him From the Committee on Armed Services and the Committee on Foreign Affairs",
-      "vote_question": "On Motion to Refer",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 310,
-      "nay": 103,
-      "present": 0,
-      "bill": {
-        "code": "HRES893",
-        "type": null,
-        "number": "HRES893",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Disapproving the behavior of Representative Jesus G. \u201cChuy\u201d Garcia of Illinois",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 236,
-      "nay": 183,
-      "present": 0,
-      "bill": {
-        "code": "HRES878",
-        "type": null,
-        "number": "HRES878",
         "congress": 119,
         "title": ""
       }
@@ -1614,44 +1614,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Vicente Gonzalez",
-      "distance": 0.028524375540929868
+      "name": "Jared Forrest Golden",
+      "distance": 0.023160742647851347
     },
     {
       "name": "Donald Gene Davis",
-      "distance": 0.029124731758421334
+      "distance": 0.02648357981844598
     },
     {
-      "name": "Jared Forrest Golden",
-      "distance": 0.03906430595825295
-    },
-    {
-      "name": "Laura Anne Gillen",
-      "distance": 0.048633321909982666
+      "name": "Vicente Gonzalez",
+      "distance": 0.03497942252239162
     },
     {
       "name": "Marie Gluesenkamp Perez",
-      "distance": 0.05188024672262073
+      "distance": 0.03931539138810647
     },
     {
-      "name": "Thomas R. Suozzi",
-      "distance": 0.06229711068741469
+      "name": "Laura Anne Gillen",
+      "distance": 0.06045767114270944
     },
     {
       "name": "Henry Cuellar",
-      "distance": 0.07425638019725982
+      "distance": 0.0687212485334776
+    },
+    {
+      "name": "Thomas R. Suozzi",
+      "distance": 0.07576918898866473
     },
     {
       "name": "Brian K. Fitzpatrick",
-      "distance": 0.08807366235146578
-    },
-    {
-      "name": "Susie Lee",
-      "distance": 0.09965099096346205
+      "distance": 0.09563859053750216
     },
     {
       "name": "Kristen Lee McDonald Rivet",
-      "distance": 0.10217754156369198
+      "distance": 0.11313708498984762
+    },
+    {
+      "name": "Susie Lee",
+      "distance": 0.11496595148129726
     }
   ]
 }

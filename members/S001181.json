@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NH",
     "district": null,
-    "tenure_years": 16.9,
+    "tenure_years": 17.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -109,31 +109,31 @@
     "dw_nominate_dim1": -0.225,
     "dw_nominate_dim2": -0.145,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8592,
-    "party_unity_bp_pct": 0.2079,
+    "party_unity_pct": 0.862,
+    "party_unity_bp_pct": 0.2055,
     "maverick_votes": 86,
-    "bipartisan_votes": 127,
+    "bipartisan_votes": 128,
     "maverick_bipartisan": 86,
-    "total_votes": 611,
-    "missed_votes": 20,
+    "total_votes": 623,
+    "missed_votes": 23,
     "maverick_votes_all": 1010,
-    "bipartisan_votes_all": 454,
+    "bipartisan_votes_all": 455,
     "maverick_bipartisan_all": 97,
-    "total_votes_all": 5784,
-    "missed_votes_all": 147,
+    "total_votes_all": 5796,
+    "missed_votes_all": 150,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 7,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 64,
     "party_unity_percentile_party": 4,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 33
+    "reliability_percentile_party": 29
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -183,7 +183,7 @@
     {
       "congress": 119,
       "dim1": -0.164,
-      "dim2": -0.174
+      "dim2": -0.175
     }
   ],
   "lobbying_contributions": [
@@ -443,6 +443,69 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Joint Resolution",
+      "vote_result": "Joint Resolution Passed",
+      "vote_desc": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Coastal Plain Oil and Gas Leasing Program Record of Decision\".",
+      "vote_question": "On the Joint Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 49,
+      "nay": 45,
+      "present": 0,
+      "bill": {
+        "code": "HJRES131",
+        "type": null,
+        "number": "HJRES131",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-12-03",
       "chamber": "senate",
       "question": "On the Cloture Motion",
@@ -585,69 +648,6 @@
         "code": "PN243",
         "type": null,
         "number": "PN243",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Paul Dabbar, of New York, to be Deputy Secretary of Commerce",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 56,
-      "nay": 40,
-      "present": 0,
-      "bill": {
-        "code": "PN2612",
-        "type": null,
-        "number": "PN2612",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Kenneth Kies, of Virginia, to be an Assistant Secretary of the Treasury",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 53,
-      "nay": 44,
-      "present": 0,
-      "bill": {
-        "code": "PN137",
-        "type": null,
-        "number": "PN137",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-24",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Daniel Zimmerman, of North Carolina, to be an Assistant Secretary of Defense",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 61,
-      "nay": 35,
-      "present": 0,
-      "bill": {
-        "code": "PN2650",
-        "type": null,
-        "number": "PN2650",
         "congress": 119,
         "title": ""
       }
@@ -3838,43 +3838,43 @@
   "vote_record_similar": [
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.008523496934944051
+      "distance": 0.007155417527999308
     },
     {
       "name": "Angus S. King",
-      "distance": 0.009080198235721527
+      "distance": 0.007561084578286383
     },
     {
       "name": "Scott Perry",
-      "distance": 0.01149826073804208
+      "distance": 0.007940403012442147
     },
     {
       "name": "Josh Chad Brecheen",
-      "distance": 0.012170866854912222
+      "distance": 0.015420765220961016
     },
     {
       "name": "Andy Biggs",
-      "distance": 0.012541929676090469
+      "distance": 0.01611365880239491
     },
     {
       "name": "Eli Crane",
-      "distance": 0.012747548783981962
-    },
-    {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.014220056258679144
+      "distance": 0.017194475857088498
     },
     {
       "name": "Lisa A. Murkowski",
-      "distance": 0.023488294957276057
+      "distance": 0.019779787663167653
     },
     {
-      "name": "Paul A. Gosar",
-      "distance": 0.02401874268149777
+      "name": "Marjorie Taylor Greene",
+      "distance": 0.02068139260301398
+    },
+    {
+      "name": "Tim Burchett",
+      "distance": 0.02157962001519026
     },
     {
       "name": "Keith Alan Self",
-      "distance": 0.025773047937719822
+      "distance": 0.023477010031092097
     }
   ]
 }

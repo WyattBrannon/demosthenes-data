@@ -4,7 +4,7 @@
     "party": "D",
     "state": "WA",
     "district": null,
-    "tenure_years": 32.9,
+    "tenure_years": 33.0,
     "committees": [
       {
         "name": "Senate Committee on Commerce, Science, and Transportation",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": -0.306,
     "dw_nominate_dim2": -0.402,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9762,
-    "party_unity_bp_pct": 0.0778,
-    "maverick_votes": 15,
+    "party_unity_pct": 0.9752,
+    "party_unity_bp_pct": 0.076,
+    "maverick_votes": 16,
     "bipartisan_votes": 49,
     "maverick_bipartisan": 12,
-    "total_votes": 630,
+    "total_votes": 645,
     "missed_votes": 1,
-    "maverick_votes_all": 2102,
+    "maverick_votes_all": 2103,
     "bipartisan_votes_all": 364,
     "maverick_bipartisan_all": 13,
-    "total_votes_all": 9566,
+    "total_votes_all": 9581,
     "missed_votes_all": 69,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 28,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 89,
     "party_unity_percentile_party": 56,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 89
+    "reliability_percentile_party": 91
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -171,8 +171,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.348,
-      "dim2": -0.291
+      "dim1": -0.351,
+      "dim2": -0.286
     }
   ],
   "lobbying_contributions": [
@@ -219,6 +219,27 @@
   ],
   "lobbying_sum": 14848.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-09",
       "chamber": "senate",
@@ -398,27 +419,6 @@
       "result": "",
       "member_position": "Yea",
       "yea": 73,
-      "nay": 25,
-      "present": 0,
-      "bill": {
-        "code": "PN138",
-        "type": null,
-        "number": "PN138",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-25",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Michael Kratsios, of South Carolina, to be Director of the Office of Science and Technology Policy",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 74,
       "nay": 25,
       "present": 0,
       "bill": {
@@ -2197,44 +2197,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "John Thune",
-      "distance": 0.007860025445251507
-    },
-    {
       "name": "Tammy Baldwin",
-      "distance": 0.007999999999999941
+      "distance": 0.005630275304103691
     },
     {
-      "name": "Thom Tillis",
-      "distance": 0.009042676594902684
+      "name": "John Thune",
+      "distance": 0.009885848471426243
     },
     {
       "name": "Mitch McConnell",
-      "distance": 0.010581587782558908
+      "distance": 0.01004489920307813
     },
     {
-      "name": "Dan Sullivan",
-      "distance": 0.0106230880632705
+      "name": "Thom Tillis",
+      "distance": 0.01106345334875153
     },
     {
       "name": "Tammy Duckworth",
-      "distance": 0.012778106275970594
+      "distance": 0.012209013064126022
+    },
+    {
+      "name": "Dan Sullivan",
+      "distance": 0.013523682930326332
     },
     {
       "name": "Jerry Moran",
-      "distance": 0.015211837495845162
-    },
-    {
-      "name": "Mike Rounds",
-      "distance": 0.016401219466856756
+      "distance": 0.014681961721786431
     },
     {
       "name": "Charles E. Schumer",
-      "distance": 0.017383325343558395
+      "distance": 0.015300326793895614
     },
     {
-      "name": "Charles E. Grassley",
-      "distance": 0.01784432682955568
+      "name": "Richard Blumenthal",
+      "distance": 0.016351758315239374
+    },
+    {
+      "name": "Mike Rounds",
+      "distance": 0.01722904524342543
     }
   ]
 }

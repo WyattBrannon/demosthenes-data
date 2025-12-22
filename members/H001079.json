@@ -85,31 +85,31 @@
     "dw_nominate_dim1": 0.452,
     "dw_nominate_dim2": 0.327,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9952,
-    "party_unity_bp_pct": 0.066,
+    "party_unity_pct": 0.9953,
+    "party_unity_bp_pct": 0.0661,
     "maverick_votes": 3,
-    "bipartisan_votes": 41,
+    "bipartisan_votes": 42,
     "maverick_bipartisan": 2,
-    "total_votes": 621,
-    "missed_votes": 10,
+    "total_votes": 635,
+    "missed_votes": 11,
     "maverick_votes_all": 163,
-    "bipartisan_votes_all": 408,
+    "bipartisan_votes_all": 409,
     "maverick_bipartisan_all": 75,
-    "total_votes_all": 3110,
-    "missed_votes_all": 92,
+    "total_votes_all": 3124,
+    "missed_votes_all": 93,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 34,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 86,
     "party_unity_percentile_party": 94,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 59
+    "reliability_percentile_party": 57
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -138,8 +138,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.458,
-      "dim2": 0.336
+      "dim1": 0.459,
+      "dim2": 0.335
     }
   ],
   "lobbying_contributions": [
@@ -251,6 +251,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-10-29",
       "chamber": "senate",
@@ -436,27 +457,6 @@
         "code": "PN1122",
         "type": null,
         "number": "PN1122",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-03",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Christopher Wright, of Colorado, to be Secretary of Energy",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 59,
-      "nay": 38,
-      "present": 0,
-      "bill": {
-        "code": "PN1115",
-        "type": null,
-        "number": "PN1115",
         "congress": 119,
         "title": ""
       }
@@ -1881,43 +1881,43 @@
   "vote_record_similar": [
     {
       "name": "Shelley Moore Capito",
-      "distance": 0.0
+      "distance": 0.0003999999999999976
     },
     {
       "name": "Dave Harold McCormick",
-      "distance": 0.0007071067811865521
+      "distance": 0.0006082762530298234
     },
     {
       "name": "Kevin Cramer",
-      "distance": 0.0012041594578792213
-    },
-    {
-      "name": "Steve Daines",
-      "distance": 0.0016000000000000042
+      "distance": 0.001104536101718715
     },
     {
       "name": "Markwayne Mullin",
-      "distance": 0.001627882059609955
-    },
-    {
-      "name": "John Hoeven",
-      "distance": 0.0016278820596100172
-    },
-    {
-      "name": "Tim Patrick Sheehy",
-      "distance": 0.001655294535724739
+      "distance": 0.0014142135623730905
     },
     {
       "name": "Todd C. Young",
-      "distance": 0.0016763054614239588
+      "distance": 0.0015811388300841383
+    },
+    {
+      "name": "John Hoeven",
+      "distance": 0.0016492422502471114
+    },
+    {
+      "name": "Tim Patrick Sheehy",
+      "distance": 0.0017000000000000543
     },
     {
       "name": "Roger F. Wicker",
-      "distance": 0.0018000000000000238
+      "distance": 0.0017029386365925642
     },
     {
       "name": "Michael D. Crapo",
       "distance": 0.0021000000000000046
+    },
+    {
+      "name": "Steve Daines",
+      "distance": 0.0025019992006393623
     }
   ]
 }

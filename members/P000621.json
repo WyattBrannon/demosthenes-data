@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NJ",
     "district": "09",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.345,
     "dw_nominate_dim2": 0.129,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9646,
-    "party_unity_bp_pct": 0.3537,
-    "maverick_votes": 11,
-    "bipartisan_votes": 110,
-    "maverick_bipartisan": 10,
-    "total_votes": 311,
+    "party_unity_pct": 0.964,
+    "party_unity_bp_pct": 0.3453,
+    "maverick_votes": 12,
+    "bipartisan_votes": 115,
+    "maverick_bipartisan": 11,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 11,
-    "bipartisan_votes_all": 110,
-    "maverick_bipartisan_all": 10,
-    "total_votes_all": 311,
+    "maverick_votes_all": 12,
+    "bipartisan_votes_all": 115,
+    "maverick_bipartisan_all": 11,
+    "total_votes_all": 333,
     "missed_votes_all": 0,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 38,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 40,
+    "party_unity_percentile_party": 41,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 95
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.325,
-      "dim2": 0.103
+      "dim1": -0.323,
+      "dim2": 0.104
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 233200.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -311,27 +332,6 @@
         "code": "HR1156",
         "type": null,
         "number": "HR1156",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \u201cGross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\u201d",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 292,
-      "nay": 132,
-      "present": 0,
-      "bill": {
-        "code": "HJRES25",
-        "type": null,
-        "number": "HJRES25",
         "congress": 119,
         "title": ""
       }
@@ -1091,44 +1091,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "James A. Himes",
-      "distance": 0.0013601470508735334
-    },
-    {
-      "name": "Jake Daniel Auchincloss",
-      "distance": 0.0025000000000000356
-    },
-    {
       "name": "Joe Courtney",
-      "distance": 0.003132091952673171
-    },
-    {
-      "name": "Timothy Kennedy",
-      "distance": 0.003200000000000036
-    },
-    {
-      "name": "Andrew R. Garbarino",
-      "distance": 0.0035777087639996667
-    },
-    {
-      "name": "Haley M. Stevens",
-      "distance": 0.0036055512754640355
-    },
-    {
-      "name": "Suhas Subramanyam",
-      "distance": 0.004104875150354706
-    },
-    {
-      "name": "Ed Case",
-      "distance": 0.004104875150354706
+      "distance": 0.0021213203435596286
     },
     {
       "name": "Ami Bera",
-      "distance": 0.004579301256742115
+      "distance": 0.004390899680019994
     },
     {
       "name": "Mark E. Amodei",
-      "distance": 0.005414794548272314
+      "distance": 0.004936598018879007
+    },
+    {
+      "name": "Kevin Patrick Kiley",
+      "distance": 0.005208646657242148
+    },
+    {
+      "name": "Suhas Subramanyam",
+      "distance": 0.006363961030678902
+    },
+    {
+      "name": "Timothy Kennedy",
+      "distance": 0.006708203932499375
+    },
+    {
+      "name": "Dan Newhouse",
+      "distance": 0.006865857557508745
+    },
+    {
+      "name": "Herbert Clark Hoover Conaway",
+      "distance": 0.007083784299369875
+    },
+    {
+      "name": "James A. Himes",
+      "distance": 0.007443117626371329
+    },
+    {
+      "name": "Joseph D. Morelle",
+      "distance": 0.007891767862779514
     }
   ]
 }

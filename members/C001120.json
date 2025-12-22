@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "02",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Energy and Commerce",
@@ -49,22 +49,22 @@
     "dw_nominate_dim1": 0.434,
     "dw_nominate_dim2": 0.274,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9861,
-    "party_unity_bp_pct": 0.3345,
+    "party_unity_pct": 0.987,
+    "party_unity_bp_pct": 0.3247,
     "maverick_votes": 4,
-    "bipartisan_votes": 96,
+    "bipartisan_votes": 100,
     "maverick_bipartisan": 3,
-    "total_votes": 287,
-    "missed_votes": 24,
+    "total_votes": 308,
+    "missed_votes": 25,
     "maverick_votes_all": 715,
-    "bipartisan_votes_all": 889,
+    "bipartisan_votes_all": 893,
     "maverick_bipartisan_all": 101,
-    "total_votes_all": 3295,
-    "missed_votes_all": 199,
+    "total_votes_all": 3316,
+    "missed_votes_all": 200,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 30,
     "dim2_direction_party": "right",
@@ -73,7 +73,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 7
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.459,
-      "dim2": 0.13
+      "dim1": 0.471,
+      "dim2": 0.164
     }
   ],
   "lobbying_contributions": [
@@ -231,6 +231,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "house",
@@ -416,27 +437,6 @@
         "code": "HRES539",
         "type": null,
         "number": "HRES539",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 124,
-      "nay": 303,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
         "congress": 119,
         "title": ""
       }
@@ -2144,44 +2144,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Bryan Steil",
-      "distance": 0.002202271554554506
+      "name": "Gus M. Bilirakis",
+      "distance": 0.0008602325267042777
+    },
+    {
+      "name": "Deborah Koff Ross",
+      "distance": 0.0010770329614269059
     },
     {
       "name": "Ernest Anthony Gonzales",
-      "distance": 0.0022360679774997816
+      "distance": 0.0013928388277184539
     },
     {
-      "name": "Kelly Louise Morrison",
-      "distance": 0.0023259406699225934
-    },
-    {
-      "name": "Gus M. Bilirakis",
-      "distance": 0.0023769728648009776
-    },
-    {
-      "name": "Andrea Rose Salinas",
-      "distance": 0.0025942243542145574
+      "name": "Bryan Steil",
+      "distance": 0.0020396078054371177
     },
     {
       "name": "Robert J. Wittman",
-      "distance": 0.0027018512172211854
+      "distance": 0.0024738633753705525
+    },
+    {
+      "name": "Jack Bergman",
+      "distance": 0.00286530975637884
+    },
+    {
+      "name": "Suzan K. DelBene",
+      "distance": 0.0028844410203711507
     },
     {
       "name": "Ashley Hinson",
-      "distance": 0.00311126983722082
+      "distance": 0.003189043743820399
     },
     {
-      "name": "Max Leonard Miller",
-      "distance": 0.003114482300479458
+      "name": "Sean Casten",
+      "distance": 0.0036138621999185364
     },
     {
-      "name": "David Scott",
-      "distance": 0.003114482300479458
-    },
-    {
-      "name": "Michael James Baumgartner",
-      "distance": 0.004022437072223756
+      "name": "Johnny Anthony Olszewski",
+      "distance": 0.0037363083384538737
     }
   ]
 }

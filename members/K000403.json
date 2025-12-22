@@ -4,7 +4,7 @@
     "party": "R",
     "state": "UT",
     "district": "03",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": 0.862,
     "dw_nominate_dim2": 0.161,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9468,
-    "party_unity_bp_pct": 0.2591,
+    "party_unity_pct": 0.9503,
+    "party_unity_bp_pct": 0.2516,
     "maverick_votes": 16,
-    "bipartisan_votes": 78,
+    "bipartisan_votes": 81,
     "maverick_bipartisan": 0,
-    "total_votes": 301,
-    "missed_votes": 10,
+    "total_votes": 322,
+    "missed_votes": 11,
     "maverick_votes_all": 16,
-    "bipartisan_votes_all": 78,
+    "bipartisan_votes_all": 81,
     "maverick_bipartisan_all": 0,
-    "total_votes_all": 301,
-    "missed_votes_all": 10,
+    "total_votes_all": 322,
+    "missed_votes_all": 11,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 96,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 20,
+    "party_unity_percentile_party": 23,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 33
+    "reliability_percentile_party": 31
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,8 +94,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.816,
-      "dim2": 0.089
+      "dim1": 0.82,
+      "dim2": 0.106
     }
   ],
   "lobbying_contributions": [
@@ -355,6 +355,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-11-19",
       "chamber": "house",
       "question": "On Passage",
@@ -539,27 +560,6 @@
         "code": "HR586",
         "type": null,
         "number": "HR586",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-07",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Clear Communication for Veterans Claims Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 412,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "HR1039",
-        "type": null,
-        "number": "HR1039",
         "congress": 119,
         "title": ""
       }
@@ -1708,44 +1708,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Randall Adam Fine",
-      "distance": 0.0035510561809129326
+      "name": "Robert F. Onder",
+      "distance": 0.005515432893255091
     },
     {
-      "name": "Robert F. Onder",
-      "distance": 0.004792702786528671
+      "name": "Randall Adam Fine",
+      "distance": 0.007513321502504751
+    },
+    {
+      "name": "Delia Catalina Ramirez",
+      "distance": 0.012185236969382252
     },
     {
       "name": "Rashida Tlaib",
-      "distance": 0.010140019723846695
+      "distance": 0.01261942946412402
     },
     {
       "name": "Diana Harshbarger",
-      "distance": 0.010735455276791905
-    },
-    {
-      "name": "Troy E. Nehls",
-      "distance": 0.013159027319676789
-    },
-    {
-      "name": "Russ Fulcher",
-      "distance": 0.014261135999631946
+      "distance": 0.012976902558006693
     },
     {
       "name": "Brad Knott",
-      "distance": 0.014665946952038258
+      "distance": 0.01374190670904154
     },
     {
-      "name": "Rich Dean McCormick",
-      "distance": 0.01587513779467757
+      "name": "Troy E. Nehls",
+      "distance": 0.014041723540933249
     },
     {
-      "name": "Katherine Cammack",
-      "distance": 0.01587513779467757
+      "name": "Russ Fulcher",
+      "distance": 0.014807092894960867
     },
     {
       "name": "Victoria Spartz",
-      "distance": 0.01745222048909533
+      "distance": 0.015008331019803672
+    },
+    {
+      "name": "Aaron Paul Bean",
+      "distance": 0.016574679484080607
     }
   ]
 }

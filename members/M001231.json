@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NY",
     "district": "22",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Agriculture",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.197,
     "dw_nominate_dim2": -0.003,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9353,
-    "party_unity_bp_pct": 0.3851,
-    "maverick_votes": 20,
-    "bipartisan_votes": 119,
-    "maverick_bipartisan": 20,
-    "total_votes": 309,
+    "party_unity_pct": 0.9366,
+    "party_unity_bp_pct": 0.3746,
+    "maverick_votes": 21,
+    "bipartisan_votes": 124,
+    "maverick_bipartisan": 21,
+    "total_votes": 331,
     "missed_votes": 2,
-    "maverick_votes_all": 20,
-    "bipartisan_votes_all": 119,
-    "maverick_bipartisan_all": 20,
-    "total_votes_all": 309,
+    "maverick_votes_all": 21,
+    "bipartisan_votes_all": 124,
+    "maverick_bipartisan_all": 21,
+    "total_votes_all": 331,
     "missed_votes_all": 2,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 4,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 43,
-    "party_unity_percentile_party": 19,
+    "party_unity_percentile_party": 21,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 76
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.193,
-      "dim2": 0.011
+      "dim1": -0.211,
+      "dim2": -0.007
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 141050.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-21",
       "chamber": "house",
@@ -311,27 +332,6 @@
         "code": "HR884",
         "type": null,
         "number": "HR884",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Agree",
-      "vote_result": "Passed",
-      "vote_desc": "Denouncing the antisemitic terrorist attack in Boulder, Colorado",
-      "vote_question": "On Motion to Suspend the Rules and Agree",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 280,
-      "nay": 113,
-      "present": 0,
-      "bill": {
-        "code": "HRES488",
-        "type": null,
-        "number": "HRES488",
         "congress": 119,
         "title": ""
       }
@@ -1155,44 +1155,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Derek Truyen Tran",
-      "distance": 0.0020099751242241776
-    },
-    {
       "name": "Nicole (Nikki) Jai Budzinski",
-      "distance": 0.002531797780234428
+      "distance": 0.00610982814815608
     },
     {
-      "name": "Greg Stanton",
-      "distance": 0.003984971769034273
-    },
-    {
-      "name": "Frank John Mrvan",
-      "distance": 0.00671863081289631
-    },
-    {
-      "name": "Kim Schrier",
-      "distance": 0.00728971878744303
+      "name": "Marc A. Veasey",
+      "distance": 0.006811754546370531
     },
     {
       "name": "Dave Kunnghee Min",
-      "distance": 0.008168843247363698
+      "distance": 0.0076694197955256265
+    },
+    {
+      "name": "Sharice Davids",
+      "distance": 0.0076694197955256265
+    },
+    {
+      "name": "Darren Soto",
+      "distance": 0.00820548596976436
+    },
+    {
+      "name": "Michael Vincent Lawler",
+      "distance": 0.00863307592923866
+    },
+    {
+      "name": "Frank John Mrvan",
+      "distance": 0.009330058949438662
+    },
+    {
+      "name": "Don Bacon",
+      "distance": 0.009486832980505146
     },
     {
       "name": "Sanford D. Bishop",
-      "distance": 0.01015972440571101
+      "distance": 0.00965194280961092
     },
     {
-      "name": "Steven A. Horsford",
-      "distance": 0.01019803902718558
-    },
-    {
-      "name": "April Lynn McClain Delaney",
-      "distance": 0.010199999999999994
-    },
-    {
-      "name": "Angie Craig",
-      "distance": 0.010866922287382032
+      "name": "Greg Stanton",
+      "distance": 0.009956907150315284
     }
   ]
 }

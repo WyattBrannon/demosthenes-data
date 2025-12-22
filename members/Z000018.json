@@ -4,7 +4,7 @@
     "party": "R",
     "state": "MT",
     "district": "01",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.441,
     "dw_nominate_dim2": -0.133,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9668,
-    "party_unity_bp_pct": 0.3156,
-    "maverick_votes": 10,
-    "bipartisan_votes": 95,
+    "party_unity_pct": 0.9659,
+    "party_unity_bp_pct": 0.3034,
+    "maverick_votes": 11,
+    "bipartisan_votes": 98,
     "maverick_bipartisan": 6,
-    "total_votes": 301,
+    "total_votes": 323,
     "missed_votes": 10,
-    "maverick_votes_all": 194,
-    "bipartisan_votes_all": 427,
+    "maverick_votes_all": 195,
+    "bipartisan_votes_all": 430,
     "maverick_bipartisan_all": 42,
-    "total_votes_all": 2812,
+    "total_votes_all": 2834,
     "missed_votes_all": 163,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 31,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 62,
-    "party_unity_percentile_party": 36,
+    "party_unity_percentile_party": 34,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 33
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -97,8 +97,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.429,
-      "dim2": -0.068
+      "dim1": 0.447,
+      "dim2": -0.063
     }
   ],
   "lobbying_contributions": [
@@ -145,6 +145,27 @@
   ],
   "lobbying_sum": 191155.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -330,27 +351,6 @@
         "code": "HR1048",
         "type": null,
         "number": "HR1048",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-25",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "IMPACT Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 350,
-      "nay": 73,
-      "present": 0,
-      "bill": {
-        "code": "HR1534",
-        "type": null,
-        "number": "HR1534",
         "congress": 119,
         "title": ""
       }
@@ -1159,44 +1159,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "John Edwards James",
-      "distance": 0.0017029386365926091
-    },
-    {
-      "name": "Brian Timothy Jack",
-      "distance": 0.002256102834535676
-    },
-    {
-      "name": "Jimmy Gomez",
-      "distance": 0.0051662365412358064
-    },
-    {
-      "name": "Derrick Francis Van Orden",
-      "distance": 0.005544366510251702
-    },
-    {
       "name": "Brad J. Sherman",
-      "distance": 0.005547071299343455
-    },
-    {
-      "name": "Michael Guest",
-      "distance": 0.006037383539249413
-    },
-    {
-      "name": "Ron Estes",
-      "distance": 0.0063324560795950295
-    },
-    {
-      "name": "Brian J. Mast",
-      "distance": 0.006774215821776018
+      "distance": 0.0012165525060596194
     },
     {
       "name": "Gary J. Palmer",
-      "distance": 0.006989277502002652
+      "distance": 0.0023345235059857214
+    },
+    {
+      "name": "Ron Estes",
+      "distance": 0.0024166091947188965
+    },
+    {
+      "name": "Brian Timothy Jack",
+      "distance": 0.003101612483854174
+    },
+    {
+      "name": "John Edwards James",
+      "distance": 0.0046647615158762505
+    },
+    {
+      "name": "Derrick Francis Van Orden",
+      "distance": 0.0054571054598568655
+    },
+    {
+      "name": "Michael Guest",
+      "distance": 0.0061983868869247135
+    },
+    {
+      "name": "Brian J. Mast",
+      "distance": 0.006363961030678902
     },
     {
       "name": "Jahana Hayes",
-      "distance": 0.007236711960552249
+      "distance": 0.006865857557508787
+    },
+    {
+      "name": "Tom More Barrett",
+      "distance": 0.006865857557508787
     }
   ]
 }

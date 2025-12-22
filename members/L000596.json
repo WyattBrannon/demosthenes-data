@@ -4,7 +4,7 @@
     "party": "R",
     "state": "FL",
     "district": "13",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Oversight and Government Reform",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.565,
     "dw_nominate_dim2": -0.497,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9276,
-    "party_unity_bp_pct": 0.269,
-    "maverick_votes": 21,
-    "bipartisan_votes": 78,
+    "party_unity_pct": 0.9295,
+    "party_unity_bp_pct": 0.2596,
+    "maverick_votes": 22,
+    "bipartisan_votes": 81,
     "maverick_bipartisan": 3,
-    "total_votes": 290,
+    "total_votes": 312,
     "missed_votes": 21,
-    "maverick_votes_all": 142,
-    "bipartisan_votes_all": 285,
+    "maverick_votes_all": 143,
+    "bipartisan_votes_all": 288,
     "maverick_bipartisan_all": 19,
-    "total_votes_all": 1327,
+    "total_votes_all": 1349,
     "missed_votes_all": 219,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 58,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 94,
     "party_unity_percentile_party": 14,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 8
+    "reliability_percentile_party": 11
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -87,8 +87,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.558,
-      "dim2": -0.424
+      "dim1": 0.554,
+      "dim2": -0.427
     }
   ],
   "lobbying_contributions": [
@@ -123,6 +123,27 @@
   ],
   "lobbying_sum": 13000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -303,27 +324,6 @@
       "member_position": "Yea",
       "yea": 30,
       "nay": 400,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 76,
-      "nay": 353,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -1604,43 +1604,43 @@
   "vote_record_similar": [
     {
       "name": "Jeff George Crank",
-      "distance": 0.002441311123146781
-    },
-    {
-      "name": "Tom McClintock",
-      "distance": 0.003373425558686566
-    },
-    {
-      "name": "Byron Lowell Donalds",
-      "distance": 0.007532595834106603
+      "distance": 0.006920260110718376
     },
     {
       "name": "Victoria Spartz",
-      "distance": 0.008600581375697807
+      "distance": 0.007308214556237388
+    },
+    {
+      "name": "Tom McClintock",
+      "distance": 0.007406078584514195
     },
     {
       "name": "Russ Fulcher",
-      "distance": 0.010592922165295149
-    },
-    {
-      "name": "Russell William Fry",
-      "distance": 0.011531261856362454
-    },
-    {
-      "name": "Warren Davidson",
-      "distance": 0.011779643458101745
+      "distance": 0.00986559678884156
     },
     {
       "name": "Barry Moore",
-      "distance": 0.012300406497348
+      "distance": 0.010282509421342623
     },
     {
       "name": "Rashida Tlaib",
-      "distance": 0.012798828071350911
+      "distance": 0.010978615577567116
+    },
+    {
+      "name": "Russell William Fry",
+      "distance": 0.011139569111954012
+    },
+    {
+      "name": "Aaron Paul Bean",
+      "distance": 0.01129247537079446
     },
     {
       "name": "Harriet Maxine Hageman",
-      "distance": 0.014313629868066304
+      "distance": 0.012727922061357859
+    },
+    {
+      "name": "Ben Cline",
+      "distance": 0.013483323032546549
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "CA",
     "district": "01",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": 0.54,
     "dw_nominate_dim2": 0.014,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9863,
-    "party_unity_bp_pct": 0.2921,
-    "maverick_votes": 4,
-    "bipartisan_votes": 85,
+    "party_unity_pct": 0.984,
+    "party_unity_bp_pct": 0.2812,
+    "maverick_votes": 5,
+    "bipartisan_votes": 88,
     "maverick_bipartisan": 0,
-    "total_votes": 291,
+    "total_votes": 313,
     "missed_votes": 20,
-    "maverick_votes_all": 1043,
-    "bipartisan_votes_all": 752,
+    "maverick_votes_all": 1044,
+    "bipartisan_votes_all": 755,
     "maverick_bipartisan_all": 30,
-    "total_votes_all": 6945,
+    "total_votes_all": 6967,
     "missed_votes_all": 280,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 53,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 74,
+    "party_unity_percentile_party": 67,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 10
+    "reliability_percentile_party": 12
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -124,8 +124,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.575,
-      "dim2": 0.077
+      "dim1": 0.576,
+      "dim2": 0.046
     }
   ],
   "lobbying_contributions": [
@@ -172,6 +172,27 @@
   ],
   "lobbying_sum": 66500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -3085,44 +3106,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Frederica S. Wilson",
-      "distance": 0.001923538406167041
+      "name": "Kweisi Mfume",
+      "distance": 0.002220360331117427
     },
     {
       "name": "Robert Julio Garcia",
-      "distance": 0.003324154027719014
+      "distance": 0.0031575306807693788
     },
     {
       "name": "Jared Huffman",
-      "distance": 0.0036715119501371314
+      "distance": 0.0034132096331751976
     },
     {
-      "name": "Steve Joseph Scalise",
-      "distance": 0.003720215047547645
-    },
-    {
-      "name": "Nancy Pelosi",
-      "distance": 0.00454862616621767
-    },
-    {
-      "name": "Barry Loudermilk",
-      "distance": 0.00460977222864649
-    },
-    {
-      "name": "Garland Barr",
-      "distance": 0.004808326112068543
+      "name": "Frederica S. Wilson",
+      "distance": 0.0035777087639996667
     },
     {
       "name": "Maxine Elizabeth Dexter",
-      "distance": 0.005024937810560386
-    },
-    {
-      "name": "Kweisi Mfume",
-      "distance": 0.005500909015789976
+      "distance": 0.005008991914547272
     },
     {
       "name": "Daniel Webster",
-      "distance": 0.006306346010171017
+      "distance": 0.005590169943749454
+    },
+    {
+      "name": "Nancy Pelosi",
+      "distance": 0.005590169943749534
+    },
+    {
+      "name": "Steve Joseph Scalise",
+      "distance": 0.006312685640834629
+    },
+    {
+      "name": "Barry Loudermilk",
+      "distance": 0.006512296062066036
+    },
+    {
+      "name": "Garland Barr",
+      "distance": 0.006648308055437819
     }
   ]
 }

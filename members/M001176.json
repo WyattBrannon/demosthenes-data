@@ -4,7 +4,7 @@
     "party": "D",
     "state": "OR",
     "district": null,
-    "tenure_years": 16.9,
+    "tenure_years": 17.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -93,31 +93,31 @@
     "dw_nominate_dim1": -0.452,
     "dw_nominate_dim2": -0.729,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9601,
-    "party_unity_bp_pct": 0.0272,
-    "maverick_votes": 25,
+    "party_unity_pct": 0.9594,
+    "party_unity_bp_pct": 0.0266,
+    "maverick_votes": 26,
     "bipartisan_votes": 17,
     "maverick_bipartisan": 1,
-    "total_votes": 626,
-    "missed_votes": 5,
-    "maverick_votes_all": 1382,
+    "total_votes": 640,
+    "missed_votes": 6,
+    "maverick_votes_all": 1383,
     "bipartisan_votes_all": 308,
     "maverick_bipartisan_all": 12,
-    "total_votes_all": 5832,
-    "missed_votes_all": 99,
+    "total_votes_all": 5846,
+    "missed_votes_all": 100,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 74,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 97,
-    "party_unity_percentile_party": 34,
+    "party_unity_percentile_party": 37,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 72
+    "reliability_percentile_party": 68
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -166,8 +166,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.533,
-      "dim2": -0.534
+      "dim1": -0.535,
+      "dim2": -0.531
     }
   ],
   "lobbying_contributions": [
@@ -214,6 +214,27 @@
   ],
   "lobbying_sum": 71877.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -402,30 +423,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-04-29",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Tilman Fertitta, of Texas, to be Ambassador to the Italian Republic, and to serve concurrently and without additional compensation as Ambassador to the Republic of San Marino",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 84,
-      "nay": 13,
-      "present": 0,
-      "bill": {
-        "code": "PN2618",
-        "type": null,
-        "number": "PN2618",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-08",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Agreed to",
+      "vote_desc": "Robert P. Chamberlin, of Mississippi, to be United States District Judge for the Northern District of Mississippi",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 52,
+      "nay": 44,
+      "present": 0,
+      "bill": {
+        "code": "PN4661",
+        "type": null,
+        "number": "PN4661",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-05-22",
       "chamber": "senate",
@@ -4590,43 +4611,43 @@
   "vote_record_similar": [
     {
       "name": "Christopher S. Murphy",
-      "distance": 0.003687817782917125
+      "distance": 0.0036069377593743253
     },
     {
       "name": "Chris Van Hollen",
-      "distance": 0.006946221994724908
+      "distance": 0.006809552114493302
     },
     {
       "name": "Elizabeth Warren",
-      "distance": 0.007382411530116635
+      "distance": 0.007201388754955587
     },
     {
       "name": "Bernard Sanders",
-      "distance": 0.010018482919085022
+      "distance": 0.00979489663038874
     },
     {
       "name": "Edward J. Markey",
-      "distance": 0.011510864433221298
+      "distance": 0.011207140580897508
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.01604306703844376
+      "distance": 0.018693581786270917
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.02193171219946131
+      "distance": 0.02139369065869652
     },
     {
       "name": "Tina Flint Smith",
-      "distance": 0.022989780338228582
+      "distance": 0.022497110925627742
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.023338594644922415
+      "distance": 0.022760711763914587
     },
     {
       "name": "Patty Murray",
-      "distance": 0.025241434190631875
+      "distance": 0.02460447113839266
     }
   ]
 }

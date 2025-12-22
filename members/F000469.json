@@ -4,7 +4,7 @@
     "party": "R",
     "state": "ID",
     "district": "01",
-    "tenure_years": 6.9,
+    "tenure_years": 7.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.647,
     "dw_nominate_dim2": -0.097,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9381,
-    "party_unity_bp_pct": 0.2704,
-    "maverick_votes": 19,
-    "bipartisan_votes": 83,
+    "party_unity_pct": 0.9392,
+    "party_unity_bp_pct": 0.2614,
+    "maverick_votes": 20,
+    "bipartisan_votes": 86,
     "maverick_bipartisan": 1,
-    "total_votes": 307,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 881,
-    "bipartisan_votes_all": 687,
+    "maverick_votes_all": 882,
+    "bipartisan_votes_all": 690,
     "maverick_bipartisan_all": 15,
-    "total_votes_all": 3419,
+    "total_votes_all": 3441,
     "missed_votes_all": 75,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 54,
-    "party_unity_percentile_party": 17,
+    "party_unity_percentile_party": 18,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,7 +98,7 @@
     {
       "congress": 119,
       "dim1": 0.761,
-      "dim2": -0.041
+      "dim2": -0.051
     }
   ],
   "lobbying_contributions": [
@@ -145,6 +145,27 @@
   ],
   "lobbying_sum": 52250.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -330,27 +351,6 @@
         "code": "S1582",
         "type": null,
         "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Promoting Opportunities for Non-Traditional Capital Formation Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 321,
-      "nay": 87,
-      "present": 0,
-      "bill": {
-        "code": "HR3422",
-        "type": null,
-        "number": "HR3422",
         "congress": 119,
         "title": ""
       }
@@ -1370,44 +1370,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Victoria Spartz",
-      "distance": 0.0032802438933713833
-    },
-    {
-      "name": "Rich Dean McCormick",
-      "distance": 0.005374011537017719
-    },
-    {
-      "name": "Katherine Cammack",
-      "distance": 0.005374011537017719
-    },
-    {
       "name": "Tom McClintock",
-      "distance": 0.007233947746562823
+      "distance": 0.004326661530556803
     },
     {
-      "name": "Brad Knott",
-      "distance": 0.0072449982746719535
-    },
-    {
-      "name": "Russell William Fry",
-      "distance": 0.00746726188103781
+      "name": "Victoria Spartz",
+      "distance": 0.004743416490252601
     },
     {
       "name": "Jeff George Crank",
-      "distance": 0.009119758768739446
+      "distance": 0.00662872536767066
     },
     {
-      "name": "Robert F. Onder",
-      "distance": 0.010336827366266647
+      "name": "Brad Knott",
+      "distance": 0.006797793759742932
+    },
+    {
+      "name": "Russell William Fry",
+      "distance": 0.007151223671512455
     },
     {
       "name": "Rashida Tlaib",
-      "distance": 0.010493807697875899
+      "distance": 0.00922279784013507
+    },
+    {
+      "name": "Robert F. Onder",
+      "distance": 0.009308598175880188
+    },
+    {
+      "name": "Rich Dean McCormick",
+      "distance": 0.00940478601564113
+    },
+    {
+      "name": "Katherine Cammack",
+      "distance": 0.00940478601564113
     },
     {
       "name": "Anna Paulina Luna",
-      "distance": 0.010592922165295149
+      "distance": 0.00986559678884156
     }
   ]
 }

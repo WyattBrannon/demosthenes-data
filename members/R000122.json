@@ -4,7 +4,7 @@
     "party": "D",
     "state": "RI",
     "district": null,
-    "tenure_years": 34.9,
+    "tenure_years": 35.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -102,30 +102,30 @@
     "dw_nominate_dim2": -0.161,
     "dim1_percentile_chamber": null,
     "party_unity_pct": 0.9342,
-    "party_unity_bp_pct": 0.1124,
-    "maverick_votes": 41,
-    "bipartisan_votes": 70,
-    "maverick_bipartisan": 35,
-    "total_votes": 623,
+    "party_unity_bp_pct": 0.1129,
+    "maverick_votes": 42,
+    "bipartisan_votes": 72,
+    "maverick_bipartisan": 36,
+    "total_votes": 638,
     "missed_votes": 8,
-    "maverick_votes_all": 3656,
-    "bipartisan_votes_all": 397,
-    "maverick_bipartisan_all": 37,
-    "total_votes_all": 13069,
+    "maverick_votes_all": 3657,
+    "bipartisan_votes_all": 399,
+    "maverick_bipartisan_all": 38,
+    "total_votes_all": 13084,
     "missed_votes_all": 72,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 44,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 18,
+    "party_unity_percentile_party": 19,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 61
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -219,8 +219,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.294,
-      "dim2": -0.136
+      "dim1": -0.292,
+      "dim2": -0.137
     }
   ],
   "lobbying_contributions": [
@@ -267,6 +267,27 @@
   ],
   "lobbying_sum": 2059200.26,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -452,27 +473,6 @@
         "code": "PN227",
         "type": null,
         "number": "PN227",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Luke Pettit, of the District of Columbia, to be an Assistant Secretary of the Treasury",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 69,
-      "nay": 30,
-      "present": 0,
-      "bill": {
-        "code": "PN2539",
-        "type": null,
-        "number": "PN2539",
         "congress": 119,
         "title": ""
       }
@@ -1336,43 +1336,43 @@
   "vote_record_similar": [
     {
       "name": "Richard J. Durbin",
-      "distance": 0.003330165161069331
-    },
-    {
-      "name": "Christopher Andrew Coons",
-      "distance": 0.005961543424315588
+      "distance": 0.0031890437438203884
     },
     {
       "name": "Martin Heinrich",
-      "distance": 0.006609841147864298
+      "distance": 0.0047169905660282944
+    },
+    {
+      "name": "Christopher Andrew Coons",
+      "distance": 0.005869412236331709
     },
     {
       "name": "Gary C. Peters",
-      "distance": 0.009254188241007419
-    },
-    {
-      "name": "Amy Jean Klobuchar",
-      "distance": 0.011428473213863673
+      "distance": 0.007810889834071391
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.012702755606560336
+      "distance": 0.01018724692937208
+    },
+    {
+      "name": "Amy Jean Klobuchar",
+      "distance": 0.011150336317797757
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.013000384609695218
-    },
-    {
-      "name": "Kirsten E. Gillibrand",
-      "distance": 0.01842009771961043
+      "distance": 0.011187939935484096
     },
     {
       "name": "Joshua Hawley",
-      "distance": 0.019125375813301017
+      "distance": 0.019657568516986034
     },
     {
-      "name": "Andy Kim",
-      "distance": 0.020109947787102782
+      "name": "Kirsten E. Gillibrand",
+      "distance": 0.020171762441591468
+    },
+    {
+      "name": "Jon Ossoff",
+      "distance": 0.02199113457737001
     }
   ],
   "work_statistics": {

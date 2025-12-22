@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IL",
     "district": "12",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.398,
     "dw_nominate_dim2": -0.035,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9803,
-    "party_unity_bp_pct": 0.3016,
-    "maverick_votes": 6,
-    "bipartisan_votes": 92,
-    "maverick_bipartisan": 0,
-    "total_votes": 305,
+    "party_unity_pct": 0.9755,
+    "party_unity_bp_pct": 0.2997,
+    "maverick_votes": 8,
+    "bipartisan_votes": 98,
+    "maverick_bipartisan": 2,
+    "total_votes": 327,
     "missed_votes": 6,
-    "maverick_votes_all": 797,
-    "bipartisan_votes_all": 864,
-    "maverick_bipartisan_all": 61,
-    "total_votes_all": 5809,
+    "maverick_votes_all": 799,
+    "bipartisan_votes_all": 870,
+    "maverick_bipartisan_all": 63,
+    "total_votes_all": 5831,
     "missed_votes_all": 214,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 21,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 48,
-    "party_unity_percentile_party": 63,
+    "party_unity_percentile_party": 51,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 52
+    "reliability_percentile_party": 54
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -107,8 +107,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.55,
-      "dim2": -0.066
+      "dim1": 0.457,
+      "dim2": -0.235
     }
   ],
   "lobbying_contributions": [
@@ -155,6 +155,48 @@
   ],
   "lobbying_sum": 270000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -3631,44 +3673,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "James P. McGovern",
-      "distance": 0.0029410882339705588
+      "name": "Michelle Louise Helene Fischbach",
+      "distance": 0.00042426406871188177
     },
     {
-      "name": "Joe G. Wilson",
-      "distance": 0.0029410882339705588
+      "name": "Yvette D. Clarke",
+      "distance": 0.0022000000000000353
     },
     {
-      "name": "Maxwell Alejandro Frost",
-      "distance": 0.0030594117081556714
+      "name": "Scott DesJarlais",
+      "distance": 0.0023999999999999577
     },
     {
-      "name": "Carol D. Miller",
-      "distance": 0.0031780497164142483
+      "name": "Sylvia R. Garcia",
+      "distance": 0.003417601498126987
     },
     {
-      "name": "Randy K. Weber",
-      "distance": 0.003635931792539539
+      "name": "Erin Suzanne Houchin",
+      "distance": 0.0034985711369071664
     },
     {
-      "name": "Scott L. Fitzgerald",
-      "distance": 0.003640054944640209
+      "name": "Brian J. Mast",
+      "distance": 0.004327817001676522
     },
     {
-      "name": "M\u00f3nica De La Cruz",
-      "distance": 0.0036769552621699923
-    },
-    {
-      "name": "Jodey C. Arrington",
-      "distance": 0.003748332962798187
+      "name": "Brad Finstad",
+      "distance": 0.004384062043356582
     },
     {
       "name": "Brian Babin",
-      "distance": 0.0040049968789001595
+      "distance": 0.0045803929962395
     },
     {
-      "name": "Nydia M. Vel\u00e1zquez",
-      "distance": 0.004022437072223711
+      "name": "Al Green",
+      "distance": 0.00512249938994627
+    },
+    {
+      "name": "John Edwards James",
+      "distance": 0.005748912940721965
     }
   ]
 }

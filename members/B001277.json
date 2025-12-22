@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CT",
     "district": null,
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -77,31 +77,31 @@
     "dw_nominate_dim1": -0.433,
     "dw_nominate_dim2": -0.164,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9759,
-    "party_unity_bp_pct": 0.0594,
+    "party_unity_pct": 0.9765,
+    "party_unity_bp_pct": 0.0597,
     "maverick_votes": 15,
-    "bipartisan_votes": 37,
+    "bipartisan_votes": 38,
     "maverick_bipartisan": 6,
-    "total_votes": 623,
-    "missed_votes": 8,
+    "total_votes": 637,
+    "missed_votes": 9,
     "maverick_votes_all": 1125,
-    "bipartisan_votes_all": 365,
+    "bipartisan_votes_all": 366,
     "maverick_bipartisan_all": 11,
-    "total_votes_all": 5181,
-    "missed_votes_all": 54,
+    "total_votes_all": 5195,
+    "missed_votes_all": 55,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 67,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 55,
+    "party_unity_percentile_party": 63,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 59
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -145,8 +145,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.426,
-      "dim2": -0.183
+      "dim1": -0.429,
+      "dim2": -0.179
     }
   ],
   "lobbying_contributions": [
@@ -405,6 +405,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-31",
       "chamber": "senate",
@@ -4729,43 +4750,43 @@
   "vote_record_similar": [
     {
       "name": "Charles E. Schumer",
-      "distance": 0.0017804493814764497
+      "distance": 0.001720465053408577
     },
     {
       "name": "Mike Lee",
-      "distance": 0.006997142273814365
+      "distance": 0.006747592163134919
     },
     {
       "name": "Tammy Duckworth",
-      "distance": 0.007119691004531003
+      "distance": 0.00722495674727543
     },
     {
       "name": "John Neely Kennedy",
-      "distance": 0.007684399781375228
+      "distance": 0.007463243262818114
     },
     {
       "name": "Lisa Blunt Rochester",
-      "distance": 0.00859883713068226
+      "distance": 0.008598837130682277
     },
     {
       "name": "Cynthia M. Lummis",
-      "distance": 0.010339245620450297
-    },
-    {
-      "name": "Rick Scott",
-      "distance": 0.01118928058455952
+      "distance": 0.010123734488813861
     },
     {
       "name": "John R. Curtis",
-      "distance": 0.011201785571952345
+      "distance": 0.01090000000000002
+    },
+    {
+      "name": "Rick Scott",
+      "distance": 0.01092748827498795
     },
     {
       "name": "Bill Cassidy",
-      "distance": 0.012391125856838008
+      "distance": 0.011994165248152864
     },
     {
       "name": "Tammy Baldwin",
-      "distance": 0.012816005617976281
+      "distance": 0.012406449935416682
     }
   ]
 }

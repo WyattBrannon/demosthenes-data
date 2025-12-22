@@ -4,7 +4,7 @@
     "party": "D",
     "state": "AZ",
     "district": null,
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "Senate Committee on Banking, Housing, and Urban Affairs",
@@ -65,31 +65,31 @@
     "dw_nominate_dim1": -0.359,
     "dw_nominate_dim2": 0.142,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9032,
-    "party_unity_bp_pct": 0.1508,
-    "maverick_votes": 52,
-    "bipartisan_votes": 81,
-    "maverick_bipartisan": 51,
-    "total_votes": 537,
-    "missed_votes": 94,
-    "maverick_votes_all": 1775,
-    "bipartisan_votes_all": 850,
-    "maverick_bipartisan_all": 120,
-    "total_votes_all": 5955,
-    "missed_votes_all": 388,
+    "party_unity_pct": 0.9038,
+    "party_unity_bp_pct": 0.1506,
+    "maverick_votes": 53,
+    "bipartisan_votes": 83,
+    "maverick_bipartisan": 52,
+    "total_votes": 551,
+    "missed_votes": 95,
+    "maverick_votes_all": 1776,
+    "bipartisan_votes_all": 852,
+    "maverick_bipartisan_all": 121,
+    "total_votes_all": 5969,
+    "missed_votes_all": 389,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 44,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 69,
-    "party_unity_percentile_party": 9,
+    "party_unity_percentile_party": 10,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 4
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -123,8 +123,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.315,
-      "dim2": 0.298
+      "dim1": -0.297,
+      "dim2": 0.236
     }
   ],
   "lobbying_contributions": [
@@ -171,6 +171,27 @@
   ],
   "lobbying_sum": 534729.5,
   "maverick_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "senate",
@@ -359,30 +380,30 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-06-04",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Edward Walsh, of New Jersey, to be Ambassador to Ireland",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 60,
-      "nay": 37,
-      "present": 0,
-      "bill": {
-        "code": "PN5547",
-        "type": null,
-        "number": "PN5547",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-02",
       "chamber": "senate",
@@ -563,27 +584,6 @@
       "member_position": "Not Voting",
       "yea": 51,
       "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN265",
-        "type": null,
-        "number": "PN265",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-08-02",
-      "chamber": "senate",
-      "question": "On the Nomination",
-      "vote_result": "Nomination Confirmed",
-      "vote_desc": "Brian Burch, of Illinois, to be Ambassador to the Holy See",
-      "vote_question": "On the Nomination",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 49,
-      "nay": 44,
       "present": 0,
       "bill": {
         "code": "PN265",
@@ -2024,43 +2024,43 @@
   "vote_record_similar": [
     {
       "name": "Timothy Kaine",
-      "distance": 0.0029120439557122108
+      "distance": 0.0025961509971494452
     },
     {
       "name": "Elissa Slotkin",
-      "distance": 0.0050000000000000044
-    },
-    {
-      "name": "Mark Kelly",
-      "distance": 0.010829589096544712
+      "distance": 0.006694027188471781
     },
     {
       "name": "Catherine Cortez Masto",
-      "distance": 0.011907980517283388
+      "distance": 0.0093037626796904
+    },
+    {
+      "name": "Mark Kelly",
+      "distance": 0.01063014581273465
     },
     {
       "name": "Mark R. Warner",
-      "distance": 0.02759492707002507
+      "distance": 0.02448060456769811
     },
     {
       "name": "Jacky Rosen",
-      "distance": 0.03438618908806266
+      "distance": 0.03363108680967653
     },
     {
       "name": "Susan M. Collins",
-      "distance": 0.03465977495599186
+      "distance": 0.03796379854545648
     },
     {
       "name": "Raphael Gamaliel Warnock",
-      "distance": 0.036726557148744565
+      "distance": 0.03835374818710677
     },
     {
       "name": "John Wright Hickenlooper",
-      "distance": 0.03999962499824219
+      "distance": 0.04145841289774606
     },
     {
-      "name": "Rand Paul",
-      "distance": 0.04230047281059634
+      "name": "Ralph Norman",
+      "distance": 0.042419924563817935
     }
   ]
 }

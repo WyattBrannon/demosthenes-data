@@ -4,7 +4,7 @@
     "party": "R",
     "state": "MI",
     "district": "04",
-    "tenure_years": 14.9,
+    "tenure_years": 15.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.532,
     "dw_nominate_dim2": 0.047,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9766,
-    "party_unity_bp_pct": 0.3344,
+    "party_unity_pct": 0.9781,
+    "party_unity_bp_pct": 0.325,
     "maverick_votes": 7,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 104,
     "maverick_bipartisan": 7,
-    "total_votes": 299,
-    "missed_votes": 12,
+    "total_votes": 320,
+    "missed_votes": 13,
     "maverick_votes_all": 1326,
-    "bipartisan_votes_all": 892,
+    "bipartisan_votes_all": 896,
     "maverick_bipartisan_all": 65,
-    "total_votes_all": 8620,
-    "missed_votes_all": 207,
+    "total_votes_all": 8641,
+    "missed_votes_all": 208,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 51,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 62,
-    "party_unity_percentile_party": 56,
+    "party_unity_percentile_party": 58,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -113,8 +113,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.425,
-      "dim2": 0.625
+      "dim1": 0.428,
+      "dim2": 0.642
     }
   ],
   "lobbying_contributions": [
@@ -311,6 +311,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-07-14",
       "chamber": "house",
       "question": "On Motion to Suspend the Rules and Pass",
@@ -495,27 +516,6 @@
         "code": "HRES294",
         "type": null,
         "number": "HRES294",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-11",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bill (H.R. 77) the Midnight Rules Relief Act",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 210,
-      "nay": 184,
-      "present": 0,
-      "bill": {
-        "code": "HRES122",
-        "type": null,
-        "number": "HRES122",
         "congress": 119,
         "title": ""
       }
@@ -2481,44 +2481,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Sheila Cherfilus-McCormick",
-      "distance": 0.00117046999107199
-    },
-    {
       "name": "David Kustoff",
-      "distance": 0.001252996408614175
+      "distance": 0.0006324555320337115
     },
     {
       "name": "Adrian Smith",
-      "distance": 0.002220360331117482
+      "distance": 0.0012649110640673528
     },
     {
-      "name": "Raja Krishnamoorthi",
-      "distance": 0.002280350850198239
-    },
-    {
-      "name": "Nicholas A. Langworthy",
-      "distance": 0.0028000000000000247
+      "name": "David Scott",
+      "distance": 0.0015264337522473595
     },
     {
       "name": "Ted Lieu",
-      "distance": 0.0032756678708318046
+      "distance": 0.0024351591323771623
     },
     {
       "name": "Pete Aguilar",
-      "distance": 0.0032756678708318046
+      "distance": 0.0024351591323771623
+    },
+    {
+      "name": "Andrea Rose Salinas",
+      "distance": 0.0026419689627245383
+    },
+    {
+      "name": "Nicholas A. Langworthy",
+      "distance": 0.002720294101747034
+    },
+    {
+      "name": "Chris Raphael Deluzio",
+      "distance": 0.003114482300479458
     },
     {
       "name": "Troy Balderson",
-      "distance": 0.0034828149534536145
+      "distance": 0.003687817782917146
     },
     {
-      "name": "Dale Strong",
-      "distance": 0.004327817001676515
-    },
-    {
-      "name": "Jefferson Van Drew",
-      "distance": 0.00444072066223491
+      "name": "Rick Larsen",
+      "distance": 0.0038587562763149224
     }
   ]
 }

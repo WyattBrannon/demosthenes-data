@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": "03",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Homeland Security",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.496,
     "dw_nominate_dim2": -0.868,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9658,
-    "party_unity_bp_pct": 0.2603,
-    "maverick_votes": 10,
-    "bipartisan_votes": 76,
-    "maverick_bipartisan": 0,
-    "total_votes": 292,
-    "missed_votes": 19,
-    "maverick_votes_all": 94,
-    "bipartisan_votes_all": 358,
-    "maverick_bipartisan_all": 7,
-    "total_votes_all": 1500,
-    "missed_votes_all": 46,
+    "party_unity_pct": 0.9615,
+    "party_unity_bp_pct": 0.2564,
+    "maverick_votes": 12,
+    "bipartisan_votes": 80,
+    "maverick_bipartisan": 1,
+    "total_votes": 312,
+    "missed_votes": 21,
+    "maverick_votes_all": 96,
+    "bipartisan_votes_all": 362,
+    "maverick_bipartisan_all": 8,
+    "total_votes_all": 1520,
+    "missed_votes_all": 48,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 85,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 97,
-    "party_unity_percentile_party": 41,
+    "party_unity_percentile_party": 39,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 14
+    "reliability_percentile_party": 13
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -83,8 +83,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.585,
-      "dim2": -0.79
+      "dim1": -0.535,
+      "dim2": -0.845
     }
   ],
   "lobbying_contributions": [
@@ -131,6 +131,48 @@
   ],
   "lobbying_sum": 123849.4,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 211,
+      "nay": 219,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -298,51 +340,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-05-05",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "MEGOBARI Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 349,
-      "nay": 42,
-      "present": 0,
-      "bill": {
-        "code": "HR36",
-        "type": null,
-        "number": "HR36",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-10",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Emerging Innovative Border Technologies Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 406,
-      "nay": 9,
-      "present": 0,
-      "bill": {
-        "code": "HR993",
-        "type": null,
-        "number": "HR993",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -507,48 +549,6 @@
         "code": "HR4016",
         "type": null,
         "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 211,
-      "nay": 210,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Failed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 196,
-      "nay": 223,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
         "congress": 119,
         "title": ""
       }
@@ -3038,43 +3038,43 @@
   "vote_record_similar": [
     {
       "name": "Troy E. Nehls",
-      "distance": 0.013059862173851624
+      "distance": 0.006815423684555487
     },
     {
       "name": "Mike Steven Kennedy",
-      "distance": 0.019037857022259637
-    },
-    {
-      "name": "Randall Adam Fine",
-      "distance": 0.020155644370746323
+      "distance": 0.012185236969382252
     },
     {
       "name": "Robert F. Onder",
-      "distance": 0.02341046774415238
-    },
-    {
-      "name": "Ayanna Pressley",
-      "distance": 0.023530618351416118
+      "distance": 0.015126797413861272
     },
     {
       "name": "Ronny Lynn Jackson",
-      "distance": 0.023564592082189792
-    },
-    {
-      "name": "Gregorio Eduardo Casar",
-      "distance": 0.02397352706632886
+      "distance": 0.01683864602632887
     },
     {
       "name": "Abraham Jamal Hamadeh",
-      "distance": 0.024412496799795
-    },
-    {
-      "name": "Brad Knott",
-      "distance": 0.025026585863836895
+      "distance": 0.017344163283364234
     },
     {
       "name": "Eleanor Holmes Norton",
-      "distance": 0.025456629784792774
+      "distance": 0.017506855799943044
+    },
+    {
+      "name": "Gregorio Eduardo Casar",
+      "distance": 0.017944915714485817
+    },
+    {
+      "name": "Ayanna Pressley",
+      "distance": 0.018023595645708386
+    },
+    {
+      "name": "Brad Knott",
+      "distance": 0.018067650649710932
+    },
+    {
+      "name": "Randall Adam Fine",
+      "distance": 0.018585209172888046
     }
   ]
 }

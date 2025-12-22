@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NC",
     "district": "08",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Agriculture",
@@ -61,31 +61,31 @@
     "dw_nominate_dim1": 0.804,
     "dw_nominate_dim2": -0.096,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9228,
-    "party_unity_bp_pct": 0.254,
-    "maverick_votes": 24,
-    "bipartisan_votes": 79,
+    "party_unity_pct": 0.9249,
+    "party_unity_bp_pct": 0.2462,
+    "maverick_votes": 25,
+    "bipartisan_votes": 82,
     "maverick_bipartisan": 1,
-    "total_votes": 311,
+    "total_votes": 333,
     "missed_votes": 0,
-    "maverick_votes_all": 24,
-    "bipartisan_votes_all": 79,
+    "maverick_votes_all": 25,
+    "bipartisan_votes_all": 82,
     "maverick_bipartisan_all": 1,
-    "total_votes_all": 311,
+    "total_votes_all": 333,
     "missed_votes_all": 0,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 93,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 54,
-    "party_unity_percentile_party": 11,
+    "party_unity_percentile_party": 12,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 96
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -94,8 +94,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": 0.868,
-      "dim2": 0.021
+      "dim1": 0.866,
+      "dim2": 0.01
     }
   ],
   "lobbying_contributions": [
@@ -142,6 +142,27 @@
   ],
   "lobbying_sum": 154077.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -322,27 +343,6 @@
       "member_position": "Yea",
       "yea": 63,
       "nay": 365,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -2173,40 +2173,40 @@
       "distance": 0.000824621125123549
     },
     {
-      "name": "Mike Allen Collins",
-      "distance": 0.002302172886644347
-    },
-    {
       "name": "Harriet Maxine Hageman",
-      "distance": 0.0031048349392520133
+      "distance": 0.002912043955712123
     },
     {
       "name": "John J. McGuire",
-      "distance": 0.004716990566028335
+      "distance": 0.003132091952673171
     },
     {
-      "name": "Aaron Paul Bean",
-      "distance": 0.006500000000000061
-    },
-    {
-      "name": "Warren Davidson",
-      "distance": 0.006621178142898708
+      "name": "Mike Allen Collins",
+      "distance": 0.004904079934095658
     },
     {
       "name": "Thomas P. Tiffany",
-      "distance": 0.0070007142492748775
+      "distance": 0.006964194138592046
     },
     {
-      "name": "Barry Moore",
-      "distance": 0.011122050170719402
+      "name": "Aaron Paul Bean",
+      "distance": 0.00948683298050504
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.010829589096544738
     },
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.014310835055998642
+      "distance": 0.01341640786499875
     },
     {
       "name": "Diana Harshbarger",
-      "distance": 0.014500344823486163
+      "distance": 0.013599999999999945
+    },
+    {
+      "name": "Anna Paulina Luna",
+      "distance": 0.014167568598739844
     }
   ]
 }

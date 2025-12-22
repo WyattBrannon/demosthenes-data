@@ -4,7 +4,7 @@
     "party": "R",
     "state": "GA",
     "district": "09",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.823,
     "dw_nominate_dim2": -0.141,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8964,
-    "party_unity_bp_pct": 0.2298,
-    "maverick_votes": 32,
-    "bipartisan_votes": 71,
+    "party_unity_pct": 0.9003,
+    "party_unity_bp_pct": 0.2236,
+    "maverick_votes": 33,
+    "bipartisan_votes": 74,
     "maverick_bipartisan": 1,
-    "total_votes": 309,
+    "total_votes": 331,
     "missed_votes": 2,
-    "maverick_votes_all": 354,
-    "bipartisan_votes_all": 545,
+    "maverick_votes_all": 355,
+    "bipartisan_votes_all": 548,
     "maverick_bipartisan_all": 12,
-    "total_votes_all": 2506,
+    "total_votes_all": 2528,
     "missed_votes_all": 36,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 94,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 64,
     "party_unity_percentile_party": 7,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 79
+    "reliability_percentile_party": 81
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -80,8 +80,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.828,
-      "dim2": -0.288
+      "dim1": 0.843,
+      "dim2": -0.263
     }
   ],
   "lobbying_contributions": [
@@ -104,6 +104,27 @@
   ],
   "lobbying_sum": 13500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-17",
       "chamber": "house",
@@ -284,27 +305,6 @@
       "member_position": "Yea",
       "yea": 63,
       "nay": 365,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 104,
-      "nay": 326,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -2422,43 +2422,43 @@
   "vote_record_similar": [
     {
       "name": "W. Gregory Steube",
-      "distance": 0.006609841147864297
+      "distance": 0.006072890580275598
     },
     {
       "name": "Michael Cloud",
-      "distance": 0.008022468448052635
-    },
-    {
-      "name": "Brandon Gene Gill",
-      "distance": 0.013912943613772058
+      "distance": 0.0074242844773082465
     },
     {
       "name": "Andy Harris",
-      "distance": 0.017596022277776308
+      "distance": 0.013354025610279475
     },
     {
-      "name": "Keith Alan Self",
-      "distance": 0.018828170383762683
+      "name": "Brandon Gene Gill",
+      "distance": 0.016277899127344418
     },
     {
       "name": "Andrew Ogles",
-      "distance": 0.02110379112861005
-    },
-    {
-      "name": "Tim Burchett",
-      "distance": 0.022424317157942596
+      "distance": 0.01980000000000004
     },
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.023020860105565137
+      "distance": 0.021408409562599512
     },
     {
-      "name": "Pat Harrigan",
-      "distance": 0.02324413904621983
+      "name": "Keith Alan Self",
+      "distance": 0.022010224896624762
+    },
+    {
+      "name": "Mary E. Miller",
+      "distance": 0.02286591349585671
+    },
+    {
+      "name": "Clay Higgins",
+      "distance": 0.025638252670570155
     },
     {
       "name": "Marjorie Taylor Greene",
-      "distance": 0.023503404008781332
+      "distance": 0.025756164310704287
     }
   ]
 }

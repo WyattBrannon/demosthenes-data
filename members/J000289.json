@@ -4,7 +4,7 @@
     "party": "R",
     "state": "OH",
     "district": "04",
-    "tenure_years": 18.9,
+    "tenure_years": 19.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -29,31 +29,31 @@
     "dw_nominate_dim1": 0.712,
     "dw_nominate_dim2": -0.182,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9507,
-    "party_unity_bp_pct": 0.2862,
+    "party_unity_pct": 0.9537,
+    "party_unity_bp_pct": 0.2809,
     "maverick_votes": 15,
-    "bipartisan_votes": 87,
+    "bipartisan_votes": 91,
     "maverick_bipartisan": 1,
-    "total_votes": 304,
-    "missed_votes": 7,
+    "total_votes": 324,
+    "missed_votes": 9,
     "maverick_votes_all": 3670,
-    "bipartisan_votes_all": 613,
+    "bipartisan_votes_all": 617,
     "maverick_bipartisan_all": 10,
-    "total_votes_all": 12086,
-    "missed_votes_all": 253,
+    "total_votes_all": 12106,
+    "missed_votes_all": 255,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 84,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 68,
-    "party_unity_percentile_party": 23,
+    "party_unity_percentile_party": 24,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 47
+    "reliability_percentile_party": 40
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -107,8 +107,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.585,
-      "dim2": -0.279
+      "dim1": 0.601,
+      "dim2": -0.232
     }
   ],
   "lobbying_contributions": [
@@ -367,6 +367,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-03",
       "chamber": "house",
@@ -1158,44 +1200,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Derek Larkin Schmidt",
-      "distance": 0.0037215588131857165
-    },
-    {
       "name": "Ilhan Omar",
-      "distance": 0.00595399025864167
-    },
-    {
-      "name": "James Comer",
-      "distance": 0.005966573556070548
-    },
-    {
-      "name": "Morgan Joe Luttrell",
-      "distance": 0.0061204574992397365
-    },
-    {
-      "name": "John Joyce",
-      "distance": 0.006830812543175229
-    },
-    {
-      "name": "Mikie Sherrill",
-      "distance": 0.006964194138592093
-    },
-    {
-      "name": "Tony Wied",
-      "distance": 0.008154140052758526
-    },
-    {
-      "name": "Nancy Ruth Mace",
-      "distance": 0.00847702778100911
-    },
-    {
-      "name": "Ronny Lynn Jackson",
-      "distance": 0.008646964785403024
+      "distance": 0.0
     },
     {
       "name": "Brittany Louise Pettersen",
-      "distance": 0.009113725912051555
+      "distance": 0.0025059928172283057
+    },
+    {
+      "name": "Glenn Grothman",
+      "distance": 0.0036400549446402287
+    },
+    {
+      "name": "Derek Larkin Schmidt",
+      "distance": 0.003921734310225539
+    },
+    {
+      "name": "Tony Wied",
+      "distance": 0.004588027898781754
+    },
+    {
+      "name": "James Comer",
+      "distance": 0.005821511831131181
+    },
+    {
+      "name": "Morgan Joe Luttrell",
+      "distance": 0.0061773780845921665
+    },
+    {
+      "name": "Mikie Sherrill",
+      "distance": 0.006726812023536893
+    },
+    {
+      "name": "Nancy Ruth Mace",
+      "distance": 0.00953414914924245
+    },
+    {
+      "name": "Summer Lynn Lee",
+      "distance": 0.010423531071570683
     }
   ]
 }

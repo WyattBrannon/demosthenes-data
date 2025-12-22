@@ -4,7 +4,7 @@
     "party": "D",
     "state": "IL",
     "district": "07",
-    "tenure_years": 28.9,
+    "tenure_years": 29.0,
     "committees": [
       {
         "name": "House Committee on Ways and Means",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.487,
     "dw_nominate_dim2": -0.266,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9898,
-    "party_unity_bp_pct": 0.2857,
-    "maverick_votes": 3,
-    "bipartisan_votes": 84,
+    "party_unity_pct": 0.9873,
+    "party_unity_bp_pct": 0.2707,
+    "maverick_votes": 4,
+    "bipartisan_votes": 85,
     "maverick_bipartisan": 0,
-    "total_votes": 294,
-    "missed_votes": 17,
-    "maverick_votes_all": 6001,
-    "bipartisan_votes_all": 799,
+    "total_votes": 314,
+    "missed_votes": 19,
+    "maverick_votes_all": 6002,
+    "bipartisan_votes_all": 800,
     "maverick_bipartisan_all": 8,
-    "total_votes_all": 17036,
-    "missed_votes_all": 1096,
+    "total_votes_all": 17056,
+    "missed_votes_all": 1098,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 82,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 78,
-    "party_unity_percentile_party": 88,
+    "party_unity_percentile_party": 85,
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 15
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -136,8 +136,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.522,
-      "dim2": -0.266
+      "dim1": -0.51,
+      "dim2": -0.327
     }
   ],
   "lobbying_contributions": [
@@ -184,6 +184,27 @@
   ],
   "lobbying_sum": 396241.5,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "house",
@@ -249,6 +270,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "house",
@@ -413,48 +476,6 @@
         "code": "HR1770",
         "type": null,
         "number": "HR1770",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Jocelyn Nungaray National Wildlife Refuge Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 372,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "S1596",
-        "type": null,
-        "number": "S1596",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "American Cargo for American Ships Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 373,
-      "nay": 14,
-      "present": 0,
-      "bill": {
-        "code": "HR2035",
-        "type": null,
-        "number": "HR2035",
         "congress": 119,
         "title": ""
       }
@@ -2469,44 +2490,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Barry Loudermilk",
-      "distance": 0.003400000000000014
+      "name": "Frederica S. Wilson",
+      "distance": 0.007495331880577415
     },
     {
       "name": "Robert Julio Garcia",
-      "distance": 0.006003332407921458
+      "distance": 0.009902019995940241
     },
     {
       "name": "Doug LaMalfa",
-      "distance": 0.0072945184899347966
+      "distance": 0.011006361796706485
     },
     {
-      "name": "Frederica S. Wilson",
-      "distance": 0.008146778504415074
-    },
-    {
-      "name": "Garland Barr",
-      "distance": 0.009800510190801269
+      "name": "Barry Loudermilk",
+      "distance": 0.011360017605620207
     },
     {
       "name": "Nancy Pelosi",
-      "distance": 0.010248902380255153
-    },
-    {
-      "name": "Jared Huffman",
-      "distance": 0.010589145385724018
-    },
-    {
-      "name": "Steve Joseph Scalise",
-      "distance": 0.010780074211247376
+      "distance": 0.011708543888972729
     },
     {
       "name": "Pramila Jayapal",
-      "distance": 0.011497825881443834
+      "distance": 0.012264175471673558
+    },
+    {
+      "name": "Garland Barr",
+      "distance": 0.012684636376341239
     },
     {
       "name": "Grace Meng",
-      "distance": 0.011700000000000032
+      "distance": 0.013124404748406699
+    },
+    {
+      "name": "Kweisi Mfume",
+      "distance": 0.013200378782444058
+    },
+    {
+      "name": "Jared Huffman",
+      "distance": 0.013774251340817011
     }
   ]
 }

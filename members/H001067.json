@@ -4,7 +4,7 @@
     "party": "R",
     "state": "NC",
     "district": "09",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Committee on Energy and Commerce",
@@ -29,31 +29,31 @@
     "dw_nominate_dim1": 0.523,
     "dw_nominate_dim2": 0.209,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.977,
-    "party_unity_bp_pct": 0.3279,
+    "party_unity_pct": 0.9785,
+    "party_unity_bp_pct": 0.3138,
     "maverick_votes": 7,
-    "bipartisan_votes": 100,
+    "bipartisan_votes": 102,
     "maverick_bipartisan": 4,
-    "total_votes": 305,
-    "missed_votes": 6,
+    "total_votes": 325,
+    "missed_votes": 8,
     "maverick_votes_all": 1098,
-    "bipartisan_votes_all": 903,
+    "bipartisan_votes_all": 905,
     "maverick_bipartisan_all": 77,
-    "total_votes_all": 6883,
-    "missed_votes_all": 342,
+    "total_votes_all": 6903,
+    "missed_votes_all": 344,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 49,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 76,
-    "party_unity_percentile_party": 58,
+    "party_unity_percentile_party": 59,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 52
+    "reliability_percentile_party": 44
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -92,8 +92,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.472,
-      "dim2": -0.008
+      "dim1": 0.485,
+      "dim2": 0.029
     }
   ],
   "lobbying_contributions": [
@@ -289,6 +289,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-15",
       "chamber": "house",
@@ -1002,44 +1044,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Wesley Jonell-Cleavon Bell",
-      "distance": 0.001204159457879263
+      "name": "Frank J. Pallone",
+      "distance": 0.0005656854249491757
     },
     {
-      "name": "Troy Anthony Carter",
-      "distance": 0.001204159457879263
+      "name": "Laura Syril Friedman",
+      "distance": 0.0007280109889280784
     },
     {
       "name": "Roger Williams",
-      "distance": 0.002785677655436868
-    },
-    {
-      "name": "Ted Lieu",
-      "distance": 0.003313608305156145
-    },
-    {
-      "name": "Pete Aguilar",
-      "distance": 0.003313608305156145
-    },
-    {
-      "name": "Rick Larsen",
-      "distance": 0.004186884283091673
-    },
-    {
-      "name": "Raja Krishnamoorthi",
-      "distance": 0.0043046486500061465
-    },
-    {
-      "name": "James E. Clyburn",
-      "distance": 0.0043104524124504846
+      "distance": 0.001700000000000012
     },
     {
       "name": "Vern Buchanan",
-      "distance": 0.004401136216933139
+      "distance": 0.0017262676501631356
     },
     {
-      "name": "Zoe Lofgren",
-      "distance": 0.004501110973970763
+      "name": "Yassamin Ansari",
+      "distance": 0.0021023796041629095
+    },
+    {
+      "name": "Troy Anthony Carter",
+      "distance": 0.0030999999999999917
+    },
+    {
+      "name": "James E. Clyburn",
+      "distance": 0.003306055050963276
+    },
+    {
+      "name": "Sam Theodore Liccardo",
+      "distance": 0.003306055050963276
+    },
+    {
+      "name": "Kathy Castor",
+      "distance": 0.003423448553724692
+    },
+    {
+      "name": "Steny H. Hoyer",
+      "distance": 0.003679673898594769
     }
   ]
 }

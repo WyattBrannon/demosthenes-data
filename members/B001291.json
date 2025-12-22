@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "36",
-    "tenure_years": 10.9,
+    "tenure_years": 11.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -37,31 +37,31 @@
     "dw_nominate_dim1": 0.709,
     "dw_nominate_dim2": 0.117,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9801,
-    "party_unity_bp_pct": 0.3056,
-    "maverick_votes": 6,
-    "bipartisan_votes": 92,
+    "party_unity_pct": 0.9782,
+    "party_unity_bp_pct": 0.296,
+    "maverick_votes": 7,
+    "bipartisan_votes": 95,
     "maverick_bipartisan": 1,
-    "total_votes": 301,
-    "missed_votes": 10,
-    "maverick_votes_all": 1087,
-    "bipartisan_votes_all": 692,
+    "total_votes": 321,
+    "missed_votes": 12,
+    "maverick_votes_all": 1088,
+    "bipartisan_votes_all": 695,
     "maverick_bipartisan_all": 4,
-    "total_votes_all": 5869,
-    "missed_votes_all": 154,
+    "total_votes_all": 5889,
+    "missed_votes_all": 156,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 83,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 67,
-    "party_unity_percentile_party": 62,
+    "party_unity_percentile_party": 58,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 33
+    "reliability_percentile_party": 27
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -95,8 +95,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.612,
-      "dim2": 0.154
+      "dim1": 0.608,
+      "dim2": 0.111
     }
   ],
   "lobbying_contributions": [
@@ -143,6 +143,27 @@
   ],
   "lobbying_sum": 141529.02,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-10",
       "chamber": "house",
@@ -271,6 +292,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -435,48 +498,6 @@
         "code": "HR530",
         "type": null,
         "number": "HR530",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-07",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Vietnam Veterans Liver Fluke Cancer Study Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 411,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "HR586",
-        "type": null,
-        "number": "HR586",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-07",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Clear Communication for Veterans Claims Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 412,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "HR1039",
-        "type": null,
-        "number": "HR1039",
         "congress": 119,
         "title": ""
       }
@@ -1081,43 +1102,43 @@
   "vote_record_similar": [
     {
       "name": "Al Green",
-      "distance": 0.0016278820596099756
-    },
-    {
-      "name": "Jerrold L. Nadler",
-      "distance": 0.003201562118716422
+      "distance": 0.000583095189484561
     },
     {
       "name": "Yvette D. Clarke",
-      "distance": 0.0033999999999999976
+      "distance": 0.003088689042296035
     },
     {
-      "name": "Mike Bost",
-      "distance": 0.0040049968789001595
-    },
-    {
-      "name": "Robin L. Kelly",
-      "distance": 0.004640043103248117
-    },
-    {
-      "name": "Carol D. Miller",
-      "distance": 0.0046669047558312495
-    },
-    {
-      "name": "Erin Suzanne Houchin",
-      "distance": 0.00475078940808787
+      "name": "Scott L. Fitzgerald",
+      "distance": 0.0037121422386541046
     },
     {
       "name": "Scott DesJarlais",
-      "distance": 0.004780167361086877
+      "distance": 0.003712142238654151
     },
     {
-      "name": "Sylvia R. Garcia",
-      "distance": 0.005124451190127582
+      "name": "Robin L. Kelly",
+      "distance": 0.003736308338453927
     },
     {
-      "name": "C. Scott Franklin",
-      "distance": 0.005234500931321011
+      "name": "John W. Rose",
+      "distance": 0.003827531841800999
+    },
+    {
+      "name": "Nikema Natassha Williams",
+      "distance": 0.004304648650006226
+    },
+    {
+      "name": "LaMonica McIver",
+      "distance": 0.004304648650006226
+    },
+    {
+      "name": "Mike Bost",
+      "distance": 0.0045803929962395
+    },
+    {
+      "name": "Michelle Louise Helene Fischbach",
+      "distance": 0.004664761515876222
     }
   ],
   "work_statistics": {

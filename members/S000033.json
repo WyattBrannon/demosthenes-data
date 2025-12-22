@@ -4,7 +4,7 @@
     "party": "I",
     "state": "VT",
     "district": null,
-    "tenure_years": 34.9,
+    "tenure_years": 35.0,
     "committees": [
       {
         "name": "Senate Committee on Environment and Public Works",
@@ -77,22 +77,22 @@
     "dw_nominate_dim1": -0.544,
     "dw_nominate_dim2": -0.423,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9512,
-    "party_unity_bp_pct": 0.0226,
-    "maverick_votes": 28,
+    "party_unity_pct": 0.9507,
+    "party_unity_bp_pct": 0.0221,
+    "maverick_votes": 29,
     "bipartisan_votes": 13,
     "maverick_bipartisan": 1,
-    "total_votes": 574,
-    "missed_votes": 57,
-    "maverick_votes_all": 5073,
+    "total_votes": 588,
+    "missed_votes": 58,
+    "maverick_votes_all": 5074,
     "bipartisan_votes_all": 290,
     "maverick_bipartisan_all": 40,
-    "total_votes_all": 14431,
-    "missed_votes_all": 1265,
+    "total_votes_all": 14445,
+    "missed_votes_all": 1266,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 93,
     "dim2_direction_party": "left",
@@ -101,7 +101,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 7
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -195,8 +195,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.655,
-      "dim2": -0.608
+      "dim1": -0.657,
+      "dim2": -0.607
     }
   ],
   "lobbying_contributions": [
@@ -244,6 +244,27 @@
   "lobbying_sum": 1084406.0,
   "maverick_votes": [],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "senate",
@@ -429,27 +450,6 @@
         "code": "PN464",
         "type": null,
         "number": "PN464",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-04",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Maria A. Lanahan, of Missouri, to be United States District Judge for the Eastern District of Missouri",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 53,
-      "nay": 45,
-      "present": 0,
-      "bill": {
-        "code": "PN1504",
-        "type": null,
-        "number": "PN1504",
         "congress": 119,
         "title": ""
       }
@@ -2674,43 +2674,43 @@
   "vote_record_similar": [
     {
       "name": "Edward J. Markey",
-      "distance": 0.00199248588451714
+      "distance": 0.0019646882704388384
     },
     {
       "name": "Elizabeth Warren",
-      "distance": 0.0026627053911388535
+      "distance": 0.0026076809620810414
     },
     {
       "name": "Christopher S. Murphy",
-      "distance": 0.006744627491566852
+      "distance": 0.006484597134749374
     },
     {
       "name": "Jeff Merkley",
-      "distance": 0.010018482919085022
+      "distance": 0.00979489663038874
     },
     {
       "name": "Chris Van Hollen",
-      "distance": 0.016959363195591912
+      "distance": 0.016600301202086713
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.023683960817397074
+      "distance": 0.02585362643808408
     },
     {
       "name": "Ron Wyden",
-      "distance": 0.030423181950611233
+      "distance": 0.02970269348055827
     },
     {
       "name": "Brian Emanuel Schatz",
-      "distance": 0.031022894771442593
+      "distance": 0.030314517974066497
     },
     {
       "name": "Alejandro Padilla",
-      "distance": 0.03234826115883202
+      "distance": 0.03155455593095869
     },
     {
       "name": "Tina Flint Smith",
-      "distance": 0.032734080100103584
+      "distance": 0.032031546949843066
     }
   ]
 }

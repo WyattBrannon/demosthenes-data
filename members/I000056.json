@@ -4,7 +4,7 @@
     "party": "R",
     "state": "CA",
     "district": "48",
-    "tenure_years": 24.9,
+    "tenure_years": 25.0,
     "committees": [
       {
         "name": "House Committee on Science, Space, and Technology",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": 0.478,
     "dw_nominate_dim2": 0.024,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.974,
-    "party_unity_bp_pct": 0.3506,
-    "maverick_votes": 8,
-    "bipartisan_votes": 108,
-    "maverick_bipartisan": 8,
-    "total_votes": 308,
+    "party_unity_pct": 0.9727,
+    "party_unity_bp_pct": 0.3424,
+    "maverick_votes": 9,
+    "bipartisan_votes": 113,
+    "maverick_bipartisan": 9,
+    "total_votes": 330,
     "missed_votes": 3,
-    "maverick_votes_all": 2552,
-    "bipartisan_votes_all": 929,
-    "maverick_bipartisan_all": 93,
-    "total_votes_all": 14294,
+    "maverick_votes_all": 2553,
+    "bipartisan_votes_all": 934,
+    "maverick_bipartisan_all": 94,
+    "total_votes_all": 14316,
     "missed_votes_all": 511,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 42,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 60,
-    "party_unity_percentile_party": 53,
+    "party_unity_percentile_party": 45,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 73
+    "reliability_percentile_party": 75
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -145,8 +145,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.377,
-      "dim2": 0.697
+      "dim1": 0.317,
+      "dim2": 0.382
     }
   ],
   "lobbying_contributions": [
@@ -193,6 +193,27 @@
   ],
   "lobbying_sum": 317510.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Resolution",
+      "vote_result": "Passed",
+      "vote_desc": "Providing for consideration of the bill (H.R. 2550) to nullify the Executive Order relating to Exclusions from Federal Labor-Management Relations Programs, and for other purposes",
+      "vote_question": "On Agreeing to the Resolution",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 232,
+      "nay": 194,
+      "present": 0,
+      "bill": {
+        "code": "HRES432",
+        "type": null,
+        "number": "HRES432",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -3383,44 +3404,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Mike Flood",
-      "distance": 0.0
+      "name": "Tom Cole",
+      "distance": 0.0009055385138136971
     },
     {
-      "name": "Harold Rogers",
-      "distance": 0.00028284271247458785
-    },
-    {
-      "name": "Charles J. Fleischmann",
-      "distance": 0.000316227766016926
-    },
-    {
-      "name": "J. French Hill",
-      "distance": 0.0009055385138137523
+      "name": "Ken S. Calvert",
+      "distance": 0.0010198039027185535
     },
     {
       "name": "George Stephen Latimer",
-      "distance": 0.0012041594578792076
-    },
-    {
-      "name": "Glenn Thompson",
-      "distance": 0.0022022715545545034
-    },
-    {
-      "name": "Mike Carey",
-      "distance": 0.0022022715545545034
-    },
-    {
-      "name": "Cliff Stewart Bentz",
-      "distance": 0.003162277660168382
-    },
-    {
-      "name": "Cleo Fields",
-      "distance": 0.003200000000000036
+      "distance": 0.0011045361017187703
     },
     {
       "name": "Young Oak Kim",
-      "distance": 0.0035114099732158517
+      "distance": 0.0020024984394500797
+    },
+    {
+      "name": "Cliff Stewart Bentz",
+      "distance": 0.0020099751242241776
+    },
+    {
+      "name": "Steve Womack",
+      "distance": 0.0023345235059858073
+    },
+    {
+      "name": "Glenn Thompson",
+      "distance": 0.0032572994949804585
+    },
+    {
+      "name": "Mike Carey",
+      "distance": 0.0032572994949804585
+    },
+    {
+      "name": "Frank D. Lucas",
+      "distance": 0.0035805027579936368
+    },
+    {
+      "name": "Harold Rogers",
+      "distance": 0.004103656905736657
     }
   ]
 }

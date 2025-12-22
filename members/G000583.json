@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NJ",
     "district": "05",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Permanent Select Committee on Intelligence",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": -0.163,
     "dw_nominate_dim2": 0.21,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.903,
-    "party_unity_bp_pct": 0.3797,
-    "maverick_votes": 23,
-    "bipartisan_votes": 90,
-    "maverick_bipartisan": 23,
-    "total_votes": 237,
+    "party_unity_pct": 0.8919,
+    "party_unity_bp_pct": 0.3822,
+    "maverick_votes": 28,
+    "bipartisan_votes": 99,
+    "maverick_bipartisan": 28,
+    "total_votes": 259,
     "missed_votes": 74,
-    "maverick_votes_all": 821,
-    "bipartisan_votes_all": 946,
-    "maverick_bipartisan_all": 136,
-    "total_votes_all": 4513,
+    "maverick_votes_all": 826,
+    "bipartisan_votes_all": 955,
+    "maverick_bipartisan_all": 141,
+    "total_votes_all": 4535,
     "missed_votes_all": 188,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 1,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 76,
-    "party_unity_percentile_party": 9,
+    "party_unity_percentile_party": 7,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 1
+    "reliability_percentile_party": 2
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,8 +102,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.248,
-      "dim2": 0.361
+      "dim1": -0.238,
+      "dim2": 0.381
     }
   ],
   "lobbying_contributions": [
@@ -150,6 +150,111 @@
   ],
   "lobbying_sum": 102185.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Motion to Table",
+      "vote_result": "Passed",
+      "vote_desc": "Impeaching Donald John Trump, President of the United States for high crimes and misdemeanors",
+      "vote_question": "On Motion to Table",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 237,
+      "nay": 140,
+      "present": 0,
+      "bill": {
+        "code": "HRES939",
+        "type": null,
+        "number": "HRES939",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Electric Supply Chain Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 267,
+      "nay": 159,
+      "present": 0,
+      "bill": {
+        "code": "HR3638",
+        "type": null,
+        "number": "HR3638",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -251,111 +356,6 @@
         "code": "HR3109",
         "type": null,
         "number": "HR3109",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-19",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "District of Columbia Cash Bail Reform Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 237,
-      "nay": 179,
-      "present": 0,
-      "bill": {
-        "code": "HR5214",
-        "type": null,
-        "number": "HR5214",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-11-19",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "CLEAN DC Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 233,
-      "nay": 190,
-      "present": 0,
-      "bill": {
-        "code": "HR5107",
-        "type": null,
-        "number": "HR5107",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-18",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Promoting Cross-border Energy Infrastructure Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 224,
-      "nay": 203,
-      "present": 0,
-      "bill": {
-        "code": "HR3062",
-        "type": null,
-        "number": "HR3062",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "District of Columbia Policing Protection Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 245,
-      "nay": 182,
-      "present": 0,
-      "bill": {
-        "code": "HR5143",
-        "type": null,
-        "number": "HR5143",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-10",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 231,
-      "nay": 196,
-      "present": 0,
-      "bill": {
-        "code": "HR3838",
-        "type": null,
-        "number": "HR3838",
         "congress": 119,
         "title": ""
       }
@@ -5449,44 +5449,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Gabriel (Gabe) Vasquez",
-      "distance": 0.0209389589043964
-    },
-    {
       "name": "Hillary Jeanne Scholten",
-      "distance": 0.021284971223847093
+      "distance": 0.01830000000000001
     },
     {
-      "name": "Steven A. Horsford",
-      "distance": 0.02255770378385175
+      "name": "Gabriel (Gabe) Vasquez",
+      "distance": 0.0195900484940696
     },
     {
-      "name": "Josh Paul Riley",
-      "distance": 0.02541889061308537
-    },
-    {
-      "name": "Eric Sorensen",
-      "distance": 0.027180323765547715
-    },
-    {
-      "name": "Jim Costa",
-      "distance": 0.027181243532995333
-    },
-    {
-      "name": "Maggie Vivian Goodlander",
-      "distance": 0.027441574298862625
-    },
-    {
-      "name": "Dave Kunnghee Min",
-      "distance": 0.028077749197540768
+      "name": "Greg John Landsman",
+      "distance": 0.02357647132206178
     },
     {
       "name": "George Thomas Whitesides",
-      "distance": 0.029117177060972117
+      "distance": 0.023890165340574785
+    },
+    {
+      "name": "Josh Paul Riley",
+      "distance": 0.02452039967047842
+    },
+    {
+      "name": "Maggie Vivian Goodlander",
+      "distance": 0.02714479692316744
+    },
+    {
+      "name": "Marcy Kaptur",
+      "distance": 0.027821214926742527
+    },
+    {
+      "name": "Patrick Ryan",
+      "distance": 0.030143821920917715
+    },
+    {
+      "name": "Chris Pappas",
+      "distance": 0.03019006459085506
     },
     {
       "name": "Jimmy Panetta",
-      "distance": 0.03068110167513547
+      "distance": 0.030506392772663257
     }
   ]
 }

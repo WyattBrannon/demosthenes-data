@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "06",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Permanent Select Committee on Intelligence",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.247,
     "dw_nominate_dim2": 0.009,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.967,
-    "party_unity_bp_pct": 0.3498,
-    "maverick_votes": 10,
-    "bipartisan_votes": 106,
-    "maverick_bipartisan": 9,
-    "total_votes": 303,
+    "party_unity_pct": 0.9662,
+    "party_unity_bp_pct": 0.3415,
+    "maverick_votes": 11,
+    "bipartisan_votes": 111,
+    "maverick_bipartisan": 10,
+    "total_votes": 325,
     "missed_votes": 8,
-    "maverick_votes_all": 2241,
-    "bipartisan_votes_all": 890,
-    "maverick_bipartisan_all": 41,
-    "total_votes_all": 7145,
+    "maverick_votes_all": 2242,
+    "bipartisan_votes_all": 895,
+    "maverick_bipartisan_all": 42,
+    "total_votes_all": 7167,
     "missed_votes_all": 80,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 14,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 58,
-    "party_unity_percentile_party": 42,
+    "party_unity_percentile_party": 43,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 39
+    "reliability_percentile_party": 41
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,8 +108,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.249,
-      "dim2": -0.275
+      "dim1": -0.264,
+      "dim2": -0.177
     }
   ],
   "lobbying_contributions": [
@@ -156,6 +156,27 @@
   ],
   "lobbying_sum": 217844.9,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -341,27 +362,6 @@
         "code": "HRES189",
         "type": null,
         "number": "HRES189",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-23",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "Fix Our Forests Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 279,
-      "nay": 141,
-      "present": 0,
-      "bill": {
-        "code": "HR471",
-        "type": null,
-        "number": "HR471",
         "congress": 119,
         "title": ""
       }
@@ -2220,44 +2220,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Randy L. Feenstra",
-      "distance": 0.002451530134426277
-    },
-    {
       "name": "Timothy Kennedy",
-      "distance": 0.002499999999999953
-    },
-    {
-      "name": "Joe Courtney",
-      "distance": 0.0030594117081556823
-    },
-    {
-      "name": "Mark Allen Alford",
-      "distance": 0.003573513677041191
-    },
-    {
-      "name": "Seth Michael Magaziner",
-      "distance": 0.003996248240537577
-    },
-    {
-      "name": "Young Oak Kim",
-      "distance": 0.004205948168962651
-    },
-    {
-      "name": "Bruce Westerman",
-      "distance": 0.004237924020083426
+      "distance": 0.002340939982143966
     },
     {
       "name": "Dan Newhouse",
-      "distance": 0.004294182110716801
+      "distance": 0.0029832867780352546
     },
     {
-      "name": "Cliff Stewart Bentz",
-      "distance": 0.004386342439892275
+      "name": "Mark E. Amodei",
+      "distance": 0.004186884283091673
     },
     {
       "name": "Nellie Avila Pou",
-      "distance": 0.004579301256742115
+      "distance": 0.004390899680019994
+    },
+    {
+      "name": "Debbie Wasserman Schultz",
+      "distance": 0.005140038910358659
+    },
+    {
+      "name": "Joseph D. Morelle",
+      "distance": 0.005249761899362651
+    },
+    {
+      "name": "Jefferson Van Drew",
+      "distance": 0.005326349594234392
+    },
+    {
+      "name": "Jennifer Ann Kiggans",
+      "distance": 0.00610000000000005
+    },
+    {
+      "name": "Randy L. Feenstra",
+      "distance": 0.00618546683767692
+    },
+    {
+      "name": "Tom Cole",
+      "distance": 0.006400000000000072
     }
   ]
 }

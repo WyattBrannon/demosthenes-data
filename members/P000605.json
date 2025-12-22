@@ -4,7 +4,7 @@
     "party": "R",
     "state": "PA",
     "district": "10",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -69,31 +69,31 @@
     "dw_nominate_dim1": 0.684,
     "dw_nominate_dim2": -0.485,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8562,
-    "party_unity_bp_pct": 0.219,
-    "maverick_votes": 44,
-    "bipartisan_votes": 67,
+    "party_unity_pct": 0.8628,
+    "party_unity_bp_pct": 0.2134,
+    "maverick_votes": 45,
+    "bipartisan_votes": 70,
     "maverick_bipartisan": 5,
-    "total_votes": 306,
+    "total_votes": 328,
     "missed_votes": 5,
-    "maverick_votes_all": 1576,
-    "bipartisan_votes_all": 479,
+    "maverick_votes_all": 1577,
+    "bipartisan_votes_all": 482,
     "maverick_bipartisan_all": 35,
-    "total_votes_all": 7099,
+    "total_votes_all": 7121,
     "missed_votes_all": 126,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 81,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 94,
-    "party_unity_percentile_party": 2,
+    "party_unity_percentile_party": 3,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 57
+    "reliability_percentile_party": 60
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -132,8 +132,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.886,
-      "dim2": -0.463
+      "dim1": 0.892,
+      "dim2": -0.452
     }
   ],
   "lobbying_contributions": [
@@ -180,6 +180,27 @@
   ],
   "lobbying_sum": 52250.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-02",
       "chamber": "house",
@@ -365,27 +386,6 @@
         "code": "HR4553",
         "type": null,
         "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Enhancing Multi-Class Share Disclosures Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 381,
-      "nay": 31,
-      "present": 0,
-      "bill": {
-        "code": "HR3357",
-        "type": null,
-        "number": "HR3357",
         "congress": 119,
         "title": ""
       }
@@ -2176,43 +2176,43 @@
   "vote_record_similar": [
     {
       "name": "Jeanne Shaheen",
-      "distance": 0.01149826073804208
+      "distance": 0.007940403012442147
     },
     {
       "name": "Margaret Wood Hassan",
-      "distance": 0.019832296891686578
+      "distance": 0.0145
     },
     {
       "name": "Marjorie Taylor Greene",
-      "distance": 0.02010795862339092
-    },
-    {
-      "name": "Angus S. King",
-      "distance": 0.020496341136895645
-    },
-    {
-      "name": "Andy Biggs",
-      "distance": 0.021519526017085018
-    },
-    {
-      "name": "Josh Chad Brecheen",
-      "distance": 0.021755459085020506
-    },
-    {
-      "name": "Eli Crane",
-      "distance": 0.023605296015936774
-    },
-    {
-      "name": "Eric Wayne Burlison",
-      "distance": 0.024999999999999994
+      "distance": 0.014542695761102906
     },
     {
       "name": "Tim Burchett",
-      "distance": 0.025684431081883067
+      "distance": 0.015098675438593912
+    },
+    {
+      "name": "Angus S. King",
+      "distance": 0.015107613974417022
+    },
+    {
+      "name": "Josh Chad Brecheen",
+      "distance": 0.02146741717114569
     },
     {
       "name": "Keith Alan Self",
-      "distance": 0.02767417568781416
+      "distance": 0.023382899734635094
+    },
+    {
+      "name": "Andy Biggs",
+      "distance": 0.023780664414603723
+    },
+    {
+      "name": "Eli Crane",
+      "distance": 0.02513483638299641
+    },
+    {
+      "name": "Lisa A. Murkowski",
+      "distance": 0.026936406590337914
     }
   ]
 }

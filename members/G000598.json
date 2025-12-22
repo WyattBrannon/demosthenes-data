@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "42",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.377,
     "dw_nominate_dim2": -0.604,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9896,
-    "party_unity_bp_pct": 0.2917,
-    "maverick_votes": 3,
-    "bipartisan_votes": 84,
+    "party_unity_pct": 0.9871,
+    "party_unity_bp_pct": 0.2806,
+    "maverick_votes": 4,
+    "bipartisan_votes": 87,
     "maverick_bipartisan": 2,
-    "total_votes": 288,
+    "total_votes": 310,
     "missed_votes": 23,
-    "maverick_votes_all": 54,
-    "bipartisan_votes_all": 395,
+    "maverick_votes_all": 55,
+    "bipartisan_votes_all": 398,
     "maverick_bipartisan_all": 11,
-    "total_votes_all": 1465,
+    "total_votes_all": 1487,
     "missed_votes_all": 81,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 48,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 95,
-    "party_unity_percentile_party": 87,
+    "party_unity_percentile_party": 85,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 10
+    "reliability_percentile_party": 12
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -79,8 +79,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.431,
-      "dim2": -0.176
+      "dim1": -0.416,
+      "dim2": -0.286
     }
   ],
   "lobbying_contributions": [
@@ -127,6 +127,27 @@
   ],
   "lobbying_sum": 400010.71,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-07-17",
       "chamber": "house",
@@ -1882,44 +1903,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Barry Loudermilk",
-      "distance": 0.002607680962081049
-    },
-    {
-      "name": "Doug LaMalfa",
-      "distance": 0.003324154027719014
-    },
-    {
-      "name": "Garland Barr",
-      "distance": 0.003801315561749612
-    },
-    {
       "name": "Nancy Pelosi",
-      "distance": 0.004275511665286376
+      "distance": 0.002884441020371243
     },
     {
       "name": "Frederica S. Wilson",
-      "distance": 0.0052009614495783195
+      "distance": 0.003001666203960692
     },
     {
-      "name": "Danny K. Davis",
-      "distance": 0.006003332407921458
+      "name": "Doug LaMalfa",
+      "distance": 0.0031575306807693788
+    },
+    {
+      "name": "Barry Loudermilk",
+      "distance": 0.003544009029333937
+    },
+    {
+      "name": "Garland Barr",
+      "distance": 0.0040804411526205835
     },
     {
       "name": "Kweisi Mfume",
-      "distance": 0.006809552114493288
-    },
-    {
-      "name": "Steve Joseph Scalise",
-      "distance": 0.006815423684555569
+      "distance": 0.0044045431091089965
     },
     {
       "name": "Jared Huffman",
-      "distance": 0.006862215385719156
+      "distance": 0.0064621977685613945
     },
     {
       "name": "Maxine Elizabeth Dexter",
-      "distance": 0.007543208866258445
+      "distance": 0.007355270219373292
+    },
+    {
+      "name": "Steve Joseph Scalise",
+      "distance": 0.007409453421137018
+    },
+    {
+      "name": "Daniel Webster",
+      "distance": 0.007919595949289284
     }
   ]
 }

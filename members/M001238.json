@@ -4,7 +4,7 @@
     "party": "D",
     "state": "DE",
     "district": null,
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Science, Space, and Technology",
@@ -41,31 +41,31 @@
     "dw_nominate_dim1": -0.245,
     "dw_nominate_dim2": -0.296,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9741,
-    "party_unity_bp_pct": 0.3463,
-    "maverick_votes": 8,
-    "bipartisan_votes": 107,
-    "maverick_bipartisan": 7,
-    "total_votes": 309,
+    "party_unity_pct": 0.9698,
+    "party_unity_bp_pct": 0.3353,
+    "maverick_votes": 10,
+    "bipartisan_votes": 111,
+    "maverick_bipartisan": 8,
+    "total_votes": 331,
     "missed_votes": 2,
-    "maverick_votes_all": 8,
-    "bipartisan_votes_all": 107,
-    "maverick_bipartisan_all": 7,
-    "total_votes_all": 309,
+    "maverick_votes_all": 10,
+    "bipartisan_votes_all": 111,
+    "maverick_bipartisan_all": 8,
+    "total_votes_all": 331,
     "missed_votes_all": 2,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 13,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 82,
-    "party_unity_percentile_party": 53,
+    "party_unity_percentile_party": 46,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 76
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -74,8 +74,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.27,
-      "dim2": -0.24
+      "dim1": -0.255,
+      "dim2": -0.293
     }
   ],
   "lobbying_contributions": [
@@ -122,6 +122,48 @@
   ],
   "lobbying_sum": 153450.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -1082,44 +1124,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Brett Guthrie",
-      "distance": 0.0010198039027185535
-    },
-    {
-      "name": "Jake Ellzey",
-      "distance": 0.0010198039027185535
-    },
-    {
-      "name": "Jeff Stephen Hurd",
-      "distance": 0.0010198039027185535
-    },
-    {
-      "name": "Cleo Fields",
+      "name": "Randy L. Feenstra",
       "distance": 0.001104536101718715
     },
     {
-      "name": "Norma J. Torres",
-      "distance": 0.003206243908376259
+      "name": "Jefferson Van Drew",
+      "distance": 0.0021095023109728873
+    },
+    {
+      "name": "Debbie Wasserman Schultz",
+      "distance": 0.0021587033144922687
     },
     {
       "name": "Mike Michael Thompson",
-      "distance": 0.0032999999999999696
+      "distance": 0.0030000000000000027
     },
     {
-      "name": "J. French Hill",
-      "distance": 0.003405877273185293
+      "name": "Mark Allen Alford",
+      "distance": 0.003342154993413711
     },
     {
-      "name": "John R. Moolenaar",
-      "distance": 0.003544009029333937
+      "name": "Jennifer Ann Kiggans",
+      "distance": 0.0036013886210738686
     },
     {
-      "name": "Lisa C. McClain",
-      "distance": 0.00370135110466441
+      "name": "Mariannette Jane Miller-Meeks",
+      "distance": 0.003661966684720108
     },
     {
       "name": "Bruce Westerman",
-      "distance": 0.003744329045369799
+      "distance": 0.0036891733491393373
+    },
+    {
+      "name": "Michael K. Simpson",
+      "distance": 0.003720215047547645
+    },
+    {
+      "name": "Celeste Maloy",
+      "distance": 0.004459820624195531
     }
   ]
 }

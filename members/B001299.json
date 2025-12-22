@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IN",
     "district": null,
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "Senate Committee on Armed Services",
@@ -73,31 +73,31 @@
     "dw_nominate_dim1": 0.647,
     "dw_nominate_dim2": 0.011,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.992,
-    "party_unity_bp_pct": 0.0578,
+    "party_unity_pct": 0.9922,
+    "party_unity_bp_pct": 0.0581,
     "maverick_votes": 5,
-    "bipartisan_votes": 36,
+    "bipartisan_votes": 37,
     "maverick_bipartisan": 0,
-    "total_votes": 623,
-    "missed_votes": 8,
+    "total_votes": 637,
+    "missed_votes": 9,
     "maverick_votes_all": 924,
-    "bipartisan_votes_all": 663,
+    "bipartisan_votes_all": 664,
     "maverick_bipartisan_all": 21,
-    "total_votes_all": 4938,
-    "missed_votes_all": 83,
+    "total_votes_all": 4952,
+    "missed_votes_all": 84,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 73,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 59,
     "party_unity_percentile_party": 85,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 69
+    "reliability_percentile_party": 62
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -281,6 +281,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Cloture Motion",
+      "vote_result": "Cloture Motion Rejected",
+      "vote_desc": "An executive resolution authorizing the en bloc consideration in Executive Session of certain nominations on the Executive Calendar.",
+      "vote_question": "On the Cloture Motion",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 43,
+      "nay": 37,
+      "present": 0,
+      "bill": {
+        "code": "SRES520",
+        "type": null,
+        "number": "SRES520",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-19",
       "chamber": "senate",
@@ -2772,43 +2793,43 @@
   "vote_record_similar": [
     {
       "name": "Bernie Moreno",
-      "distance": 0.0007071067811865452
+      "distance": 0.0008062257748298557
     },
     {
       "name": "Roger Marshall",
-      "distance": 0.002126029162546968
+      "distance": 0.0020615528128088674
     },
     {
       "name": "Eric Stephen Schmitt",
-      "distance": 0.0022627416997969873
+      "distance": 0.0021213203435596836
     },
     {
       "name": "John A. Barrasso",
-      "distance": 0.002700000000000001
-    },
-    {
-      "name": "Bill Francis Hagerty",
-      "distance": 0.0029206163733020585
+      "distance": 0.002599999999999998
     },
     {
       "name": "James Lankford",
-      "distance": 0.003052867504494778
+      "distance": 0.0029681644159311924
     },
     {
       "name": "Joni Ernst",
-      "distance": 0.0032000000000000015
+      "distance": 0.0030000000000000027
     },
     {
-      "name": "Tommy Hawley Tuberville",
-      "distance": 0.003401470270338977
+      "name": "Bill Francis Hagerty",
+      "distance": 0.003000000000000014
     },
     {
       "name": "Jon Allen Husted",
-      "distance": 0.003577708763999645
+      "distance": 0.0035355339059327303
     },
     {
-      "name": "Ted Cruz",
-      "distance": 0.004219004621945786
+      "name": "Tommy Hawley Tuberville",
+      "distance": 0.0036400549446402876
+    },
+    {
+      "name": "Ron Johnson",
+      "distance": 0.004525483399593891
     }
   ]
 }

@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NY",
     "district": "10",
-    "tenure_years": 2.9,
+    "tenure_years": 3.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -41,22 +41,22 @@
     "dw_nominate_dim1": -0.43,
     "dw_nominate_dim2": 0.144,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9683,
-    "party_unity_bp_pct": 0.331,
-    "maverick_votes": 9,
-    "bipartisan_votes": 94,
+    "party_unity_pct": 0.9672,
+    "party_unity_bp_pct": 0.318,
+    "maverick_votes": 10,
+    "bipartisan_votes": 97,
     "maverick_bipartisan": 7,
-    "total_votes": 284,
-    "missed_votes": 27,
-    "maverick_votes_all": 32,
-    "bipartisan_votes_all": 430,
+    "total_votes": 305,
+    "missed_votes": 28,
+    "maverick_votes_all": 33,
+    "bipartisan_votes_all": 433,
     "maverick_bipartisan_all": 22,
-    "total_votes_all": 1447,
-    "missed_votes_all": 99,
+    "total_votes_all": 1468,
+    "missed_votes_all": 100,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 65,
     "dim2_direction_party": "right",
@@ -65,7 +65,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 8
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -79,8 +79,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.533,
-      "dim2": 0.525
+      "dim1": -0.503,
+      "dim2": 0.354
     }
   ],
   "lobbying_contributions": [
@@ -127,6 +127,27 @@
   ],
   "lobbying_sum": 284677.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -319,6 +340,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-09-03",
       "chamber": "house",
       "question": "On Passage",
@@ -498,27 +540,6 @@
       "member_position": "Not Voting",
       "yea": 124,
       "nay": 303,
-      "present": 0,
-      "bill": {
-        "code": "HR4553",
-        "type": null,
-        "number": "HR4553",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 127,
-      "nay": 299,
       "present": 0,
       "bill": {
         "code": "HR4553",
@@ -1105,44 +1126,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Eric Swalwell",
-      "distance": 0.001878829422805635
+      "name": "Jason T. Smith",
+      "distance": 0.002900000000000075
     },
     {
       "name": "Michael T. McCaul",
-      "distance": 0.0038327535793473955
-    },
-    {
-      "name": "David J. Taylor",
-      "distance": 0.004103656905736581
-    },
-    {
-      "name": "Juan Guadaloupe Ciscomani",
-      "distance": 0.004341658669218462
+      "distance": 0.0035227829907617195
     },
     {
       "name": "William R. Keating",
-      "distance": 0.004901020301937043
+      "distance": 0.00490407993409573
+    },
+    {
+      "name": "Marilyn Strickland",
+      "distance": 0.005000999900019999
     },
     {
       "name": "Donald W. Norcross",
-      "distance": 0.004936598018878897
+      "distance": 0.00530094331227949
+    },
+    {
+      "name": "David J. Taylor",
+      "distance": 0.00580775343829267
+    },
+    {
+      "name": "Christopher H. Smith",
+      "distance": 0.006140032573203567
+    },
+    {
+      "name": "Jonathan Luther Jackson",
+      "distance": 0.006171709649683778
+    },
+    {
+      "name": "Zoe Lofgren",
+      "distance": 0.006606814663663641
     },
     {
       "name": "Shri Thanedar",
-      "distance": 0.004965883607174104
-    },
-    {
-      "name": "Gilbert Ray Cisneros",
-      "distance": 0.0052478567053607355
-    },
-    {
-      "name": "Jason T. Smith",
-      "distance": 0.005434151267677456
-    },
-    {
-      "name": "Troy Balderson",
-      "distance": 0.005727128425310477
+      "distance": 0.007170076708097336
     }
   ],
   "work_statistics": {

@@ -4,7 +4,7 @@
     "party": "R",
     "state": "TX",
     "district": "27",
-    "tenure_years": 7.4,
+    "tenure_years": 7.5,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -49,31 +49,31 @@
     "dw_nominate_dim1": 0.69,
     "dw_nominate_dim2": -0.365,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.8958,
-    "party_unity_bp_pct": 0.2378,
-    "maverick_votes": 32,
-    "bipartisan_votes": 73,
+    "party_unity_pct": 0.8997,
+    "party_unity_bp_pct": 0.231,
+    "maverick_votes": 33,
+    "bipartisan_votes": 76,
     "maverick_bipartisan": 3,
-    "total_votes": 307,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 1058,
-    "bipartisan_votes_all": 539,
+    "maverick_votes_all": 1059,
+    "bipartisan_votes_all": 542,
     "maverick_bipartisan_all": 18,
-    "total_votes_all": 3611,
+    "total_votes_all": 3633,
     "missed_votes_all": 69,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 82,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 87,
     "party_unity_percentile_party": 7,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 64
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -102,8 +102,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.831,
-      "dim2": -0.3
+      "dim1": 0.843,
+      "dim2": -0.279
     }
   ],
   "lobbying_contributions": [
@@ -150,6 +150,27 @@
   ],
   "lobbying_sum": 42000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -330,27 +351,6 @@
       "member_position": "Yea",
       "yea": 104,
       "nay": 326,
-      "present": 0,
-      "bill": {
-        "code": "HR4016",
-        "type": null,
-        "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "chamber": "house",
-      "question": "On Agreeing to the Amendment",
-      "vote_result": "Failed",
-      "vote_desc": "",
-      "vote_question": "On Agreeing to the Amendment",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 30,
-      "nay": 400,
       "present": 0,
       "bill": {
         "code": "HR4016",
@@ -3427,43 +3427,43 @@
   "vote_record_similar": [
     {
       "name": "W. Gregory Steube",
-      "distance": 0.0031064449134017634
-    },
-    {
-      "name": "Andrew S. Clyde",
-      "distance": 0.008022468448052635
+      "distance": 0.0028844410203711663
     },
     {
       "name": "Andy Harris",
-      "distance": 0.01046231331972042
+      "distance": 0.006168468205316418
+    },
+    {
+      "name": "Andrew S. Clyde",
+      "distance": 0.0074242844773082465
     },
     {
       "name": "Brandon Gene Gill",
-      "distance": 0.016858528998699714
-    },
-    {
-      "name": "Pat Harrigan",
-      "distance": 0.017182840277439576
-    },
-    {
-      "name": "Tim Burchett",
-      "distance": 0.020840585404445857
+      "distance": 0.01743244102241559
     },
     {
       "name": "Sheri Lynn Biggs",
-      "distance": 0.020878697277368574
+      "distance": 0.019464840096954296
+    },
+    {
+      "name": "Pat Harrigan",
+      "distance": 0.020364675298172544
     },
     {
       "name": "Andrew Ogles",
-      "distance": 0.022992390045404106
+      "distance": 0.021700691233230318
     },
     {
       "name": "Mary E. Miller",
-      "distance": 0.02390188277102865
+      "distance": 0.022405579662218046
+    },
+    {
+      "name": "Tim Burchett",
+      "distance": 0.026637192044207742
     },
     {
       "name": "Marjorie Taylor Greene",
-      "distance": 0.024128199269734196
+      "distance": 0.026698689106396237
     }
   ]
 }

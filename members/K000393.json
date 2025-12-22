@@ -4,7 +4,7 @@
     "party": "R",
     "state": "LA",
     "district": null,
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "Senate Committee on Appropriations",
@@ -89,31 +89,31 @@
     "dw_nominate_dim1": 0.56,
     "dw_nominate_dim2": -0.153,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9822,
-    "party_unity_bp_pct": 0.055,
+    "party_unity_pct": 0.9826,
+    "party_unity_bp_pct": 0.0554,
     "maverick_votes": 11,
-    "bipartisan_votes": 34,
+    "bipartisan_votes": 35,
     "maverick_bipartisan": 2,
-    "total_votes": 618,
-    "missed_votes": 13,
+    "total_votes": 632,
+    "missed_votes": 14,
     "maverick_votes_all": 330,
-    "bipartisan_votes_all": 409,
+    "bipartisan_votes_all": 410,
     "maverick_bipartisan_all": 123,
-    "total_votes_all": 3477,
-    "missed_votes_all": 113,
+    "total_votes_all": 3491,
+    "missed_votes_all": 114,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 57,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 65,
     "party_unity_percentile_party": 66,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 49
+    "reliability_percentile_party": 47
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -403,6 +403,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-04",
+      "chamber": "senate",
+      "question": "On the Nomination",
+      "vote_result": "Nomination Confirmed",
+      "vote_desc": "Susan Courtwright Rodriguez, of North Carolina, to be United States District Judge for the Western District of North Carolina",
+      "vote_question": "On the Nomination",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 57,
+      "nay": 32,
+      "present": 0,
+      "bill": {
+        "code": "PN5204",
+        "type": null,
+        "number": "PN5204",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-10-29",
       "chamber": "senate",
       "question": "On the Joint Resolution",
@@ -587,27 +608,6 @@
         "code": "PN1506",
         "type": null,
         "number": "PN1506",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "chamber": "senate",
-      "question": "On the Cloture Motion",
-      "vote_result": "Cloture Motion Agreed to",
-      "vote_desc": "Terrance Cole, of Virginia, to be Administrator of Drug Enforcement",
-      "vote_question": "On the Cloture Motion",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 44,
-      "nay": 43,
-      "present": 0,
-      "bill": {
-        "code": "PN2611",
-        "type": null,
-        "number": "PN2611",
         "congress": 119,
         "title": ""
       }
@@ -1181,43 +1181,43 @@
   "vote_record_similar": [
     {
       "name": "Mike Lee",
-      "distance": 0.0008544003745317435
+      "distance": 0.002012461179749831
     },
     {
       "name": "Cynthia M. Lummis",
-      "distance": 0.0028653097563789156
+      "distance": 0.0028653097563788553
     },
     {
       "name": "Rick Scott",
-      "distance": 0.003640054944640316
-    },
-    {
-      "name": "Ron Johnson",
-      "distance": 0.006612110101926666
-    },
-    {
-      "name": "John R. Curtis",
-      "distance": 0.006720863039818632
+      "distance": 0.003573513677041087
     },
     {
       "name": "Ted Cruz",
-      "distance": 0.007641989269817171
+      "distance": 0.006276941930590009
+    },
+    {
+      "name": "Ron Johnson",
+      "distance": 0.006419501538281575
+    },
+    {
+      "name": "John R. Curtis",
+      "distance": 0.0064443773942872325
     },
     {
       "name": "Richard Blumenthal",
-      "distance": 0.007684399781375228
+      "distance": 0.007463243262818114
     },
     {
       "name": "Bill Francis Hagerty",
-      "distance": 0.008015609770940705
+      "distance": 0.0078057670987545305
     },
     {
       "name": "Bill Cassidy",
-      "distance": 0.008414867794564577
+      "distance": 0.008202438661763891
     },
     {
       "name": "Lisa Blunt Rochester",
-      "distance": 0.00863539228987306
+      "distance": 0.00850881895447312
     }
   ],
   "work_statistics": {

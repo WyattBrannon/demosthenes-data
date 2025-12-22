@@ -4,7 +4,7 @@
     "party": "R",
     "state": "FL",
     "district": "26",
-    "tenure_years": 22.9,
+    "tenure_years": 23.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": 0.281,
     "dw_nominate_dim2": 0.158,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.973,
-    "party_unity_bp_pct": 0.3581,
+    "party_unity_pct": 0.9748,
+    "party_unity_bp_pct": 0.347,
     "maverick_votes": 8,
-    "bipartisan_votes": 106,
+    "bipartisan_votes": 110,
     "maverick_bipartisan": 8,
-    "total_votes": 296,
-    "missed_votes": 15,
+    "total_votes": 317,
+    "missed_votes": 16,
     "maverick_votes_all": 2610,
-    "bipartisan_votes_all": 1036,
+    "bipartisan_votes_all": 1040,
     "maverick_bipartisan_all": 205,
-    "total_votes_all": 14085,
-    "missed_votes_all": 682,
+    "total_votes_all": 14106,
+    "missed_votes_all": 683,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 5,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 72,
-    "party_unity_percentile_party": 46,
+    "party_unity_percentile_party": 48,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 18
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -121,8 +121,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.377,
-      "dim2": 0.697
+      "dim1": 0.38,
+      "dim2": 0.711
     }
   ],
   "lobbying_contributions": [
@@ -340,6 +340,27 @@
   ],
   "missed_votes": [
     {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
       "date": "2025-07-14",
       "chamber": "house",
       "question": "On Motion to Suspend the Rules and Pass",
@@ -519,27 +540,6 @@
       "member_position": "Not Voting",
       "yea": 196,
       "nay": 187,
-      "present": 0,
-      "bill": {
-        "code": "HRES177",
-        "type": null,
-        "number": "HRES177",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-04",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the joint resolutions H.J. Res 42, H.J. Res. 61, and S.J. Res. 11",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 211,
-      "nay": 209,
       "present": 0,
       "bill": {
         "code": "HRES177",
@@ -2220,43 +2220,43 @@
   "vote_record_similar": [
     {
       "name": "Frank D. Lucas",
-      "distance": 0.00210237960416283
-    },
-    {
-      "name": "Ken S. Calvert",
-      "distance": 0.0038587562763149224
-    },
-    {
-      "name": "Carlos A. Gimenez",
-      "distance": 0.003966106403010352
+      "distance": 0.0026248809496813466
     },
     {
       "name": "Steve Womack",
-      "distance": 0.004130375285612662
+      "distance": 0.0029427877939123817
     },
     {
-      "name": "Glenn Thompson",
-      "distance": 0.005412947441089713
-    },
-    {
-      "name": "Mike Carey",
-      "distance": 0.005412947441089713
-    },
-    {
-      "name": "Mark E. Amodei",
-      "distance": 0.005660388679233939
-    },
-    {
-      "name": "Tom Cole",
-      "distance": 0.005727128425310508
+      "name": "Ken S. Calvert",
+      "distance": 0.004070626487409523
     },
     {
       "name": "George Stephen Latimer",
-      "distance": 0.006363961030678902
+      "distance": 0.004134005321718822
     },
     {
-      "name": "Young Oak Kim",
-      "distance": 0.0067067130548428494
+      "name": "Darrell E. Issa",
+      "distance": 0.005056678751908203
+    },
+    {
+      "name": "Glenn Thompson",
+      "distance": 0.005688585061331151
+    },
+    {
+      "name": "Mike Carey",
+      "distance": 0.005688585061331151
+    },
+    {
+      "name": "Tom Cole",
+      "distance": 0.0059236812878479
+    },
+    {
+      "name": "Mark E. Amodei",
+      "distance": 0.0063324560795950295
+    },
+    {
+      "name": "Carlos A. Gimenez",
+      "distance": 0.006694027188471841
     }
   ]
 }

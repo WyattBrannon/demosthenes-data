@@ -20,31 +20,31 @@
     "dw_nominate_dim1": 0.558,
     "dw_nominate_dim2": 0.165,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9833,
-    "party_unity_bp_pct": 0.2943,
+    "party_unity_pct": 0.9844,
+    "party_unity_bp_pct": 0.2875,
     "maverick_votes": 5,
-    "bipartisan_votes": 88,
+    "bipartisan_votes": 92,
     "maverick_bipartisan": 1,
-    "total_votes": 299,
-    "missed_votes": 12,
+    "total_votes": 320,
+    "missed_votes": 13,
     "maverick_votes_all": 2138,
-    "bipartisan_votes_all": 792,
+    "bipartisan_votes_all": 796,
     "maverick_bipartisan_all": 23,
-    "total_votes_all": 10270,
-    "missed_votes_all": 627,
+    "total_votes_all": 10291,
+    "missed_votes_all": 628,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 57,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 73,
-    "party_unity_percentile_party": 68,
+    "party_unity_percentile_party": 69,
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 24
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,8 +98,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.535,
-      "dim2": -0.066
+      "dim1": 0.542,
+      "dim2": -0.041
     }
   ],
   "lobbying_contributions": [
@@ -253,6 +253,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-11",
       "chamber": "house",
@@ -438,27 +459,6 @@
         "code": "HR375",
         "type": null,
         "number": "HR375",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-01-15",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "POWER Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 419,
-      "nay": 2,
-      "present": 0,
-      "bill": {
-        "code": "HR164",
-        "type": null,
-        "number": "HR164",
         "congress": 119,
         "title": ""
       }
@@ -1278,44 +1278,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Jared Huffman",
-      "distance": 0.00044721359549995833
+      "name": "Carol D. Miller",
+      "distance": 0.0022000000000000353
+    },
+    {
+      "name": "Chellie Pingree",
+      "distance": 0.0030016662039606718
     },
     {
       "name": "Maxine Elizabeth Dexter",
-      "distance": 0.0021377558326431986
-    },
-    {
-      "name": "Frederica S. Wilson",
-      "distance": 0.0027313000567495754
+      "distance": 0.0031622776601683998
     },
     {
       "name": "Daniel Webster",
-      "distance": 0.0031575306807693788
+      "distance": 0.00317804971641414
     },
     {
-      "name": "Doug LaMalfa",
-      "distance": 0.003720215047547645
-    },
-    {
-      "name": "Gwen Moore",
-      "distance": 0.0040049968789001595
+      "name": "James P. McGovern",
+      "distance": 0.0037589892258425824
     },
     {
       "name": "Kweisi Mfume",
-      "distance": 0.004393176527297746
-    },
-    {
-      "name": "Nancy Pelosi",
-      "distance": 0.00572800139664793
+      "distance": 0.004159326868617082
     },
     {
       "name": "M\u00f3nica De La Cruz",
-      "distance": 0.005879625838435619
+      "distance": 0.004579301256742144
     },
     {
-      "name": "Grace Meng",
-      "distance": 0.005941380311005153
+      "name": "Joe G. Wilson",
+      "distance": 0.005000999900020001
+    },
+    {
+      "name": "Jared Huffman",
+      "distance": 0.005580322571321533
+    },
+    {
+      "name": "Doug LaMalfa",
+      "distance": 0.006312685640834629
     }
   ]
 }

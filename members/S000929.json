@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IN",
     "district": "05",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "Joint Economic Committee",
@@ -25,22 +25,22 @@
     "dw_nominate_dim1": 0.487,
     "dw_nominate_dim2": -0.268,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9355,
-    "party_unity_bp_pct": 0.2724,
-    "maverick_votes": 18,
-    "bipartisan_votes": 76,
+    "party_unity_pct": 0.9365,
+    "party_unity_bp_pct": 0.2575,
+    "maverick_votes": 19,
+    "bipartisan_votes": 77,
     "maverick_bipartisan": 6,
-    "total_votes": 279,
-    "missed_votes": 32,
-    "maverick_votes_all": 172,
-    "bipartisan_votes_all": 762,
+    "total_votes": 299,
+    "missed_votes": 34,
+    "maverick_votes_all": 173,
+    "bipartisan_votes_all": 763,
     "maverick_bipartisan_all": 58,
-    "total_votes_all": 2397,
-    "missed_votes_all": 145,
+    "total_votes_all": 2417,
+    "missed_votes_all": 147,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 44,
     "dim2_direction_party": "left",
@@ -49,7 +49,7 @@
     "party_unity_percentile_bp_party": 18,
     "reliability_percentile_party": 4
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -68,8 +68,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.482,
-      "dim2": -0.507
+      "dim1": 0.505,
+      "dim2": -0.467
     }
   ],
   "lobbying_contributions": [
@@ -92,6 +92,27 @@
   ],
   "lobbying_sum": 8000.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Agreeing to the Amendment",
+      "vote_result": "Failed",
+      "vote_desc": "",
+      "vote_question": "On Agreeing to the Amendment",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 54,
+      "nay": 374,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -280,30 +301,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-15",
-      "chamber": "house",
-      "question": "On Agreeing to the Resolution",
-      "vote_result": "Failed",
-      "vote_desc": "Providing for consideration of the bills (H.R. 4016) Department of Defense Appropriations Act, 2026; (H.R. 3633) CLARITY Act; (H.R. 1919) Anti-CBDC Surveillance State Act; and (S. 1582) GENIUS Act",
-      "vote_question": "On Agreeing to the Resolution",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Nay",
-      "yea": 196,
-      "nay": 223,
-      "present": 0,
-      "bill": {
-        "code": "HRES580",
-        "type": null,
-        "number": "HRES580",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "house",
@@ -468,48 +510,6 @@
         "code": "HR4016",
         "type": null,
         "number": "HR4016",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Understanding Cybersecurity of Mobile Networks Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 360,
-      "nay": 10,
-      "present": 0,
-      "bill": {
-        "code": "HR1709",
-        "type": null,
-        "number": "HR1709",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Consumer Safety Technology Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 336,
-      "nay": 36,
-      "present": 0,
-      "bill": {
-        "code": "HR1770",
-        "type": null,
-        "number": "HR1770",
         "congress": 119,
         "title": ""
       }
@@ -1509,43 +1509,43 @@
   "vote_record_similar": [
     {
       "name": "Russ Fulcher",
-      "distance": 0.0032802438933713833
+      "distance": 0.004743416490252601
     },
     {
-      "name": "Russell William Fry",
-      "distance": 0.0050000000000000044
+      "name": "Rashida Tlaib",
+      "distance": 0.005336665625650511
     },
     {
       "name": "Tom McClintock",
-      "distance": 0.005333854141237867
-    },
-    {
-      "name": "Rich Dean McCormick",
-      "distance": 0.0066483080554378335
-    },
-    {
-      "name": "Katherine Cammack",
-      "distance": 0.0066483080554378335
-    },
-    {
-      "name": "Jeff George Crank",
-      "distance": 0.006649060083951658
-    },
-    {
-      "name": "Byron Lowell Donalds",
-      "distance": 0.008285529554590953
+      "distance": 0.006363961030678902
     },
     {
       "name": "Anna Paulina Luna",
-      "distance": 0.008600581375697807
+      "distance": 0.007308214556237388
+    },
+    {
+      "name": "Jeff George Crank",
+      "distance": 0.008099382692526639
+    },
+    {
+      "name": "Aaron Paul Bean",
+      "distance": 0.008697700845625829
+    },
+    {
+      "name": "Robert F. Onder",
+      "distance": 0.01010000000000002
+    },
+    {
+      "name": "Russell William Fry",
+      "distance": 0.010601886624558856
     },
     {
       "name": "Brad Knott",
-      "distance": 0.00917877987534291
+      "distance": 0.011182575731914396
     },
     {
-      "name": "Jimmy Theo Patronis",
-      "distance": 0.01048093507278812
+      "name": "Diana Harshbarger",
+      "distance": 0.011475626344561769
     }
   ]
 }

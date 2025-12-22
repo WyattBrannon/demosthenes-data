@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "43",
-    "tenure_years": 34.9,
+    "tenure_years": 35.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -25,31 +25,31 @@
     "dw_nominate_dim1": -0.656,
     "dw_nominate_dim2": -0.095,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9765,
-    "party_unity_bp_pct": 0.2987,
-    "maverick_votes": 7,
-    "bipartisan_votes": 89,
+    "party_unity_pct": 0.9748,
+    "party_unity_bp_pct": 0.2893,
+    "maverick_votes": 8,
+    "bipartisan_votes": 92,
     "maverick_bipartisan": 1,
-    "total_votes": 298,
-    "missed_votes": 13,
-    "maverick_votes_all": 7595,
-    "bipartisan_votes_all": 770,
+    "total_votes": 318,
+    "missed_votes": 15,
+    "maverick_votes_all": 7596,
+    "bipartisan_votes_all": 773,
     "maverick_bipartisan_all": 9,
-    "total_votes_all": 19988,
-    "missed_votes_all": 1441,
+    "total_votes_all": 20008,
+    "missed_votes_all": 1443,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 98,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 53,
-    "party_unity_percentile_party": 57,
+    "party_unity_percentile_party": 55,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 24
+    "reliability_percentile_party": 21
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -143,8 +143,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.781,
-      "dim2": 0.299
+      "dim1": -0.763,
+      "dim2": 0.189
     }
   ],
   "lobbying_contributions": [
@@ -191,6 +191,27 @@
   ],
   "lobbying_sum": 74500.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -340,6 +361,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-17",
       "chamber": "house",
@@ -504,48 +567,6 @@
         "code": "HJRES61",
         "type": null,
         "number": "HJRES61",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-03-04",
-      "chamber": "house",
-      "question": "On Ordering the Previous Question",
-      "vote_result": "Passed",
-      "vote_desc": "Providing for consideration of the joint resolutions H.J. Res 42, H.J. Res. 61, and S.J. Res. 11",
-      "vote_question": "On Ordering the Previous Question",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 196,
-      "nay": 187,
-      "present": 0,
-      "bill": {
-        "code": "HRES177",
-        "type": null,
-        "number": "HRES177",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-02-24",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "Assisting Small Businesses Not Fraudsters Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 405,
-      "nay": 0,
-      "present": 0,
-      "bill": {
-        "code": "HR825",
-        "type": null,
-        "number": "HR825",
         "congress": 119,
         "title": ""
       }
@@ -3066,43 +3087,43 @@
   "vote_record_similar": [
     {
       "name": "Nydia M. Vel\u00e1zquez",
-      "distance": 0.0007810249675906221
+      "distance": 0.0006082762530298645
     },
     {
       "name": "Randy K. Weber",
-      "distance": 0.0012206555615733269
-    },
-    {
-      "name": "Scott L. Fitzgerald",
-      "distance": 0.0016492422502470442
-    },
-    {
-      "name": "Jodey C. Arrington",
-      "distance": 0.002302172886644236
+      "distance": 0.0010295630140987107
     },
     {
       "name": "Maxwell Alejandro Frost",
-      "distance": 0.0024351591323771254
+      "distance": 0.0012206555615733587
     },
     {
-      "name": "M\u00f3nica De La Cruz",
-      "distance": 0.0024515301344262114
+      "name": "Jodey C. Arrington",
+      "distance": 0.0013152946437966103
+    },
+    {
+      "name": "Tracey Robert Mann",
+      "distance": 0.0020591260281974215
     },
     {
       "name": "Patrick Edward Fallon",
-      "distance": 0.002785677655436868
+      "distance": 0.0026570660511172906
+    },
+    {
+      "name": "Lance Gooden",
+      "distance": 0.002920616373302037
+    },
+    {
+      "name": "Gwen Moore",
+      "distance": 0.00322800247831379
     },
     {
       "name": "Alexandria Ocasio-Cortez",
-      "distance": 0.002906888370749779
+      "distance": 0.0034828149534535716
     },
     {
-      "name": "Mike Bost",
-      "distance": 0.004780167361086754
-    },
-    {
-      "name": "Kevin Mullin",
-      "distance": 0.00509901951359282
+      "name": "Scott L. Fitzgerald",
+      "distance": 0.004763402145525852
     }
   ]
 }

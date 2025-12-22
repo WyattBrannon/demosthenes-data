@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NY",
     "district": "16",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Foreign Affairs",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": -0.419,
     "dw_nominate_dim2": 0.34,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9739,
-    "party_unity_bp_pct": 0.3518,
-    "maverick_votes": 8,
-    "bipartisan_votes": 108,
-    "maverick_bipartisan": 8,
-    "total_votes": 307,
+    "party_unity_pct": 0.9726,
+    "party_unity_bp_pct": 0.3435,
+    "maverick_votes": 9,
+    "bipartisan_votes": 113,
+    "maverick_bipartisan": 9,
+    "total_votes": 329,
     "missed_votes": 4,
-    "maverick_votes_all": 8,
-    "bipartisan_votes_all": 108,
-    "maverick_bipartisan_all": 8,
-    "total_votes_all": 307,
+    "maverick_votes_all": 9,
+    "bipartisan_votes_all": 113,
+    "maverick_bipartisan_all": 9,
+    "total_votes_all": 329,
     "missed_votes_all": 4,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 62,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 87,
     "party_unity_percentile_party": 52,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 61
+    "reliability_percentile_party": 64
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -78,8 +78,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.395,
-      "dim2": 0.23
+      "dim1": -0.377,
+      "dim2": 0.208
     }
   ],
   "lobbying_contributions": [
@@ -126,6 +126,27 @@
   ],
   "lobbying_sum": 59300.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -954,44 +975,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Harold Rogers",
-      "distance": 0.0010049875621120888
-    },
-    {
-      "name": "Glenn Thompson",
-      "distance": 0.0010198039027185535
-    },
-    {
-      "name": "Mike Carey",
-      "distance": 0.0010198039027185535
+      "name": "Ken S. Calvert",
+      "distance": 0.00031622776601682065
     },
     {
       "name": "Darrell E. Issa",
-      "distance": 0.0012041594578792076
-    },
-    {
-      "name": "Mike Flood",
-      "distance": 0.0012041594578792076
-    },
-    {
-      "name": "Charles J. Fleischmann",
-      "distance": 0.0013601470508735863
-    },
-    {
-      "name": "J. French Hill",
-      "distance": 0.0020999999999999908
+      "distance": 0.0011045361017187703
     },
     {
       "name": "Steve Womack",
-      "distance": 0.0026076809620810193
+      "distance": 0.001802775637732024
     },
     {
-      "name": "Cliff Stewart Bentz",
-      "distance": 0.002906888370749739
+      "name": "Tom Cole",
+      "distance": 0.0020000000000000018
     },
     {
       "name": "Young Oak Kim",
-      "distance": 0.0031999999999999806
+      "distance": 0.003100000000000047
+    },
+    {
+      "name": "Cliff Stewart Bentz",
+      "distance": 0.003114482300479531
+    },
+    {
+      "name": "Frank D. Lucas",
+      "distance": 0.0031622776601683646
+    },
+    {
+      "name": "Glenn Thompson",
+      "distance": 0.0038275318418009366
+    },
+    {
+      "name": "Mike Carey",
+      "distance": 0.0038275318418009366
+    },
+    {
+      "name": "Mark E. Amodei",
+      "distance": 0.003889730067755373
     }
   ],
   "work_statistics": {

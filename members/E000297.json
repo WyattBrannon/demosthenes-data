@@ -4,7 +4,7 @@
     "party": "D",
     "state": "NY",
     "district": "13",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on Appropriations",
@@ -33,31 +33,31 @@
     "dw_nominate_dim1": -0.53,
     "dw_nominate_dim2": -0.206,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9807,
-    "party_unity_bp_pct": 0.3183,
-    "maverick_votes": 6,
-    "bipartisan_votes": 99,
+    "party_unity_pct": 0.9789,
+    "party_unity_bp_pct": 0.3082,
+    "maverick_votes": 7,
+    "bipartisan_votes": 102,
     "maverick_bipartisan": 2,
-    "total_votes": 311,
-    "missed_votes": 0,
-    "maverick_votes_all": 880,
-    "bipartisan_votes_all": 851,
+    "total_votes": 331,
+    "missed_votes": 2,
+    "maverick_votes_all": 881,
+    "bipartisan_votes_all": 854,
     "maverick_bipartisan_all": 14,
-    "total_votes_all": 4662,
-    "missed_votes_all": 39,
+    "total_votes_all": 4682,
+    "missed_votes_all": 41,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 92,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 71,
-    "party_unity_percentile_party": 67,
+    "party_unity_percentile_party": 69,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 95
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -86,8 +86,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.532,
-      "dim2": 0.019
+      "dim1": -0.505,
+      "dim2": -0.137
     }
   ],
   "lobbying_contributions": [
@@ -134,6 +134,27 @@
   ],
   "lobbying_sum": 628648.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -261,7 +282,50 @@
       }
     }
   ],
-  "missed_votes": [],
+  "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "PROTECT Our Kids Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 164,
+      "present": 0,
+      "bill": {
+        "code": "HR1069",
+        "type": null,
+        "number": "HR1069",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    }
+  ],
   "key_votes": [
     {
       "date": "2025-11-18",
@@ -849,44 +913,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Christopher H. Smith",
-      "distance": 0.0030265491900842677
+      "name": "David Schweikert",
+      "distance": 0.001649242250247098
+    },
+    {
+      "name": "Steve Cohen",
+      "distance": 0.002195449840010021
     },
     {
       "name": "Henry C. Johnson",
-      "distance": 0.0031764760348537407
+      "distance": 0.003023243291566231
+    },
+    {
+      "name": "Bennie G. Thompson",
+      "distance": 0.003471310991541923
+    },
+    {
+      "name": "Ro Khanna",
+      "distance": 0.003471310991541923
+    },
+    {
+      "name": "Yassamin Ansari",
+      "distance": 0.003535533905932733
     },
     {
       "name": "Doris O. Matsui",
-      "distance": 0.0031999999999999806
+      "distance": 0.003635931792539539
     },
     {
       "name": "Lizzie Fletcher",
-      "distance": 0.0032695565448543746
-    },
-    {
-      "name": "Austin Scott",
-      "distance": 0.0032893768406797126
-    },
-    {
-      "name": "David Schweikert",
-      "distance": 0.0037854986461495687
-    },
-    {
-      "name": "Mark Messmer",
-      "distance": 0.003828837943815305
-    },
-    {
-      "name": "Julie Ann Fedorchak",
-      "distance": 0.003962322551231783
+      "distance": 0.003959797974644701
     },
     {
       "name": "Sydney Kai Kamlager-Dove",
-      "distance": 0.004356604182158369
+      "distance": 0.00465295604965272
     },
     {
-      "name": "Shontel M. Brown",
-      "distance": 0.004525483399593916
+      "name": "Jerrold L. Nadler",
+      "distance": 0.004661544808322627
     }
   ],
   "work_statistics": {

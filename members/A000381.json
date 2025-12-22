@@ -4,7 +4,7 @@
     "party": "D",
     "state": "AZ",
     "district": "03",
-    "tenure_years": 0.9,
+    "tenure_years": 1.0,
     "committees": [
       {
         "name": "House Committee on Natural Resources",
@@ -57,31 +57,31 @@
     "dw_nominate_dim1": -0.643,
     "dw_nominate_dim2": 0.447,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9802,
-    "party_unity_bp_pct": 0.3234,
-    "maverick_votes": 6,
-    "bipartisan_votes": 98,
+    "party_unity_pct": 0.9784,
+    "party_unity_bp_pct": 0.3117,
+    "maverick_votes": 7,
+    "bipartisan_votes": 101,
     "maverick_bipartisan": 3,
-    "total_votes": 303,
-    "missed_votes": 8,
-    "maverick_votes_all": 6,
-    "bipartisan_votes_all": 98,
+    "total_votes": 324,
+    "missed_votes": 9,
+    "maverick_votes_all": 7,
+    "bipartisan_votes_all": 101,
     "maverick_bipartisan_all": 3,
-    "total_votes_all": 303,
-    "missed_votes_all": 8,
+    "total_votes_all": 324,
+    "missed_votes_all": 9,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 97,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 93,
-    "party_unity_percentile_party": 65,
+    "party_unity_percentile_party": 66,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 39
+    "reliability_percentile_party": 36
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -90,8 +90,8 @@
   "dw_nominate": [
     {
       "congress": 119,
-      "dim1": -0.523,
-      "dim2": 0.198
+      "dim1": -0.51,
+      "dim2": 0.08
     }
   ],
   "lobbying_contributions": [
@@ -138,6 +138,27 @@
   ],
   "lobbying_sum": 138512.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-10",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "To require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 312,
+      "nay": 112,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-19",
       "chamber": "house",
@@ -266,6 +287,27 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-04",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "TRACE Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 247,
+      "nay": 166,
+      "present": 0,
+      "bill": {
+        "code": "HR1049",
+        "type": null,
+        "number": "HR1049",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-06-06",
       "chamber": "house",
@@ -2879,44 +2921,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Kathy Castor",
-      "distance": 0.000447213595500008
+      "name": "Laura Syril Friedman",
+      "distance": 0.0014317821063276404
     },
     {
       "name": "Steve Cohen",
-      "distance": 0.0006708203932498879
+      "distance": 0.001708800749063513
     },
     {
-      "name": "Frank J. Pallone",
-      "distance": 0.0014866068747318288
+      "name": "David Schweikert",
+      "distance": 0.0019026297590440016
     },
     {
-      "name": "Vern Buchanan",
-      "distance": 0.0016492422502469902
-    },
-    {
-      "name": "Christopher H. Smith",
+      "name": "Richard Hudson",
       "distance": 0.0021023796041629095
     },
     {
-      "name": "Lori Trahan",
-      "distance": 0.0026925824035672914
+      "name": "Vern Buchanan",
+      "distance": 0.0025455844122715264
     },
     {
-      "name": "Steny H. Hoyer",
-      "distance": 0.0028160255680657717
+      "name": "Frank J. Pallone",
+      "distance": 0.002549509756796384
     },
     {
-      "name": "James E. Clyburn",
-      "distance": 0.002906888370749739
+      "name": "Lizzie Fletcher",
+      "distance": 0.003373425558686566
     },
     {
-      "name": "Zoe Lofgren",
-      "distance": 0.0032999999999999696
+      "name": "Adriano Espaillat",
+      "distance": 0.003535533905932733
     },
     {
-      "name": "Jason Crow",
-      "distance": 0.0036055512754640355
+      "name": "Roger Williams",
+      "distance": 0.0036674241641785027
+    },
+    {
+      "name": "Bennie G. Thompson",
+      "distance": 0.0040311288741492635
     }
   ]
 }

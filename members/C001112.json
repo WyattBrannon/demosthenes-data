@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "24",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on Transportation and Infrastructure",
@@ -53,31 +53,31 @@
     "dw_nominate_dim1": -0.325,
     "dw_nominate_dim2": 0.102,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9773,
-    "party_unity_bp_pct": 0.3398,
-    "maverick_votes": 7,
-    "bipartisan_votes": 105,
-    "maverick_bipartisan": 7,
-    "total_votes": 309,
+    "party_unity_pct": 0.9758,
+    "party_unity_bp_pct": 0.3323,
+    "maverick_votes": 8,
+    "bipartisan_votes": 110,
+    "maverick_bipartisan": 8,
+    "total_votes": 331,
     "missed_votes": 2,
-    "maverick_votes_all": 761,
-    "bipartisan_votes_all": 910,
-    "maverick_bipartisan_all": 28,
-    "total_votes_all": 4659,
+    "maverick_votes_all": 762,
+    "bipartisan_votes_all": 915,
+    "maverick_bipartisan_all": 29,
+    "total_votes_all": 4681,
     "missed_votes_all": 42,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 33,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 66,
-    "party_unity_percentile_party": 62,
+    "party_unity_percentile_party": 61,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 76
+    "reliability_percentile_party": 78
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -106,8 +106,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.349,
-      "dim2": -0.024
+      "dim1": -0.343,
+      "dim2": 0.011
     }
   ],
   "lobbying_contributions": [
@@ -154,6 +154,27 @@
   ],
   "lobbying_sum": 211088.2,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Increasing Investor Opportunities Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 302,
+      "nay": 123,
+      "present": 0,
+      "bill": {
+        "code": "HR3383",
+        "type": null,
+        "number": "HR3383",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -2690,44 +2711,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Jefferson Van Drew",
+      "name": "Norma J. Torres",
+      "distance": 0.00019999999999997797
+    },
+    {
+      "name": "Bill Foster",
       "distance": 0.0010049875621120888
     },
     {
-      "name": "Chris Raphael Deluzio",
-      "distance": 0.0010198039027185754
+      "name": "Ann Wagner",
+      "distance": 0.0010440306508910464
     },
     {
-      "name": "Tim Walberg",
-      "distance": 0.002202271554554559
-    },
-    {
-      "name": "Adrian Smith",
-      "distance": 0.003224903099319395
-    },
-    {
-      "name": "Stephanie I. Bice",
-      "distance": 0.0033837848631378094
-    },
-    {
-      "name": "Valerie Anne Hoyle",
-      "distance": 0.003423448553724747
-    },
-    {
-      "name": "Lisa C. McClain",
-      "distance": 0.003710795063055863
+      "name": "Mike Rogers",
+      "distance": 0.0011661903789690839
     },
     {
       "name": "Lois Frankel",
-      "distance": 0.004004996878900051
+      "distance": 0.0013601470508735496
     },
     {
-      "name": "Sarah Kelly Elfreth",
-      "distance": 0.0040496913462633646
+      "name": "Brett Guthrie",
+      "distance": 0.0020024984394500797
     },
     {
-      "name": "Robert E. Latta",
-      "distance": 0.0040496913462633646
+      "name": "Jake Ellzey",
+      "distance": 0.0020024984394500797
+    },
+    {
+      "name": "Jeff Stephen Hurd",
+      "distance": 0.0020024984394500797
+    },
+    {
+      "name": "Lisa C. McClain",
+      "distance": 0.0022999999999999687
+    },
+    {
+      "name": "Mike Quigley",
+      "distance": 0.0029698484809834867
     }
   ]
 }

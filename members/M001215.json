@@ -4,7 +4,7 @@
     "party": "R",
     "state": "IA",
     "district": "01",
-    "tenure_years": 4.9,
+    "tenure_years": 5.0,
     "committees": [
       {
         "name": "House Committee on Energy and Commerce",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.336,
     "dw_nominate_dim2": 0.195,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9688,
-    "party_unity_bp_pct": 0.3403,
-    "maverick_votes": 9,
-    "bipartisan_votes": 98,
-    "maverick_bipartisan": 9,
-    "total_votes": 288,
+    "party_unity_pct": 0.9677,
+    "party_unity_bp_pct": 0.3323,
+    "maverick_votes": 10,
+    "bipartisan_votes": 103,
+    "maverick_bipartisan": 10,
+    "total_votes": 310,
     "missed_votes": 23,
-    "maverick_votes_all": 178,
-    "bipartisan_votes_all": 1024,
-    "maverick_bipartisan_all": 172,
-    "total_votes_all": 2469,
+    "maverick_votes_all": 179,
+    "bipartisan_votes_all": 1029,
+    "maverick_bipartisan_all": 173,
+    "total_votes_all": 2491,
     "missed_votes_all": 73,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 11,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 75,
-    "party_unity_percentile_party": 39,
+    "party_unity_percentile_party": 37,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 7
+    "reliability_percentile_party": 8
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -88,8 +88,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.308,
-      "dim2": 0.494
+      "dim1": 0.289,
+      "dim2": 0.425
     }
   ],
   "lobbying_contributions": [
@@ -136,6 +136,27 @@
   ],
   "lobbying_sum": 444950.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Protect America\u2019s Workforce Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 231,
+      "nay": 195,
+      "present": 0,
+      "bill": {
+        "code": "HR2550",
+        "type": null,
+        "number": "HR2550",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-04",
       "chamber": "house",
@@ -3962,44 +3983,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Vince Fong",
-      "distance": 0.0011180339887499207
+      "name": "Celeste Maloy",
+      "distance": 0.0011999999999999789
     },
     {
-      "name": "Clarence Owens",
-      "distance": 0.0018384776310850686
+      "name": "Eric Swalwell",
+      "distance": 0.003006659275674583
     },
     {
-      "name": "Raul Ruiz",
-      "distance": 0.0021931712199461653
+      "name": "Jennifer Ann Kiggans",
+      "distance": 0.00344383507154453
     },
     {
-      "name": "James R. Baird",
-      "distance": 0.002549509756796425
-    },
-    {
-      "name": "Michael K. Simpson",
-      "distance": 0.0032310988842806972
-    },
-    {
-      "name": "Zachary (Zach) Martin Nunn",
-      "distance": 0.0032695565448543525
-    },
-    {
-      "name": "Lois Frankel",
-      "distance": 0.00450998891351193
+      "name": "Sarah Elizabeth McBride",
+      "distance": 0.003661966684720108
     },
     {
       "name": "Seth Moulton",
-      "distance": 0.004579301256742144
+      "distance": 0.0038832975677894925
     },
     {
-      "name": "Mike Rogers",
-      "distance": 0.004976946855251771
+      "name": "Vince Fong",
+      "distance": 0.0042544094772365565
     },
     {
-      "name": "Jonathan Luther Jackson",
-      "distance": 0.005093132631298766
+      "name": "Michael K. Simpson",
+      "distance": 0.0042999999999999705
+    },
+    {
+      "name": "Randy L. Feenstra",
+      "distance": 0.004561797891182812
+    },
+    {
+      "name": "Gilbert Ray Cisneros",
+      "distance": 0.004565084884205324
+    },
+    {
+      "name": "Clarence Owens",
+      "distance": 0.005200000000000025
     }
   ]
 }

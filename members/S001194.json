@@ -93,31 +93,31 @@
     "dw_nominate_dim1": -0.447,
     "dw_nominate_dim2": -0.11,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9663,
-    "party_unity_bp_pct": 0.0497,
-    "maverick_votes": 21,
+    "party_unity_pct": 0.9656,
+    "party_unity_bp_pct": 0.0485,
+    "maverick_votes": 22,
     "bipartisan_votes": 31,
     "maverick_bipartisan": 6,
-    "total_votes": 624,
+    "total_votes": 639,
     "missed_votes": 7,
-    "maverick_votes_all": 1045,
+    "maverick_votes_all": 1046,
     "bipartisan_votes_all": 351,
     "maverick_bipartisan_all": 8,
-    "total_votes_all": 4633,
+    "total_votes_all": 4648,
     "missed_votes_all": 136,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 71,
     "dim2_direction_party": "left",
     "dim2_percentile_party": 59,
-    "party_unity_percentile_party": 41,
+    "party_unity_percentile_party": 42,
     "party_unity_percentile_bp_party": 9,
-    "reliability_percentile_party": 65
+    "reliability_percentile_party": 67
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -161,8 +161,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.481,
-      "dim2": -0.219
+      "dim1": -0.483,
+      "dim2": -0.217
     }
   ],
   "lobbying_contributions": [
@@ -209,6 +209,27 @@
   ],
   "lobbying_sum": 346706.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "senate",
+      "question": "On the Motion to Proceed",
+      "vote_result": "Motion to Proceed Agreed to",
+      "vote_desc": "A bill to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes.",
+      "vote_question": "On the Motion to Proceed",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Nay",
+      "yea": 75,
+      "nay": 22,
+      "present": 0,
+      "bill": {
+        "code": "S1071",
+        "type": null,
+        "number": "S1071",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-11-10",
       "chamber": "senate",
@@ -394,27 +415,6 @@
         "code": "SJRES33",
         "type": null,
         "number": "SJRES33",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "chamber": "senate",
-      "question": "On the Motion to Discharge",
-      "vote_result": "Motion to Discharge Rejected",
-      "vote_desc": "A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services.",
-      "vote_question": "On the Motion to Discharge",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 15,
-      "nay": 83,
-      "present": 0,
-      "bill": {
-        "code": "SJRES26",
-        "type": null,
-        "number": "SJRES26",
         "congress": 119,
         "title": ""
       }
@@ -3215,43 +3215,43 @@
   "vote_record_similar": [
     {
       "name": "Ron Wyden",
-      "distance": 0.003753664875824629
+      "distance": 0.0035383612025907786
     },
     {
       "name": "Mazie K. Hirono",
-      "distance": 0.007392563831310494
+      "distance": 0.0045453272709454155
     },
     {
       "name": "Lisa Blunt Rochester",
-      "distance": 0.008386298349092975
+      "distance": 0.009972462083156742
     },
     {
       "name": "Alejandro Padilla",
-      "distance": 0.012174152947946725
+      "distance": 0.011950732195141872
     },
     {
       "name": "Tina Flint Smith",
-      "distance": 0.012455520864259315
+      "distance": 0.012095040305844363
     },
     {
       "name": "Charles E. Schumer",
-      "distance": 0.013560235986147133
+      "distance": 0.015462535367784903
     },
     {
       "name": "Richard Blumenthal",
-      "distance": 0.01364734406395614
+      "distance": 0.0156284996080878
     },
     {
       "name": "Mike Lee",
-      "distance": 0.01675022387910079
+      "distance": 0.016341358572652388
     },
     {
-      "name": "John Neely Kennedy",
-      "distance": 0.01676007159889233
+      "name": "Patty Murray",
+      "distance": 0.016858528998699704
     },
     {
       "name": "Tammy Duckworth",
-      "distance": 0.01702997357602178
+      "distance": 0.016918924315688616
     }
   ]
 }

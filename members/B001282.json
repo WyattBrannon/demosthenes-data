@@ -4,7 +4,7 @@
     "party": "R",
     "state": "KY",
     "district": "06",
-    "tenure_years": 12.9,
+    "tenure_years": 13.0,
     "committees": [
       {
         "name": "House Committee on Financial Services",
@@ -45,31 +45,31 @@
     "dw_nominate_dim1": 0.486,
     "dw_nominate_dim2": 0.299,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9897,
-    "party_unity_bp_pct": 0.2955,
+    "party_unity_pct": 0.9904,
+    "party_unity_bp_pct": 0.283,
     "maverick_votes": 3,
-    "bipartisan_votes": 86,
+    "bipartisan_votes": 88,
     "maverick_bipartisan": 0,
-    "total_votes": 291,
-    "missed_votes": 20,
+    "total_votes": 311,
+    "missed_votes": 22,
     "maverick_votes_all": 974,
-    "bipartisan_votes_all": 886,
+    "bipartisan_votes_all": 888,
     "maverick_bipartisan_all": 64,
-    "total_votes_all": 7071,
-    "missed_votes_all": 154,
+    "total_votes_all": 7091,
+    "missed_votes_all": 156,
     "dim1_median_party": 0.391,
     "dim2_median_party": -0.226,
-    "pu_median_party": 97.39,
-    "pubp_median_party": 30.23,
+    "pu_median_party": 97.545,
+    "pubp_median_party": 29.494999999999997,
     "dim1_direction_party": "right",
     "dim1_percentile_party": 43,
     "dim2_direction_party": "right",
     "dim2_percentile_party": 84,
-    "party_unity_percentile_party": 79,
+    "party_unity_percentile_party": 80,
     "party_unity_percentile_bp_party": 18,
-    "reliability_percentile_party": 10
+    "reliability_percentile_party": 9
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -108,8 +108,8 @@
     },
     {
       "congress": 119,
-      "dim1": 0.602,
-      "dim2": 0.203
+      "dim1": 0.604,
+      "dim2": 0.217
     }
   ],
   "lobbying_contributions": [
@@ -221,6 +221,48 @@
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "vote_result": "Passed",
+      "vote_desc": "Secure Rural Schools Reauthorization Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 399,
+      "nay": 5,
+      "present": 0,
+      "bill": {
+        "code": "S356",
+        "type": null,
+        "number": "S356",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "chamber": "house",
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "vote_result": "Passed",
+      "vote_desc": "Make SWAPs Efficient Act",
+      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 400,
+      "nay": 0,
+      "present": 0,
+      "bill": {
+        "code": "HR1676",
+        "type": null,
+        "number": "HR1676",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-01",
       "chamber": "house",
@@ -385,48 +427,6 @@
         "code": "HR3394",
         "type": null,
         "number": "HR3394",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "vote_result": "Passed",
-      "vote_desc": "Promoting Opportunities for Non-Traditional Capital Formation Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass, as Amended",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 321,
-      "nay": 87,
-      "present": 0,
-      "bill": {
-        "code": "HR3422",
-        "type": null,
-        "number": "HR3422",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "chamber": "house",
-      "question": "On Motion to Suspend the Rules and Pass",
-      "vote_result": "Passed",
-      "vote_desc": "American Cargo for American Ships Act",
-      "vote_question": "On Motion to Suspend the Rules and Pass",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 373,
-      "nay": 14,
-      "present": 0,
-      "bill": {
-        "code": "HR2035",
-        "type": null,
-        "number": "HR2035",
         "congress": 119,
         "title": ""
       }
@@ -4023,43 +4023,43 @@
   "vote_record_similar": [
     {
       "name": "Nancy Pelosi",
-      "distance": 0.000984885780179626
-    },
-    {
-      "name": "Robert Julio Garcia",
-      "distance": 0.003801315561749612
-    },
-    {
-      "name": "Kweisi Mfume",
-      "distance": 0.004081666326391756
-    },
-    {
-      "name": "Doug LaMalfa",
-      "distance": 0.004808326112068543
-    },
-    {
-      "name": "Maxine Elizabeth Dexter",
-      "distance": 0.006067124524847012
+      "distance": 0.001204159457879134
     },
     {
       "name": "Barry Loudermilk",
-      "distance": 0.006400781202322065
+      "distance": 0.001403566884761784
+    },
+    {
+      "name": "Robert Julio Garcia",
+      "distance": 0.0040804411526205835
+    },
+    {
+      "name": "Doug LaMalfa",
+      "distance": 0.006648308055437819
+    },
+    {
+      "name": "Kweisi Mfume",
+      "distance": 0.006711929677819863
+    },
+    {
+      "name": "Chellie Pingree",
+      "distance": 0.0068963758598266514
     },
     {
       "name": "Frederica S. Wilson",
-      "distance": 0.00646374504447689
+      "distance": 0.006931089380465287
     },
     {
       "name": "Steve Joseph Scalise",
-      "distance": 0.00651152823843995
+      "distance": 0.007499999999999918
     },
     {
-      "name": "Jared Huffman",
-      "distance": 0.006791170738539905
+      "name": "Carol D. Miller",
+      "distance": 0.008993886812718918
     },
     {
-      "name": "Gwen Moore",
-      "distance": 0.007169379331574024
+      "name": "Maxine Elizabeth Dexter",
+      "distance": 0.009013878188659927
     }
   ]
 }

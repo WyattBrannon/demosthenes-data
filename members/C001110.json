@@ -4,7 +4,7 @@
     "party": "D",
     "state": "CA",
     "district": "46",
-    "tenure_years": 8.9,
+    "tenure_years": 9.0,
     "committees": [
       {
         "name": "House Committee on the Judiciary",
@@ -45,22 +45,22 @@
     "dw_nominate_dim1": -0.286,
     "dw_nominate_dim2": 0.154,
     "dim1_percentile_chamber": null,
-    "party_unity_pct": 0.9509,
-    "party_unity_bp_pct": 0.3789,
-    "maverick_votes": 14,
-    "bipartisan_votes": 108,
-    "maverick_bipartisan": 14,
-    "total_votes": 285,
-    "missed_votes": 26,
-    "maverick_votes_all": 804,
-    "bipartisan_votes_all": 909,
-    "maverick_bipartisan_all": 57,
-    "total_votes_all": 4607,
-    "missed_votes_all": 94,
+    "party_unity_pct": 0.9508,
+    "party_unity_bp_pct": 0.3705,
+    "maverick_votes": 15,
+    "bipartisan_votes": 113,
+    "maverick_bipartisan": 15,
+    "total_votes": 305,
+    "missed_votes": 28,
+    "maverick_votes_all": 805,
+    "bipartisan_votes_all": 914,
+    "maverick_bipartisan_all": 58,
+    "total_votes_all": 4627,
+    "missed_votes_all": 96,
     "dim1_median_party": -0.457,
     "dim2_median_party": -0.0495,
-    "pu_median_party": 97.325,
-    "pubp_median_party": 31.93,
+    "pu_median_party": 97.225,
+    "pubp_median_party": 30.97,
     "dim1_direction_party": "left",
     "dim1_percentile_party": 22,
     "dim2_direction_party": "right",
@@ -69,7 +69,7 @@
     "party_unity_percentile_bp_party": 9,
     "reliability_percentile_party": 8
   },
-  "generated_at": "2025-12-15",
+  "generated_at": "2025-12-22",
   "source_versions": {
     "voteview": null,
     "congress_gov": null,
@@ -98,8 +98,8 @@
     },
     {
       "congress": 119,
-      "dim1": -0.431,
-      "dim2": 0.658
+      "dim1": -0.433,
+      "dim2": 0.651
     }
   ],
   "lobbying_contributions": [
@@ -146,6 +146,27 @@
   ],
   "lobbying_sum": 229827.0,
   "maverick_votes": [
+    {
+      "date": "2025-12-11",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "State Planning for Reliability and Affordability Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Yea",
+      "yea": 218,
+      "nay": 207,
+      "present": 0,
+      "bill": {
+        "code": "HR3628",
+        "type": null,
+        "number": "HR3628",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-12-03",
       "chamber": "house",
@@ -334,30 +355,51 @@
         "congress": 119,
         "title": ""
       }
-    },
-    {
-      "date": "2025-07-17",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "GENIUS Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Yea",
-      "yea": 308,
-      "nay": 122,
-      "present": 0,
-      "bill": {
-        "code": "S1582",
-        "type": null,
-        "number": "S1582",
-        "congress": 119,
-        "title": ""
-      }
     }
   ],
   "missed_votes": [
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Motion to Recommit",
+      "vote_result": "Failed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Motion to Recommit",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 194,
+      "nay": 204,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "chamber": "house",
+      "question": "On Passage",
+      "vote_result": "Passed",
+      "vote_desc": "Improving Interagency Coordination for Pipeline Reviews Act",
+      "vote_question": "On Passage",
+      "dtl_desc": "",
+      "result": "",
+      "member_position": "Not Voting",
+      "yea": 213,
+      "nay": 184,
+      "present": 0,
+      "bill": {
+        "code": "HR3668",
+        "type": null,
+        "number": "HR3668",
+        "congress": 119,
+        "title": ""
+      }
+    },
     {
       "date": "2025-09-09",
       "chamber": "house",
@@ -522,48 +564,6 @@
         "code": null,
         "type": null,
         "number": null,
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "house",
-      "question": "On Motion to Recommit",
-      "vote_result": "Failed",
-      "vote_desc": "District of Columbia Federal Immigration Compliance Act",
-      "vote_question": "On Motion to Recommit",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 205,
-      "nay": 215,
-      "present": 0,
-      "bill": {
-        "code": "HR2056",
-        "type": null,
-        "number": "HR2056",
-        "congress": 119,
-        "title": ""
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "chamber": "house",
-      "question": "On Passage",
-      "vote_result": "Passed",
-      "vote_desc": "District of Columbia Federal Immigration Compliance Act",
-      "vote_question": "On Passage",
-      "dtl_desc": "",
-      "result": "",
-      "member_position": "Not Voting",
-      "yea": 224,
-      "nay": 194,
-      "present": 0,
-      "bill": {
-        "code": "HR2056",
-        "type": null,
-        "number": "HR2056",
         "congress": 119,
         "title": ""
       }
@@ -2018,44 +2018,44 @@
   ],
   "vote_record_similar": [
     {
-      "name": "Michael Vincent Lawler",
-      "distance": 0.0030594117081556714
+      "name": "April Lynn McClain Delaney",
+      "distance": 0.004482186966203012
     },
     {
       "name": "Don Bacon",
-      "distance": 0.003551056180912951
-    },
-    {
-      "name": "Sharice Davids",
-      "distance": 0.005948108943185145
-    },
-    {
-      "name": "April Lynn McClain Delaney",
-      "distance": 0.006746851117373143
-    },
-    {
-      "name": "Mike Levin",
-      "distance": 0.00793095202355936
-    },
-    {
-      "name": "Jay Phillip Obernolte",
-      "distance": 0.011182575731914396
-    },
-    {
-      "name": "Janelle S. Bynum",
-      "distance": 0.011221853679316968
-    },
-    {
-      "name": "Emilia Strong Sykes",
-      "distance": 0.01197539143410354
+      "distance": 0.0053150729063673055
     },
     {
       "name": "Nicolas Joseph LaLota",
-      "distance": 0.012129715577869071
+      "distance": 0.007169379331573973
+    },
+    {
+      "name": "Shomari Coleman Figures",
+      "distance": 0.00813941029804986
+    },
+    {
+      "name": "Michael Vincent Lawler",
+      "distance": 0.009068627239003731
+    },
+    {
+      "name": "Mike Levin",
+      "distance": 0.009154780172128655
     },
     {
       "name": "David G. Valadao",
-      "distance": 0.012762444906835096
+      "distance": 0.009507891459203765
+    },
+    {
+      "name": "Michael R. Turner",
+      "distance": 0.010807867504739319
+    },
+    {
+      "name": "Emilia Strong Sykes",
+      "distance": 0.012116517651536684
+    },
+    {
+      "name": "Janelle S. Bynum",
+      "distance": 0.012141251994749141
     }
   ]
 }
